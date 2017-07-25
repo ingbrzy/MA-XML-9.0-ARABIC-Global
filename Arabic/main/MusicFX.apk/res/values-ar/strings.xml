@@ -1,24 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="app_name">MusicFX</string>
-  <string name="bass_boost_strength">Bass boost</string>
-  <string name="ci_extreme">FX booster</string>
-  <string name="eq_dialog_title">Equalizer</string>
-  <string name="eq_preset_classical">Classical</string>
-  <string name="eq_preset_dance">Dance</string>
-  <string name="eq_preset_flat">Flat</string>
-  <string name="eq_preset_folk">Folk</string>
-  <string name="eq_preset_heavymetal">Heavy Metal</string>
-  <string name="eq_preset_hiphop">Hip Hop</string>
-  <string name="eq_preset_jazz">Jazz</string>
-  <string name="eq_preset_normal">Normal</string>
-  <string name="eq_preset_pop">Pop</string>
-  <string name="eq_preset_rock">Rock</string>
-  <string name="headset_plug">Plug in headphones for these effects.</string>
-  <string name="no_effects">Effects not available.</string>
-  <string name="picker_title">Music effects control panel</string>
-  <string name="presetreverb_name">Preset Reverb</string>
-  <string name="setup">برنامج الإعداد</string>
+  <string name="bass_boost_strength">تحسين الجهير</string>
+  <string name="ci_extreme">FX Booster</string>
+  <string name="eq_dialog_title">المعادل</string>
+  <string name="headset_plug">يمكنك توصيل سماعات الرأس للاستماع إلى هذه التأثيرات</string>
+  <string name="main_toggle_effects_title">تأثيرات الصوت</string>
+  <string name="no_effects">التأثيرات غير متاحة.</string>
+  <string name="picker_title">لوحة تحكم التأثيرات الموسيقية</string>
+  <string name="pr_dialog_title">الإعداد المسبق للصدى</string>
+  <string name="pr_summary">التأثيرات الإضافية لصدى الغرفة</string>
+  <string name="pr_title">الصدى:</string>
+  <string name="setup">الإعداد</string>
   <string name="user">المستخدم</string>
   <string name="virtualizer_strength">الصوت المحيطي</string>
 </resources>
