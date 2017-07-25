@@ -456,9 +456,7 @@ All‬‏ ‏‮your‬‏ ‏‮previous‬‏ ‏‮user‬‏ ‏‮data‬�
   <string name="wifi_security_eap">‏‮802.1x‬‏ ‏‮EAP‬‏</string>
   <string name="wifi_security_none">‏‮None‬‏</string>
   <string name="wifi_security_passpoint">‏‮Passpoint‬‏</string>
-  <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
   <string name="wifi_security_short_eap">‏‮802.1x‬‏</string>
-  <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
   <string name="wifi_security_short_wep">‏‮WEP‬‏</string>
   <string name="wifi_security_short_wpa">‏‮WPA‬‏</string>
   <string name="wifi_security_short_wpa2">‏‮WPA2‬‏</string>
