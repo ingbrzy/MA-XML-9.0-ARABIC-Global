@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="application_name">منتقي الخلفية المتحركة</string>
-  <string name="configure_wallpaper">الإعدادات…</string>
-  <string name="live_wallpaper_empty">لا خلفيات متحركة.</string>
-  <string name="live_wallpaper_loading">جارٍ تحميل الخلفية المتحركة...</string>
-  <string name="live_wallpaper_picker_label">خلفيات متحركة</string>
-  <string name="live_wallpaper_picker_title">تحديد خلفية متحركة</string>
-  <string name="live_wallpaper_preview_title">معاينة الخلفية المتحركة</string>
-  <string name="set_live_wallpaper">تعيين خلفية</string>
+  <string name="application_name">الخلفية المتحركة</string>
+  <string name="configure_wallpaper">إعدادات…</string>
+  <string name="live_wallpaper_empty">لا يوجد خلفيات حية.</string>
+  <string name="live_wallpaper_loading">تحميل خلفية حية…</string>
+  <string name="live_wallpaper_picker_label">مباشر</string>
+  <string name="live_wallpaper_picker_title">اختر خلفية حية</string>
+  <string name="live_wallpaper_preview_title">معاينة الخلفية الحية</string>
+  <string name="set_live_wallpaper">تعيين كخلفية الشاشة</string>
   <string name="wallpaper_cancel">إلغاء</string>
-  <string name="wallpaper_instructions">تعيين خلفية</string>
-  <string name="wallpaper_title_and_author">%1$s بواسطة %2$s</string>
+  <string name="wallpaper_instructions">تعيين كخلفية الشاشة</string>
+  <string name="wallpaper_title_and_author">%1$s by %2$s</string>
 </resources>

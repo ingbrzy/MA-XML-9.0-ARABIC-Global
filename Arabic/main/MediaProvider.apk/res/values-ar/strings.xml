@@ -1,12 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="alarm_sound_default">صوت التنبيه الافتراضي</string>
-  <string name="app_label">تخزين الوسائط</string>
+  <string name="Add_More_Ringtones">المزيد من النغمات...</string>
+  <string name="alarm_sound_default">صوت المنبه الافتراضية</string>
+  <string name="app_label">وسائط التخزين</string>
   <string name="artist_label">الفنان</string>
-  <string name="notification_sound_default">صوت الإشعار الافتراضي</string>
-  <string name="ringtone_default">نغمة الرنين الافتراضية</string>
+  <string name="notification_sound_default">صوت الاشعار الافتراضي</string>
+  <string name="ringtone_default">النغمة الافتراضية</string>
   <string name="root_audio">الصوت</string>
   <string name="root_images">الصور</string>
-  <string name="root_videos">مقاطع الفيديو</string>
-  <string name="uid_label">الوسائط</string>
+  <string name="root_videos">الفيديو</string>
+  <string name="uid_label">وسائط الإعلام</string>
 </resources>

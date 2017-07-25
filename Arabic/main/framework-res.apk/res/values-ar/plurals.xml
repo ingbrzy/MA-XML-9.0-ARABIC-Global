@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="pinpuk_attempts">
-        <item quantity="other">‏يتبقى لديك %d من المحاولات يتم بعدها قفل شريحة SIM.</item>
+        <item quantity="other">‏تبقى لديك %d من المحاولات يتم بعدها قفل شريحة SIM.</item>
         <item quantity="zero">‏لم يتبق لديك أية محاولات (%d) يتم بعدها قفل شريحة SIM.</item>
-        <item quantity="one">‏يتبقى لديك محاولة واحدة (%d) يتم بعدها قفل شريحة SIM.</item>
-        <item quantity="two">‏يتبقى لديك محاولتان (%d) يتم بعدهما قفل شريحة SIM.</item>
-        <item quantity="few">‏يتبقى لديك %d محاولات يتم بعدها قفل شريحة SIM.</item>
-        <item quantity="many">‏يتبقى لديك %d محاولة يتم بعدها قفل شريحة SIM.</item>
+        <item quantity="one">‏تبقى لديك محاولة واحدة (%d) يتم بعدها قفل شريحة SIM.</item>
+        <item quantity="two">‏تبقى لديك محاولتان (%d) يتم بعدهما قفل شريحة SIM.</item>
+        <item quantity="few">‏تبقى لديك %d محاولات يتم بعدها قفل شريحة SIM.</item>
+        <item quantity="many">‏تبقى لديك %d محاولة يتم بعدها قفل شريحة SIM.</item>
     </plurals>
     <plurals name="ssl_ca_cert_warning">
         <item quantity="other">تم تثبيت شهادات المرجع المصدق</item>
@@ -217,12 +217,12 @@
         <item quantity="many">حاول مرة أخرى خلال %d ثانية</item>
     </plurals>
     <plurals name="zen_mode_duration_minutes_summary">
-        <item quantity="other">‏لمدة %1$d من الدقائق (حتى %2$s)</item>
-        <item quantity="zero">‏لمدة أقل من دقيقة (%1$d) (حتى %2$s)</item>
+        <item quantity="other">‏لمدة %1$d من الدقائق (حتى %2$s)</item>
+        <item quantity="zero">‏لمدة أقل من دقيقة (%1$d) (حتى %2$s)</item>
         <item quantity="one">لمدة دقيقة واحدة (حتى %2$s)</item>
-        <item quantity="two">‏لمدة دقيقتين (%1$d) (حتى %2$s)</item>
-        <item quantity="few">‏لمدة %1$d دقائق (حتى %2$s)</item>
-        <item quantity="many">‏لمدة %1$d دقيقة (حتى %2$s)</item>
+        <item quantity="two">‏لمدة دقيقتين (%1$d) (حتى %2$s)</item>
+        <item quantity="few">‏لمدة %1$d دقائق (حتى %2$s)</item>
+        <item quantity="many">‏لمدة %1$d دقيقة (حتى %2$s)</item>
     </plurals>
     <plurals name="zen_mode_duration_minutes_summary_short">
         <item quantity="other">‏لمدة %1$d من الدقائق (حتى %2$s)</item>
@@ -233,12 +233,12 @@
         <item quantity="many">‏لمدة %1$d دقيقة (حتى %2$s)</item>
     </plurals>
     <plurals name="zen_mode_duration_hours_summary">
-        <item quantity="other">‏لمدة %1$d من الساعات (حتى %2$s)</item>
+        <item quantity="other">‏لمدة %1$d من الساعات (حتى %2$s)</item>
         <item quantity="zero">‏لمدة أقل من ساعة (%1$d) (حتى %2$s)</item>
         <item quantity="one">لمدة ساعة واحدة (حتى %2$s)</item>
         <item quantity="two">‏لمدة ساعتين (%1$d) (حتى %2$s)</item>
         <item quantity="few">‏لمدة %1$d ساعات (حتى %2$s)</item>
-        <item quantity="many">‏لمدة %1$d ساعة (حتى %2$s)</item>
+        <item quantity="many">‏لمدة %1$d ساعة (حتى %2$s)</item>
     </plurals>
     <plurals name="zen_mode_duration_hours_summary_short">
         <item quantity="other">‏لمدة %1$d من الساعات (حتى %2$s)</item>
