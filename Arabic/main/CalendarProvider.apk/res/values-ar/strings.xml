@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="calendar_default_name">الافتراضية</string>
+  <string name="calendar_info">معلومات التقويم</string>
+  <string name="calendar_info_error">خطأ</string>
+  <string name="calendar_info_events">الأحداث: %1$d</string>
+  <string name="calendar_info_events_dirty">الأحداث: %1$d | لا يتم حفظ: %2$d</string>
+  <string name="calendar_info_no_calendars">لا تقويمات</string>
+  <string name="calendar_storage">تخزين التقويم</string>
+  <string name="debug_tool_delete_button">حذف</string>
+  <string name="debug_tool_email_body">Attached is my Calendar database with all my appointments and personal information. Handle with care.</string>
+  <string name="debug_tool_email_sender_picker">اختر التطبيق لإرسال الملف الخاص بك</string>
+  <string name="debug_tool_email_subject">التقويم أداة التصحيح المرفقة</string>
+  <string name="debug_tool_message">"أنت على وشك نسخ قاعدة بيانات التقويم الخاص بك لتخزين الناقل التسلسلي العام/بطاقة SD التي يمكن قراءتها بواسطة أي التطبيق، وإرسال قاعدة البيانات عن طريق البريد الإلكتروني. تذكر أن تقوم بحذف النسخة بمجرد نجاح احتياطياً فإنه، أو عند تلقي البريد الإلكتروني كنت على وشك إرسال."</string>
+  <string name="debug_tool_start_button">بدء تشغيل</string>
+  <string name="holiday_data_no_network">"تعذر الاتصال بشبكة الاتصال. تحقق من اتصال البيانات الخاص بك ثم حاول مرة أخرى."</string>
+  <string name="holiday_data_update_failed">"لا يمكن تحديث. تحقق من اتصال البيانات الخاص بك ثم حاول مرة أخرى."</string>
+  <string name="holiday_data_update_succeed">التحديث النهائي</string>
+  <string name="holiday_data_updating">تحديث…</string>
+  <string name="holiday_update_summary">أنقر لتحديث معلومات التقويم.</string>
+  <string name="holiday_update_title">تحديث متوفر</string>
+  <string name="provider_label">التقويم</string>
+  <string name="upgrade_msg">"تحديث قاعدة بيانات للتقويم…"</string>
+</resources>

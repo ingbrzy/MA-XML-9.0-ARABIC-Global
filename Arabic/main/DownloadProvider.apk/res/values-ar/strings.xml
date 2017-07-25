@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_label">مدير التحميل</string>
+  <string name="auto_restart_under_wifi">الشبكة المحلية اللاسلكية تلقائياً بتحميل هذا الملف</string>
+  <string name="button_cancel_download">إلغاء الأمر</string>
+  <string name="button_download_now">تحميل الآن</string>
+  <string name="button_queue_for_wifi">قائمة الانتظار</string>
+  <string name="button_start_now">ابدأ الآن</string>
+  <string name="button_wait_for_wifi">انتظري</string>
+  <string name="dialog_insufficient_space_on_cache">لا توجد مساحة كافية على تخزين تحميل الداخلية</string>
+  <string name="dialog_insufficient_space_on_external">مساحة غير كافية على وحدة التخزين الخارجية</string>
+  <string name="dialog_not_show_again">"لا تظهر مرة أخرى"</string>
+  <string name="download_apk_desktop_installing">جارٍ التثبيت</string>
+  <string name="download_apk_desktop_pause">توقف مؤقت</string>
+  <string name="download_apk_desktop_pending">معلقة</string>
+  <string name="download_apk_desktop_running">جارٍ التحميل</string>
+  <string name="download_error">غير ناجح</string>
+  <string name="download_no_application_title">"لا يمكن فتح الملف"</string>
+  <string name="download_percent">%d%%</string>
+  <string name="download_queued">في قائمة الانتظار</string>
+  <string name="download_remaining">%s تبقى</string>
+  <string name="download_running">In progress</string>
+  <string name="download_running_percent">In progress, %d%%</string>
+  <string name="download_unknown_title">&lt;Untitled&gt;</string>
+  <string name="enter_garbage_clean">تنظيف وحدة التخزين الداخلية.</string>
+  <string name="insufficient_space">"لا توجد مساحة كافية على الجهاز الخاص بك لوحدة التخزين الداخلية"</string>
+  <string name="mobile_recommended_title">استخدام البيانات المتنقلة</string>
+  <string name="notif_text_engine_off">Xunlei accelerator is off.</string>
+  <string name="notif_text_engine_on">تسريع…</string>
+  <string name="notif_title_file_size">مجموع %1$d</string>
+  <string name="notif_title_multiple_downloading">تحميل الملفات %1$d</string>
+  <string name="notif_title_single_downloading">تحميل %1$s</string>
+  <string name="notification_download_complete">اكتمال التنزيل.</string>
+  <string name="notification_download_failed">التحميل غير ناجحة.</string>
+  <string name="notification_download_failed_more">"لا يمكن تحميل العناصر %1$d"</string>
+  <string name="notification_download_success_more">%1$d التحميل</string>
+  <string name="notification_need_wifi_for_size">تحميل يتطلب حجم الشبكة المحلية اللاسلكية.</string>
+  <string name="notification_paused_in_background">توقف مؤقت في الخلفية.</string>
+  <string name="notify_disabled_net_by_app">الاتصال بشبكة الإنترنت مقيدة بالتطبيق الأمن</string>
+  <string name="notify_install_guide_forward_text">فتح</string>
+  <string name="notify_install_guide_msg">تثبيت بنجاح</string>
+  <string name="notify_install_guide_title">تثبيت %s بنجاح</string>
+  <string name="notify_only_wifi_download">في انتظار الشبكات اللاسلكية</string>
+  <string name="paused_waiting_for_network">في انتظار الشبكة</string>
+  <string name="permdesc_accessAllDownloads">ويسمح التطبيق لعرض وتعديل كافة التحميلات بدأها أي التطبيق على النظام.</string>
+  <string name="permdesc_downloadCacheNonPurgeable">"ويسمح التطبيق لتحميل الملفات لتحميل ذاكرة التخزين المؤقت، الذي لا يمكن حذف تلقائياً عندما يحتاج مدير تحميل مساحة أكبر."</string>
+  <string name="permdesc_downloadCompletedIntent">ويسمح التطبيق لإرسال إعلامات حول التحميلات المكتملة. يمكن استخدام تطبيقات خبيثة هذا الخلط بين تطبيقات أخرى تحميل الملفات.</string>
+  <string name="permdesc_downloadManager">ويسمح التطبيق للوصول إلى إدارة التحميل واستخدامه لتحميل الملفات. تطبيقات خبيثة يمكن استخدام هذا لتعطيل الأسبوعية والوصول إلى المعلومات الخاصة.</string>
+  <string name="permdesc_downloadManagerAdvanced">"ويسمح التطبيق للوصول إلى وظائف متقدمة لمدير تحميل. تطبيقات خبيثة يمكن استخدام هذا لتعطيل الأسبوعية والوصول إلى المعلومات الخاصة."</string>
+  <string name="permdesc_downloadWithoutNotification">يسمح التطبيق لتحميل الملفات من خلال التحميل مدير دون أي إخطار يتم عرضها للمستخدم.</string>
+  <string name="permdesc_seeAllExternal">يسمح التطبيق لمشاهدة كافة التحميلات إلى بطاقة SD، بغض النظر عن التطبيق الذي تم تحميل لهم.</string>
+  <string name="permlab_accessAllDownloads">الوصول إلى كل نظام الأسبوعية</string>
+  <string name="permlab_downloadCacheNonPurgeable">Reserve space in the download cache</string>
+  <string name="permlab_downloadCompletedIntent">Send download notifications.</string>
+  <string name="permlab_downloadManager">Access download manager.</string>
+  <string name="permlab_downloadManagerAdvanced">Advanced download manager functions.</string>
+  <string name="permlab_downloadWithoutNotification">download files without notification</string>
+  <string name="permlab_seeAllExternal">See all downloads to USB storage</string>
+  <string name="privacy_notif_content">Touch to view details.</string>
+  <string name="privacy_notif_title">Xunlei Download Accelerator is on</string>
+  <string name="privacy_tip_cancel">Cancel</string>
+  <string name="privacy_tip_content">"Use Xunlei Accelerator to speed up downloads? The URL of the download's host will uploaded to Xunlei's servers. Your Mi Account details will also be uploaded to check if you have any active subscriptions to this service."</string>
+  <string name="privacy_tip_ok">OK</string>
+  <string name="privacy_tip_title">Use Xunlei Accelerator?</string>
+  <string name="recommended_file_size_download_in_mobile">Use %s of mobile data to download this file?</string>
+  <string name="recommended_no_file_size_download_in_mobile">Use your mobile data connection to download this file?</string>
+  <string name="root_downloads">Downloads</string>
+  <string name="task_already_exist">Task already exists</string>
+  <string name="warning_tip_cancel">Download</string>
+  <string name="warning_tip_content">"You're no longer connected to Wi-Fi. Using your mobile data connection to complete this download will increase your data usage. If you go over your plan’s data limit, your carrier could charge you additional fees."</string>
+  <string name="warning_tip_ok">Pause</string>
+  <string name="warning_tip_title">Data usage warning</string>
+  <string name="wifi_recommended_body" formatted="false">"Starting this %s download now may result in excessive usage of your mobile data connection, which can lead to charges by your mobile operator depending on your data plan.
+
+ Touch %s to start this download the next time you're connected to a Wi-Fi network."</string>
+  <string name="wifi_recommended_title">Queue for download later?</string>
+  <string name="wifi_required_body" formatted="false">"You must use Wi-Fi to complete this %s download. 
+
+Touch %s to start this download the next time you're connected to a Wi-Fi network."</string>
+  <string name="wifi_required_title">Download too large for operator network</string>
+  <string name="xl_speedup_experience_notify_context">"Speed is boosted for every download when you're a Xunlei member"</string>
+  <string name="xl_speedup_experience_notify_title">Xunlei membership</string>
+  <string name="xl_speedup_notify_button_experience">Try for free</string>
+  <string name="xl_speedup_notify_button_member">Become a member</string>
+</resources>

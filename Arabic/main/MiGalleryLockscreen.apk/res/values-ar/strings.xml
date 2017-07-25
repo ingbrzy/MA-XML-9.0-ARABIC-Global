@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name">خلفية كاروسيل</string>
+  <string name="apply">تطبيق</string>
+  <string name="at_least_one">اختر فئة واحدة على الأقل</string>
+  <string name="auto_interval">تلقائي</string>
+  <string name="cancel">إلغاء الأمر</string>
+  <string name="cancel_international">إلغاء الأمر</string>
+  <string name="cancel_lockscreen">إلغاء الأمر</string>
+  <string name="change_time">تبديل الخلفيات</string>
+  <string name="day">مرة واحدة في اليوم</string>
+  <string name="declaration">الحصول على خلفيات جديدة وإظهارها مباشرة إلى شاشة القفل كل يوم مجاناً.</string>
+  <string name="declaration_lockscreen_title">خلفية كاروسيل</string>
+  <string name="declaration_title">الشروط والأحكام</string>
+  <string name="dislike">حذف</string>
+  <string name="from_migallerylockscreen">" "</string>
+  <string name="hour_1">كل ساعة</string>
+  <string name="hour_3">كل 3 ساعات</string>
+  <string name="like">معجب</string>
+  <string name="liked">أحب</string>
+  <string name="lockscreen_magazine_summary">فئات</string>
+  <string name="lockscreen_magazine_system_title">غير متصل</string>
+  <string name="lockscreen_magazine_title">خلفية كاروسيل</string>
+  <string name="lockscreen_wallpaper_changed">تغيير خلفية الشاشة</string>
+  <string name="minutes_15">مدة 15 دقيقة</string>
+  <string name="no_long_show">"لا تظهر مرة أخرى"</string>
+  <string name="ok_enable_network_prov">اتفق</string>
+  <string name="ok_international">اتفق</string>
+  <string name="ok_lockscreen">موافق</string>
+  <string name="ok_network">اتفق</string>
+  <string name="platform_unavailable_qq">الرجاء تثبيت QQ</string>
+  <string name="platform_unavailable_qzone">الرجاء تثبيت Qzone</string>
+  <string name="platform_unavailable_wechat">الرجاء تثبيت wechat</string>
+  <string name="platform_unavailable_wechatmoment">الرجاء تثبيت wechat</string>
+  <string name="platform_unavailable_weibo">الرجاء تثبيت weibo</string>
+  <string name="resource_apply">تطبيق</string>
+  <string name="resource_no_network_text">"تعذر الاتصال بشبكة الاتصال."</string>
+  <string name="setting_head">إعدادات</string>
+  <string name="settings">إعدادات</string>
+  <string name="share">المشاركة</string>
+  <string name="sst_favor_desc">عرض الخلفيات المفضلة</string>
+  <string name="sst_favor_title">المفضلة</string>
+  <string name="sst_grid_view_select_all">اختر الكل</string>
+  <string name="sst_grid_view_unselect_all">إلغاء تحديد الكل</string>
+  <string name="sst_no_favor_wallpaper_hint">لا يوجد خلفيات في المفضلة</string>
+  <string name="sst_prov_enable_desc">قم بتشغيل كاروسيل خلفيات قفل الشاشة</string>
+  <string name="sst_prov_enable_title">تشغيل خلفيات كاروسيل</string>
+  <string name="sst_require_one_category_hint">حدد الفئة 1 على الأقل</string>
+  <string name="sst_sti_desc">تعيين معدل تحديث خلفية</string>
+  <string name="sst_sti_title">تردد التحديث</string>
+  <string name="sst_subscribe_title">الفئات الخاصة بي</string>
+  <string name="sst_wifi_only_desc">إيقاف تشغيل هذه الميزة لحفظ البيانات المتنقلة</string>
+  <string name="sst_wifi_only_title">تحديث الخلفيات باستخدام البيانات المتنقلة</string>
+  <string name="summary">"By using this feature, you're agreeing to our &lt;a href="http://www.miui.com/res/doc/privacy/en.html"&gt;Privacy Policy&lt;/a&gt;. This feature needs to connect to the internet to work normally."</string>
+  <string name="summary_international">"By using this feature, you're agreeing to our &lt;a href="http://www.miui.com/res/doc/eula.html?lang=en_US"&gt;User Agreement&lt;/a&gt; and &lt;a href="http://www.miui.com/res/doc/privacy/en.html"&gt;Privacy Policy&lt;/a&gt;. This feature needs to connect to the internet to work normally.&amp;#8203;"</string>
+  <string name="theme_apply_failured">"تعذر التطبيق، أعد المحاولة لاحقا"</string>
+  <string name="theme_apply_success">تم تطبيق قفل الشاشة</string>
+  <string name="theme_applying">جارٍ التطبيق ...</string>
+  <string name="wlan_download">تحديث عبر الـ Wi-Fi</string>
+  <string name="wlan_download_cn">تحديث عبر الـ Wi-Fi</string>
+</resources>

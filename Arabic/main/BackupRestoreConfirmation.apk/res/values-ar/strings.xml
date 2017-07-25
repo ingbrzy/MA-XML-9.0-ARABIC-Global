@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="allow_backup_button_label">النسخ الاحتياطي للبيانات</string>
+  <string name="allow_restore_button_label">استعادة البيانات الخاصة بي</string>
+  <string name="backup_confirm_text">" طلب نسخة احتياطية كاملة لكافة البيانات الموجودة على كمبيوتر سطح مكتب اتصال. هل تريد السماح لهذا أن يحدث؟ إذا كنت لم تطلب النسخ الاحتياطي نفسك، لا تسمح العملية المضي قدما. "</string>
+  <string name="backup_confirm_title">نسخة احتياطية كاملة</string>
+  <string name="backup_enc_password_optional">إذا كنت ترغب في تشفير بيانات النسخ الاحتياطي الكامل، قم بإدخال كلمة مرور أدناه:</string>
+  <string name="backup_enc_password_required">حيث يتم تشفير الجهاز الخاص بك، هناك حاجة لتشفير النسخة الاحتياطية الخاصة بك. الرجاء إدخال كلمة مرور أدناه:</string>
+  <string name="backup_enc_password_text">الرجاء إدخال كلمة مرور لاستخدامها لتشفير بيانات النسخ الاحتياطي الكامل. إذا كان هذا فارغاً، سيتم استخدام كلمة المرور النسخ الاحتياطي الحالية:</string>
+  <string name="current_password_text">الرجاء إدخال كلمة مرور النسخ الاحتياطي الحالية أدناه:</string>
+  <string name="deny_backup_button_label">عدم إجراء نسخ احتياطية</string>
+  <string name="deny_restore_button_label">لا تقم بالستعادة</string>
+  <string name="device_encryption_backup_text">الرجاء إدخال كلمة مرور التشفير الجهاز أدناه. وهذا ستستخدم أيضا لتشفير أرشيف النسخ الاحتياطي.</string>
+  <string name="device_encryption_restore_text">الرجاء إدخال كلمة مرور التشفير الجهاز أدناه.</string>
+  <string name="restore_confirm_text">"وقد طلب استعادة كاملة من كافة البيانات من كمبيوتر سطح مكتب متصلاً. هل تريد السماح لهذا أن يحدث؟ إذا كنت لم تطلب الاستعادة نفسك، لا تسمح العملية المضي قدما. سيؤدي ذلك إلى استبدال أي بيانات حاليا على الجهاز! "</string>
+  <string name="restore_confirm_title">استعادة كاملة</string>
+  <string name="restore_enc_password_text">إذا كان يتم تشفير البيانات الاستعادة، الرجاء إدخال كلمة المرور أدناه:</string>
+  <string name="toast_backup_ended">الانتهاء من النسخ الاحتياطي</string>
+  <string name="toast_backup_started">بدء تشغيل النسخ الاحتياطي...</string>
+  <string name="toast_restore_ended">تم الاستعادة</string>
+  <string name="toast_restore_started">إعادة بدء تشغيل...</string>
+  <string name="toast_timeout">انتهت مهلة العملية</string>
+</resources>

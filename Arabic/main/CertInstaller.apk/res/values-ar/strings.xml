@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name">شهادة المثبت</string>
+  <string name="cert_is_added">يتم تثبيت %s.</string>
+  <string name="cert_missing_error">"لا يمكن تثبيت لأنه لا يمكن أن يكون ملف الشهادة موجودة."</string>
+  <string name="cert_not_saved">لم يتم تثبيت الشهادة.</string>
+  <string name="cert_read_error">"لا يمكن تثبيت لأنه لا يمكن أن يكون ملف الشهادة موجودة."</string>
+  <string name="cert_too_large_error">"لا يمكن تثبيت لأن شهادة حجم كبير جداً."</string>
+  <string name="credential_info">تحتوي الحزمة على:</string>
+  <string name="credential_name">اسم الشهادة:</string>
+  <string name="credential_password">اكتب كلمة المرور لاستخراج الشهادات.</string>
+  <string name="credential_usage_label">استخدام بيانات الاعتماد:</string>
+  <string name="done_label">تم</string>
+  <string name="extracting_pkcs12">استخراج…</string>
+  <string name="install_done">تم إضافة أوراق اعتماد %1$s لحفظ الشبكات المحلية اللاسلكية.</string>
+  <string name="install_done_title">تم تثبيت بيانات الاعتماد</string>
+  <string name="invalid_cert">الشهادة غير صالحة.</string>
+  <string name="n_cacrts">شهادات %d CA</string>
+  <string name="name_char_error">اكتب اسماً لا يحتوي على أحرف وأرقام فقط.</string>
+  <string name="name_credential_dialog_title">اسم الشهادة</string>
+  <string name="name_empty_error">اكتب اسماً.</string>
+  <string name="no_cert_file_found">لا يوجد ملف الشهادة الموجودة في وحدة تخزين USB.</string>
+  <string name="no_cert_to_saved">لا توجد شهادة لتثبيت.</string>
+  <string name="one_cacrt">شهادة المرجع المصدق CA واحد</string>
+  <string name="one_usercrt">شهادة مستخدم واحد</string>
+  <string name="one_userkey">مفتاح المستخدم واحد</string>
+  <string name="only_primary_user_allowed">مالك هذا الجهاز فقط تثبيت الشهادات.</string>
+  <string name="p12_description">شهادات في كيستوري PKCS12.</string>
+  <string name="password_empty_error">اكتب كلمة المرور.</string>
+  <string name="password_error">اكتب كلمة المرور الصحيحة.</string>
+  <string name="pick_file_title">اختيار شهادة</string>
+  <string name="pkcs12_file_password_dialog_title">استخراج من %s</string>
+  <string name="pkcs12_password_dialog_title">استخراج شهادة</string>
+  <string name="sdcard_not_present">لا تتوفر مساحة تخزين USB.</string>
+  <string name="storage_error">"تعذر حفظ الشهادة. تعمل باللمس \"موافق\" لإعادة المحاولة."</string>
+  <string name="unable_to_save_cert">"تعذر حفظ الشهادة. تخزين بيانات الاعتماد ليست ممكنة أو تهيئته بشكل صحيح."</string>
+  <string name="wifi_cancel_label">إلغاء الأمر</string>
+  <string name="wifi_config_text">"Name: %1$s
+FQDN: %2$s
+Roaming Consortiums: %3$s
+Realm: %4$s
+Auth method: EAP-%5$s
+"</string>
+  <string name="wifi_detail_label">تفاصيل</string>
+  <string name="wifi_detail_title">تفاصيل %s</string>
+  <string name="wifi_dismiss_label">تجاهل</string>
+  <string name="wifi_install_label">تثبيت</string>
+  <string name="wifi_installer_detail">قم بتثبيت بيانات اعتماد الـ Wi-Fi للاتصال بالشبكات المتوفرة عن طريق %1$s.</string>
+  <string name="wifi_installer_download_error">"لديه مشاكل في الملف الذي تم تنزيله ولا يمكن تثبيتها. تأكد من أن قمت بتحميل الملف من المصدر الصحيح."</string>
+  <string name="wifi_installer_fail">"لا يمكن تثبيت بيانات اعتماد الشبكة المحلية اللاسلكية. حاول تحميل الملف مرة أخرى."</string>
+  <string name="wifi_installer_fail_no_wifi">قم بتشغيل الـ Wi-Fi وحاول مرة أخرى.</string>
+  <string name="wifi_installer_fail_no_wifi_title">تم إلغاء التثبيت</string>
+  <string name="wifi_installer_fail_title">"لا يمكن تثبيت"</string>
+  <string name="wifi_installing_label">جارٍ التثبيت</string>
+  <string name="wifi_no_config">لا شيء</string>
+  <string name="wifi_sim_config_text">"سيم: %s"</string>
+  <string name="wifi_title">الـ Wi-Fi الشخصية</string>
+  <string name="wifi_tls_config_text">"Client certificate:
+%1$s
+Key: %2$s
+"</string>
+  <string name="wifi_trust_config_text">"Trust certificate:
+%s
+"</string>
+  <string name="wifi_ttls_config_text">"User name: %s
+"</string>
+</resources>
