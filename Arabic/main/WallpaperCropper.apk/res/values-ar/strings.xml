@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="crop_wallpaper">اختيار الخلفية</string>
-  <string name="wallpaper_instructions">تعيين كخلفية الشاشة</string>
-  <string name="wallpaper_load_fail">"تعذر تحميل الصورة كخلفية للشاشة"</string>
+  <string name="crop_wallpaper">اقتصاص الخلفية</string>
+  <string name="wallpaper_instructions">تعيين الخلفية</string>
+  <string name="wallpaper_load_fail">تعذر تحميل الصورة كخلفية</string>
 </resources>
