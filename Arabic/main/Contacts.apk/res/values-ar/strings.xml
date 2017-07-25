@@ -863,8 +863,6 @@
   <string name="path_wipe_data">تطبيقات النظام/جهات الاتصال/تنظيم جهات الاتصال/مسح البيانات</string>
   <string name="payphone">هاتف عمومي</string>
   <string name="people">جهات الاتصال</string>
-  <string name="percent_sign">%</string>
-  <string name="percentage">%s%%</string>
   <string name="phoneLabelsGroup">الهاتف</string>
   <string name="phone_info_divider">" ｜ "</string>
   <string name="phone_number_too_long_toast">الرقم طويل جداً</string>
