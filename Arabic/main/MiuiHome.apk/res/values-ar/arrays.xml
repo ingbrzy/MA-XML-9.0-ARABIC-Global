@@ -50,11 +50,4 @@
         <item>غبار في الهواء</item>
         <item>ضباب</item>
     </string-array>
-    <string-array name="editing_mode_entries">
-        <item>الثيمات</item>
-        <item>الإضافات</item>
-        <item>خلفية الشاشة</item>
-        <item>التأثيرات</item>
-        <item>تصميم</item>
-    </string-array>
 </resources>
