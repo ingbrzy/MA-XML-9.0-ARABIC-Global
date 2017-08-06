@@ -182,6 +182,11 @@
   <string name="michat_wait_for_a_moment">لحظة من فضلك، المساعدة في طريقها اليك!</string>
   <string name="michat_webview_title">عرض التفاصيل</string>
   <string name="min_error">يجب أن يكون %1$s الخاص بك اطول.</string>
+  <string name="mobile_data_note_dialog_cancel">انتظر شبكة الـWi-Fi</string>
+  <string name="mobile_data_note_dialog_confirm">تحميل</string>
+  <string name="mobile_data_note_dialog_content">استخدام بيانات الجوال لرفع السجلات قد يولد رسوم إضافية.</string>
+  <string name="mobile_data_note_dialog_content_with_file_size">رفع السجلات بإستخدام إتصال بيانات الجوال سيتطلب %s ميغابايت من البيانات.</string>
+  <string name="mobile_data_note_dialog_title">تحذير إستخدام البيانات</string>
   <string name="modem_tool_log">سجلات التقاط المودم</string>
   <string name="modem_tool_log_start">بدء</string>
   <string name="modem_tool_log_start_toast">حفظ سجل المودم إلى %s</string>

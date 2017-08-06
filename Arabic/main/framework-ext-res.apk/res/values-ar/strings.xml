@@ -4,6 +4,7 @@
   <string name="add_frequent_phrases">إضافة عبارات متكررة</string>
   <string name="all_call_livetalk_enable">استخدام حزمة شحن الرصيد للمكالمات المحلية و الدولية</string>
   <string name="all_call_livetalk_remain_mins">الدقائق المتبقية: %1$s محليا او %2$s دوليا</string>
+  <string name="always">دائماً</string>
   <string name="alwaysUsePrompt">تذكر اختياري</string>
   <string name="apply_password_action">موافق</string>
   <string name="apply_password_confirm_dlg_msg">استخدم كلمة المرور الحالية لشاشة القفل للدخول الى إعدادات %s.</string>
@@ -28,10 +29,13 @@
   <string name="call_record_sample_prefix_miui">اتصال</string>
   <string name="caller_info_name_delimiter">" أو "</string>
   <string name="cancel_action">إلغاء</string>
+  <string name="close">إيقاف</string>
   <string name="configure_input_methods">اختيار لوحة المفاتيح</string>
   <string name="copy">نسخ</string>
   <string name="cut">قص</string>
   <string name="default_name">الافتراضي</string>
+  <string name="description_title">الوضع الصامت</string>
+  <string name="eighthours">٨ ساعات</string>
   <string name="enable_livetalk_summary">قم بتوفير٧٠% من رسوم مكالماتك</string>
   <string name="enable_livetalk_title">تفعيل حزمة شحن الرصيد</string>
   <string name="fc_dialog_body">هل تريد ارسال تقرير عن خلل إلى Mi للتحليل؟ يتضمن هذا التقرير معلومات تعريف شخصية. سيستخدم تقريرك لمساعدة إصلاح هذا الخطأ ولن يشارك ابدا في أي سياق تجاري.</string>
@@ -40,6 +44,7 @@
   <string name="fm_record_smaple_prefix_miui">تسجيل FM</string>
   <string name="force_exit_message">الإيقاف الإجباري %1$s</string>
   <string name="force_exit_skip_message">لا يمكن إغلاق %1$s لأن النظام يحتاج إليه.</string>
+  <string name="fourhours">ساعتين</string>
   <string name="fp_nav_center_action_choose_dlg_msg">يمكنك العودة إلى الشاشة الرئيسية بالنقر الخفيف على زر الصفحة الرئيسية. يمكنك تشغيل وإيقاف هذه الميزة من الإعدادات &gt; الإعدادات الإضافية &gt; أزرار &gt; انقر على زر الصفحة الرئيسية للرجوع إلى الشاشة الرئيسية.</string>
   <string name="fp_nav_center_action_choose_dlg_negative_btn_text">ليس الآن</string>
   <string name="fp_nav_center_action_choose_dlg_positive_btn_text">تشغيل</string>
@@ -73,6 +78,7 @@
   <string name="memory_clear_nothing_result">لا يوجد شيء لمسحه من الذاكرة المؤقتة</string>
   <string name="memory_clear_result">تم مسح %1$sB</string>
   <string name="miui_upgrading_notification_title">جارٍ تحميل النظام، بعض الميزات قد تكون محدودة</string>
+  <string name="onehour">٣٠ دقيقة</string>
   <string name="package_delete_confirm_step_1">حذف %s؟</string>
   <string name="package_delete_confirm_step_2">قد يؤدي حذف هذا التطبيق إلى عدم استقرار النظام الخاص بك.</string>
   <string name="package_delete_confirm_step_3">لن تتمكن من فتح هذا التطبيق بعد حذفه.</string>
@@ -85,6 +91,7 @@
   <string name="reboot_info_auto_boot">الجهاز مضبوط على وقت مجدول لبدء التشغيل في %s</string>
   <string name="reboot_info_shutdown_alarm">المنبه التالي: %s</string>
   <string name="reboot_progress">جار إعادة التشغيل…</string>
+  <string name="remain">المُتبقي: %s</string>
   <string name="replace">استبدال</string>
   <string name="resource_select">تحديد</string>
   <string name="screen_button_notification_text">لتشغيلها، اضغط على زري الصفحة الرئيسية والطاقة في وقت واحد.</string>
@@ -111,10 +118,14 @@
   <string name="set_password_title">تعيين كلمة المرور</string>
   <string name="shutdown_confirm_title">إيقاف تشغيل الجهاز الان؟</string>
   <string name="shutdown_progress">جار إيقاف التشغيل…</string>
+  <string name="silence_mode">الوضع الصامت</string>
   <string name="sim_added_reboot_confirm">إعادة تشغيل</string>
   <string name="sim_added_reboot_title">سيتم تفعيل بطاقة SIM بعد إعادة تشغيل جهازك.</string>
   <string name="softap_notifif_summary">%d متصل</string>
   <string name="softap_notifif_title">تم تشغيل نقطة الاتصال \"%s\"</string>
+  <string name="standard">صامت</string>
+  <string name="standard_description">[Silent] كتم نغمات الرنين للمكالمات الواردة والإشعارات</string>
+  <string name="standard_title">صامت..</string>
   <string name="start_security_permission_verify_text">تحقق من الأذونات باستخدام حساب Mi الخاص بك</string>
   <string name="status_bar_toggle_auto_brightness">السطوع</string>
   <string name="status_bar_toggle_battery_saver">توفير البطارية</string>
@@ -140,10 +151,14 @@
   <string name="status_bar_toggle_wifi">Wi-Fi</string>
   <string name="status_bar_toggle_wifi_ap">نقطة اتصال</string>
   <string name="subinfo_default_name">SIM %d</string>
+  <string name="total">عدم الازعاج</string>
+  <string name="total_description">[DND] Silence sounds and turn off vibration for all items except the Alarm clock</string>
+  <string name="total_title">عدم الازعاج..</string>
   <string name="translation_more">المزيد</string>
   <string name="translation_query_error">تعذر إيجاد نتائج</string>
   <string name="translation_query_error_network">لا يمكن الحصول على معلومات، تحقق من اتصال الشبكة وحاول مرة أخرى</string>
   <string name="turn_off">إيقاف</string>
+  <string name="twohours">١ ساعة</string>
   <string name="unknown_caller">رقم غير معروف</string>
   <string name="user_switching_dialog_text">يتم التبديل…</string>
   <string name="xspace_resolver_activity_title">تحديد تطبيق</string>

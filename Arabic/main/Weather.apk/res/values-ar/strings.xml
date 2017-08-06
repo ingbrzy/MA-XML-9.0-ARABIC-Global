@@ -22,6 +22,7 @@
   <string name="activity_main_update_time">تم تحديثه %1$s</string>
   <string name="activity_main_update_time_expire">انتهت صلاحية البيانات</string>
   <string name="activity_main_update_time_right_now">حاليا</string>
+  <string name="activity_minute_rain_location_fail_msg">فشل البحث عن الموقع, الموقع الإفتراضي في الخريطة هي بكين</string>
   <string name="activity_weathermain_locationg">جارٍ تحديد الموقع…</string>
   <string name="activity_weathermain_locationg_error">لا يمكن تحديد الموقع</string>
   <string name="add_city">إضافة</string>
@@ -73,6 +74,9 @@
   <string name="commercial">تجاري</string>
   <string name="common_loading_text">لحظة من فضلك…</string>
   <string name="connect_fail">تعذر الاتصال بالشبكة، حاول مرة أخرى</string>
+  <string name="content_desc_activity_main_add_city">إضافة مدينة</string>
+  <string name="content_desc_activity_main_add_city_manage">إدارة المدينة</string>
+  <string name="content_desc_activity_main_more_settings">مزيد من الإعدادات</string>
   <string name="daily_forcast_drawer_on_bottom">إخفاء</string>
   <string name="daily_forcast_no_stable_direction">نسيم</string>
   <string name="daily_forcast_no_wind">٠</string>
@@ -142,6 +146,7 @@
   <string name="international_details_uv_index_title">مؤشر الأشعة فوق البنفسجية</string>
   <string name="international_details_wind_connect">%1$s %2$s</string>
   <string name="international_details_wind_title">الرياح</string>
+  <string name="it_is_going_to_rain">سوف تمطر</string>
   <string name="locate_fail_detail_err">"لا يمكن تحديد موقع الجهاز
 انقر على الشاشة يدويا لإضافة أو اعادة تحديد مدينة"</string>
   <string name="location_tag">تحديد الموقع</string>
@@ -165,12 +170,15 @@
   <string name="more_details">المزيد من التفاصيل</string>
   <string name="network_not_available">تعذر الاتصال بالشبكة</string>
   <string name="network_unavailable">لا يمكن الاتصال بالشبكة.</string>
+  <string name="night_not_disturb_settings_summary">Will not receive all weather notices from 23:00 to 07:00 the next day after opening</string>
+  <string name="night_not_disturb_settings_title">عدم الإزعاج في الليل</string>
   <string name="no_network_btn">حاول مرة أخرى</string>
   <string name="no_vote_ratio">ضد %1$s%%</string>
   <string name="open">إفتح</string>
   <string name="open_browser">فتح في المتصفح</string>
   <string name="open_now">فتح</string>
   <string name="other">أخرى</string>
+  <string name="other_warning_settings">Other Warning Settings</string>
   <string name="particulate_matter_exceeded">عالي</string>
   <string name="particulate_matter_not_exceeded">عادي</string>
   <string name="particulate_matter_serious_exceeded">عالي جدا</string>
@@ -181,11 +189,14 @@
   <string name="precipitation_degree_two">小</string>
   <string name="pressure_connect">%1$s ميلي بار</string>
   <string name="radar_cloud_image_title">雷达降水图</string>
+  <string name="rainfall_settings_summary">Rainfall Settings</string>
+  <string name="rainfall_settings_title">Rainfall Warning</string>
   <string name="realtime_aqi_title">مؤشر جودة الهواء AQI</string>
   <string name="realtime_humidity_title">الرطوبة النسبية</string>
   <string name="realtime_temperature_no_data">N/A</string>
   <string name="realtime_wind_default_title">رياح</string>
   <string name="refresh_fail">تعذر الاتصال بالشبكة</string>
+  <string name="reminder_from_xiaomi_weather_app">Reminder From Xiaomi Weather APP</string>
   <string name="retry">حاول مجدداً</string>
   <string name="set">الإعدادات</string>
   <string name="set_degree_centigrade">°C</string>
@@ -231,6 +242,9 @@
   <string name="unit">وحدة</string>
   <string name="unit_temperature">وحدات درجة الحرارة</string>
   <string name="unit_wind">وحدات سرعة الريح</string>
+  <string name="update_night_setting_summary_text">Will not update automatically 23:00-07:00 after closed</string>
+  <string name="update_night_setting_title_text">Update Automatically At Night</string>
+  <string name="update_setting_title_text">Update Settings</string>
   <string name="video_dialog_no_play"/>
   <string name="video_dialog_play"/>
   <string name="video_dialog_subtitle"/>
@@ -245,4 +259,5 @@
   <string name="xiaomi_weather_description_content">تطبيق الطقس يوفر لك معلومات دقيقة عن الطقس. دون هذا التطبيق، لن يعمل شريط الحالة و عنصر واجهة الطقس في الشاشة الرئيسية بشكل صحيح. تأكد من أنك تستطيع أن تفعل ذلك دون هذه الميزات قبل إلغاء تثبيت التطبيق.</string>
   <string name="xiaomi_weather_description_title">حول الطقس</string>
   <string name="yes_vote_ratio">لـ%1$s%%</string>
+  <string name="your_location">موقعك</string>
 </resources>

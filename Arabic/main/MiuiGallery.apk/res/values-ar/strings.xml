@@ -37,7 +37,10 @@
   <string name="album_jump_failed">انتظر حتى تتم مزامنة الألبومات مع Mi Cloud ثم حاول مرة أخرى</string>
   <string name="album_member">أعضاء الألبوم %s</string>
   <string name="album_name">اسم الألبوم</string>
+  <string name="album_name_locations">المواقع</string>
+  <string name="album_name_people">أشخاص</string>
   <string name="album_name_recent_discovery">الحديثة</string>
+  <string name="album_name_tags">العلامات</string>
   <string name="album_others_share_baby_info_format">ألبوم الطفل من %s</string>
   <string name="album_others_share_info_format">من %s</string>
   <string name="album_owner_share">تمت المشاركة</string>
@@ -303,6 +306,7 @@
   <string name="empty_recommend_back">رجوع</string>
   <string name="empty_recommend_face_page_view">لا يوجد مزيد من التوصيات</string>
   <string name="empty_relation">لا يمكن ترك اسم المجموعة فارغاً</string>
+  <string name="empty_title_no_photos">لا توجد صور أو فيديوهات</string>
   <string name="enable_auto_upload_tip">تشغيل المزامنة مع Mi Cloud لهذا الألبوم؟</string>
   <string name="enable_auto_upload_title">تشغيل المزامنة مع Mi Cloud</string>
   <string name="enable_cloud_for_sharing">تشغيل ألبومات Mi Cloud لعرض الصور المشاركة.</string>
@@ -335,7 +339,7 @@
   <string name="face_album_empty">"لا يوجد صور كافية للتعرف على اشخاص.
 قم بإخذ صور اكثر لأصدقائك!"</string>
   <string name="face_album_empty_syncing">جارٍ مزامنة البيانات، يرجى العودة لاحقاً</string>
-  <string name="face_album_empty_syncing_when_connect_wifi">الاتصال بـ Wi-Fi لمزامنة المعلومات</string>
+  <string name="face_album_empty_syncing_when_connect_wifi">اتصل بالشبكة لمزامنة المعلومات</string>
   <string name="face_album_long_tap_tip">لاختيار عدة أشخاص أو تغيير إعدادات المجموعة، إضغط لمدة طويلة على صورة ملف شخصي</string>
   <string name="face_album_new_name_hint">اسم جديد</string>
   <string name="face_album_not_named">غير مسمى</string>
@@ -394,7 +398,7 @@
   <string name="has_invalid_recipient">مستلمين غير صالحين: %1$s</string>
   <string name="have_known">فهمت</string>
   <string name="hidden_album_display_name">ألبوم مخفي</string>
-  <string name="home_page_empty">فارغ</string>
+  <string name="home_page_empty_action">التقاط صورة</string>
   <string name="home_page_label">الصور</string>
   <string name="how_to_set_relation">إضغط لمدة طويلة على ألبوم لإنشاء مجموعة</string>
   <string name="hybrid_check_network">إعدادات الشبكة</string>
@@ -548,9 +552,13 @@
   <string name="other_album">ألبومات أخرى</string>
   <string name="other_settings">الإعدادات الإضافية</string>
   <string name="owner_album_subtitle">تمت مشاركته مع %1$s شخص</string>
+  <string name="people_album_empty_title">Photos can be sorted by people in them</string>
   <string name="people_jump_failed">انتظر حتى تتم مزامنة \"الصور مع الاشخاص\" مع Mi Cloud ثم حاول مرة أخرى</string>
+  <string name="people_mark_mode_title">تحديد \"%s\"</string>
+  <string name="people_mark_mode_title_no_mark_name">تحديد شخص</string>
   <string name="people_page_label">الأشخاص</string>
   <string name="people_page_unname">غير مسمى</string>
+  <string name="percent_sign">%</string>
   <string name="pet_album_display_name">صور الحيوانات الأليفة</string>
   <string name="petabyteShort">بنتابايت</string>
   <string name="photo">الصور</string>
@@ -574,6 +582,7 @@
   <string name="picker_title_format">يمكنك تحديد %d صورة</string>
   <string name="picker_title_selection_format">الصور الُمحددة: %d</string>
   <string name="picker_title_unlimit">تحديد صور</string>
+  <string name="places_album_empty_title">يمكن فرز الصور حسب الموقع</string>
   <string name="preparing_data">لحظة من فضلك…</string>
   <string name="projection_checkbox_text">تذكر هذا العرض</string>
   <string name="projection_device_connection_failed">تعذر الاتصال بجهاز العرض</string>
@@ -589,6 +598,7 @@
   <string name="publish_succeeded">تم نشر الألبوم</string>
   <string name="publishing">جارٍ النشر…</string>
   <string name="quotation">\"%s\"</string>
+  <string name="recent_album_empty_title">لم تتم إضافة صور جديدة مؤخراً</string>
   <string name="recommanded_face_abandon_tip">تمت إزالته من الاقتراحات</string>
   <string name="recommanded_face_added_tip">اضيف إلى \"%s\"</string>
   <string name="recovery_merge">دمج</string>
@@ -635,7 +645,6 @@
   <string name="scan_barcode_guide">للحصول على رمز QR الخاص بالألبوم، انقر على أيقونة مشاركة.</string>
   <string name="scan_barcode_to_join">امسح رمز QR لإضافة ألبوم</string>
   <string name="scan_qr_code_buttom_text">امسح رمز QR لعرض هذا الألبوم</string>
-  <string name="search_album_jump_failed">انتظر حتى تتم مزامنة الألبومات مع Mi Cloud ثم حاول مرة أخرى</string>
   <string name="search_backup_full_screen">تشغيل المزامنة مع Mi Cloud لايجاد المزيد من الأجسام والاشخاص</string>
   <string name="search_backup_now">تشغيل</string>
   <string name="search_backup_sub_title">التشغيل لايجاد المزيد من الصور</string>
@@ -651,16 +660,26 @@
   <string name="search_login_sub_title">تسجيل الدخول لايجاد المزيد من الصور</string>
   <string name="search_login_title">حساب Mi</string>
   <string name="search_login_title_full_screen">تسجيل الدخول مع Mi Cloud لايجاد المزيد من الأجسام والاشخاص</string>
-  <string name="search_people_jump_failed">انتظر حتى تتم مزامنة \"الصور مع الاشخاص\" مع Mi Cloud ثم حاول مرة أخرى</string>
+  <string name="search_net_error">حدث خطأ في الشبكة. اتصل بشبكة مختلفة ثم حاول مجدداً.</string>
+  <string name="search_request_open">إنضم إلى فريق الإختبار</string>
   <string name="search_result_empty">تعذر العثور على أي شيء</string>
   <string name="search_retry">حاول مجددا</string>
+  <string name="search_select_network">تحديد الشبكة</string>
   <string name="search_set_network_connection">إعدادات الشبكة</string>
+  <string name="search_setting_sub_title">تحسين البحث عن الصور</string>
+  <string name="search_setting_sub_title_open">تمت الموافقة. انتظر قليلا قبل أن تبدأ.</string>
+  <string name="search_setting_title">العثور عن صور في المعرض</string>
+  <string name="search_syncing">جارٍ مزامنة البيانات، يرجى العودة لاحقاً</string>
+  <string name="search_title_album">ألبوم</string>
   <string name="search_title_history">سجل البحث</string>
   <string name="search_title_location">المواقع</string>
   <string name="search_title_others">كل النتائج</string>
   <string name="search_title_people">أشخاص</string>
   <string name="search_title_recommend">موصى بها</string>
+  <string name="search_title_suggestion">الإقتراحات</string>
   <string name="search_title_tag">أجسام</string>
+  <string name="search_transition_element_icon">search_icon</string>
+  <string name="search_transition_element_input">search_input</string>
   <string name="secret_album_card_description">أفضل مكان لجميع أسرارك الخاصة</string>
   <string name="secret_album_card_title">جرب الألبوم المخفي</string>
   <string name="secret_album_display_name">ألبوم مخفي</string>
@@ -693,6 +712,7 @@
   <string name="set_face_image">تعيين صورة جديدة للملف الشخصي</string>
   <string name="set_group">تعيين مجموعة</string>
   <string name="set_wallpaper_get_image_failed">تعذر تنزيل الصورة، حاول مجدداً لاحقاً</string>
+  <string name="setup_network_connection">إعدادات الشبكة</string>
   <string name="share">مشاركة</string>
   <string name="share_album">ألبوم المشاركة</string>
   <string name="share_album_needs_auto_upload_tip">لا يمكن إيقاف تشغيل النسخ الاحتياطي لألبومات المشاركة</string>
@@ -748,6 +768,7 @@
   <string name="text_append_hint">أدخل نص</string>
   <string name="text_append_style">فقاعة</string>
   <string name="text_append_transparent">غموض</string>
+  <string name="things_album_empty_title">Photos can be sorted by objects in them</string>
   <string name="tip_capture_location">الموقع:</string>
   <string name="tip_capture_params">بيانات EXIF:</string>
   <string name="tip_capture_time">أُلتقطت:</string>
@@ -845,6 +866,7 @@
   <string name="view_by_gallery_tip">معرض MIUI</string>
   <string name="view_face_album">عرض الألبوم</string>
   <string name="view_queuing_status">فحص الحالة</string>
+  <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
   <string name="welcome_to_micloud">مرحباً في Mi Cloud</string>
   <string name="welcome_to_slim">تحسين التخزين المحلي</string>
   <string name="where_is_barcode">أين رمز QR؟</string>

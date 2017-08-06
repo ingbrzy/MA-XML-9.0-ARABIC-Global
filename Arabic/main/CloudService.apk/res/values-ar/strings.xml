@@ -188,14 +188,13 @@
   <string name="micloud_detail_lastest_with_off">تمت المزامنة</string>
   <string name="micloud_detail_need_charge_or_sleep">قم بتوصيل الشاحن وإيقاف الشاشة للمزامنة</string>
   <string name="micloud_detail_not_sync">%d في انتظار المزامنة</string>
+  <string name="micloud_detail_not_syncable">Not syncable</string>
   <string name="micloud_detail_not_synced">لم تتم المزامنة</string>
   <string name="micloud_detail_ok">موافق</string>
   <string name="micloud_detail_pause">إيقاف المزامنة مؤقتاً</string>
   <string name="micloud_detail_pending">جارٍ الانتظار</string>
   <string name="micloud_detail_preference_sync_items">عناصر</string>
   <string name="micloud_detail_query_error">تعذر الحصول على معلومات حول تقدم المزامنة</string>
-  <string name="micloud_detail_query_error_detail">لا يمكن تأكيد ما اذا اكتملت المزامنة ببعض الخدمات. يمكنك الاتصال بالمطورين باستخدام تطبيق ردود الأفعال.</string>
-  <string name="micloud_detail_query_error_title">تعذر الحصول على معلومات حول تقدم المزامنة</string>
   <string name="micloud_detail_success">تم المزامنة</string>
   <string name="micloud_detail_sync_now">المزامنة الآن</string>
   <string name="micloud_detail_syncing">جارٍ المزامنة</string>
@@ -243,24 +242,33 @@
   <string name="micloud_full_influence_title">عندما يمتلئ Mi Cloud الخاصة بك…</string>
   <string name="micloud_main_battery_low">لا يوجد بطارية كافية للمزامنة</string>
   <string name="micloud_main_battery_message">قم بتوصيل الشاحن للمزامنة</string>
+  <string name="micloud_main_button_activate">تفعيل</string>
+  <string name="micloud_main_button_authorize">ترخيص</string>
+  <string name="micloud_main_button_set_internet">Setting</string>
   <string name="micloud_main_cancel_sync">إلغاء المزامنة</string>
   <string name="micloud_main_clear_now">مسح</string>
   <string name="micloud_main_detail">عرض التفاصيل</string>
+  <string name="micloud_main_error_activated_fail">من فضلك قم بتفعيل بطاقة SIM.</string>
+  <string name="micloud_main_error_network_disallowed">Please ensure the permission of accessing Internet.</string>
+  <string name="micloud_main_error_permission_limit">Please authorize access database permission for micloud.</string>
   <string name="micloud_main_last_sync_time">آخر مزامنة %s</string>
+  <string name="micloud_main_master_sync_on">المزامنة مفعلة</string>
   <string name="micloud_main_memory_low_message">للمزامنة، قم بحذف بعض العناصر التي تم تخزينها في Cloud.</string>
   <string name="micloud_main_memory_low_title">سعة التخزين الداخلية للهاتف تقريباً ممتلئة</string>
+  <string name="micloud_main_message_master_sync_off">Auto sync setting is in notification bar.</string>
   <string name="micloud_main_message_not_synced">لم تتم مزامنة %s بيانات</string>
-  <string name="micloud_main_multi_user_error_message">"لقد قمت بتسجيل الدخول إلى نفس الحساب في الفضاء الأول مما أدى إلى خطأ في Mi Cloud. إذا كنت ترغب في نسخة احتياطية من الملفات:
-
-١. استخدم حساب مختلف.
-٢. نقل العناصر إلى الفضاء الاول."</string>
+  <string name="micloud_main_multi_user_error_message">"لقد قمت بتسجيل الدخول بنفس الحساب كما في الفضاء الأول الذي تسبب في خطأ في Mi Cloud. 
+ استخدم حساب مختلف."</string>
   <string name="micloud_main_multi_user_error_title">خطأ في Mi Cloud</string>
   <string name="micloud_main_network_abnormal">يتعذر الاتصال بالشبكة</string>
   <string name="micloud_main_network_error">يتعذر الاتصال بالشبكة</string>
+  <string name="micloud_main_query_again">Query</string>
   <string name="micloud_main_query_error_message">لا يمكن تأكيد ما ذا كانت المزامنة مكتملة لبعض الخدمات</string>
   <string name="micloud_main_query_error_title">تعذر الحصول على معلومات حول تقدم المزامنة</string>
+  <string name="micloud_main_resume_sync_soon">إستئناف المزامنة قريبا</string>
   <string name="micloud_main_set_internet">الشبكة</string>
   <string name="micloud_main_space_full">مساحة تخزين icloud ممتلئة</string>
+  <string name="micloud_main_space_full_message">Upgrade to member will obtain more storage space</string>
   <string name="micloud_main_space_full_title">لا توجد مساحة تخزين كافية، تم إيقاف المزامنة مؤقتا</string>
   <string name="micloud_main_space_low">المساحة على وشك النفاذ</string>
   <string name="micloud_main_stop_sync">تم توقف المزامنة</string>
@@ -269,7 +277,6 @@
   <string name="micloud_main_suggest_sync">تعذر مزامنة كل شيء</string>
   <string name="micloud_main_sync_exception">خطأ بالمزامنة</string>
   <string name="micloud_main_sync_init">جارٍ الحصول على معلومات</string>
-  <string name="micloud_main_sync_need_charge">قم بشحن جهازك</string>
   <string name="micloud_main_sync_need_charge_or_sleep">قم بتوصيل الشاحن وإيقاف الشاشة للمزامنة</string>
   <string name="micloud_main_sync_now">مزامنة الآن</string>
   <string name="micloud_main_sync_on">المزامنة مفعلة</string>
@@ -286,6 +293,11 @@
   <string name="micloud_main_title_sync_off">المزامنة متوقفة</string>
   <string name="micloud_main_title_sync_on_wifi">استخدام الـWiFi</string>
   <string name="micloud_main_update_space">الحصول على مساحة تخزين إضافية.</string>
+  <string name="micloud_main_wait_charge">Waiting for connecting charger</string>
+  <string name="micloud_main_wait_charge_sleep">Waiting for connecting charger and turn off screen</string>
+  <string name="micloud_main_wait_wlan">في إنتظار الـ Wi-Fi</string>
+  <string name="micloud_main_wait_wlan_charge">Waiting for Wi-Fi, connecting charger</string>
+  <string name="micloud_main_wait_wlan_charge_sleep">Waiting for Wi-Fi, connecting charger and turn off screen</string>
   <string name="micloud_main_wlan_sync_data_count">عناصر في إنتظار المزامنة: %d</string>
   <string name="micloud_member">عضوية Mi Cloud</string>
   <string name="micloud_member_advantage">الحصول على مساحة تخزين إضافية.</string>

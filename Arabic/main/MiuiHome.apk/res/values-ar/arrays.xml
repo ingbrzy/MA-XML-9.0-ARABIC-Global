@@ -19,6 +19,10 @@
         <item>٤x٤</item>
         <item>٤x٥</item>
     </string-array>
+    <string-array name="cell_layout_size_values">
+        <item>٤x٤</item>
+        <item>٤x٥</item>
+    </string-array>
     <string-array name="gadget_weather_theme_type_entries">
         <item>الافتراضي</item>
         <item>كلاسيكي</item>
@@ -49,5 +53,10 @@
         <item>برد</item>
         <item>غبار في الهواء</item>
         <item>ضباب</item>
+    </string-array>
+    <string-array name="editing_mode_entries">
+        <item>خلفية الشاشة</item>
+        <item>الإضافات</item>
+        <item>Setting</item>
     </string-array>
 </resources>

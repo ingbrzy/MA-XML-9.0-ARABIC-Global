@@ -76,7 +76,7 @@
   <string name="android_upgrading_complete">جارٍ إعادة التشغيل.</string>
   <string name="android_upgrading_fstrim">جارٍ تحسين السعة التخزينية.</string>
   <string name="android_upgrading_notification_body">قد لا تعمل بعض التطبيقات بشكل مناسب إلا بعد انتهاء الترقية</string>
-  <string name="android_upgrading_notification_title">‏جارٍ ترقية Android</string>
+  <string name="android_upgrading_notification_title">‏جارٍ إتمام تحديث Android…</string>
   <string name="android_upgrading_starting_apps">بدء التطبيقات.</string>
   <string name="android_upgrading_title">‏جارٍ ترقية Android...</string>
   <string name="anr_activity_application">%2$s لا يستجيب</string>
@@ -88,6 +88,7 @@
   <string name="app_not_found">لم يتم العثور على تطبيق يمكنه التعامل مع هذا الإجراء.</string>
   <string name="app_running_notification_text">انقر للحصول على مزيد من المعلومات أو لإيقاف التطبيق.</string>
   <string name="app_running_notification_title">%1$s قيد التشغيل</string>
+  <string name="app_upgrading_toast">جارٍ ترقية %1$s…</string>
   <string name="audit_safemode_notification">يمكنك إعادة تعيين بيانات المصنع لاستخدام هذا الجهاز بدون قيود</string>
   <string name="audit_safemode_notification_details">المس للتعرف على مزيد من المعلومات.</string>
   <string name="autofill_address_name_separator">" "</string>
@@ -123,7 +124,6 @@
   <string name="bugreport_title">إعداد تقرير بالأخطاء</string>
   <string name="byteShort">بايت</string>
   <string name="cancel">إلغاء</string>
-  <string name="candidates_style">&lt;u&gt;&amp;#1575;&amp;#1604;&amp;#1593;&amp;#1606;&amp;#1575;&amp;#1589;&amp;#1585; &amp;#1575;&amp;#1604;&amp;#1605;&amp;#1585;&amp;#1588;&amp;#1581;&amp;#1577;&lt;/u&gt;</string>
   <string name="capability_desc_canControlMagnification">يمكنك التحكم في مستوى التكبير/التصغير للشاشة وتحديد الموضع.</string>
   <string name="capability_desc_canPerformGestures">يمكن النقر والتمرير بسرعة والتصغير وتنفيذ إيماءات أخرى.</string>
   <string name="capability_desc_canRequestEnhancedWebAccessibility">قد يتم تثبيت النصوص البرمجية لتسهيل الدخول إلى المحتوى.</string>
@@ -158,6 +158,7 @@
   <string name="close_button_text">إغلاق</string>
   <string name="common_name">الاسم الشائع:</string>
   <string name="condition_provider_service_binding_label">موفر الحالة</string>
+  <string name="conference_call">مكالمة جماعية</string>
   <string name="contentServiceSync">مزامنة</string>
   <string name="contentServiceSyncNotificationTitle">مزامنة</string>
   <string name="contentServiceTooManyDeletesNotificationDesc">عمليات حذف %s كثيرة للغاية.</string>
@@ -183,7 +184,7 @@
   <string name="data_usage_restricted_body">انقر لإزالة القيد.</string>
   <string name="data_usage_restricted_title">تم تقييد بيانات الخلفية</string>
   <string name="data_usage_warning_body">انقر لعرض الاستخدام والإعدادات.</string>
-  <string name="data_usage_warning_title">تحذير استخدام البيانات</string>
+  <string name="data_usage_warning_title">تنبيه استخدام البيانات</string>
   <string name="data_usage_wifi_limit_snoozed_title">‏تم تجاوز حد بيانات شبكة Wi-Fi</string>
   <string name="data_usage_wifi_limit_title">‏تم بلوغ حد بيانات Wi-Fi</string>
   <string name="date_and_time" formatted="false">%-l:%M:%S %p %d‏/%m‏/%Y</string>
@@ -213,6 +214,12 @@
   <string name="delete">حذف</string>
   <string name="deleteText">حذف</string>
   <string name="deleted_key">تم حذف %1$s</string>
+  <string name="demo_restarting_message">جارٍ إعادة تعيين الجهاز…</string>
+  <string name="demo_starting_message">جارٍ بدء العرض التوضيحي…</string>
+  <string name="demo_user_inactivity_timeout_countdown">ستفقد أي تغييرات وسيبدأ العرض التوضيحي مرة أخرى خلال %1$s من الثواني…</string>
+  <string name="demo_user_inactivity_timeout_left_button">إلغاء</string>
+  <string name="demo_user_inactivity_timeout_right_button">إعادة التعيين الآن</string>
+  <string name="demo_user_inactivity_timeout_title">هل تريد إعادة تعيين الجهاز؟</string>
   <string name="deny">رفض</string>
   <string name="description_target_unlock_tablet">مرر بسرعة لإلغاء التأمين.</string>
   <string name="dial_number_using">"طلب رقم
@@ -342,9 +349,11 @@
   <string name="gigabyteShort">غيغابايت</string>
   <string name="global_action_assist">مساعدة</string>
   <string name="global_action_bug_report">تقرير الأخطاء</string>
+  <string name="global_action_emergency">الطوارئ</string>
   <string name="global_action_lock">تأمين الشاشة</string>
   <string name="global_action_lockdown">قفل الآن</string>
   <string name="global_action_power_off">إيقاف التشغيل</string>
+  <string name="global_action_reboot">إعادة التمهيد</string>
   <string name="global_action_settings">الإعدادات</string>
   <string name="global_action_silent_mode_off_status">الصوت قيد التشغيل</string>
   <string name="global_action_silent_mode_on_status">الصوت متوقف</string>
@@ -585,6 +594,7 @@
   <string name="lockscreen_sim_unlock_progress_dialog_message">‏جارٍ إلغاء تأمين شريحة SIM…</string>
   <string name="lockscreen_sound_off_label">الصوت متوقف</string>
   <string name="lockscreen_sound_on_label">تشغيل الصوت</string>
+  <string name="lockscreen_storage_locked">إلغاء قفل جميع الميزات والبيانات</string>
   <string name="lockscreen_too_many_failed_attempts_countdown">حاول مرة أخرى خلال %d ثانية.</string>
   <string name="lockscreen_too_many_failed_attempts_dialog_message">"لقد رسمت نقش إلغاء التأمين بطريقة غير صحيحة %1$d مرة.
 
@@ -604,7 +614,7 @@
   <string name="lockscreen_transport_stop_description">إيقاف</string>
   <string name="lockscreen_unlock_label">إلغاء تأمين</string>
   <string name="low_internal_storage_view_text">قد لا تعمل بعض وظائف النظام</string>
-  <string name="low_internal_storage_view_text_no_boot">ليست هناك سعة تخزينية كافية للنظام. تأكد من أنه لديك مساحة خالية تبلغ ۲۵۰ ميغابايت وأعد التشغيل.</string>
+  <string name="low_internal_storage_view_text_no_boot">ليست هناك سعة تخزينية كافية للنظام. تأكد من أنه لديك مساحة خالية تبلغ ٢٥٠ ميغابايت وأعد التشغيل.</string>
   <string name="low_internal_storage_view_title">مساحة التخزين منخفضة</string>
   <string name="low_memory">سعة تخزين الهاتف ممتلئة. احذف بعض الملفات لإخلاء مساحة.</string>
   <string name="managed_profile_label">التبديل إلى العمل</string>
@@ -725,6 +735,10 @@
   <string name="needPuk2">‏اكتب PUK2 لإلغاء تأمين شريحة SIM.</string>
   <string name="negative_duration">−%1$s</string>
   <string name="network_available_sign_in">تسجيل الدخول إلى الشبكة</string>
+  <string name="network_switch_metered">تم التبديل إلى %1$s</string>
+  <string name="network_switch_metered_detail">يستخدم الجهاز %1$s عندما لا يتوفر اتصال بالإنترنت في شبكة %2$s، ويمكن أن يتم فرض رسوم مقابل ذلك.</string>
+  <string name="network_switch_metered_toast">تم التبديل من %1$s إلى %2$s</string>
+  <string name="network_switch_type_name_unknown">نوع شبكة غير معروف</string>
   <string name="new_app_action">بدء %1$s</string>
   <string name="new_app_description">إيقاف التطبيق القديم بدون الحفظ.</string>
   <string name="new_sms_notification_content">‏فتح تطبيق الرسائل القصيرة SMS للعرض</string>
@@ -1070,6 +1084,7 @@
   <string name="reboot_to_update_title">‏تحديث نظام Android</string>
   <string name="recent_tasks_title">حديثة</string>
   <string name="redo">إعادة</string>
+  <string name="region_picker_section_all">كل المناطق</string>
   <string name="relationTypeAssistant">مساعد</string>
   <string name="relationTypeBrother">أخ</string>
   <string name="relationTypeChild">طفل</string>
@@ -1089,6 +1104,8 @@
   <string name="replace">استبدال...</string>
   <string name="report">إرسال تقرير</string>
   <string name="reset">إعادة تعيين</string>
+  <string name="reset_retail_demo_mode_text">انقر لإعادة تعيين الجهاز</string>
+  <string name="reset_retail_demo_mode_title">هل تريد إعادة تعيين الجهاز؟</string>
   <string name="restr_pin_confirm_pin">‏تأكيد رمز PIN الجديد</string>
   <string name="restr_pin_create_pin">إنشاء رقم تعريف شخصي لتعديل القيود</string>
   <string name="restr_pin_enter_admin_pin">‏أدخل رمز PIN للمشرف</string>
@@ -1304,9 +1321,10 @@
   <string name="volume_notification">مستوى صوت التنبيه</string>
   <string name="volume_ringtone">مستوى صوت الرنين</string>
   <string name="volume_unknown">مستوى الصوت</string>
-  <string name="vpn_lockdown_config">انقر للتهيئة.</string>
+  <string name="vpn_lockdown_config">انقر للإعداد.</string>
   <string name="vpn_lockdown_connected">‏تم الاتصال بشبكة ظاهرية خاصة (VPN) دائمة التشغيل</string>
   <string name="vpn_lockdown_connecting">‏جارٍ الاتصال بشبكة ظاهرية خاصة (VPN) دائمة التشغيل...</string>
+  <string name="vpn_lockdown_disconnected">‏تم فصل الشبكة الظاهرية الخاصة (VPN) دائمة التشغيل</string>
   <string name="vpn_lockdown_error">‏خطأ بشبكة ظاهرية خاصة (VPN) دائمة التشغيل</string>
   <string name="vpn_text">انقر لإدارة الشبكة.</string>
   <string name="vpn_text_long">تم الاتصال بـ %s. انقر لإدارة الشبكة.</string>

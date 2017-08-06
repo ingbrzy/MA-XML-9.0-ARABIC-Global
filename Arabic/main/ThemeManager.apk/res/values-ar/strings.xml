@@ -116,8 +116,10 @@
   <string name="my_gifts_received">المستلمة</string>
   <string name="no_data">لا يمكن الاتصال بالشبكة</string>
   <string name="online_no_network">لا يمكن الاتصال بالشبكة</string>
+  <string name="online_precust_dreams">Dreams</string>
+  <string name="online_precust_midnight">Midnight</string>
   <string name="online_search_hint">البحث عن موارد على الانترنت</string>
-  <string name="present_local_themes">الثيمات التي تم تنزيلها</string>
+  <string name="present_local_themes">المصادر الخاصة بي</string>
   <string name="present_online_themes">احصل على المزيد من الثيمات مجانا</string>
   <string name="provision_default_theme_title">الافتراضية</string>
   <string name="provision_loading_tips">لحظة من فضلك…</string>

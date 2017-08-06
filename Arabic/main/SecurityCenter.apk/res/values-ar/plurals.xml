@@ -124,6 +124,14 @@
         <item quantity="few">تم العثور على %d تطبيقات</item>
         <item quantity="many">تم العثور على %d تطبيق</item>
     </plurals>
+    <plurals name="om_ill_proc_multi_app_title">
+        <item quantity="other">%d تطبيق لا يعمل بشكل صحيح ويستنزف البطارية</item>
+        <item quantity="zero">%d تطبيق لا يعمل بشكل صحيح ويستنزف البطارية</item>
+        <item quantity="one">%d تطبيق لا يعمل بشكل صحيح ويستنزف البطارية</item>
+        <item quantity="two">%d تطبيقات لا تعمل بشكل صحيح وتستنزف البطارية</item>
+        <item quantity="few">%d تطبيقات لا تعمل بشكل صحيح وتستنزف البطارية</item>
+        <item quantity="many">%d تطبيق لا يعمل بشكل صحيح ويستنزف البطارية</item>
+    </plurals>
     <plurals name="power_center_battery_day">
         <item quantity="other">"%d يوم "</item>
         <item quantity="zero">"%d يوم "</item>
@@ -213,28 +221,28 @@
         <item quantity="many">%1$d مشاهدة</item>
     </plurals>
     <plurals name="result_virus_header">
-        <item quantity="other">Found %d viruses and insecure apps</item>
-        <item quantity="zero">Found %d viruses and insecure apps</item>
-        <item quantity="one">Found %d virus app</item>
-        <item quantity="two">Found %d viruses and insecure apps</item>
-        <item quantity="few">Found %d viruses and insecure apps</item>
-        <item quantity="many">Found %d viruses and insecure apps</item>
+        <item quantity="other">تم العثور على %d فيروس و تطبيق غير آمن</item>
+        <item quantity="zero">تم العثور على %d تطبيق فيروس</item>
+        <item quantity="one">تم العثور على %d تطبيق فيروس</item>
+        <item quantity="two">تم العثور على %d فيروسات و تطبيقات غير آمنة</item>
+        <item quantity="few">تم العثور على %d فيروسات و تطبيقات غير آمنة</item>
+        <item quantity="many">تم العثور على %d فيروس و تطبيق غير آمن</item>
     </plurals>
     <plurals name="result_sign_header">
-        <item quantity="other">Found %d unofficial apps</item>
-        <item quantity="zero">Found %d unofficial apps</item>
-        <item quantity="one">Found %d unofficial app</item>
-        <item quantity="two">Found %d unofficial apps</item>
-        <item quantity="few">Found %d unofficial apps</item>
-        <item quantity="many">Found %d unofficial apps</item>
+        <item quantity="other">تم العثور على %d تطبيق غير رسمي</item>
+        <item quantity="zero">تم العثور على %d تطبيق غير رسمي</item>
+        <item quantity="one">تم العثور على %d تطبيق غير رسمي</item>
+        <item quantity="two">تم العثور على %d تطبيقات غير رسمية</item>
+        <item quantity="few">تم العثور على %d تطبيقات غير رسمية</item>
+        <item quantity="many">تم العثور على %d تطبيق غير رسمي</item>
     </plurals>
     <plurals name="sp_settings_exception_count">
-        <item quantity="other">%d items</item>
-        <item quantity="zero">%d items</item>
-        <item quantity="one">%d item</item>
-        <item quantity="two">%d items</item>
-        <item quantity="few">%d items</item>
-        <item quantity="many">%d items</item>
+        <item quantity="other">%d عنصر</item>
+        <item quantity="zero">%d عنصر</item>
+        <item quantity="one">%d عنصر</item>
+        <item quantity="two">%d عناصر</item>
+        <item quantity="few">%d عناصر</item>
+        <item quantity="many">%d عنصر</item>
     </plurals>
     <plurals name="sp_monitored_apps_count">
         <item quantity="other">%s تطبيق دفع محمي</item>
@@ -517,19 +525,19 @@
         <item quantity="many">استخدم منذ %d سنة</item>
     </plurals>
     <plurals name="install_game_count_title">
-        <item quantity="other">Added %d games</item>
-        <item quantity="zero">Added %d games</item>
-        <item quantity="one">Added %d game</item>
-        <item quantity="two">Added %d games</item>
-        <item quantity="few">Added %d games</item>
-        <item quantity="many">Added %d games</item>
+        <item quantity="other">تمت إضافة %d لعبة</item>
+        <item quantity="zero">تمت إضافة %d لعبة</item>
+        <item quantity="one">تمت إضافة %d لعبة</item>
+        <item quantity="two">تمت إضافة %d ألعاب</item>
+        <item quantity="few">تمت إضافة %d ألعاب</item>
+        <item quantity="many">تمت إضافة %d لعبة</item>
     </plurals>
     <plurals name="uninstall_game_count_title">
-        <item quantity="other">"Haven't added %d games"</item>
-        <item quantity="zero">"Haven't added %d games"</item>
-        <item quantity="one">"Haven't added %d game"</item>
-        <item quantity="two">"Haven't added %d games"</item>
-        <item quantity="few">"Haven't added %d games"</item>
-        <item quantity="many">"Haven't added %d games"</item>
+        <item quantity="other">لم تتم إضافة %d لعبة</item>
+        <item quantity="zero">لم تتم إضافة %d لعبة</item>
+        <item quantity="one">لم تتم إضافة %d لعبة</item>
+        <item quantity="two">لم تتم إضافة %d ألعاب</item>
+        <item quantity="few">لم تتم إضافة %d ألعاب</item>
+        <item quantity="many">لم تتم إضافة %d لعبة</item>
     </plurals>
 </resources>

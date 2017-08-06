@@ -17,11 +17,11 @@
         <item quantity="many">%d إشعار في الفضاء الأول</item>
     </plurals>
     <plurals name="second_space_notification_format">
-        <item quantity="other">%d إشعار في الفضاء الثاني</item>
-        <item quantity="zero">%d إشعار في الفضاء الثاني</item>
-        <item quantity="one">%d إشعار في الفضاء الثاني</item>
-        <item quantity="two">%d إشعارات في الفضاء الثاني</item>
-        <item quantity="few">%d إشعارات في الفضاء الثاني</item>
-        <item quantity="many">%d إشعار في الفضاء الثاني</item>
+        <item quantity="other">%d إشعار في الواجهة الثانية</item>
+        <item quantity="zero">%d إشعار في الواجهة الثانية</item>
+        <item quantity="one">%d إشعار في الواجهة الثانية</item>
+        <item quantity="two">%d إشعارات في الواجهة الثانية</item>
+        <item quantity="few">%d إشعارات في الواجهة الثانية</item>
+        <item quantity="many">%d إشعار في الواجهة الثانية</item>
     </plurals>
 </resources>

@@ -118,6 +118,7 @@
   <string name="confirm_enable_oem_unlock_title">‏‮Allow‬‏ ‏‮OEM‬‏ ‏‮unlocking?‬‏</string>
   <string name="connected_via_passpoint">‏‮Connected‬‏ ‏‮via‬‏ ‏‮%1$s‬‏</string>
   <string name="connected_via_wfa">‏‮Connected‬‏ ‏‮via‬‏ ‏‮Wi‑Fi‬‏ ‏‮assistant‬‏</string>
+  <string name="content_description_menu_button">‏‮Menu‬‏</string>
   <string name="convert_to_fbe_warning">"‏‮Convert‬‏ ‏‮data‬‏ ‏‮partition‬‏ ‏‮to‬‏ ‏‮file‬‏ ‏‮based‬‏ ‏‮encryption.
 ‬‏ ‏‮!!Warning!!‬‏ ‏‮This‬‏ ‏‮will‬‏ ‏‮erase‬‏ ‏‮all‬‏ ‏‮your‬‏ ‏‮data.
 ‬‏ ‏‮This‬‏ ‏‮feature‬‏ ‏‮is‬‏ ‏‮alpha,‬‏ ‏‮and‬‏ ‏‮may‬‏ ‏‮not‬‏ ‏‮work‬‏ ‏‮correctly.
@@ -150,6 +151,8 @@
   <string name="debug_networking_category">‏‮Networking‬‏</string>
   <string name="debug_view_attributes">‏‮Enable‬‏ ‏‮view‬‏ ‏‮attribute‬‏ ‏‮inspection‬‏</string>
   <string name="default_permission_description">‏‮perform‬‏ ‏‮an‬‏ ‏‮unknown‬‏ ‏‮action‬‏</string>
+  <string name="dev_logpersist_clear_warning_message">‏‮When‬‏ ‏‮we‬‏ ‏‮no‬‏ ‏‮longer‬‏ ‏‮are‬‏ ‏‮monitoring‬‏ ‏‮with‬‏ ‏‮the‬‏ ‏‮persistent‬‏ ‏‮logger,‬‏ ‏‮we‬‏ ‏‮are‬‏ ‏‮required‬‏ ‏‮to‬‏ ‏‮erase‬‏ ‏‮the‬‏ ‏‮logger‬‏ ‏‮data‬‏ ‏‮resident‬‏ ‏‮on‬‏ ‏‮your‬‏ ‏‮device.‬‏</string>
+  <string name="dev_logpersist_clear_warning_title">‏‮Clear‬‏ ‏‮logger‬‏ ‏‮persistent‬‏ ‏‮storage?‬‏</string>
   <string name="dev_settings_warning_message">‏‮These‬‏ ‏‮settings‬‏ ‏‮are‬‏ ‏‮intended‬‏ ‏‮for‬‏ ‏‮development‬‏ ‏‮use‬‏ ‏‮only.‬‏ ‏‮They‬‏ ‏‮can‬‏ ‏‮cause‬‏ ‏‮your‬‏ ‏‮device‬‏ ‏‮and‬‏ ‏‮the‬‏ ‏‮applications‬‏ ‏‮on‬‏ ‏‮it‬‏ ‏‮to‬‏ ‏‮break‬‏ ‏‮or‬‏ ‏‮misbehave.‬‏</string>
   <string name="dev_settings_warning_title">‏‮Allow‬‏ ‏‮development‬‏ ‏‮settings?‬‏</string>
   <string name="development_settings_enable">‏‮Enable‬‏ ‏‮developer‬‏ ‏‮options‬‏</string>
@@ -259,7 +262,6 @@ All‬‏ ‏‮your‬‏ ‏‮previous‬‏ ‏‮user‬‏ ‏‮data‬�
   <string name="lb_search_bar_hint_with_title">‏‮Search‬‏ %1$s</string>
   <string name="lb_search_bar_hint_with_title_speech">‏‮Speak‬‏ ‏‮to‬‏ ‏‮search‬‏ %1$s</string>
   <string name="lb_time_separator">‏‮:‬‏</string>
-  <string name="legacy_dhcp_client_summary">‏‮Use‬‏ ‏‮the‬‏ ‏‮DHCP‬‏ ‏‮client‬‏ ‏‮from‬‏ ‏‮Lollipop‬‏ ‏‮instead‬‏ ‏‮of‬‏ ‏‮the‬‏ ‏‮new‬‏ ‏‮Android‬‏ ‏‮DHCP‬‏ ‏‮client.‬‏</string>
   <string name="loading">‏‮Loading…‬‏</string>
   <string name="local_backup_password_summary_change">‏‮Tap‬‏ ‏‮to‬‏ ‏‮change‬‏ ‏‮or‬‏ ‏‮remove‬‏ ‏‮the‬‏ ‏‮password‬‏ ‏‮for‬‏ ‏‮desktop‬‏ ‏‮full‬‏ ‏‮backups‬‏</string>
   <string name="local_backup_password_summary_none">‏‮Desktop‬‏ ‏‮full‬‏ ‏‮backups‬‏ ‏‮aren’t‬‏ ‏‮currently‬‏ ‏‮protected‬‏</string>
@@ -341,10 +343,13 @@ All‬‏ ‏‮your‬‏ ‏‮previous‬‏ ‏‮user‬‏ ‏‮data‬�
   <string name="screen_zoom_summary_large">‏‮Large‬‏</string>
   <string name="screen_zoom_summary_small">‏‮Small‬‏</string>
   <string name="screen_zoom_summary_very_large">‏‮Larger‬‏</string>
+  <string name="search_menu_title">‏‮Search‬‏</string>
   <string name="security_settings_desc">‏‮Allow‬‏ ‏‮this‬‏ ‏‮app‬‏ ‏‮to:‬‏</string>
   <string name="select_application">‏‮Select‬‏ ‏‮application‬‏</string>
   <string name="select_logd_size_dialog_title">‏‮Select‬‏ ‏‮Logger‬‏ ‏‮sizes‬‏ ‏‮per‬‏ ‏‮log‬‏ ‏‮buffer‬‏</string>
   <string name="select_logd_size_title">‏‮Logger‬‏ ‏‮buffer‬‏ ‏‮sizes‬‏</string>
+  <string name="select_logpersist_dialog_title">‏‮Select‬‏ ‏‮log‬‏ ‏‮buffers‬‏ ‏‮to‬‏ ‏‮store‬‏ ‏‮persistently‬‏ ‏‮on‬‏ ‏‮device‬‏</string>
+  <string name="select_logpersist_title">‏‮Store‬‏ ‏‮logger‬‏ ‏‮data‬‏ ‏‮persistently‬‏ ‏‮on‬‏ ‏‮device‬‏</string>
   <string name="select_usb_configuration_dialog_title">‏‮Select‬‏ ‏‮USB‬‏ ‏‮Configuration‬‏</string>
   <string name="select_usb_configuration_title">‏‮Select‬‏ ‏‮USB‬‏ ‏‮Configuration‬‏</string>
   <string name="select_webview_provider_dialog_title">‏‮Set‬‏ ‏‮WebView‬‏ ‏‮implementation‬‏</string>
@@ -353,8 +358,6 @@ All‬‏ ‏‮your‬‏ ‏‮previous‬‏ ‏‮user‬‏ ‏‮data‬�
   <string name="settings">‏‮Settings‬‏</string>
   <string name="show_all_anrs">‏‮Show‬‏ ‏‮all‬‏ ‏‮ANRs‬‏</string>
   <string name="show_all_anrs_summary">‏‮Show‬‏ ‏‮App‬‏ ‏‮Not‬‏ ‏‮Responding‬‏ ‏‮dialog‬‏ ‏‮for‬‏ ‏‮background‬‏ ‏‮apps‬‏</string>
-  <string name="show_cpu_usage">‏‮Show‬‏ ‏‮CPU‬‏ ‏‮usage‬‏</string>
-  <string name="show_cpu_usage_summary">‏‮Screen‬‏ ‏‮overlay‬‏ ‏‮showing‬‏ ‏‮current‬‏ ‏‮CPU‬‏ ‏‮usage‬‏</string>
   <string name="show_hw_layers_updates">‏‮Show‬‏ ‏‮hardware‬‏ ‏‮layers‬‏ ‏‮updates‬‏</string>
   <string name="show_hw_layers_updates_summary">‏‮Flash‬‏ ‏‮hardware‬‏ ‏‮layers‬‏ ‏‮green‬‏ ‏‮when‬‏ ‏‮they‬‏ ‏‮update‬‏</string>
   <string name="show_hw_screen_updates">‏‮Show‬‏ ‏‮GPU‬‏ ‏‮view‬‏ ‏‮updates‬‏</string>
@@ -450,13 +453,16 @@ All‬‏ ‏‮your‬‏ ‏‮previous‬‏ ‏‮user‬‏ ‏‮data‬�
   <string name="wifi_display_certification">‏‮Wireless‬‏ ‏‮display‬‏ ‏‮certification‬‏</string>
   <string name="wifi_display_certification_summary">‏‮Show‬‏ ‏‮options‬‏ ‏‮for‬‏ ‏‮wireless‬‏ ‏‮display‬‏ ‏‮certification‬‏</string>
   <string name="wifi_fail_to_scan">"‏‮Can't‬‏ ‏‮scan‬‏ ‏‮for‬‏ ‏‮networks‬‏"</string>
-  <string name="wifi_no_internet">"‏‮No‬‏ ‏‮Internet‬‏ ‏‮Access‬‏ ‏‮Detected,‬‏ ‏‮won't‬‏ ‏‮automatically‬‏ ‏‮reconnect.‬‏"</string>
+  <string name="wifi_no_internet">‏‮No‬‏ ‏‮Internet‬‏ ‏‮Access.‬‏</string>
+  <string name="wifi_no_internet_no_reconnect">"‏‮No‬‏ ‏‮Internet‬‏ ‏‮Access‬‏ ‏‮Detected,‬‏ ‏‮won't‬‏ ‏‮automatically‬‏ ‏‮reconnect.‬‏"</string>
   <string name="wifi_not_in_range">‏‮Not‬‏ ‏‮in‬‏ ‏‮range‬‏</string>
   <string name="wifi_remembered">‏‮Saved‬‏</string>
   <string name="wifi_security_eap">‏‮802.1x‬‏ ‏‮EAP‬‏</string>
   <string name="wifi_security_none">‏‮None‬‏</string>
   <string name="wifi_security_passpoint">‏‮Passpoint‬‏</string>
+  <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
   <string name="wifi_security_short_eap">‏‮802.1x‬‏</string>
+  <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
   <string name="wifi_security_short_wep">‏‮WEP‬‏</string>
   <string name="wifi_security_short_wpa">‏‮WPA‬‏</string>
   <string name="wifi_security_short_wpa2">‏‮WPA2‬‏</string>

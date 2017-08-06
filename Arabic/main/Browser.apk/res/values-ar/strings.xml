@@ -167,6 +167,7 @@
   <string name="color_picker_dialog_title">تحديد اللون</string>
   <string name="color_picker_hue">تدرج اللون</string>
   <string name="color_picker_saturation">صفاء اللون</string>
+  <string name="color_picker_value">القيمة</string>
   <string name="comment_app_menu">التعليق</string>
   <string name="comment_description">تعليق</string>
   <string name="comment_hint">تعليق</string>
@@ -200,8 +201,7 @@
   <string name="current_version_pad">Pad</string>
   <string name="current_version_pc">الكمبيوتر الشخصي</string>
   <string name="current_version_phone">الهاتف</string>
-  <string name="custom_head_card_text">"كن واثقا دائما أن شيئا رائعا
-على وشك الحدوث"</string>
+  <string name="custom_head_card_text">كن واثقاً دائماً أن شيئاً رائعاً على وشك الحدوث</string>
   <string name="custom_head_card_text_incognito">"أنت متخفي!
 الصفحات التي قمت بعرضها لن تظهر في السجل."</string>
   <string name="data_traffic_prompt_change">سيؤدي استخدام اتصال بيانات الجوال لمشاهدة مقاطع الفيديو إلى زيادة استخدام البيانات. إذا تجاوزت حد استخدام البيانات لخطتك، فقد تفرض عليك شركة الاتصالات رسوما إضافية.</string>
@@ -417,6 +417,7 @@
   <string name="miuichromium_error_page_btn_close">إغلاق</string>
   <string name="miuichromium_error_page_btn_refresh">تحديث</string>
   <string name="miuichromium_error_page_btn_report_issue">الإبلاغ عن خلل</string>
+  <string name="miuichromium_error_page_description_no_connection" formatted="false">تعذر الاتصال بالشبكة بسبب ضعف الإشارة أو إعدادات شبكة غير صحيحة. تحقق من %s١إعدادات الشبكة%s٢و حاول مجددا.</string>
   <string name="miuichromium_error_page_diagnose">تشخيص الشبكة</string>
   <string name="miuichromium_error_page_diagnose_banner">تشخيص الشبكة</string>
   <string name="miuichromium_error_page_diagnose_certificate">تعذر التحقق من شبكة البروتوكول</string>
@@ -433,9 +434,57 @@
   <string name="miuichromium_error_page_network_hijack">الشبكة الحالية غير آمنة</string>
   <string name="miuichromium_error_page_network_off">قم بتشغيل شبكة الـWi-Fi او بيانات الجوال</string>
   <string name="miuichromium_error_page_no_network">لا يمكن الاتصال بالشبكة</string>
-  <string name="miuichromium_error_page_reload">تحديث</string>
+  <string name="miuichromium_error_page_problem_access_denied">الوصول إلى %s0 مرفوض</string>
+  <string name="miuichromium_error_page_problem_cache_miss">لا يمكن تحميل هذه الصفحة من ذاكرة التخزين المؤقت</string>
+  <string name="miuichromium_error_page_problem_cannot_open_page">لا يمكن فتح الصفحة</string>
+  <string name="miuichromium_error_page_problem_cannot_reach_site">لا يمكن الوصول إلى هذا الموقع</string>
+  <string name="miuichromium_error_page_problem_connection_interrupted">إنقطع الاتصال</string>
+  <string name="miuichromium_error_page_problem_file_not_found">تعذر إيجاد الملف</string>
+  <string name="miuichromium_error_page_problem_gateway_timed_out">يستغرق وقتا طويلا جدا لـ %s0 للاستجابة</string>
+  <string name="miuichromium_error_page_problem_network_access_denied">الوصول إلى الانترنت مقيد</string>
+  <string name="miuichromium_error_page_problem_no_internet_connection">تعذر الإتصال بالإنترنت</string>
+  <string name="miuichromium_error_page_problem_page_moved">هذه الصفحة الموجودة على %s0 ربما تم نقلها أو حذفها</string>
+  <string name="miuichromium_error_page_problem_page_not_found">تعذر العثور على هذه الصفحة في %s0</string>
+  <string name="miuichromium_error_page_problem_page_not_working">هذه الصفحه لا تعمل</string>
+  <string name="miuichromium_error_page_problem_security_error">لا يمكن لهذا الموقع توفير إتصال الآمن</string>
+  <string name="miuichromium_error_page_problem_server_fault">%s0 غير قادر حاليا على معالجة هذا الطلب</string>
+  <string name="miuichromium_error_page_reason_bad_client_cert">" بسبب عدم قبول%s0 شهادتك"</string>
+  <string name="miuichromium_error_page_reason_bad_server_cert">. %s0 لا يلتزم بالمعايير الأمنية</string>
+  <string name="miuichromium_error_page_reason_blocked_by_response">. الدخول مغلق بواسطة %s0</string>
+  <string name="miuichromium_error_page_reason_connection_closed">. %s0 توقف الاتصال</string>
+  <string name="miuichromium_error_page_reason_connection_refused">. %s0 رفض الاتصال</string>
+  <string name="miuichromium_error_page_reason_connection_reset">. تمت إعادة تعيين الاتصال</string>
+  <string name="miuichromium_error_page_reason_device_slept">" when your device went to sleep"</string>
+  <string name="miuichromium_error_page_reason_empty_response">" بسبب عدم ارسال %s0 أي بيانات"</string>
+  <string name="miuichromium_error_page_reason_invalid_address">. عنوان IP أو رقم المنفذ غير صالح</string>
+  <string name="miuichromium_error_page_reason_invalid_response">" بسبب ارسال %s0 إستجابة غير صالحة"</string>
+  <string name="miuichromium_error_page_reason_invalid_url">" لأن عنوان URL غير صالح"</string>
+  <string name="miuichromium_error_page_reason_moved_or_deleted">. It might be moved or deleted</string>
+  <string name="miuichromium_error_page_reason_name_collision">. هذا الموقع على الإنترانت له نفس عنوان URL كموقع خارجي</string>
+  <string name="miuichromium_error_page_reason_name_not_resolved">. تعذر العثور على عنوان DNS لـ %s0</string>
+  <string name="miuichromium_error_page_reason_network_changed">" بسبب تغيير الشبكة"</string>
+  <string name="miuichromium_error_page_reason_proxy_error">. هناك خطأ ما في الخادم الوكيل، أو عنوان الخادم الوكيل غير صحيح</string>
+  <string name="miuichromium_error_page_reason_site_unreachable">.لايمكن الوصول إلى %s0 حاليا</string>
+  <string name="miuichromium_error_page_reason_timed_out">. %s0 لا يستجيب لفترة طويلة جدا</string>
+  <string name="miuichromium_error_page_reason_too_many_redirects">" because %s0 redirected you too many times"</string>
+  <string name="miuichromium_error_page_reason_unsafe_port">. يستخدم %s0 رقم منقذ غير آمن</string>
+  <string name="miuichromium_error_page_reason_unsafe_redirect">. يعيد %s0 توجيهك بطريقة غير آمنة</string>
+  <string name="miuichromium_error_page_reason_unsupported_protocol">. يستخدم %s0 بروتوكول غير معتمد</string>
+  <string name="miuichromium_error_page_reload">إعادة تحميل</string>
   <string name="miuichromium_error_page_safe_network">وضع الآمان</string>
   <string name="miuichromium_error_page_server_error">العديد من الأجهزة تحاول الاتصال</string>
+  <string name="miuichromium_error_page_suggestion_check_app_proxy">تحقق من إعدادات تطبيقات الخادم الوكيل المثبتة على جهازك.</string>
+  <string name="miuichromium_error_page_suggestion_check_connetion">تحقق من اتصال الإنترنت.</string>
+  <string name="miuichromium_error_page_suggestion_check_mobile_proxy" formatted="false">(بيانات الجوال) قم بإعادة تعيين %s١إعدادات APN%s٢.</string>
+  <string name="miuichromium_error_page_suggestion_check_url">تحقق من عنوان URL الذي أدخلته.</string>
+  <string name="miuichromium_error_page_suggestion_check_wifi_proxy" formatted="false">(WiFi) تحقق من %s١إعدادات الخادم الوكيل%s٢.</string>
+  <string name="miuichromium_error_page_suggestion_clear_cache" formatted="false">محو ذاكرة التخزين المؤقت (%s١الإعدادات%s٢ - محو البيانات).</string>
+  <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies" formatted="false">محو ذاكرة التخزين المؤقت و ملفات تعريف الارتباط (%s١الإعدادات%s٢ - مسح البيانات، قد تفقد معلومات حسابك).</string>
+  <string name="miuichromium_error_page_suggestion_connect_and_retry">إعادة تحميل بعد الاتصال بالإنترنت</string>
+  <string name="miuichromium_error_page_suggestion_contact_admin">تواصل مع مشرف النظام.</string>
+  <string name="miuichromium_error_page_suggestion_correct_url">تحقق من العنوان الذي أدخلته وحاول مرة أخرى باستخدام عنوان URL الصحيح.</string>
+  <string name="miuichromium_error_page_suggestion_grant_permission">إعادة التحميل بعد منح إذن للمتصفح الوصول إلى الإنترنت.</string>
+  <string name="miuichromium_error_page_suggestion_title">. جرب هذا:</string>
   <string name="miuichromium_error_page_title">حدث خطأ ما</string>
   <string name="miuichromium_error_page_unknown_error">عفوا، حدث خطأ ما</string>
   <string name="miuichromium_error_page_wlan">تشغيل الـWi-Fi</string>

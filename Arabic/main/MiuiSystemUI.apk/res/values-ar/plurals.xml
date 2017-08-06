@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="status_bar_accessibility_recent_apps">
-        <item quantity="other">%d تطبيق اخير</item>
-        <item quantity="zero">%d تطبيقات اخيرة</item>
-        <item quantity="one">۱ تطبيق اخير</item>
-        <item quantity="two">%d تطبيقات اخيرة</item>
-        <item quantity="few">%d تطبيقات اخيرة</item>
-        <item quantity="many">%d تطبيق اخير</item>
+        <item quantity="other">%d تطبيق حديث</item>
+        <item quantity="zero">%d تطبيق حديث</item>
+        <item quantity="one">%d تطبيق حديث</item>
+        <item quantity="two">%d تطبيقات حديثة</item>
+        <item quantity="few">%d تطبيقات حديثة</item>
+        <item quantity="many">%d تطبيق حديث</item>
     </plurals>
     <plurals name="accessibility_recent_task_enter">
-        <item quantity="other">Opened Recents, available apps: %d.</item>
-        <item quantity="zero">Opened Recents, available apps: %d.</item>
-        <item quantity="one">Opened Recents, available app: 1.</item>
-        <item quantity="two">Opened Recents, available apps: %d.</item>
-        <item quantity="few">Opened Recents, available apps: %d.</item>
-        <item quantity="many">Opened Recents, available apps: %d.</item>
+        <item quantity="other">تم فتحها حديثا، التطبيقات المتاحة: %d.</item>
+        <item quantity="zero">تم فتحها حديثا، التطبيق المتاح: %d.</item>
+        <item quantity="one">تم فتحها حديثا، التطبيق المتاح: %d.</item>
+        <item quantity="two">تم فتحها حديثا، التطبيقات المتاحة: %d.</item>
+        <item quantity="few">تم فتحها حديثا، التطبيقات المتاحة: %d.</item>
+        <item quantity="many">تم فتحها حديثا، التطبيقات المتاحة: %d.</item>
     </plurals>
     <plurals name="accessibility_recent_task_first_enter_tips">
-        <item quantity="other">Opened Recents, available apps: %d. Swipe up to remove, swipe down to lock.</item>
-        <item quantity="zero">Opened Recents, available apps: %d. Swipe up to remove, swipe down to lock.</item>
-        <item quantity="one">Opened Recents, available app: 1. Swipe up to remove, swipe down to lock.</item>
-        <item quantity="two">Opened Recents, available apps: %d. Swipe up to remove, swipe down to lock.</item>
-        <item quantity="few">Opened Recents, available apps: %d. Swipe up to remove, swipe down to lock.</item>
-        <item quantity="many">Opened Recents, available apps: %d. Swipe up to remove, swipe down to lock.</item>
+        <item quantity="other">تم فتحها حديثا، التطبيقات المتاحة: %d. اسحب لأعلى للحذف، اسحب لأسفل للقفل.</item>
+        <item quantity="zero">تم فتحها حديثا، التطبيق المتاح: %d. اسحب لأعلى للحذف، اسحب لأسفل للقفل.</item>
+        <item quantity="one">تم فتحها حديثا، التطبيق المتاح: %d. اسحب لأعلى للحذف، اسحب لأسفل للقفل.</item>
+        <item quantity="two">تم فتحها حديثا، التطبيقات المتاحة: %d. اسحب لأعلى للحذف، اسحب لأسفل للقفل.</item>
+        <item quantity="few">تم فتحها حديثا، التطبيقات المتاحة: %d. اسحب لأعلى للحذف، اسحب لأسفل للقفل.</item>
+        <item quantity="many">تم فتحها حديثا، التطبيقات المتاحة: %d. اسحب لأعلى للحذف، اسحب لأسفل للقفل.</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
-        <item quantity="other">%1$d toggles above this bar are active</item>
-        <item quantity="zero">%1$d toggles above this bar are active</item>
-        <item quantity="one">1 toggle above this bar are active</item>
-        <item quantity="two">%1$d toggles above this bar are active</item>
-        <item quantity="few">%1$d toggles above this bar are active</item>
-        <item quantity="many">%1$d toggles above this bar are active</item>
+        <item quantity="other">%1$d مفتاح أعلى هذا الشرط مفعل</item>
+        <item quantity="zero">%1$d مفتاح أعلى هذا الشرط مفعل</item>
+        <item quantity="one">%1$d مفتاح أعلى هذا الشرط مفعل</item>
+        <item quantity="two">%1$d مفاتيح أعلى هذا الشرط مفعلة</item>
+        <item quantity="few">%1$d مفاتيح أعلى هذا الشرط مفعلة</item>
+        <item quantity="many">%1$d مفتاح أعلى هذا الشرط مفعل</item>
     </plurals>
     <plurals name="disable_notification_confirm_title">
         <item quantity="other">إخفاء إشعارات %d تطبيق؟</item>
@@ -41,12 +41,12 @@
         <item quantity="many">إخفاء إشعارات %d تطبيق؟</item>
     </plurals>
     <plurals name="block_record_notification_more_text">
-        <item quantity="other">Hiding notifications from %1$s &amp; %2$d apps.</item>
-        <item quantity="zero">Hiding notifications from %1$s &amp; %2$d apps.</item>
-        <item quantity="one">Hiding notifications from %1$s &amp; 1 app.</item>
-        <item quantity="two">Hiding notifications from %1$s &amp; %2$d apps.</item>
-        <item quantity="few">Hiding notifications from %1$s &amp; %2$d apps.</item>
-        <item quantity="many">Hiding notifications from %1$s &amp; %2$d apps.</item>
+        <item quantity="other">إخفاء الإشعارات من %1$s &amp; %2$d تطبيق.</item>
+        <item quantity="zero">إخفاء الإشعارات من %1$s &amp; %2$d تطبيق.</item>
+        <item quantity="one">إخفاء الإشعارات من %1$s &amp; %2$d تطبيق.</item>
+        <item quantity="two">إخفاء الإشعارات من %1$s &amp; %2$d تطبيقات.</item>
+        <item quantity="few">إخفاء الإشعارات من %1$s &amp; %2$d تطبيقات.</item>
+        <item quantity="many">إخفاء الإشعارات من %1$s &amp; %2$d تطبيق.</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">سماء صافية</item>
@@ -55,5 +55,13 @@
         <item quantity="two">سماء صافية</item>
         <item quantity="few">سماء صافية</item>
         <item quantity="many">سماء صافية</item>
+    </plurals>
+    <plurals name="fold_tips_title">
+        <item quantity="other">%d notifications are fold</item>
+        <item quantity="zero">%d notifications are fold</item>
+        <item quantity="one">%d notification is fold</item>
+        <item quantity="two">%d notifications are fold</item>
+        <item quantity="few">%d notifications are fold</item>
+        <item quantity="many">%d notifications are fold</item>
     </plurals>
 </resources>

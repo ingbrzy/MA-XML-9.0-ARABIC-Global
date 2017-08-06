@@ -155,17 +155,22 @@
   <string name="lock_screen_success_message">تطبيق لشاشة القفل</string>
   <string name="lock_screen_wallpaper">خلفية شاشة القفل</string>
   <string name="menu_add">أضف</string>
+  <string name="menu_auto_fill">Auto Fill</string>
   <string name="menu_back_desktop">الرجوع للشاشة الرئيسية</string>
+  <string name="menu_cell_setting">Screen Setting</string>
   <string name="menu_customize">الاعدادت</string>
   <string name="menu_edit">تعديل الشاشة الرئيسية</string>
   <string name="menu_exit_scene">الخروج من Mi Space</string>
   <string name="menu_item_add_item">وضع على الشاشة الرئيسية</string>
   <string name="menu_launcher_setting">إعدادات المشغل</string>
+  <string name="menu_lock">Lock Screen</string>
+  <string name="menu_more">المزيد</string>
   <string name="menu_picktheme">اختر ثيم</string>
   <string name="menu_reset_scene">إعادة تعيين للتنسيق الافتراضي</string>
   <string name="menu_search">بحث</string>
   <string name="menu_settings">الإعدادات</string>
   <string name="menu_sort">ترتيب التطبيق</string>
+  <string name="menu_trans_effect">Transition Effect</string>
   <string name="menu_wallpaper">خلفية الشاشة</string>
   <string name="menu_workspace_preview">معاينات الشاشة الرئيسية</string>
   <string name="mi_wallpaper">متجر ثيمات MIUI</string>
@@ -266,4 +271,5 @@
   <string name="widget_favorite_contacts_style">تغيير الحجم</string>
   <string name="widget_gadget_player">موسيقى</string>
   <string name="widget_global_search">بحث</string>
+  <string name="widget_quick_function">وظيفة سريعة</string>
 </resources>

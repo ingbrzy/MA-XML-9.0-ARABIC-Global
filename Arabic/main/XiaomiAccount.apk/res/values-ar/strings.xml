@@ -149,11 +149,13 @@
   <string name="mipay">دفع</string>
   <string name="mipay_balance">الرصيد</string>
   <string name="mipay_bank_card">بطاقة البنك</string>
+  <string name="mipay_identitiy_no">لا</string>
   <string name="mipay_identity">التحقق من الهوية</string>
+  <string name="mipay_indentity_done">تم</string>
   <string name="mipay_others">أخرى</string>
   <string name="mipay_transit_card">بطاقة النقل</string>
   <string name="multi_user_not_show_sync_activity_message_1">يبدو أنك تستخدم حساب Mi الخاص بالفضاء الأول.</string>
-  <string name="multi_user_not_show_sync_activity_message_2">في مثل هذه الحالة، سيتم مزامنة كل البيانات إلى الفضاء الثاني الخاص بك. لتجنب هذا، لا تقم بتشغيل المزامنة مع Mi Cloud.</string>
+  <string name="multi_user_not_show_sync_activity_message_2">في مثل هذه الحالة، سيتم مزامنة كل البيانات إلى الواجهة الثانية الخاص بك. لتجنب هذا، لا تقم بتشغيل المزامنة مع Mi Cloud.</string>
   <string name="multi_user_not_show_sync_activity_title">لا تقم بتشغيل المزامنة مع Mi Cloud</string>
   <string name="my_device_title">الجهاز الحالي</string>
   <string name="no_network_btn">تحديث</string>

@@ -105,6 +105,7 @@
   <string name="pref_camera_autoexposure_entry_frameaverage">متوسط الإطار</string>
   <string name="pref_camera_autoexposure_entry_spotmetering">مقياس اللقطة</string>
   <string name="pref_camera_autoexposure_title">إعدادات التعرض التلقائي</string>
+  <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
   <string name="pref_camera_beautify_entry_high">عالي</string>
   <string name="pref_camera_beautify_entry_low">منخفض</string>
   <string name="pref_camera_beautify_entry_normal">متوسط</string>
@@ -229,6 +230,7 @@
   <string name="pref_camera_picturesize_entry_4208x3120">١٣ميغا (٣١٢٠x٤٢٠٨)</string>
   <string name="pref_camera_picturesize_entry_fullscreen">شاشة كاملة ١٦:٩</string>
   <string name="pref_camera_picturesize_entry_standard">قياسي ٤:٣</string>
+  <string name="pref_camera_picturesize_entry_widescreen">@string/pref_camera_picturesize_entry_fullscreen</string>
   <string name="pref_camera_picturesize_title_simple_mode">إطار الكاميرا</string>
   <string name="pref_camera_portrait_mode_entry_off">الوضع العمودي متوقّف</string>
   <string name="pref_camera_portrait_mode_entry_on">الوضع العمودي مشغّل</string>
@@ -355,6 +357,8 @@
   <string name="pref_video_time_lapse_frame_interval_title">فاصل التقطع الزمني</string>
   <string name="preparing_sd">فحص التخزين الداخلي…</string>
   <string name="record_back_pressed_hint">المس مرة أخرى لإيقاف التسجيل</string>
+  <string name="screen_on_proximity_sensor_hint">لإيقاف تشغيل هذه الميزة، اضغط على زر رفع مستوى الصوت و زر العودة في وقت واحد.</string>
+  <string name="screen_on_proximity_sensor_summary">لا تقم بتغطية منطقة سماعة الأذن</string>
   <string name="search_settings">إعدادات الكاميرا;الجودة;جودة الصورة;موقع الصورة;موقع الصورة;اكتشاف الوجه;صوت الكاميرا</string>
   <string name="see_qrcode_detals">عرض تفاصيل رمز QR</string>
   <string name="simple_mode_button_asd_flash">إيقاف تشغيل التقاط الفلاش</string>
@@ -386,7 +390,7 @@
   <string name="time_lapse_error">لا يمكن استخدام حجم الفيديو هذا لتسجيل التقطع الزمني</string>
   <string name="title_snap_double_confirm">تأكيد مرة أخرى</string>
   <string name="toast_burst_snap_finished_end">الصور</string>
-  <string name="toast_burst_snap_finished_start">لقطة الاندفاع</string>
+  <string name="toast_burst_snap_finished_start">لقطة سريعة</string>
   <string name="toast_burst_snap_forbidden_when_audio_capture_open">لا يمكن استخدام إلتقاط سلسة من الصور أثناء تشغيل التقاط الصوت</string>
   <string name="toast_saving">جارٍ حفظ الصور…</string>
   <string name="toast_start_audio_capture">إصدار صوت لالتقاط صورة</string>

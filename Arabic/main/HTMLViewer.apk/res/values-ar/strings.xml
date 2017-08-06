@@ -13,6 +13,7 @@
   <string name="open_wifi_connect_title">متصل إلى %1$s</string>
   <string name="permdesc_accessDrm">السماح للتطبيق بالوصول إلى المحتوى المحمي \"إدارة الحقوق الرقمية\" (DRM).</string>
   <string name="policy_name">بروتوكول: %s</string>
+  <string name="pre_installed_apps">التطبيقات المثبتة</string>
   <string name="settings_ad_loading">لحظة من فضلك…</string>
   <string name="settings_ad_loading_unavailable">تعذر تحميل المعلومات.</string>
   <string name="settings_license_activity_loading">لحظة من فضلك…</string>

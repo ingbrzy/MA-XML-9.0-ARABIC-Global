@@ -118,6 +118,7 @@
   <string name="confirm_enable_oem_unlock_title">هل تريد السماح بإلغاء قفل المصنّع الأصلي للجهاز؟</string>
   <string name="connected_via_passpoint">‏تم الاتصال عبر %1$s</string>
   <string name="connected_via_wfa">‏تم التوصيل عبر مساعد Wi-Fi</string>
+  <string name="content_description_menu_button">القائمة</string>
   <string name="convert_to_fbe_warning">"تحويل قسم البيانات إلى تشفير على الملف.
  !!تحذير!! سيؤدي هذا إلى محو جميع بياناتك.
  لا تزال هذه الميزة في مرحلة ألفا، وقد لا تعمل على نحو سليم.
@@ -150,6 +151,8 @@
   <string name="debug_networking_category">الشبكات</string>
   <string name="debug_view_attributes">تمكين فحص سمة العرض</string>
   <string name="default_permission_description">تنفيذ إجراء غير معروف</string>
+  <string name="dev_logpersist_clear_warning_message">عندما نتوقف عن رصد أي أخطاء باستخدام المسجِّل الدائم مرة أخرى، يتعين علينا محو بيانات المسجِّل الموجودة على جهازك.</string>
+  <string name="dev_logpersist_clear_warning_title">هل تريد محو سعة التخزين الدائمة للمسجِّل؟</string>
   <string name="dev_settings_warning_message">هذه الإعدادات مخصصة لاستخدام التطوير فقط. قد يتسبب هذا في حدوث أعطال أو خلل في أداء الجهاز والتطبيقات المثبتة عليه.</string>
   <string name="dev_settings_warning_title">هل تريد السماح لإعدادات التطوير؟</string>
   <string name="development_settings_enable">تمكين خيارات المطورين</string>
@@ -259,7 +262,6 @@
   <string name="lb_search_bar_hint_with_title">بحث في %1$s</string>
   <string name="lb_search_bar_hint_with_title_speech">تحدّث للبحث في %1$s</string>
   <string name="lb_time_separator">:</string>
-  <string name="legacy_dhcp_client_summary">‏يمكنك استخدام برنامج DHCP من Lollipop بدلاً من برنامج DHCP الجديد على Android.</string>
   <string name="loading">جارٍ التحميل...</string>
   <string name="local_backup_password_summary_change">انقر لتغيير كلمة مرور النسخ الاحتياطية الكاملة لسطح المكتب أو إزالتها.</string>
   <string name="local_backup_password_summary_none">النسخ الاحتياطية الكاملة لسطح المكتب غير محمية في الوقت الحالي</string>
@@ -341,10 +343,13 @@
   <string name="screen_zoom_summary_large">كبير</string>
   <string name="screen_zoom_summary_small">صغير</string>
   <string name="screen_zoom_summary_very_large">أكبر</string>
+  <string name="search_menu_title">البحث</string>
   <string name="security_settings_desc">السماح لهذا التطبيق بـ:</string>
   <string name="select_application">تحديد تطبيق</string>
   <string name="select_logd_size_dialog_title">حدد أحجامًا أكبر لكل ذاكرة تخزين مؤقت للتسجيل</string>
   <string name="select_logd_size_title">أحجام ذاكرة التخزين المؤقت للتسجيل</string>
+  <string name="select_logpersist_dialog_title">تحديد مخازن السجلات المؤقتة المراد تخزينها باستمرار على الجهاز</string>
+  <string name="select_logpersist_title">تخزين بيانات المسجِّل باستمرار على الجهاز</string>
   <string name="select_usb_configuration_dialog_title">‏حدد تهيئة USB</string>
   <string name="select_usb_configuration_title">‏حدد تهيئة USB</string>
   <string name="select_webview_provider_dialog_title">‏تعيين تطبيق WebView</string>
@@ -353,8 +358,6 @@
   <string name="settings">الإعدادات</string>
   <string name="show_all_anrs">‏عرض جميع رسائل ANR</string>
   <string name="show_all_anrs_summary">عرض مربع الحوار \"التطبيق لا يستجيب\" مع تطبيقات الخلفية</string>
-  <string name="show_cpu_usage">‏عرض استخدام CPU</string>
-  <string name="show_cpu_usage_summary">‏عرض تراكب الشاشة لاستخدام CPU الحالي</string>
   <string name="show_hw_layers_updates">عرض تحديثات طبقات الأجهزة</string>
   <string name="show_hw_layers_updates_summary">تشغيل وميض بالأخضر لطبقات الأجهزة عند تحديثها</string>
   <string name="show_hw_screen_updates">‏إظهار تحديثات عرض GPU</string>
@@ -448,7 +451,8 @@
   <string name="wifi_display_certification">شهادة عرض شاشة لاسلكي</string>
   <string name="wifi_display_certification_summary">عرض خيارات شهادة عرض شاشة لاسلكي</string>
   <string name="wifi_fail_to_scan">لا يمكن فحص الشبكات</string>
-  <string name="wifi_no_internet">لم يتم اكتشاف اتصال بالإنترنت.</string>
+  <string name="wifi_no_internet">لا يتوفر اتصال بالإنترنت.</string>
+  <string name="wifi_no_internet_no_reconnect">لم يتم اكتشاف اتصال بالإنترنت، ولن تتم إعادة الاتصال تلقائيًا.</string>
   <string name="wifi_not_in_range">ليست في النطاق</string>
   <string name="wifi_remembered">تم الحفظ</string>
   <string name="wifi_security_none">لا شيء</string>

@@ -10,9 +10,9 @@
   <string name="fingerprint_add_text">تم تحديث واجهه بصمة الأصبع. قم بإضافة بصمة الاصبع الخاص بك مرة أخرى.</string>
   <string name="fingerprint_add_title">إضافة بصمة الإصبع</string>
   <string name="fingerprint_again_identified_msg">بصمة إصبعك نشطة الآن. استخدامها لإلغاء قفل الجهاز، أو إدخال كلمة المرور.</string>
-  <string name="fingerprint_enter_second_psw_msg">أدخل كلمة مرور الفضاء الثاني بعد إعادة تشغيل الجهاز لتكون قادرا على استخدام تعرف بصمة الإصبع</string>
-  <string name="fingerprint_enter_second_psw_msg_oldman">لا يمكن الدخول إلى الفضاء الثاني أثناء الوضع البسيط</string>
-  <string name="fingerprint_enter_second_psw_title">أدخل كلمة مرور الفضاء الثاني</string>
+  <string name="fingerprint_enter_second_psw_msg">أدخل كلمة مرور الواجهة الثانية بعد إعادة تشغيل الجهاز لتكون قادرا على استخدام تعرف بصمة الإصبع</string>
+  <string name="fingerprint_enter_second_psw_msg_oldman">لا يمكن الدخول إلى الواجهة الثانية أثناء الوضع البسيط</string>
+  <string name="fingerprint_enter_second_psw_title">أدخل كلمة مرور الواجهة الثانية</string>
   <string name="fingerprint_not_identified_msg">الكثير من المحاولات العير ناجحة. أدخل كلمة المرور الآن أو حاول استخدام البصمة الخاصة بك في بضع ثوان.</string>
   <string name="fingerprint_not_identified_title">ادخل كلمة المرور</string>
   <string name="fingerprint_try_again_msg">تعذر التحقق من بصمة الاصبع، حاول مجددا.</string>
@@ -63,10 +63,13 @@
   <string name="keyguard_charging_info_tip_text4">لا تستخدم الجهاز بنشاط أثناء شحنه لتجنب ارتفاع درجة الحرارة.</string>
   <string name="keyguard_charging_info_tip_text5">تشحن البطاريات لفترة أطول عندما تصبح أكثر سخونة من المعتاد.</string>
   <string name="keyguard_charging_info_tip_text6">قم بإيقاف تشغيل الشاشة وضع جهازك بعيدا لتبريده.</string>
+  <string name="keyguard_left_bankcard">دفع Mi</string>
+  <string name="keyguard_left_buscard">بطاقة النقل</string>
+  <string name="keyguard_left_remotecentral">ريموت Mi</string>
+  <string name="keyguard_left_smarthome">منزل Mi</string>
   <string name="keyguard_quick_charging_info_click_to_detail">شحن سريع. انقر لعرض التفاصيل.</string>
   <string name="keyguard_quickly_charging_info_charging_text">شحن سريع…</string>
   <string name="keyguard_torch_cover_text">لإبقاء ضوء الفلاش مفتوحًا، استمر بالضغط على زر الطاقة</string>
-  <string name="left_action_default_hint_text">ريموت Mi</string>
   <string name="lock_screen_date">EEEE، d MMMM</string>
   <string name="lock_screen_date_12">EEEE، d MMMM</string>
   <string name="lock_wallpaper_enter">أدخل</string>
@@ -81,8 +84,8 @@
  أعد المحاولة خلال %d ثانية."</string>
   <string name="lockscreen_failed_attempts_now_wiping">أجريت محاولات غير صحيحة لإلغاء قفل الهاتف %d مرة. سيعيد الهاتف الآن التعيين إلى إعداد المصنع الافتراضي.</string>
   <string name="miui_keyguard_ble_unlock_succeed_msg">تم إلغاء القفل عبر جهاز بلوتوث</string>
-  <string name="open_camera_hint_text">مرّر لليسار لفتح %s</string>
-  <string name="open_remote_center_hint_text">مرّر لليمين لفتح %s</string>
+  <string name="open_camera_hint_text">إسحب لليسار لفتح الكاميرا</string>
+  <string name="open_remote_center_hint_text">Swipe right to open mi remote</string>
   <string name="phone_locked_foget_password">نسيت كلمة المرور؟</string>
   <string name="phone_locked_foget_password_content">"يمكنك تسجيل الدخول إلى i.mi.com باستخدام حساب Mi المرتبط بجهازك و القيام بمسح جميع البيانات. هذا الخيار سيمحو كافة البيانات الشخصية المخزنة على هذا الجهاز. بعد ذلك يمكنك إعادة تشغيل الجهاز واستعادة جهات الاتصال، الرسائل، الصور وغيرها من عناصر Mi Cloud. 
 

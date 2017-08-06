@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="status_bar_settings_disabled_header_title">
-        <item quantity="other">%s تطبيق لا يمكنه إظهار الإشعارات</item>
-        <item quantity="zero">%s تطبيق لا يمكنه إظهار الإشعارات</item>
-        <item quantity="one">1 تطبيق لا يمكنه إظهار الإشعارات</item>
-        <item quantity="two">%s تطبيقات لا يمكنها إظهار الإشعارات</item>
-        <item quantity="few">%s تطبيقات لا يمكنها إظهار الإشعارات</item>
-        <item quantity="many">%s تطبيق لا يمكنه إظهار الإشعارات</item>
+        <item quantity="other">%d تطبيق لا يمكنه إظهار الإشعارات</item>
+        <item quantity="zero">%d تطبيق لا يمكنه إظهار الإشعارات</item>
+        <item quantity="one">%d تطبيق لا يمكنه إظهار الإشعارات</item>
+        <item quantity="two">%d تطبيقات لا يمكنها إظهار الإشعارات</item>
+        <item quantity="few">%d تطبيقات لا يمكنها إظهار الإشعارات</item>
+        <item quantity="many">%d تطبيق لا يمكنه إظهار الإشعارات</item>
     </plurals>
     <plurals name="status_bar_settings_enabled_header_title">
-        <item quantity="other">%s تطبيق يمكنه إظهار الاشعارات</item>
-        <item quantity="zero">%s تطبيق يمكنه إظهار الاشعارات</item>
-        <item quantity="one">1 تطبيق يمكنه إظهار الاشعارات</item>
-        <item quantity="two">%s تطبيقات يمكنها إظهار الاشعارات</item>
-        <item quantity="few">%s تطبيقات يمكنها إظهار الاشعارات</item>
-        <item quantity="many">%s تطبيق يمكنه إظهار الاشعارات</item>
+        <item quantity="other">%d تطبيق يمكنه إظهار الإشعارات</item>
+        <item quantity="zero">%d تطبيق يمكنه إظهار الإشعارات</item>
+        <item quantity="one">%d تطبيق يمكنه إظهار الإشعارات</item>
+        <item quantity="two">%d تطبيقات يمكنها إظهار الإشعارات</item>
+        <item quantity="few">%d تطبيقات يمكنها إظهار الإشعارات</item>
+        <item quantity="many">%d تطبيق يمكنه إظهار الإشعارات</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
-        <item quantity="other">%1$d toggles placed above bar are active</item>
-        <item quantity="zero">%1$d toggles placed above bar are active</item>
-        <item quantity="one">1 toggle placed above bar are active</item>
-        <item quantity="two">%1$d toggles placed above bar are active</item>
-        <item quantity="few">%1$d toggles placed above bar are active</item>
-        <item quantity="many">%1$d toggles placed above bar are active</item>
+        <item quantity="other">%1$d مفتاح وضع فوق الشريط مفعل</item>
+        <item quantity="zero">%1$d مفتاح وضع فوق الشريط مفعل</item>
+        <item quantity="one">%1$d مفتاح وضع فوق الشريط مفعل</item>
+        <item quantity="two">%1$d مفاتيح وضعت فوق الشريط مفعلة</item>
+        <item quantity="few">%1$d مفاتيح وضعت فوق الشريط مفعلة</item>
+        <item quantity="many">%1$d مفتاح وضع فوق الشريط مفعل</item>
     </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">لا يفصلك الآن عن الوصول إلى مرحلة مطوري البرامج سوى %1$d من الخطوات.</item>

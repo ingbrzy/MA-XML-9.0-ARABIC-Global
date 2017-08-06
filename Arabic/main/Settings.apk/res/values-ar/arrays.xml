@@ -149,6 +149,17 @@
         <item>سريع جدا</item>
         <item>الأسرع</item>
     </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+    </string-array>
     <string-array name="color_mode_names">
         <item>نابض بالحياة (إفتراضي)</item>
         <item>طبيعية</item>
@@ -590,9 +601,18 @@
         <item>شبكة الجوّال مُفضّلة</item>
         <item>‏Wi-Fi فقط</item>
     </string-array>
+    <string-array name="wifi_calling_mode_values">
+        <item>٢</item>
+        <item>١</item>
+        <item>٠</item>
+    </string-array>
     <string-array name="wifi_calling_mode_choices_without_wifi_only">
         <item>‏شبكة Wi-Fi مُفضّلة</item>
         <item>شبكة الجوّال مُفضّلة</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_values_without_wifi_only">
+        <item>٢</item>
+        <item>١</item>
     </string-array>
     <string-array name="haptic_feedback_level_texts">
         <item>متوقّف</item>
@@ -713,6 +733,14 @@
         <item>@string/msd_install_retry_connect</item>
         <item>إعادة تثبيت MiPhone Manager.</item>
     </string-array>
+    <string-array name="msd_pc_system_retry_vista">
+        <item>@string/msd_install_retry_connect</item>
+    </string-array>
+    <string-array name="msd_pc_system_retry_mac">
+        <item>@string/msd_install_retry_reinstall_mac</item>
+        <item>@string/msd_install_retry_connect</item>
+        <item>@string/msd_install_retry_reinstall</item>
+    </string-array>
     <string-array name="msd_pc_system_retry_linux">
         <item>Install tool: sudo aptitude install mtpfs libfuse-dev libmad0-dev</item>
         <item>إنشاء دليل: mkdir /media/mtp</item>
@@ -773,10 +801,19 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>comtible mode</item>
         <item>high mode</item>
     </string-array>
+    <string-array name="connect_mode_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
     <string-array name="traffic_balance_entries">
         <item>إغلاق</item>
         <item>الوضع العادي</item>
         <item>الوضع الأقصى</item>
+    </string-array>
+    <string-array name="traffic_balance_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
     <string-array name="preferred_app_entries">
         <item>المُشغل</item>
@@ -811,6 +848,16 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>متوسط</item>
         <item>عالي</item>
     </string-array>
+    <string-array name="whetstone_level_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="agps_network_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
     <string-array name="agps_network_entries">
         <item>الشبكة المحلية</item>
         <item>كل الشبكات</item>
@@ -819,9 +866,18 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>MSB</item>
         <item>MSA</item>
     </string-array>
+    <string-array name="agps_apn_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
     <string-array name="agps_apn_entries">
         <item>CMWAP</item>
         <item>CMNET</item>
+    </string-array>
+    <string-array name="agps_reset_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
     <string-array name="agps_reset_type_entries">
         <item>حار</item>
@@ -832,6 +888,11 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>٤.٥ بوصة</item>
         <item>٤.٠ بوصة</item>
         <item>٣.٥ بوصة</item>
+    </string-array>
+    <string-array name="handy_mode_size_value_entries">
+        <item>4.5</item>
+        <item>4.0</item>
+        <item>3.5</item>
     </string-array>
     <string-array name="lock_screen_secure_after_timeout_entries">
         <item>فوراً</item>
@@ -924,11 +985,16 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>وضع الطفل</item>
         <item>مدير الملفات</item>
         <item>قفل التطبيقات</item>
-        <item>الفضاء الثاني</item>
+        <item>الواجهة الثانية</item>
     </string-array>
     <string-array name="screen_button_style">
         <item>نمط اليد اليسرى</item>
         <item>نمط اليد اليمنى</item>
+    </string-array>
+    <string-array name="screen_resolution_format">
+        <item>@string/screen_resolution_ultrahigh_format</item>
+        <item>@string/screen_resolution_high_format</item>
+        <item>@string/screen_resolution_normal_format</item>
     </string-array>
     <string-array name="edge_touch_volume_action">
         <item>Click adjust - Double click trigger</item>
@@ -1227,6 +1293,14 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>باراماريبو</item>
         <item>كيتو</item>
     </string-array>
+    <string-array name="silent_entries">
+        <item>@string/standard</item>
+        <item>@string/total</item>
+    </string-array>
+    <string-array name="silent_values">
+        <item>1</item>
+        <item>3</item>
+    </string-array>
     <string-array name="alarm_repeat_type">
         <item>كل يوم</item>
         <item>أيام الأسبوع</item>
@@ -1245,8 +1319,8 @@ Note: Only for Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="standard_configuration_version">
         <item>٣.٠٠ غيغابايت</item>
-        <item>٣٢ غيغابايت</item>
-        <item>Quad-core Max 2.15GHz</item>
+        <item>١٦ غيغابايت</item>
+        <item>رباعي النواة أقصى تردد ٢.٥ غيغاهيرتز</item>
     </string-array>
     <string-array name="standard_configuration_version_description_primary">
         <item>المعالج</item>
@@ -1257,11 +1331,11 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>إصدار الأندرويد</item>
     </string-array>
     <string-array name="standard_configuration_version_description_secondary">
-        <item>Snapdragon 820</item>
-        <item>٣٠٠٠ ملي أمبير(typ)</item>
-        <item>١٦ ميغابسكل</item>
+        <item>Snapdragon 835</item>
+        <item>٣٣٥٠ ملي أمبير(typ)</item>
+        <item>١٢ ميغابسكل + ١٢ ميغابسكل</item>
         <item>٥.١٥ بوصة</item>
-        <item>١٠٨٠ × ١٩٢٠</item>
+        <item>١٩٢٠ × ١٠٨٠</item>
         <item>٦.٠.١</item>
     </string-array>
 </resources>

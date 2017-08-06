@@ -20,6 +20,7 @@
   <string name="enable_accessibility_dialog_message">لقد قمت بتشغيل TalkBack من خلال الضغط على الشاشة بـ ۲ أصابع لأكثر من ۱۰ ثواني. توفر ميزة TalkBack ردود فعل صوتية لأشخاص يعانون من إعاقات بصرية. إذا قمت بتشغيلة عن طريق الصدفة، اضغط على زر إلغاء الأمر، ومن ثم نقر مزدوج على الشاشة.</string>
   <string name="enable_accessibility_dialog_negative_btn">إلغاء</string>
   <string name="enable_accessibility_dialog_positive_btn">موافق</string>
+  <string name="fail_to_generate_qr_code">Fail to generate QR code, please reenter this page.</string>
   <string name="ime_privacy_policy">سياسة الخصوصية للوحة المفاتيح المحددة</string>
   <string name="ime_privacy_policy_no_network">لا يوجد اتصال بالشبكة. راجع سياسة الخصوصية لوحة المفاتيح هذه على %s.</string>
   <string name="input_method_category">اختر لوحة المفاتيح الافتراضية التي ستستخدمها عند كتابة رسائل، ملاحظات، و كل شيء مشابه. إعلم أنه يمكنك تثبيت لوحات مفاتيح أخرى من قبل برامج اخرى في وقت لاحق.</string>
@@ -38,8 +39,6 @@
   <string name="other_settings_auto_update_summary">سيختار MIUI أفضل لحظة لتثبيت التحديثات.</string>
   <string name="other_settings_location">الموقع</string>
   <string name="other_settings_location_summary">السماح للتطبيقات بالوصول إلى موقعك.</string>
-  <string name="other_settings_mifg_online_content">خلفية كاروسيل</string>
-  <string name="other_settings_mifg_online_content_summary">السماح لخلفية الشاشة \"كاروسيل\" الاتصال بالإنترنت لتحميل الصور الجديدة.</string>
   <string name="other_settings_upload_debug_log_summary">سيتم استخدام المعلومات التي نجمعها لتحديد وتحليل المشاكل في النظام ويمكن أن تحتوي على معلومات شخصية. لن يتم استخدام أية بيانات للتعرف على هويتك.</string>
   <string name="other_settings_upload_debug_log_title">إرسال البيانات التشخيصية تلقائياً</string>
   <string name="other_settings_user_experience">برنامج تجربة المستخدم</string>
@@ -63,8 +62,10 @@
   <string name="terms_of_use">الأحكام والشروط</string>
   <string name="terms_of_use_label">"خصوصيتك مهمة جدًا بالنسبة لنا. يرجى قراءة شروط الخدمة وسياسة الخصوصية لفهم ماهي المعلومات التي نجمعها، كيف نستخدمها والخيارات المتاحة لك.
 
-يجب أن توافق على شروط الخدمة وسياسة الخصوصية الخاصة بنا قبل أن تتمكن من استخدام MIUI. خلال التفعيل، ستتصل خدمات Mi، خدمات تفعيل شريحة Mi، Mi Cloud، العثور على الجهاز، وحدات الشاشة الرئيسية، خدمة الألعاب، مكونات نظام MSA و MAB، الخدمة المباشرة، البطاقة السريعة، الاحصائيات،ومكونات حساب Mi بالإنترنت وتحصل على موقعك."</string>
+يجب أن توافق على شروط الخدمة وسياسة الخصوصية الخاصة بنا قبل أن تتمكن من استخدام MIUI. خلال التفعيل، ستتصل خدمات Mi، خدمات تفعيل شريحة Mi، Mi Cloud، العثور على الجهاز، وحدات الشاشة الرئيسية، خدمة الألعاب، مكونات نظام MSA و MAB، الخدمة المباشرة، البطاقة السريعة، الاحصائيات ومكونات حساب Mi بالإنترنت وتحصل على موقعك."</string>
   <string name="title_fingerprint">اضف بصمة يدك</string>
+  <string name="two_dimensional_code_scan">QR code scan</string>
   <string name="user_agreement">شروط الخدمة</string>
+  <string name="user_strayed_warning">The page is designed for factory test, Click back button to exit.</string>
   <string name="welcome">مرحباً</string>
 </resources>

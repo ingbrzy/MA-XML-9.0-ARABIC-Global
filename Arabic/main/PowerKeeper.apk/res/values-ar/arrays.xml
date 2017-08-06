@@ -84,7 +84,7 @@
         <item>وضع الأداء الاول</item>
     </string-array>
     <string-array name="thermal_summaries">
-        <item>وضع التحكم في درجة الحرارة الحالية، يفضل درجة حرارة المجربة</item>
-        <item>The current performance model, performance experience is preferred, temperatures could rise</item>
+        <item>Current default mode</item>
+        <item>Current performance mode</item>
     </string-array>
 </resources>
