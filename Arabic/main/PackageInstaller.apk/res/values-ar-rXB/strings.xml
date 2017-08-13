@@ -312,17 +312,6 @@ All‬‏ ‏‮your‬‏ ‏‮previous‬‏ ‏‮user‬‏ ‏‮data‬�
   <string name="picture_color_mode_desc">‏‮Use‬‏ ‏‮sRGB‬‏</string>
   <string name="pointer_location">‏‮Pointer‬‏ ‏‮location‬‏</string>
   <string name="pointer_location_summary">‏‮Screen‬‏ ‏‮overlay‬‏ ‏‮showing‬‏ ‏‮current‬‏ ‏‮touch‬‏ ‏‮data‬‏</string>
-  <string name="power_charging">%1$s ‏‮-‬‏ %2$s</string>
-  <string name="power_charging_duration">%1$s ‏‮-‬‏ %2$s ‏‮until‬‏ ‏‮full‬‏</string>
-  <string name="power_charging_duration_ac">%1$s ‏‮-‬‏ %2$s ‏‮until‬‏ ‏‮full‬‏ ‏‮on‬‏ ‏‮AC‬‏</string>
-  <string name="power_charging_duration_ac_short">%1$s ‏‮-‬‏ %2$s</string>
-  <string name="power_charging_duration_short">%1$s ‏‮-‬‏ %2$s</string>
-  <string name="power_charging_duration_usb">%1$s ‏‮-‬‏ %2$s ‏‮until‬‏ ‏‮full‬‏ ‏‮over‬‏ ‏‮USB‬‏</string>
-  <string name="power_charging_duration_usb_short">%1$s ‏‮-‬‏ %2$s</string>
-  <string name="power_charging_duration_wireless">%1$s ‏‮-‬‏ %2$s ‏‮until‬‏ ‏‮full‬‏ ‏‮from‬‏ ‏‮wireless‬‏</string>
-  <string name="power_charging_duration_wireless_short">%1$s ‏‮-‬‏ %2$s</string>
-  <string name="power_discharging_duration">%1$s ‏‮-‬‏ ‏‮approx.‬‏ %2$s ‏‮left‬‏</string>
-  <string name="power_discharging_duration_short">%1$s ‏‮-‬‏ %2$s ‏‮left‬‏</string>
   <string name="power_remaining_duration_only">‏‮Approx.‬‏ %1$s ‏‮left‬‏</string>
   <string name="power_remaining_duration_only_short">%1$s ‏‮left‬‏</string>
   <string name="privacyPerms">‏‮Privacy‬‏</string>
@@ -460,7 +449,9 @@ All‬‏ ‏‮your‬‏ ‏‮previous‬‏ ‏‮user‬‏ ‏‮data‬�
   <string name="wifi_security_eap">‏‮802.1x‬‏ ‏‮EAP‬‏</string>
   <string name="wifi_security_none">‏‮None‬‏</string>
   <string name="wifi_security_passpoint">‏‮Passpoint‬‏</string>
+  <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
   <string name="wifi_security_short_eap">‏‮802.1x‬‏</string>
+  <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
   <string name="wifi_security_short_wep">‏‮WEP‬‏</string>
   <string name="wifi_security_short_wpa">‏‮WPA‬‏</string>
   <string name="wifi_security_short_wpa2">‏‮WPA2‬‏</string>

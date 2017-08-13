@@ -9,13 +9,14 @@
         <item>الاسم</item>
     </string-array>
     <string-array name="installed_app_sort_type">
-        <item>الاكثر استخداماً</item>
+        <item>مستخدمة بشكل متكرر</item>
         <item>الحجم</item>
     </string-array>
     <string-array name="auto_clean_time">
         <item>كل يوم</item>
         <item>كل ٣ أيام</item>
         <item>كل ٧ أيام</item>
+        <item>كل ١٥ يوم</item>
     </string-array>
     <string-array name="auto_clean_size">
         <item>١٠٠ ميغابايت</item>
@@ -24,56 +25,8 @@
         <item>١ غيغابايت</item>
     </string-array>
     <string-array name="auto_process_mode">
-        <item>الإعلام فقط</item>
-        <item>التنظيف تلقائيا</item>
-        <item>التنظيف والإعلام</item>
-    </string-array>
-    <string-array name="cache_clean_menu">
-        <item>تنظيف هذا الملف</item>
-        <item>عرض موقع الملف</item>
-    </string-array>
-    <string-array name="trash_clean_menu">
-        <item>مسح هذا الملف</item>
-        <item>عرض موقع الملف</item>
-    </string-array>
-    <string-array name="video_clean_menu">
-        <item>مسح هذا الملف</item>
-        <item>افتح</item>
-    </string-array>
-    <string-array name="empty_floder_clean_menu">
-        <item>تنظيف</item>
-    </string-array>
-    <string-array name="apk_clean_menu">
-        <item>تنظيف</item>
-        <item>تثبيت هذا البرنامج</item>
-        <item>عرض المجلد</item>
-    </string-array>
-    <string-array name="long_add_menu">
-        <item>إضافة إلى الاستثناءات</item>
-    </string-array>
-    <string-array name="long_add_app_menu">
-        <item>اضافة تطبيق الى الاستثناءات</item>
-    </string-array>
-    <string-array name="app_clean_menu">
-        <item>إلغاء التثبيت</item>
-    </string-array>
-    <string-array name="auto_alert_apps_time">
-        <item>كل ٧ أيام</item>
-        <item>كل ١٥ يوم</item>
-        <item>كل ٣٠ يوم</item>
-    </string-array>
-    <string-array name="wechat_menu_delete">
-        <item>حذف</item>
-    </string-array>
-    <string-array name="wechat_menu_delete_whitelist">
-        <item>حذف</item>
-    </string-array>
-    <string-array name="wechat_menu_delete_whitelist_view">
-        <item>حذف</item>
-        <item>عرض</item>
-    </string-array>
-    <string-array name="scan_engine">
-        <item>Clean Master</item>
-        <item>Tencent</item>
+        <item>طلب مع إشعار</item>
+        <item>Clean in background</item>
+        <item>Show notification after clean</item>
     </string-array>
 </resources>

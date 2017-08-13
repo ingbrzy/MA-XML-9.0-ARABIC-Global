@@ -346,10 +346,23 @@
   <string name="privacy_search_desc">بحث في السجل</string>
   <string name="privacy_search_type">بحث Google</string>
   <string name="promotion">اعلان</string>
+  <string name="qq_cache_files">الذاكرة المؤقتة لـQQ</string>
+  <string name="qq_clean">منظف QQ</string>
+  <string name="qq_clean_exit_confirm_msg">إيقاف الفحص والخروج الآن؟</string>
+  <string name="qq_data_type_cache">الذاكرة المؤقتة لـQQ</string>
+  <string name="qq_data_type_cache_desc">سوف تكون قادرا على استعادة هذه الملفات عند الاتصال بالإنترنت.</string>
+  <string name="qq_data_type_chat">سجل الدردشة</string>
+  <string name="qq_data_type_chat_desc">لن تكون قادرا على استعادة سجل الدردشة.</string>
+  <string name="qq_data_type_normal">المهملات</string>
+  <string name="qq_data_type_normal_clean_tips">هذه ملفات تقنية. حذفها لا يؤثر على الاستخدام الخاص بك.</string>
+  <string name="qq_data_type_normal_desc">حذفها لا يؤثر على الاستخدام الخاص بك.</string>
+  <string name="qq_data_type_other">أخرى</string>
+  <string name="qq_data_type_other_desc">كن حذرا، قد لا تكون قادرا على استعادة هذه الملفات بعد حذفها.</string>
   <string name="recommend_news">تلقي توصيات</string>
   <string name="recommend_the_following">اتخاذ الإجراءات التالية للحصول على أقصى استفادة من جهازك</string>
   <string name="recommended">مميز</string>
   <string name="resutl_function_deep_clean_summary">" "&lt;Data&gt;&amp;lt;font color=#ff0000 &amp;gt;%1$s&amp;lt;/font&amp;gt; &amp;#1610;&amp;#1605;&amp;#1603;&amp;#1606; &amp;#1605;&amp;#1587;&amp;#1581; &amp;#1575;&amp;#1604;&amp;#1605;&amp;#1586;&amp;#1610;&amp;#1583; &amp;#1605;&amp;#1606; &amp;#1575;&amp;#1604;&amp;#1605;&amp;#1604;&amp;#1601;&amp;#1575;&amp;#1578;. &amp;#1578;&amp;#1601;&amp;#1585;&amp;#1610;&amp;#1594; &amp;#1575;&amp;#1604;&amp;#1605;&amp;#1586;&amp;#1610;&amp;#1583; &amp;#1605;&amp;#1606; &amp;#1575;&amp;#1604;&amp;#1605;&amp;#1587;&amp;#1575;&amp;#1581;&amp;#1577;.;&lt;/Data&gt;" "</string>
+  <string name="resutl_function_qq_clean_summary">" "&lt;Data&gt;&amp;#1610;&amp;#1605;&amp;#1603;&amp;#1606;&amp;#1603; &amp;#1581;&amp;#1584;&amp;#1601; &amp;lt;font color=#ff0000 &amp;gt;%1$s&amp;lt;/font&amp;gt; &amp;#1605;&amp;#1606; &amp;#1584;&amp;#1575;&amp;#1603;&amp;#1585;&amp;#1577; &amp;#1575;&amp;#1604;&amp;#1578;&amp;#1582;&amp;#1586;&amp;#1610;&amp;#1606; &amp;#1575;&amp;#1604;&amp;#1605;&amp;#1572;&amp;#1602;&amp;#1578; &amp;#1575;&amp;#1604;&amp;#1606;&amp;#1575;&amp;#1578;&amp;#1580;&amp;#1577; &amp;#1593;&amp;#1606; &amp;#1578;&amp;#1591;&amp;#1576;&amp;#1610;&amp;#1602; QQ;&lt;/Data&gt;" "</string>
   <string name="resutl_function_wechat_clean_summary">" "&lt;Data&gt;&amp;lt;font color=#ff0000 &amp;gt;%1$s&amp;lt;/font&amp;gt; &amp;#1605;&amp;#1606; &amp;#1575;&amp;#1604;&amp;#1578;&amp;#1582;&amp;#1586;&amp;#1610;&amp;#1606; &amp;#1575;&amp;#1604;&amp;#1605;&amp;#1572;&amp;#1602;&amp;#1578; &amp;#1604;&amp;#1604;&amp;#1600;WeChat. &amp;#1578;&amp;#1601;&amp;#1585;&amp;#1610;&amp;#1594; &amp;#1575;&amp;#1604;&amp;#1605;&amp;#1586;&amp;#1610;&amp;#1583; &amp;#1605;&amp;#1606; &amp;#1575;&amp;#1604;&amp;#1605;&amp;#1587;&amp;#1575;&amp;#1581;&amp;#1577;.;&lt;/Data&gt;" "</string>
   <string name="sc_allow_network_dialog_button">السماح</string>
   <string name="sc_allow_network_dialog_message">السماح لهذا التطبيق الاتصال بالإنترنت للتحديثات؟</string>
@@ -436,10 +449,7 @@
   <string name="wechat_chat_data_type_normal_desc">حذفها لا يؤثر على الاستخدام الخاص بك.</string>
   <string name="wechat_chat_data_type_other">أخرى</string>
   <string name="wechat_chat_data_type_other_desc">كن حذرا، قد لا تكون قادرا على استعادة هذه الملفات بعد حذفها.</string>
-  <string name="wechat_chat_files">سجل الدردشة</string>
   <string name="wechat_clean">منظف WeChat</string>
-  <string name="wechat_clean_downloads">الملفات المستلمة</string>
-  <string name="wechat_clean_downloads_desc">الملفات المستلمة على WeChat</string>
   <string name="wechat_clean_exit_confirm">خروج؟</string>
   <string name="wechat_clean_exit_confirm_msg">إيقاف الفحص والخروج الآن؟</string>
   <string name="wechat_clean_stop_confirm">إيقاف البحث ؟</string>
@@ -454,7 +464,8 @@
   <string name="wechat_copying_video_dialog_title">تصدير إلى معرض الصور</string>
   <string name="wechat_copying_video_empty">لا توجد فيديوهات للتصدير</string>
   <string name="wechat_copying_video_success">تم التصدير بنجاح</string>
-  <string name="wechat_normal_files">المهملات</string>
+  <string name="wechat_qq_chat_files">سجل الدردشة</string>
+  <string name="wechat_qq_normal_files">المهملات</string>
   <string name="white_list_ad_header">ملفات مهملة: %d</string>
   <string name="white_list_apk_header">الحزم المثبتة: %d</string>
   <string name="white_list_cache_header">الملفات المخزنة مؤقتًا: %d</string>

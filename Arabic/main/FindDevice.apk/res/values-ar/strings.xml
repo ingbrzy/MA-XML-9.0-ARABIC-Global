@@ -18,6 +18,7 @@
   <string name="enable_find_device_success">\"العثور على الجهاز\" يعمل</string>
   <string name="find_device">العثور على الجهاز</string>
   <string name="find_device_crash">تم إغلاق \"العثور على الجهاز\" بشكل غير متوقع.</string>
+  <string name="find_device_error_access_denied">تم رفض الدخول.</string>
   <string name="find_device_error_account_sys_timeout">"تعذر الاتصال بحساب Mi. "</string>
   <string name="find_device_error_account_unknown_error">خطأ في حساب Mi (%s).</string>
   <string name="find_device_error_network">خطأ في الشبكة.</string>
@@ -50,6 +51,10 @@
   <string name="phone_locked_account_phone">، رقم الهاتف المرتبط: %s</string>
   <string name="stop_on_empty_captcha">رمز الحماية لا يمكن أن يكون فارغاً</string>
   <string name="stop_on_empty_password">كلمة المرور لا يمكن ان تكون فارغة</string>
+  <string name="sys_notification_async_open_failed_content">انقر لإعادة المحاولة او الإلغاء.</string>
+  <string name="sys_notification_async_open_failed_title">تعذر تشغيل العثور على الجهاز</string>
+  <string name="sys_notification_async_verify_content">Our updated Security Policy requires that Find device should be reactivated.</string>
+  <string name="sys_notification_async_verify_title">إعادة تفعيل العثور على الجهاز</string>
   <string name="time_correction_failure">لا يمكن تصحيح الوقت. %s</string>
   <string name="time_correction_success">تم تصحيح الوقت</string>
   <string name="unlock">تفعيل</string>

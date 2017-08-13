@@ -88,6 +88,7 @@
   <string name="call_radio">الاتصال بالاسلكي</string>
   <string name="call_record_setting_miui">إعدادات التسجيل</string>
   <string name="call_settings">الإعدادات</string>
+  <string name="call_settings_primary_user_only">Call settings can only be changed by the primary user.</string>
   <string name="call_sim1_description">1 SIM</string>
   <string name="call_sim1_menu_title">الطلب باستخدام بطاقة SIM 1</string>
   <string name="call_sim2_description">SIM 2</string>
@@ -667,6 +668,7 @@
   <string name="miprofile_contact_header">جهات الاتصال مع بطاقات جهة اتصال</string>
   <string name="miprofile_contact_meaasge">جهات الاتصال المحلية</string>
   <string name="miprofile_contact_verifying">تحقق</string>
+  <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
   <string name="miprofile_edit_title">تعديل الملف الشخصي</string>
   <string name="miprofile_error_accept_self">لا يمكن تبادل بطاقة جهة الاتصال الخاصة بك</string>
   <string name="miprofile_error_no_miaccount">تسجيل الدخول إلى حساب Mi</string>
@@ -864,6 +866,8 @@
   <string name="path_wipe_data">تطبيقات النظام/جهات الاتصال/تنظيم جهات الاتصال/مسح البيانات</string>
   <string name="payphone">هاتف عمومي</string>
   <string name="people">جهات الاتصال</string>
+  <string name="percent_sign">%</string>
+  <string name="percentage">%s%%</string>
   <string name="phoneLabelsGroup">الهاتف</string>
   <string name="phone_info_divider">" ｜ "</string>
   <string name="phone_number_too_long_toast">الرقم طويل جداً</string>
@@ -932,7 +936,7 @@
   <string name="preference_phone_more_title">اعدادات المكالمات</string>
   <string name="preference_remove_duplicate">دمج جهات الاتصال المكررة</string>
   <string name="preference_show_yellowpage_tab_description">إغلاق تبويب الصفحة الصفراء، لن تعمل وظيفة الصفحة الصفراء بشكل صحيح</string>
-  <string name="preference_show_yellowpage_tab_title">عرض تبويب الصفحة الصفراء</string>
+  <string name="preference_show_yellowpage_tab_title">عرض ادخال الصفحة الصفراء</string>
   <string name="preference_simple_mode_description">عرض صور ومعلومات أخرى لجهة الاتصال في قائمة عرض</string>
   <string name="preference_simple_mode_title">عرض الصور والمعلومات</string>
   <string name="preference_smart_group_company_summary">تصنيف حسب الشركة</string>
@@ -1176,10 +1180,12 @@
   <string name="type_outgoing">مكالمة صادرة</string>
   <string name="type_voicemail">البريد الصوتي</string>
   <string name="unable_get_device_id">غير قادر على الحصول على IMEI</string>
+  <string name="unfold_all">unfold all</string>
   <string name="unknow_phone_number_call_failed">لا يمكن الاتصال برقم غير معروف</string>
   <string name="unknow_phone_number_mms_failed">لا يمكن إرسال رسالة إلى رقم غير معروف</string>
   <string name="unknown">غير معروف</string>
   <string name="unknown_contact_name">جهة اتصال غير معروفة</string>
+  <string name="unknown_details_new_contact">New contact</string>
   <string name="update_sim_contact_photo_toast">لا يمكن تعيين صور الملف الشخصي لجهات اتصال SIM</string>
   <string name="upgrade_in_progress">جارٍ تحديث قائمة جهة الاتصال.</string>
   <string name="upgrade_out_of_memory">"يتم الآن ترقية جهات الاتصال لديك. n

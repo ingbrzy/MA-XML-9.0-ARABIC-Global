@@ -15,18 +15,16 @@
   <string name="ac_firstUseApplock_title">قم بتعيين كلمة مرور لحماية تطبيقاتك</string>
   <string name="ac_summaryOff">تم الإيقاف، لا تحتاج كلمة مرور لفتح التطبيقات</string>
   <string name="ac_summaryOn">تم التشغيل، تحتاج كلمة مرور لفتح التطبيقات</string>
+  <string name="access_control_failed_need_to_unlock_nofingerprint">كلمة المرور مطلوبة لفتح التطبيقات</string>
+  <string name="access_control_fingerprint_not_identified_msg">تعذر قراءة البصمة.</string>
   <string name="access_control_need_password">"%s اضيف بنجاح
 "</string>
-  <string name="access_control_need_to_unlock">"مسح بصمة الاصبع
- أو أدخال كلمة مرور قفل التطبيقات"</string>
   <string name="access_control_need_to_unlock_nofingerprint">أدخل كلمة مرور قفل التطبيقات</string>
   <string name="action_button_text_100">تحسين</string>
   <string name="action_button_text_60">إصلاح</string>
   <string name="action_button_text_60_80">إصلاح</string>
   <string name="action_button_text_80_100">تحسين</string>
   <string name="action_source_sms_title">الرسائل المحظورة</string>
-  <string name="activate_fingerprint_dialog_message">بصمة الاصبع هذه غير نشطة. أدخل كلمة المرور لتنشيط هذه البصمة.</string>
-  <string name="activate_fingerprint_dialog_title">ادخل كلمة المرور</string>
   <string name="activity_title_antispam">قائمة الحظر</string>
   <string name="activity_title_antivirus">فحص الحماية</string>
   <string name="activity_title_apps_manager">التطبيقات</string>
@@ -71,7 +69,7 @@
   <string name="adjust_traffic_carrier_summary_two_day_before">تم التحديث منذ يومين</string>
   <string name="adjust_traffic_carrier_summary_yesterday">حدث الأمس في %s</string>
   <string name="adjust_traffic_data">تعيين استخدام البيانات</string>
-  <string name="after_the_lock_screen">التطبيق مقفل مع الشاشة، يمكنك تغيير هذا من إعدادات قفل التطبيقات.</string>
+  <string name="after_the_lock_screen">التطبيق مقفول مع الشاشة</string>
   <string name="all_address_choose_hint">كل الأرقام في هذا الإقليم</string>
   <string name="anim_gamebooster_text">لحظة من فضلك…</string>
   <string name="anti_disturb_msg_detail">إيقاف تشغيل جميع الإشعارات ماعدا إشعارات المكالمات الواردة</string>
@@ -86,8 +84,8 @@
   <string name="antivirus_choose_engine_dialog_title">اختيار التعاريف</string>
   <string name="antivirus_choose_engine_settings">إعدادات تعريفات الفيروسات</string>
   <string name="antivirus_choose_engine_title">التعريفات</string>
-  <string name="antivirus_longtime_no_update">Looks like your virus definitions are old. Regular updates help to get better scanning results. Allow Security to connect to the internet and update virus definitions?</string>
-  <string name="antivirus_longtime_no_update1">Looks like your virus definitions are old. Regular updates help to get better scanning results. Update definitions and try again.</string>
+  <string name="antivirus_longtime_no_update">يبدو أن تعريفات الفيروسات قديمة. التحديثات المنتظمة تساعدك في الحصول على نتائج مسح أفضل. السماح للحماية الاتصال بالإنترنت وتحديث تعريفات الفيروسات؟</string>
+  <string name="antivirus_longtime_no_update1">يبدو أن تعريفات الفيروسات قديمة. التحديثات المنتظمة تساعدك في الحصول على نتائج مسح أفضل. قم بتحديث التعريفات ثم حاول مجددا.</string>
   <string name="antivirus_monitor_btn_text_clean_risk">حذف التطبيقات الخطيرة</string>
   <string name="antivirus_monitor_btn_text_clean_virus">حذف الفيروسات</string>
   <string name="antivirus_monitor_clean_tips">العناصر المحذوفة: %s</string>
@@ -103,10 +101,10 @@
   <string name="antivirus_privacy_dialog_title">سياسة الخصوصية</string>
   <string name="antivirus_sec_network_unavailable">لا يمكن لتطبيق الحماية التحديث لأنك قمت بتقييد إتصال الإنترنت. هل تريد السماح لتطبيق الحماية الاتصال بالإنترنت؟</string>
   <string name="antivirus_toast_already_update">مُحدث</string>
-  <string name="antivirus_toast_network_unavailable">"Couldn't connect to the network"</string>
-  <string name="antivirus_toast_update_failed">"Couldn't update"</string>
+  <string name="antivirus_toast_network_unavailable">تعذر الاتصال بالشبكة</string>
+  <string name="antivirus_toast_update_failed">تعذر التحديث</string>
   <string name="antivirus_toast_update_success">تم التحديث بنجاح</string>
-  <string name="antivirus_toast_updating">Updating…</string>
+  <string name="antivirus_toast_updating">جارٍ التحديث…</string>
   <string name="antivirus_update_btn_contiue">متابعة</string>
   <string name="antivirus_update_btn_open">السماح</string>
   <string name="antivirus_update_btn_update">تحديث</string>
@@ -160,7 +158,7 @@
   <string name="app_manager_manage_space">إدارة المساحة</string>
   <string name="app_manager_menu_clear_data">مسح البيانات</string>
   <string name="app_manager_net_control_title">تقييد استخدام البيانات</string>
-  <string name="app_manager_net_mobile">Data</string>
+  <string name="app_manager_net_mobile">البيانات</string>
   <string name="app_manager_net_wifi">Wi-Fi</string>
   <string name="app_manager_not_record">تعذر العثور على التطبيقات التي تتطلب أذونات</string>
   <string name="app_manager_notify_bar">الشارات</string>
@@ -218,14 +216,15 @@
   <string name="application_item_already_permission">تم السماح</string>
   <string name="application_item_disable">مقيد</string>
   <string name="applock_add_account">إضافة</string>
-  <string name="applock_add_account_info">"قم بإضافة حساب Mi لتتمكن من إعادة تعيين كلمة المرور
-في حال نسيانها"</string>
+  <string name="applock_add_account_info">قم بإضافة حساب Mi الخاص بك لتتمكن من إعادة تعيين كلمة المرور في حال نسيانها.</string>
   <string name="applock_add_account_setting">الحساب والخصوصية</string>
+  <string name="applock_bind_account_title">إعادة تعيين كلمة المرور</string>
   <string name="applock_close_dialog_summary">لن تكون التطبيقات محمية بعد الآن وسيتم حذف كلمة المرور الخاصة بك بعد إيقاف تشغيل قفل التطبيقات.</string>
   <string name="applock_close_dialog_title">إيقاف تشغيل قفل التطبيقات؟</string>
   <string name="applock_exit_account_info">ستتم إزالة الحساب تلقائيا عندما تقوم بتسجيل الخروج</string>
+  <string name="applock_header_text_less_than_half">Too little space for this app. Drag the separator further.</string>
   <string name="applock_login_and_add_account">تسجيل الدخول وإضافة</string>
-  <string name="applock_not_add_account">ليس الآن</string>
+  <string name="applock_not_add_account">&lt;u&gt;&amp;#1604;&amp;#1610;&amp;#1587; &amp;#1575;&amp;#1604;&amp;#1570;&amp;#1606;&lt;/u&gt;</string>
   <string name="applock_not_login_account">لم تقم بتسجيل الدخول</string>
   <string name="apps_item_sign_dialog_content">توقيع %s يختلف عن النسخة الموجودة في متجر التطبيقات. هل تريد حذف هذا التطبيق وتثبيت الإصدار الرسمي؟ ملاحظة: تثبيت التطبيق مع توقيع متضارب قد يؤدي إلى فقدان بيانات التطبيق.</string>
   <string name="apps_item_sign_dialog_title">تثبيت التطبيق الرسمي</string>
@@ -447,8 +446,7 @@
   <string name="card_main_private_space_summary">استخدام الواجهة الثانية هو بمثابة امتلاكك لجهازين</string>
   <string name="card_main_private_space_title">الواجهة الثانية</string>
   <string name="card_main_sectool_title">الأدوات</string>
-  <string name="card_main_speeddetail_title">سرعة الاتصال</string>
-  <string name="card_main_speeddetailt_summary">عرض سرعة الاتصال لتطبيقات الفردية</string>
+  <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
   <string name="card_main_xspace_action">إنشاء</string>
   <string name="card_main_xspace_summary">إنشاء حسابات مزدوجة لأي تطبيق</string>
   <string name="card_main_xspace_title">التطبيقات المزدوجة</string>
@@ -477,7 +475,7 @@
   <string name="cmcc_app_check_dialog_title">تم إعادة إصلاح النظام</string>
   <string name="confirmSecondSpacePassword">تأكيد كلمة مرور الواجهة الثانية</string>
   <string name="confirm_bind_xiaomi_account_dialog_title">إضافة حساب Mi</string>
-  <string name="confirm_fingerprint_msg">ضع إصبعك على المستشعر</string>
+  <string name="confirm_fingerprint_msg">التحقق من بصمتك</string>
   <string name="confirm_prompt_all_permission">اسأل الأذونات لجميع التطبيقات؟</string>
   <string name="confirm_reject_all_permission">تقييد كل التطبيقات من استخدام هذه الميزة؟</string>
   <string name="connect_internet_by_mobiledata">اتصال بيانات الجوال</string>
@@ -617,8 +615,8 @@
   <string name="exception_notify_message">网络统计模块异常，建议重启恢复</string>
   <string name="exception_titile">网络助手异常</string>
   <string name="exit">خروج</string>
-  <string name="finger_remind_message">يمكنك ايضا استخدام بصمة الاصبع مع قفل التطبيقات.</string>
-  <string name="fingerprint_identify_msg">قم بمسح بصمة الاصبع</string>
+  <string name="finger_remind_message">قم بإضافة بصمتك أولا. انقر لفتح الإعدادات.</string>
+  <string name="fingerprint_identify_msg">Turn on Fingerprint unlock</string>
   <string name="fingerprint_not_identified_msg">تعذر قراءة بصمة الاصبع. أدخل كلمة السر الخاصة بك</string>
   <string name="fingerprint_not_remind">لا تسأل مجددا</string>
   <string name="fingerprint_remind_dialog_title">إلغاء القفل ببصمة الاصبع</string>
@@ -654,6 +652,7 @@
   <string name="five_percent_total_pkg">%s (٥%% من البيانات شهرية)</string>
   <string name="foreground_traffic">الأمامي %s</string>
   <string name="forget_password_button_text">&lt;u&gt;&amp;#1606;&amp;#1587;&amp;#1610;&amp;#1578; &amp;#1603;&amp;#1604;&amp;#1605;&amp;#1577; &amp;#1575;&amp;#1604;&amp;#1587;&amp;#1585;&lt;/u&gt;</string>
+  <string name="forget_password_button_text_normal">نسيت كلمة المرور</string>
   <string name="forget_pattern">&lt;u&gt;&amp;#1606;&amp;#1587;&amp;#1610;&amp;#1578; &amp;#1603;&amp;#1604;&amp;#1605;&amp;#1577; &amp;#1575;&amp;#1604;&amp;#1605;&amp;#1585;&amp;#1608;&amp;#1585;&lt;/u&gt;</string>
   <string name="free_time_traffic">حد البيانات خارج أوقات الذروة</string>
   <string name="free_time_traffic_hint">إدخال حد البيانات خارج أوقات الذروة</string>
@@ -708,8 +707,8 @@
   <string name="handle_bar_summary_wifi_unknown">غير معروف</string>
   <string name="handle_bar_title_system">النظام</string>
   <string name="handle_title_network">حماية Wi-Fi</string>
-  <string name="handle_title_pay_env">Payment environment</string>
-  <string name="handle_title_privacy">Privacy &amp; security</string>
+  <string name="handle_title_pay_env">محيط الدفع</string>
+  <string name="handle_title_privacy">الخصوصية والأمان</string>
   <string name="hide_mode_app_background_setting_text">تطبيق توفير شحن البطارية</string>
   <string name="hide_mode_summary_text">إدارة نشاط خلفية التطبيقات لتوفير البطارية</string>
   <string name="hide_system_app">إخفاء تطبيقات النظام</string>
@@ -719,7 +718,7 @@
   <string name="hints_loading_text">جارٍ التحميل…</string>
   <string name="hints_power_percent_title">البطارية</string>
   <string name="hints_scan_danger_result">Risk found, fix now</string>
-  <string name="hints_scan_result_no_finish">"Scan isn't finished. Tap to start over."</string>
+  <string name="hints_scan_result_no_finish">لم يتم الانتهاء من المسح. انقر للبدء من جديد.</string>
   <string name="hints_scan_result_phone_safe">كل شي يبدو جيداً</string>
   <string name="hints_scan_result_safe">آمن</string>
   <string name="hints_scanning">جارٍ الفحص…</string>
@@ -801,10 +800,12 @@
   <string name="lock_screen_warning_switch_summary">إظهار تحذير على شاشة القفل عند تجاوز استخدام البيانات لقدر معين</string>
   <string name="lock_screen_warning_switch_title">إظهارتحذيرات على شاشة القفل</string>
   <string name="lock_screen_warning_value">تحذير استخدام البيانات</string>
+  <string name="lockpattern_access_need_to_unlock_wrong_fingerprint">تعذر التعرف على البصمة، حاول مجدداً.</string>
+  <string name="lockpattern_access_need_to_unlock_wrong_pattern">كلمة المرور غير صحيحة، حاول مجدداً.</string>
   <string name="lockpattern_confirm_button_text">موافق</string>
   <string name="lockpattern_continue_button_text">التالي</string>
   <string name="lockpattern_need_to_confirm">ارسم النقش مرة أخرى للتأكيد</string>
-  <string name="lockpattern_need_to_unlock_wrong">حاول مجدداً</string>
+  <string name="lockpattern_need_to_unlock_wrong">كلمة المرور غير متطابقة، حاول مجدداً.</string>
   <string name="lockpattern_pattern_confirmed_header">نقش جديد للقفل</string>
   <string name="lockpattern_pattern_entered_header">تمت اضافة النقش</string>
   <string name="lockpattern_recording_incorrect_too_short">قم بتوصيل %d نقاط على الاقل</string>
@@ -962,6 +963,7 @@
   <string name="mi_service_app_detail">تفاصيل استخدام البيانات</string>
   <string name="mi_service_traffic_detail">تفاصيل إطارالعمل</string>
   <string name="mian_page_primary_txt">بيانات التجوال</string>
+  <string name="modify_password_mode">&lt;u&gt;&amp;#1578;&amp;#1594;&amp;#1610;&amp;#1610;&amp;#1585; &amp;#1603;&amp;#1604;&amp;#1605;&amp;#1577; &amp;#1575;&amp;#1604;&amp;#1605;&amp;#1585;&amp;#1608;&amp;#1585;&lt;/u&gt;</string>
   <string name="modifypassword">تغيير كلمة المرور</string>
   <string name="monitor_app_add">إضافة</string>
   <string name="monitor_app_more">المزيد</string>
@@ -1158,9 +1160,11 @@
   <string name="package_setted_error_notification_titile">تعذر تعيين خطة بيانات</string>
   <string name="packages_subtitle">الحزم المضمنة</string>
   <string name="passwordIncorrect">اسم المستخدم او كلمة السر غير صحيحة</string>
-  <string name="password_forget_pattern_confirm">النسخ الاحتياطي للبيانات</string>
-  <string name="password_forget_pattern_message">قم بعمل نسخة احتياطية من البيانات محليا، ثم إجراء إعادة الضبط بحسب بيانات المصنع. بعد ذلك، ستتمكن من تغيير كلمة المرور.</string>
-  <string name="password_forget_pattern_title">النسخ الاحتياطي للبيانات</string>
+  <string name="password_forget_pattern_confirm">فهمت</string>
+  <string name="password_forget_pattern_message">نظرا لأسباب أمنية، يمكنك إعادة تعيين كلمة المرور فقط بعد إعادة تعيين بيانات المصنع. انقر لإعادة التعيين.</string>
+  <string name="password_forget_pattern_message_none">التطبيقات غير مقفلة. يمكنك إعادة ضبط كلمة المرور الخاصة بك.</string>
+  <string name="password_forget_pattern_reset">إعادة تعيين</string>
+  <string name="password_forget_pattern_title">تنبيه</string>
   <string name="password_promotion_not_login_xiaomi_account_message">قم بإضافة حساب Mi الخاص بك لتتمكن من إعادة تعيين كلمة المرور في حال نسيانها.</string>
   <string name="password_promotion_postbutton_text">إضافة</string>
   <string name="password_promotion_title">إضافة حساب Mi</string>
@@ -1600,7 +1604,7 @@
   <string name="see_detail">التفاصيل</string>
   <string name="set_applock_password">تعيين كلمة مرور</string>
   <string name="setting">الإعدادت</string>
-  <string name="setting_privacy_password">تعيين كلمة مرور قفل التطبيقات</string>
+  <string name="setting_privacy_password">إضافة نقش</string>
   <string name="settings">إعدادات استخدام البيانات</string>
   <string name="settings_battery_consume_abnormal_summary">تلقي شعارات عندما يتم استنزاف البطارية بسرعة</string>
   <string name="settings_battery_consume_abnormal_title">إشعارات استنزاف البطارية</string>
@@ -1782,7 +1786,7 @@
   <string name="start_game">بدء</string>
   <string name="start_tc_button">معايرة</string>
   <string name="suggest_app_tolock">اقتراحات</string>
-  <string name="suggest_scan_again">Complete the scan to avoid security risks.</string>
+  <string name="suggest_scan_again">أكمل الفحص لتجنب المخاطر الأمنية.</string>
   <string name="summary_app_lock_disable">قم بحماية بياناتك مع قفل التطبيقات</string>
   <string name="summary_auto_update">سيقوم MIUI بتحديد الوقت الأنسب لتنزيل وتثبيت التحديثات.</string>
   <string name="summary_cleaner_cloudscan">تحميل أسماء المجلدات ومقارنتها مع التعريفات عبر الإنترنت</string>
@@ -2049,6 +2053,8 @@
   <string name="uninstall_app_dialog_title">إلغاء التثبيت الآن؟</string>
   <string name="uninstall_app_done">تم إلغاء التثبيت بنجاح</string>
   <string name="unlike">لا شكراً</string>
+  <string name="unlock_pattern">&lt;u&gt;&amp;#1606;&amp;#1602;&amp;#1588;&lt;/u&gt;</string>
+  <string name="unlock_pattern_to_bind_fingerprint">ادخل كلمة المرور لتفعيل البصمة</string>
   <string name="updating_diagnostic_botton">جارٍ فحص البياناتu2026</string>
   <string name="usage_sorted_activity_lable">استخدام البيانات</string>
   <string name="usage_sorted_empty_text">فارغ</string>

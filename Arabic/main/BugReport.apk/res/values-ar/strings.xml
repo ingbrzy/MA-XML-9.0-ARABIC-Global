@@ -8,7 +8,7 @@
   <string name="app_name">ردود الأفعال</string>
   <string name="btn_send">إرسال</string>
   <string name="bugreport_dialog_not_show_again">عدم الإظهار مرة أخرى</string>
-  <string name="bugreport_dialog_submit_content">قد تحتوي ملاحظاتك على معلومات شخصية.</string>
+  <string name="bugreport_dialog_submit_content">قد تحتوي ملاحظاتك على معلومات شخصية وبيانات الموقع.</string>
   <string name="bugreport_dump_complete_notification_summary">انقر للعرض.</string>
   <string name="bugreport_dump_complete_notification_title">تم إنشاء تقرير عن خلل</string>
   <string name="bugreport_dump_start_notification_summary">سيستغرق ذلك عدة دقائق.</string>
@@ -183,7 +183,7 @@
   <string name="michat_webview_title">عرض التفاصيل</string>
   <string name="min_error">يجب أن يكون %1$s الخاص بك اطول.</string>
   <string name="mobile_data_note_dialog_cancel">انتظر شبكة الـWi-Fi</string>
-  <string name="mobile_data_note_dialog_confirm">تحميل</string>
+  <string name="mobile_data_note_dialog_confirm">رفع</string>
   <string name="mobile_data_note_dialog_content">استخدام بيانات الجوال لرفع السجلات قد يولد رسوم إضافية.</string>
   <string name="mobile_data_note_dialog_content_with_file_size">رفع السجلات بإستخدام إتصال بيانات الجوال سيتطلب %s ميغابايت من البيانات.</string>
   <string name="mobile_data_note_dialog_title">تحذير إستخدام البيانات</string>
@@ -254,7 +254,7 @@
   <string name="section_screenshot">لقطة الشاشة</string>
   <string name="submit_dialog_cancel">إلغاء</string>
   <string name="submit_dialog_confirm">ارسال</string>
-  <string name="submit_dialog_content">سيتم إرسال الملاحظات مع المرفقات و التسجيلات الخاصة بك إلى خوادم MIUI. قد تحتوي على معلومات شخصية.</string>
+  <string name="submit_dialog_content">سيتم إرسال الملاحظات والسجيلات الخاصة بك مع المرفقات إلى خوادم MIUI. قد تحتوي على معلومات شخصية وبيانات الموقع.</string>
   <string name="submit_dialog_title">ارسال تقرير</string>
   <string name="submit_feedback_info_failed">تعذر ارسال التقرير</string>
   <string name="suggestion_description">أضف الوصف هنا</string>

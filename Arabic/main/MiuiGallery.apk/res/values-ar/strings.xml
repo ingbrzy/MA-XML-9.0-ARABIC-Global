@@ -558,6 +558,7 @@
   <string name="people_mark_mode_title_no_mark_name">تحديد شخص</string>
   <string name="people_page_label">الأشخاص</string>
   <string name="people_page_unname">غير مسمى</string>
+  <string name="percent_sign">%</string>
   <string name="pet_album_display_name">صور الحيوانات الأليفة</string>
   <string name="petabyteShort">بنتابايت</string>
   <string name="photo">الصور</string>
@@ -677,6 +678,8 @@
   <string name="search_title_recommend">موصى بها</string>
   <string name="search_title_suggestion">الإقتراحات</string>
   <string name="search_title_tag">أجسام</string>
+  <string name="search_transition_element_icon">search_icon</string>
+  <string name="search_transition_element_input">search_input</string>
   <string name="secret_album_card_description">أفضل مكان لجميع أسرارك الخاصة</string>
   <string name="secret_album_card_title">جرب الألبوم المخفي</string>
   <string name="secret_album_display_name">ألبوم مخفي</string>
@@ -863,6 +866,7 @@
   <string name="view_by_gallery_tip">معرض MIUI</string>
   <string name="view_face_album">عرض الألبوم</string>
   <string name="view_queuing_status">فحص الحالة</string>
+  <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
   <string name="welcome_to_micloud">مرحباً في Mi Cloud</string>
   <string name="welcome_to_slim">تحسين التخزين المحلي</string>
   <string name="where_is_barcode">أين رمز QR؟</string>

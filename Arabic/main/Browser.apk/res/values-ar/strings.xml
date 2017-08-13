@@ -167,6 +167,7 @@
   <string name="color_picker_dialog_title">تحديد اللون</string>
   <string name="color_picker_hue">تدرج اللون</string>
   <string name="color_picker_saturation">صفاء اللون</string>
+  <string name="color_picker_value">القيمة</string>
   <string name="comment_app_menu">التعليق</string>
   <string name="comment_description">تعليق</string>
   <string name="comment_hint">تعليق</string>
@@ -200,7 +201,7 @@
   <string name="current_version_pad">Pad</string>
   <string name="current_version_pc">الكمبيوتر الشخصي</string>
   <string name="current_version_phone">الهاتف</string>
-  <string name="custom_head_card_text">كن واثقاً دائماً أن شيئاً رائعاً على وشك الحدوث</string>
+  <string name="custom_head_card_text">دائما تأكد أن شيئا رائعا على وشك الحدوث</string>
   <string name="custom_head_card_text_incognito">"أنت متخفي!
 الصفحات التي قمت بعرضها لن تظهر في السجل."</string>
   <string name="data_traffic_prompt_change">سيؤدي استخدام اتصال بيانات الجوال لمشاهدة مقاطع الفيديو إلى زيادة استخدام البيانات. إذا تجاوزت حد استخدام البيانات لخطتك، فقد تفرض عليك شركة الاتصالات رسوما إضافية.</string>

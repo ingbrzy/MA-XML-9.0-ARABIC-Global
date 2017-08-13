@@ -4,6 +4,7 @@
   <string name="account">حساب</string>
   <string name="account_related">جهازك مرتبط بحساب Mi موجود مسبقا(%s). اتصل بالشبكة للتحقق من الجهاز.</string>
   <string name="activate">تفعيل</string>
+  <string name="activate_find_device_success">تم تفعيل العثور على الجهاز.</string>
   <string name="activate_finddevice">اتصل بالشبكة لتفعيل الجهاز</string>
   <string name="activate_number_change_dialog_message">اختر رقم الهاتف الذي سيكون مرئيًا للأجهزة الأخرى عند الاتصال باستخدام VoIP.</string>
   <string name="activating">جارٍ التفعيل…</string>
@@ -46,6 +47,8 @@
   <string name="cloud_back_up_title">نسخ احتياطي للجهاز</string>
   <string name="cloud_backup_dialog_title">النسخ الاحتياطي باستخدام Mi Cloud</string>
   <string name="cloud_find_device">العثور على الجهاز</string>
+  <string name="cloud_find_device_off">متوقّف</string>
+  <string name="cloud_find_device_on">مشغّل</string>
   <string name="cloud_restore_title">استعادة من نسخة احتياطية</string>
   <string name="cloud_space_upgrade_message">انقر لإضافة %s غيغابايت لـ Cloud الخاص بك.</string>
   <string name="cloud_space_upgrade_no_quota_info">تعذر الحصول على معلومات التخزين</string>
@@ -97,6 +100,12 @@
   <string name="find_device_notice_p2">i.mi.com</string>
   <string name="find_device_notice_p3">"لتحديد موقع أو قفل أو استعادة هاتفك.
 إذا قمت بتبديل بطاقات SIM، سيتم إرسالة رسالة نصية قصيرة أخرى تلقائيًا لتفعيل هذه الميزة."</string>
+  <string name="find_device_operation_failure_rpc">تعذر أداء العملية بسبب خطأ في RPC.</string>
+  <string name="find_device_pref_alert_content">العثور على الجهاز مرتبط بحساب Mi الخاص بك. تحتاج إلى تعيين كلمة مرور أو إدخال كلمة المرور التي قمت بتعيينها. تأكد من تذكر معرف الحساب وكلمة مرور حساب Mi. قد تكون هناك حاجة إلى رسالة SMS صادرة لتفعيل هذه الخدمة. سيفرظ عليك مشغل شبكة الجوال رسوما مقابل هذه الرسالة. عند تبديل بطاقات SIM، سيتم إرسال رسالة تلقائيا لإعادة تفعيل هذه الميزة.</string>
+  <string name="find_device_pref_alert_negtive">لا شكراً</string>
+  <string name="find_device_pref_alert_positive">موافق</string>
+  <string name="find_device_pref_alert_title">تذكر معرف حساب Mi وكلمة المرور الخاصة بك</string>
+  <string name="find_device_pref_initializing">جارٍ التهيئة…</string>
   <string name="find_device_reading_status">جارٍ تحميل الحالة…</string>
   <string name="find_device_reading_status_failure">تعذر تحميل الحالة.</string>
   <string name="find_device_send_sms_alert">إذا قمت بتحويل بطاقات الـ SIM، سيتم تلقائياً إرسال رسالة نصية قصيرة أخرى لتفعيل هذة الميزة.</string>
@@ -206,10 +215,21 @@
   <string name="micloud_dialog_sync_now_title">الاتصال بـ Wi-Fi للمزامنة</string>
   <string name="micloud_dspt">استخدم Mi Cloud لمزامنة البيانات، تحديد موقع جهازك،</string>
   <string name="micloud_dspt_provision">استخدم Mi Cloud لمزامنة البيانات، تحديد موقع جهازك ومشاركة الأشياء مع الأصدقاء.</string>
+  <string name="micloud_find_device_close_alert_content">"If you turn this feature off, you wan't be able to locate your device in case it's lost."</string>
+  <string name="micloud_find_device_close_alert_negtive">إيقاف التشغيل على أية حال</string>
+  <string name="micloud_find_device_close_alert_positive">دعه يعمل</string>
+  <string name="micloud_find_device_close_alert_title">ايقاف تشغيل العثور على الجهاز؟</string>
+  <string name="micloud_find_device_close_fail">تعذر إيقاف تشغيل العثور على الجهاز</string>
+  <string name="micloud_find_device_close_progress">جارٍ إيقاف تشغيل العثور على الجهاز…</string>
   <string name="micloud_find_device_finish">تم</string>
+  <string name="micloud_find_device_guide_alert_content">العثور على الجهاز مرتبط بحساب Mi الخاص بك. يجب تعيين كلمة مرور أو إدخال كلمة المرور التي قمت بتعيينها. تأكد من تذكر معرف الحساب وكلمة المرور حساب Mi.</string>
+  <string name="micloud_find_device_guide_alert_negtive">لا شكراً</string>
+  <string name="micloud_find_device_guide_alert_negtive_activate">لا شكراً</string>
+  <string name="micloud_find_device_guide_alert_positive">موافق</string>
+  <string name="micloud_find_device_guide_alert_title">تذكر معرف حساب Mi وكلمة المرور الخاصة بك</string>
   <string name="micloud_find_device_guide_button">تشعيل العثور على الجهاز</string>
   <string name="micloud_find_device_guide_content">قد تكون هناك حاجة لرسالة قصيرة (SMS) لتفعيل هذه الخدمة. ستفرض عليك شركة الاتصالات رسوم هذه الرسالة. عند تبديل بطاقة SIM، سيم إرسال رسالة تلقائيا لإعادة تفعيل هذه الميزة.</string>
-  <string name="micloud_find_device_guide_fail_reopen">تشغيل العثور على الجهاز في Mi Cloud</string>
+  <string name="micloud_find_device_guide_fail_reopen">يمكنك تشغيل العثور على الجهاز في حساب Mi - Mi Cloud</string>
   <string name="micloud_find_device_guide_fail_sub_net">تحقق من شبكة الاتصال و حاول مرة أخرى.</string>
   <string name="micloud_find_device_guide_fail_sub_timeout">انتهت مهلة الاتصال. حاول مرة أخرى لاحقا.</string>
   <string name="micloud_find_device_guide_micloud">تشغيل المزامنة مع Mi Cloud</string>
@@ -223,13 +243,16 @@
   <string name="micloud_find_device_guide_noti_title_by_app_change_wx">WeChat ينصح بتشغيل العثور على الجهاز</string>
   <string name="micloud_find_device_guide_noti_title_by_app_change_zfb">Alipay ينصح بتشغيل العثور على الجهاز</string>
   <string name="micloud_find_device_guide_progress">جارٍ تشغيل العثور على الجهاز…</string>
-  <string name="micloud_find_device_guide_title">"تسجيل الدخول إلى %s لتحديد موقع، قفل،
- أو مسح الجهاز الخاص بك."</string>
+  <string name="micloud_find_device_guide_title">تسجيل الدخول إلى &lt;font color=#FF0000&gt;&lt;b&gt;i.mi.com&lt;/b&gt;&lt;/font&gt; إلى المنطقة، القفل أو مسح جهازك. قد يساعدك هذا في العثور على جهازك في حالة فقدانه.&lt;br /&gt;إذا فقدت جهازك، يمكنك الاتصال بخدمة الحماية للتطبيقات التي تستخدمها بشكل متكرر (مثل AliPay و WeChat و QQ) لحماية حساباتك على &lt;font color=#FF0000&gt;&lt;b&gt;i.mi.com&lt;/b&gt;&lt;/font&gt;.</string>
   <string name="micloud_find_device_open_fail">تعذر تشغيل العثور على الجهاز</string>
   <string name="micloud_find_device_opened">العثور على الجهاز يعمل</string>
   <string name="micloud_find_device_opened_content">العثور على جهازك في %s</string>
   <string name="micloud_find_device_opened_content_url">i.mi.com</string>
   <string name="micloud_find_device_opened_content_url_int">www.mi.com/micloud</string>
+  <string name="micloud_find_device_verify_button">إعادة تفعيل العثور على الجهاز</string>
+  <string name="micloud_find_device_verify_close">ايقاف تشغيل العثور على الجهاز</string>
+  <string name="micloud_find_device_verify_fail">تعذر إعادة تفعيل العثور على الجهاز</string>
+  <string name="micloud_find_device_verify_progress">جارٍ إعادة تفعيل العثور على الجهاز…</string>
   <string name="micloud_first_login_summary"/>
   <string name="micloud_first_login_title"/>
   <string name="micloud_full_influence_dspt">"سيتم عمل نسخة احتياطية لجميع الصور، مقاطع الفيديو، الملاحظات، والتطبيقات في Cloud.

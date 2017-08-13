@@ -84,7 +84,7 @@
         <item>وضع الأداء الاول</item>
     </string-array>
     <string-array name="thermal_summaries">
-        <item>Current default mode</item>
-        <item>Current performance mode</item>
+        <item>الوضع الحالي الإفتراضي</item>
+        <item>وضع الأداء الحالي</item>
     </string-array>
 </resources>

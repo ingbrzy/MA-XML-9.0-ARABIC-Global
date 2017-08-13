@@ -25,6 +25,7 @@
   <string name="input_password_after_boot_msg">لفتح جهازك، ادخل كلمة المرور</string>
   <string name="input_password_after_boot_msg_can_not_switch_when_calling">لا يمكن التبديل بين الفضاءات أثناء إجراء مكالمة</string>
   <string name="input_password_after_boot_msg_must_enter_owner_space">تحتاج إلى الدخول إلى الفضاء الأول بعد إعادة تشغيل الجهاز</string>
+  <string name="input_password_handle_sdcard_fs">进入分身前需要在开发者选项中关闭“模拟SD卡优化”</string>
   <string name="input_password_hint_text">ادخل كلمة المرور</string>
   <string name="input_pattern_hint_text">ارسم نقش إلغاء قفل الشاشة</string>
   <string name="input_pin_code">أدخل رمز PIN</string>

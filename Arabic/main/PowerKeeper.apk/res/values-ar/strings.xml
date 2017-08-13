@@ -32,7 +32,7 @@
 توفير شحن البطارية سيتعامل مع التطبيقات الهامة بشكل انتقائي."</string>
   <string name="config_suggest_suffix_title">توفير شحن البطارية MIUI (موصى به)</string>
   <string name="config_suggest_title">توفير شحن البطارية MIUI</string>
-  <string name="confirm">Confirm</string>
+  <string name="confirm">تأكيد</string>
   <string name="disable_hide_mode">تعطيل توفير شحن البطارية MIUI</string>
   <string name="disable_hide_mode_warning">قد يسبب تعطيل توفير شحن البطارية MIUI للمزيد من استهلاك الطاقة</string>
   <string name="disabled">إيقاف</string>
@@ -51,7 +51,7 @@
   <string name="hide_system_app">إخفاء تطبيقات النظام</string>
   <string name="high">الأداء</string>
   <string name="hints_loading_text">لحظة من فضلك…</string>
-  <string name="important_warning">Warning</string>
+  <string name="important_warning">تحذير</string>
   <string name="invalid_size_value">تعذر الحصول على حجم الحزمة.</string>
   <string name="location_disable_description">التطبيقات في الخلفية يمكنها الوصول الى خدمات الموقع فقط لفترة زمنية محدودة عندما يكون الاتصال بالشبكة محدود</string>
   <string name="location_disable_title">تقييد</string>
@@ -184,5 +184,5 @@
   <string name="vip_feedback">ملاحظات Vip</string>
   <string name="vip_feedback_enable">تفعيل ملاحظات Vip التلقائية</string>
   <string name="warm_configure">إعداد التحكم بالحرارة</string>
-  <string name="warm_performance_tip">In high load scenarios, the cell phone temperature is higher than the default mode</string>
+  <string name="warm_performance_tip">في سيناريوهات التحميل العالي، درجة حرارة الهاتف تكون أعلى من الوضع الافتراضي</string>
 </resources>

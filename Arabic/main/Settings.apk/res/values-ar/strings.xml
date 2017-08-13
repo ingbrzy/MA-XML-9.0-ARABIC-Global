@@ -483,7 +483,6 @@
   <string name="battery_saver_off_summary">تم التعطيل / %1$s</string>
   <string name="battery_saver_on_summary">تم التشغيل / %1$s</string>
   <string name="battery_saver_turn_on_automatically_never">أبدًا</string>
-  <string name="battery_saver_turn_on_automatically_pct">‏عند بلوغ %1$s من طاقة البطارية</string>
   <string name="battery_saver_turn_on_automatically_title">التشغيل تلقائيًا</string>
   <string name="battery_settings">بطارية</string>
   <string name="battery_settings_title">البطارية</string>
@@ -607,7 +606,6 @@
   <string name="bluetooth_empty_list_user_restricted">ليست لديك أذونات لتغيير إعدادات بلوتوث.</string>
   <string name="bluetooth_enable">بلوتوث</string>
   <string name="bluetooth_enable_alphanumeric_pin">‏يشتمل رمز PIN على أحرف ورموز</string>
-  <string name="bluetooth_enter_passkey_msg">اكتب شفرة الإقران، ثم اضغط على \"رجوع\" أو \"إدخال\"</string>
   <string name="bluetooth_enter_passkey_other_device">قد يلزم أيضًا كتابة مفتاح المرور هذا على الجهاز الآخر.</string>
   <string name="bluetooth_enter_pin_other_device">‏قد يلزم أيضًا كتابة رمز PIN هذا على الجهاز الآخر.</string>
   <string name="bluetooth_error_title"/>
@@ -886,7 +884,7 @@
   <string name="checking_find_device_status">جارٍ التحقق من حالة العثور على الجهاز…</string>
   <string name="checking_for_updates">جار التحقق من وجود تحديثات…</string>
   <string name="choose_assist_title">اختيار التطبيق المساعد</string>
-  <string name="choose_profile">Choose profile</string>
+  <string name="choose_profile">اختيار وضع</string>
   <string name="choose_smartcover_type">اختيار نوع الحالة</string>
   <string name="choose_spell_checker">اختيار المدقق الإملائي</string>
   <string name="choose_timezone">اختيار المنطقة الزمنية</string>
@@ -984,12 +982,12 @@
   <string name="controls_label">عناصر التحكم</string>
   <string name="controls_subtitle">ضبط استخدام الطاقة</string>
   <string name="convenience_key_category_title">اختصارات</string>
-  <string name="convert_to_fbe_warning">"Convert data partition to file based encryption.
- Warning: This will erase all your data.
- This feature is being developed, and may not work correctly.
- Press 'Wipe and convert…' to continue."</string>
+  <string name="convert_to_fbe_warning">"تحويل تقسيم البيانات إلى التشفير القائم على الملف.
+ تحذير: سيقوم هذا بمسح جميع بياناتك.
+ يتم تطوير هذه الميزة، وقد لا تعمل بشكل صحيح.
+ اضغط 'مسح وتحويل…' للمتابعة."</string>
   <string name="convert_to_file_encryption">تحويل إلى تشفير الملفات</string>
-  <string name="convert_to_file_encryption_done">Files are encrypted</string>
+  <string name="convert_to_file_encryption_done">تم تشفير الملفات</string>
   <string name="convert_to_file_encryption_enabled">جارٍ التحوبل…</string>
   <string name="copyright_title">حقوق الطبع والنشر</string>
   <string name="country_name">%s(النظام)</string>
@@ -1201,8 +1199,8 @@
   <string name="debug_hw_drawing_category">عرض تسارع الأجهزة</string>
   <string name="debug_hw_overdraw">تصحيح تجاوز حد GPU</string>
   <string name="debug_input_category">الإدخال</string>
-  <string name="debug_layout">Show layout boundaries</string>
-  <string name="debug_layout_summary">Show clip boundaries, margins, etc.</string>
+  <string name="debug_layout">عرض حدود التنسيق</string>
+  <string name="debug_layout_summary">عرض حدود المقطع، الهوامش، إلخ.</string>
   <string name="debug_monitoring_category">المراقبة</string>
   <string name="debug_networking_category">الشبكات</string>
   <string name="debug_view_attributes">Enable viewing attributes</string>
@@ -1310,8 +1308,8 @@
   <string name="dirac_mode_piston_100">سماعات رأس Mi In-Ear</string>
   <string name="dirac_mode_piston_2">Mi Piston-2</string>
   <string name="dirac_mode_piston_youth">Mi piston-youth</string>
-  <string name="disable_overlays">Disable HW overlay</string>
-  <string name="disable_overlays_summary">Always use GPU for screen rendering</string>
+  <string name="disable_overlays">تعطيل تراكبات الأجهزة</string>
+  <string name="disable_overlays_summary">استخدام GPU دائما لعرض الشاشة</string>
   <string name="disable_power_key_long_press_under_keyguard">إيقاف تشغيل قائمة زر الطاقة</string>
   <string name="disable_service_message">يؤدي النقر على \"موافق\" إلى إيقاف %1$s.</string>
   <string name="disable_service_title">هل تريد إيقاف %1$s؟</string>
@@ -1496,13 +1494,13 @@
   <string name="enable_freeform_support">تفعيل النوافذ الحرة</string>
   <string name="enable_freeform_support_summary">تمكين الدعم للنوافذ الحرة المجانية.</string>
   <string name="enable_mobile_data_when_opening_hotspot">تشغيل اتصال بيانات شبكة الجوال أيضاً؟</string>
-  <string name="enable_opengl_traces_title">Enable OpenGL tracing</string>
+  <string name="enable_opengl_traces_title">‏تمكين تتبع OpenG</string>
   <string name="enable_quick_setting">إظهار في الإعدادات السريعة</string>
   <string name="enable_service_encryption_warning">في حالة تمكين %1$s، لن يستخدم جهازك ميزة قفل الشاشة لتحسين تشفير البيانات.</string>
   <string name="enable_service_password_reason">نظرًا لأن تشغيل %1$s يؤثر في تشفير البيانات، يجب تأكيد كلمة المرور.</string>
   <string name="enable_service_pattern_reason">نظرًا لأن تشغيل %1$s يؤثر في تشفير البيانات، يجب تأكيد النقش.</string>
   <string name="enable_service_pin_reason">نظرًا لأن تشغيل %1$s يؤثر في تشفير البيانات، يجب تأكيد رقم التعريف الشخصي.</string>
-  <string name="enable_service_title">هل تريد استخدام %1$s؟</string>
+  <string name="enable_service_title">سوف تقوم الخدمة بهذه الإجراءات:</string>
   <string name="enable_snapshot_screenlock">اضغط مطولاً على رجوع لالتقاط صورة</string>
   <string name="enable_terminal_summary">تمكين تطبيق طرفي يوفر إمكانية الدخول إلى واجهة النظام المحلية</string>
   <string name="enable_terminal_title">تطبيق طرفي محلي</string>
@@ -1673,7 +1671,7 @@
   <string name="force_allow_on_external">Force allow apps ro write on external storage</string>
   <string name="force_allow_on_external_summary">يجعل أي تطبيق مؤهلا للكتابة إلى التخزين الخارجية، بغض النظر عن القيم الواضحة</string>
   <string name="force_hw_ui">فرض تسريع المعالج</string>
-  <string name="force_hw_ui_summary">Force use GPU for 2D drawing</string>
+  <string name="force_hw_ui_summary">إجبار استخدام GPU لرسم 2D</string>
   <string name="force_msaa">‏فرض 4x MSAA</string>
   <string name="force_msaa_summary">تمكين 4x MSAA في تطبيقات OpenGL ES 2.0</string>
   <string name="force_resizable_activities">إجبار الأنشطة لإمكانية تغيير حجمها</string>
@@ -1822,7 +1820,7 @@
   <string name="imei_information_summary">معلومات منتسبة بـIMEI</string>
   <string name="imei_information_title">معلومات IMEI</string>
   <string name="immediately_destroy_activities">لا تبقي الأنشطة</string>
-  <string name="immediately_destroy_activities_summary">End every activity as soon as the user leaves it</string>
+  <string name="immediately_destroy_activities_summary">إنهاء كل نشاط في أقرب وقت يتركه المستخدم</string>
   <string name="importance_reset">إعادة الضبط</string>
   <string name="inactive_app_active_summary">نشط. انقر لتشغيل / إيقاف.</string>
   <string name="inactive_app_inactive_summary">غير نشط. انقر لتشغيل / إيقاف.</string>
@@ -2003,9 +2001,9 @@
   <string name="local_backup_password_summary_change">انقر لتغيير أو إزالة كلمة المرور لنسخ الاحتياطية الكاملة للشاشة الرئيسية</string>
   <string name="local_backup_password_summary_none">النسخ الاحتياطية الكاملة لشاشة الرئيسية غير محمية حاليا</string>
   <string name="local_backup_password_title">كلمة مرور النسخ الاحتياطي للشاشة الرئيسية</string>
-  <string name="local_backup_password_toast_confirmation_mismatch">Passwords don’t match</string>
+  <string name="local_backup_password_toast_confirmation_mismatch">كلمات المرور غير متطابقة</string>
   <string name="local_backup_password_toast_success">تعيين كلمة مرور احتياطية جديدة</string>
-  <string name="local_backup_password_toast_validation_failure">"Couldn't set backup password"</string>
+  <string name="local_backup_password_toast_validation_failure">تعذر تعيين نسخة احتياطية لكلمة المرور</string>
   <string name="local_backup_section_summary">النسخ الاحتياطي لإعدادات النظام، معلومات الحساب، والتطبيقات</string>
   <string name="local_backup_section_title">نسخ احتياطي محلي</string>
   <string name="locale_default">افتراضي</string>
@@ -2677,9 +2675,9 @@
   <string name="open_miui_optimization_warning_message">سيقوم جهازك بإعادة التشغيل لتطبيق هذا التغيير.</string>
   <string name="open_personal_assistant_dialog_btn_cancel">إلغاء</string>
   <string name="open_personal_assistant_dialog_btn_confirm">إغلاق</string>
-  <string name="open_personal_assistant_dialog_desc">لن تتمكن من استخدام المساعد الذكي والحصول على تحديثاته. إيقاف التشغيل الآن؟</string>
-  <string name="open_personal_assistant_dialog_title">إيقاف تشغيل المساعد الذكي</string>
-  <string name="open_personal_assistant_title">تشغيل المساعد الذكي</string>
+  <string name="open_personal_assistant_dialog_desc">لن تتمكن من استخدام البطاقة السريعة والحصول على تحديثاتها. إيقاف التشغيل الآن؟</string>
+  <string name="open_personal_assistant_dialog_title">إيقاف تشغيل البطاقة السريعة</string>
+  <string name="open_personal_assistant_title">تشغيل البطاقة السريعة</string>
   <string name="open_sdcard_optimization_title">open emulated sdcard optimization</string>
   <string name="open_sdcard_optimization_warning_message">سيتم إعادة تشغيل الجهاز لتطبيق هذا التغيير.</string>
   <string name="open_wifi_connect_summary">انقرلعرض التفاصيل.</string>
@@ -2812,19 +2810,7 @@
   <string name="power_cell">استعداد الخلية</string>
   <string name="power_center">الطاقة</string>
   <string name="power_charge_remaining">%1$s للشحن</string>
-  <string name="power_charging">%1$s - %2$s</string>
-  <string name="power_charging_duration">%1$s - %2$s لاكتمال الشحن</string>
-  <string name="power_charging_duration_ac">%1$s - %2$s حتى الاكتمال على التيار المتردد</string>
-  <string name="power_charging_duration_ac_short">%1$s - %2$s</string>
-  <string name="power_charging_duration_short">%1$s - %2$s</string>
-  <string name="power_charging_duration_usb">%1$s - %2$s حتى الاكتمال من USB</string>
-  <string name="power_charging_duration_usb_short">%1$s - %2$s</string>
-  <string name="power_charging_duration_wireless">%1$s - %2$s حتى الاكتمال من التيار المتردد</string>
-  <string name="power_charging_duration_wireless_short">%1$s - %2$s</string>
   <string name="power_checker">فاحص الطاقة</string>
-  <string name="power_discharge_remaining">الوقت المتبقي: %1$s</string>
-  <string name="power_discharging_duration">%1$s متبقي %2$s تقريبا</string>
-  <string name="power_discharging_duration_short">%1$s - متبقي %2$s</string>
   <string name="power_flashlight">الفلاش</string>
   <string name="power_hide_mode_summary">توفيرالبطارية عن طريق تقييد العمليات الخلفية للتطبيقات الفردية، Wi-Fi، اتصالات بيانات الهاتف، و استخدامات GPS</string>
   <string name="power_hide_mode_title">إدارة استخدام التطبيقات للبطارية</string>
@@ -2995,8 +2981,6 @@
   <string name="process_stats_run_time">مدة التشغيل</string>
   <string name="process_stats_summary">الإحصائيات التقنية حول العمليات الجارية</string>
   <string name="process_stats_summary_title">إحصائيات العمليات</string>
-  <string name="process_stats_total_duration">تم استخدام %1$s من إجمالي %2$s خلال آخر %3$s</string>
-  <string name="process_stats_total_duration_percentage">تم استخدام %1$s من ذاكرة الوصول العشوائي خلال %2$s</string>
   <string name="process_stats_type_background">خلفية</string>
   <string name="process_stats_type_cached">نسخة مخبأة</string>
   <string name="process_stats_type_foreground">المقدمة</string>
@@ -3632,13 +3616,13 @@
   <string name="select_all">تحديد الكل</string>
   <string name="select_application">تحديد تطبيق</string>
   <string name="select_device_admin_msg">مشرفو الجهاز</string>
-  <string name="select_logd_size_dialog_title">Select size for log buffers</string>
+  <string name="select_logd_size_dialog_title">تحديد الحجم لسجل المخزن المؤقت</string>
   <string name="select_logd_size_title">Log buffer sizes</string>
   <string name="select_sim_for_calls">الاتصال باستخدام</string>
   <string name="select_sim_for_data">‏تحديد شريحة SIM للبيانات</string>
   <string name="select_ssid_type_title">تحديد SSID</string>
-  <string name="select_usb_configuration_dialog_title">Select USB configuration</string>
-  <string name="select_usb_configuration_title">Select USB configuration</string>
+  <string name="select_usb_configuration_dialog_title">تحديد إعدادات USB</string>
+  <string name="select_usb_configuration_title">تحديد إعدادات USB</string>
   <string name="select_webview_provider_dialog_title">تعيين تطبيق عرض الويب</string>
   <string name="select_webview_provider_title">تطبيق عرض الويب</string>
   <string name="select_webview_provider_toast_text">لم يعد هذا الاختيار صالحا. إعادة المحاولة.</string>
@@ -3694,20 +3678,20 @@
   <string name="sharing_remote_bugreport_dialog_message">تتم مشاركة تقرير الخطأ هذا مع مشرف تكنولوجيا المعلومات. اتصل به للحصول على المزيد من التفاصيل.</string>
   <string name="short_summary_font_size">يمكنك تكبير النص أو تصغيره.</string>
   <string name="show_all_anrs">‏عرض جميع ANRs</string>
-  <string name="show_all_anrs_summary">Show \"App not responding\" dialog for background apps</string>
+  <string name="show_all_anrs_summary">إظهار حوار \"التطبيق لا يستجيب\" لتطبيقات الخلفية</string>
   <string name="show_background_processes">عرض العمليات المخزنة مؤقتًا</string>
   <string name="show_connected_devices_summary">عرض الأجهزة المتصلة</string>
   <string name="show_connected_devices_title">توصيل الأجهزة</string>
   <string name="show_cpu_usage">‏عرض استخدام المعالج</string>
-  <string name="show_cpu_usage_summary">Show CPU usage using screen overlay</string>
+  <string name="show_cpu_usage_summary">إظهار استخدام المعالج بإستعمال تراكب الشاشة</string>
   <string name="show_dev_already">لا حاجة لذلك، فأنت مطور برامج فعلاً.</string>
   <string name="show_dev_on">لقد أصبحت الآن مطور برامج!</string>
   <string name="show_fc">التطبيقات المغلقة إجبارياً</string>
   <string name="show_fc_summary">إظهار التطبيقات التي تم إيقافها إجبارياُ</string>
-  <string name="show_hw_layers_updates">Show hardware level updates</string>
-  <string name="show_hw_layers_updates_summary">Hardware items that are being updated will flash green</string>
-  <string name="show_hw_screen_updates">Visualize GPU rendering</string>
-  <string name="show_hw_screen_updates_summary">Flash windows where videos are being rendered by GPU</string>
+  <string name="show_hw_layers_updates">عرض تحديثات طبقات الأجهزة</string>
+  <string name="show_hw_layers_updates_summary">ستومض معدات الجهاز التي يتم تحديثها باللون الأخضر</string>
+  <string name="show_hw_screen_updates">إظهار أداء GPU</string>
+  <string name="show_hw_screen_updates_summary">عرض نوافذ حيث يتم عرض فيديوهات بواسطة GPU</string>
   <string name="show_ime">إظهار لوحة المفاتيح الظاهرية</string>
   <string name="show_ime_summary">استمرار عرضها على الشاشة أثناء نشاط لوحة المفاتيح الفعلية</string>
   <string name="show_magnifier_when_input">عدسة تكبير النص</string>
@@ -4166,7 +4150,7 @@
   <string name="timed_titlei">قاعدة الجدول %d</string>
   <string name="timezone_settings">المنطقة الزمنية</string>
   <string name="title_color_calibration">الإعدادات المسبقة لتصحيح اللون</string>
-  <string name="title_convert_fbe">Converting to file based encryption…</string>
+  <string name="title_convert_fbe">التحويل إلى التشفير القائم على الملف…</string>
   <string name="title_dolby_control">تقنية Dolby digital plus</string>
   <string name="title_font">الخط</string>
   <string name="title_font2">الخط</string>
@@ -4213,7 +4197,7 @@
   <string name="trusted_credentials_system_tab">النظام</string>
   <string name="trusted_credentials_trust_label">موثوق به</string>
   <string name="trusted_credentials_user_tab">المستخدم</string>
-  <string name="tts_default_lang_summary">Set the default language for text-to-speech output</string>
+  <string name="tts_default_lang_summary">تعيين اللغة الإفتراضية لإخراج تحويل النص الى كلام</string>
   <string name="tts_default_lang_title">اللغة</string>
   <string name="tts_default_pitch_summary">يؤثر في نغمة النص المنطوق</string>
   <string name="tts_default_pitch_title">طبقة الصوت</string>
@@ -4222,7 +4206,7 @@
   <string name="tts_default_sample_string">هذا مثال لتوليف الكلام</string>
   <string name="tts_engine_network_required">تتطلب هذه اللغة اتصال شبكة سليم لتحويل النص إلى كلام.</string>
   <string name="tts_engine_preference_section_title">المحرك المفضل</string>
-  <string name="tts_engine_security_warning">This voice engine may be able to record and collect everything you say, including personal data like passwords and credit card numbers. This voice engine is provided by %s. Turn on voice engine?</string>
+  <string name="tts_engine_security_warning">قد يكون محرك الصوت هذا قادرا على تسجيل وجمع كل ما تقوله، بما في ذلك البيانات الشخصية مثل كلمات السر وأرقام بطاقات الائتمان. تم توفير محرك الصوت هذا من طرف %s. تشغيل محرك الصوت؟</string>
   <string name="tts_engine_settings_button">إعدادات محرك التشغيل</string>
   <string name="tts_engine_settings_title">إعدادات %s</string>
   <string name="tts_general_section_title">عام</string>
@@ -4239,18 +4223,20 @@
   <string name="tts_settings">إعدادات تحويل النص إلى كلام</string>
   <string name="tts_settings_title">إخراج تحويل النص إلى كلام</string>
   <string name="tts_status_checking">جار التحقق…</string>
-  <string name="tts_status_not_supported">"%1$s isn't supported"</string>
+  <string name="tts_status_not_supported">%1$s غير مدعوم</string>
   <string name="tts_status_ok">%1$s مدعومة بالكامل</string>
   <string name="tts_status_requires_network">تحتاج %1$s الاتصال بالشبكة</string>
   <string name="tts_status_title">حالة اللغة الافتراضية</string>
   <string name="turn_off_common_password_confirm_msg">قفل الشاشة سيتم الغاؤه كذلك.</string>
   <string name="turn_off_keyguard_password_alert_title">إيقاف التشغيل</string>
   <string name="turn_off_keyguard_password_confirm_msg">بعض ميزات الحماية لن تعمل بدون كلمة المرور الخاصة بك.</string>
+  <string name="turn_off_keyguard_password_wait_dialog">إغلاق كلمة المرور</string>
   <string name="turn_off_keyguard_password_with_fingerprint_confirm_msg">لن تتمكن من إلغاء قفل جهازك بإستخدام بصمة الأصبع بعد إلغاء كلمة المرور.</string>
   <string name="turn_off_keyguard_password_with_fingerprint_confirm_msg_delete">بعد إيقاف تشغيل كلمة مرور قفل الشاشة، سيتم حذف بصمات الأصابع المسجلة. لن تتمكن من إلغاء قفل الجهاز باستخدام بصمة الإصبع الخاصة بك.</string>
   <string name="turn_off_security_lock">إيقاف تشغيل القفل</string>
   <string name="turn_on_keyguard_password">تفعيل كلمة مرور شاشة القفل</string>
   <string name="turn_on_security_lock">اختيار قفل الشاشة</string>
+  <string name="turn_update_keyguard_password_wait_dialog">تغيير كلمة المرور</string>
   <string name="twohours">1 hours</string>
   <string name="uicc_eject">إخراج سعة تخزين UICC</string>
   <string name="uicc_eject_summary">إخراج سعة تخزين UICC لازالته بأمان</string>
@@ -4717,10 +4703,10 @@
   <string name="wifi_advanced_not_available">‏إعدادات Wi‑Fi المتقدمة ليست متاحة لهذا المستخدم.</string>
   <string name="wifi_advanced_settings_label">‏إعدادات IP</string>
   <string name="wifi_advanced_titlebar">Wi-Fi متقدم</string>
-  <string name="wifi_aggressive_handover">Automatic Wi‑Fi to Cellular handover</string>
+  <string name="wifi_aggressive_handover">‏تبديل تلقائي من شبكة Wi-Fi إلى الخلوي</string>
   <string name="wifi_aggressive_handover_summary">When enabled, connection will switch to mobile data more actively, when Wi‑Fi signal is low.</string>
-  <string name="wifi_allow_scan_with_traffic">Always allow Wi‑Fi roam scans</string>
-  <string name="wifi_allow_scan_with_traffic_summary">Allow or restrict Wi‑Fi roam scans based on the amount of data traffic present in the interface.</string>
+  <string name="wifi_allow_scan_with_traffic">‏السماح دائما بعمليات فحص Wi‑Fi للتجوال</string>
+  <string name="wifi_allow_scan_with_traffic_summary">‏السماح H, تقييد عمليات فحص Wi‑Fi للتجوال بناءً على حجم حركة البيانات في الواجهة.</string>
   <string name="wifi_and_mobile_skipped_message">"‏عند تخطي اتصال Wi‑Fi:
 
 "&lt;li&gt;&amp;#1604;&amp;#1606; &amp;#1610;&amp;#1578;&amp;#1608;&amp;#1601;&amp;#1585; &amp;#1575;&amp;#1578;&amp;#1589;&amp;#1575;&amp;#1604; &amp;#1576;&amp;#1575;&amp;#1604;&amp;#1573;&amp;#1606;&amp;#1578;&amp;#1585;&amp;#1606;&amp;#1578; &amp;#1604;&amp;#1607;&amp;#1575;&amp;#1578;&amp;#1601;&amp;#1603;.&lt;/li&gt;"
@@ -4923,9 +4909,11 @@
   <string name="wifi_security_eap">802.1x EAP</string>
   <string name="wifi_security_none">لا يوجد</string>
   <string name="wifi_security_passpoint">Passpoint</string>
+  <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
   <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
   <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
   <string name="wifi_security_short_eap">802.1x</string>
+  <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
   <string name="wifi_security_short_wep">WEP</string>
   <string name="wifi_security_short_wpa">WPA</string>
   <string name="wifi_security_short_wpa2">WPA2</string>
@@ -5044,7 +5032,7 @@
   <string name="wifi_unchanged">(لم يتم التغيير)</string>
   <string name="wifi_unspecified">الرجاء التحديد</string>
   <string name="wifi_use_system_certs">استخدام شهادات النظام</string>
-  <string name="wifi_verbose_logging">Enable Wi‑Fi verbose logging</string>
+  <string name="wifi_verbose_logging">تمكين Wi‑Fi Verbose Logging</string>
   <string name="wifi_verbose_logging_summary">Increase Wi‑Fi logging level, show RSSI for every SSID in the list of Wi‑Finetworks.</string>
   <string name="wifi_wapi_as_cert">شهادة AS</string>
   <string name="wifi_wapi_cert_cancel_button">إلغاء</string>
