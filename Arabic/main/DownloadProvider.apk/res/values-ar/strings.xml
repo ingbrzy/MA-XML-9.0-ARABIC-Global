@@ -14,9 +14,7 @@
   <string name="dialog_data_limit_button1">انتظر شبكة الـWi-Fi</string>
   <string name="dialog_data_limit_button2">تنزيل الآن</string>
   <string name="dialog_data_limit_msg1">%s من بيانات الجوال سيتم إستخدامها لتحميل هذا الملف. التحميل الان؟</string>
-  <string name="dialog_data_limit_msg2">@string/dialog_tip_limit</string>
   <string name="dialog_data_limit_msg3">تغيير الحد</string>
-  <string name="dialog_data_limit_sel_title">@string/dialog_tip_limit</string>
   <string name="dialog_data_limit_title">تحذير استخدام البيانات</string>
   <string name="dialog_insufficient_space_on_cache">لا توجد مساحة كافية بوحدة تخزين التنزيلات الداخلية</string>
   <string name="dialog_insufficient_space_on_external">لا توجد مساحة كافية بوحدة التخزين الخارجية</string>

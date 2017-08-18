@@ -37,16 +37,6 @@
         <item>ضعيف جدا</item>
         <item>شديد</item>
     </string-array>
-    <string-array name="weather_tips_value">
-        <item>تقليل الأنشطة في الهواء الطلق</item>
-        <item>الطرق زلقة</item>
-        <item>الطقس عاصف، كن حذراً!</item>
-        <item>الهواء ملوث، ارتدي قناع!</item>
-        <item>خذ مظلة عند الخروج</item>
-        <item>كن حذراً في الطريق</item>
-        <item>عاصفة رملية قادمة، ارتدي قناع!</item>
-        <item>أتمنى لك نهارا سعيد!</item>
-    </string-array>
     <string-array name="alarm_set">
         <item>سيتم التنبيه في أقل من ١ دقيقة.</item>
         <item>سيتم التنبيه بعد %1$s.</item>
@@ -66,15 +56,6 @@
         <item>٢٥ دقيقة</item>
         <item>٣٠ دقيقة</item>
     </string-array>
-    <string-array name="snooze_duration_values">
-        <item>1</item>
-        <item>5</item>
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
-        <item>25</item>
-        <item>30</item>
-    </string-array>
     <string-array name="auto_silence_entries">
         <item>ابداً</item>
         <item>١ دقيقة</item>
@@ -89,10 +70,5 @@
         <item>لا شيء</item>
         <item>غفوة</item>
         <item>تجاهل</item>
-    </string-array>
-    <string-array name="volume_button_setting_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
 </resources>
