@@ -280,7 +280,7 @@
   <string name="micloud_main_memory_low_title">سعة التخزين الداخلية للهاتف تقريباً ممتلئة</string>
   <string name="micloud_main_message_master_sync_off">Auto sync setting is in notification bar.</string>
   <string name="micloud_main_message_not_synced">لم تتم مزامنة %s بيانات</string>
-  <string name="micloud_main_multi_user_error_message">"لقد قمت بتسجيل الدخول بنفس الحساب كما في الفضاء الأول الذي تسبب في خطأ في Mi Cloud. 
+  <string name="micloud_main_multi_user_error_message">"لقد قمت بتسجيل الدخول بنفس الحساب الذي في الواجهة الاولى مما سبب خطأ في Mi Cloud. 
  استخدم حساب مختلف."</string>
   <string name="micloud_main_multi_user_error_title">خطأ في Mi Cloud</string>
   <string name="micloud_main_network_abnormal">يتعذر الاتصال بالشبكة</string>
@@ -344,7 +344,7 @@
   <string name="micloud_notif_content_dirty_data">التفاصيل</string>
   <string name="micloud_notif_content_master_depend_wifi">الاتصال بWi-Fi أولاً.</string>
   <string name="micloud_notif_content_memory_low">لا يوجد مساحة التخزين كافية.</string>
-  <string name="micloud_notif_content_multi_user_error">لقد قمت بتسجيل الدخول بنفس الحساب الذي في الفضاء الأول.</string>
+  <string name="micloud_notif_content_multi_user_error">لقد قمت بتسجيل الدخول بنفس الحساب الذي في الواجهة الاولى.</string>
   <string name="micloud_notif_content_sync_finish">الحساب</string>
   <string name="micloud_notif_content_sync_not_finish">التفاصيل</string>
   <string name="micloud_notif_content_sync_with_off">انقر للمزامنة جهازك الآن.</string>

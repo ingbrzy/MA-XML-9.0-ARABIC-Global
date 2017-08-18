@@ -37,7 +37,7 @@
   <string name="error_filename_too_long">اسم الملف طويل جداُ.</string>
   <string name="error_sdcard_access">لا يمكن الوصول إلى وحدة التخزين</string>
   <string name="error_sdcard_unmounted">أدخل بطاقة SD الآن</string>
-  <string name="export_to_note">التصدير الى الملاحظات</string>
+  <string name="export_to_note">تصدير</string>
   <string name="head_set_tip_dialog_msg">افصل سماعات الأذن الخاصة بك لتكون قادرة على تسجيل الصوت مع مفضلة محددة (مثال، الموسيقى، الصوت).</string>
   <string name="head_set_tip_dialog_ok">فهمت</string>
   <string name="head_set_tip_dialog_title">استخدام mic الداخلي</string>

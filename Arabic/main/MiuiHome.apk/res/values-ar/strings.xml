@@ -107,7 +107,7 @@
   <string name="gadget_clock_14_label">ساعة ١x٤</string>
   <string name="gadget_clock_24_label">ساعة ٢x٤</string>
   <string name="gadget_clock_label">ساعة</string>
-  <string name="gadget_error_text">لاتحميل عنصرواجهة</string>
+  <string name="gadget_error_text">لاتحميل عنصر الواجهة</string>
   <string name="gadget_google_search_label">بحث في Google</string>
   <string name="gadget_load_error">جارٍ التحميل…</string>
   <string name="gadget_mtz_label">أدوات ذكية</string>

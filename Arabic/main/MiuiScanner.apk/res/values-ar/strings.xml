@@ -44,6 +44,7 @@
   <string name="document_ocr_result_title">صورة المستند</string>
   <string name="document_ocr_tip_msg">جار القراءة…</string>
   <string name="document_recognize_fail_tip">تعذر قراءة المستند</string>
+  <string name="document_recognize_null_tip">نتيجة الوثيقة فارغة</string>
   <string name="document_rectify">تعديل</string>
   <string name="document_rectify_tip_msg">جارٍ التعديل…</string>
   <string name="document_save_succeed_tip">تم حفظ المسند إلى %1$s</string>

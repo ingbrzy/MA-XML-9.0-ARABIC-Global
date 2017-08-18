@@ -53,7 +53,7 @@
   <string name="stop_on_empty_password">كلمة المرور لا يمكن ان تكون فارغة</string>
   <string name="sys_notification_async_open_failed_content">انقر لإعادة المحاولة او الإلغاء.</string>
   <string name="sys_notification_async_open_failed_title">تعذر تشغيل العثور على الجهاز</string>
-  <string name="sys_notification_async_verify_content">Our updated Security Policy requires that Find device should be reactivated.</string>
+  <string name="sys_notification_async_verify_content">تتطلب سياسة الأمان المحدثة إعادة تفعيل العثور على الجهاز.</string>
   <string name="sys_notification_async_verify_title">إعادة تفعيل العثور على الجهاز</string>
   <string name="time_correction_failure">لا يمكن تصحيح الوقت. %s</string>
   <string name="time_correction_success">تم تصحيح الوقت</string>

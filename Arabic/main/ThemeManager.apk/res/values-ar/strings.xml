@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="account_info">حسابي الخاص</string>
+  <string name="account_info">Me</string>
   <string name="account_name_not_login">تسجيل الدخول</string>
   <string name="account_unactivated">لم يتم تفعيل الحساب</string>
   <string name="ad_app_download_start">جارٍ بدء التنزيل…</string>
@@ -24,6 +24,11 @@
   <string name="both_all_apply_failured">لا يمكن تعيين الخلفية</string>
   <string name="both_all_apply_success">تم تعيين خلفية الشاشة</string>
   <string name="browser_local_resource">الموارد المحلية</string>
+  <string name="can_not_apply">Can not apply</string>
+  <string name="card_data_request_error">Data request exception, please try again later~</string>
+  <string name="card_loading">Loading...</string>
+  <string name="card_no_network">No network now, please connect and try again~</string>
+  <string name="card_retry">Retry</string>
   <string name="change_host_hint">تغيير المضيف</string>
   <string name="change_wallpaper">خلفية الشاشة</string>
   <string name="close">إغلاق</string>
@@ -52,6 +57,7 @@
   <string name="fail_to_add_account">لا يمكن إضافة الحساب</string>
   <string name="favorite_list">المفضلة</string>
   <string name="favorite_list_format">المفضلة %1$s</string>
+  <string name="find_more_wallpapers">Find more</string>
   <string name="gift_anonymous">مجهول</string>
   <string name="gift_operation_fail_dlg_abandon">إلغاء</string>
   <string name="gift_operation_fail_dlg_retry">حاول مرة أخرى</string>
@@ -86,14 +92,21 @@
   <string name="gift_used">أرسل</string>
   <string name="home_apply_failured">لا يمكن تعيين خلفية الشاشة الرئيسية</string>
   <string name="home_apply_success">تم تعيين خلفية الشاشة الرئيسية</string>
-  <string name="incompatible_dialog_message">هذا الثيم غير متوافق بالكامل مع MIUI 8. قد يتم عرض بعض العناصر بشكل غير صحيح.</string>
+  <string name="in_the_end">No more</string>
+  <string name="incompatible_dialog_message">This theme isnt fully compatible with MIUI 9. Some elements may be displayed incorrectly.</string>
   <string name="incompatible_dialog_ok">فهمت</string>
   <string name="incompatible_dialog_title">مشاكل التوافق</string>
   <string name="is_setting_wallpaper_message">جارٍ إعداد خلفية الشاشة…</string>
+  <string name="item_resource_audio_divider">│</string>
+  <string name="item_resource_audio_optional_alarm_ring">alarm ring</string>
+  <string name="item_resource_audio_optional_color_ring">color ring</string>
+  <string name="item_resource_audio_optional_notification_ring">notification ring</string>
+  <string name="item_resource_audio_optional_phone_ring">phone ring</string>
   <string name="live_wallpaper">خلفية شاشة متحركة</string>
   <string name="loading">لحظة من فضلك…</string>
   <string name="loading_resource_detail_fail">لا يمكن تحميل الموارد</string>
   <string name="loading_resource_detail_info">لحظة من فضلك…</string>
+  <string name="local_photos">Local photos</string>
   <string name="local_resouce_creator_name">المطور: %1$s</string>
   <string name="lockscreen_apply_failured">لا يمكن تعيين خلفية شاشة القفل</string>
   <string name="lockscreen_apply_failured_but_home_apply_success">تم تعيين خلفية الشاشة الرئيسية. لا يمكن تعيين خلفية شاشة القفل.</string>
@@ -128,6 +141,7 @@
   <string name="purchased_list">تم شراؤها</string>
   <string name="purchased_list_current">MIUI 8</string>
   <string name="purchased_list_legacy">ثيمات الميراث</string>
+  <string name="recently_used">Recently used</string>
   <string name="reload">حاول مجدداً</string>
   <string name="resource_account_abnormal_state">حدث خطأ في الحساب. انتظر دقيقة أو دقيقتين ثم حاول مرة أخرى.</string>
   <string name="resource_account_fail_to_add">لا يمكن إضافة حساب</string>
@@ -265,6 +279,10 @@
   <string name="resource_ranking">الشائعة</string>
   <string name="resource_ranking_free">مجاني</string>
   <string name="resource_ranking_purchase">مدفوع</string>
+  <string name="resource_ring_ranking_list_divider">-</string>
+  <string name="resource_ring_ranking_list_rank_1">1</string>
+  <string name="resource_ring_ranking_list_rank_2">2</string>
+  <string name="resource_ring_ranking_list_rank_3">3</string>
   <string name="resource_ringtone_default">نغمات الرنين</string>
   <string name="resource_ringtone_playing_error">خطأ</string>
   <string name="resource_ringtone_volume_mute">صوت الرنين صامت</string>
@@ -320,12 +338,14 @@
   <string name="resource_user_know">موافق</string>
   <string name="resource_waiting_download">جارٍ الانتظار</string>
   <string name="resource_waiting_pause">إيقاف مؤقت</string>
+  <string name="ringtone_set_success">Set successfully</string>
   <string name="sdcard_not_mounted_dialog_message">"أدخل بطاقة SD الآن.
 "</string>
   <string name="sdcard_not_mounted_dialog_title">لم يتم اكتشاف اي بطاقة SIM</string>
   <string name="search_hint_header_text">كلمات ساخنة</string>
   <string name="selected_resource_file_invalid">الملف المحدد غير صالح</string>
   <string name="settings">الإعدادات</string>
+  <string name="system_precust">System precust</string>
   <string name="the_picture_is_not_support">الصورة غير مدعومة</string>
   <string name="the_picture_is_too_small">الصورة صغيرة جداً</string>
   <string name="theme_apply_audio_dialog_item_alarm">منبه</string>
@@ -398,7 +418,7 @@
   <string name="theme_user_agreement_content3">" و "</string>
   <string name="theme_user_agreement_content4">سياسة الخصوصية</string>
   <string name="theme_user_agreement_content5">". يحتاج هذا التطبيق للاتصال بالانترنت ليعمل بشكل طبيعي. "</string>
-  <string name="theme_user_agreement_exit">خروج</string>
+  <string name="theme_user_agreement_exit">Disagree</string>
   <string name="theme_user_agreement_remind_again">عرض شروط الاستخدام</string>
   <string name="theme_user_agreement_remind_never">عدم الإظهار مرة أخرى</string>
   <string name="theme_user_agreement_remind_summary">عرض شروط الاستخدام المنبثقة في كل مرة تقوم فيها بفتح تطبيق الثيمات. هذا الإعداد نافذ المفعول بعد إعادة تشغيل الجهاز.</string>
@@ -415,7 +435,7 @@
   <string name="uid_change_dialog_message">لقد قمت بحذف التحديثات. قم بإعادة تشغيل الجهاز لتكون قادرا على إستخدام الثيمات.</string>
   <string name="uid_change_dialog_ok">فهمت</string>
   <string name="uid_change_dialog_title">إعادة تشغيل الجهاز</string>
-  <string name="wallpaper_auto_change_title">شاشة قفل</string>
+  <string name="wallpaper_apply">Apply</string>
   <string name="wallpaper_crop">قص</string>
   <string name="wallpaper_decoded_error">لا يمكن تحميل خلفية الشاشة</string>
   <string name="wallpaper_scroll_type_tips">لفيفة خلفية الشاشة</string>
@@ -423,8 +443,8 @@
   <string name="wallpaper_set_as_destop">تعيين كشاشة رئيسية</string>
   <string name="wallpaper_set_as_lockscreen">تعيين كشاشة القفل</string>
   <string name="wallpaper_settings">إعدادات خلفية الشاشة</string>
-  <string name="wallpaper_settings_change_wallpaper">تغيير</string>
-  <string name="wallpaper_settings_desktop_text">شاشة رئيسية</string>
-  <string name="wallpaper_settings_lockscreen_text">شاشة قفل</string>
+  <string name="wallpaper_settings_loading_text">Loading</string>
+  <string name="wallpaper_settings_no_history">No history</string>
+  <string name="wallpaper_settings_pad_more_page_title">More wallpapers</string>
   <string name="wallpaper_settings_page_title">خلفية الشاشة</string>
 </resources>

@@ -9,6 +9,7 @@
   <string name="activate_feature_default_name">خدمات Mi</string>
   <string name="activate_feature_find_device">العثور على الجهاز</string>
   <string name="activate_feature_live_talk">حزمة شحن الرصيد</string>
+  <string name="activate_feature_mi_roaming">تجوال Mi</string>
   <string name="activate_feature_mms_sync">مزامنة الرسائل</string>
   <string name="activate_feature_mx">رسالة Mi</string>
   <string name="activate_feature_mx_and_voip">رسالة Mi والصوت</string>

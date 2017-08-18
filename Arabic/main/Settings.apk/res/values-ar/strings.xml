@@ -810,7 +810,7 @@
   <string name="call_manager_enable_summary">السماح لهذه الخدمة بإدارة كيفية إجراء المكالمات.</string>
   <string name="call_manager_enable_title">تمكين مدير المكالمات</string>
   <string name="call_manager_title">مدير المكالمات</string>
-  <string name="call_settings_primary_user_only">تغيير إعدادات مكالمة في الفضاء الأول</string>
+  <string name="call_settings_primary_user_only">تغيير إعدادات المكالمات في الواجهة الاولى</string>
   <string name="call_settings_summary">إعداد البريد الصوتي، اعادة توجيه المكالمة، انتظار المكالمة، معرف المتصل</string>
   <string name="call_settings_title">اعدادات المكالمات</string>
   <string name="calls_title">المكالمات</string>
@@ -1625,7 +1625,7 @@
   <string name="fingerprint_last_delete_message_profile_challenge">لن تتمكن من استخدام بصمات إصبعك لإلغاء تأمين الملف الشخصي للعمل، أو مصادقة عملية الشراء، أو تسجيل الدخول إلى تطبيقات العمل.</string>
   <string name="fingerprint_last_delete_title">هل تريد إزالة جميع بصمات الإصبع؟</string>
   <string name="fingerprint_list_title">بصمة الإصبع</string>
-  <string name="fingerprint_lock_first">إلغاء قفل الفضاء الاول</string>
+  <string name="fingerprint_lock_first">إلغاء قفل الواجهة الاولى</string>
   <string name="fingerprint_lock_second">إلغاء قفل الواجهة الثانية</string>
   <string name="fingerprint_manage">إدارة بصمات الأصابع</string>
   <string name="fingerprint_manage_category_title">إدارة بصمات الإصبع</string>
@@ -2086,9 +2086,9 @@
   <string name="lock_screen_notifications_interstitial_title_profile">إشعارات الملف الشخصي</string>
   <string name="lock_screen_notifications_summary_disable">عدم عرض إشعارات على الإطلاق</string>
   <string name="lock_screen_notifications_summary_disable_profile">عدم عرض إشعارات العمل على الإطلاق</string>
-  <string name="lock_screen_notifications_summary_hide">إخفاء المحتوى المهم للإشعارات</string>
+  <string name="lock_screen_notifications_summary_hide">عرض جميع الإشعارات لكن إخفاء المحتوى</string>
   <string name="lock_screen_notifications_summary_hide_profile">إخفاء المحتوى المهم لإشعارات العمل</string>
-  <string name="lock_screen_notifications_summary_show">عرض كل محتوى الإشعارات</string>
+  <string name="lock_screen_notifications_summary_show">عرض جميع الإشعارات ومحتوياتها</string>
   <string name="lock_screen_notifications_summary_show_profile">عرض كل محتوى إشعارات العمل</string>
   <string name="lock_screen_notifications_title">على شاشة التأمين</string>
   <string name="lock_screen_secure_after_timeout_immediately_summary">يتطلب إدخال كلمة المرور مباشرة.</string>
@@ -2183,7 +2183,7 @@
   <string name="lockpattern_pattern_confirmed_header">نقش إلغاء قفلك الجديد:</string>
   <string name="lockpattern_pattern_entered_header">تم تسجيل النقش</string>
   <string name="lockpattern_pattern_same_with_others">يجب أن تكون مختلفة عن كلمة مرور الفضاء الأخرى</string>
-  <string name="lockpattern_pattern_same_with_owner">يجب أن تكون مختلفة عن كلمة مرور الفضاء الأول</string>
+  <string name="lockpattern_pattern_same_with_owner">يجب أن تكون مختلفة عن كلمة مرور الواجهة الاولى</string>
   <string name="lockpattern_pattern_same_with_security_space">يجب أن تكون مختلفة عن كلمة مرور الواجهة الثانية</string>
   <string name="lockpattern_recording_incorrect_too_short">قم بتوصيل %d نقاط على الاقل. حاول مجدداً.</string>
   <string name="lockpattern_recording_inprogress">إرفع إصبعك عند الانتهاء</string>
@@ -2215,6 +2215,7 @@
   <string name="lockscreen_glogin_checking_password">جار الفحص…</string>
   <string name="lockscreen_glogin_password_hint">كلمة المرور</string>
   <string name="lockscreen_glogin_submit_button">تسجيل الدخول</string>
+  <string name="lockscreen_magazine">خلفية كاروسيل</string>
   <string name="lockscreen_magazine_title">خلفية كاروسيل</string>
   <string name="lockscreen_remote_input">أثناء قفل الجهاز، منع كتابة ردود أو نصوص أخرى في الإشعارات</string>
   <string name="login_account_dialog_message">قم بتسجيل الدخول إلى حساب Mi وتشغيل المزامنة مع Mi Cloud.</string>
@@ -2228,6 +2229,7 @@
   <string name="man_add_application">إضافة تطبيقات التشغيل التلقائي</string>
   <string name="manage_device_admin">مشرفو الجهاز</string>
   <string name="manage_device_admin_summary">عرض مشرفي الأجهزة أو إلغاء تنشيطهم</string>
+  <string name="manage_fakecell_settings">حماية من المحطات الوهمية</string>
   <string name="manage_fingerprint_text">إدارة بصمات الأصابع</string>
   <string name="manage_mobile_plan_title">خطة الجوّال</string>
   <string name="manage_notification_access_summary_zero">لا يُمكن للتطبيقات قراءة الإشعارات</string>
@@ -2572,6 +2574,8 @@
   <string name="no_updates_warning2">استرح، سنعلمك في حال توفر تحديث :)</string>
   <string name="no_vr_listeners">لم تطلب أية تطبيقات مثبَّتة أن يتم تشغيلها كخدمات مساعد واقع افتراضي.</string>
   <string name="noise_suppression">تقليل الضوضاء المحيطة</string>
+  <string name="normal">Normal</string>
+  <string name="normal_info">All the volume is normal</string>
   <string name="normal_smartcover_title">غطاء أمامي غير شفاف</string>
   <string name="not_battery_optimizing">عدم استخدام تحسين البطارية</string>
   <string name="not_installed">لم يتم التثبيت لهذا المستخدم</string>
@@ -2699,7 +2703,7 @@
   <string name="owner_info_settings_status">%1$d / %2$d</string>
   <string name="owner_info_settings_summary">لا أحد</string>
   <string name="owner_info_settings_title">شاشة قفل معلومات المالك</string>
-  <string name="owner_space">الفضاء الاول</string>
+  <string name="owner_space">الواجهة الاولى</string>
   <string name="packages_subtitle">الحزم المضمنة</string>
   <string name="page_layout_1">الأحد، ١٦ أغسطس</string>
   <string name="page_layout_10">الإعدادات</string>
@@ -2913,6 +2917,7 @@
   <string name="privacy_factory_reset_dlg_title">النسخ الاحتياطي للبيانات</string>
   <string name="privacy_file">الملفات</string>
   <string name="privacy_gallery">الصور</string>
+  <string name="privacy_header_text_less_than_half">مساحة صغيرة جدا لهذا التطبيق. اسحب الفاصل أبعد من ذلك.</string>
   <string name="privacy_mms">الرسائل</string>
   <string name="privacy_mode_dialog_message">إخفاء الرسائل، الملاحظات، الصور، الإعدادات، والمكالمات الواردة؟</string>
   <string name="privacy_mode_dialog_title">وضع الزائر</string>
@@ -3105,7 +3110,6 @@
   <string name="remove_managed_profile_label">إزالة الملف الشخصي للعمل</string>
   <string name="repeat">تكرار</string>
   <string name="repeat_call">Repeated caller reminder</string>
-  <string name="repeat_call_info">In the Silent mode, if the same person in 15 minutes two calls, allowing Ling Ling reminders</string>
   <string name="repeat_title">التكرار</string>
   <string name="reset_aaid">إعادة تعيين معرف الإعلان</string>
   <string name="reset_app_preferences">إعادة تعيين تفضيلات التطبيقات</string>
@@ -3135,7 +3139,7 @@
   <string name="reset_second_space_passwd">إعادة تعيين كلمة مرور الواجهة الثانية</string>
   <string name="reset_second_space_passwd_cancel">إلغاء</string>
   <string name="reset_second_space_passwd_confirm">متابعة</string>
-  <string name="reset_second_space_passwd_detail">أدخل كلمة مرور حساب Mi المستخدمة في الواجهة الثانية</string>
+  <string name="reset_second_space_passwd_detail">أدخل كلمة مرور حساب Mi المستخدمة في الواجهة الاولى</string>
   <string name="reset_shortcut_manager_throttling">‏إعادة تعيين عدادات تقييد المعدل في ShortcutManager</string>
   <string name="resetting_second_space_passwd">إعادة تعيين كلمة مرور الواجهة الثانية</string>
   <string name="resolver_settings_label">تصنيف</string>
@@ -3715,10 +3719,11 @@
   <string name="shut_down_find_device_network_failure_content">تعذر إيقاف تشغيل العثور على الجهاز. تأكد من أن جهازك متصل بشبكة الإنترنت.</string>
   <string name="shut_down_find_device_network_failure_title">لا يمكن الاتصال بالشبكة</string>
   <string name="shuting_down_find_device">جارٍ إيقاف العثور على الجهاز…</string>
+  <string name="silent_duration">Duration</string>
   <string name="silent_mode">الوضع الصامت</string>
   <string name="silent_mode_title">الوضع الصامت</string>
   <string name="silent_off">إيقاف التشغيل</string>
-  <string name="silent_settings">الوضع الصامت</string>
+  <string name="silent_settings">Silence/DND</string>
   <string name="silent_standard">صامت</string>
   <string name="silent_time">Slience Duration</string>
   <string name="silent_total">عدم الازعاج</string>
@@ -3894,6 +3899,8 @@
   <string name="status_bar_settings_style">الإشعارات وتنسيق مفاتيح التبديل</string>
   <string name="status_bar_settings_toggle_collapse_after_clicked">التقليص بعد المس</string>
   <string name="status_bar_settings_toggle_position">أوضاع مفاتيح التبديل</string>
+  <string name="status_bar_settings_user_fold">مجلد الإشعارات</string>
+  <string name="status_bar_settings_user_fold_summary">ستظهر جميع الاشعارات الغير مهمة في مجلد منفصل</string>
   <string name="status_bar_style_list">مدمجة</string>
   <string name="status_bar_style_page">منفصلة</string>
   <string name="status_bt_address">عنوان البلوتوث</string>
@@ -4144,7 +4151,7 @@
   <string name="tether_settings_title_wifi">نقطة اتصال محمولة</string>
   <string name="tether_share_qrcode_title">مشاركة رمز QR</string>
   <string name="tethering_help_button_text">مساعدة</string>
-  <string name="tethering_settings_not_available">تغيير إعدادات الربط في الفضاء الأول</string>
+  <string name="tethering_settings_not_available">تغيير إعدادات الربط في الواجهة الاولى</string>
   <string name="theme_settings_title">الثيمات</string>
   <string name="time_picker_title">الوقت</string>
   <string name="timed_titlei">قاعدة الجدول %d</string>
@@ -4235,6 +4242,13 @@
   <string name="turn_off_keyguard_password_with_fingerprint_confirm_msg_delete">بعد إيقاف تشغيل كلمة مرور قفل الشاشة، سيتم حذف بصمات الأصابع المسجلة. لن تتمكن من إلغاء قفل الجهاز باستخدام بصمة الإصبع الخاصة بك.</string>
   <string name="turn_off_security_lock">إيقاف تشغيل القفل</string>
   <string name="turn_on_keyguard_password">تفعيل كلمة مرور شاشة القفل</string>
+  <string name="turn_on_keyguard_password_alert">تذكر كلمة المرور الخاصة بك. إذا نسيتها، فلن تكون قادرا على استعادته.</string>
+  <string name="turn_on_keyguard_password_alert_choose">تذكر كلمة المرور الخاصة بك. إذا نسيتها، سيتوجب عليك مسح جميع البيانات الموجودة على جهازك لتعيين واحدة جديدة.</string>
+  <string name="turn_on_keyguard_password_alert_foget_cacel">ليس الآن</string>
+  <string name="turn_on_keyguard_password_alert_foget_ok">فهمت</string>
+  <string name="turn_on_keyguard_password_alert_foget_ok_time">Got it(%dsecond)</string>
+  <string name="turn_on_keyguard_password_alert_forget_content">تذكر كلمة مرور شاشة القفل الخاصة بك. إذا كنت قد نسيها، سيتوجب عليك محو جميع البيانات على جهازك، بما في ذلك الصور وجهات الاتصال، ثم تعيين واحدة جديدة.</string>
+  <string name="turn_on_keyguard_password_alert_forget_title">إذا كنت قد نسيت ذلك، فلن تكون قادرا على استعادته.</string>
   <string name="turn_on_security_lock">اختيار قفل الشاشة</string>
   <string name="turn_update_keyguard_password_wait_dialog">تغيير كلمة المرور</string>
   <string name="twohours">1 hours</string>
@@ -4504,7 +4518,7 @@
   <string name="user_restrictions_controlled_by">يتم التحكم فيه بواسطة %1$s</string>
   <string name="user_restrictions_title">إمكانية الدخول إلى التطبيقات والمحتوى</string>
   <string name="user_set_lock_button">تعيين التأمين</string>
-  <string name="user_settings_forbidden">لا يمكن تغيير إعدادات المشرف في المساحة الحالية. ارجع إلى الفضاء الاول.</string>
+  <string name="user_settings_forbidden">لا يمكن تغيير إعدادات المشرف في الواجهة الحالية. ارجع إلى الواجهة الاولى.</string>
   <string name="user_settings_title">المستخدمون</string>
   <string name="user_setup_button_setup_later">ليس الآن</string>
   <string name="user_setup_button_setup_now">الإعداد الآن</string>
@@ -4909,9 +4923,11 @@
   <string name="wifi_security_eap">802.1x EAP</string>
   <string name="wifi_security_none">لا يوجد</string>
   <string name="wifi_security_passpoint">Passpoint</string>
+  <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
   <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
   <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
   <string name="wifi_security_short_eap">802.1x</string>
+  <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
   <string name="wifi_security_short_wep">WEP</string>
   <string name="wifi_security_short_wpa">WPA</string>
   <string name="wifi_security_short_wpa2">WPA2</string>

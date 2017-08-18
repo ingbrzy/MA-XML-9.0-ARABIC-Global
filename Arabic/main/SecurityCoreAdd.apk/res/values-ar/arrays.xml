@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="switch_apps_entries">
-        <item>مستخدم في الفضاء الاول</item>
+        <item>مستخدم في الواجهة الاولى</item>
         <item>مستخدم في الفضاء الحالي</item>
         <item>مستخدم في كلا الفضائين</item>
     </string-array>
@@ -11,7 +11,7 @@
         <item>تنبيه</item>
     </string-array>
     <string-array name="switch_apps_msg_confirms">
-        <item>سيتم فقدان بيانات التطبيق بعد ما يتم نقل التطبيقات إلى الفضاء الأول.</item>
+        <item>سيتم فقدان بيانات التطبيق بعد ما يتم نقل التطبيقات إلى الواجهة الاولى.</item>
         <item>سيتم فقدان بيانات التطبيق بعد ما يتم نقل التطبيقات إلى الفضاء الحالي.</item>
         <item>التطبيقات مستخدمة في كلا الفضائين.</item>
     </string-array>

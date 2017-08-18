@@ -24,7 +24,7 @@
   <string name="incorrect_pukcode_remaining_attempts">Incorrect PUK code, %d attempts remaining</string>
   <string name="input_password_after_boot_msg">لفتح جهازك، ادخل كلمة المرور</string>
   <string name="input_password_after_boot_msg_can_not_switch_when_calling">لا يمكن التبديل بين الفضاءات أثناء إجراء مكالمة</string>
-  <string name="input_password_after_boot_msg_must_enter_owner_space">تحتاج إلى الدخول إلى الفضاء الأول بعد إعادة تشغيل الجهاز</string>
+  <string name="input_password_after_boot_msg_must_enter_owner_space">تحتاج إلى الدخول إلى الواجهة الاولى بعد إعادة تشغيل الجهاز</string>
   <string name="input_password_handle_sdcard_fs">进入分身前需要在开发者选项中关闭“模拟SD卡优化”</string>
   <string name="input_password_hint_text">ادخل كلمة المرور</string>
   <string name="input_pattern_hint_text">ارسم نقش إلغاء قفل الشاشة</string>
@@ -88,13 +88,14 @@
   <string name="open_camera_hint_text">إسحب لليسار لفتح الكاميرا</string>
   <string name="open_remote_center_hint_text">Swipe right to open mi remote</string>
   <string name="phone_locked_foget_password">نسيت كلمة المرور؟</string>
-  <string name="phone_locked_foget_password_content">"يمكنك تسجيل الدخول إلى i.mi.com باستخدام حساب Mi المرتبط بجهازك و القيام بمسح جميع البيانات. هذا الخيار سيمحو كافة البيانات الشخصية المخزنة على هذا الجهاز. بعد ذلك يمكنك إعادة تشغيل الجهاز واستعادة جهات الاتصال، الرسائل، الصور وغيرها من عناصر Mi Cloud. 
-
-لن تكون قادرا على القيام بالخطوات السابقة إلا اذا قمت بتسجيل الدخول إلى حسابك على الجهاز. خلاف ذلك، يجب عليك إعادة تثبيت الذاكرة الوميضية (Flash) مرة أخرى."</string>
-  <string name="phone_locked_foget_password_footer">"الخطوات:
-تسجيل الدخول إلى i.mi.com، انتقل إلى \"البحث عن الجهاز\"، حدد الجهاز ثم اضغط على \"مسح بيانات الجهاز\"."</string>
-  <string name="phone_locked_foget_password_header">ماذا علي أن أفعل إذا نسيت كلمة المرور الخاصة بي؟</string>
+  <string name="phone_locked_foget_password_mehod_back">رجوع</string>
+  <string name="phone_locked_foget_password_method">نسيت كلمة المرور؟</string>
+  <string name="phone_locked_foget_password_method_content">&lt;Data&gt;&amp;#1610;&amp;#1580;&amp;#1576; &amp;#1593;&amp;#1604;&amp;#1610;&amp;#1603;&amp;lt;font color=#a5220e&amp;gt;&amp;#1605;&amp;#1581;&amp;#1608; &amp;#1580;&amp;#1605;&amp;#1610;&amp;#1593; &amp;#1575;&amp;#1604;&amp;#1576;&amp;#1610;&amp;#1575;&amp;#1606;&amp;#1575;&amp;#1578;&amp;lt;/font&amp;gt; &amp;#1593;&amp;#1604;&amp;#1609; &amp;#1580;&amp;#1607;&amp;#1575;&amp;#1586;&amp;#1603;&amp;#1548; &amp;#1576;&amp;#1605;&amp;#1575; &amp;#1601;&amp;#1610; &amp;#1584;&amp;#1604;&amp;#1603; &amp;#1575;&amp;#1604;&amp;#1589;&amp;#1608;&amp;#1585; &amp;#1608;&amp;#1580;&amp;#1607;&amp;#1575;&amp;#1578; &amp;#1575;&amp;#1604;&amp;#1575;&amp;#1578;&amp;#1589;&amp;#1575;&amp;#1604;&amp;#1548; &amp;#1579;&amp;#1605; &amp;#1578;&amp;#1593;&amp;#1610;&amp;#1610;&amp;#1606; &amp;#1608;&amp;#1575;&amp;#1581;&amp;#1583;&amp;#1577; &amp;#1580;&amp;#1583;&amp;#1610;&amp;#1583;&amp;#1577;.;&lt;/Data&gt;</string>
+  <string name="phone_locked_foget_password_method_next">التالي</string>
   <string name="phone_locked_foget_password_ok">متابعة</string>
+  <string name="phone_locked_forget_password_suggesstion_one_content">&lt;Data&gt;Power off your device, press and hold the &amp;lt;font color=#a5220e&amp;gt;Power button &amp;lt;/font&amp;gt; and the &amp;lt;font color=#a5220e&amp;gt;Volume up button &amp;lt;/font&amp;gt;simultaneously until you see ml.&lt;/Data&gt;</string>
+  <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data&gt;&amp;#1578;&amp;#1581;&amp;#1583;&amp;#1610;&amp;#1583; &amp;lt;font color=#a5220e&amp;gt;\"&amp;#1605;&amp;#1587;&amp;#1581; &amp;#1608;&amp;#1573;&amp;#1593;&amp;#1575;&amp;#1583;&amp;#1577; &amp;#1578;&amp;#1593;&amp;#1610;&amp;#1610;&amp;#1606;/font&amp;gt; &amp;#1579;&amp;#1605; &amp;#1575;&amp;#1606;&amp;#1578;&amp;#1592;&amp;#1585; &amp;#1581;&amp;#1578;&amp;#1609; &amp;#1610;&amp;#1602;&amp;#1608;&amp;#1605; &amp;#1580;&amp;#1607;&amp;#1575;&amp;#1586; &amp;#1576;&amp;#1573;&amp;#1593;&amp;#1575;&amp;#1583;&amp;#1577; &amp;#1575;&amp;#1604;&amp;#1578;&amp;#1588;&amp;#1594;&amp;#1610;&amp;#1604;..;&lt;/Data&gt;</string>
+  <string name="phone_locked_forget_password_suggesstions_title">كيفية مسح البيانات؟</string>
   <string name="phone_locked_string">تم قفل الهاتف</string>
   <string name="phone_locked_timeout_minutes_string">Try again in %d minutes</string>
   <string name="phone_locked_timeout_seconds_string">Try again in %d seconds</string>

@@ -109,9 +109,6 @@
   <string name="cancel_running_download">إلغاء</string>
   <string name="change_download_quality">تغيير جودة التحميل</string>
   <string name="channel_list_fragment_title">راديو</string>
-  <string name="chinese_female">فنانات (الصين)</string>
-  <string name="chinese_group">فرق (الصين)</string>
-  <string name="chinese_male">فنانين (الصين)</string>
   <string name="choose_download_quality">اختيار جودة التحميل</string>
   <string name="choose_stream_quality">اختيار جودة التشغيل</string>
   <string name="click_modify">انقر لتعديل الكلمات.</string>
@@ -124,8 +121,6 @@
   <string name="cloud_loading_message">البحث عن اغاني…</string>
   <string name="cloud_music">الأغاني في Mi Cloud</string>
   <string name="cloud_settings">إعدادات المزامنة</string>
-  <string name="cloud_space_full">لا توجد مساحة تخزين متبقية</string>
-  <string name="cloud_space_full_message">لا توجد غرف كافية في Mi Cloud لإضافة المزيد من الاغاني. للحصول على مساحة اضافية، قم بترقية حساب Mi الخاص بك.</string>
   <string name="cloud_state_cloud_space_full">لا توجد مساحة تخزين Mi Cloud كافية، النسخ الإحتياطي متوقف مؤقتاً</string>
   <string name="cloud_state_low_power">توصيل الشاحن لاستئناف النسخ الاحتياطي</string>
   <string name="cloud_state_network_data">تعذر العثور على شبكات Wi-Fi، النسخ الإحتياطي متوقف مؤقتاً</string>
@@ -209,7 +204,6 @@
   <string name="disable_auto_payment_success_message">ايقاف تفعيل التجديد التلقائي. بعد انتهاء صلاحية اشتراكك الحالي, يجب عليك الاشتراك مرة اخرى لتحميل الاغاني.</string>
   <string name="disallow_add_to_fm">لا يمكن إضافة الاغاني لراديو FM</string>
   <string name="disallow_add_to_personal_radio">لا يمكن إضافة الاغاني للراديو الشخصي</string>
-  <string name="do_not_remind_again">عدم الإظهار مرة أخرى</string>
   <string name="doc_filter">المستندات</string>
   <string name="done">تم</string>
   <string name="download">تحميل</string>
@@ -303,9 +297,6 @@
   <string name="enable_auto_payment_success">التجديد تلقائيًا</string>
   <string name="enable_auto_payment_success_message">تفعيل التجديد التلقائي. سوف يتم الدفع القادم في %s.</string>
   <string name="enabled">مفعل</string>
-  <string name="english_female">فنانات (أمريكا/أوروبا)</string>
-  <string name="english_group">فرق (أمريكا/أوروبا)</string>
-  <string name="english_male">فنانين (أمريكا/أوروبا)</string>
   <string name="enter_garbage_clean">تنظيف مساحة التخزين الداخلي.</string>
   <string name="eq_auto">مخصص</string>
   <string name="eq_blues">إيقاع</string>
@@ -342,7 +333,6 @@
   <string name="favorites">المفضلة</string>
   <string name="favourite_music_left_half">لإضافة اغاني إلى قائمة التشغيل هذه، انقر الـ</string>
   <string name="favourite_music_right_half">أيقونة المفضلة على يسار اسم الأغنية</string>
-  <string name="female_artist">فنانات</string>
   <string name="file_not_found">الملف غير موجود</string>
   <string name="filter_by_duration">حسب المدة</string>
   <string name="filter_by_duration_format">%2$d دقيقة %5$2d ثانية</string>
@@ -398,7 +388,6 @@
   <string name="global_search_title_movie">موسيقى فيلم تصويرية</string>
   <string name="global_search_title_prenatal">موسيقى قبل الولادة</string>
   <string name="global_search_title_radar">التعرف على الموسيقى</string>
-  <string name="group_artist">فرق</string>
   <string name="handle_later">ليس الآن</string>
   <string name="higher_quality_music">جودة صوت عالية</string>
   <string name="higher_quality_music_summary">تشغيل وتحميل ملفات عالية الجودة</string>
@@ -425,9 +414,6 @@
   <string name="is_scanning">جارٍ فحص التخزين…</string>
   <string name="is_scanning_support_online">"جارٍ تحقق التخزين…
 ( في الوقت الحالي, يمكنك تشغيل الموسيقى على الإنترنت)"</string>
-  <string name="japan_korea_female">فنانات (اليابان/كوريا)</string>
-  <string name="japan_korea_group">فرق (اليابان/كوريا)</string>
-  <string name="japan_korea_male">فنانين (اليابان/كوريا)</string>
   <string name="keep_queued_download">إبقاء</string>
   <string name="ktv_playlist">قائمة تشغيل KTV</string>
   <string name="latest_song">سجل التشغيل (%d)</string>
@@ -459,7 +445,6 @@
   <string name="lyric_is_empty">لا تتوفر أي كلمات</string>
   <string name="lyric_open_other_connect">تحميل كلمات الاغنية باستخدام شبكة الجوال</string>
   <string name="lyric_setting">إعدادات الكلمات</string>
-  <string name="male_artist">فنانين</string>
   <string name="manager_cloud_space">إدارة تخزين Mi Cloud</string>
   <string name="media_filter">الوسائط</string>
   <string name="menu_all_task_pause">إيقاف مؤقت للكل</string>
@@ -565,7 +550,6 @@
   <string name="no_song_downloaded">تعذر الاتصال بالخادم</string>
   <string name="normal_quality">جيد</string>
   <string name="not_login">لم تقم بتسجيل الدخول</string>
-  <string name="not_now">ليس الآن</string>
   <string name="not_selected">اختيار اغنية</string>
   <string name="notif_text_engine_off">مسرع Xunlei لا يعمل.</string>
   <string name="notif_text_engine_on">جارٍ التسريع…</string>
@@ -884,7 +868,6 @@
   <string name="upgrade">ترقية:</string>
   <string name="upgrade_force">نقوم بفصل خدمة التشغيل الحالية الخاصة بنا نظرًا لمشكلات حقوق النشر. قم بتحديث اخراصدارمن تطبيق Music للاستماع إلى موسيقى ذات الجودة العالية.</string>
   <string name="upgrade_immediate">التحديث الآن</string>
-  <string name="upgrade_membership">الحصول على مساحة اضافية</string>
   <string name="upgrade_music">تحديث الموسيقى</string>
   <string name="upgrade_music_message">التحديثات جاهزة. قم بإعادة التشغيل للتحديث.</string>
   <string name="upgrade_nobeta">نقوم بفصل خدمة التشغيل الحالية لحين حل مشكلات حقوق النشر. عذرًا للإزعاج :(</string>

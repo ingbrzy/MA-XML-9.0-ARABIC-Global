@@ -167,6 +167,7 @@
   <string name="color_picker_dialog_title">تحديد اللون</string>
   <string name="color_picker_hue">تدرج اللون</string>
   <string name="color_picker_saturation">صفاء اللون</string>
+  <string name="color_picker_value">القيمة</string>
   <string name="comment_app_menu">التعليق</string>
   <string name="comment_description">تعليق</string>
   <string name="comment_hint">تعليق</string>
@@ -479,6 +480,8 @@
   <string name="miuichromium_error_page_suggestion_check_wifi_proxy" formatted="false">(WiFi) تحقق من %s١إعدادات الخادم الوكيل%s٢.</string>
   <string name="miuichromium_error_page_suggestion_clear_cache" formatted="false">محو ذاكرة التخزين المؤقت (%s١الإعدادات%s٢ - محو البيانات).</string>
   <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies" formatted="false">محو ذاكرة التخزين المؤقت و ملفات تعريف الارتباط (%s١الإعدادات%s٢ - مسح البيانات، قد تفقد معلومات حسابك).</string>
+  <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies_no_invoke">حذف ذاكرة التخزين المؤقت والكوكيز (قد يتم فقدان معلومات حسابك).</string>
+  <string name="miuichromium_error_page_suggestion_clear_cache_no_invoke">Clear cache.</string>
   <string name="miuichromium_error_page_suggestion_connect_and_retry">إعادة تحميل بعد الاتصال بالإنترنت</string>
   <string name="miuichromium_error_page_suggestion_contact_admin">تواصل مع مشرف النظام.</string>
   <string name="miuichromium_error_page_suggestion_correct_url">تحقق من العنوان الذي أدخلته وحاول مرة أخرى باستخدام عنوان URL الصحيح.</string>
@@ -658,6 +661,7 @@
   <string name="pull_to_refresh_pull_label">اسحب للتحديث</string>
   <string name="pull_to_refresh_release_label">حرّره للموصى به و التحديث</string>
   <string name="qr_code_title">رمز QR</string>
+  <string name="qr_description">مسح رمز QR</string>
   <string name="quicklink_bookmark_save">حفظ في</string>
   <string name="quicklink_cannot_save_url">لا يمكن إضافة عنوان URL هذا.</string>
   <string name="quicklink_folder_text">أفضل التطبيقات</string>
@@ -756,8 +760,8 @@
   <string name="send_comment_title">تعليق</string>
   <string name="senddesktop">الشاشة الرئيسية</string>
   <string name="sendstartpage">صفحة البداية</string>
-  <string name="share_image_text">انظر ماذا وجدت!</string>
-  <string name="share_page_text">انظر ماذا وجدت: %1$s | %2$s</string>
+  <string name="share_image_text">انظر ماذا شاركت! @MIUI</string>
+  <string name="share_page_text">انظر ماذا شاركت: %1$s @MIUI| %2$s</string>
   <string name="show_check_security_url_check_tip_dialog_description">يحتاج المتصفح للإتصال بالإنترنت للعمل بشكل طبيعي. لتحسين الحماية وتلقي توصيات أكثر صلة، السماح للمتصفح الحصول على عناوين \"URLs\" مواقع الويب التي تزورها والوصول إلى معلومات موقعك.</string>
   <string name="show_check_security_url_check_tip_dialog_description_international">يحتاج المتصفح للإتصال بالإنترنت للعمل بشكل طبيعي. لتلقي توصيات أكثر صلة، السماح للمتصفح الحصول على عناوين \"URLs\" مواقع الويب التي تزورها والوصول إلى معلومات موقعك.</string>
   <string name="show_security_tip_dialog_title">شروط الخدمة</string>
@@ -767,12 +771,13 @@
   <string name="skip_current_version">تخطي هذه النسخة</string>
   <string name="snapshot">محلي</string>
   <string name="snapshot_failed">تعذر حفظ الصفحة</string>
-  <string name="snapshot_successed">تم حفظ الصفحة بنجاح</string>
+  <string name="snapshot_successed">افتح الاشارات المرجعية / السجل-&gt;محلي لعرض الصفحة</string>
   <string name="ssl_bad_clock_date_settings">تعيين التاريخ</string>
   <string name="ssl_bad_clock_warning" formatted="false">لا يمكن إنشاء اتصال خاص إلى %s1 لأن تاريخ ووقت الجهاز الخاص بك (%s2) غير صحيحين.</string>
   <string name="ssl_certificate">شهادة الأمان</string>
   <string name="ssl_certificate_is_valid">هذه الشهادة صالحة.</string>
   <string name="ssl_continue">متابعة</string>
+  <string name="ssl_date_error_warnings_header">"The certificate of this site has expired or isn't valid yet. You are advised to leave this page.\""</string>
   <string name="ssl_date_invalid">هذه الشهادة تحتوي على تاريخ غير صحيح.</string>
   <string name="ssl_expired">انتهت فاعلية هذه الشهادة.</string>
   <string name="ssl_go_back">رجوع</string>
@@ -905,6 +910,7 @@
   <string name="view_document_downloaded_files">عرض الملفات التي تم تحميلها في التنزيلات</string>
   <string name="voice_check_network">تحقق من إعدادات الشبكة ثم حاول مجدداً.</string>
   <string name="voice_connect_network">تعذر الاتصال بالشبكة.</string>
+  <string name="voice_description">بحث صوتي</string>
   <string name="voice_network_connection">يتطلب البحث الصوتي الاتصال بالإنترنت للعمل بشكل طبيعي.</string>
   <string name="voice_search_permission">يحتاج البحث الصوتي للوصول إلى الميكروفون للعمل بشكل طبيعي.</string>
   <string name="voice_semantic_analysis">سوف يكون المتصفح قادرا على تحليل الدلالات بعد السماح له بالاتصال.</string>
