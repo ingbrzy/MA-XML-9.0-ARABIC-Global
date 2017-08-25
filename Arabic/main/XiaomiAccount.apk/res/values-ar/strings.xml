@@ -179,7 +179,7 @@
   <string name="oauth_title">تسجيل الدخول مع حساب Mi</string>
   <string name="other_devices_title">الأجهزة الأخرى</string>
   <string name="passport_access_denied">تم رفض الدخول</string>
-  <string name="passport_account_hint_text">Email address, Phone number or Mi Account ID</string>
+  <string name="passport_account_hint_text">عنوان البريد الإلكتروني، رقم الهاتف أو معرف حساب Mi</string>
   <string name="passport_account_identity_title">التحقق من هويتك</string>
   <string name="passport_account_label">حساب Mi</string>
   <string name="passport_account_name">الحساب: %1$s</string>

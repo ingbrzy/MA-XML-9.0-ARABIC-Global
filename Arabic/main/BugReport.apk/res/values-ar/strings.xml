@@ -78,7 +78,7 @@
   <string name="feedback_select_suggestion">إقتراحات</string>
   <string name="feedback_select_upload_log">إضافة سجلات</string>
   <string name="feedback_status_answered">تم الإجابة</string>
-  <string name="feedback_status_change_notification_title">تم تحديث حالة تقدم التقرير الخاص بك</string>
+  <string name="feedback_status_change_notification_title">تم تحديث حالة تقدم تقريرك</string>
   <string name="feedback_status_commit_failed_title">تعذر ارسال التقرير</string>
   <string name="feedback_status_commit_succ_title">أُرسل</string>
   <string name="feedback_status_commit_uploading_title">جار الإرسال…</string>
@@ -89,7 +89,7 @@
   <string name="feedback_status_recorded">تم استلام الملاحظة</string>
   <string name="feedback_status_replyed">تم الرد</string>
   <string name="feedback_status_reresolved">تم حلها</string>
-  <string name="feedback_status_supplement">قم بوصف مشكلتك باختصار</string>
+  <string name="feedback_status_supplement">قم بوصف مشكلتك بالتفصيل</string>
   <string name="feedback_status_supplement_more">إضافة تعليق</string>
   <string name="feedback_submit_failed_notification_desc">عرض التفاصيل</string>
   <string name="feedback_submit_failed_notification_retry">ارسال مرة أخرى</string>

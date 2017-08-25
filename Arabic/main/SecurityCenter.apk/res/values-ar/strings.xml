@@ -446,6 +446,7 @@
   <string name="card_main_private_space_summary">استخدام الواجهة الثانية هو بمثابة امتلاكك لجهازين</string>
   <string name="card_main_private_space_title">الواجهة الثانية</string>
   <string name="card_main_sectool_title">الأدوات</string>
+  <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
   <string name="card_main_xspace_action">إنشاء</string>
   <string name="card_main_xspace_summary">إنشاء حسابات مزدوجة لأي تطبيق</string>
   <string name="card_main_xspace_title">التطبيقات المزدوجة</string>

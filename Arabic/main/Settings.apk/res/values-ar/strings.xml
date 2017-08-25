@@ -371,7 +371,6 @@
   <string name="auto_rule">قاعدة الجدول</string>
   <string name="auto_silent">Timing Muted</string>
   <string name="auto_startup_application_manage">تشغيل تلقائي</string>
-  <string name="auto_startup_count">%d من التطبيقات المسموح لها بتشغيل التلقائي</string>
   <string name="automatic_brightness">سطوع تلقائي</string>
   <string name="available_size">%s متوفر</string>
   <string name="available_via_passpoint">متوفر عبر %1$s</string>
@@ -1253,7 +1252,7 @@
   <string name="device_available_memory">الذاكرة المتاحة</string>
   <string name="device_battery">البطارية</string>
   <string name="device_build_id">رقم الإصدار</string>
-  <string name="device_complete_parameters">اكتمل</string>
+  <string name="device_complete_parameters">كل المواضيع</string>
   <string name="device_cpu">المعالج</string>
   <string name="device_cpu10_info">عشاري النواة</string>
   <string name="device_cpu2_info">مزدوج النواة</string>
@@ -2017,22 +2016,21 @@
   <string name="location_agps_apn_choose_dialog_title">أنواع APN</string>
   <string name="location_agps_apn_summary">اختيار نوع APN المفضل</string>
   <string name="location_agps_apn_type">أنواع APN</string>
-  <string name="location_agps_params_settings_title">إعدادات AGPS</string>
+  <string name="location_agps_params_settings_title">إعدادات A-GPS</string>
   <string name="location_agps_pref_apn_title">APN المفضل</string>
   <string name="location_agps_pref_network_title">شبكة مفضلة</string>
   <string name="location_agps_pref_reset_type_title">نوع إعادة التعيين المفضل</string>
   <string name="location_agps_pref_si_title">الوضع المفضل</string>
   <string name="location_agps_register_network_type">نوع شبكة الوصول</string>
-  <string name="location_agps_register_network_type_dialog_summary">اختر شبكة</string>
-  <string name="location_agps_register_network_type_dialog_title">اختيار شبكة</string>
+  <string name="location_agps_register_network_type_dialog_title">استخدام GPS دقيق</string>
   <string name="location_agps_register_network_type_summary">اختر شبكة لاستخدام AGPS</string>
   <string name="location_agps_reset_type">أنواع إعادة التعيين</string>
   <string name="location_agps_reset_type_choose_dialog_title">أنواع إعادة التعيين</string>
   <string name="location_agps_reset_type_summary">اختيار نوع إعادة التعيين المفضل</string>
   <string name="location_agps_roaming_help">قد يؤدي اختيار كل الشبكات إلى زيادة استخدام البيانات أثناء التجوال. في حال تجاوز حد استخدام البيانات للمعدل المسموح به، فقد تفرض عليك شركة الاتصالات رسوماً إضافية.</string>
-  <string name="location_agps_si_mode">وضع AGPS SI</string>
-  <string name="location_agps_si_mode_dialog_title">طريقة AGPS</string>
-  <string name="location_agps_si_mode_summary">اختيار طريقة AGPS المفضلة</string>
+  <string name="location_agps_si_mode">وضع A-GPS SI</string>
+  <string name="location_agps_si_mode_dialog_title">طريقة A-GPS</string>
+  <string name="location_agps_si_mode_summary">اختر طريقة A-GPS المفضلة</string>
   <string name="location_agps_supl_server_addr">عنوان الخادم</string>
   <string name="location_agps_supl_server_port">منفذ الخادم</string>
   <string name="location_agps_supl_settings">إعدادات SUPL</string>
@@ -2134,7 +2132,7 @@
   <string name="lockpassword_confirm_for_second_user">قم بتأكيد كلمة مرور الواجهة الثانية الخاصة بك</string>
   <string name="lockpassword_confirm_passwords_dont_match">كلمات المرور غير متطابقة</string>
   <string name="lockpassword_confirm_pins_dont_match">رمز PIN غير متطابق</string>
-  <string name="lockpassword_confirm_workspace_password">التحقق من كلمة مرور فضاء العمل</string>
+  <string name="lockpassword_confirm_workspace_password">التحقق من كلمة مرور واجهة العمل</string>
   <string name="lockpassword_confirm_your_lock_password_header">تأكيد كلمة المرور</string>
   <string name="lockpassword_confirm_your_lock_pattern_header">تأكيد النقش</string>
   <string name="lockpassword_confirm_your_password_generic">ادخل كلمة المرور الخاص بجهازك للمتابعة.</string>
@@ -2290,6 +2288,7 @@
   <string name="master_clear_progress_title">جارٍ محو البيانات</string>
   <string name="master_clear_summary">محو كافة البيانات الموجودة على الهاتف</string>
   <string name="master_clear_title">إعادة الضبط بحسب بيانات المصنع</string>
+  <string name="max_aspect_settings_all_app_display_loading">يرجى الإنتظار للحظة…</string>
   <string name="max_cpu10_info">"عشاري النواة ماكس "</string>
   <string name="max_cpu2_info">ثنائي النواة ماكس</string>
   <string name="max_cpu4_info">"رباعي النواة ماكس "</string>
@@ -3148,6 +3147,7 @@
   <string name="restore_default_apn_completed">‏اكتملت إعادة تعيين إعدادات APN الافتراضية.</string>
   <string name="restr_pin_enter_admin_pin">أدخل رقم التعريف الشخصي للمشرف</string>
   <string name="restrict_background_blacklisted">تم تعطيل بيانات الخلفية.</string>
+  <string name="restrict_max_aspect_ratio_title">اقتراح تعطيل اقصي ابعاد متزنة</string>
   <string name="restriction_bluetooth_config_summary">السماح بتعديل اقترانات وإعدادات البلوتوث</string>
   <string name="restriction_bluetooth_config_title">البلوتوث</string>
   <string name="restriction_location_enable_summary">السماح للتطبيقات باستخدام المعلومات حول موقعك</string>
@@ -3225,6 +3225,8 @@
   <string name="screen_key_press">اضغط أزرار التنقل</string>
   <string name="screen_key_press_action">وظيفة المشغل</string>
   <string name="screen_locking_sounds_title">أصوات قفل الشاشة</string>
+  <string name="screen_max_aspect_ratio_desc">Whether app can show fullscreen</string>
+  <string name="screen_max_aspect_ratio_title">اقصي الإعدادات للابعاد المتزنة</string>
   <string name="screen_monochrome_mode_apps_loading">لحظة من فضلك…</string>
   <string name="screen_monochrome_mode_apps_title">استخدام وضع أحادية اللون</string>
   <string name="screen_monochrome_mode_global_summary">استخدام وضع أحادية اللون لجميع التطبيقات</string>
@@ -3859,9 +3861,9 @@
   <string name="status_bar_app_enable_message">الشارات</string>
   <string name="status_bar_key_position_custom">تغيير أوضاع الزر</string>
   <string name="status_bar_notification_info_overflow">+999</string>
-  <string name="status_bar_screen_button_desc">اسحب لأسفل لإخفاء أزرار الشاشة</string>
+  <string name="status_bar_screen_button_force_immersive_desc">اسحب لأعلي من أسفل الشاشة لمشاهدة الازرار الوظيفية</string>
   <string name="status_bar_screen_button_key">أزرار الشاشة</string>
-  <string name="status_bar_screen_button_key_can_hide">يمكن اخفاء أزرار الشاشة</string>
+  <string name="status_bar_screen_button_key_force_immersive">إخفاء الأزرار الوظيفية</string>
   <string name="status_bar_screen_key_back">زر الرجوع</string>
   <string name="status_bar_screen_key_home">زر الشاشة الرئيسية</string>
   <string name="status_bar_screen_key_menu">زر القائمة</string>
@@ -4067,6 +4069,7 @@
   <string name="storageuse_settings_title">استخدام وحدة التخزين</string>
   <string name="strict_mode">تم تمكين الوضع المتشدد</string>
   <string name="strict_mode_summary">وميض الشاشة عند إجراء التطبيقات عمليات طويلة في الموضوع الرئيسي</string>
+  <string name="suggest_unrestrict_max_aspect_ratio_title">اقتراح تفعيل اقصي ابعاد متزنة</string>
   <string name="suggested_fingerprint_lock_settings_summary">إلغاء التأمين باستخدام بصمة الإصبع</string>
   <string name="suggested_lock_settings_summary">حماية جهازك</string>
   <string name="suggested_lock_settings_title">قفل الشاشة</string>
@@ -4081,8 +4084,6 @@
   <string name="supl_not_set">&lt;غير معين&gt;</string>
   <string name="sure_sync_now">مزامنة العناصر الآن؟</string>
   <string name="suspend_gesture_enabled">قم بتدوير الهاتف لإيقاف الشاشة</string>
-  <string name="suspension_ball_enable">اختصار الكرة السريعة</string>
-  <string name="suspension_ball_enable_desc">قم بتشغيل و ايقاف الكرة السريعة باستخدام الاختصار</string>
   <string name="suw_back_button_label">رجوع</string>
   <string name="suw_more_button_label">المزيد</string>
   <string name="suw_next_button_label">التالي</string>
@@ -4333,6 +4334,7 @@
   <string name="unlock_set_unlock_summary">تعيين قفل الشاشة</string>
   <string name="unlock_setup_wizard_fingerprint_details">‏بعد إعداد قفل شاشة، يمكنك أيضًا إعداد بصمة إصبعك في الإعدادات &gt; الأمان.</string>
   <string name="unmount_inform_text">‏سيتم إلغاء تركيب وحدة تخزين USB.</string>
+  <string name="unrestrict_max_aspect_ratio_title">دعم اقصي بعد للراديو</string>
   <string name="unrestricted_app_summary">السماح بالوصول غير المقيَّد للبيانات عند تشغيل توفير البيانات</string>
   <string name="unrestricted_app_title">الاستخدام غير المقيَّد للبيانات</string>
   <string name="unrestricted_data_saver">الوصول غير المقيَّد إلى البيانات</string>
@@ -4553,7 +4555,6 @@
   <string name="virtual_sim_title">شبكة بيانات التجوال</string>
   <string name="virus_scan">فحص الفيروس</string>
   <string name="virus_scan_app_continue">متابعة الفحص</string>
-  <string name="virus_scan_app_find_risk">تم العثور على %d من المخاطر</string>
   <string name="virus_scan_app_finish">تم الفحص</string>
   <string name="virus_scan_app_force_stop">تم إيقاف المسح مؤقتاً</string>
   <string name="virus_scan_app_is_stop_scan">إيقاف الفحص؟</string>
@@ -4923,9 +4924,11 @@
   <string name="wifi_security_eap">802.1x EAP</string>
   <string name="wifi_security_none">لا يوجد</string>
   <string name="wifi_security_passpoint">Passpoint</string>
+  <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
   <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
   <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
   <string name="wifi_security_short_eap">802.1x</string>
+  <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
   <string name="wifi_security_short_wep">WEP</string>
   <string name="wifi_security_short_wpa">WPA</string>
   <string name="wifi_security_short_wpa2">WPA2</string>
@@ -4989,7 +4992,6 @@
   <string name="wifi_share_connect">اتصال</string>
   <string name="wifi_share_connected_summary">أنت متصل بشبكة Wi-Fi عامة تمت مشاركتها من قبل مستخدم آخر.</string>
   <string name="wifi_share_connected_title">شبكة Wi-Fi MIUI المشتركة</string>
-  <string name="wifi_share_count">مشاركة %d شبكات</string>
   <string name="wifi_share_current_network">الشبكة الحالية</string>
   <string name="wifi_share_know">موافق</string>
   <string name="wifi_share_list_empty">لم يتم العثور على شبكات مشاركة.</string>
@@ -5096,9 +5098,9 @@
   <string name="work_profile_confirm_remove_title">هل تريد إزالة الملف الشخصي للعمل؟</string>
   <string name="work_profile_usage_access_warning">لا يؤدي إيقاف وصول هذا التطبيق إلى بيانات الاستخدام إلى منع المشرف من تتبع استخدام البيانات للتطبيقات في ملفك الشخصي للعمل.</string>
   <string name="work_sim_title">‏شريحة SIM للعمل</string>
-  <string name="work_space_delete">حذف فضاء العمل</string>
+  <string name="work_space_delete">حذف واجهة العمل</string>
   <string name="work_space_delete_confirm">حذف الآن</string>
-  <string name="work_space_delete_description">لن تتمكن من الدخول إلى فضاء العمل بعد حذفك له. سيتم نقل أو حذف جميع البيانات.</string>
+  <string name="work_space_delete_description">لن تتمكن من الدخول إلى واجهة العمل بعد حذفك له. سيتم نقل أو حذف جميع البيانات.</string>
   <string name="wps_category">WPS</string>
   <string name="wps_connect_summary">التأكد من أن جهاز التوجية مدعوم واشتماله على WPS مفعل</string>
   <string name="wps_connect_title">زر دفع WPS</string>
