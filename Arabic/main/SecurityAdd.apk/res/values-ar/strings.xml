@@ -130,4 +130,6 @@
     <string name="fastboot_locked_answer_3">يجب عليك استخدام أداة إلغاء القفل من موقع MIUI. لإلغاء قفل الجهاز، نحن بحاجة للتأكد من أن الجهاز لك. لهذا السبب يجب عليك تسجيل الدخول باستخدام حساب Mi الخاص بك وتشغيل العثور على الجهاز.</string>
     <string name="fastboot_unlock_web_title">اذهب إلى الموقع الرسمي لـ MIUI للحصول على أداة إلغاء القفل.</string>
     <string name="fastboot_unlock_web_home">https://unlock.update.miui.com</string>
+    <string name="gb_weixinpay_can_not_complete">لا يمكن اكمال الدفع. التثبيت للمتابعة.</string>
+    <string name="gb_alipays_can_not_complete">لا يمكن اكمال الدفع. التثبيت للمتابعة.</string>
 </resources>

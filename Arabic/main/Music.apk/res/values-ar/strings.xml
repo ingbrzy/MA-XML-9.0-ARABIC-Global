@@ -209,6 +209,8 @@
     <string name="lyric_open_other_connect">تحميل كلمات الاغنية باستخدام شبكة الجوال</string>
     <string name="playback_failed_no_title_by_bad_file">صيغة الاغنية غير مدعوم أو الملف غير موجود.</string>
     <string name="streamloadingtext">الاتصال بـ %s</string>
+    <string name="toast_new_playlist_name_too_long">Playlist name is too long</string>
+    <string name="toast_new_playlist_name_no_enter">"key 'Enter' has been deleted'"</string>
     <string name="error_title">تعذرت المزامنة مع حساب Mi</string>
     <string name="error_unauthorized">تم إيقاف المزامنة بسبب وجود عدة محاولات تسجيل الدخول.</string>
     <string name="error_forbidden">تم إيقاف المزامنة بسبب وجود مشكلات في حسابك.</string>

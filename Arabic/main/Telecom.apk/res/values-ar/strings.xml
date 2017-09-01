@@ -359,4 +359,8 @@
     <string name="can_not_dial_vt_while_voice_prompt">لا يمكن إجراء مكالمة فيديو أثناء إجراء اتصال صوتي</string>
     <string name="voice_dial_out">مكالمة صوتية</string>
     <string name="notification_AllMissedCallTitle">كل المكالمات الفائتة</string>
+    <string name="close">إغلاق</string>
+    <string name="callFailed_simError">خطأ في بطاقة SIM</string>
+    <string name="incall_error_supp_service_unknown">هذه الخدمة غير مدعومة.</string>
+    <string name="incall_error_power_off">قم بإيقاف تشغيل وضع الطيران لإجراء مكالمة.</string>
 </resources>

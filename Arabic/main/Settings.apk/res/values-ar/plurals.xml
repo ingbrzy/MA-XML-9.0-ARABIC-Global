@@ -345,12 +345,12 @@
         <item quantity="many">%d جهاز</item>
     </plurals>
     <plurals name="free_wifi_connected_count">
-        <item quantity="other">%1$d people connected</item>
-        <item quantity="zero">%1$d people connected</item>
-        <item quantity="one">%1$d people connected</item>
-        <item quantity="two">%1$d people connected</item>
-        <item quantity="few">%1$d people connected</item>
-        <item quantity="many">%1$d people connected</item>
+        <item quantity="other">%1$d شخص متصل</item>
+        <item quantity="zero">%1$d شخص متصل</item>
+        <item quantity="one">%1$d شخص متصل</item>
+        <item quantity="two">%1$d أشخاص متصلين</item>
+        <item quantity="few">%1$d أشخاص متصلين</item>
+        <item quantity="many">%1$d شخص متصل</item>
     </plurals>
     <plurals name="show_pho_countdown">
         <item quantity="other">أنت على بعد %1$d خطوة من إدخال معلومات الهاتف.</item>
@@ -391,5 +391,45 @@
         <item quantity="two">عدم التعطيل ابدا لـ%d تطبيقات</item>
         <item quantity="few">عدم التعطيل ابدا لـ%d تطبيقات</item>
         <item quantity="many">عدم التعطيل ابدا لـ%d تطبيق</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_short">
+        <item quantity="other">رمز PIN يجب أن يكون %d رقم</item>
+        <item quantity="zero">رمز PIN يجب أن يكون %d رقم</item>
+        <item quantity="one">رمز PIN يجب أن يكون %d رقم</item>
+        <item quantity="two">رمز PIN يجب أن يكون %d أرقام</item>
+        <item quantity="few">رمز PIN يجب أن يكون %d أرقام</item>
+        <item quantity="many">رمز PIN يجب أن يكون %d رقم</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_long">
+        <item quantity="other">يمكن أن يحتوي رمز PIN ما يصل الى %d رقم</item>
+        <item quantity="zero">يمكن أن يحتوي رمز PIN ما يصل الى %d رقم</item>
+        <item quantity="one">يمكن أن يحتوي رمز PIN ما يصل الى %d رقم</item>
+        <item quantity="two">يمكن أن يحتوي رمز PIN ما يصل الى %d أرقام</item>
+        <item quantity="few">يمكن أن يحتوي رمز PIN ما يصل الى %d أرقام</item>
+        <item quantity="many">يمكن أن يحتوي رمز PIN ما يصل الى %d رقم</item>
+    </plurals>
+    <plurals name="lockpattern_recording_incorrect_too_short">
+        <item quantity="other">قم بتوصيل %d نقطة على الاقل. حاول مجدداً.</item>
+        <item quantity="zero">قم بتوصيل %d نقطة على الاقل. حاول مجدداً.</item>
+        <item quantity="one">قم بتوصيل %d نقطة على الاقل. حاول مجدداً.</item>
+        <item quantity="two">قم بتوصيل %d نقاط على الاقل. حاول مجدداً.</item>
+        <item quantity="few">قم بتوصيل %d نقاط على الاقل. حاول مجدداً.</item>
+        <item quantity="many">قم بتوصيل %d نقطة على الاقل. حاول مجدداً.</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts">
+        <item quantity="other">Too many incorrect attempts. Try again in %d seconds.</item>
+        <item quantity="zero">Too many incorrect attempts. Try again in %d seconds.</item>
+        <item quantity="one">Too many incorrect attempt. Try again in %d second.</item>
+        <item quantity="two">Too many incorrect attempts. Try again in %d seconds.</item>
+        <item quantity="few">Too many incorrect attempts. Try again in %d seconds.</item>
+        <item quantity="many">Too many incorrect attempts. Try again in %d seconds.</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
+        <item quantity="other">انتظر لمدة %d ثانية ثم حاول مرة اخرى.</item>
+        <item quantity="zero">انتظر لمدة %d ثانية ثم حاول مرة اخرى.</item>
+        <item quantity="one">انتظر لمدة %d ثانية ثم حاول مرة اخرى.</item>
+        <item quantity="two">انتظر لمدة %d ثواني ثم حاول مرة اخرى.</item>
+        <item quantity="few">انتظر لمدة %d ثواني ثم حاول مرة اخرى.</item>
+        <item quantity="many">انتظر لمدة %d ثانية ثم حاول مرة اخرى.</item>
     </plurals>
 </resources>

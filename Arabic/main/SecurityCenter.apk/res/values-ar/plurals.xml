@@ -284,6 +284,14 @@
         <item quantity="few">حماية %d تطبيقات</item>
         <item quantity="many">حماية %d تطبيق</item>
     </plurals>
+    <plurals name="title_virus_clean">
+        <item quantity="other">تم حذف %d فيروس</item>
+        <item quantity="zero">تم حذف %d فيروس</item>
+        <item quantity="one">تم حذف %d فيروس</item>
+        <item quantity="two">تم حذف %d فيروسات</item>
+        <item quantity="few">تم حذف %d فيروسات</item>
+        <item quantity="many">تم حذف %d فيروس</item>
+    </plurals>
     <plurals name="hints_auto_start_enable_title">
         <item quantity="other">%d تطبيق يمكنه البدء تلقائيا</item>
         <item quantity="zero">%d تطبيق يمكنه البدء تلقائيا</item>

@@ -103,7 +103,7 @@
     <string name="changePassword">تغيير كلمة السر</string>
     <string name="passWordGuardSummary">الدخول إلى الواجهة الثانية من قفل الشاشة باستخدام كلمة المرور</string>
     <string name="notificationTitle">اختصار مركز الاشعارات</string>
-    <string name="notificationSummary">تبديل بين الفضائين من مركز الاشعارات</string>
+    <string name="notificationSummary">تبديل بين الواجهتين من مركز الاشعارات</string>
     <string name="otherSettings">إعدادات أخرى</string>
     <string name="privacyContactsTitle">رسائل خاصة و جهات الاتصال</string>
     <string name="privacyContactsSummary">عرض العناصر الخاصة في الواجهة الثانية</string>
@@ -282,5 +282,11 @@
     <string name="can_not_switch_when_calling">لا يمكن التبديل بين الواجهات أثناء إجراء مكالمة</string>
     <string name="can_not_delete_when_calling">لا يمكن حذف الواجهات أثناء إجراء مكالمة</string>
     <string name="support_desc">خدمات الحماية مقدمة من طرف Graphite</string>
-    <string name="sdcardfs_dialog_message">进入分身前需要在开发者选项中关闭”模拟SD卡优化“</string>
+    <string name="sdcardfs_dialog_message">إيقاف تشغيل \"تحسينات بطاقة الذاكرة Mock SD\" في خيارات المطور قبل الدخول إلى الواجهة الثانية.</string>
+    <string name="do_not_ask">لا تسأل مجدداً</string>
+    <string name="gpg_message">يحتاج إنشاء تطبيقات مزدوجة إلى ألعاب متجر Play. إنشاء تطبيق مزدوج لألعاب متجر play؟</string>
+    <string name="gpg_title">التطبيق المزدوج لألعاب متجر Play</string>
+    <string name="gms_message">يحتاج إنشاء تطبيقات مزدوجة إلى خدمات Google. إنشاء تطبيق مزدوج لخدمات Google؟</string>
+    <string name="gms_title">تشغيل خدمات Google</string>
+    <string name="gms_open_button">تشغيل</string>
 </resources>

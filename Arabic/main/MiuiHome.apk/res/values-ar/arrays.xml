@@ -10,12 +10,16 @@
         <item>مكعب</item>
     </string-array>
     <string-array name="wallpaper_scroll_entries">
-        <item>المظهر الافتراضية</item>
+        <item>السمة الافتراضية</item>
         <item>مركز</item>
         <item>اليسار</item>
         <item>اليمين</item>
     </string-array>
     <string-array name="cell_layout_size_entries">
+        <item>٤x٤</item>
+        <item>٤x٥</item>
+    </string-array>
+    <string-array name="cell_layout_size_values">
         <item>٤x٤</item>
         <item>٤x٥</item>
     </string-array>

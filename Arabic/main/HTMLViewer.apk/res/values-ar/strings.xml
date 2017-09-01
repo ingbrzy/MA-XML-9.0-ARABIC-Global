@@ -23,4 +23,5 @@
     <string name="ad_service">خدمة الاعلان</string>
     <string name="settings_ad_loading">لحظة من فضلك…</string>
     <string name="settings_ad_loading_unavailable">تعذر تحميل المعلومات.</string>
+    <string name="autoconnect">اتصال تلقائي</string>
 </resources>

@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">لا يوجد</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -178,7 +180,7 @@
     <string name="verify_apps_over_usb_summary">‏التحقق من التطبيقات المثبتة عبر ADB/ADT لكشف السلوك الضار.</string>
     <string name="bluetooth_disable_absolute_volume_summary">Disable absolute volume for Bluetooth in case of volume issues with remote devices, such as unacceptably loud volume or inability to control it.</string>
     <string name="enable_terminal_title">تطبيق طرفي محلي</string>
-    <string name="enable_terminal_summary">تمكين تطبيق طرفي يوفر إمكانية الدخول إلى واجهة النظام المحلية</string>
+    <string name="enable_terminal_summary">تمكين تطبيق طرفي يوفر إمكانية الوصول إلى واجهة النظام المحلية</string>
     <string name="hdcp_checking_title">تحقق HDCP</string>
     <string name="hdcp_checking_dialog_title">‏تعيين سلوك تحقق HDCP</string>
     <string name="debug_debugging_category">تصحيح الأخطاء</string>
@@ -418,7 +420,7 @@
     <string name="recents_launch_disabled_message">تم تعطيل %s في الوضع الآمن.</string>
     <string name="recents_stack_action_button_label">مسح الكل</string>
     <string name="recents_incompatible_app_message">التطبيق لا يدعم وضع تقسيم الشاشة</string>
-    <string name="recents_drag_hint_message">جر هنا لإستخدام تقسيم الشاشة</string>
+    <string name="recents_drag_hint_message">إسحب إلى هنا لتقسيم الشاشة</string>
     <string name="recents_multistack_add_stack_dialog_split_horizontal">Split Horizontal</string>
     <string name="recents_multistack_add_stack_dialog_split_vertical">Split Vertical</string>
     <string name="recents_multistack_add_stack_dialog_split_custom">Split Custom</string>
@@ -481,6 +483,7 @@ d MMMM"</string>
     <string name="activate_usb_message">لتفعيل هذه الميزة، أدخل بطاقة SIM.</string>
     <string name="usb_function_charging_text">متصل في وضع الشحن</string>
     <string name="return_to_incall_screen">عودة إلى المكالمة</string>
+    <string name="call_status_holding">Holding</string>
     <string name="call_status_dialing">جارٍ الإتصال</string>
     <string name="call_status_ringing">رنين</string>
     <string name="reject_call">رفض المكالمة</string>
@@ -620,7 +623,7 @@ d MMMM"</string>
     <string name="screenshot_send">ارسل</string>
     <string name="screenshot_delete">حذف</string>
     <string name="screenshot_delete_dlg_title">حذف</string>
-    <string name="screenshot_delete_dlg_msg">هل أنت متأكد من حذف لقطة الشاشة هذه؟</string>
+    <string name="screenshot_delete_dlg_msg">هل أنت متأكد من حذف لقطة الشاشة؟</string>
     <string name="screenshot_dlg_cancel">إلغاء</string>
     <string name="screenshot_dlg_delete_button">حذف</string>
     <string name="long_screenshot_not_support_msg">التطبيق الحالي لا يدعم تمرير لقطات الشاشة</string>
@@ -654,5 +657,4 @@ d MMMM"</string>
     <string name="unimportant_desc">ستظهر جميع الاشعارات الغير مهمة في مجلد منفصل.</string>
     <string name="important_desc">ستظهر جميع الاشعارات الهامة مباشرة في مركز الاشعارات.</string>
     <string name="cancel">إلغاء</string>
-    <string name="accessibility_assistant">الكرة السريعة</string>
 </resources>

@@ -226,6 +226,7 @@
     <string name="file_uploading">جارٍ التحميل…</string>
     <string name="new_backup">نسخ احتياطي</string>
     <string name="restore_backup">إستعادة</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">لحظة من فضلك…</string>
     <string name="state_mounting">الوصول إلى تخزين جهاز التوجيه…</string>
     <string name="abort_backup_confirm">لم يتم الانتهاء من النسخ الاحتياطي. التوقف على أية حال؟</string>
@@ -351,4 +352,9 @@
     <string name="user_notice_message">بعض الميزات تتطلب الإتصال بالإنترنت لتعمل بشكل طبيعي.</string>
     <string name="user_notice_declaration_ignore">عدم الإظهار مرة أخرى</string>
     <string name="total_size">، %s</string>
+    <string name="btn_got_it">فهمت</string>
+    <string name="backup_security_tips_title">قد لا يعمل النسخ الاحتياطي</string>
+    <string name="backup_security_tips_message">بعض التطبيقات قد لا يمكن نسخها احتياطيا أو استعادتها.</string>
+    <string name="trans_security_tips_title">توافق ناقل Mi</string>
+    <string name="trans_security_tips_message">بعض التطبيقات لا تدعم ناقل Mi.</string>
 </resources>

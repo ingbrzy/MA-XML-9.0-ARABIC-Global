@@ -91,6 +91,7 @@
     <string name="sort_by_abc">ترتيب حسب الإسم</string>
     <string name="encryption">تشفير</string>
     <string name="failed_to_drop">لا يمكن التحريك</string>
+    <string name="no_space_toast">لا توجد مساحة</string>
     <string name="failed_to_drop_widget_invalid">عنصر واجهة غير صالحة</string>
     <string name="failed_to_delete_temporary">لا يمكن الإزالة</string>
     <string name="confirm_btn_label">موافق</string>
@@ -108,7 +109,7 @@
     <string name="normal_wallpaper">خلفية الشاشة</string>
     <string name="lock_screen_wallpaper">خلفية شاشة القفل</string>
     <string name="wallpaper">خلفية الشاشة</string>
-    <string name="mi_wallpaper">متجر ثيمات MIUI</string>
+    <string name="mi_wallpaper">متجر سمات MIUI</string>
     <string name="show_all">عرض الكل</string>
     <string name="local_wallpaper">خلفيات الشاشة التي تم تنزيلها</string>
     <string name="setting_wallpaper_tip">إلمس او قم بالتمرير للتعديل</string>
@@ -215,7 +216,7 @@
     <string name="guide_install_app_title">هل تريد إيجاد وتثبيت التطبيق؟</string>
     <string name="guide_install_app_msg">لم يتم تثبيت التطبيق على جهازك.هل تريد إيجاد وتثبيت التطبيق الآن؟</string>
     <string name="menu_customize">الاعدادت</string>
-    <string name="menu_picktheme">اختر ثيم</string>
+    <string name="menu_picktheme">اختر سمة</string>
     <string name="editing_mode_enter_tip_text">إلمس لتعديل الشاشة الرئيسية</string>
     <string name="delete">حذف</string>
     <string name="delete_wallpaper_message">هل تريد حذف %1$d خلفية؟</string>
@@ -266,10 +267,11 @@
     <string name="toast_screen_icons_misplaced">تمت إستعادتها من مصدر آخر، بعض الأيقونات قد تكون في غير محلها</string>
     <string name="screen_locked_toast">تنسيق الشاشة الرئيسية مقفل</string>
     <string name="widget_quick_function">وظيفة سريعة</string>
-    <string name="menu_trans_effect">Transition Effect</string>
-    <string name="menu_cell_setting">Screen Setting</string>
-    <string name="menu_auto_fill">Auto Fill</string>
-    <string name="menu_lock">Lock Screen</string>
+    <string name="menu_trans_effect">تأثيرات التنقل</string>
+    <string name="menu_default_screen_preview">إعداد الشاشة الافتراضية</string>
+    <string name="menu_cell_setting">تخطيط الشاشة</string>
+    <string name="menu_auto_fill">المحاذاة تلقائيا</string>
+    <string name="menu_lock">شاشة القفل</string>
     <string name="menu_more">المزيد</string>
-    <string name="failed_to_drop_widget_nospace">لا توجد مساحة إضافية بهذه الشاشة الرئيسية</string>
+    <string name="default_screen_preview_title">إعداد الشاشة الافتراضية</string>
 </resources>

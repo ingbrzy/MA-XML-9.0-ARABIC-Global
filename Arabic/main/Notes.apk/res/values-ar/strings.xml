@@ -6,6 +6,7 @@
     <string name="sina_token_expired_warning">إنتهت صلاحية حساب Weibo، قم بإضافة الحساب مرة أخرى.</string>
     <string name="sina_token_invalid_warning">حساب Weibo غير صالح، قم بإضافة الحساب مرة أخرى.</string>
     <string name="sina_share_fail_content_repeat">لقد قمت بمشاركة هذا مسبقا.</string>
+    <string name="search_title_notes">@string/app_name</string>
     <string name="search_keyword_notes">الملاحظات;المذكرة</string>
     <string name="search_path_notes">تطبيقات النظام/الملاحظات</string>
     <string name="dlg_move_message">جارٍ النقل…</string>
@@ -100,7 +101,7 @@
     <string name="menu_send_weibo">الإرسال إلى Weibo</string>
     <string name="info_note_enter_desktop">تم الإضافة إلى الشاشة الرئيسية</string>
     <string name="all_terms">%1$s و%2$s</string>
-    <string name="alert_title_delete">حذف الملاحظة؟</string>
+    <string name="alert_title_delete">حذف الملاحظة</string>
     <string name="alert_message_delete">حذف %1$s؟</string>
     <string name="alert_message_delete_note">حذف هذه الملاحظة؟</string>
     <string name="format_move_notes_to_folder">تم نقل %1$s الى %2$s</string>
@@ -178,7 +179,7 @@
     <string name="action_settings_description">فتح الإعدادات</string>
     <string name="menu_add_folder_description">إضافة مجلد</string>
     <string name="toolbar_share_description">مشاركة هذه الملاحظة</string>
-    <string name="toolbar_theme_description">اختيار ثيم</string>
+    <string name="toolbar_theme_description">اختيار سمة</string>
     <string name="toolbar_delete_description">حذف هذه الملاحظة</string>
     <string name="toolbar_more_description">المزيد</string>
     <string name="toolbar_undo_description">تراجع</string>
@@ -196,4 +197,5 @@
     <string name="edit_header_done_description">تم</string>
     <string name="refuse_to_share_as_pic_because_of_content">الملاحظة كبيرة جدا للمشاركة.</string>
     <string name="refuse_to_share_as_pic_because_of_loading">انتظر حتى يتم تحميل الملاحظة وحاول مجددا.</string>
+    <string name="toast_reach_text_limit_checkbox">لا يمكن إضافة مربع الاختيار لأن الملاحظة طويلة جداً</string>
 </resources>

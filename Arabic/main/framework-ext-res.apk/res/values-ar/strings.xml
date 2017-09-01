@@ -151,7 +151,7 @@
     <string name="standard_title">صامت..</string>
     <string name="total_title">عدم الازعاج..</string>
     <string name="description_title">الوضع الصامت</string>
-    <string name="standard_description">[Silent] كتم نغمات الرنين للمكالمات الواردة والإشعارات</string>
+    <string name="standard_description">[صامت] نغمات صامتة للمكالمات الواردة والإشعارات</string>
     <string name="total_description">[DND] Silence sounds and turn off vibration for all items except the Alarm clock</string>
     <string name="close">إيقاف</string>
     <string name="always">دائماً</string>
@@ -162,4 +162,12 @@
     <string name="remain">المُتبقي: %s</string>
     <string name="configure_input_methods">اختيار لوحة المفاتيح</string>
     <string name="miui_upgrading_notification_title">جارٍ تحميل النظام، بعض الميزات قد تكون محدودة</string>
+    <string name="miui_screen_ratio_hint">مشاكل ابعاد الشاشة</string>
+    <string name="miui_screen_ratio_hint_message">This app is allowed to run in the fullscreen mode which may cause it to be displayed incorrectly. You can change this in Settings > Advanced settings > Buttons.</string>
+    <string name="miui_screen_ratio_hint_dont_show_again">لا تظهر مرة اخرى</string>
+    <string name="miui_screen_ratio_hint_ok">موافق</string>
+    <string name="miui_screen_ratio_hint_go_to_settings">اذهب إلى الإعدادات</string>
+    <string name="switching_tv">يتم التبديل…</string>
+    <string name="switch_desc_tv">واجهتين. جهاز واحد.</string>
+    <string name="switch_brand_desc_tv">خدمات الحماية مقدمة من طرف Graphite</string>
 </resources>

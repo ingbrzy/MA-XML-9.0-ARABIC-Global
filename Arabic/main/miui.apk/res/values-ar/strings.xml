@@ -6,7 +6,7 @@
     <string name="date_picker_label_year" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_day" />
-    <string name="copyright">حق النشر</string>
+    <string name="copyright">حقوق النشر</string>
     <string name="user_agreement">شروط الخدمة</string>
     <string name="privacy_policy">سياسة الخصوصية</string>
     <string name="user_manual">دليل المستخدم</string>
@@ -589,4 +589,5 @@
     <string name="search_mode_button_back_description">رجوع</string>
     <string name="actionbar_immersion_button_more_description">المزيد</string>
     <string name="actionbar_button_up_description">رجوع</string>
+    <string name="clearable_edittext_clear_description">مسح</string>
 </resources>

@@ -326,5 +326,5 @@
     <string name="preference_check_update_summary_current_version">الإصدار الحالي: %s</string>
     <string name="preference_check_update_summary_new_version">التحديث المتوفر: %s</string>
     <string name="description_title">معلومات عن الآلة الحاسبة</string>
-    <string name="description_content">بالإضافة إلى السمات الأساسية، تعمل الآلة الحاسبة أيضا كمحول متعدد الوظائف، رهن العقاري، و آلة حاسبة للضرائب. تأكد من أنك تستطيع أن تفعل ذلك دون هذه الميزات قبل إلغاء تثبيت التطبيق.</string>
+    <string name="description_content">بالإضافة إلى الميزات الأساسية، تعمل الآلة الحاسبة أيضا كمحول متعدد الوظائف، رهن العقاري، و آلة حاسبة للضرائب. تأكد من أنك تستطيع أن تفعل ذلك دون هذه الميزات قبل إلغاء تثبيت التطبيق.</string>
 </resources>

@@ -282,7 +282,7 @@
     <string name="micloud_main_wait_charge_sleep">Waiting for connecting charger and turn off screen</string>
     <string name="micloud_main_wait_charge">Waiting for connecting charger</string>
     <string name="micloud_main_resume_sync_soon">إستئناف المزامنة قريبا</string>
-    <string name="micloud_main_button_set_internet">Setting</string>
+    <string name="micloud_main_button_set_internet">الإعدادت</string>
     <string name="micloud_main_button_activate">تفعيل</string>
     <string name="micloud_main_button_authorize">ترخيص</string>
     <string name="micloud_detail_syncing">جارٍ المزامنة</string>

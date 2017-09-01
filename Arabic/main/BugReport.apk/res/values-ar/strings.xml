@@ -210,7 +210,9 @@
     <string name="feedback_title">الموضوع</string>
     <string name="feedback_description">الوصف</string>
     <string name="feedback_select_images">إضافة صور</string>
+    <string name="feedback_delete_images">Delete images</string>
     <string name="feedback_select_upload_log">إضافة سجلات</string>
+    <string name="feedback_select_modem_log">إضافة سجلات المودم</string>
     <string name="feedback_select_suggestion">إقتراحات</string>
     <string name="feedback_select_problem">المشاكل</string>
     <string name="feedback_choose_module">تحديد عنصر</string>
@@ -229,6 +231,7 @@
     <string name="toast_problem_class_required">تحديد فئة</string>
     <string name="feedback_third_packagename_hint">ما هو تطبيق الجهة الخارجية الذي يسبب مشاكل؟</string>
     <string name="toast_third_packagename_required">أدخل إسم التطبيق</string>
+    <string name="feedback_contact_info_hint">رقم الهاتف/البريد الإلكتروني</string>
     <string name="feedback_status_commit_succ_title">أُرسل</string>
     <string name="feedback_status_commit_uploading_title">جار الإرسال…</string>
     <string name="feedback_status_commit_failed_title">تعذر ارسال التقرير</string>
@@ -290,10 +293,13 @@
     <string name="module_finance">المالية ومحفظة Mi</string>
     <string name="module_more">المزيد</string>
     <string name="module_search">بحث</string>
+    <string name="module_google_apps">تطبيقات Google</string>
     <string name="feedback_submit_hint">قم بالإبلاغ عن المشاكل في كل مرة تواجه خلل لمساعدتنا على حلها بشكل أسرع.</string>
+    <string name="feedback_submit_hint_gone">Closed message</string>
     <string name="toast_post_deleted">هذا الموضوع غير موجود، تم حذف أو تم تعديله.</string>
     <string name="toast_log_not_exists">السجل المطلوب تم حذفه أو غير موجود</string>
     <string name="toast_pic_not_exists">تم حذف الصورة المخبأة</string>
+    <string name="toast_screenshot_too_large">"Can't upload files bigger than 10MB."</string>
     <string name="title_bbs_feedback_main">تعرف على المزيد حول هواتف Mi</string>
     <string name="title_customer_service">خدمة العملاء</string>
 </resources>

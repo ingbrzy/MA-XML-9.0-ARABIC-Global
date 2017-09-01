@@ -308,6 +308,7 @@
     <string name="vcard_export_will_start_message">سيتم تصدير %s بعد قليل.</string>
     <string name="vcard_export_request_rejected_message">تم رفض طلب تصدير vCard. حاول مرة أخرى لاحقا.</string>
     <string name="vcard_unknown_filename">جهة اتصال</string>
+    <string name="percentage">%s%%</string>
     <string name="confirm_export_title">هل ترغب في تصدير جهات الاتصال؟</string>
     <string name="confirm_export_message">سيتم تصدير قائمة جهات الاتصال لديك إلى ملف: %s.</string>
     <string name="exporting_contact_failed_title">تعذر التصدير</string>
@@ -687,6 +688,7 @@
     <string name="miprofile_alertdialog_message">عرض هذ الاسم لجهات الاتصال عند طلب تبادل بطاقات.</string>
     <string name="miprofile_alertdialog_edit">ادخل اسم</string>
     <string name="miprofile_switch_off_alertdialog_message">لن تستطيع تبادل بطاقات جهة الاتصال مع الاشخاص الآخرين.</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_bind_account_alertdialog_title">أضف رقم هاتف</string>
     <string name="miprofile_bind_account_alertdialog_message">تحتاج إلى إضافة رقم هاتف هذا الجهاز إلى حساب Mi الخاص بك لاستخدام هذه الميزة.</string>
     <string name="miprofile_bind_account_alertdialog_positive">أضف رقم</string>
@@ -782,6 +784,8 @@
     <string name="zero_items_selected">تحديد العناصر</string>
     <string name="select_all">تحديد الكل</string>
     <string name="deselect_all">إلغاء الكل</string>
+    <string name="select_exceed">حدد ما لا يزيد عن %1$d</string>
+    <string name="select_all_exceed">حدد ما لا يزيد عن %1$d، لا يمكن تحدد الكل</string>
     <string name="select_none">لم يتم تحديد شيء</string>
     <string name="toast_finish_delete_call_log">تم مسح سجل المكالمات</string>
     <string name="toast_finish_delete_selected_call_log">تم مسح سجل المكالمات</string>
@@ -925,8 +929,6 @@
     <string name="option_rename_group">إعادة تسمية</string>
     <string name="option_delete_group">حذف</string>
     <string name="deleteConfirmation_title">حذف هذا الاتصال؟</string>
-    <string name="readOnlyContactDeleteConfirmationDetail">\"%s\" يحتوي على معلومات من حسابات متعددة. أي معلومة لا يمكن حذفها سيتم اخفاءها من قائمة جهات الاتصال الخاصة بك.</string>
-    <string name="multipleContactDeleteConfirmationDetail">حذف \"%s\" سيؤدي إلى حذف معلومات من عدة حسابات.</string>
     <string name="deleteConfirmationDetail">هل ترغب في حذف \"%s\"؟</string>
     <string name="nickname_picker_name_column">اسم جهة الاتصال</string>
     <string name="nickname_picker_nickname_column">العنوان</string>
@@ -1060,6 +1062,7 @@
     <string name="device_import_local_account">حساب محلي</string>
     <string name="import_name">الاسم</string>
     <string name="import_percent">٠%</string>
+    <string name="percent_sign">%</string>
     <string name="ret_sign">"
 "</string>
     <string name="checkhint">تحقق من الهاتف المستهدف</string>
@@ -1251,10 +1254,5 @@
     <string name="t9_search_empty_video_call">مكالمة فيديو</string>
     <string name="t9_search_empty_send_sms">إرسال رسالة</string>
     <string name="t9_search_empty_edit_contact">Add to contact</string>
-    <string name="fraud_more_indemnity">المزيد</string>
-    <string name="telecom_fraud_insurance">تأمين احتيال الاتصالات</string>
-    <string name="telecom_fraud_insurance_description">10،000 يوان صيني تأمين | عرض حصري من Mi| ٩.٩ يوان صيني سنويا</string>
-    <string name="select_done">لا يوجد المزيد للتحديد</string>
-    <string name="sim_contact_dropdown_menu_deselect_all_miui">إلغاء تحديد الكل</string>
-    <string name="sim_contact_dropdown_menu_select_all_miui">تحديد الكل</string>
+    <string name="add_field_toast">لا يوجد مزيد من الحقول للإضافة.</string>
 </resources>

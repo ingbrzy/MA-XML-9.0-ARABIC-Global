@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="incorrect_pukcode_remaining_attempts">
+        <item quantity="other">رمز PUK غير صحيح، تبقى %d محاولة</item>
+        <item quantity="zero">رمز PUK غير صحيح، تبقى %d محاولة</item>
+        <item quantity="one">رمز PUK غير صحيح، تبقى %d محاولة</item>
+        <item quantity="two">رمز PUK غير صحيح، تبقى %d محاولات</item>
+        <item quantity="few">رمز PUK غير صحيح، تبقى %d محاولات</item>
+        <item quantity="many">رمز PUK غير صحيح، تبقى %d محاولة</item>
+    </plurals>
+    <plurals name="incorrect_pincode_remaining_attempts">
+        <item quantity="other">رمز PIN غير صحيح، تبقى %d محاولة</item>
+        <item quantity="zero">رمز PIN غير صحيح، تبقى %d محاولة</item>
+        <item quantity="one">رمز PIN غير صحيح، تبقى %d محاولة</item>
+        <item quantity="two">رمز PIN غير صحيح، تبقى %d محاولات</item>
+        <item quantity="few">رمز PIN غير صحيح، تبقى %d محاولات</item>
+        <item quantity="many">رمز PIN غير صحيح، تبقى %d محاولة</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_seconds_string">
+        <item quantity="other">حاول مجددا بعد %d ثانية</item>
+        <item quantity="zero">حاول مجددا بعد %d ثانية</item>
+        <item quantity="one">حاول مجددا بعد %d ثانية</item>
+        <item quantity="two">حاول مجددا بعد %d ثواني</item>
+        <item quantity="few">حاول مجددا بعد %d ثواني</item>
+        <item quantity="many">حاول مجددا بعد %d ثانية</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_minutes_string">
+        <item quantity="other">حاول مجددا بعد %d ثانية</item>
+        <item quantity="zero">حاول مجددا بعد %d ثانية</item>
+        <item quantity="one">حاول مجددا بعد %d ثانية</item>
+        <item quantity="two">حاول مجددا بعد %d ثواني</item>
+        <item quantity="few">حاول مجددا بعد %d ثواني</item>
+        <item quantity="many">حاول مجددا بعد %d ثانية</item>
+    </plurals>
     <plurals name="new_notifications_msg">
         <item quantity="other">%d إشعار جديد</item>
         <item quantity="zero">%d إشعار جديد</item>
@@ -7,5 +39,77 @@
         <item quantity="two">%d إشعارات جديدة</item>
         <item quantity="few">%d إشعارات جديدة</item>
         <item quantity="many">%d إشعار جديد</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_charging_full_need_min_time__text">
+        <item quantity="other">About %d mins until full​</item>
+        <item quantity="zero">About %d mins until full​</item>
+        <item quantity="one">About %d min until full​</item>
+        <item quantity="two">About %d mins until full​</item>
+        <item quantity="few">About %d mins until full​</item>
+        <item quantity="many">About %d mins until full​</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_charging_full_need_hour_time__text">
+        <item quantity="other">About %d hrs until full</item>
+        <item quantity="zero">About %d hrs until full</item>
+        <item quantity="one">About %d hr until full</item>
+        <item quantity="two">About %d hrs until full</item>
+        <item quantity="few">About %d hrs until full</item>
+        <item quantity="many">About %d hrs until full</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_charging_full_need_time__text">
+        <item quantity="other">About %1$d hrs %2$d mins until full</item>
+        <item quantity="zero">About %1$d hrs %2$d mins until full</item>
+        <item quantity="one">About %1$d hr %2$d min until full</item>
+        <item quantity="two">About %1$d hrs %2$d mins until full</item>
+        <item quantity="few">About %1$d hrs %2$d mins until full</item>
+        <item quantity="many">About %1$d hrs %2$d mins until full</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_min_time_text">
+        <item quantity="other">About %d mins left</item>
+        <item quantity="zero">About %d mins left</item>
+        <item quantity="one">About %d min left</item>
+        <item quantity="two">About %d mins left</item>
+        <item quantity="few">About %d mins left</item>
+        <item quantity="many">About %d mins left</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_hour_time_text">
+        <item quantity="other">About %d hrs left</item>
+        <item quantity="zero">About %d hrs left</item>
+        <item quantity="one">About %d hr left</item>
+        <item quantity="two">About %d hrs left</item>
+        <item quantity="few">About %d hrs left</item>
+        <item quantity="many">About %d hrs left</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_time_text">
+        <item quantity="other">About %1$d hrs %2$d mins left</item>
+        <item quantity="zero">About %1$d hrs %2$d mins left</item>
+        <item quantity="one">About %1$d hr %2$d min left</item>
+        <item quantity="two">About %1$d hrs %2$d mins left</item>
+        <item quantity="few">About %1$d hrs %2$d mins left</item>
+        <item quantity="many">About %1$d hrs %2$d mins left</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_hour_time_format">
+        <item quantity="other">%d hrs</item>
+        <item quantity="zero">%d hrs</item>
+        <item quantity="one">%d hr</item>
+        <item quantity="two">%d hrs</item>
+        <item quantity="few">%d hrs</item>
+        <item quantity="many">%d hrs</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_min_time_format">
+        <item quantity="other">%d mins</item>
+        <item quantity="zero">%d mins</item>
+        <item quantity="one">%d min</item>
+        <item quantity="two">%d mins</item>
+        <item quantity="few">%d mins</item>
+        <item quantity="many">%d mins</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_time_format">
+        <item quantity="other">%1$d hrs %2$d mins</item>
+        <item quantity="zero">%1$d hrs %2$d mins</item>
+        <item quantity="one">%1$d hr %2$d min</item>
+        <item quantity="two">%1$d hrs %2$d mins</item>
+        <item quantity="few">%1$d hrs %2$d mins</item>
+        <item quantity="many">%1$d hrs %2$d mins</item>
     </plurals>
 </resources>
