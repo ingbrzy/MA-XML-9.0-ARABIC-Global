@@ -209,8 +209,8 @@
     <string name="lyric_open_other_connect">تحميل كلمات الاغنية باستخدام شبكة الجوال</string>
     <string name="playback_failed_no_title_by_bad_file">صيغة الاغنية غير مدعوم أو الملف غير موجود.</string>
     <string name="streamloadingtext">الاتصال بـ %s</string>
-    <string name="toast_new_playlist_name_too_long">Playlist name is too long</string>
-    <string name="toast_new_playlist_name_no_enter">"key 'Enter' has been deleted'"</string>
+    <string name="toast_new_playlist_name_too_long">اسم قائمة التشغيل طويل جدا</string>
+    <string name="toast_new_playlist_name_no_enter">لا يمكن بدء فقرة جديدة</string>
     <string name="error_title">تعذرت المزامنة مع حساب Mi</string>
     <string name="error_unauthorized">تم إيقاف المزامنة بسبب وجود عدة محاولات تسجيل الدخول.</string>
     <string name="error_forbidden">تم إيقاف المزامنة بسبب وجود مشكلات في حسابك.</string>
@@ -538,7 +538,7 @@
     <string name="upgrade_remind">تحديث متوفر</string>
     <string name="service_stop">تم ايقاف الخدمة</string>
     <string name="upgrade_suggest">نقوم بفصل خدمة التشغيل الحالية الخاصة بنا نظرًا لمشكلات حقوق النشر. قم بتحديث اخراصدارمن تطبيق Music للاستماع إلى موسيقى ذات الجودة العالية.</string>
-    <string name="upgrade_force">نقوم بفصل خدمة التشغيل الحالية الخاصة بنا نظرًا لمشكلات حقوق النشر. قم بتحديث اخراصدارمن تطبيق Music للاستماع إلى موسيقى ذات الجودة العالية.</string>
+    <string name="upgrade_force">نقوم بفصل خدمة التشغيل الحالية الخاصة بنا نظرًا لمشكلات حقوق النشر. قم بتحديث اخر اصدار من تطبيق Music للاستماع إلى موسيقى ذات الجودة العالية.</string>
     <string name="upgrade_nobeta">نقوم بفصل خدمة التشغيل الحالية لحين حل مشكلات حقوق النشر. عذرًا للإزعاج :(</string>
     <string name="upgrade_waringing">ستتمكن فقط من الاستماع إلى الموسيقى المخزنة بدون اتصال.</string>
     <string name="upgrade_immediate">التحديث الآن</string>
@@ -846,8 +846,8 @@
     <string name="talkback_favorite">اعجاب بهذه الاغنية</string>
     <string name="talkback_progress">شريط التقدم</string>
     <string name="talkback_back">الرجوع للخلف</string>
-    <string name="talkback_nowplaying_circle">Play Circle</string>
-    <string name="talkback_nowplaying_bar">Play Bar</string>
+    <string name="talkback_nowplaying_circle">Play circle</string>
+    <string name="talkback_nowplaying_bar">Play bar</string>
     <string name="cloud_music">الأغاني في Mi Cloud</string>
     <string name="backup_immediate">نسخ احتياطي</string>
     <string name="backup_song_title">تحديد الأغاني لنسخها احتياطياً</string>

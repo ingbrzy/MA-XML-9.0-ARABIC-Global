@@ -582,7 +582,7 @@
     <string name="title_album">الألبومات</string>
     <string name="album_name">الاختيار اليومي: %s</string>
     <string name="album_creator">تم انشأتها بواسطة %s</string>
-    <string name="upload_video_forbidden">لا تقم بتحميل نفس الفيديو</string>
+    <string name="upload_video_forbidden">لا تقم برفع نفس الفيديو</string>
     <string name="activity_parse_video_title">لصق رابط فيديو</string>
     <string name="video_parse_btn">بدء</string>
     <string name="video_parsing_btn">تحليل</string>

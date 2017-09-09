@@ -6,13 +6,13 @@
     <string name="explain_send_sms_permission_msg">لتشغيل %s، سيرسل اليك إطار خدمة Mi رسالة قصيرة (SMS) للتحقق من رقم هاتفك. سيتم احتساب رسوم الرسالة القصيرة الإعتيادية من قبل شركة الاتصالات.</string>
     <string name="explain_send_sms_permission_button">تحقق</string>
     <string name="activate_phone_failed_notif_title">لا يمكن تفعيل بطاقة SIM</string>
-    <string name="activate_phone_failed_notif_title_msim">"Can't activate SIM card %d"</string>
+    <string name="activate_phone_failed_notif_title_msim">لا يمكن تفعيل بطاقة SIM %d</string>
     <string name="activate_phone_success_notif_title">بطاقة SIM مفعّلة</string>
-    <string name="activate_phone_success_notif_title_msim">SIM card %d activated</string>
+    <string name="activate_phone_success_notif_title_msim">بطاقة SIM %d مفعّلة</string>
     <string name="activate_phone_cancel_notif_title">تم إلغاء تفعيل بطاقة SIM</string>
-    <string name="activate_phone_cancel_notif_title_msim">SIM card %d activation cancelled</string>
+    <string name="activate_phone_cancel_notif_title_msim">تم إلغاء تفعيل %d بطاقة SIM</string>
     <string name="activate_status_title_activating">جارٍ تفعيل بطاقةSIM…</string>
-    <string name="activate_status_title_activating_msim">Activating SIM card %d…</string>
+    <string name="activate_status_title_activating_msim">جارٍ تفعيل %d بطاقةSIM…</string>
     <string name="activate_auto_sms_notification_title">تفعيل بطاقة SIM</string>
     <string name="activate_auto_sms_notification_desc_2_cards">تم ارسال رسالة SMS من بطاقة SIM %s لتفعيل \"العثور على الجهاز\"</string>
     <string name="activate_auto_sms_notification_desc_1_card">تم ارسال رسالة SMS لتفعيل\"العثور على الجهاز\"</string>
@@ -108,11 +108,11 @@
     <string name="activate_history_multisim_success_overview">تم تفعيل بطاقة SIM %2$d بنجاح. يتم تشغيل التفعيل بواسطة %1$s\".</string>
     <string name="activate_history_multisim_canceled_overview">تم إلغاء بطاقة SIM %2$d. يتم تشغيل التفعيل بواسطة %1$s\".</string>
     <string name="activate_history_sms">لقد تم ارسال رسالة SMS خلال التفعيل.</string>
-    <string name="phone_verify_title">Agree %1$s to verify your phone number</string>
+    <string name="phone_verify_title">الموافقة لـ %1$s على التحقق من رقم الهاتف الخاصة بك</string>
     <string name="phone_verify_text">%1$s will not get your phone number，just verify your phone number is match。</string>
-    <string name="phone_verify_processing">verifying…</string>
-    <string name="phone_get_title">Agree %1$s to get your phone number</string>
+    <string name="phone_verify_processing">جارٍ التحقق…</string>
+    <string name="phone_get_title">الموافقة لـ %1$s على الحصول من رقم الهاتف الخاصة بك</string>
     <string name="phone_get_text">Do you agree %1$s to get your phone number：%2$s</string>
     <string name="phone_get_processing">getting…</string>
-    <string name="agree">Agree</string>
+    <string name="agree">موافق</string>
 </resources>

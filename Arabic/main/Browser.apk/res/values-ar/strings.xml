@@ -167,6 +167,7 @@
     <string name="color_picker_dialog_title">تحديد اللون</string>
     <string name="color_picker_hue">تدرج اللون</string>
     <string name="color_picker_saturation">صفاء اللون</string>
+    <string name="color_picker_value">القيمة</string>
     <string name="comment_app_menu">التعليق</string>
     <string name="comment_description">تعليق</string>
     <string name="comment_hint">تعليق</string>
@@ -180,6 +181,7 @@
     <string name="contextmenu_dial_dot">طلب …</string>
     <string name="contextmenu_download_image">حفظ الصورة</string>
     <string name="contextmenu_download_image_as">حفظ الصورة</string>
+    <string name="contextmenu_manually_block_ad">وضع علامة كإعلان</string>
     <string name="contextmenu_map">خريطة</string>
     <string name="contextmenu_openlink">إفتح</string>
     <string name="contextmenu_openlink_newwindow">فتح في علامة تبويب جديدة</string>
@@ -388,7 +390,7 @@
     <string name="menu_hv_swap">شاشة V/H</string>
     <string name="menu_nightmode">الوضع الليلي</string>
     <string name="menu_preferences">الإعدادات</string>
-    <string name="menu_theme_setting">إعدادات الثيم</string>
+    <string name="menu_theme_setting">إعدادات السمة</string>
     <string name="menu_title_clear_all">مسح الكل</string>
     <string name="menu_title_open_file_management">فتح مدير الملفات</string>
     <string name="menu_title_pause_all">إيقاف مؤقت للكل</string>
@@ -558,8 +560,10 @@
     <string name="pref_accessibility_url_shortcut_enter_title">ادخال سريع لعنوان URL</string>
     <string name="pref_adblock_counts">%d محظور</string>
     <string name="pref_adblock_title">مانع الإعلانات</string>
+    <string name="pref_advert_null">إعلان غير ملحوظ، يمكنك الضغط على العلامة على الصفحة</string>
     <string name="pref_auto_update_under_wifi">تحديث استخدام الـWi-Fi</string>
     <string name="pref_automatic_matching_searchengines_title">التبديل إلى محرك البحث المستخدم غالبا</string>
+    <string name="pref_cancel_screen">إلغاء الشاشة</string>
     <string name="pref_category_hint">الفئات</string>
     <string name="pref_check_security_url_summary">إرسال عنوان URL موقع الويب إلى خوادم Mi للتحقق إذا ما كانت آمنة</string>
     <string name="pref_check_security_url_summary_international">السماح للمتصفح بالوصول إلى عناوين URL للمواقع التي تزورها لتلقي توصيات أكثر صلة.</string>
@@ -603,6 +607,7 @@
     <string name="pref_force_userscalable_summary">تجاوز طلب موقع الويب للتحكم في سلوك التكبير</string>
     <string name="pref_general_title">عام</string>
     <string name="pref_key_gesture_title">أزرار وإيماءات</string>
+    <string name="pref_label_advert_manager">مدير الإعلانات التي تحمل علامة</string>
     <string name="pref_nav_mode_summary_pad">Pad</string>
     <string name="pref_nav_mode_summary_phone">الهاتف</string>
     <string name="pref_nav_mode_title">وضع المتصفح</string>
@@ -908,11 +913,14 @@
     <string name="view_certificate">عرض الشهادة</string>
     <string name="view_document_downloaded_files">عرض الملفات التي تم تحميلها في التنزيلات</string>
     <string name="voice_check_network">تحقق من إعدادات الشبكة ثم حاول مجدداً.</string>
+    <string name="voice_close_description">إغلاق</string>
     <string name="voice_connect_network">تعذر الاتصال بالشبكة.</string>
     <string name="voice_description">بحث صوتي</string>
     <string name="voice_network_connection">يتطلب البحث الصوتي الاتصال بالإنترنت للعمل بشكل طبيعي.</string>
     <string name="voice_search_permission">يحتاج البحث الصوتي للوصول إلى الميكروفون للعمل بشكل طبيعي.</string>
     <string name="voice_semantic_analysis">سوف يكون المتصفح قادرا على تحليل الدلالات بعد السماح له بالاتصال.</string>
+    <string name="voice_start_description">بدء</string>
+    <string name="voice_stop_description">إيقاف</string>
     <string name="voice_sub_title">ألا تعرف ماذا تقول؟ جرب \"افتح mi.com!\"</string>
     <string name="voice_title">قل الأمر…</string>
     <string name="voice_title_distinguish">معالجة…</string>

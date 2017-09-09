@@ -91,7 +91,7 @@
     <string name="sort_by_abc">ترتيب حسب الإسم</string>
     <string name="encryption">تشفير</string>
     <string name="failed_to_drop">لا يمكن التحريك</string>
-    <string name="no_space_toast">لا توجد مساحة</string>
+    <string name="no_space_toast">لا توجد مساحة كافية</string>
     <string name="failed_to_drop_widget_invalid">عنصر واجهة غير صالحة</string>
     <string name="failed_to_delete_temporary">لا يمكن الإزالة</string>
     <string name="confirm_btn_label">موافق</string>
@@ -266,12 +266,12 @@
     <string name="notification_open_button">فتح</string>
     <string name="toast_screen_icons_misplaced">تمت إستعادتها من مصدر آخر، بعض الأيقونات قد تكون في غير محلها</string>
     <string name="screen_locked_toast">تنسيق الشاشة الرئيسية مقفل</string>
-    <string name="widget_quick_function">وظيفة سريعة</string>
+    <string name="widget_quick_function">وظائف سريعة</string>
     <string name="menu_trans_effect">تأثيرات التنقل</string>
-    <string name="menu_default_screen_preview">إعداد الشاشة الافتراضية</string>
-    <string name="menu_cell_setting">تخطيط الشاشة</string>
-    <string name="menu_auto_fill">المحاذاة تلقائيا</string>
-    <string name="menu_lock">شاشة القفل</string>
+    <string name="menu_default_screen_preview">تعيين الشاشة الإفتراضية</string>
+    <string name="menu_cell_setting">تخطيط الشاشة الرئيسية</string>
+    <string name="menu_auto_fill">قم بملأ الخانات الفارغة</string>
+    <string name="menu_lock">تخطيط قفل الشاشة الرئيسية</string>
     <string name="menu_more">المزيد</string>
-    <string name="default_screen_preview_title">إعداد الشاشة الافتراضية</string>
+    <string name="default_screen_preview_title">انقر لتعيين الشاشة الإفتراضية</string>
 </resources>

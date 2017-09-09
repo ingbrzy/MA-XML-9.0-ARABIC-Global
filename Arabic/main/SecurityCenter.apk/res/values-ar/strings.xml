@@ -1132,6 +1132,7 @@
     <string name="button_text_update_now">تحديث</string>
     <string name="button_text_fix_now">إصلاح</string>
     <string name="button_text_open_now">إفتح</string>
+    <string name="button_text_forbid_now">منع</string>
     <string name="button_text_disconnect_now">قطع الاتصال</string>
     <string name="apps_item_sms_reset_button_text">إستعادة الافتراضية</string>
     <string name="apps_item_sms_title">إعدادات الرسائل الافتراضية</string>
@@ -1561,6 +1562,11 @@
     <string name="virus_auto_update_engine">Auto updates：%s</string>
     <string name="hints_scan_danger_result">Risk found, fix now</string>
     <string name="ss_activity_main_support_text">مدعوم من %s</string>
+    <string name="hints_virus_app_summary">%s (تطبيق)</string>
+    <string name="hints_virus_apk_summary">%s (apk)</string>
+    <string name="hints_risk_name_title">الخطر:</string>
+    <string name="hints_risk_descx_title">الوصف:</string>
+    <string name="button_text_clear">حذف</string>
     <string name="toast_removed_from_virus_white_list">تم الإزالة من الإستثناءات. سيتم فحص العنصر في المرة القادمة.</string>
     <string name="long_click_dialog_title">تنبيه</string>
     <string name="long_click_dialog_summary">اضغط مع الإستمرار على النتائج في القائمة لإضافتها إلى الاستثناءات</string>
@@ -1619,6 +1625,7 @@
     <string name="card_main_deepclean_wechat_action">حذف</string>
     <string name="card_main_sectool_title">الأدوات</string>
     <string name="card_main_monthreport_action">عرض</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">اختبار الشبكة</string>
     <string name="card_main_netcheck_summary">اختبار الاتصال لمشاكل الشبكة</string>
     <string name="card_main_netcheck_action">اختبار</string>
@@ -1998,8 +2005,8 @@
     <string name="net_booster_overdue_notification">جلسة زيادة سرعة الشبكة على وشك الانتهاء</string>
     <string name="net_booster_overdue_notification_tip">جلسة زيادة سرعة الشبكة على وشك الانتهاء. تجديد الجلسة؟</string>
     <string name="net_booster_expire_notification">جلسة زيادة سرعة الشبكة على وشك الانتهاء</string>
-    <string name="net_booster_expire_notification_tip">%d d remaining before Network speed boost session ends. Renew the session to avoid network speed problems.</string>
     <string name="xunyou_pay_webview">خدمات Xunyou</string>
+    <string name="net_booster_expire_notification_tip">%d d remaining before Network speed boost session ends. Renew the session to avoid network speed problems.</string>
     <string name="power_center_consume_rank">استخدام البطارية</string>
     <string name="power_center_custom_title">وضع البطارية</string>
     <string name="power_center_auto_shutdown_summary_default">قم بتشغيل جهازك أو إيقافه في وقت المحدد</string>

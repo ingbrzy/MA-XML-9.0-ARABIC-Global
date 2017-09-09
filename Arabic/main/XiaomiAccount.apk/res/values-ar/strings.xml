@@ -7,6 +7,7 @@
     <string name="passport_login_title">تسجيل الدخول إلى حساب Mi</string>
     <string name="passport_login">تسجيل الدخول</string>
     <string name="passport_relogin">تسجيل الدخول مرة أخرى</string>
+    <string name="passport_instant_login">تسجيل الدخول</string>
     <string name="passport_skip_login">تخطي</string>
     <string name="passport_skip_setup_account_title">تخطي الإعداد</string>
     <string name="passport_skip_setup_account_msg">يمكنك إعداد حساب Mi في الإعدادات فيما بعد.</string>
@@ -84,7 +85,7 @@
     <string name="passport_delete_account">تسجيل خروج</string>
     <string name="passport_vcode_notification_title">التحقق من تسجيل الدخول غير مكتمل</string>
     <string name="passport_account_name">الحساب: %1$s</string>
-    <string name="passport_account_hint_text">عنوان البريد الإلكتروني، رقم الهاتف أو معرف حساب Mi</string>
+    <string name="passport_account_hint_text">عنوان البريد الإلكتروني، رقم الهاتف أو هوية حساب Mi</string>
     <string name="passport_email_or_id_hint_text">عنوان البريد الإلكتروني أو هوية حساب Mi</string>
     <string name="passport_phone_num_hint_text">رقم الهاتف</string>
     <string name="passport_input_password_hint">ادخل كلمة المرور</string>
@@ -180,6 +181,11 @@
     <string name="passport_account_set_password_title">تعيين كلمة مرور</string>
     <string name="passport_account_set_password_prompt">تعيين كلمة المرور لحسابك لتسجيل الدخول في المرة القادمة.</string>
     <string name="passport_set">تعيين</string>
+    <string name="passport_user_reg_region">الدولة/المنطقة</string>
+    <string name="passport_user_id_notice">您的小米ID是: %s</string>
+    <string name="passport_user_reg_region_warning">"You Won't be able to change your country/region once the account is created"</string>
+    <string name="passport_sync_account_data">正在同步您的帐号数据</string>
+    <string name="passport_sync_account_data_failed_warning">您的帐号数据有延迟,将只能使用小米ID登录。若使用邮箱/手机登录,请稍等几分钟</string>
     <string name="search_app_name">حساب Mi</string>
     <string name="search_mi_account">حساب Mi</string>
     <string name="search_mi_account_key_words">Mi Cloud،إعداد الحساب،معلومات دفع Mi،تسجيل الخروج</string>
@@ -306,8 +312,9 @@
     <string name="account_xiaomi_service">الخدمات</string>
     <string name="cloud_service">Mi Cloud</string>
     <string name="vip_account_settings">إعدادات VIP</string>
-    <string name="vip_more_info">مزيد من معلومات عن VIP</string>
     <string name="xiao_mi_vip">Mi VIP</string>
+    <string name="mi_vip_info">查看我的特权</string>
+    <string name="vip_settings_info">我的数据中心</string>
     <string name="loading_micloud_sync_data">لحظة من فضلك…</string>
     <string name="activity_not_found_notice">لا يمكن العثور على التطبيق</string>
     <string name="scan_barcode_title">لتسجيل الدخول في حساب Mi، امسح رمز QR</string>
@@ -421,4 +428,5 @@
     <string name="account_token_expired_title">فشلت المصادقة</string>
     <string name="account_token_expired_msg">"إنتهت صلاحية رمز التحقق، ابدأ من جديد أو قم بتسجيل الخروج من
 معرف حساب الخاص بك: %s"</string>
+    <string name="bind_safe_phone_msg">إضافة هاتف آمن لتسجيل الدخول المقبل</string>
 </resources>

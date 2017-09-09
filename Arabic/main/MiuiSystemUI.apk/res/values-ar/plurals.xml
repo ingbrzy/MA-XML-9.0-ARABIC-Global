@@ -25,12 +25,12 @@
         <item quantity="many">تم فتحها حديثا، التطبيقات المتاحة: %d. اسحب لأعلى للحذف، اسحب لأسفل للقفل.</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
-        <item quantity="other">%1$d مفتاح أعلى هذا الشرط مفعل</item>
-        <item quantity="zero">%1$d مفتاح أعلى هذا الشرط مفعل</item>
-        <item quantity="one">%1$d مفتاح أعلى هذا الشرط مفعل</item>
-        <item quantity="two">%1$d مفاتيح أعلى هذا الشرط مفعلة</item>
-        <item quantity="few">%1$d مفاتيح أعلى هذا الشرط مفعلة</item>
-        <item quantity="many">%1$d مفتاح أعلى هذا الشرط مفعل</item>
+        <item quantity="other">سيظهر %1$d مفتاح تبديل في مركز الإشعارات</item>
+        <item quantity="zero">سيظهر %1$d مفتاح تبديل في مركز الإشعارات</item>
+        <item quantity="one">سيظهر %1$d مفتاح تبديل في مركز الإشعارات</item>
+        <item quantity="two">سيظهر %1$d مفاتيح تبديل في مركز الإشعارات</item>
+        <item quantity="few">سيظهر %1$d مفاتيح تبديل في مركز الإشعارات</item>
+        <item quantity="many">سيظهر %1$d مفتاح تبديل في مركز الإشعارات</item>
     </plurals>
     <plurals name="disable_notification_confirm_title">
         <item quantity="other">إخفاء إشعارات %d تطبيق؟</item>
@@ -57,11 +57,11 @@
         <item quantity="many">سماء صافية</item>
     </plurals>
     <plurals name="fold_tips_title">
-        <item quantity="other">%d notifications are fold</item>
-        <item quantity="zero">%d notifications are fold</item>
-        <item quantity="one">%d notification is fold</item>
-        <item quantity="two">%d notifications are fold</item>
-        <item quantity="few">%d notifications are fold</item>
-        <item quantity="many">%d notifications are fold</item>
+        <item quantity="other">%d إشعار غير مهم</item>
+        <item quantity="zero">%d إشعار غير مهم</item>
+        <item quantity="one">%d إشعار غير مهم</item>
+        <item quantity="two">%d إشعارات غير مهمة</item>
+        <item quantity="few">%d إشعارات غير مهمة</item>
+        <item quantity="many">%d إشعار غير مهم</item>
     </plurals>
 </resources>

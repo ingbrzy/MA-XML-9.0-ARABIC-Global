@@ -25,8 +25,8 @@
         <item>١ غيغابايت</item>
     </string-array>
     <string-array name="auto_process_mode">
-        <item>طلب مع إشعار</item>
-        <item>Clean in background</item>
-        <item>Show notification after clean</item>
+        <item>إشعار</item>
+        <item>تنظيف</item>
+        <item>التنظيف والإشعار</item>
     </string-array>
 </resources>

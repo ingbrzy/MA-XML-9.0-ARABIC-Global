@@ -17,12 +17,12 @@
         <item quantity="many">%d تطبيق يمكنه إظهار الإشعارات</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
-        <item quantity="other">%1$d مفتاح وضع فوق الشريط مفعل</item>
-        <item quantity="zero">%1$d مفتاح وضع فوق الشريط مفعل</item>
-        <item quantity="one">%1$d مفتاح وضع فوق الشريط مفعل</item>
-        <item quantity="two">%1$d مفاتيح وضعت فوق الشريط مفعلة</item>
-        <item quantity="few">%1$d مفاتيح وضعت فوق الشريط مفعلة</item>
-        <item quantity="many">%1$d مفتاح وضع فوق الشريط مفعل</item>
+        <item quantity="other">سيظهر %1$d مفتاح تبديل في مركز الإشعارات</item>
+        <item quantity="zero">سيظهر %1$d مفتاح تبديل في مركز الإشعارات</item>
+        <item quantity="one">سيظهر %1$d مفتاح تبديل في مركز الإشعارات</item>
+        <item quantity="two">سيظهر %1$d مفاتيح تبديل في مركز الإشعارات</item>
+        <item quantity="few">سيظهر %1$d مفاتيح تبديل في مركز الإشعارات</item>
+        <item quantity="many">سيظهر %1$d مفتاح تبديل في مركز الإشعارات</item>
     </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">لا يفصلك الآن عن الوصول إلى مرحلة مطوري البرامج سوى %1$d من الخطوات.</item>
@@ -417,12 +417,12 @@
         <item quantity="many">قم بتوصيل %d نقطة على الاقل. حاول مجدداً.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts">
-        <item quantity="other">Too many incorrect attempts. Try again in %d seconds.</item>
-        <item quantity="zero">Too many incorrect attempts. Try again in %d seconds.</item>
-        <item quantity="one">Too many incorrect attempt. Try again in %d second.</item>
-        <item quantity="two">Too many incorrect attempts. Try again in %d seconds.</item>
-        <item quantity="few">Too many incorrect attempts. Try again in %d seconds.</item>
-        <item quantity="many">Too many incorrect attempts. Try again in %d seconds.</item>
+        <item quantity="other">كثير من المحاولات الخاطئة. حاول مجدداُ في %d ثانية.</item>
+        <item quantity="zero">كثير من المحاولات الخاطئة. حاول مجدداُ في %d ثواني.</item>
+        <item quantity="one">كثير من المحاولات الخاطئة. حاول مجدداُ في %d ثانية.</item>
+        <item quantity="two">كثير من المحاولات الخاطئة. حاول مجدداُ في %d ثواني.</item>
+        <item quantity="few">كثير من المحاولات الخاطئة. حاول مجدداُ في %d ثواني.</item>
+        <item quantity="many">كثير من المحاولات الخاطئة. حاول مجدداُ في %d ثانية.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
         <item quantity="other">انتظر لمدة %d ثانية ثم حاول مرة اخرى.</item>

@@ -308,6 +308,7 @@
     <string name="vcard_export_will_start_message">سيتم تصدير %s بعد قليل.</string>
     <string name="vcard_export_request_rejected_message">تم رفض طلب تصدير vCard. حاول مرة أخرى لاحقا.</string>
     <string name="vcard_unknown_filename">جهة اتصال</string>
+    <string name="percentage">%s%%</string>
     <string name="confirm_export_title">هل ترغب في تصدير جهات الاتصال؟</string>
     <string name="confirm_export_message">سيتم تصدير قائمة جهات الاتصال لديك إلى ملف: %s.</string>
     <string name="exporting_contact_failed_title">تعذر التصدير</string>
@@ -623,6 +624,7 @@
     <string name="sim_contacts">جهات الاتصال بطاقة SIM</string>
     <string name="export_sim_contact_finish">تم تصدير جهات الاتصال</string>
     <string name="sim_export_loading">جارٍ قراءة بطاقة SIM…</string>
+    <string name="sim_export_error">بطاقة SIM ليست جاهزة، حاول مجددا لاحقا</string>
     <string name="sim_capacity">عرض مساحة بطاقة الـSIM</string>
     <string name="sim_error_not_ready">… SIM جارٍ تحميل جهات اتصال</string>
     <string name="sim_contact_existing">جهة الاتصال موجودة مسبقا</string>
@@ -687,6 +689,7 @@
     <string name="miprofile_alertdialog_message">عرض هذ الاسم لجهات الاتصال عند طلب تبادل بطاقات.</string>
     <string name="miprofile_alertdialog_edit">ادخل اسم</string>
     <string name="miprofile_switch_off_alertdialog_message">لن تستطيع تبادل بطاقات جهة الاتصال مع الاشخاص الآخرين.</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_bind_account_alertdialog_title">أضف رقم هاتف</string>
     <string name="miprofile_bind_account_alertdialog_message">تحتاج إلى إضافة رقم هاتف هذا الجهاز إلى حساب Mi الخاص بك لاستخدام هذه الميزة.</string>
     <string name="miprofile_bind_account_alertdialog_positive">أضف رقم</string>
@@ -1060,6 +1063,7 @@
     <string name="device_import_local_account">حساب محلي</string>
     <string name="import_name">الاسم</string>
     <string name="import_percent">٠%</string>
+    <string name="percent_sign">%</string>
     <string name="ret_sign">"
 "</string>
     <string name="checkhint">تحقق من الهاتف المستهدف</string>
@@ -1102,6 +1106,7 @@
     <string name="profile_name_photo">صورة</string>
     <string name="toast_copying">جارٍ النسخ…</string>
     <string name="toast_copy_done">تم</string>
+    <string name="toast_start_intent_failed">No app was found to handle</string>
     <string name="group_name">مجموعاتي</string>
     <string name="import_all_sim_entries_miui">استيراد جميع جهات الاتصال</string>
     <string name="import_sim_entry_miui">استيراد</string>

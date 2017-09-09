@@ -21,7 +21,7 @@
     <string name="phone_locked_foget_password_mehod_back">رجوع</string>
     <string name="phone_locked_foget_password_method_next">التالي</string>
     <string name="phone_locked_forget_password_suggesstions_title">كيفية مسح البيانات؟</string>
-    <string name="phone_locked_forget_password_suggesstion_one_content"><Data>Power off your device, press and hold the &lt;font color=#a5220e>Power button &lt;/font> and the &lt;font color=#a5220e>Volume up button &lt;/font>simultaneously until you see ml.</Data></string>
+    <string name="phone_locked_forget_password_suggesstion_one_content"><Data>قم بإيقاف تشغيل الجهاز، ثم اضغط باستمرار على &lt;font color=#a5220e>زر الطاقة &lt;/font> و &lt;font color=#a5220e>زر رفع مستوى الصوت &lt;/font>معا حتى تشاهد شعار Mi.;</Data></string>
     <string name="phone_locked_forget_password_suggesstion_two_content"><Data>تحديد &lt;font color=#a5220e>\"مسح وإعادة تعيين/font> ثم انتظر حتى يقوم جهاز بإعادة التشغيل..;</Data></string>
     <string name="phone_locked_foget_password_ok">متابعة</string>
     <string name="lockscreen_access_pattern_start">تم بدء النقش</string>
@@ -40,7 +40,7 @@
     <string name="invalid_confirm_pin_hint">رمز PIN غير متطابق</string>
     <string name="unlock_string">إلغاء قفل</string>
     <string name="open_camera_hint_text">إسحب لليسار لفتح الكاميرا</string>
-    <string name="open_remote_center_hint_text">Swipe right to open mi remote</string>
+    <string name="open_remote_center_hint_text">اسحب لليمين لفتح تطبيق ريموت Mi</string>
     <string name="click_to_enter_text">انقر للعرض</string>
     <string name="fingerprint_try_again_text">حاول مرة أخرى</string>
     <string name="fingerprint_try_again_msg">تعذر التحقق من بصمة الاصبع، حاول مجددا.</string>
@@ -56,7 +56,7 @@
     <string name="input_password_after_boot_msg">لفتح جهازك، ادخل كلمة المرور</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">تحتاج إلى الدخول إلى الواجهة الاولى بعد إعادة تشغيل الجهاز</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">لا يمكن التبديل بين الواجهات أثناء إجراء مكالمة</string>
-    <string name="input_password_handle_sdcard_fs">进入分身前需要在开发者选项中关闭“模拟SD卡优化”</string>
+    <string name="input_password_handle_sdcard_fs">إيقاف \"محاكاة تحسينات بطاقة SD\" قبل الدخول إلى الواجهة الثانية.</string>
     <string name="accessibility_enter_lock_wallpaper">انقر لفتح خلفية كاروسيل</string>
     <string name="lock_wallpaper_learn_more">المزيد</string>
     <string name="lock_wallpaper_enter">أدخل</string>
