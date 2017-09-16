@@ -32,6 +32,7 @@
     <string name="emergency_alert_settings_title">إعدادات اشعارات الطوارئ</string>
     <string name="enable_emergency_alerts_title">تشغيل الإشعارات</string>
     <string name="enable_emergency_alerts_summary">عرض مجموعات بث اشعارات الطوارئ</string>
+    <string name="alert_sound_duration_title">مدة صوت التنبيه</string>
     <string name="alert_reminder_interval_title">تذكير التنبيه</string>
     <string name="enable_alert_speech_title">نطق رسالة التنبيه</string>
     <string name="enable_alert_speech_summary">استخدام ميزة تحويل النص إلى كلام لنطق رسائل اشعارات الطوارئ</string>

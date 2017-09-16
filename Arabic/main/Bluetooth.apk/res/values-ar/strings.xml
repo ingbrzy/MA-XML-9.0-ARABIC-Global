@@ -7,8 +7,6 @@
     <string name="permdesc_bluetoothShareManager">‏للسماح للتطبيق بالدخول إلى إدارة BluetoothShare واستخدامها لنقل الملفات.</string>
     <string name="permlab_bluetoothWhitelist">إضافة وصول جهاز بلوتوث إلى القائمة البيضاء.</string>
     <string name="permdesc_bluetoothWhitelist">يسمح للتطبيق مؤقتًا بإضافة جهاز بلوتوث إلى القائمة البيضاء مما يتيح لذلك الجهاز إرسال ملفات إلى هذا الجهاز بدون تأكيد المستخدم.</string>
-    <string name="permlab_handoverStatus">استلام عمليات البث المتعلقة بنقل إمكانية التحكم عبر البلوتوث.</string>
-    <string name="permdesc_handoverStatus">يسمح باستلام معلومات حالة نقل إمكانية التحكم من البلوتوث.</string>
     <string name="bt_share_picker_label">بلوتوث</string>
     <string name="unknown_device">جهاز غير معروف</string>
     <string name="unknownNumber">غير معروف</string>
@@ -142,17 +140,6 @@
     <string name="start_server">‏بدء الخادم TCP</string>
     <string name="notify_server">‏إعلام الخادم TCP</string>
     <string name="noti_caption">تم %1$s بنجاح وأخفق %2$s.</string>
-    <string name="map_session_key_dialog_title">اكتب مفتاح الجلسة لـ %1$s</string>
-    <string name="map_session_key_dialog_header">يلزم مفتاح جلسة البلوتوث</string>
-    <string name="map_acceptance_timeout_message">انتهت مهلة قبول الاتصال مع %1$s</string>
-    <string name="map_authentication_timeout_message">انتهت مهلة إدخال مفتاح الجلسة مع %1$s</string>
-    <string name="map_auth_notif_ticker">طلب مصادقة Obex</string>
-    <string name="map_auth_notif_title">مفتاح الجلسة</string>
-    <string name="map_auth_notif_message">اكتب مفتاح الجلسة لـ %1$s</string>
-    <string name="map_defaultname">مجموعة أدوات السيارة</string>
-    <string name="map_unknownName">اسم غير معروف</string>
-    <string name="map_localPhoneName">اسمي</string>
-    <string name="map_defaultnumber">000000</string>
     <string name="bluetooth_map_email_settings_save">حفظ</string>
     <string name="bluetooth_map_email_settings_cancel">إلغاء</string>
     <string name="bluetooth_map_email_settings_intro">حدد حسابات البريد الإلكتروني التي تريد مشاركتها عبر بلوتوث. لا يزال يتعين عليك قبول أي دخول إلى الحسابات أثناء الاتصال.</string>

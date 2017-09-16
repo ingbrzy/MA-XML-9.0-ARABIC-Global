@@ -6,6 +6,7 @@
     <string name="sina_token_expired_warning">إنتهت صلاحية حساب Weibo، قم بإضافة الحساب مرة أخرى.</string>
     <string name="sina_token_invalid_warning">حساب Weibo غير صالح، قم بإضافة الحساب مرة أخرى.</string>
     <string name="sina_share_fail_content_repeat">لقد قمت بمشاركة هذا مسبقا.</string>
+    <string name="search_title_notes">@string/app_name</string>
     <string name="search_keyword_notes">الملاحظات;المذكرة</string>
     <string name="search_path_notes">تطبيقات النظام/الملاحظات</string>
     <string name="dlg_move_message">جارٍ النقل…</string>

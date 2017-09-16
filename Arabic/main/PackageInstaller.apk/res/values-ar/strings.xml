@@ -8,8 +8,7 @@
     <string name="wifi_disabled_wifi_failure">‏أخفق اتصال WiFi</string>
     <string name="wifi_disabled_password_failure">حدثت مشكلة في المصادقة</string>
     <string name="wifi_not_in_range">ليست في النطاق</string>
-    <string name="wifi_no_internet_no_reconnect">لم يتم اكتشاف اتصال بالإنترنت، ولن تتم إعادة الاتصال تلقائيًا.</string>
-    <string name="wifi_no_internet">لا يتوفر اتصال بالإنترنت.</string>
+    <string name="wifi_no_internet">لم يتم اكتشاف اتصال بالإنترنت.</string>
     <string name="saved_network">تم الحفظ بواسطة %1$s</string>
     <string name="connected_via_wfa">‏تم التوصيل عبر مساعد Wi-Fi</string>
     <string name="connected_via_passpoint">‏تم الاتصال عبر %1$s</string>
@@ -145,15 +144,12 @@
     <string name="wifi_allow_scan_with_traffic_summary">‏السماح/عدم السماح بعمليات فحص Wi-Fi للتجوال بناءً على حجم حركة البيانات في الواجهة</string>
     <string name="select_logd_size_title">أحجام ذاكرة التخزين المؤقت للتسجيل</string>
     <string name="select_logd_size_dialog_title">حدد أحجامًا أكبر لكل ذاكرة تخزين مؤقت للتسجيل</string>
-    <string name="dev_logpersist_clear_warning_title">هل تريد محو سعة التخزين الدائمة للمسجِّل؟</string>
-    <string name="dev_logpersist_clear_warning_message">عندما نتوقف عن رصد أي أخطاء باستخدام المسجِّل الدائم مرة أخرى، يتعين علينا محو بيانات المسجِّل الموجودة على جهازك.</string>
-    <string name="select_logpersist_title">تخزين بيانات المسجِّل باستمرار على الجهاز</string>
-    <string name="select_logpersist_dialog_title">تحديد مخازن السجلات المؤقتة المراد تخزينها باستمرار على الجهاز</string>
     <string name="select_usb_configuration_title">‏حدد تهيئة USB</string>
     <string name="select_usb_configuration_dialog_title">‏حدد تهيئة USB</string>
     <string name="allow_mock_location">السماح بمواقع وهمية</string>
     <string name="allow_mock_location_summary">السماح بمواقع وهمية</string>
     <string name="debug_view_attributes">تمكين فحص سمة العرض</string>
+    <string name="legacy_dhcp_client_summary">‏يمكنك استخدام برنامج DHCP من Lollipop بدلاً من برنامج DHCP الجديد على Android.</string>
     <string name="mobile_data_always_on_summary">‏اجعل بيانات الجوّال نشطة دائمًا، حتى عندما يكون اتصال Wi‑Fi نشطًا (لتبديل الشبكة بسرعة).</string>
     <string name="adb_warning_title">‏هل تريد السماح بتصحيح أخطاء USB؟</string>
     <string name="adb_warning_message">‏تم تصميم تصحيح أخطاء USB لأغراض التطوير فقط. يمكن استخدامه لنسخ البيانات بين الكمبيوتر والجهاز، وتثبيت التطبيقات على جهازك بدون تنبيه، وقراءة بيانات السجل.</string>
@@ -203,6 +199,8 @@
     <string name="debug_layout_summary">عرض حدود وهوامش المقطع وما إلى ذلك.</string>
     <string name="force_rtl_layout_all_locales">فرض اتجاه التنسيق ليكون من اليمين إلى اليسار</string>
     <string name="force_rtl_layout_all_locales_summary">فرض اتجاه تنسيق الشاشة ليكون من اليمين إلى اليسار لجميع اللغات</string>
+    <string name="show_cpu_usage">‏عرض استخدام CPU</string>
+    <string name="show_cpu_usage_summary">‏عرض تراكب الشاشة لاستخدام CPU الحالي</string>
     <string name="force_hw_ui">‏فرض عرض رسومات GPU</string>
     <string name="force_hw_ui_summary">فرض استخدام وحدة معالجة الرسومات للرسم ثنائي الأبعاد</string>
     <string name="force_msaa">‏فرض 4x MSAA</string>
@@ -286,7 +284,6 @@
     <string name="screen_zoom_summary_extremely_large">أكبر مستوى</string>
     <string name="screen_zoom_summary_custom">مخصص (%d)</string>
     <string name="help_feedback_label">المساعدة والتعليقات</string>
-    <string name="content_description_menu_button">القائمة</string>
     <string name="app_name">أداة تثبيت الحزم</string>
     <string name="next">التالي</string>
     <string name="install">تثبيت</string>
@@ -410,7 +407,6 @@
     <string name="status_bar_notification_info_overflow">+999</string>
     <string name="abc_capital_on">تشغيل</string>
     <string name="abc_capital_off">إيقاف</string>
-    <string name="search_menu_title">البحث</string>
     <string name="lb_navigation_menu_contentDescription">قائمة التنقل</string>
     <string name="orb_search_action">إجراء البحث</string>
     <string name="lb_search_bar_hint">بحث</string>

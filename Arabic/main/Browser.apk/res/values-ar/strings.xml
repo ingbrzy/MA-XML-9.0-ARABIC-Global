@@ -167,6 +167,7 @@
     <string name="color_picker_dialog_title">تحديد اللون</string>
     <string name="color_picker_hue">تدرج اللون</string>
     <string name="color_picker_saturation">صفاء اللون</string>
+    <string name="color_picker_value">القيمة</string>
     <string name="comment_app_menu">التعليق</string>
     <string name="comment_description">تعليق</string>
     <string name="comment_hint">تعليق</string>
@@ -180,7 +181,7 @@
     <string name="contextmenu_dial_dot">طلب …</string>
     <string name="contextmenu_download_image">حفظ الصورة</string>
     <string name="contextmenu_download_image_as">حفظ الصورة</string>
-    <string name="contextmenu_manually_block_ad">وضع علامة كإعلان</string>
+    <string name="contextmenu_manually_block_ad">Label as ad</string>
     <string name="contextmenu_map">خريطة</string>
     <string name="contextmenu_openlink">إفتح</string>
     <string name="contextmenu_openlink_newwindow">فتح في علامة تبويب جديدة</string>
@@ -435,7 +436,7 @@
     <string name="miuichromium_error_page_network_off">قم بتشغيل شبكة الـWi-Fi او بيانات الجوال</string>
     <string name="miuichromium_error_page_no_network">لا يمكن الاتصال بالشبكة</string>
     <string name="miuichromium_error_page_problem_access_denied">الوصول إلى %s0 مرفوض</string>
-    <string name="miuichromium_error_page_problem_cache_miss">لا يمكن تحميل هذه الصفحة من ذاكرة التخزين المؤقت</string>
+    <string name="miuichromium_error_page_problem_cache_miss">"The cached version of this page can't be loaded"</string>
     <string name="miuichromium_error_page_problem_cannot_open_page">لا يمكن فتح الصفحة</string>
     <string name="miuichromium_error_page_problem_cannot_reach_site">لا يمكن الوصول إلى هذا الموقع</string>
     <string name="miuichromium_error_page_problem_connection_interrupted">إنقطع الاتصال</string>
@@ -459,7 +460,7 @@
     <string name="miuichromium_error_page_reason_invalid_address">. عنوان IP أو رقم المنفذ غير صالح</string>
     <string name="miuichromium_error_page_reason_invalid_response">" بسبب ارسال %s0 إستجابة غير صالحة"</string>
     <string name="miuichromium_error_page_reason_invalid_url">" لأن عنوان URL غير صالح"</string>
-    <string name="miuichromium_error_page_reason_moved_or_deleted">. It might be moved or deleted</string>
+    <string name="miuichromium_error_page_reason_moved_or_deleted">. It might have been moved or deleted</string>
     <string name="miuichromium_error_page_reason_name_collision">. هذا الموقع على الإنترانت له نفس عنوان URL كموقع خارجي</string>
     <string name="miuichromium_error_page_reason_name_not_resolved">. تعذر العثور على عنوان DNS لـ %s0</string>
     <string name="miuichromium_error_page_reason_network_changed">" بسبب تغيير الشبكة"</string>
@@ -470,14 +471,14 @@
     <string name="miuichromium_error_page_reason_unsafe_port">. يستخدم %s0 رقم منقذ غير آمن</string>
     <string name="miuichromium_error_page_reason_unsafe_redirect">. يعيد %s0 توجيهك بطريقة غير آمنة</string>
     <string name="miuichromium_error_page_reason_unsupported_protocol">. يستخدم %s0 بروتوكول غير معتمد</string>
-    <string name="miuichromium_error_page_reload">إعادة تحميل</string>
+    <string name="miuichromium_error_page_reload">Refresh</string>
     <string name="miuichromium_error_page_safe_network">وضع الآمان</string>
     <string name="miuichromium_error_page_server_error">العديد من الأجهزة تحاول الاتصال</string>
     <string name="miuichromium_error_page_suggestion_check_app_proxy">تحقق من إعدادات تطبيقات الخادم الوكيل المثبتة على جهازك.</string>
     <string name="miuichromium_error_page_suggestion_check_connetion">تحقق من اتصال الإنترنت.</string>
     <string name="miuichromium_error_page_suggestion_check_mobile_proxy" formatted="false">(بيانات الجوال) قم بإعادة تعيين %s١إعدادات APN%s٢.</string>
     <string name="miuichromium_error_page_suggestion_check_url">تحقق من عنوان URL الذي أدخلته.</string>
-    <string name="miuichromium_error_page_suggestion_check_wifi_proxy" formatted="false">(WiFi) تحقق من %s١إعدادات الخادم الوكيل%s٢.</string>
+    <string name="miuichromium_error_page_suggestion_check_wifi_proxy" formatted="false">(Wi-Fi) Check your %s1proxy settings%s2.</string>
     <string name="miuichromium_error_page_suggestion_clear_cache" formatted="false">محو ذاكرة التخزين المؤقت (%s١الإعدادات%s٢ - محو البيانات).</string>
     <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies" formatted="false">محو ذاكرة التخزين المؤقت و ملفات تعريف الارتباط (%s١الإعدادات%s٢ - مسح البيانات، قد تفقد معلومات حسابك).</string>
     <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies_no_invoke">حذف ذاكرة التخزين المؤقت والكوكيز (قد يتم فقدان معلومات حسابك).</string>
@@ -559,10 +560,10 @@
     <string name="pref_accessibility_url_shortcut_enter_title">ادخال سريع لعنوان URL</string>
     <string name="pref_adblock_counts">%d محظور</string>
     <string name="pref_adblock_title">مانع الإعلانات</string>
-    <string name="pref_advert_null">إعلان غير ملحوظ، يمكنك الضغط على العلامة على الصفحة</string>
+    <string name="pref_advert_null">No items labelled as ads. Press and hold an item on the webpage to mark.</string>
     <string name="pref_auto_update_under_wifi">تحديث استخدام الـWi-Fi</string>
     <string name="pref_automatic_matching_searchengines_title">التبديل إلى محرك البحث المستخدم غالبا</string>
-    <string name="pref_cancel_screen">إلغاء الشاشة</string>
+    <string name="pref_cancel_screen">Unblock</string>
     <string name="pref_category_hint">الفئات</string>
     <string name="pref_check_security_url_summary">إرسال عنوان URL موقع الويب إلى خوادم Mi للتحقق إذا ما كانت آمنة</string>
     <string name="pref_check_security_url_summary_international">السماح للمتصفح بالوصول إلى عناوين URL للمواقع التي تزورها لتلقي توصيات أكثر صلة.</string>
@@ -606,7 +607,7 @@
     <string name="pref_force_userscalable_summary">تجاوز طلب موقع الويب للتحكم في سلوك التكبير</string>
     <string name="pref_general_title">عام</string>
     <string name="pref_key_gesture_title">أزرار وإيماءات</string>
-    <string name="pref_label_advert_manager">مدير الإعلانات التي تحمل علامة</string>
+    <string name="pref_label_advert_manager">Manage labelled ads</string>
     <string name="pref_nav_mode_summary_pad">Pad</string>
     <string name="pref_nav_mode_summary_phone">الهاتف</string>
     <string name="pref_nav_mode_title">وضع المتصفح</string>
@@ -780,7 +781,7 @@
     <string name="ssl_certificate">شهادة الأمان</string>
     <string name="ssl_certificate_is_valid">هذه الشهادة صالحة.</string>
     <string name="ssl_continue">متابعة</string>
-    <string name="ssl_date_error_warnings_header">"The certificate of this site has expired or isn't valid yet. You are advised to leave this page.\""</string>
+    <string name="ssl_date_error_warnings_header">"The certificate of this site has expired or isn't valid yet. You are advised to leave this page."</string>
     <string name="ssl_date_invalid">هذه الشهادة تحتوي على تاريخ غير صحيح.</string>
     <string name="ssl_expired">انتهت فاعلية هذه الشهادة.</string>
     <string name="ssl_go_back">رجوع</string>

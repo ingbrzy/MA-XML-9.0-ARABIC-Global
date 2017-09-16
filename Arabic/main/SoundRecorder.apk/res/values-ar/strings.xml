@@ -145,7 +145,7 @@
     <string name="clear_records">حذف التسجيلات المتزامنة</string>
     <string name="choose_call_records_count">%d عنصر</string>
     <string name="network_tip_dialog_title">يتطلب إتصال إنترنت</string>
-    <string name="network_tip_dialog_content">This app needs to connect to the internet, as well as read your contacts to label the recordings you record during calls.</string>
+    <string name="network_tip_dialog_content">يحتاج هذا التطبيق للاتصال بالإنترنت، كذلك قراءة جهات الاتصال الخاصة بك لتسمية التسجيلات التي تسجل أثناء المكالمات.</string>
     <string name="network_tip_dialog_ok">سماح</string>
     <string name="network_tip_dialog_cancel">إلغاء</string>
     <string name="head_set_tip_dialog_title">استخدام mic الداخلي</string>

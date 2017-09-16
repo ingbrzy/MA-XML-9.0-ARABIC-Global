@@ -494,6 +494,7 @@
     <string name="please_search_or_select">بحث أو تحديد حقل</string>
     <string name="in_searching_please_wait">جارٍ البحث…</string>
     <string name="no_file_picker_find">مستكشف الملفات غير مثبت في هذا الجهاز</string>
+    <string name="no_system_cropper_find">لا يملك النظام أداة قص</string>
     <string name="set_lyric_successful">تم حفظ الكلمات</string>
     <string name="set_album_successful">تم حفظ الالبوم</string>
     <string name="set_id3_successful">تم حفظ معلومات الاغنية</string>
@@ -846,8 +847,8 @@
     <string name="talkback_favorite">اعجاب بهذه الاغنية</string>
     <string name="talkback_progress">شريط التقدم</string>
     <string name="talkback_back">الرجوع للخلف</string>
-    <string name="talkback_nowplaying_circle">Play circle</string>
-    <string name="talkback_nowplaying_bar">Play bar</string>
+    <string name="talkback_nowplaying_circle">دائرة التشغيل</string>
+    <string name="talkback_nowplaying_bar">شريط التشغيل</string>
     <string name="cloud_music">الأغاني في Mi Cloud</string>
     <string name="backup_immediate">نسخ احتياطي</string>
     <string name="backup_song_title">تحديد الأغاني لنسخها احتياطياً</string>

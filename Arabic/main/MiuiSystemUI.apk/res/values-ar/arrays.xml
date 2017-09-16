@@ -120,7 +120,7 @@
     <string-array name="debug_hw_overdraw_entries">
         <item>إيقاف</item>
         <item>عرض مناطق تجاوز الحد</item>
-        <item>‏عرض المناطق لـ Deuteranomaly</item>
+        <item>عرض مناطق Deuteranomaly</item>
     </string-array>
     <string-array name="app_process_limit_entries">
         <item>الحد القياسي</item>
@@ -148,6 +148,17 @@
         <item>سريع</item>
         <item>سريع جدا</item>
         <item>الأسرع</item>
+    </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
     </string-array>
     <string-array name="color_mode_names">
         <item>نابض بالحياة (إفتراضي)</item>

@@ -186,11 +186,11 @@
     <string name="set_kilometre">كم/س</string>
     <string name="alert_warning">تنبيهات الطقس</string>
     <string name="other_warning_settings">تنبيهات أخرى</string>
-    <string name="rainfall_settings_title">هطول المطر</string>
-    <string name="rainfall_settings_summary">تنبيهات الأمطار</string>
+    <string name="rainfall_settings_title">هطول أمطار</string>
+    <string name="rainfall_settings_summary">تنبيهات هطول أمطار</string>
     <string name="night_not_disturb_settings_title">عدم الإزعاج في الليل</string>
     <string name="night_not_disturb_settings_summary">إيقاف التنبيهات مابين الساعة ٢٣:٠٠ و ٠٧:٠٠</string>
-    <string name="reminder_from_xiaomi_weather_app">تنبيهات الطقس</string>
+    <string name="reminder_from_xiaomi_weather_app">تنبيه طقس Mi</string>
     <string name="it_is_going_to_rain">سوف تمطر</string>
     <string name="your_location">موقعك</string>
     <string name="update_setting_title_text">تحديث معلومات الطقس</string>

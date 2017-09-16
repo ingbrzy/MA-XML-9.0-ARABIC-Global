@@ -99,7 +99,7 @@
     <string name="man_add_application">إضافة تطبيقات التشغيل التلقائي يدوياً</string>
     <string name="power_autorun_apps_empty">لا يوجد تطبيقات تشغيل تلقائي</string>
     <string name="shield_keyboard_title">إيقاف تشغيل الأزرار</string>
-    <string name="shield_keyboard_detail">انقر نقرا مزدوجا على الأزرار لتفعيلهم مرة أخرى</string>
+    <string name="shield_keyboard_detail">انقر مرتين على الأزرار لتفعيلهم مرة أخرى</string>
     <string name="anti_disturb_msg_title">عدم الإزعاج</string>
     <string name="anti_disturb_msg_detail">إيقاف تشغيل جميع الإشعارات ماعدا إشعارات المكالمات الواردة</string>
     <string name="wlan_change_protection_title">منع تبديل الشبكات</string>

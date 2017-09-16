@@ -199,7 +199,7 @@
     <string name="port_range">يجب أن يكون المنفذ بين ١٠٢٤–٦٥٥٣٥</string>
     <string name="file_name_invalid">لا يمكن أن تحتوي أسماء الملفات على الرموز التالية: /\\:*?&lt;></string>
     <string name="rename_alert">إذا قمت بتغيير امتداد هذا الملف، ربما لن تكون قادر على فتحه.</string>
-    <string name="rename_alert2">如果修改后缀名，文件将可能无法打开。</string>
+    <string name="rename_alert2">سيتم إخفاء الملف بعد تغيير امتداده.</string>
     <string name="search_file_type_picture">صور</string>
     <string name="search_file_type_video">فيديو</string>
     <string name="search_file_type_music">الموسيقى</string>
@@ -247,7 +247,7 @@
     <string name="app_name_midrop">Mi Drop</string>
     <string name="data_consumption_title">اتصال الإنترنت</string>
     <string name="data_consumption_message">يحتاج هذا التطبيق إلى الاتصال بالإنترنت باستخدام الـWi-Fi ليعمل بشكل طبيعي.</string>
-    <string name="data_consumption_message1">Videos and Stickers needs to connect to the internet using Wi-Fi to work normally.</string>
+    <string name="data_consumption_message1">يحتاج مدير الملفات إلى الاتصال بالإنترنت لإتاحة الفيديوهات والملصقات الأكثر شهرة.</string>
     <string name="data_consumption_checkbox_hint">عدم الإظهار مرة أخرى</string>
     <string name="data_consumption_confirm">موافق</string>
     <string name="data_consumption_cancel">خروج</string>
@@ -291,8 +291,8 @@
     <string name="network_spent_reminding_title">إشعارات استخدام البيانات</string>
     <string name="network_spent_reminding">هل تريد استخدم اتصال بيانات الجوال لعرض هذه الصفحة؟ سوف تتلقى رسوم بيانات الجوال العادية من شركة الاتصالات الخاصة بك.</string>
     <string name="shared_sticker_use_tip_title">كيف تستعمل الملصقات</string>
-    <string name="shared_sticker_use_tip">"يمكنك ارسال الملصقات التي قم بحفظها من المحادثات مثلما ترسل الصور.
-( صور GIF يمكن اضافتها الى المخصصة في ملصقات Wechat)."</string>
+    <string name="shared_sticker_use_tip">"يمكنك ارسال الملصقات التي قمت بحفظها من المحادثات مثلما ترسل الصور. 
+( يمكن اضافة صورGIF الى المخصصة في ملصقات الـ Wechat)."</string>
     <string name="shared_sticker_page_no_file">تعذر الاتصال بالشبكة. تحقق من اتصال البيانات الخاصة بك ثم حاول مرة أخرى.</string>
     <string name="shared_sticker_network_permission_tip">تعذر الاتصال بالشبكة. تحقق من اتصال البيانات الخاصة بك ثم حاول مرة أخرى.</string>
     <string name="transfer_private_data">جارٍ نقل المجلدات من بطاقة SD…</string>
@@ -409,7 +409,7 @@
     <string name="enable_documentsui">تشغيل %s من الاعدادات > التطبيقات المثبتة اولا</string>
     <string name="not_installed_documentsui">DocumentsUI غير مثبت</string>
     <string name="title_enable_documentsui">تشغيل DocumentsUI</string>
-    <string name="server_error">Sever error, try again later. (Error %s)</string>
+    <string name="server_error">خطأ في الخادم، حاول مرة أخرى في وقت لاحق. (خطأ %s).</string>
     <string name="network_not_available">لا يمكن الاتصال بالشبكة</string>
     <string name="request_timeout">انتهت مهلة الاتصال بالشبكة</string>
     <string name="login_expired">انتهت صلاحية تسجيل الدخول، حاول تسجيل الدخول مرة أخرى.</string>

@@ -81,12 +81,12 @@
         <item quantity="many">"حوالي %d  ساعة متبقية"</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_time_text">
-        <item quantity="other">حوالي %1$d h %2$d دقيقة متبقية</item>
-        <item quantity="zero">حوالي %1$d h %2$d دقيقة متبقية</item>
-        <item quantity="one">حوالي %1$d h %2$d دقيقة متبقية</item>
-        <item quantity="two">حوالي %1$d h %2$d دقائق متبقية</item>
-        <item quantity="few">حوالي %1$d h %2$d دقائق متبقية</item>
-        <item quantity="many">حوالي %1$d h %2$d دقيقة متبقية</item>
+        <item quantity="other">حوالي %1$d ساعة %2$d دقيقة متبقية</item>
+        <item quantity="zero">حوالي %1$d ساعة %2$d دقيقة متبقية</item>
+        <item quantity="one">حوالي %1$d ساعة %2$d دقيقة متبقية</item>
+        <item quantity="two">حوالي %1$d ساعات %2$d دقائق متبقية</item>
+        <item quantity="few">حوالي %1$d ساعات %2$d دقائق متبقية</item>
+        <item quantity="many">حوالي %1$d ساعة %2$d دقيقة متبقية</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_hour_time_format">
         <item quantity="other">%dساعة</item>

@@ -7,6 +7,7 @@
     <string name="addBlackList">حظر</string>
     <string name="add_attachment">إضافة مرفقات</string>
     <string name="add_contact">vCard</string>
+    <string name="add_miui_contact">بطاقة Mi</string>
     <string name="add_music">إضافة موسيقى</string>
     <string name="add_number_to_sender">إضافة رقم إلى %s</string>
     <string name="add_picture">إضافة صورة</string>
@@ -385,8 +386,10 @@
     <string name="pref_show_sms_template_in_summary">الكشف عن كلمات السر تلقائياُ لمرة واحدة في الرسائل النصية القصيرة</string>
     <string name="pref_show_sms_template_summary">قم بالتشغيل لاستخدام ميزات رسالة Mi الذكية، مثل رموز النسخ و التحقق من الرصيد، الخ.</string>
     <string name="pref_smart_messages_settings">رسائل ذكية</string>
+    <string name="pref_sms_storage_title">التخزبن</string>
     <string name="pref_sms_theme_title">عرض</string>
     <string name="pref_summary_allow_si_sl_push">السماح للرسائل بتحميل المحتوى من مواقع الويب</string>
+    <string name="pref_summary_auto_delete">حذف الرسائل القديمة عند الوصول إلى الحد الأقصى</string>
     <string name="pref_summary_delete_limit">%1$sمن الرسائل لكل محادثة</string>
     <string name="pref_summary_delivery_reports">عرض تقارير التسليم لجميع الرسائل المرسلة</string>
     <string name="pref_summary_delivery_ringtone">تلقي إشعارات صوتية للرسائل المُرسلة.</string>
@@ -404,6 +407,7 @@
     <string name="pref_system_title">النظام</string>
     <string name="pref_title_about_smart_sms">معلومات عن شريك الرسائل الذكية</string>
     <string name="pref_title_allow_si_sl_push">السماح برسائل WAP push (SI/SL)</string>
+    <string name="pref_title_auto_delete">حذف الرسائل القديمة</string>
     <string name="pref_title_card_format">مشاركة شكل البطاقة</string>
     <string name="pref_title_delivery_reports">حالة التسليم</string>
     <string name="pref_title_fwd_sender_info">إعادة توجيه معلومات المرسل</string>
@@ -412,6 +416,8 @@
     <string name="pref_title_mms_auto_retrieval">تنزيل محتوى رسائل الوسائط المتعددة (MMS) تلقائيا</string>
     <string name="pref_title_mms_delete">حد رسالة الوسائط المتعددة</string>
     <string name="pref_title_mms_read_reports">قراءة تقارير من MMS</string>
+    <string name="pref_title_mms_retrieval_during_international_roaming">تنزيل محتوى رسائل الوسائط المتعددة (MMS) عند التجوال الدولي</string>
+    <string name="pref_title_mms_retrieval_during_national_roaming">تنزيل محتوى رسائل الوسائط المتعددة (MMS) عند التجوال المحلي</string>
     <string name="pref_title_mms_retrieval_during_roaming">تنزيل محتوى رسائل الوسائط المتعددة (MMS) عند التجوال</string>
     <string name="pref_title_mms_validity_period">انتهاء صلاحية رسائل الوسائط المتعددة(MMS)</string>
     <string name="pref_title_notification_body_enabled">إظهار الرسائل على شاشة القفل</string>

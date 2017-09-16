@@ -188,8 +188,6 @@
     <string name="global_actions">خيارات الهاتف</string>
     <string name="global_action_lock">تأمين الشاشة</string>
     <string name="global_action_power_off">إيقاف التشغيل</string>
-    <string name="global_action_reboot">إعادة التمهيد</string>
-    <string name="global_action_emergency">الطوارئ</string>
     <string name="global_action_bug_report">تقرير الأخطاء</string>
     <string name="bugreport_title">إعداد تقرير بالأخطاء</string>
     <string name="bugreport_message">سيجمع هذا معلومات حول حالة جهازك الحالي لإرسالها كرسالة إلكترونية، ولكنه سيستغرق وقتًا قليلاً من بدء عرض تقرير بالأخطاء. وحتى يكون جاهزًا للإرسال، الرجاء الانتظار.</string>
@@ -551,7 +549,6 @@
     <string name="lockscreen_pattern_correct">صحيح!</string>
     <string name="lockscreen_pattern_wrong">أعد المحاولة</string>
     <string name="lockscreen_password_wrong">أعد المحاولة</string>
-    <string name="lockscreen_storage_locked">إلغاء قفل جميع الميزات والبيانات</string>
     <string name="faceunlock_multiple_failures">تم تجاوز الحد الأقصى لعدد محاولات تأمين الجهاز بالوجه</string>
     <string name="lockscreen_missing_sim_message_short">لا توجد بطاقة SIM</string>
     <string name="lockscreen_missing_sim_message">‏ليس هناك شريحة SIM في الهاتف.</string>
@@ -736,7 +733,7 @@
     <string name="editTextMenuTitle">إجراءات النص</string>
     <string name="low_internal_storage_view_title">مساحة التخزين منخفضة</string>
     <string name="low_internal_storage_view_text">قد لا تعمل بعض وظائف النظام</string>
-    <string name="low_internal_storage_view_text_no_boot">ليست هناك سعة تخزينية كافية للنظام. تأكد من أنه لديك مساحة خالية تبلغ ٢٥٠ ميغابايت وأعد التشغيل.</string>
+    <string name="low_internal_storage_view_text_no_boot">ليست هناك سعة تخزينية كافية للنظام. تأكد من أنه لديك مساحة خالية تبلغ ۲۵۰ ميغابايت وأعد التشغيل.</string>
     <string name="app_running_notification_title">%1$s قيد التشغيل</string>
     <string name="app_running_notification_text">انقر للحصول على مزيد من المعلومات أو لإيقاف التطبيق.</string>
     <string name="loading">جارٍ التحميل…</string>
@@ -803,9 +800,8 @@
     <string name="android_upgrading_title">‏جارٍ ترقية Android...</string>
     <string name="android_start_title">‏جارٍ تشغيل Android…</string>
     <string name="android_upgrading_fstrim">جارٍ تحسين السعة التخزينية.</string>
-    <string name="android_upgrading_notification_title">‏جارٍ إتمام تحديث Android…</string>
+    <string name="android_upgrading_notification_title">‏جارٍ ترقية Android</string>
     <string name="android_upgrading_notification_body">قد لا تعمل بعض التطبيقات بشكل مناسب إلا بعد انتهاء الترقية</string>
-    <string name="app_upgrading_toast">جارٍ ترقية %1$s…</string>
     <string name="android_upgrading_apk">جارٍ تحسين التطبيق %1$d من %2$d.</string>
     <string name="android_preparing_apk">جارٍ تحضير %1$s.</string>
     <string name="android_upgrading_starting_apps">بدء التطبيقات.</string>
@@ -846,10 +842,6 @@
     <string name="network_available_sign_in">تسجيل الدخول إلى الشبكة</string>
     <string name="wifi_no_internet">‏شبكة Wi-Fi غير متصلة بالإنترنت</string>
     <string name="wifi_no_internet_detailed">انقر للحصول على الخيارات.</string>
-    <string name="network_switch_metered">تم التبديل إلى %1$s</string>
-    <string name="network_switch_metered_detail">يستخدم الجهاز %1$s عندما لا يتوفر اتصال بالإنترنت في شبكة %2$s، ويمكن أن يتم فرض رسوم مقابل ذلك.</string>
-    <string name="network_switch_metered_toast">تم التبديل من %1$s إلى %2$s</string>
-    <string name="network_switch_type_name_unknown">نوع شبكة غير معروف</string>
     <string name="wifi_watchdog_network_disabled">‏تعذر الاتصال بـ Wi-Fi</string>
     <string name="wifi_watchdog_network_disabled_detailed">" لديها اتصال إنترنت رديء."</string>
     <string name="wifi_connect_alert_title">هل تريد السماح بالاتصال؟</string>
@@ -925,6 +917,7 @@
     <string name="select_keyboard_layout_notification_message">انقر لاختيار لغة وتنسيق</string>
     <string name="fast_scroll_alphabet">" أ ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي"</string>
     <string name="fast_scroll_numeric_alphabet">" 0123456789 أ ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي"</string>
+    <string name="candidates_style"><u>العناصر المرشحة</u></string>
     <string name="ext_media_checking_notification_title">جارٍ تحضير %s</string>
     <string name="ext_media_checking_notification_message">جارٍ التحقق من الأخطاء</string>
     <string name="ext_media_new_notification_message">تم اكتشاف %s جديدة</string>
@@ -1006,9 +999,8 @@
     <string name="vpn_text_long">تم الاتصال بـ %s. انقر لإدارة الشبكة.</string>
     <string name="vpn_lockdown_connecting">‏جارٍ الاتصال بشبكة ظاهرية خاصة (VPN) دائمة التشغيل...</string>
     <string name="vpn_lockdown_connected">‏تم الاتصال بشبكة ظاهرية خاصة (VPN) دائمة التشغيل</string>
-    <string name="vpn_lockdown_disconnected">‏تم فصل الشبكة الظاهرية الخاصة (VPN) دائمة التشغيل</string>
     <string name="vpn_lockdown_error">‏خطأ بشبكة ظاهرية خاصة (VPN) دائمة التشغيل</string>
-    <string name="vpn_lockdown_config">انقر للإعداد.</string>
+    <string name="vpn_lockdown_config">انقر للتهيئة.</string>
     <string name="upload_file">اختيار ملف</string>
     <string name="no_file_chosen">لم يتم اختيار أي ملف</string>
     <string name="reset">إعادة تعيين</string>
@@ -1087,7 +1079,7 @@
     <string name="storage_usb_drive_label">‏محرك أقراص USB من %s</string>
     <string name="storage_usb">‏وحدة تخزين USB</string>
     <string name="extract_edit_menu_button">تعديل</string>
-    <string name="data_usage_warning_title">تنبيه استخدام البيانات</string>
+    <string name="data_usage_warning_title">تحذير استخدام البيانات</string>
     <string name="data_usage_warning_body">انقر لعرض الاستخدام والإعدادات.</string>
     <string name="data_usage_3g_limit_title">‏تم بلوغ حد بيانات اتصال 2G-3G</string>
     <string name="data_usage_4g_limit_title">‏تم بلوغ حد بيانات اتصال 4G</string>
@@ -1371,7 +1363,6 @@
     <string name="search_language_hint">اكتب اسم اللغة</string>
     <string name="language_picker_section_suggested">المقترحة</string>
     <string name="language_picker_section_all">جميع اللغات</string>
-    <string name="region_picker_section_all">كل المناطق</string>
     <string name="locale_search_menu">البحث</string>
     <string name="work_mode_off_title">وضع العمل معطَّل</string>
     <string name="work_mode_off_message">السماح باستخدام الملف الشخصي للعمل، بما في ذلك التطبيقات ومزامنة الخلفية والميزات ذات الصلة.</string>
@@ -1389,18 +1380,9 @@
     <string name="unpin_target">إزالة تثبيت</string>
     <string name="app_info">معلومات عن التطبيق</string>
     <string name="negative_duration">−%1$s</string>
-    <string name="reset_retail_demo_mode_title">هل تريد إعادة تعيين الجهاز؟</string>
-    <string name="reset_retail_demo_mode_text">انقر لإعادة تعيين الجهاز</string>
-    <string name="demo_starting_message">جارٍ بدء العرض التوضيحي…</string>
-    <string name="demo_restarting_message">جارٍ إعادة تعيين الجهاز…</string>
-    <string name="demo_user_inactivity_timeout_title">هل تريد إعادة تعيين الجهاز؟</string>
-    <string name="demo_user_inactivity_timeout_countdown">ستفقد أي تغييرات وسيبدأ العرض التوضيحي مرة أخرى خلال %1$s من الثواني…</string>
-    <string name="demo_user_inactivity_timeout_left_button">إلغاء</string>
-    <string name="demo_user_inactivity_timeout_right_button">إعادة التعيين الآن</string>
     <string name="audit_safemode_notification">يمكنك إعادة تعيين بيانات المصنع لاستخدام هذا الجهاز بدون قيود</string>
     <string name="audit_safemode_notification_details">المس للتعرف على مزيد من المعلومات.</string>
     <string name="suspended_widget_accessibility">تم تعطيل %1$s</string>
-    <string name="conference_call">مكالمة جماعية</string>
     <string name="lock_to_app_toast_accessible">لإلغاء تثبيت هذه الشاشة، إضغط لمدة طويلة على زر الرئيسية و الطاقة في آن واحد.</string>
     <string name="lock_to_app_description">"تثبيت الشاشة يقفل العرض في رؤية واحدة.
 

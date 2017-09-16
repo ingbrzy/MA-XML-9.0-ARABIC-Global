@@ -33,8 +33,7 @@
     <string name="video_editor_audio_sad">أغنية راقصة</string>
     <string name="video_editor_audio_custom">تحديد</string>
     <string name="video_editor_unsupport_audio_file">ملف صوتي غير مدعوم</string>
-    <string name="video_editor_text_none">لا شيء</string>
-    <string name="video_editor_text_preview_text">نص</string>
+    <string name="video_editor_text_preview_text">Mi</string>
     <string name="video_editor_text_default">إفتراضي</string>
     <string name="video_editor_text_input_empty_tips">يبدو أنك لم تدخل النص بعد</string>
     <string name="video_editor_encode_video">جارٍ ترميز الفيديو…</string>
@@ -81,9 +80,9 @@
     <string name="empty_title_no_photos">لا توجد صور أو فيديوهات</string>
     <string name="home_page_empty_action">التقاط صورة</string>
     <string name="recent_album_empty_title">لم تتم إضافة صور جديدة مؤخراً</string>
-    <string name="people_album_empty_title">Photos can be sorted by people in them</string>
+    <string name="people_album_empty_title">يمكن ترتيب الصور حسب الأشخاص فيها</string>
     <string name="places_album_empty_title">يمكن فرز الصور حسب الموقع</string>
-    <string name="things_album_empty_title">Photos can be sorted by objects in them</string>
+    <string name="things_album_empty_title">يمكن ترتيب الصور حسب الأشياء فيها</string>
     <string name="people_page_label">الأشخاص</string>
     <string name="ignore_faces_title">تم التجاهل</string>
     <string name="see_ignore_faces">عرض الأشخاص الذين تجاهلتهم</string>
@@ -287,9 +286,9 @@
     <string name="video_err">لا يمكن تشغيل الفيديو</string>
     <string name="exit_video_play">خروج</string>
     <string name="picker_title_selection_format">الصور الُمحددة: %d</string>
-    <string name="picker_title_format">Select %1$d to %2$d photos</string>
-    <string name="picker_title_specify_format">Select %d photos</string>
-    <string name="picker_title_specify_format_one">Select %d photo</string>
+    <string name="picker_title_format">تحدد %1$d إلى %2$d صور</string>
+    <string name="picker_title_specify_format">تحديد %d صور</string>
+    <string name="picker_title_specify_format_one">تحديد %d صورة</string>
     <string name="picker_title_unlimit">تحديد صور</string>
     <string name="picker_full_format">يمكنك التحديد إلى %d صورة</string>
     <string name="picker_image_need_download">%d من الصور المُحددة ليست على الجهاز. التحميل بإستخدام بيانات الجوال؟</string>
@@ -601,6 +600,7 @@
     <string name="welcome_to_slim">تحسين التخزين المحلي</string>
     <string name="slim_introduce">استبدل الصور ذات الدقة الكاملة مع الإصدارات المحسنة بعد أن تم نسخها احتياطيا إلى Mi Cloud. الصور ذات الدقة الكاملة ستبقى مخزنة في Mi Cloud.</string>
     <string name="slim_introduce_with_specific_size">استبدل الملفات ذات الدقة الكاملة مع الإصدارات المحسنة بعد أن تم نسخها احتياطياً إلى Mi Cloud. العناصر ذات الدقة الكاملة ستبقى مخزنة في Mi Cloud. يمكن لهذا ان يوفر %1$s من التخزين المحلي (حساب Mi مطلوب).</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="auto_backup_introduce">قم بنسخة احتياطية للصور ومقاطع فيديو تلقائيا (تحتاج الى حساب Mi)</string>
     <string name="next">التالي</string>
     <string name="login_and_enable_service">تسجيل الدخول مع حساب Mi</string>
@@ -677,7 +677,8 @@
     <string name="cloud_storage_ok_append_desc">متاح %s</string>
     <string name="cloud_storage_warn_title">لا توجد مساحة تخزين Mi Cloud كافية</string>
     <string name="cloud_storage_warn_desc">شراء cloud VIP لمساحة تخزين إضافية</string>
-    <string name="cloud_storage_extend">Extend cloud space</string>
+    <string name="percent_sign">%</string>
+    <string name="cloud_storage_extend">زيادة مساحة الـ Cloud</string>
     <string name="user_agreement2">شروط الخدمة</string>
     <string name="user_agreement4">سياسة الخصوصية</string>
     <string name="user_agree">موافق</string>
@@ -700,7 +701,7 @@
     <string name="secret_reason_unknow_reasons">خطأ غير معروف</string>
     <string name="alert_secret_album_title">كيف أعرض الألبوم المخفي</string>
     <string name="alert_secret_album_message">مرر لأسفل أثناء وجودك في الألبومات لعرض الألبوم المخفي.</string>
-    <string name="alert_secret_album_message_lower_case">  swipe down in Albums to view</string>
+    <string name="alert_secret_album_message_lower_case"> إسحب لأسفل في الألبومات للعرض</string>
     <string name="alert_secret_album_enter">فهمت</string>
     <string name="all_items_synced">تم القيام بنسخ إحتياطي لجميع الألبومات إلى Mi Cloud</string>
     <string name="need_to_turn_on_sync">تشغيل المزامنة مع Mi Cloud</string>
@@ -785,6 +786,8 @@
     <string name="search_setting_sub_title_open">تم التعيين. انتظر قليلا قبل أن تبدأ.</string>
     <string name="search_request_open">إنضم إلى فريق الإختبار</string>
     <string name="search_title_more">المزيد</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_icon">search_icon</string>
     <string name="grant_permission_title">السماح بالدخول</string>
     <string name="grant_permission_text">"يحتاج المعرض للوصول إلى 
 %s
@@ -850,7 +853,7 @@
     <string name="people_mark_mode_title_no_mark_name">تحديد شخص</string>
     <string name="home_menu_cleaner">تفريغ مساحة</string>
     <string name="home_menu_collage">ملصقة</string>
-    <string name="home_menu_photo_movie">Look back</string>
+    <string name="home_menu_photo_movie">النظر إلى الوراء</string>
     <string name="storage_no_space">لا توجد مساحة كافية</string>
     <string name="share_album">ألبوم المشاركة</string>
     <string name="all_video_album_display_name">جميع الفيديوهات</string>
@@ -879,10 +882,10 @@
     <string name="sub_discard_positive_btn">حفظ</string>
     <string name="sub_discard_negative_btn">تجاهل</string>
     <string name="photo_editor_navigator_cancel">إلغاء</string>
-    <string name="photo_editor_navigator_export">تم</string>
+    <string name="photo_editor_navigator_export">إنهاء</string>
     <string name="photo_editor_beautify">التجميل</string>
     <string name="photo_editor_filter">فلتر</string>
-    <string name="photo_editor_crop_and_rotate">قص وتدوير</string>
+    <string name="photo_editor_crop_and_rotate">قص</string>
     <string name="photo_editor_adjust">تعديل</string>
     <string name="photo_editor_sticker">ملصق</string>
     <string name="photo_editor_doodle">رسم</string>

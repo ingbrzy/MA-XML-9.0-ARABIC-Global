@@ -69,13 +69,14 @@
     <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">". يمكنك تشغيل أو إيقاف تشغيل هذه الميزة في أي وقت من الإعدادات.
 "</string>
-    <string name="sync_dspt_entrance_provision">"قم بمزامنة الصور، جهات الاتصال، سجل المكالمات و الرسائل في جميع أجهزتك. ادخل إلى الأشياء التي قمت بمزامنتها من إي متصفح على %s. "</string>
+    <string name="sync_dspt_entrance_provision">"سيساعدك MiCloud على مزامنة الصور، وجهات الاتصال و المزيد عبر الأجهزة. يمكنك الوصول إلى كل ماقمت بمزامنتة من إي متصفح في %s. "</string>
     <string name="sync_dspt_entrance_provision_2">معرفة المزيد</string>
     <string name="sync_dspt_entrance_provision_confirm_close">عدم الاستخدام</string>
     <string name="sync_dspt_entrance_provision_confirm_open">استخدام Mi Cloud</string>
     <string name="sync_dspt_entrance_provision_confirm_title">عدم استخدام Mi Cloud؟</string>
     <string name="sync_dspt_entrance_provision_confirm_content">تحتاج تطبيقات MIUI الافتراضية إلى Mi Cloud لنسخ الصور، جهات الاتصال، الملاحظات الخاصة بك والمزيد. Mi Cloud مجاني وجاهز للإستخدام على الفور.</string>
     <string name="sync_dspt_entrance_provision_skip">تخطي هذه الخطوة</string>
+    <string name="sync_dspt_entrance_provision_network">يحتاج هذا التطبيق للاتصال بالإنترنت للعمل بشكل طبيعي. قد تتصل مزامنة البيانات بشبكة البيانات و فتح الـ WiFi.</string>
     <string name="find_device_dspt_provision">إذا فقدت الجهاز، يمكنك الذهاب إلى %s لتحديد موقعه أو قفله أو استعادته. يمكنك تشغيل أو إيقاف تشغيل هذه الميزة في أي وقت من الإعدادات.</string>
     <string name="find_device_dspt_provision_2">i.mi.com</string>
     <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
@@ -251,7 +252,7 @@
     <string name="micloud_main_message_not_synced">لم تتم مزامنة %s بيانات</string>
     <string name="micloud_main_suggest_setting">قم بتغيير الإعدادات او اتصل بشبكة Wi-Fi</string>
     <string name="micloud_main_sync_pending">في انتظار المزامنة</string>
-    <string name="micloud_main_sync_need_charge_or_sleep">قم بتوصيل الشاحن وإيقاف الشاشة للمزامنة</string>
+    <string name="micloud_main_sync_need_charge_or_sleep">قم بتوصيل الشاحن و إطفاء الشاشة للمزامنة</string>
     <string name="micloud_main_detail">عرض التفاصيل</string>
     <string name="micloud_main_network_abnormal">يتعذر الاتصال بالشبكة</string>
     <string name="micloud_main_sync_init">جارٍ الحصول على معلومات</string>
@@ -265,7 +266,7 @@
     <string name="micloud_main_space_low">المساحة على وشك النفاذ</string>
     <string name="micloud_main_update_space">الحصول على مساحة تخزين إضافية.</string>
     <string name="micloud_main_space_full_title">لا توجد مساحة تخزين كافية، تم إيقاف المزامنة مؤقتا</string>
-    <string name="micloud_main_space_full_message">Upgrade to member will obtain more storage space</string>
+    <string name="micloud_main_space_full_message">ترقية العضوية لكسب المزيد من مساحة التخزين</string>
     <string name="micloud_main_memory_low_title">سعة التخزين الداخلية للهاتف تقريباً ممتلئة</string>
     <string name="micloud_main_memory_low_message">للمزامنة، قم بحذف بعض العناصر التي تم تخزينها في Cloud.</string>
     <string name="micloud_main_clear_now">مسح</string>
@@ -275,12 +276,12 @@
     <string name="micloud_main_multi_user_error_message">"لقد قمت بتسجيل الدخول بنفس الحساب الذي في الواجهة الاولى مما سبب خطأ في Mi Cloud. 
  استخدم حساب مختلف."</string>
     <string name="micloud_main_cancel_sync">إلغاء المزامنة</string>
-    <string name="micloud_main_query_again">Query</string>
+    <string name="micloud_main_query_again">استعلام</string>
     <string name="micloud_main_wait_wlan">في إنتظار الـ Wi-Fi</string>
-    <string name="micloud_main_wait_wlan_charge_sleep">Waiting for Wi-Fi, connecting charger and turn off screen</string>
-    <string name="micloud_main_wait_wlan_charge">Waiting for Wi-Fi, connecting charger</string>
-    <string name="micloud_main_wait_charge_sleep">Waiting for connecting charger and turn off screen</string>
-    <string name="micloud_main_wait_charge">Waiting for connecting charger</string>
+    <string name="micloud_main_wait_wlan_charge_sleep">في إنتظار الـ Wi-Fi، قم بتوصيل الشاحن و إطفاء الشاشة</string>
+    <string name="micloud_main_wait_wlan_charge">في انتظار الـ Wi-Fi و توصيل الشاحن</string>
+    <string name="micloud_main_wait_charge_sleep">في إنتظار توصيل الشاحن و إطفاء الشاشة</string>
+    <string name="micloud_main_wait_charge">في انتظار توصيل الشاحن</string>
     <string name="micloud_main_resume_sync_soon">إستئناف المزامنة قريبا</string>
     <string name="micloud_main_button_set_internet">الإعدادت</string>
     <string name="micloud_main_button_activate">تفعيل</string>
@@ -291,7 +292,7 @@
     <string name="micloud_detail_pending">جارٍ الانتظار</string>
     <string name="micloud_detail_success">تم المزامنة</string>
     <string name="micloud_detail_fail">تتعذر المزامنة</string>
-    <string name="micloud_detail_not_syncable">Not syncable</string>
+    <string name="micloud_detail_not_syncable">غير متزامن</string>
     <string name="micloud_detail_lastest">مزامن</string>
     <string name="micloud_detail_lastest_with_off">تمت المزامنة</string>
     <string name="micloud_detail_not_synced">لم تتم المزامنة</string>
@@ -308,7 +309,7 @@
     <string name="micloud_detail_depend_wifi_title">الإتصال بشبكة Wi-Fi</string>
     <string name="micloud_detail_depend_wifi_message">قم بالاتصال بشبكة Wi-Fi أو تحقق من إعدادات المزامنة.</string>
     <string name="micloud_detail_pause">إيقاف المزامنة مؤقتاً</string>
-    <string name="micloud_detail_need_charge_or_sleep">قم بتوصيل الشاحن وإيقاف الشاشة للمزامنة</string>
+    <string name="micloud_detail_need_charge_or_sleep">قم بتوصيل الشاحن و إطفاء الشاشة للمزامنة</string>
     <string name="micloud_detail_battery_low">البطارية منخفضة</string>
     <string name="micloud_check_sim_title">"يبدو أنك قمت بتغيير بطاقات SIM. سجل الدخول
 إلى حساب Mi الخاص بك لإعادة تفعيل Mi Cloud."</string>
@@ -407,10 +408,10 @@
     <string name="micloud_main_title_sync_on_wifi">استخدام الـWiFi</string>
     <string name="micloud_main_title_sync_off">المزامنة متوقفة</string>
     <string name="micloud_main_title_master_sync_off">المزامنة التلقائية غير مفعله</string>
-    <string name="micloud_main_message_master_sync_off">Auto sync setting is in notification bar.</string>
-    <string name="micloud_main_error_network_disallowed">Please ensure the permission of accessing Internet.</string>
+    <string name="micloud_main_message_master_sync_off">إعداد المزامنة تلقائيا في شريط الإشعار.</string>
+    <string name="micloud_main_error_network_disallowed">يرجى التأكد من الحصول على إذن الوصول إلى الإنترنت.</string>
     <string name="micloud_main_error_activated_fail">من فضلك قم بتفعيل بطاقة SIM.</string>
-    <string name="micloud_main_error_permission_limit">Please authorize access database permission for micloud.</string>
+    <string name="micloud_main_error_permission_limit">يرجى إعطاء micloud إذن الوصول إلى قاعدة البيانات.</string>
     <string name="micloud_confusion_no">لا</string>
     <string name="micloud_confusion_yes">نعم</string>
     <string name="micloud_confusion_cancel">إلغاء</string>
@@ -505,7 +506,7 @@
     <string name="micloud_find_device_guide_alert_negtive">لا شكراً</string>
     <string name="micloud_find_device_guide_alert_negtive_activate">لا شكراً</string>
     <string name="micloud_find_device_close_alert_title">ايقاف تشغيل العثور على الجهاز؟</string>
-    <string name="micloud_find_device_close_alert_content">"If you turn this feature off, you wan't be able to locate your device in case it's lost."</string>
+    <string name="micloud_find_device_close_alert_content">إذا قمت بإىقاف هذه الميزة، فلن تتمكن من تحديد موقع جهازك في حالة فقدانه.</string>
     <string name="micloud_find_device_close_alert_positive">دعه يعمل</string>
     <string name="micloud_find_device_close_alert_negtive">إيقاف التشغيل على أية حال</string>
     <string name="activate_finddevice">اتصل بالشبكة لتفعيل الجهاز</string>

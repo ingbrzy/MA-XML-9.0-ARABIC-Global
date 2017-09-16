@@ -61,15 +61,15 @@
     <string name="cancel_button">إلغاء</string>
     <string name="list_empty_text">فارغ</string>
     <string name="xspace_label">التطبيقات المزدوجة</string>
-    <string name="xspace_setting_label">双开设置</string>
-    <string name="xspace_account">双开帐号</string>
+    <string name="xspace_setting_label">إعدادات التطبيق المزدوج</string>
+    <string name="xspace_account">حسابات التطبيق المزدوج</string>
     <string name="declare_dialog_title">معلومات عن التطبيقات المزدوجة</string>
     <string name="xspace_loading_msg">جارٍ تحميل التطبيقات…</string>
     <string name="xspace_header">التطبيقات المزدوجة</string>
     <string name="xspace_introduce">موصى به</string>
-    <string name="xspace_description">"双开应用将在桌面生成一个全新的应用副本，两者可同时运行互不影响。
+    <string name="xspace_description">"التطبيقات المزدوجة هي نسخ تطبيقات يمكن استخدامها بشكل منفصل مع حساب مختلف.
 
-部分应用需要谷歌服务框架支持，双开这部分应用时会同步双开谷歌服务以保障体验。"</string>
+تتطلب بعض التطبيقات المزدوجة دعم إطار عمل خدمات غوغل. في مثل هذه الحالات، يتم إنشاء إطار خدمات غوغل المزدوج."</string>
     <string name="xspace_chocie">دعم التطبيق المزدوج</string>
     <string name="xspace_creating">جارٍ إنشاء تطبيق مزدوج…</string>
     <string name="xspace_installing">جارٍ التثبيت…</string>
@@ -304,13 +304,13 @@
     <string name="space_finger_sub_text">تعيين بصمة إصبع للواجهة الثانية للتبديل أسرع</string>
     <string name="set_space_finger_sub_text_suc">تم تعيين بصمة الاصبع بنجاح</string>
     <string name="show_noti_from_owner">إشعارات من الواجهة الأخرى</string>
-    <string name="show_noti_from_owner_detail">Receive notifications in the current space when they come to the other one</string>
+    <string name="show_noti_from_owner_detail">تلقي الإشعارات في الواجهة الحالية عندما يأتون إلى الواجهة الأخرى</string>
     <string name="show_noti_quick_switch_icon">اختصار مركز الاشعارات</string>
     <string name="show_noti_quick_switch_icon_detail">عرض اختصار لتبديل الواجهات في مركز الاشعارات</string>
     <string name="show_decktop_quick_switch_icon">إختصار الشاشة الرئيسية</string>
     <string name="show_decktop_quick_switch_icon_detail">عرض اختصار لتبديل الواجهات على الشاشة الرئيسية في الواجهة الاولى</string>
-    <string name="has_created_second_space">"You can open Second space now.
-One device. Two spaces."</string>
+    <string name="has_created_second_space">"يمكنك فتح الواجهة الثانيةالآن.
+واجهتين. جهاز واحد."</string>
     <string name="privacy_password_fingerprint_dialog_title">قم بمسح بصمة الاصبع الخاصة بك</string>
     <string name="privacy_password_fingerprint_dialog_message">ضع إصبعك على المستشعر</string>
 </resources>

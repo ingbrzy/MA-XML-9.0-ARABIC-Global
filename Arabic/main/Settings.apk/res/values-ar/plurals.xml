@@ -314,8 +314,8 @@
     </plurals>
     <plurals name="auto_startup_count">
         <item quantity="other">%d تطبيق مسموح له بالتشغيل التلقائي</item>
-        <item quantity="zero">%d تطبيق مسموح له بالتشغيل التلقائي</item>
-        <item quantity="one">%d تطبيق مسموح له بالتشغيل التلقائي</item>
+        <item quantity="zero">%d تطبيقات مسموح لها بالتشغيل التلقائي</item>
+        <item quantity="one">%d تطبيقات مسموح لها بالتشغيل التلقائي</item>
         <item quantity="two">%d تطبيقات مسموح لها بالتشغيل التلقائي</item>
         <item quantity="few">%d تطبيقات مسموح لها بالتشغيل التلقائي</item>
         <item quantity="many">%d تطبيق مسموح له بالتشغيل التلقائي</item>

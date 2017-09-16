@@ -14,11 +14,11 @@
         <item>درجة الدكتوراه</item>
     </string-array>
     <string-array name="income">
-        <item>&lt; ٢٠٠٠</item>
-        <item>٢٠٠١~٤٠٠٠</item>
-        <item>٤٠٠١~٦٠٠٠</item>
-        <item>٦٠٠١~٨٠٠٠</item>
-        <item>٨٠٠١~١٢٠٠٠</item>
-        <item>> ١٢٠٠٠</item>
+        <item>&lt; ٢٬٠٠٠ يوان صيني</item>
+        <item>٤٫٠٠٠~٢٫٠٠١ يوان صيني</item>
+        <item>٦٫٠٠٠~٤٫٠٠١ يوان صيني</item>
+        <item>٨٫٠٠٠~٦٫٠٠١ يوان صيني</item>
+        <item>١٢٫٠٠٠~٨٫٠٠١ يوان صيني</item>
+        <item>> ١٢٬٠٠٠ يوان صيني</item>
     </string-array>
 </resources>

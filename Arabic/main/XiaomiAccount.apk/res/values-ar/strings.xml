@@ -7,7 +7,6 @@
     <string name="passport_login_title">تسجيل الدخول إلى حساب Mi</string>
     <string name="passport_login">تسجيل الدخول</string>
     <string name="passport_relogin">تسجيل الدخول مرة أخرى</string>
-    <string name="passport_instant_login">تسجيل الدخول</string>
     <string name="passport_skip_login">تخطي</string>
     <string name="passport_skip_setup_account_title">تخطي الإعداد</string>
     <string name="passport_skip_setup_account_msg">يمكنك إعداد حساب Mi في الإعدادات فيما بعد.</string>
@@ -112,6 +111,9 @@
     <string name="passport_completed">اكتمل</string>
     <string name="passport_verify">تحقق من</string>
     <string name="passport_restart">ابدأ من جديد</string>
+    <string name="passport_yes">نعم</string>
+    <string name="passport_no">لا</string>
+    <string name="passport_continue">متابعة</string>
     <string name="passport_loading">جار التحميل…</string>
     <string name="passport_reging">جارٍ إنشاء الحساب…</string>
     <string name="passport_checking_account">جارٍ التحقق من كلمة المرور…</string>
@@ -177,15 +179,22 @@
     <string name="passport_error_verify_activator_phone_message">تأكد من أن خدمة بطاقة SIM مفعلة وأن الجهاز متصل بالشبكة.</string>
     <string name="passport_error_no_password_user">لم تقم بتعيين كلمة المرور حتى الآن. تسجيل الدخول باستخدام SMS.</string>
     <string name="passport_phone_ticket_login">تسجيل الدخول بـSMS</string>
+    <string name="passport_quick_register">تسجيل الخروج</string>
     <string name="passport_account_set_password">تعيين كلمة مرور</string>
     <string name="passport_account_set_password_title">تعيين كلمة مرور</string>
     <string name="passport_account_set_password_prompt">تعيين كلمة المرور لحسابك لتسجيل الدخول في المرة القادمة.</string>
     <string name="passport_set">تعيين</string>
+    <string name="passport_set_password_no_phone_msg">قم بإضافة رقم هاتفك لحماية حسابك.</string>
     <string name="passport_user_reg_region">الدولة/المنطقة</string>
-    <string name="passport_user_id_notice">您的小米ID是: %s</string>
-    <string name="passport_user_reg_region_warning">"You Won't be able to change your country/region once the account is created"</string>
-    <string name="passport_sync_account_data">正在同步您的帐号数据</string>
-    <string name="passport_sync_account_data_failed_warning">您的帐号数据有延迟,将只能使用小米ID登录。若使用邮箱/手机登录,请稍等几分钟</string>
+    <string name="passport_user_id_notice">معرف حساب Mi الخاص بك هو %s.</string>
+    <string name="passport_user_reg_region_warning">لن تتمكن من تغيير بلدك / منطقتك بعد إنشاء الحساب.</string>
+    <string name="passport_sync_account_data">جارٍ مزامنة معلومات الحساب…</string>
+    <string name="passport_sync_account_data_failed_warning">تتم مزامنة معلومات حسابك الآن، يمكنك تسجيل الدخول باستخدام معرف حساب Mi. إذا كنت تريد تسجيل الدخول باستخدام الهاتف أو البريد الإلكتروني، انتظر حتى تتم مزامنة المعلومات بالكامل.</string>
+    <string name="passport_confirm_recycle_account_msg">%s &lt;font color=Red>疑似&lt;/font>是运营商回收后再次收买的号码，该号码下已有小米帐号，这个帐号是你的吗？</string>
+    <string name="passport_login_recycle_account_yes">نعم</string>
+    <string name="passport_login_recycle_account_no">لا</string>
+    <string name="passport_reg_recycle_account_yes">نعم</string>
+    <string name="passport_reg_recycle_account_no">لا</string>
     <string name="search_app_name">حساب Mi</string>
     <string name="search_mi_account">حساب Mi</string>
     <string name="search_mi_account_key_words">Mi Cloud،إعداد الحساب،معلومات دفع Mi،تسجيل الخروج</string>
@@ -308,13 +317,14 @@
     <string name="update_email_address_dialog_message">تحتاج إلى تأكيد هويتك قبل التمكن من تحديث البريد الإلكتروني.</string>
     <string name="account_user_details">معلومات شخصية</string>
     <string name="account_security">حماية الحساب</string>
+    <string name="account_mibi_center">رصيد Mi</string>
     <string name="account_mipay_info">دفع Mi</string>
     <string name="account_xiaomi_service">الخدمات</string>
     <string name="cloud_service">Mi Cloud</string>
     <string name="vip_account_settings">إعدادات VIP</string>
     <string name="xiao_mi_vip">Mi VIP</string>
-    <string name="mi_vip_info">查看我的特权</string>
-    <string name="vip_settings_info">我的数据中心</string>
+    <string name="mi_vip_info">عرض الأمتيازات</string>
+    <string name="vip_settings_info">إعدادات VIP</string>
     <string name="loading_micloud_sync_data">لحظة من فضلك…</string>
     <string name="activity_not_found_notice">لا يمكن العثور على التطبيق</string>
     <string name="scan_barcode_title">لتسجيل الدخول في حساب Mi، امسح رمز QR</string>
@@ -384,9 +394,9 @@
     <string name="verify_phone_prompt">تحديد رقم هاتف للتحقق</string>
     <string name="sms_send_success">تم الارسال</string>
     <string name="auth_fail_warning">انتهت الدورة، قم بتسجيل الدخول لاحقاً</string>
-    <string name="find_device_message">تم قفل هذا الجهاز، رسالة: %1$s، رقم هاتف الاتصال: %2$s.</string>
-    <string name="find_device_owner_phone">تم قفل هذا الجهاز، رقم هاتف الاتصال: %1$s.</string>
-    <string name="find_device_prompt_message">تم قفل هذا الجهاز، رسالة: %1$s.</string>
+    <string name="find_device_message">الجهاز مقفل. رسالة: %1$s. الاتصال على %2$s.</string>
+    <string name="find_device_owner_phone">الجهاز مقفل. الاتصال على %1$s.</string>
+    <string name="find_device_prompt_message">الجهاز مقفل. رسالة: %1$s.</string>
     <string name="find_device_activate_account">تفعيل الحساب</string>
     <string name="login_check_find_device">جارٍ الحصول على معلومات حماية الجهاز…</string>
     <string name="unlock_help_notice">"مساعدة:
@@ -428,5 +438,5 @@
     <string name="account_token_expired_title">فشلت المصادقة</string>
     <string name="account_token_expired_msg">"إنتهت صلاحية رمز التحقق، ابدأ من جديد أو قم بتسجيل الخروج من
 معرف حساب الخاص بك: %s"</string>
-    <string name="bind_safe_phone_msg">إضافة هاتف آمن لتسجيل الدخول المقبل</string>
+    <string name="bind_safe_phone_msg">إضف رقم هاتفك لتتمكن من تسجيل الدخول إلى حساب Mi الخاص بك في المرة القادمة.</string>
 </resources>

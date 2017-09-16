@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="michat_app_name">دعم مباشر</string>
-    <string name="michat_feedback_title_name">استبيان ردود الأفعال</string>
+    <string name="michat_feedback_title_name">استبيان \"الإبلاغ عن خلل\"</string>
     <string name="michat_attach_smiley">تعبيرات</string>
     <string name="michat_attach_image">صورة</string>
     <string name="michat_attach_take_photo">الكاميرا</string>
@@ -92,9 +92,9 @@
     <string name="network_errortip_login">قم بتسجيل الدخول أولا</string>
     <string name="network_errorbtntip_login">تسجيل الدخول</string>
     <string name="request_empty_data">لا توجد بيانات</string>
-    <string name="app_label">ردود الأفعال</string>
-    <string name="app_name">ردود الأفعال</string>
-    <string name="logo_title">ردود الأفعال</string>
+    <string name="app_label">الإبلاغ عن خلل</string>
+    <string name="app_name">الإبلاغ عن خلل</string>
+    <string name="logo_title">الإبلاغ عن خلل</string>
     <string name="report_miui">الإبلاغ عن خلل</string>
     <string name="menu_copy">نسخ</string>
     <string name="description">وصف المشكلة</string>
@@ -170,14 +170,12 @@
     <string name="mobile_data_note_dialog_content_with_file_size">رفع السجلات بإستخدام إتصال بيانات الجوال سيتطلب %s ميغابايت من البيانات.</string>
     <string name="mobile_data_note_dialog_cancel">انتظر شبكة الـWi-Fi</string>
     <string name="mobile_data_note_dialog_confirm">رفع</string>
-    <string name="bugreport_tool_log_toast_generate_bugreport">جارٍ إنشاء تقرير الخلل(سيستغرق دقيقة تقريباً)</string>
-    <string name="bugreport_tool_log_toast">تم حفظ السجل في %s</string>
-    <string name="bugreport_tool_log">إنشاء تقرير عن خلل</string>
-    <string name="modem_tool_log">سجلات التقاط المودم</string>
-    <string name="modem_tool_log_start">بدء</string>
-    <string name="modem_tool_log_stop">إيقاف</string>
-    <string name="modem_tool_log_start_toast">حفظ سجل المودم إلى %s</string>
-    <string name="modem_tool_log_stop_toast">تم وقف حفظ سجل المودم إلى %s</string>
+    <string name="modem_tool_log_dumping_title">التقاط سجلات المودم</string>
+    <string name="modem_tool_log_dumping_desc">انقر فوق الأيقونة للإيقاف</string>
+    <string name="bugreport_tool_log_dumping_title">إنشاء تقرير عن الخلل</string>
+    <string name="bugreport_tool_log_dumping_desc">يستغرق حوالي دقيقة</string>
+    <string name="modem_tool_log_finish_title">تم التقاط سجل المودم</string>
+    <string name="modem_tool_log_finish_desc">تم حفظ السجل كـ %s</string>
     <string name="bugreport_dialog_not_show_again">عدم الإظهار مرة أخرى</string>
     <string name="bugreport_dialog_submit_content">قد تحتوي ملاحظاتك على معلومات شخصية وبيانات الموقع.</string>
     <string name="bugreport_dump_start_notification_title">جارٍ إنشاء تقرير عن خلل…</string>
@@ -295,7 +293,7 @@
     <string name="module_search">بحث</string>
     <string name="module_google_apps">تطبيقات Google</string>
     <string name="feedback_submit_hint">قم بالإبلاغ عن المشاكل في كل مرة تواجه خلل لمساعدتنا على حلها بشكل أسرع.</string>
-    <string name="feedback_submit_hint_gone">Closed message</string>
+    <string name="feedback_submit_hint_gone">رسالة مغلقة</string>
     <string name="toast_post_deleted">هذا الموضوع غير موجود، تم حذف أو تم تعديله.</string>
     <string name="toast_log_not_exists">السجل المطلوب تم حذفه أو غير موجود</string>
     <string name="toast_pic_not_exists">تم حذف الصورة المخبأة</string>

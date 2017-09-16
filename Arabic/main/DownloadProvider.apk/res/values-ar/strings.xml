@@ -29,7 +29,7 @@
     <string name="recommended_file_size_download_in_mobile">استخدام %s من بيانات الجوال لتنزيل هذا الملف؟</string>
     <string name="recommended_no_file_size_download_in_mobile">استخدام اتصال بيانات الجوال لتنزيل هذا الملف؟</string>
     <string name="button_wait_for_wifi">انتظر</string>
-    <string name="button_download_now">تنزيل الآن</string>
+    <string name="button_download_now">تنزيل الأن</string>
     <string name="insufficient_space">لا توجد مساحة كافية على الذاكرة الداخلية بجهارك</string>
     <string name="enter_garbage_clean">تنظيف مساحة التخزين الداخلي.</string>
     <string name="download_apk_desktop_pending">قيد الانتظار</string>
@@ -45,18 +45,6 @@
     <string name="notify_install_guide_title">تم تثبيت %s بنجاح</string>
     <string name="notify_install_guide_msg">تم التثبيت بنجاح</string>
     <string name="notify_install_guide_forward_text">فتح</string>
-    <string name="dialog_data_limit_title">تحذير استخدام البيانات</string>
-    <string name="dialog_data_limit_msg1">%s من بيانات الجوال سيتم إستخدامها لتحميل هذا الملف. التحميل الان؟</string>
-    <string name="dialog_data_limit_msg3">تغيير الحد</string>
-    <string name="dialog_data_limit_button1">انتظر شبكة الـWi-Fi</string>
-    <string name="dialog_data_limit_button2">تنزيل الآن</string>
-    <string name="dialog_button_ok">موافق</string>
-    <string name="dialog_button_cancel">إلغاء</string>
-    <string name="dialog_tip_limit">تحذير عند تحميل ملف أكبر من %s</string>
-    <string name="dialog_tip_no_limit">عدم التحذير</string>
-    <string name="dialog_tip_limit0">تحذير في كل مرة</string>
-    <string name="dialog_content_limit_max">غير محدود</string>
-    <string name="dialog_content_limit0">تقييد التنزيلات</string>
     <string name="app_label">إدارة التنزيل</string>
     <string name="permlab_downloadManager">الدخول إلى إدارة التنزيل.</string>
     <string name="permdesc_downloadManager">للسماح للتطبيق بالدخول إلى إدارة التنزيل واستخدامها لتنزيل الملفات. يمكن للتطبيقات الضارة استخدام هذا لتعطيل التنزيلات والدخول إلى المعلومات الخاصة.</string>

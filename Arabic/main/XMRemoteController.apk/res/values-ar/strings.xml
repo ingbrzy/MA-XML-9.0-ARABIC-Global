@@ -19,6 +19,7 @@
     <string name="abc_shareactionprovider_share_with">مشاركة مع</string>
     <string name="abc_shareactionprovider_share_with_application">‏مشاركة مع %s</string>
     <string name="abc_toolbar_collapse_description">تصغير</string>
+    <string name="search_menu_title">البحث</string>
     <string name="status_bar_notification_info_overflow">+999</string>
     <string name="ac_gree">مكيف هواء Gree</string>
     <string name="ac_mode_auto">تلقائي</string>
@@ -41,7 +42,7 @@
     <string name="add_new_control">إضافة جهاز ريموت</string>
     <string name="add_new_stb">إضافة جهاز فك التشفير‬‎</string>
     <string name="add_new_tv">إضافة تلفاز…</string>
-    <string name="agree">أوافق</string>
+    <string name="agree">موافق</string>
     <string name="airkan_disconnect">الأجهزة غير متصلة</string>
     <string name="airkan_disconnect_display_name">الأجهزة غير متصلة</string>
     <string name="airrc_device_not_connected">غير متصل</string>
@@ -62,6 +63,13 @@
     <string name="app_frequency_normal">احياناً</string>
     <string name="app_install">تثبيت على تلفاز Mi</string>
     <string name="app_install_count">تم تثبيت %1$s</string>
+    <string name="app_install_dialog_install_complete">تم التثبيت بنجاح</string>
+    <string name="app_install_dialog_install_failed">تعذر التثبيت</string>
+    <string name="app_install_dialog_installing">جارٍ التثبيت…</string>
+    <string name="app_install_dialog_negative_text">إلغاء</string>
+    <string name="app_install_dialog_positive_text">تثبيت</string>
+    <string name="app_install_dialog_search_failed">تعذر العثور على تطبيقات</string>
+    <string name="app_install_dialog_searching">جارٍ البحث عن تطبيقات…</string>
     <string name="app_installing">تثبيت…</string>
     <string name="app_manager_get_data_failed">تعذر الحصول على معلومات التطبيق</string>
     <string name="app_manager_no_data">لم يتم العثور على تطبيقات</string>
@@ -96,7 +104,7 @@
     <string name="by">"مدعوم من  "</string>
     <string name="by_position">حسب الموقع</string>
     <string name="camera_shoot">الغالق</string>
-    <string name="cancel">إلغاء</string>
+    <string name="cancel">خروج</string>
     <string name="cancel_select_all">الغاء التحديد</string>
     <string name="cancel_share">إيقاف المشاركة</string>
     <string name="cancel_share_done">تم إيقاف المشاركة</string>
@@ -133,8 +141,9 @@
     <string name="cool_mode">بارد</string>
     <string name="create_shortcut">إضافة اختصار</string>
     <string name="create_shortcut_cancel">لا، شكراً</string>
-    <string name="create_shortcut_confirm">إنشاء</string>
-    <string name="create_shortcut_done">تم الإنشاء بنجاح</string>
+    <string name="create_shortcut_confirm">إضافة</string>
+    <string name="create_shortcut_done">تمت الإضافة بنجاح</string>
+    <string name="create_shortcut_failed">لا يمكن إضافة اختصار. تأكد من ريموت Mi لديه الأذونات المطلوبة.</string>
     <string name="current_place">"الموقع الحالي: "</string>
     <string name="current_play">المُشغل الآن</string>
     <string name="current_stb">"الحالي:  "</string>
@@ -154,6 +163,19 @@
     <string name="device_model">طراز</string>
     <string name="device_responsed">استجابات الجهاز</string>
     <string name="device_type">نوع</string>
+    <string name="devicetype1">تلفاز</string>
+    <string name="devicetype10">جهاز عرض</string>
+    <string name="devicetype10001">تلفاز Mi/ Mi Box</string>
+    <string name="devicetype11">القنوات الفضائية</string>
+    <string name="devicetype12">Box</string>
+    <string name="devicetype13">DSLR</string>
+    <string name="devicetype14">مصباح</string>
+    <string name="devicetype2">Set-top box</string>
+    <string name="devicetype3">مكيف هواء</string>
+    <string name="devicetype4">DVD</string>
+    <string name="devicetype5">IPTV</string>
+    <string name="devicetype6">مروحة</string>
+    <string name="devicetype8">جهاز استقبال A/V</string>
     <string name="diagnose">اختبار جهاز ريموت</string>
     <string name="diagnosis_intro">اختبار الشبكة لمشاكل الاتصال</string>
     <string name="dialog_install_assistant_content">تثبيت تسجيل شاشة Mi للحصول على أقصى استفادة من تلفاز Mi أو Mi Box</string>
@@ -208,7 +230,7 @@
     <string name="fail_device_brand">العلامة التجارية</string>
     <string name="fail_device_model">طراز</string>
     <string name="fail_device_type">النوع</string>
-    <string name="fail_feedback">ردود الأفعال</string>
+    <string name="fail_feedback">الملاحظات</string>
     <string name="fail_title">تعذر الاقتران</string>
     <string name="fan_mode">وضع المروحة</string>
     <string name="fan_speed">السرعة</string>
@@ -216,15 +238,22 @@
     <string name="fav">مفضلة</string>
     <string name="favorite_channel">القنوات الأخيرة</string>
     <string name="feedback">ردود الأفعال</string>
+    <string name="feedback_desc_default">لا تعمل بعض الأزرار</string>
+    <string name="feedback_desc_hint">قم بوصف المشكلة</string>
     <string name="feedback_error">الأبلاغ عن خلل</string>
     <string name="feedback_error_success_tip">تم الإرسال بنجاح</string>
     <string name="feedback_error_tips">تواجه مشاكل في استخدام جهاز الريموت هذا، اضغط للإبلاغ عن مشكلة</string>
+    <string name="feedback_input_desc">قم بوصف المشكلة هنا.</string>
+    <string name="feedback_issue_desc">قم بوصف المشكلة</string>
+    <string name="feedback_keys">الملاحظات</string>
+    <string name="feedback_keys_success">شكرا لك على ملاحظاتك!</string>
+    <string name="feedback_keys_tips">إذا كانت الأزرار لا تعمل، ارسل لنا ملاحظاتك</string>
     <string name="find_adb_frame">تم اكتشاف %1$d جهاز ADB</string>
     <string name="find_milink_frame">تم اكتشاف %1$d جهاز Mi</string>
     <string name="fix_keys">تصليح الأزرار</string>
     <string name="fix_keys_success">تم التصليح بنجاح</string>
     <string name="fix_keys_tips">إذا لم تعمل بعض الإزرار، يمكنك محاولة أصلاحها</string>
-    <string name="from_share">مشارك بواسطة آخرين</string>
+    <string name="from_share">تمت المشاركة من %1$s</string>
     <string name="gamepad">Gamepad</string>
     <string name="gamepad_rule">لا يمكن استخدام الاتجاه الأفقي في وضع Gamepad</string>
     <string name="gesture_pad_first_line_tips">استخدام أزرار الصوت على جهازك لضبط مستوى الصوت</string>
@@ -236,13 +265,16 @@
     <string name="get_data_fail_tips">تعذر الحصول على بيانات. حاول مجدداً</string>
     <string name="get_info_failed">تعذر الحصول على معلومات</string>
     <string name="get_location_fail_tip">تعذر تعيين الموقع، اختر مدينة</string>
-    <string name="guid_one">· توصيل جهاز فك التشفير‬‎/التلفاز إلى نفس شبكة الـ Wi-Fi في جهازك.</string>
-    <string name="guid_three">· قد لا تتوفر بعض عناصر التحكم إذا كان التلفازأو جهاز فك التشفير الخاص بك لا يدعم الأندرويد</string>
-    <string name="guid_two">· سيتم الكشف عن الأجهزة وعرضها على هذه الصفحة</string>
-    <string name="guid_zero">. الجهاز الخاص بك لا يدعم أجهزة IR، لكن يدعم قليلا أجهزة ريموت Wi-Fi.</string>
+    <string name="guid_one">قم بتوصيل جهاز فك التشفير‬‎/TV إلى نفس شبكة الـ Wi-Fi في جهازك.</string>
+    <string name="guid_three">قد لا تتوفر بعض عناصر التحكم إذا كان التلفاز أو جهاز فك التشفير الخاص بك لا يدعم الأندرويد.</string>
+    <string name="guid_two">سيتم الكشف عن الأجهزة وعرضها على هذه الصفحة.</string>
+    <string name="guid_zero">الجهاز الخاص بك لا يدعم أجهزة IR لكنه يدعم أجهزة ريموت Wi-Fi.</string>
     <string name="guide">دليل</string>
+    <string name="guide_title_one">لا يمكن لهاتفك التحكم في أجهزة IR</string>
+    <string name="guide_title_three">الاستخدام</string>
+    <string name="guide_title_two">يمكنك التحكم في تلفاز Mi/Mi Box بإستخدام Wi-Fi</string>
     <string name="has_installed">تثبيت</string>
-    <string name="hd_channel_preferred">يٌُفضل فيديوهات HD</string>
+    <string name="hd_channel_preferred">جهاز فك تشفير ‬‎ HD</string>
     <string name="help">المساعدة</string>
     <string name="history_none">لم تقم بمشاهدة إي فيديوهات.</string>
     <string name="history_title">السجل</string>
@@ -291,6 +323,7 @@
     <string name="ir_device_sound">سماعات</string>
     <string name="ir_device_stb">جهاز فك التشفير‬‎</string>
     <string name="ir_device_tv">تلفاز</string>
+    <string name="ir_device_water_heater">سخان المياه</string>
     <string name="ir_device_wifi">جهاز ريموت الـ Wi-Fi</string>
     <string name="ir_not_supported_devices">* تلفاز Mi 3/شريط تلفاز Mi/Mi Box لا يدعم IR. حاول استخدام ريموت Wi-Fi.</string>
     <string name="jump_to_mivideo">عرض على جهاز جوال</string>
@@ -309,6 +342,7 @@
     <string name="loading_ir_data">لحظة من فضلك…</string>
     <string name="locate_current_place">العثورعلى الموقع الحالي</string>
     <string name="location_select">إعادة تسمية الجهاز</string>
+    <string name="lock_screen_device_sum">%1$d</string>
     <string name="login">تسجيل الدخول</string>
     <string name="login_directly">تسجيل الدخول</string>
     <string name="login_done">تم تسجيل الدخول</string>
@@ -452,7 +486,7 @@
     <string name="no_ir_other_support">مازال يمكنك استخدام جهازك لتحكم بـ تلفاز Mi أو Mi Box الخاص بك عبر الـ Wi-Fi.</string>
     <string name="no_ir_support">لم يتم العثورعلى أجهزة IR</string>
     <string name="no_network">· تعذر الاتصال بالشبكة</string>
-    <string name="no_program">لا يوجد محتوى هنا</string>
+    <string name="no_program">لا شيء هنا حتى الآن.</string>
     <string name="no_qq">تثبيت QQ أولاً</string>
     <string name="no_save_brand_service">إضافة جهاز الريموت هذا مرة أخرى</string>
     <string name="none">فارغ</string>
@@ -476,6 +510,7 @@
     <string name="oscillation">التذبذب</string>
     <string name="other">أخرى</string>
     <string name="outdoor_temp_unknown">غير معروف</string>
+    <string name="pair_server_data_only">نوصي باستخدام البيانات على شبكة الإنترنت لأجهزة ريموت جديدة</string>
     <string name="partner">الدعم</string>
     <string name="place_frame">"موقع: "</string>
     <string name="play_in_phone">المشاهدة على الهاتف</string>
@@ -486,6 +521,7 @@
     <string name="please_select_stb">تحديد جهاز فك التشفير‬‎</string>
     <string name="please_select_tv">تحديد تلفاز</string>
     <string name="pm_2.5">PM2.5:</string>
+    <string name="pm_2.5_out">PM2.5 في الخارج:</string>
     <string name="popup_installed_app_no_app">الحصول على التطبيق، انتظر لمدة دقيقة، ثم حاول مجدداً</string>
     <string name="popup_installed_app_title">حدد التطبيق الذي تريد فتحه في التلفاز</string>
     <string name="popup_select_device">تحديد ريموت Wi-Fi</string>
@@ -650,6 +686,8 @@
     <string name="supporting_soon">قريباً</string>
     <string name="swipe_loading">لحظة من فضلك…</string>
     <string name="switch_place">اختيار مدينة</string>
+    <string name="tab_live">برامج التلفاز</string>
+    <string name="tab_store">المتجر</string>
     <string name="technical_support">الدعم الفني</string>
     <string name="temperature">درجة الحرارة</string>
     <string name="temprature_frame">%1$d درجة مئوية</string>
@@ -743,4 +781,25 @@
     <string name="year_month_day_format">dd MMM ،yyyy</string>
     <string name="yes">نعم</string>
     <string name="yesterday">أمس</string>
+    <string name="add_new_box">إضافة جهاز فك التشفير‬‎</string>
+    <string name="login_mi_account">تسجيل الدخول</string>
+    <string name="msg_camera_framework_bug">"تعذر فتح الكاميرا.
+تحقق من الأذونات أو قم بإعادة تشغيل الجهاز."</string>
+    <string name="my_store">متجري</string>
+    <string name="scan">الماسح</string>
+    <string name="scan_add_error">تعذر إضافة الجهاز. انتظر دقيقة أو دقيقتين ثم حاول مرة أخرى.</string>
+    <string name="scan_code">مسح الرمز لإضافة</string>
+    <string name="scan_error">تعذر قراءة رمز QR</string>
+    <string name="scan_text">"مشاركة أجهزة التحكم عن بعد مع الأصدقاء باستخدام رموز QR.
+افتح إعدادات التحكم عن بعد وانقر \"مشاركة\"."</string>
+    <string name="search_device">البحث عن علامات تجارية</string>
+    <string name="search_device_hit">قم بإدخال اسم العلامة التجارية للبحث</string>
+    <string name="search_no_device">تعذر العثور على الجهاز</string>
+    <string name="sel_dpad_mode">تحديد وضع</string>
+    <string name="share_scan_hint">"قم بمسح رموز QR اصديقائك لتقوم باستخدام أجهزة التحكم عن بعد الخاصة بهم.
+اذهب للصفحة الرئيسية > \"+\" > والماسح الضوئي."</string>
+    <string name="tv_dpad_mode_gesture">لمس</string>
+    <string name="tv_dpad_mode_keyboard">لوحة المفاتيح</string>
+    <string name="volume_dec">مستوى الصوت -</string>
+    <string name="volume_inc">مستوى الصوت +</string>
 </resources>

@@ -13,7 +13,7 @@
     <string name="cloud_app_restore_app_and_data">إعداد جهازك</string>
     <string name="cloud_app_restore_data">ستظهر البيانات الشخصية والتطبيقات المثبتة مسبقا على جهازك تلقائيا</string>
     <string name="cloud_app_dont_restore">الإعداد كجهاز جديد</string>
-    <string name="cloud_app_restore_wifi_prompt">للاستعادة من نسخة Mi Cloud الاحتياطية، يجب أن تتصل بشبكة Wi-Fi.</string>
+    <string name="cloud_app_restore_wifi_prompt">إستعادة من نسخ Mi Cloud إحتياطي.</string>
     <string name="cloud_backup_detail_state">نسخ Mi Cloud الإحتياطي</string>
     <string name="cloud_backup_detail_state_summary">التطبيقات, الشاشة الرئيسية و إعدادات النظام</string>
     <string name="cloud_backup_detail_frequence">جدولة النسخ الاحتياطي</string>
@@ -121,4 +121,5 @@
     <string name="btn_skip">تخطي هذه الخطوة</string>
     <string name="can_not_restore_in_lite_mode">لا يمكن الإستعادة في الوضع البسيط</string>
     <string name="can_not_backup_in_lite_mode">لا يمكن الإستعادة في الوضع البسيط</string>
+    <string name="restore_data_title">إستعادة البيانات</string>
 </resources>

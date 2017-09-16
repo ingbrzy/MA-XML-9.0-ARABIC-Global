@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">‏‮WPA‬‏</string>
     <string name="wifi_security_short_wpa2">‏‮WPA2‬‏</string>
     <string name="wifi_security_short_wpa_wpa2">‏‮WPA/WPA2‬‏</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">‏‮802.1x‬‏</string>
     <string name="wifi_security_none">‏‮None‬‏</string>
     <string name="wifi_security_wep">‏‮WEP‬‏</string>
     <string name="wifi_security_wpa">‏‮WPA‬‏ ‏‮PSK‬‏</string>
     <string name="wifi_security_wpa2">‏‮WPA2‬‏ ‏‮PSK‬‏</string>
     <string name="wifi_security_wpa_wpa2">‏‮WPA/WPA2‬‏ ‏‮PSK‬‏</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">‏‮802.1x‬‏ ‏‮EAP‬‏</string>
     <string name="wifi_security_passpoint">‏‮Passpoint‬‏</string>
     <string name="wifi_remembered">‏‮Saved‬‏</string>
@@ -19,8 +21,7 @@
     <string name="wifi_disabled_wifi_failure">‏‮WiFi‬‏ ‏‮Connection‬‏ ‏‮Failure‬‏</string>
     <string name="wifi_disabled_password_failure">‏‮Authentication‬‏ ‏‮problem‬‏</string>
     <string name="wifi_not_in_range">‏‮Not‬‏ ‏‮in‬‏ ‏‮range‬‏</string>
-    <string name="wifi_no_internet_no_reconnect">"‏‮No‬‏ ‏‮Internet‬‏ ‏‮Access‬‏ ‏‮Detected,‬‏ ‏‮won't‬‏ ‏‮automatically‬‏ ‏‮reconnect.‬‏"</string>
-    <string name="wifi_no_internet">‏‮No‬‏ ‏‮Internet‬‏ ‏‮Access.‬‏</string>
+    <string name="wifi_no_internet">"‏‮No‬‏ ‏‮Internet‬‏ ‏‮Access‬‏ ‏‮Detected,‬‏ ‏‮won't‬‏ ‏‮automatically‬‏ ‏‮reconnect.‬‏"</string>
     <string name="saved_network">‏‮Saved‬‏ ‏‮by‬‏ %1$s</string>
     <string name="connected_via_wfa">‏‮Connected‬‏ ‏‮via‬‏ ‏‮Wi‑Fi‬‏ ‏‮assistant‬‏</string>
     <string name="connected_via_passpoint">‏‮Connected‬‏ ‏‮via‬‏ ‏‮%1$s‬‏</string>
@@ -156,15 +157,12 @@
     <string name="wifi_allow_scan_with_traffic_summary">‏‮Allow/Disallow‬‏ ‏‮Wi‑Fi‬‏ ‏‮Roam‬‏ ‏‮Scans‬‏ ‏‮based‬‏ ‏‮on‬‏ ‏‮the‬‏ ‏‮amount‬‏ ‏‮of‬‏ ‏‮data‬‏ ‏‮traffic‬‏ ‏‮present‬‏ ‏‮at‬‏ ‏‮the‬‏ ‏‮interface‬‏</string>
     <string name="select_logd_size_title">‏‮Logger‬‏ ‏‮buffer‬‏ ‏‮sizes‬‏</string>
     <string name="select_logd_size_dialog_title">‏‮Select‬‏ ‏‮Logger‬‏ ‏‮sizes‬‏ ‏‮per‬‏ ‏‮log‬‏ ‏‮buffer‬‏</string>
-    <string name="dev_logpersist_clear_warning_title">‏‮Clear‬‏ ‏‮logger‬‏ ‏‮persistent‬‏ ‏‮storage?‬‏</string>
-    <string name="dev_logpersist_clear_warning_message">‏‮When‬‏ ‏‮we‬‏ ‏‮no‬‏ ‏‮longer‬‏ ‏‮are‬‏ ‏‮monitoring‬‏ ‏‮with‬‏ ‏‮the‬‏ ‏‮persistent‬‏ ‏‮logger,‬‏ ‏‮we‬‏ ‏‮are‬‏ ‏‮required‬‏ ‏‮to‬‏ ‏‮erase‬‏ ‏‮the‬‏ ‏‮logger‬‏ ‏‮data‬‏ ‏‮resident‬‏ ‏‮on‬‏ ‏‮your‬‏ ‏‮device.‬‏</string>
-    <string name="select_logpersist_title">‏‮Store‬‏ ‏‮logger‬‏ ‏‮data‬‏ ‏‮persistently‬‏ ‏‮on‬‏ ‏‮device‬‏</string>
-    <string name="select_logpersist_dialog_title">‏‮Select‬‏ ‏‮log‬‏ ‏‮buffers‬‏ ‏‮to‬‏ ‏‮store‬‏ ‏‮persistently‬‏ ‏‮on‬‏ ‏‮device‬‏</string>
     <string name="select_usb_configuration_title">‏‮Select‬‏ ‏‮USB‬‏ ‏‮Configuration‬‏</string>
     <string name="select_usb_configuration_dialog_title">‏‮Select‬‏ ‏‮USB‬‏ ‏‮Configuration‬‏</string>
     <string name="allow_mock_location">‏‮Allow‬‏ ‏‮mock‬‏ ‏‮locations‬‏</string>
     <string name="allow_mock_location_summary">‏‮Allow‬‏ ‏‮mock‬‏ ‏‮locations‬‏</string>
     <string name="debug_view_attributes">‏‮Enable‬‏ ‏‮view‬‏ ‏‮attribute‬‏ ‏‮inspection‬‏</string>
+    <string name="legacy_dhcp_client_summary">‏‮Use‬‏ ‏‮the‬‏ ‏‮DHCP‬‏ ‏‮client‬‏ ‏‮from‬‏ ‏‮Lollipop‬‏ ‏‮instead‬‏ ‏‮of‬‏ ‏‮the‬‏ ‏‮new‬‏ ‏‮Android‬‏ ‏‮DHCP‬‏ ‏‮client.‬‏</string>
     <string name="mobile_data_always_on_summary">‏‮Always‬‏ ‏‮keep‬‏ ‏‮mobile‬‏ ‏‮data‬‏ ‏‮active,‬‏ ‏‮even‬‏ ‏‮when‬‏ ‏‮Wi‑Fi‬‏ ‏‮is‬‏ ‏‮active‬‏ ‏‮(for‬‏ ‏‮fast‬‏ ‏‮network‬‏ ‏‮switching).‬‏</string>
     <string name="adb_warning_title">‏‮Allow‬‏ ‏‮USB‬‏ ‏‮debugging?‬‏</string>
     <string name="adb_warning_message">‏‮USB‬‏ ‏‮debugging‬‏ ‏‮is‬‏ ‏‮intended‬‏ ‏‮for‬‏ ‏‮development‬‏ ‏‮purposes‬‏ ‏‮only.‬‏ ‏‮Use‬‏ ‏‮it‬‏ ‏‮to‬‏ ‏‮copy‬‏ ‏‮data‬‏ ‏‮between‬‏ ‏‮your‬‏ ‏‮computer‬‏ ‏‮and‬‏ ‏‮your‬‏ ‏‮device,‬‏ ‏‮install‬‏ ‏‮apps‬‏ ‏‮on‬‏ ‏‮your‬‏ ‏‮device‬‏ ‏‮without‬‏ ‏‮notification,‬‏ ‏‮and‬‏ ‏‮read‬‏ ‏‮log‬‏ ‏‮data.‬‏</string>
@@ -214,6 +212,8 @@
     <string name="debug_layout_summary">‏‮Show‬‏ ‏‮clip‬‏ ‏‮bounds,‬‏ ‏‮margins,‬‏ ‏‮etc.‬‏</string>
     <string name="force_rtl_layout_all_locales">‏‮Force‬‏ ‏‮RTL‬‏ ‏‮layout‬‏ ‏‮direction‬‏</string>
     <string name="force_rtl_layout_all_locales_summary">‏‮Force‬‏ ‏‮screen‬‏ ‏‮layout‬‏ ‏‮direction‬‏ ‏‮to‬‏ ‏‮RTL‬‏ ‏‮for‬‏ ‏‮all‬‏ ‏‮locales‬‏</string>
+    <string name="show_cpu_usage">‏‮Show‬‏ ‏‮CPU‬‏ ‏‮usage‬‏</string>
+    <string name="show_cpu_usage_summary">‏‮Screen‬‏ ‏‮overlay‬‏ ‏‮showing‬‏ ‏‮current‬‏ ‏‮CPU‬‏ ‏‮usage‬‏</string>
     <string name="force_hw_ui">‏‮Force‬‏ ‏‮GPU‬‏ ‏‮rendering‬‏</string>
     <string name="force_hw_ui_summary">‏‮Force‬‏ ‏‮use‬‏ ‏‮of‬‏ ‏‮GPU‬‏ ‏‮for‬‏ ‏‮2d‬‏ ‏‮drawing‬‏</string>
     <string name="force_msaa">‏‮Force‬‏ ‏‮4x‬‏ ‏‮MSAA‬‏</string>
@@ -297,7 +297,6 @@
     <string name="screen_zoom_summary_extremely_large">‏‮Largest‬‏</string>
     <string name="screen_zoom_summary_custom">‏‮Custom‬‏ ‏‮(‬‏%d‏‮)‬‏</string>
     <string name="help_feedback_label">‏‮Help‬‏ ‏‮&amp;‬‏ ‏‮feedback‬‏</string>
-    <string name="content_description_menu_button">‏‮Menu‬‏</string>
     <string name="app_name">‏‮Package‬‏ ‏‮installer‬‏</string>
     <string name="next">‏‮Next‬‏</string>
     <string name="install">‏‮Install‬‏</string>
@@ -421,7 +420,6 @@ All‬‏ ‏‮your‬‏ ‏‮previous‬‏ ‏‮user‬‏ ‏‮data‬�
     <string name="status_bar_notification_info_overflow">‏‮999+‬‏</string>
     <string name="abc_capital_on">‏‮ON‬‏</string>
     <string name="abc_capital_off">‏‮OFF‬‏</string>
-    <string name="search_menu_title">‏‮Search‬‏</string>
     <string name="v7_preference_on">‏‮ON‬‏</string>
     <string name="v7_preference_off">‏‮OFF‬‏</string>
     <string name="lb_navigation_menu_contentDescription">‏‮Navigation‬‏ ‏‮menu‬‏</string>

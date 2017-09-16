@@ -122,7 +122,7 @@
     <string name="config_scenario_policies_title">سيناريوهات</string>
     <string name="scenario_policies_summary">توفير الطاقة وفقا للسيناريو</string>
     <string name="sleep_config_enhance_title">أوضاع توفير النوم</string>
-    <string name="sleep_config_enhance_description">predict user sleep time by machine learning, whithin the sleep time, we may clear some background apps, restrict to use NFC, KeyGauard Notification, Sync, Bluetooth, GPS, mobile and wifi data, etc.</string>
+    <string name="sleep_config_enhance_description">التنبؤ بوقت نوم المستخدم عن طريق التعلم الآلة، خلال وقت النوم، ونحن قد نقوم بمسح بعض تطبيقات الخلفية، وتقييد استخدام NFC، إشعار KeyGauard، المزامنة، البلوتوث، GPS، البيانات المتنقلة والـ WiFi، الخ.</string>
     <string name="scenario_policies_warmcontrol">التحكم بالحرارة</string>
     <string name="warm_configure">إعداد التحكم بالحرارة</string>
     <string name="important_warning">تحذير</string>
@@ -142,7 +142,7 @@
     <string name="power_config_ultimate_unlock_already">تم فك حظر كل العناصر</string>
     <string name="extreme_power_config_mode_category">أقصى توفير لطاقة البطارية</string>
     <string name="extreme_power_config_mode_title">أقصى وضع توفير طاقة البطارية</string>
-    <string name="extreme_power_config_mode_desc">Enable this function will disable sync, bluetooth, GPS, NFC, double tapping, button lights, wake lock screen for notifications, pluse notification light etc, and battery saver mode is set to be ultimate</string>
+    <string name="extreme_power_config_mode_desc">تمكين هذه الوظيفة سيعطل المزامنة، البلوتوث، GPS، NFC، النقر المزدوج، أضواء الزر، إيقاظ شاشة القفل للإشعارات، إشعار ضوء النبض الخ، وسيتم ضبط توفير البطارية على الوضع العدواني</string>
     <string name="empty_title_apps_container_list">لا توجد تطبيقات</string>
     <string name="hints_loading_text">لحظة من فضلك…</string>
     <string name="config_mode_title">إعدادات الخلفية</string>
@@ -192,12 +192,12 @@
     <string name="cloud_staging_addr">تحديث بيانات خادم الترحيل</string>
     <string name="cloud_international_addr">تحديث بيانات الخادم الدولي</string>
     <string name="current_cloud_addr_is">عنوان خادم تحكم Cloud هو:</string>
-    <string name="update_profile_sucess">Update form server sucess</string>
+    <string name="update_profile_sucess">تم تحديث نموذج الخادم بنجاح</string>
     <string name="update_profile_failture_not_connect_wifi">فشل التحديث، لا يوجد اتصال WiFi</string>
-    <string name="sucess">sucess</string>
-    <string name="failure">failure</string>
-    <string name="cloud_addr_info">HideMode cloud info</string>
-    <string name="lasttime_feature_cloud">Function last update：</string>
-    <string name="lasttime_applist_cloud">Applist last update：</string>
+    <string name="sucess">نجاح</string>
+    <string name="failure">فشل</string>
+    <string name="cloud_addr_info">معلومات HideMode Cloud</string>
+    <string name="lasttime_feature_cloud">آخر تحديث للوطائف:</string>
+    <string name="lasttime_applist_cloud">آخر تحديثات قائمة التطبيقات</string>
     <string name="base_info">معلومات أساسية</string>
 </resources>

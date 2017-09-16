@@ -32,6 +32,7 @@
     <string name="delete_backup_title">حذف النسخة الاحتياطية</string>
     <string name="delete">حذف</string>
     <string name="cancel">إلغاء</string>
+    <string name="reconnect">إعادة الاتصال</string>
     <string name="delete_backup_process">جارٍ الحذف…</string>
     <string name="backup_error">تعذر النسخ الاحتياطي</string>
     <string name="delete_failed_backup_confirm">تحتوي هذه النسخة احتياطية على أخطاء.</string>
@@ -226,6 +227,7 @@
     <string name="file_uploading">جارٍ التحميل…</string>
     <string name="new_backup">نسخ احتياطي</string>
     <string name="restore_backup">إستعادة</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">لحظة من فضلك…</string>
     <string name="state_mounting">الوصول إلى تخزين جهاز التوجيه…</string>
     <string name="abort_backup_confirm">لم يتم الانتهاء من النسخ الاحتياطي. التوقف على أية حال؟</string>
@@ -259,6 +261,7 @@
     <string name="notif_trans_receiving_completed">تم استلام البيانات بنجاح</string>
     <string name="notif_trans_sending_failed">تعذر ارسال البيانات</string>
     <string name="notif_trans_receiving_failed">تعذر استقبال البيانات</string>
+    <string name="notif_trans_wait_for_reconnecting">جهاز الريموت غير متصل. يرجى الاتصال مرة أخرى.</string>
     <string name="custom_progress">%d عنصر</string>
     <string name="remote_receive">استلام</string>
     <string name="click_to_view">انقر للعرض</string>
@@ -309,6 +312,7 @@
     <string name="trans_cancel_confirm">النقل قيد التقدم، هل تريد الإيقاف الآن؟</string>
     <string name="trans_cancelling">جارٍ الإلغاء…</string>
     <string name="trans_device_disconnected">الجهاز غير متصل</string>
+    <string name="trans_device_wait_for_reconnecting">الجهاز غير متصل. يرجى إعادة الاتصال.</string>
     <string name="trans_connecting_toast">جارٍ الاتصال…</string>
     <string name="trans_connect_failed_toast">تعذر الاتصال</string>
     <string name="trans_generate_qr_code_failed">تعذر إنشاء رمز QR</string>
@@ -324,6 +328,10 @@
 ٢. افتح التطبيق و انقر بدء
 ٣. قم بمسح رمز QR باستخدام جهازك القديم"</string>
     <string name="trans_operate_old_phone_tips2">اذهب الى الإعدادات> إعدادات إضافية > ناقل Mi، انقر [أنا المرسل]</string>
+    <string name="trans_operate_reconnect_new_tips">"انتظر حتى يظهر الهاتف الجديد \"الجهاز غير متصل\".
+ثم اضغط [Reconnect] لإنشاء رمز QR."</string>
+    <string name="trans_operate_reconnect_old_tips">"انتظر حتى يظهر الهاتف الجديد \"الجهاز غير متصل\".
+ثم اضغط [Reconnect] لمسح رمز QR."</string>
     <string name="trans_wait_trans_data">"متصل بالجهاز القديم.
 في انتظار النقل…"</string>
     <string name="trans_select_data">قم بتحديد عناصر للارسال</string>
@@ -346,6 +354,7 @@
     <string name="trans_retry">إعادة المحاولة</string>
     <string name="trans_start_failed_title">تعذر بدء النقل</string>
     <string name="trans_start_failed_message">تعذر بدء النقل، قم بالمحاولة مجدداً أو إعادة تشغيل الجهاز.</string>
+    <string name="trans_connect_failed_device_incompatible">الجهاز غير متوافق. يرجى إلغاء عملية النقل الجارية وإعادة المحاولة.</string>
     <string name="trans_connection_failed">الجهاز غير متصل</string>
     <string name="user_notice_title">تنبيه</string>
     <string name="user_notice_message">بعض الميزات تتطلب الإتصال بالإنترنت لتعمل بشكل طبيعي.</string>

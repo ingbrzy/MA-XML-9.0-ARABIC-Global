@@ -3,8 +3,8 @@
     <string name="fw_blocked">قائمة الحظر</string>
     <string name="fw_blocked_count">"تم حظر "</string>
     <string name="fw_blocked_join">" و "</string>
-    <string name="tab_title">القائمة السوداء</string>
-    <string name="tab_blacklist">القائمة السوداء</string>
+    <string name="tab_title">قائمة الحظر</string>
+    <string name="tab_blacklist">قائمة الحظر</string>
     <string name="tab_sms">الرسائل</string>
     <string name="tab_call">المكالمات</string>
     <string name="bl_no_block_call">لا توجد مكالمات محظورة.</string>
@@ -22,12 +22,12 @@
     <string name="two_address_choose_hint">%1$s و %2$s</string>
     <string name="one_address_choose_hint">%s1</string>
     <string name="marked_by_user">"لقد وضعت علامة عليه كـ  "</string>
-    <string name="dlg_black_antispam_message">إضافة هذا الرقم إلى القائمة السوداء؟</string>
+    <string name="dlg_black_antispam_message">إضافة هذا الرقم إلى قائمة الحظر؟</string>
     <string name="dlg_white_antispam_message">إضافة هذا الرقم إلى الاستثناءات؟</string>
-    <string name="dlg_black_address_antispam_message">إضافة هذا الموقع إلى القائمة السوداء؟</string>
+    <string name="dlg_black_address_antispam_message">إضافة هذا الموقع إلى قائمة الحظر؟</string>
     <string name="dlg_white_address_antispam_message">إضافة هذا الموقع إلى الاستثناءات؟</string>
     <string name="dlg_white_antispam_hint">الاستثناءات</string>
-    <string name="dlg_black_antispam_hint">القائمة السوداء</string>
+    <string name="dlg_black_antispam_hint">قائمة الحظر</string>
     <string name="dlg_clear_all_sms">حذف الرسائل المحظورة؟</string>
     <string name="dlg_clear_all_call">مسح المكالمات المحظورة؟</string>
     <string name="dlg_clear_current_sms">حذف كل الرسائل المحظورة الواردة من هذا الرقم؟</string>
@@ -36,13 +36,13 @@
     <string name="dlg_clear_current_ok">مسح</string>
     <string name="dlg_no_block">إلغاء حظر هذا الرقم واستعادة المكالمات الى سجل المكالمات؟</string>
     <string name="dlg_no_block_ok">إلغاء الحظر</string>
-    <string name="dlg_add_blacklist_title">إضافة إلى القائمة السوداء</string>
+    <string name="dlg_add_blacklist_title">إضافة إلى قائمة الحظر</string>
     <string name="dlg_add_blacklist">حظر هذا الرقم؟</string>
-    <string name="dlg_remove_blacklist">إزالة هذه الأرقام من القائمة السوداء؟</string>
+    <string name="dlg_remove_blacklist">إزالة هذا الرقم من قائمة الحظر؟</string>
     <string name="dlg_remove_whitelist_title">إزالة</string>
     <string name="dlg_remove_blacklist_title">إزالة</string>
     <string name="dlg_remove_whitelist">إزالة هذه الأرقام من الاستثناءات؟</string>
-    <string name="dlg_remove_address_blacklist">إزالة هذا الموقع من القائمة السوداء؟</string>
+    <string name="dlg_remove_address_blacklist">إزالة هذا الموقع من قائمة الحظر؟</string>
     <string name="dlg_remove_address_whitelist">إزالة هذا الموقع من الاستثناءات؟</string>
     <string name="dlg_remove_ok">إزالة</string>
     <string name="dlg_import_blacklist">جارٍ الإضافة…</string>
@@ -84,15 +84,15 @@
     <string name="Phonepass">السماح بالمكالمات</string>
     <string name="st_message_SMS_AntiSpam">حظر الرسائل القصيرة</string>
     <string name="st_message_phone_AntiSpam">حظر المكالمات</string>
-    <string name="st_title_addblacklist">إضافة إلى القائمة السوداء</string>
-    <string name="st_title_editblacklist">تعديل القائمة السوداء</string>
+    <string name="st_title_addblacklist">إضافة إلى قائمة الحظر</string>
+    <string name="st_title_editblacklist">تعديل قائمة الحظر</string>
     <string name="st_title_addwhitelist">إضافة إلى الإستثناءات</string>
     <string name="st_title_editwhitelist">تعديل الاستثناءات</string>
-    <string name="st_title_man_head_addblacklist">إضافة بادئة رقم الهاتف إلى القائمة السوداء</string>
-    <string name="st_title_man_addblacklist">إضافة رقم إلى القائمة السوداء</string>
+    <string name="st_title_man_head_addblacklist">إضافة بادئة رقم الهاتف إلى قائمة الحظر</string>
+    <string name="st_title_man_addblacklist">إضافة رقم إلى قائمة الحظر؟</string>
     <string name="st_title_man_head_addwhitelist">إضافة بادئة رقم الهاتف إلى الاستثناءات</string>
     <string name="st_title_man_addwhitelist">إضافة رقم الهاتف إلى الاستثناءات</string>
-    <string name="st_title_man_editblacklist">اختر رمز منطقة لإضافته إلى القائمة السوداء</string>
+    <string name="st_title_man_editblacklist">اختر رمز منطقة لإضافته إلى قائمة الحظر</string>
     <string name="st_title_man_editwhitelist">اختيار رمز منطقة لإضافته إلى الاستثناءات</string>
     <string name="st_title_back_sound_choose">رسالة الغياب</string>
     <string name="st_title_back_sound_busy">مشغول</string>
@@ -212,7 +212,7 @@
     <string name="note_call_none">لا توجد مكالمات</string>
     <string name="block_message_number">الرسائل: &lt;font color=#5fab1b>%d&lt;/font></string>
     <string name="block_phone_number">المكالمات: &lt;font color=#5fab1b>%d&lt;/font></string>
-    <string name="info_antispam_close">إيقاف مضاد الرسائل المزعجة</string>
+    <string name="info_antispam_close">قائمة الحظر متوقفة</string>
     <string name="mark_fraud">حظر الارقام الإحتيالية المبلغ عنها</string>
     <string name="mark_agent">حظر الوكالات المبلّغ عنها</string>
     <string name="mark_sell">حظر الاتصالات الهاتفية التسوقية المبلغ عنهما</string>
@@ -260,7 +260,7 @@
     <string name="address">العنوان</string>
     <string name="note">ملاحظة</string>
     <string name="antispam_xpace_text">تبديل إلى الواجهة الاولى لتعيين قائمة الحظر</string>
-    <string name="antispam_mode_details">تفاصيل عن وضع الإعتراض</string>
+    <string name="antispam_mode_details">تفاصيل قائمة الحظر</string>
     <string name="st_share_settings">استخدام إعدادات SIM 1</string>
     <string name="st_msg_settings">قائمة حظر SMS</string>
     <string name="st_msg_intercept_contacts">حظر SMS من جهات الإتصال</string>
@@ -353,7 +353,7 @@
     <string name="firewall_restrict_android_dialog_title">تنبيه</string>
     <string name="firewall_restrict_android_dialog_content">للتأكد من ان جهازك يعمل بشكل طبيعي، عدد قليل من تطبيقات نظام الأندرويد ستظل على اتصال بالإنترنت. هذه التطبيقات ستستخدم اتصال بيانات الجوال ويمكن أن تولد رسوم بسيطة من شركة الاتصالات الخاصة بك.</string>
     <string name="background_restrict_app_dialog_message">قد يؤدي تقييد وصول الشبكة الخلفية لهذا التطبيق إلى عمل التطبيق بشكل غير طبيعي في استلام الرسائل، وتنزيل محتوى والخ. التقييد على إية حال؟</string>
-    <string name="firewall_allow_network">تم السماح</string>
+    <string name="firewall_allow_network">السماح</string>
     <string name="firewall_network_allow">تم السماح %1$s لاستخدام %2$s الاتصال</string>
     <string name="search_result_text">تعذر العثور على أية تطبيقات</string>
     <string name="firewall_mobile_dialog_message">لن يتمكن التطبيق المثبت الاتصال بالإنترنت باستخدام بيانات الجوال عند توقف هذا التبديل.</string>
@@ -413,7 +413,6 @@
     <string name="adjust_traffic_carrier_summary_oneweek_before">تم التحديث منذ أسبوع</string>
     <string name="adjust_traffic_carrier_summary_more_oneweek_before">تم التحديث منذ ما يزيد عن أسبوع</string>
     <string name="adjust_traffic_carrier_summary_more_onemonth_before">تم التحديث منذ ما يزيد عن شهر</string>
-    <string name="start_tc_button">معايرة</string>
     <string name="left_precent">٦٠%</string>
     <string name="right_precent">١٠٠%</string>
     <string name="pref_avaible_traffic">خطة البيانات</string>
@@ -464,9 +463,12 @@
     <string name="traffic_setting_fragment_button1_text">إلغاء</string>
     <string name="traffic_setting_fragment_button2_text">حفظ</string>
     <string name="traffic_setting_fragment_area">المنطقة</string>
-    <string name="traffic_setting_fragment_area_dual">%s منطقة</string>
+    <string name="traffic_setting_fragment_province">المحافظة</string>
+    <string name="traffic_setting_fragment_city">المدينة</string>
+    <string name="traffic_setting_fragment_operator_setting">إعدادات شركة الاتصالات</string>
     <string name="traffic_setting_fragment_operator">شركة الاتصالات</string>
     <string name="traffic_setting_fragment_brand">علامة تجارية</string>
+    <string name="traffic_setting_fragment_default">تحديد</string>
     <string name="traffic_setting_fragment_send_num">رقم هاتف شركة الاتصالات</string>
     <string name="traffic_setting_fragment_sms_content">محتوى الرسالة</string>
     <string name="traffic_setting_fragment_send_num_tips">أدخل رقم الهاتف</string>
@@ -515,7 +517,7 @@
     <string name="package_setted_error_notification_summary">انقر لعرض تفاصيل استخدام البيانات.</string>
     <string name="traffic_config_alert_title">%s تصحيح</string>
     <string name="traffic_config_alert_auto_modify">تحديث خطة البيانات تلقائيا</string>
-    <string name="traffic_config_alert_body">"تُظهر سجلات محاسبة شركة الاتصالات الخاص بك:%s.
+    <string name="traffic_config_alert_body">"تظهر خطة شركة الاتصالات الخاص بك: %s.
 
 هل ستأخذ هذا؟"</string>
     <string name="traffic_config_alert_body_normal">"
@@ -579,11 +581,11 @@
     <string name="tc_sms_report_notify_correction_body">اذهب إلى تطبيق استخدام البيانات في مركز الحماية ثم حاول مرة أخرى يدويًا.</string>
     <string name="tc_sms_report_notify_get_failure_body">تعذر إرسال تقرير استخدام البيانات. تأكد من اتصالك بشبكة الجوال.</string>
     <string name="tc_sms_report_tips_dialog_title">رسالة (SMS) إستخدام البيانات</string>
-    <string name="tc_sms_report_tips_dialog_message">يعتمد استخدام البيانات على رسالة (SMS) ذات تنسيق خاص للحصول على أحدث استخدام للبيانات من شركة الاتصالات الخاصة بك. إذا كانت هذه الميزة لا تعمل بشكل عادي، جرب تحديث تنسيق رسالة (SMS) استخدام البيانات. عندئذ سيتم رفع التنسيق الجديد الذي تم تحديثه على خوادمنا.</string>
-    <string name="tc_sms_report_get_sms_failure">تعذر الحصول على تنسيق رسالة (SMS) استخدام البيانات</string>
+    <string name="tc_sms_report_tips_dialog_message">تم إرسال رسالة نصية قصيرة للحصول على أحدث معلومات استخدام البيانات من قبل شركة الاتصالات الخاصة بك. إذا كنت تعتقد أن المعلومات ليست صحيحة، ارسل لنا ملاحظاتك.</string>
+    <string name="tc_sms_report_get_sms_failure">تعذر الحصول على معلومات إستخدام البيانات</string>
     <string name="tc_sms_report_get_sms_timeout">انتهت مهلة الطلب</string>
-    <string name="tc_sms_report_get_sms_successs">تم تحديث تنسيق رسالة استخدام البيانات (SMS)</string>
-    <string name="tc_sms_report_get_default">لن تتحمل رسوما عن رسائل (SMS) المستخدمة للحصول على رصيد استخدامك للبيانات من قبل شركة الاتصالات الخاصة بك.</string>
+    <string name="tc_sms_report_get_sms_successs">تم تحديث معلومات إستخدام البيانات بنجاح</string>
+    <string name="tc_sms_report_get_default">لن تتحمل رسوما عن الرسائل المستخدمة للحصول على معلومات استخدامك للبيانات من قبل شركة الاتصالات الخاصة بك.</string>
     <string name="tc_sms_report_toast_text">يتم الحصول على المعلومات…</string>
     <string name="tc_sms_report_type">نوع التقرير</string>
     <string name="privacy_declare_dialog_title">شروط الخدمة</string>
@@ -697,9 +699,9 @@
     <string name="network_blocked_connected_open_wifi">متصل بالشبكة عامة</string>
     <string name="network_connected_exception_title">اختبار الشبكة</string>
     <string name="protocol_exception_title">تشخيصات بروتوكول الشبكة</string>
-    <string name="protocol_loop_back_exception_summary">تعذر الاختبار الخلفي للتكرار المحلي. لإبلاغ MIUI بهذه المشكلة، انتقل إلى تطبيق ردود الأفعال وأرسل سجلاً من جهازك.</string>
+    <string name="protocol_loop_back_exception_summary">تعذر الاختبار الخلفي للتكرار المحلي. لإبلاغ MIUI بهذه المشكلة، انتقل إلى تطبيق \"الإبلاغ عن خلل\" وأرسل سجلاً من جهازك.</string>
     <string name="ip_address_exception_summary">تعذر الحصول على عنوان IP. إذا واجهتك هذه المشكلة مرة أخرى، جرب استخدام عنوان IP ثابت.</string>
-    <string name="local_ip_exception_summary">تعذر الحصول على عنوان IP محلي. لإبلاغ MIUI بهذه المشكلة، اذهب إلى تطبيق ردود الأفعال وأرسل تقريرا من جهازك.</string>
+    <string name="local_ip_exception_summary">تعذر الحصول على عنوان IP محلي. لإبلاغ MIUI بهذه المشكلة، اذهب إلى تطبيق \"الإبلاغ عن خلل\" وأرسل تقريرا من جهازك.</string>
     <string name="renew_ip">إعادة المحاولة</string>
     <string name="network_permission_exception_tips">يتعذر استخدام بيانات الجوال للاتصال بالشبكة</string>
     <string name="open_now">السماح للتطبيق باستخدام بيانات الجوال</string>
@@ -738,6 +740,7 @@
     <string name="permission_exception_summary">بعض التطبيقات لا تمتلك إذن للاتصال بالإنترنت</string>
     <string name="networkchanged_exception_title">تم تغيير الاتصال</string>
     <string name="networkchanged_exception_summary">تم تغيير اتصال الشبكة. قم بإعادة الاختبار.</string>
+    <string name="network_test_speed">اختبار سرعة الـ Wi-Fi</string>
     <string name="network_speed_for_apps_title">الاتصال</string>
     <string name="network_speed_for_apps_total">سرعة الاتصال</string>
     <string name="network_speed_for_apps_close_app_dlg_msg">إيقاف إجباري لهذا التطبيق؟</string>
@@ -810,7 +813,7 @@
     <string name="menu_charge_bill">شحن الرصيد</string>
     <string name="privacy_dialog_message">عند الاتصال بالإنترنت، سيتم تشفير هذه الرسالة مع معلومات شركة الاتصالات وتحميلها على خوادم Mi لمساعدتنا على تحسين مراقبة استخدام البيانات.</string>
     <string name="optimize_manage_title">زيادة السرعة</string>
-    <string name="cpu_usage_android_system">Android System</string>
+    <string name="cpu_usage_android_system">نظام اندرويد</string>
     <string name="cpu_usage_process_run_time_little_time">أقل من دقيقة</string>
     <string name="cpu_usage_view_action_btn_text">انقر للعرض</string>
     <string name="cpu_usage_app_bg_restrict_title">إعدادات الخلفية</string>
@@ -827,11 +830,11 @@
     <string name="memory_clean_running_process_title">مراقبة التطبيقات (%d)</string>
     <string name="memory_clean_cleaning_title">مسح ذاكرة التخزين المؤقت</string>
     <string name="memory_clean_no_need_clean">كل شيء يبدو جيداً</string>
-    <string name="memory_cleaned_memory_up">Speed boost</string>
+    <string name="memory_cleaned_memory_up">زيادة السرعة</string>
     <string name="memory_cleaned_memory_info">الذاكرة المتاحة</string>
     <string name="memory_clean_no_running_process">لا توجد مهام للحذف</string>
     <string name="memory_clean_btn_click_text">زيادة السرعة</string>
-    <string name="optimize_result_header_view_summary">Speed boost</string>
+    <string name="optimize_result_header_view_summary">زيادة السرعة</string>
     <string name="optimize_result_available_memory_info">الذاكرة المتاحة</string>
     <string name="optimize_result_title_uninstall_apps">التطبيقات</string>
     <string name="om_settings_title">إعدادات التحسين</string>
@@ -877,7 +880,7 @@
     <string name="om_ill_proc_type_wakelock_detail">إصلاح مشاكل وضع السكون</string>
     <string name="om_ill_proc_type_wifiscan_title">هذا التطبيق يقوم بالبحث عن شبكة Wi-Fi بشكل متكرر ويستنزف البطارية</string>
     <string name="om_ill_proc_type_wifiscan_detail">إصلاح مشاكل فحص شبكة Wi-Fi</string>
-    <string name="om_ill_proc_type_cpu_title">The app occupies CPU and drains battery</string>
+    <string name="om_ill_proc_type_cpu_title">يحتل التطبيق المعالج ويستنزف البطارية</string>
     <string name="om_ill_proc_type_cpu_detail">إصلاح مشاكل عبء المعالج</string>
     <string name="om_ill_proc_type_gps_title">هذا التطبيق يستخدم GPS كثيراََ ويستنزف البطارية</string>
     <string name="om_ill_proc_type_gps_detail">إصلاح مشاكل إستخدام GPS</string>
@@ -1322,7 +1325,7 @@
     <string name="title_install_virus_no">إيقاف مراقب التثبيت</string>
     <string name="title_install_virus_yes">تشغيل مراقب التثبيت</string>
     <string name="summary_install_virus">التحقق من التطبيقات لمعرفة ما إذا كانت هناك فيروسات قبل بدء التثبيت</string>
-    <string name="title_dev_model_off">خيارات المطور مغلقة</string>
+    <string name="title_dev_model_off">خيارات المطور متوقفة</string>
     <string name="title_dev_yes">إيقاف خيارات المطور</string>
     <string name="title_dev_no">تشغيل خيارات المطور</string>
     <string name="summary_dev">تجنب البرمجيات الخبيثة و قم بحماية البيانات الشخصية</string>
@@ -1515,7 +1518,7 @@
     <string name="title_payment_protection">الدفع آمن</string>
     <string name="title_payment_risk">العثور على مخاطر دفع</string>
     <string name="summary_payment_risk">يبدو أن بيئة الدفع غير آمنه</string>
-    <string name="title_garbage_less">App cache is small</string>
+    <string name="title_garbage_less">ذاكرة التخزين المؤقت للتطبيق صغيرة</string>
     <string name="title_garbage_clean">وصلت ذاكرة التخزين المؤقت للتطبيقات %s</string>
     <string name="summary_garbage_clean">حذف ذاكرة التخزين المؤقت لتفريغ مساحة</string>
     <string name="summary_consume_power">العثور على مشاكل حرارة زائدة، يمكن أن تؤثر على عمر البطارية</string>
@@ -1559,8 +1562,8 @@
     <string name="handle_title_pay_env">محيط الدفع</string>
     <string name="handle_title_privacy">الخصوصية والأمان</string>
     <string name="risk_count_suffix" />
-    <string name="virus_auto_update_engine">Auto updates：%s</string>
-    <string name="hints_scan_danger_result">Risk found, fix now</string>
+    <string name="virus_auto_update_engine">تحديثات تلقائية: %s</string>
+    <string name="hints_scan_danger_result">تم إيجاد خطر، إصلاح الآن</string>
     <string name="ss_activity_main_support_text">مدعوم من %s</string>
     <string name="hints_virus_app_summary">%s (تطبيق)</string>
     <string name="hints_virus_apk_summary">%s (apk)</string>
@@ -1579,7 +1582,7 @@
     <string name="virus_scan_process_pre">%</string>
     <string name="try_recommended_function">قم بحماية جهازك بإستخدام ميزات الحماية الجديدة</string>
     <string name="activity_title_white_list">الإستثناءات</string>
-    <string name="uninstall_danagerous_title">Uninstall malicious app</string>
+    <string name="uninstall_danagerous_title">إلغاء تثبيت التطبيقات الخبيثة</string>
     <string name="uninstall_danagerous_desc">\"%s\" قد يؤدي إلى تلف جهازك</string>
     <string name="uninstall_danagerous_msg">\"%s\" قد يؤدي إلى تلف جهازك أو تقليل أدائه أو إعادة تشغيله.</string>
     <string name="still_retain_btn">إبقاء</string>
@@ -1625,6 +1628,7 @@
     <string name="card_main_deepclean_wechat_action">حذف</string>
     <string name="card_main_sectool_title">الأدوات</string>
     <string name="card_main_monthreport_action">عرض</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">اختبار الشبكة</string>
     <string name="card_main_netcheck_summary">اختبار الاتصال لمشاكل الشبكة</string>
     <string name="card_main_netcheck_action">اختبار</string>
@@ -1649,9 +1653,9 @@
     <string name="skin_change_close_toast">سيتم تطبيق التغييرات في المرة القادمة التي تقوم فيها بتشغيل الحماية</string>
     <string name="Setting_lock">الإعدادات</string>
     <string name="app_name">قفل التطبيقات</string>
-    <string name="notification_item">حماية التطبيقات المحددة بقفل التطبيقات</string>
+    <string name="notification_item">حماية التطبيقات بقفل التطبيقات</string>
     <string name="lock_mode_title">إعدادات القفل</string>
-    <string name="after_the_lock_screen">التطبيق مقفول مع الشاشة</string>
+    <string name="after_the_lock_screen">قفل التطبيقات جنبا إلى جنب مع الشاشة</string>
     <string name="set_applock_password">تعيين كلمة مرور</string>
     <string name="ac_firstUseApplock_title">قم بتعيين كلمة مرور لحماية تطبيقاتك</string>
     <string name="ac_firstUseApplock_subTitle">استخدم أدوات حماية النظام على مستوى أفضل</string>
@@ -1712,7 +1716,7 @@
     <string name="go_to_setting_fingerprint">الإعدادات</string>
     <string name="fingerprint_remind_dialog_title">إلغاء القفل ببصمة الاصبع</string>
     <string name="confirm_fingerprint_msg">التحقق من بصمتك</string>
-    <string name="fingerprint_identify_msg">Turn on Fingerprint unlock</string>
+    <string name="fingerprint_identify_msg">تشغيل إلغاء القفل بإستخدام بصمة الاصبع</string>
     <string name="fingerprint_not_identified_msg">تعذر قراءة بصمة الاصبع. أدخل كلمة السر الخاصة بك</string>
     <string name="lockscreen_access_pattern_start">تم بدء النقش</string>
     <string name="lockscreen_access_pattern_cleared">تم مسح النقش</string>
@@ -1725,10 +1729,10 @@
     <string name="applock_not_add_account"><u>ليس الآن</u></string>
     <string name="applock_add_account">إضافة</string>
     <string name="applock_not_login_account">لم تقم بتسجيل الدخول</string>
-    <string name="applock_bind_account_title">إعادة تعيين كلمة المرور</string>
+    <string name="applock_bind_account_title">نسيت كلمة المرور</string>
     <string name="applock_close_dialog_title">إيقاف تشغيل قفل التطبيقات؟</string>
     <string name="applock_close_dialog_summary">لن تكون التطبيقات محمية بعد الآن وسيتم حذف كلمة المرور الخاصة بك بعد إيقاف تشغيل قفل التطبيقات.</string>
-    <string name="applock_header_text_less_than_half">Too little space for this app. Drag the separator further.</string>
+    <string name="applock_header_text_less_than_half">صغير جدا. اسحب قليلا.</string>
     <string name="wakepath_confirm_start_activity">السماح لـ%1$s بفتح %2$s؟</string>
     <string name="unlike">لا شكراً</string>
     <string name="toast_network_eror">لا يمكن الاتصال بالشبكة</string>
@@ -1919,7 +1923,7 @@
     <string name="gs_dialog_confirm_close_title">إيقاف</string>
     <string name="gs_dialog_confirm_close_msg">سيتم إزالة الاختصار من الشاشة الرئيسية. اذهب إلى االحماية > الإعدادات لإستعادته.</string>
     <string name="gs_game_performance">الأداء</string>
-    <string name="gs_game_duration">Time</string>
+    <string name="gs_game_duration">الوقت</string>
     <string name="gs_game_disturb_msg">عدم الازعاج</string>
     <string name="add_game">إضافة لعبة</string>
     <string name="add_whitelist">إضافة إلى الإستثناءات</string>
@@ -1957,13 +1961,13 @@
     <string name="more_game">المزيد من الألعاب</string>
     <string name="sys_title_gamebooster_unit_gb">غيغا</string>
     <string name="sys_title_gamebooster_unit_mb">ميغا</string>
-    <string name="google_base_app_install_choice">\"%s\" requires Google Service Framework apps to work normally, download and install them?</string>
+    <string name="google_base_app_install_choice">\"%s\" يتطلب إطار خدمات غوغل للتطبيقات ليعمل بشكل طبيعي، هل تريد تحميلها وتثبيتها؟</string>
     <string name="application_item_disable">مقيد</string>
     <string name="application_item_already_permission">تم السماح</string>
     <string name="man_add_application">إضافة تطبيقات التشغيل التلقائي يدوياً</string>
     <string name="power_autorun_apps_empty">لا يوجد أي تطبيق يشتغل تلقائيا</string>
     <string name="shield_keyboard_title">إيقاف تشغيل الأزرار</string>
-    <string name="shield_keyboard_detail">انقر نقرا مزدوجا على الأزرار لتشغيلهم مرة أخرى</string>
+    <string name="shield_keyboard_detail">انقر مرتين على الأزرار لتشغيلهم مرة أخرى</string>
     <string name="anti_disturb_msg_title">عدم الازعاج</string>
     <string name="anti_disturb_msg_detail">إيقاف تشغيل جميع الإشعارات ماعدا إشعارات المكالمات الواردة</string>
     <string name="wlan_change_protection_title">منع تبديل الشبكات</string>
@@ -1991,7 +1995,7 @@
     <string name="tab_gift">الهدايا</string>
     <string name="tab_guide">دليل</string>
     <string name="release_meminfo">تحرير %d ميغابايت</string>
-    <string name="best_booster_status">Gaming speed is the best available now.</string>
+    <string name="best_booster_status">سرعة اللعب هي أفضل ما هو متاح الآن.</string>
     <string name="do_clean">جار التنظيف…</string>
     <string name="auto_clean_close">التنظيف التلقائي متوقف</string>
     <string name="net_booster_title">زيادة سرعة الشبكة</string>
@@ -2005,7 +2009,6 @@
     <string name="net_booster_overdue_notification_tip">جلسة زيادة سرعة الشبكة على وشك الانتهاء. تجديد الجلسة؟</string>
     <string name="net_booster_expire_notification">جلسة زيادة سرعة الشبكة على وشك الانتهاء</string>
     <string name="xunyou_pay_webview">خدمات Xunyou</string>
-    <string name="net_booster_expire_notification_tip">%d d remaining before Network speed boost session ends. Renew the session to avoid network speed problems.</string>
     <string name="power_center_consume_rank">استخدام البطارية</string>
     <string name="power_center_custom_title">وضع البطارية</string>
     <string name="power_center_auto_shutdown_summary_default">قم بتشغيل جهازك أو إيقافه في وقت المحدد</string>

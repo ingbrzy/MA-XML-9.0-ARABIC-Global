@@ -67,7 +67,7 @@
     <string name="card_title_threeway_call">مكالمة ثلاثية</string>
     <string name="card_title_incoming_call">مكالمة واردة</string>
     <string name="card_title_answering">الرد على المكالمة</string>
-    <string name="card_title_answering_time_out">"Couldn't answer call, try again."</string>
+    <string name="card_title_answering_time_out">تعذر الرد على المكالمة، إعادة المحاولة.</string>
     <string name="card_title_call_ended">"تم إنهاء المكالمة "</string>
     <string name="card_title_on_hold">"معلقة "</string>
     <string name="card_title_hanging_up">"إنهاء المكالمة "</string>

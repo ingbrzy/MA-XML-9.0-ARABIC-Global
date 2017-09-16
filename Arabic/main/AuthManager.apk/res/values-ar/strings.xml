@@ -94,6 +94,7 @@
     <string name="location_settings">إعدادات الموقع</string>
     <string name="location_warning">%1$s هو مزود خدمات الموقع لهذا الجهاز. يمكن تعديل \"الوصول للموقع\" من إعدادات الموقع.</string>
     <string name="permission_warning_template">السماح لـ%1$s بـ%2$s ؟</string>
+    <string name="permission_warning_template_ask">السماح لـ %1$s بالأذونات التالية؟</string>
     <string name="screen_overlay_title">تم الكشف عن تراكب الشاشة</string>
     <string name="screen_overlay_message">لتغيير إعدادات الأذونات, يجب ان تقوم بايقاف تشغيل تراكب الشاشة من إعدادات>التطبيق</string>
     <string name="screen_overlay_button">فتح الإعدادات</string>
