@@ -81,7 +81,6 @@
     <string name="birthday_alarm_summary">تشغيل نغمة \"عيد ميلاد سعيد\" بدلاً من صوت المنبه الإفتراضي في يوم عيد ميلادك</string>
     <string name="turn_off_a_repeat_alarm">إيقاف تكرار المنبه</string>
     <string name="skip_alarm_once_hint">إيقاف لمرة واحدة في %s</string>
-    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="turn_off_this_repeat_alarm">إيقاف تكرار هذا المنبه</string>
     <string name="today">اليوم</string>
     <string name="tomorrow">غداً</string>
