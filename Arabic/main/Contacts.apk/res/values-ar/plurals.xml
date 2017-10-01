@@ -240,14 +240,6 @@
         <item quantity="few">إلغاء حظر %1$d أرقام هواتف؟</item>
         <item quantity="many">إلغاء حظر %1$d رقم هاتف؟</item>
     </plurals>
-    <plurals name="livetalk_unit">
-        <item quantity="other">دقيقة</item>
-        <item quantity="zero">دقيقة</item>
-        <item quantity="one">دقيقة</item>
-        <item quantity="two">دقائق</item>
-        <item quantity="few">دقائق</item>
-        <item quantity="many">دقيقة</item>
-    </plurals>
     <plurals name="callNoAnswerTimeFormat">
         <item quantity="other">رنين %1$d مرة</item>
         <item quantity="zero">رنين %1$d مرة</item>

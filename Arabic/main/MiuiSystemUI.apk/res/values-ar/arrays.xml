@@ -40,29 +40,29 @@
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>متوقّف</item>
-        <item>٦٤ كيلو</item>
-        <item>٢٥٦ كيلو</item>
-        <item>١ ميغا</item>
-        <item>٤ ميغا</item>
-        <item>١٦ ميغا</item>
+        <item>٦٤ كيلوبايت</item>
+        <item>٢٥٦ كيلوبايت</item>
+        <item>١ م.ب</item>
+        <item>٤ م.ب</item>
+        <item>١٦ م.ب</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
         <item>متوقّف</item>
-        <item>٦٤ كيلو</item>
-        <item>٢٥٦ كيلو</item>
-        <item>١ ميغا</item>
+        <item>٦٤ كيلوبايت</item>
+        <item>٢٥٦ كيلوبايت</item>
+        <item>١ ميغابايت</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
         <item>متوقّف</item>
-        <item>٦٤ كيلو لسجل المخزن المؤقت</item>
-        <item>٢٥٦ كيلو لسجل المخزن المؤقت</item>
-        <item>١ ميغا لسجل المخزن المؤقت</item>
-        <item>٤ ميغا لسجل المخزن المؤقت</item>
-        <item>١٦ ميغا لسجل المخزن المؤقت</item>
+        <item>٦٤ كيلوبايت لسجل المخزن المؤقت</item>
+        <item>٢٥٦ كيلوبايت لسجل المخزن المؤقت</item>
+        <item>١ ميغابايت لسجل المخزن المؤقت</item>
+        <item>٤ ميغابايت لسجل المخزن المؤقت</item>
+        <item>١٦ ميغابايت لسجل المخزن المؤقت</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>الرسوم المتحركة متوقفة</item>
-        <item>مقياس الرسوم المتحركة .5x</item>
+        <item>مقياس الرسوم المتحركة 0.5x</item>
         <item>مقياس الرسوم المتحركة 1x</item>
         <item>مقياس الرسوم المتحركة 1.5x</item>
         <item>مقياس الرسوم المتحركة 2x</item>
@@ -71,7 +71,7 @@
     </string-array>
     <string-array name="transition_animation_scale_entries">
         <item>الرسوم المتحركة متوقفة</item>
-        <item>مقياس الرسوم المتحركة .5x</item>
+        <item>مقياس الرسوم المتحركة 0.5x</item>
         <item>مقياس الرسوم المتحركة 1x</item>
         <item>مقياس الرسوم المتحركة 1.5x</item>
         <item>مقياس الرسوم المتحركة 2x</item>
@@ -80,7 +80,7 @@
     </string-array>
     <string-array name="animator_duration_scale_entries">
         <item>الرسوم المتحركة متوقفة</item>
-        <item>مقياس الرسوم المتحركة .5x</item>
+        <item>مقياس الرسوم المتحركة 0.5x</item>
         <item>مقياس الرسوم المتحركة 1x</item>
         <item>مقياس الرسوم المتحركة 1.5x</item>
         <item>مقياس الرسوم المتحركة 2x</item>
@@ -120,7 +120,7 @@
     <string-array name="debug_hw_overdraw_entries">
         <item>إيقاف</item>
         <item>عرض مناطق تجاوز الحد</item>
-        <item>عرض مناطق Deuteranomaly</item>
+        <item>عرض مناطق deuteranomaly</item>
     </string-array>
     <string-array name="app_process_limit_entries">
         <item>الحد القياسي</item>
@@ -148,6 +148,17 @@
         <item>سريع</item>
         <item>سريع جدا</item>
         <item>الأسرع</item>
+    </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
     </string-array>
     <string-array name="color_mode_names">
         <item>نابض بالحياة (إفتراضي)</item>

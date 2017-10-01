@@ -11,7 +11,7 @@
     <string name="title_choose_app_status">تحديد نوع التطبيق</string>
     <string name="normal_app">الواجهة الاولى</string>
     <string name="hidden_app">الواجهة الثانية</string>
-    <string name="public_app">كلا الفضائين</string>
+    <string name="public_app">كلا الواجهتين</string>
     <string name="current_space">الواجهة الحالية</string>
     <string name="switch_in_hidden_space">استيراد إلى الواجهة الحالية</string>
     <string name="summary_switch_apps_settings">تحديد التطبيقات المستخدمة في الواجهة الحالية</string>
@@ -22,12 +22,12 @@
     <string name="switch_out_files">تصدير الملفات</string>
     <string name="title_switch_photo">أترغب في حذف هذه الصورة؟</string>
     <string name="title_switch_file">أترغب في حذف هذه الملفات؟</string>
-    <string name="msg_switch_photo">حذف هذه الصور في الواجهة الاولى بعد نقلها؟</string>
-    <string name="msg_switch_file">حذف هذه الملفات في الواجهة الاولى بعد نقلها؟</string>
+    <string name="msg_switch_photo">حذف هذه الصور من الواجهة الاولى بعد نقلها؟</string>
+    <string name="msg_switch_file">حذف هذه الملفات من الواجهة الاولى بعد نقلها؟</string>
     <string name="delete_src_photo">حذف الصور</string>
     <string name="delete_src_file">حذف الملفات</string>
     <string name="retain_src_photo">الحفاظ على الصور</string>
-    <string name="retain_src_file">الحفاظ على الملفات</string>
+    <string name="retain_src_file">الاحتفاظ بالملفات</string>
     <string name="switching_apps">جارٍ نقل التطبيقات…</string>
     <string name="switching_contacts">جارٍ نقل جهات الاتصال…</string>
     <string name="switching_photos">جارٍ نقل الصور…</string>
@@ -49,7 +49,7 @@
     <string name="create_app_icon_success">تم إنشاء الأيقونة بنجاح</string>
     <string name="create_app_icon_failed">تعذر إنشاء الأيقونة</string>
     <string name="switch_file_success">تم نقل الملفات بنجاح</string>
-    <string name="goToSecondSpacce">اذهب إلى الواجهة الثانية</string>
+    <string name="goToSecondSpacce">الذهاب إلى الواجهة الثانية</string>
     <string name="newSecondSpace">تشغيل الواجهة الثانية</string>
     <string name="closeSecondSpace">حذف الواجهة الثانية</string>
     <string name="loading_space">لحظة من فضلك…</string>
@@ -67,9 +67,9 @@
     <string name="xspace_loading_msg">جارٍ تحميل التطبيقات…</string>
     <string name="xspace_header">التطبيقات المزدوجة</string>
     <string name="xspace_introduce">موصى به</string>
-    <string name="xspace_description">"التطبيقات المزدوجة هي نسخ تطبيقات يمكن استخدامها بشكل منفصل مع حساب مختلف.
+    <string name="xspace_description">"التطبيقات المزدوجة عبارة عن نسخ لتطبيقات يمكن استخدامها بشكل منفصل مع حساب مختلف.
 
-تتطلب بعض التطبيقات المزدوجة دعم إطار عمل خدمات غوغل. في مثل هذه الحالات، يتم إنشاء إطار خدمات غوغل المزدوج."</string>
+تتطلب من بعض التطبيقات المزدوجة دعم إطار عمل خدمات Google. في مثل هذه الحالات، يتم إنشاء إطار خدمات Google المزدوج."</string>
     <string name="xspace_chocie">دعم التطبيق المزدوج</string>
     <string name="xspace_creating">جارٍ إنشاء تطبيق مزدوج…</string>
     <string name="xspace_installing">جارٍ التثبيت…</string>
@@ -87,7 +87,7 @@
     <string name="passwordProtect">كلمة السر</string>
     <string name="PassWordGuard">كلمة مرور الواجهة الثانية</string>
     <string name="openPasswordGuard">تعيين كلمة مرور الواجهة الثانية</string>
-    <string name="setSpacePasswordGuide">استخدم كلمات سر مختلفة للدخول لكلا الفضائين من شاشة القفل</string>
+    <string name="setSpacePasswordGuide">استخدم كلمات سر مختلفة للدخول لكلا الواجهتين من شاشة القفل</string>
     <string name="startSet">تعيين</string>
     <string name="needSetKeyguardFirst">تعيين كلمة مرور الواجهة الاولى</string>
     <string name="needSetKeyguardFirstDes">تعيين كلمة مرور الواجهة الاولى قبل تعيين كلمة مرور الواجهة الثانية</string>
@@ -104,14 +104,14 @@
     <string name="confirmClose">إيقاف التشغيل</string>
     <string name="opened">مشغّل</string>
     <string name="closed">متوقّف</string>
-    <string name="changePassword">تغيير كلمة السر</string>
+    <string name="changePassword">تغيير كلمة المرور</string>
     <string name="passWordGuardSummary">الدخول إلى الواجهة الثانية من قفل الشاشة باستخدام كلمة المرور</string>
     <string name="notificationTitle">اختصار مركز الاشعارات</string>
     <string name="notificationSummary">تبديل بين الواجهتين من مركز الاشعارات</string>
     <string name="otherSettings">إعدادات أخرى</string>
     <string name="privacyContactsTitle">رسائل خاصة و جهات الاتصال</string>
     <string name="privacyContactsSummary">عرض العناصر الخاصة في الواجهة الثانية</string>
-    <string name="switchDataSummary">نقل عناصر بين الفضائين</string>
+    <string name="switchDataSummary">نقل عناصر بين الواجهتين</string>
     <string name="serNameSummary">الواجهة الثانية</string>
     <string name="closeSecondSpaceSummary">حذف الواجهة الثانية بالإضافة إلى البيانات الخاصة به</string>
     <string name="notificationSetPassword">تعيين كلمة المرور</string>
@@ -133,7 +133,7 @@
     <string name="transferApp">سيتم نقل التطبيقات المثبتة في الواجهة الثانية إلى الواجهة الاولى. ولكن سيتم فقدان جميع بيانات التطبيقات.</string>
     <string name="transferFile">تحديد ملفات أخرى يدوياً</string>
     <string name="continueButton">متابعة</string>
-    <string name="removingSpace">جارٍالحذف…</string>
+    <string name="removingSpace">جارٍ الحذف…</string>
     <string name="removeSuccess">تم الحذف بنجاح</string>
     <string name="confirmSecondSpacePassword">تأكيد كلمة مرور الواجهة الثانية</string>
     <string name="secondSpace">الواجهة الثانية</string>
@@ -144,8 +144,8 @@
     <string name="chooseFile">تحديد ملفات أخرى</string>
     <string name="deleteAll">حذف الكل</string>
     <string name="startTransfer">نقل</string>
-    <string name="switch_to_second_space">اذهب إلى الواجهة الثانية</string>
-    <string name="switch_to_first_space">اذهب إلى الواجهة الاولى</string>
+    <string name="switch_to_second_space">الذهاب إلى الواجهة الثانية</string>
+    <string name="switch_to_first_space">الذهاب إلى الواجهة الاولى</string>
     <string name="click_to_back_first_space">انقر للرجوع إلى الواجهة الاولى</string>
     <string name="click_to_switch">انقر للعرض</string>
     <string name="confirm_main_space_password">تأكيد كلمة مرور الواجهة الاولى</string>
@@ -207,10 +207,10 @@
     <string name="show_private_msg">عرض الرسائل الخاصة</string>
     <string name="contact_titile_text">"عرض الرسائل الخاصة في الواجهة الثانية
  لتتمكن من عرضهم في إي وقت"</string>
-    <string name="contact_sub_titile_text">سيتم مشاركة بيانات الرسائل بين الفضائين</string>
+    <string name="contact_sub_titile_text">سيتم مشاركة بيانات الرسائل بين الواجهتين</string>
     <string name="show_private_msg_summary">عرض الرسائل الخاصة في الواجهة الثانية</string>
     <string name="private_sms_show_title">تظهر الرسائل الخاصة في الواجهة الثانية</string>
-    <string name="private_sms_show_sub_title">سيتم مشاركة بيانات الرسائل بين الفضائين</string>
+    <string name="private_sms_show_sub_title">سيتم مشاركة بيانات الرسائل بين الواجهتين</string>
     <string name="restore_normal_show">عدم إظهار الرسائل الخاصة</string>
     <string name="restore_show_desc">عدم عرض الرسائل الخاصة في الواجهة الثانية. ستظل متاحة في الواجهة الاولى.</string>
     <string name="confirm_restore">عدم الإظهار</string>
@@ -238,7 +238,7 @@
     <string name="scanner_second_space_fingerprint">مسح بصمة اصبع الواجهة الثانية</string>
     <string name="repeat_scanner_fingerprint">إضافة مرة أخرى</string>
     <string name="sure_to_use">تأكيد</string>
-    <string name="scanner_fingerprint_tips_title">الدخول إلى الواجهة الثانية بإستخدام يصمة اصبع موجودة</string>
+    <string name="scanner_fingerprint_tips_title">الدخول إلى الواجهة الثانية بإستخدام بصمة اصبع موجود مسبقا</string>
     <string name="scanner_fingerprint_tips_desc">اختر بصمة اصبع موجودة للدخول إلى الواجهة الثانية. لن تتمكن من استخدامها في الواجهة الاولى.</string>
     <string name="back">رجوع</string>
     <string name="scanner_fingerprint_error_tips_desc">لا يمكن العثور على تطابق. هل تريد إضافة بصمة اصبع الواجهة الثانية؟</string>
@@ -309,7 +309,7 @@
     <string name="show_noti_quick_switch_icon_detail">عرض اختصار لتبديل الواجهات في مركز الاشعارات</string>
     <string name="show_decktop_quick_switch_icon">إختصار الشاشة الرئيسية</string>
     <string name="show_decktop_quick_switch_icon_detail">عرض اختصار لتبديل الواجهات على الشاشة الرئيسية في الواجهة الاولى</string>
-    <string name="has_created_second_space">"يمكنك فتح الواجهة الثانيةالآن.
+    <string name="has_created_second_space">"يمكنك فتح الواجهة الثانية الآن.
 واجهتين. جهاز واحد."</string>
     <string name="privacy_password_fingerprint_dialog_title">قم بمسح بصمة الاصبع الخاصة بك</string>
     <string name="privacy_password_fingerprint_dialog_message">ضع إصبعك على المستشعر</string>

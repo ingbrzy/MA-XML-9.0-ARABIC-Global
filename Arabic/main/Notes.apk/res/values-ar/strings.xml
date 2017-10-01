@@ -6,6 +6,7 @@
     <string name="sina_token_expired_warning">إنتهت صلاحية حساب Weibo، قم بإضافة الحساب مرة أخرى.</string>
     <string name="sina_token_invalid_warning">حساب Weibo غير صالح، قم بإضافة الحساب مرة أخرى.</string>
     <string name="sina_share_fail_content_repeat">لقد قمت بمشاركة هذا مسبقا.</string>
+    <string name="search_title_notes">@string/app_name</string>
     <string name="search_keyword_notes">الملاحظات;المذكرة</string>
     <string name="search_path_notes">تطبيقات النظام/الملاحظات</string>
     <string name="dlg_move_message">جارٍ النقل…</string>
@@ -71,7 +72,7 @@
     <string name="dialog_share_as_pic">مشاركة ملاحظة كصورة</string>
     <string name="note_description_title">حول الملاحظات</string>
     <string name="note_description_content">تطبيق الملاحظات هو أداة رائعة لتسجيل أفكارك. يحتوي على تذكيرات افتراضية ومزامنة للعناصر الخاصة بك إلى Mi Cloud حتى تتمكن من الوصول إليها في أي مكان وفي أي وقت. تأكد من أنك تستطيع أن تفعل ذلك دون هذه الميزات قبل حذف التطبيق.</string>
-    <string name="db_downgrade_clear_date_reminder">التبديل إلى إصدار مختلف من MIUI يتطلب مسح بيانات تطبيق الملاحظات. قبل القيام بذلك، تأكد من أنك قمت بعمل نسخة احتياطية من الملاحظات الخاصة بك إلى Mi Cloud.</string>
+    <string name="db_downgrade_clear_date_reminder">التبديل إلى إصدار مختلف من MIUI يتطلب مسح بيانات تطبيق الملاحظات. ولكن قبل القيام بذلك، تأكد من أنك قمت بعمل نسخة احتياطية من الملاحظات الخاصة بك إلى Mi Cloud.</string>
     <string name="db_downgrade_clear_button">مسح بيانات التطبيق</string>
     <string name="app_name">الملاحظات</string>
     <string name="app_widget">ملاحظات</string>
@@ -178,7 +179,7 @@
     <string name="action_settings_description">فتح الإعدادات</string>
     <string name="menu_add_folder_description">إضافة مجلد</string>
     <string name="toolbar_share_description">مشاركة هذه الملاحظة</string>
-    <string name="toolbar_theme_description">اختيار سمة</string>
+    <string name="toolbar_theme_description">اختر سمة</string>
     <string name="toolbar_delete_description">حذف هذه الملاحظة</string>
     <string name="toolbar_more_description">المزيد</string>
     <string name="toolbar_undo_description">تراجع</string>

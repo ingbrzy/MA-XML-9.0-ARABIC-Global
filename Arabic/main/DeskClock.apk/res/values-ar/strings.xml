@@ -23,6 +23,7 @@
     <string name="delete_timer_item_title">حذف المؤقت</string>
     <string name="delete_selected_timer_item">حذف المؤقت المحدد؟</string>
     <string name="delete_timezone_title">حذف المنطقة الزمنية</string>
+    <string name="add_timezone_title">إضافة منطقة زمنية</string>
     <string name="timezone_exist_error_message">أنت تعرض هذه المنطقة الزمنية بالفعل</string>
     <string name="alarm_disabled">إيقاف</string>
     <string name="alarm_ascending_mode_title">صوت تصاعدي</string>
@@ -103,6 +104,7 @@
     <string name="life_post_wake_up_item_acumu_day_title">عد اليوم</string>
     <string name="life_post_wake_up_item_acumu_day">%1$s أيام</string>
     <string name="life_post_setting">تقرير الصباح</string>
+    <string name="life_post_setting_close_title">إغلاق التقارير الصباحية</string>
     <string name="life_post_setting_open_title">تلقي تقارير الصباح</string>
     <string name="life_post_setting_open_subtitle">تلقي معلومات عن الطقس عند إيقافك تشغيل التنبيهات بين ٤:۰۰ و ۹:۳۰</string>
     <string name="life_post_setting_wake_up_list_title">سجل الإستيقاظ</string>
@@ -110,6 +112,8 @@
     <string name="life_post_setting_FBE_remind">بسبب تقييد النظام، قد لا يتم عرض معلومات الطقس في تقرير الصباح بشكل صحيح بعد إعادة التشغيل</string>
     <string name="install_weather_app_loading">لحظة من فضلك…</string>
     <string name="install_weather_app_error">تعذر تحميل التطبيق</string>
+    <string name="more_setting">المزيد من الإعدادات</string>
+    <string name="go_back">رجوع</string>
     <string name="app_label">الساعة</string>
     <string name="alarm_list_title">المنبه</string>
     <string name="add_alarm">إضافة منبه</string>

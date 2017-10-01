@@ -5,7 +5,7 @@
     <string name="SMTP_username_text">اسم المستخدم</string>
     <string name="account_duplicate_dlg_message_fmt">أنت تستخدم اسم المستخدم هذا للحساب \"%s\" مسبقا.</string>
     <string name="account_duplicate_dlg_title">حساب مكرر</string>
-    <string name="account_failure">إنتهت صلاحية الدورة</string>
+    <string name="account_failure">إنتهت مهلة الإتصال</string>
     <string name="account_name_toast">يوجد بالفعل حساب بنفس الاسم</string>
     <string name="account_options_sync_title">مزامنة</string>
     <string name="account_password_spaces_error">"كلمة المرور هذه تبدأ أو تنتهي بمسافة 
@@ -16,7 +16,7 @@
     <string name="account_security_policy_explanation_fmt">"يتطلب الخادم %s أن تسمح له بالتحكم عن بعد في
           بعض مزايا الحماية  لجهاز الاندرويد الخاص بك."</string>
     <string name="account_security_title">حماية الجهاز</string>
-    <string name="account_set_up_change_type_note">إذا كنت في حاجة إلى التبديل بين إعدادات POP3 وIMAP، احذف حسابك وقم بإنشاء حساب جديد بإعداداتك المفضلة.</string>
+    <string name="account_set_up_change_type_note">إذا كنت في حاجة إلى التبديل بين إعدادات POP3 وIMAP، قم بحذف حسابك وقم بإنشاء حساب جديد بإعداداتك المفضلة.</string>
     <string name="account_setting">الحسابات</string>
     <string name="account_setting_keywords">حسابات؛حسابات البريد</string>
     <string name="account_setting_message_body_load_complete">الرسالة كاملة</string>
@@ -46,6 +46,9 @@
     <string name="account_settings_notify_summary">عرض إشعار عند وصول بريد إلكتروني جديد</string>
     <string name="account_settings_param">إعدادات الحساب</string>
     <string name="account_settings_policies">سياسات الحماية</string>
+    <string name="account_settings_preference_add_account">إضافة حساب بريد إلكتروني</string>
+    <string name="account_settings_preference_head_icon">صور الملف الشخصي</string>
+    <string name="account_settings_preference_notify">إعلام</string>
     <string name="account_settings_retry_label">محاولة المزامنة</string>
     <string name="account_settings_retry_summary">اللمس لمزامنة الحساب</string>
     <string name="account_settings_ringtone">صوت الإشعار</string>
@@ -59,6 +62,7 @@
     <string name="account_settings_sync_email_summary">مزامنة البريد الإلكتروني لهذا الحساب</string>
     <string name="account_settings_unsupported_label">سياسات غير مدعومة</string>
     <string name="account_settings_unsupported_summary">لا شيء</string>
+    <string name="account_settings_user_usage">إعدادات الحساب</string>
     <string name="account_settings_using_ringtone">نغمة الرنين</string>
     <string name="account_settings_vibrate_when_label">اهتزاز</string>
     <string name="account_setup_account_type_instructions">ما نوع هذا الحساب؟</string>
@@ -66,9 +70,10 @@
     <string name="account_setup_address_label">البريد الإلكتروني</string>
     <string name="account_setup_autodiscover_dlg_authfail_message">تأكد من صحة إعدادات الحساب وكلمة المرور واسم المستخدم.</string>
     <string name="account_setup_autodiscover_dlg_authfail_title">تعذر إعداد الحساب</string>
-    <string name="account_setup_basics_email_label">عنوان البريد الإلكتروني</string>
+    <string name="account_setup_basics_email_label">أدخل هوية الحساب</string>
+    <string name="account_setup_basics_login_gmail_without_proxy">قم بتسجيل الدخول باستخدام الشبكة الحالية</string>
     <string name="account_setup_basics_manual_setup_action">الإعداد اليدوي</string>
-    <string name="account_setup_basics_password_label">كلمة المرور</string>
+    <string name="account_setup_basics_password_label">أدخل كلمة المرور</string>
     <string name="account_setup_basics_title">إضافة حساب</string>
     <string name="account_setup_check_settings_check_incoming_msg">"    جارٍ التحقق من إعدادات الخادم…"</string>
     <string name="account_setup_check_settings_check_outgoing_msg">"    جارٍ التحقق من إعدادات smtp…"</string>
@@ -87,7 +92,7 @@
     <string name="account_setup_failed_dlg_certificate_message">تعذر الاتصال بالخادم بأمان.</string>
     <string name="account_setup_failed_dlg_certificate_message_fmt">"لا يمكن الاتصال بالخادم بأمان.
 (%s)"</string>
-    <string name="account_setup_failed_dlg_device_locked">\"تعذر تسجيل الدخول. تم حظر هذا الحساب.\"</string>
+    <string name="account_setup_failed_dlg_device_locked">الحساب الخاص بك آمن. تحقق من هذا الجهاز باستخدام أمان QQ أو إزالة الحماية.</string>
     <string name="account_setup_failed_dlg_edit_details_action">"تعديل التفاصيل "</string>
     <string name="account_setup_failed_dlg_error_code">رمزالخطأ: %s</string>
     <string name="account_setup_failed_dlg_server_message">تعذر الاتصال بالخادم.</string>
@@ -118,7 +123,8 @@
     <string name="account_setup_incoming_server_label">الخادم</string>
     <string name="account_setup_incoming_username_label">اسم المستخدم</string>
     <string name="account_setup_incoming_username_label_default_hint">قد تُضمن الـdomain</string>
-    <string name="account_setup_need_password_verification">يمتلك حسابك مصادقة كلمة مرور ثانوية. يتطلب وجود مصادقة.</string>
+    <string name="account_setup_need_password_verification">يمتلك حسابك مصادقة من خطوتين. يتطلب وجود مصادقة.</string>
+    <string name="account_setup_options_actionbar_title">الإعدادات السريعة</string>
     <string name="account_setup_options_mail_check_frequency_10min">كل ۱۰ دقائق</string>
     <string name="account_setup_options_mail_check_frequency_12hour">كل ۱۲ ساعة</string>
     <string name="account_setup_options_mail_check_frequency_1hour">كل ساعة</string>
@@ -135,7 +141,7 @@
     <string name="account_setup_options_mail_window_all">كل شيء</string>
     <string name="account_setup_options_mail_window_auto">تلقائي</string>
     <string name="account_setup_options_mail_window_default">استخدام الحساب الافتراضي</string>
-    <string name="account_setup_options_mail_window_label">مزامنة البريد من</string>
+    <string name="account_setup_options_mail_window_label">فترة المزامنة</string>
     <string name="account_setup_options_mail_window_label_imap_or_pop3">إبقاء لـ</string>
     <string name="account_setup_options_title">إعدادات الحساب</string>
     <string name="account_setup_outgoing_port_label">المنفذ</string>
@@ -146,6 +152,8 @@
     <string name="account_setup_server_acc_manager_title">الحسابات</string>
     <string name="account_setup_username_password_toast">اكتب عنوان بريد إلكتروني وكلمة مرور صالحين.</string>
     <string name="account_sync_off">مزامنة الحساب لا تعمل.</string>
+    <string name="account_sync_settings_settings">مزامنة جهات الاتصال والتقويم</string>
+    <string name="account_sync_settingstip_description">مزامنة</string>
     <string name="account_waiting_for_folders_msg">جارٍ تحميل المجلدات…</string>
     <string name="actionbar_large_unread_count">%1$d+ الغير مقروءة</string>
     <string name="activity_folder_selection">اختر مجلد</string>
@@ -159,7 +167,7 @@
     <string name="add_pre_message_attachments">إضافة المرفقات في الرسالة المسبقة؟</string>
     <string name="add_pre_message_attachments_no">عدم الإضافة</string>
     <string name="add_pre_message_attachments_yes">إضافة</string>
-    <string name="add_star">مفضلة</string>
+    <string name="add_star">مميّز</string>
     <string name="allread">قراءة الكل</string>
     <string name="always_bcc_myself">اضافتي دائما في النسخة المخفية</string>
     <string name="always_show_images">إظهار الصور دائماً من هذا المرسل</string>
@@ -226,7 +234,7 @@
     <string name="bottom_bar_more_share">مشاركة</string>
     <string name="bottom_bar_no_quickreply_toast">لا يوجد رد سريع</string>
     <string name="bytes">%s بايت</string>
-    <string name="calendar_remind_dialog_title">تذكير</string>
+    <string name="calendar_remind_dialog_title">تذكير في وقت لاحق</string>
     <string name="calendar_remind_gridview_pick_date">اختيار تاريخ</string>
     <string name="cancel">إلغاء</string>
     <string name="cancel_action">إلغاء</string>
@@ -304,10 +312,14 @@
     <string name="contextmenu_send_mail">إرسال بريد إلكتروني</string>
     <string name="contextmenu_sharelink">مشاركة رابط</string>
     <string name="contextmenu_sms_dot">رسالة SMS…</string>
+    <string name="conversation_detail_hide">إخفاء</string>
+    <string name="conversation_detail_show">التفاصيل</string>
     <string name="conversation_folder_moved">تم النقل إلى %1$s</string>
     <string name="conversation_item_mark_read">مقروءة</string>
     <string name="conversation_item_mark_unread">غير مقروءة</string>
+    <string name="conversation_msg_header_collapsed_sent_to">"أُرسلت إلى "</string>
     <string name="conversation_photo_welcome_text">المس صورة مرسل لتحديد تلك المحادثة.</string>
+    <string name="conversation_pull_ad_content">إدارة رسائل البريد الإلكتروني دون عناء</string>
     <string name="conversation_quick_button_approve">موافق</string>
     <string name="conversation_quick_button_disapprove">إلغاء</string>
     <string name="conversation_quick_button_received">تم التسليم</string>
@@ -326,6 +338,7 @@
     <string name="default_">افتراضي</string>
     <string name="default_setup">الإعدادات الافتراضية</string>
     <string name="default_signature">مرسل من هاتف Mi</string>
+    <string name="default_signature_2">تم الإرسال من %s</string>
     <string name="del_account_questionnair_hint">هل يمكنك أن تخبرنا لماذا تقوم بإزالة هذا الحساب؟</string>
     <string name="delete">حذف</string>
     <string name="delete_message_flow">حذف تدفق الرسائل</string>
@@ -337,11 +350,13 @@
     <string name="device_admin_label">البريد الإلكتروني</string>
     <string name="device_not_activiey_lint1">مدير الجهاز ليس مفعل</string>
     <string name="device_not_activiey_lint2">لا تعمل خدمة البريد مع Exchange</string>
-    <string name="dialog_account_auto_sync_setting_no_open">لا يمكن استلام رسائل جديدة تلقائياً. المزامنة لا تعمل.</string>
+    <string name="dialog_account_auto_sync_setting_no_open">لقد قمت بإختيار مزامنة رسائل البريد الإلكتروني يدوياً. قم بالتحديث للمزامنة.</string>
     <string name="dialog_change_sync_lookback">سيتم حذف البريد المستلم منذ %s تلقائياً. انقرلتغيير.</string>
     <string name="dialog_gmail_proxy_server_is_error">خطأ في خادم وكيل Gmail.</string>
     <string name="dialog_insufficient_space_on_external">تعذر تنزيل المرفقات. مساحة غير كافية على وحدة التخزين الخارجية.</string>
     <string name="dialog_insufficient_space_on_internal">مساحة غير كافية على وحدة التخزين الداخلية.</string>
+    <string name="dialog_system_auto_sync_account_no_open">مزامنة الحساب في حالة إيقاف. لا يمكن مزامنة رسائل البريد الإلكتروني.</string>
+    <string name="dialog_system_auto_sync_master_no_open">نظام المزامنة في حالة إيقاف. لا يمكن مزامنة رسائل البريد الإلكتروني.</string>
     <string name="disable_admin_warning">\"تحذير: سيؤدي تعطيل الأذن لتطبيق البريد الإلكتروني في إدارة جهازك إلى حذف كل حسابات البريد الإلكتروني التي تتطلب ذلك، إلى جانب الرسائل، جهات الاتصال، أحداث التقويم، والبيانات الأخرى الخاصة بها.\".</string>
     <string name="discard">تجاهل</string>
     <string name="discard_drafts">تجاهل المسودات</string>
@@ -375,6 +390,7 @@
     <string name="due">مستحق</string>
     <string name="due_date_text">السداد النهائي</string>
     <string name="edit_quick_response_dialog">الرد السريع</string>
+    <string name="edit_signature">تعديل التوقيع</string>
     <string name="email_netease">بريد NetEase</string>
     <string name="email_qq">بريد QQ</string>
     <string name="email_setting">البريد</string>
@@ -448,6 +464,7 @@
     <string name="gmail_web_login_go">موافق</string>
     <string name="gmail_web_login_required_message">تسجيل الدخول إلى Gmail</string>
     <string name="header_category_account">الحسابات</string>
+    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">ردود الأفعال</string>
     <string name="header_label_general_preferences">عام</string>
     <string name="help_and_info">المساعدة</string>
@@ -481,6 +498,7 @@
     <string name="login139">تسجيل الدخول مع China Mobile</string>
     <string name="login_failed_ticker">لم يتم تسجيل دخول %s بنجاح.</string>
     <string name="login_failed_title">تعذر تسجيل الدخول</string>
+    <string name="login_support_tip_text">يدعم جميع حسابات البريد الإلكتروني الرئيسية</string>
     <string name="long_press_to_select_tip">المس &amp; مع الاستمرار لتحديد محادثة واحدة، ثم المس لتحديد المزيد.</string>
     <string name="mail">البريد</string>
     <string name="mail_body_turncated">هذا البريد الإلكتروني كبير جداً لتحميله، اعرض جزءاً منه فقط ويرجى الإطلاع عليه لاحقاً بالكامل عبر جهاز الكمبيوتر</string>
@@ -489,11 +507,12 @@
     <string name="mail_header_network_not_available">ليس لديك اتصال بالشبكة.</string>
     <string name="mailbox_list_account_selector_combined_view">الحساب الموحد</string>
     <string name="mailbox_name_display_ad">إعلانات</string>
+    <string name="mailbox_name_display_add_account">إضافة حساب بريد إلكتروني</string>
     <string name="mailbox_name_display_circular">الإشعارات</string>
     <string name="mailbox_name_display_drafts">المسودات</string>
     <string name="mailbox_name_display_inbox">البريد الوارد</string>
     <string name="mailbox_name_display_junk">البريد المزعج</string>
-    <string name="mailbox_name_display_outbox">البريد الصادر</string>
+    <string name="mailbox_name_display_outbox">إرسال</string>
     <string name="mailbox_name_display_sent">البريد المرسَل</string>
     <string name="mailbox_name_display_starred">المفضّلة</string>
     <string name="mailbox_name_display_trash">سلة المهملات</string>
@@ -553,10 +572,10 @@
     <string name="megabytes">%s ميغابايت</string>
     <string name="menu_att_mgr">المرفقات</string>
     <string name="menu_att_mgr_order_default">تم عرضها مؤخراً</string>
-    <string name="menu_att_mgr_order_mime">ترتيب حسب الصيغة</string>
-    <string name="menu_att_mgr_order_name">ترتيب حسب الاسم</string>
-    <string name="menu_att_mgr_order_rev_date">ترتيب حسب تاريخ الاستلام</string>
-    <string name="menu_att_mgr_order_size">ترتيب حسب الحجم</string>
+    <string name="menu_att_mgr_order_mime">تنسيق</string>
+    <string name="menu_att_mgr_order_name">الإسم</string>
+    <string name="menu_att_mgr_order_rev_date">التاريخ</string>
+    <string name="menu_att_mgr_order_size">حجم الملف</string>
     <string name="menu_change_folders">نقل</string>
     <string name="menu_compose">إنشاء رسالة</string>
     <string name="menu_contact_edit">تعديل</string>
@@ -601,6 +620,7 @@
     <string name="network_unavailable">الشبكة غير متاحة</string>
     <string name="new_incoming_messages_one">رسالة جديدة من %s. عرض.</string>
     <string name="new_messages">%1$d من الرسائل الجديدة</string>
+    <string name="new_signature_has_saved">تم الحفظ بنجاح</string>
     <string name="next_action">التالي</string>
     <string name="no">لا</string>
     <string name="no_application_found">لم يتم العثورعلى تطبيق لفتح هذا المرفق.</string>
@@ -630,6 +650,7 @@
     <string name="oauth_gmail_login_notify">أدخل اسم مستخدم حساب Google وكلمة المرور في صفحة تسجيل الدخول التالية.</string>
     <string name="oauth_login_continue">متابعة</string>
     <string name="oauth_login_continue_qq">الحصول على رمز مرور وتسجيل الدخول ></string>
+    <string name="oauth_login_usr_proxy">قم بتسجيل الدخول باستخدام خادم وكيل</string>
     <string name="ok">موافق</string>
     <string name="okay_action">موافق</string>
     <string name="outbox_alert_button_no_resend">عدم الإرسال</string>
@@ -757,7 +778,7 @@
     <string name="qq_uthentication_failed">تعذر التحقق من الحساب، تسجيل الدخول مرة أخرى</string>
     <string name="qq_webview_loading">لحظة من فضلك…</string>
     <string name="questionnair_body_invisibility">لا يتم عرض الرسائل</string>
-    <string name="questionnair_confirm_delete">إزالة</string>
+    <string name="questionnair_confirm_delete">إزالة الحساب؟</string>
     <string name="questionnair_instability">كثيراً ما يتعطل</string>
     <string name="questionnair_not_send">لا يمكن إرسال البريد</string>
     <string name="questionnair_not_sync">مزامنة غير مستقرة</string>
@@ -790,8 +811,10 @@
     <string name="recognize_hotel_other_money">مصاريف أخرى %1$s</string>
     <string name="recognize_hotel_reverse_date">قم بالتسجيل قبل %1$s:%2$s %3$s</string>
     <string name="recognize_hotel_room_type">الغرفة</string>
+    <string name="recognize_hotel_room_type_value">%2$s × %1$s</string>
     <string name="recognize_hotel_title">حجز فندق</string>
     <string name="recognize_hotel_user_names">ضيف</string>
+    <string name="recognize_hotel_user_names_value">%2$s+%1$s</string>
     <string name="recognize_setting_title">إعدادات السفر</string>
     <string name="recognize_ticket_air_notification_content">استمتع برحلتك!</string>
     <string name="recognize_ticket_air_notification_title">سوف تقلع الرحلة %3$s (%1$s/%2$s) قريبا. تحقق من معلومات الطيران الخاصة بك مرة أخرى.</string>
@@ -818,7 +841,7 @@
     <string name="remove_folder">إزالة من %1$s</string>
     <string name="remove_star">غير مفضلة</string>
     <string name="reply">رد</string>
-    <string name="reply_add_bodycontent">إضافة نص رد سريع إلى محتوى الرسالة؟</string>
+    <string name="reply_add_bodycontent">إضافة الرد إلى النص الأساسي للرسالة؟</string>
     <string name="reply_all">الرد على الكل</string>
     <string name="reply_attribution" formatted="false">في %s ،%s كتب:</string>
     <string name="report_phishing">الإبلاغ عن تصيد احتيالي</string>
@@ -830,16 +853,18 @@
     <string name="save_draft_failed">فشل حفظ المسودة</string>
     <string name="save_power_summary">تعيين وقت توفير الطاقة</string>
     <string name="save_power_title">توفير شحن البطارية</string>
+    <string name="save_this_new_signature">حفظ التوقيع الجديد؟</string>
     <string name="saved">تم الحفظ، %s</string>
     <string name="saving">جارٍ الحفظ...</string>
     <string name="sdcard_cannot_use">تعذر استخدام بطاقة SD</string>
+    <string name="search_bar_text">البحث عن رسائل وجهات إتصال</string>
     <string name="search_hint">بحث في بريد</string>
     <string name="search_result">"النتائج "</string>
     <string name="search_tabs_name_all">الكل</string>
     <string name="search_tabs_name_recipient">المستلم</string>
     <string name="search_tabs_name_sender">المرسل</string>
     <string name="search_tabs_name_subject">" الموضوع"</string>
-    <string name="search_txt_size_limit_prompt">مصطلحات البحث يجب أن تكون أكثر من 3 حروف</string>
+    <string name="search_txt_size_limit_prompt">مصطلحات البحث يجب أن تكون أكثر من ٣ أحرف</string>
     <string name="security_changed_ticker_fmt">قام الحساب \"%s\" بتغيير إعدادات الحماية؛ لا يتطلب إي إجراء من المستخدم.</string>
     <string name="security_needed_ticker_fmt">يتطلب الحساب \"%s\" تحديث إعدادات الحماية.</string>
     <string name="security_notification_content_change_title">"تم تغيير سياسات
@@ -895,11 +920,13 @@
     <string name="sort_attachment">ترتيب حسب</string>
     <string name="storage">التخزين</string>
     <string name="str_select_all">تحديد الكل</string>
-    <string name="str_select_none">الغاء التحديد</string>
+    <string name="str_select_none">الغاء تحديد الكل</string>
     <string name="subject_and_snippet" formatted="false">%s — %s</string>
     <string name="subject_hint">الموضوع</string>
     <string name="sync_error">تعذر المزامنة.</string>
     <string name="sync_error_message">لا توجد مساحة تخزين كافية على جهازك للمزامنة.</string>
+    <string name="syncing_wait_restart">حاول مجدداً</string>
+    <string name="syncing_wait_restart_title">انتهت مهلة اتصال الخادم</string>
     <string name="system_account_create_failed">تعذر إنشاء الحساب. حاول مرة أخرى.</string>
     <string name="system_folders_sent_dlg">حدد مجلد العناصر المرسلة للخادم</string>
     <string name="system_folders_sent_summary">حدد مجلد العناصر المرسلة للخادم</string>
@@ -908,6 +935,7 @@
     <string name="system_folders_trash_dlg">حدد مجلد مهملات الخادم</string>
     <string name="system_folders_trash_summary">حدد مجلد مهملات الخادم</string>
     <string name="system_folders_trash_title">مجلد المهملات</string>
+    <string name="system_setup_open_error">السماح بالمزامنة في الإعدادات</string>
     <string name="tablet">الكمبيوتر اللوحي</string>
     <string name="tap_to_configure">المس للإعداد.</string>
     <string name="tap_to_enable_sync">المس للتشغيل.</string>
@@ -922,7 +950,8 @@
     <string name="too_large_to_attach_additional">لا يمكن أن يتجاوز حجم الملف %1$s.</string>
     <string name="too_large_to_attach_multiple">لم يتم إرفاق ملف أو أكثر. لا يمكن أن يتجاوز الحجم %1$s.</string>
     <string name="too_large_to_attach_single">لا يمكن إرفاق ملف أكبر من %1$s.</string>
-    <string name="topic_merge">دمج الثيمات</string>
+    <string name="topic_merge">إعدادات الشاشة</string>
+    <string name="topic_merge_summary">تجميع حسب الموضوع</string>
     <string name="translation_loading">لحظة من فضلك…</string>
     <string name="translation_no_result">لا توجد نتائج</string>
     <string name="translation_pronunciation_am">AmE</string>
@@ -945,6 +974,7 @@
     <string name="unsent_messages_in_outbox">%1$s غير مرسلة في %2$s</string>
     <string name="unzip_file_failed">تعذر فك ضغط الملف</string>
     <string name="update_date_format_templete">HH:mm aa, MMMM dd</string>
+    <string name="update_to_wps_mail">تمتع بالمزيد من الميزات مع بريد WPS</string>
     <string name="updated_at">تم التحديث في %1$s</string>
     <string name="upload_log">تحميل السجلات</string>
     <string name="upload_log_failed">تعذر أرسال السجلات</string>
@@ -981,5 +1011,4 @@
     <string name="you_are_in_mobile_network">أترغب في إرسال السجل باستخدام بيانات شبكة الجوال؟ إذا تجاوزت حد بيانات خطتك، فقد تفرض شركة الاتصالات الخاصة بك رسوماً إضافية.</string>
     <string name="youfuli">عروض</string>
     <string name="zip_viewer_no_file">لا توجد ملفات.</string>
-    <string name="dialog_auto_sync_setting_no_open">لا يمكن استلام رسائل جديدة تلقائياً. المزامنة لا تعمل.</string>
 </resources>

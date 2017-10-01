@@ -72,7 +72,7 @@
     <string name="card_title_on_hold">"معلقة "</string>
     <string name="card_title_hanging_up">"إنهاء المكالمة "</string>
     <string name="card_title_hanging_up_fail">تعذر إنهاء المكالمة، حاول مرة أخرى.</string>
-    <string name="card_title_hanging_up_weak_signal">إشارة شبكة الجوال ضعيفة. إنهاء المكالمة</string>
+    <string name="card_title_hanging_up_weak_signal">إشارة شبكة الجوال ضعيفة. جارٍ إنهاء المكالمة…</string>
     <string name="card_title_hanging_up_restart">لا يمكن إنهاء المكالمة. إعادة تشغيل الجهاز.</string>
     <string name="card_title_in_call">قيد الاتصال</string>
     <string name="card_title_in_call_short">قيد الاتصال</string>
@@ -80,7 +80,7 @@
     <string name="card_video_hold_swap">تبادل</string>
     <string name="onscreenEndCallText">إنهاء</string>
     <string name="calling_via_template">الاتصال بإستخدام %s</string>
-    <string name="respond_via_sms_custom_message">كتابة رسالة مخصصة...</string>
+    <string name="respond_via_sms_custom_message">رسالة مخصصة</string>
     <string name="manageConferenceLabel">إدارة المكالمات الجماعية</string>
     <string name="emergency_call_dialog_number_for_display">رقم الطوارئ</string>
     <string name="call_extension_conference_mode">وضع جماعي</string>
@@ -137,7 +137,7 @@
     <string name="call_recording_error_privacy">لا يمكن التسجيل أثناء تشغيل وضع الضيف</string>
     <string name="call_recording_error_sd_access">لا يمكن دخول بطاقة SD</string>
     <string name="call_recording_error_sd_unmounted">توقف التسجيل: تمت إزالة بطاقة SD.</string>
-    <string name="call_recording_error_low_storage">لا يوجد مساحة كافية في بطاقة الذاكرة SD.</string>
+    <string name="call_recording_error_low_storage">لا توجد مساحة كافية في التخزين.</string>
     <string name="call_recording_error_start_failed">المسجل جارٍ استخدامة بواسطة تطبيق آخر.</string>
     <string name="call_recording_error_unknown">حدث خطأ غير معروف.</string>
     <string name="call_recording_notification_title">تم تسجيل المكالمة</string>
@@ -180,7 +180,6 @@
     <string name="do_not_ask">عدم الإظهار مرة أخرى</string>
     <string name="time_left_livetalk">(%d ثانية)</string>
     <string name="can_not_call_oneself">لا يمكن الاتصال بهذا الرقم</string>
-    <string name="miprofile_stranger_card">بطاقة غريبة</string>
     <string name="card_title_video_call_paused">تم إيقاف الفيديو مؤقتاً</string>
     <string name="card_title_incoming_conference_call">مكالمة جماعية واردة</string>
     <string name="video_switch_to_voice_call_prompt">التبديل لمكالمة صوتية</string>
@@ -239,6 +238,7 @@
     <string name="cancel_call">قطع الاتصال</string>
     <string name="dial_with_gsm_phone">مكالمة عادية</string>
     <string name="livetalk_left_minute">%s دقيقة متبقية</string>
+    <string name="miprofile_stranger_card">بطاقة غريبة</string>
     <string name="purchase_now">إعادة الشحن</string>
     <string name="onscreen_rcs_text">الرسائل</string>
 </resources>

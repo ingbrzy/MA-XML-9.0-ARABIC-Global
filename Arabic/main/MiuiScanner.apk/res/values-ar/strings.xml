@@ -32,7 +32,7 @@
     <string name="common_save">حفظ</string>
     <string name="common_retry">حاول مجدداً</string>
     <string name="sdk_not_ready">يتم تجهيز حزمة SDK. أعد المحاولة لاحقا.</string>
-    <string name="error_get_image">فشل الحصول علي الصورة</string>
+    <string name="error_get_image">تعذر الحصول على الصورة</string>
     <string name="language_entry_chinese_cn">الصينية المبسطة</string>
     <string name="language_entry_chinese_tw">الصينية التقليدية</string>
     <string name="language_entry_danish">الدانمركية</string>
@@ -102,6 +102,8 @@
     <string name="payment_zhifubao">AliPay</string>
     <string name="weixin_code_tip">من فضلك استخدم WeChat لمسح رمز QR هذا</string>
     <string name="back">رجوع</string>
+    <string name="label_flash_light">ضوء الفلاش</string>
+    <string name="label_choose_picture">اختيار صورة</string>
     <string name="shopping_title">خذ صورة للمنتج</string>
     <string name="shopping_searching">جارٍ البحث…</string>
     <string name="shopping_vendor_info">مدعوم من Taobao</string>
@@ -166,7 +168,7 @@
     <string name="document_color_picture_tip">جارٍ التحويل إلى ملون…</string>
     <string name="document_save_succeed_tip">تم حفظ المسند إلى %1$s</string>
     <string name="document_recognize_fail_tip">تعذر قراءة المستند</string>
-    <string name="document_recognize_null_tip">نتيجة الوثيقة فارغة</string>
+    <string name="document_recognize_null_tip">تعذر قراءة المستند</string>
     <string name="recognition_error_download_title">التعرف على المحرك مطلوب</string>
     <string name="recognition_error_download_msg">قم بتنزيل محرك التعرف لمسح البطاقات. حجمها حوالي ١٥ ميغا بايت.</string>
     <string name="recognition_error_download_ok">تنزيل</string>
@@ -178,5 +180,5 @@
     <string name="recognition_error_download_fail">تعذر تنزيل محرك التعرف</string>
     <string name="low_version_tip">إصدار MIUI قديم جدا. قم بتحديث MIUI لاستخدام الماسح.</string>
     <string name="app_description_title">حول الماسح</string>
-    <string name="app_description_content">الماسح الضوئي يوفر مسح رمز QR، والمسح الضوئي للترجمة، والمسح الضوئي لحل الأسئلة والتعرف على بطاقة الأعمال. يرجى التأكد من أنك على علم مسبق بالوظيفة و الخدمة التي يقدمها هذا التطبيق.</string>
+    <string name="app_description_content">يمكنك الماسح الضوئي بمسح رموز QR، بطاقات العمل، والوثائق والمزيد. تأكد من أنك تستطيع أن تفعل ذلك دون هذه الميزات قبل حذف التطبيق.</string>
 </resources>

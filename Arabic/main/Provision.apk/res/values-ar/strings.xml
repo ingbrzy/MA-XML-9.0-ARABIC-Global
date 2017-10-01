@@ -2,8 +2,8 @@
 <resources>
     <string name="welcome">مرحباً</string>
     <string name="app_name">الإعدادت الأولية</string>
-    <string name="input_method_setting">اختيار لوحة المفاتيح</string>
-    <string name="input_method_category">اختر لوحة المفاتيح الافتراضية التي ستستخدمها عند كتابة رسائل، ملاحظات، و كل شيء مشابه. إعلم أنه يمكنك تثبيت لوحات مفاتيح أخرى من قبل برامج اخرى في وقت لاحق.</string>
+    <string name="input_method_setting">اختر لوحة المفاتيح</string>
+    <string name="input_method_category">اختر لوحة المفاتيح الافتراضية التي ستستخدمها عند كتابة الرسائل، الملاحظات، و غيرة. إعلم أنه يمكنك تثبيت لوحات مفاتيح أخرى من قبل برامج اخرى في وقت لاحق.</string>
     <string name="provision_inputmethod_policy_description">"
 عرض سياسة الخصوصية للوحات المفاتيح المحددة."</string>
     <string name="provision_inputmethod_policy_description1">سياسة الخصوصية</string>
@@ -38,7 +38,7 @@
     <string name="terms_of_use">الأحكام والشروط</string>
     <string name="terms_of_use_label">"خصوصيتك مهمة جدًا بالنسبة لنا. يرجى قراءة شروط الخدمة وسياسة الخصوصية لفهم ماهي المعلومات التي نجمعها، كيف نستخدمها والخيارات المتاحة لك.
 
-يجب أن توافق على شروط الخدمة وسياسة الخصوصية الخاصة بنا قبل أن تتمكن من استخدام MIUI. خلال التفعيل، ستتصل خدمات Mi، خدمات تفعيل شريحة Mi، Mi Cloud، العثور على الجهاز، وحدات الشاشة الرئيسية، خدمة الألعاب، مكونات نظام MSA و MAB، الخدمة المباشرة، البطاقة السريعة، الاحصائيات ومكونات حساب Mi بالإنترنت وتحصل على موقعك."</string>
+يجب أن توافق على شروط الخدمة وسياسة الخصوصية الخاصة بنا قبل أن تتمكن من استخدام MIUI. خدمات Mi، خدمات تفعيل شريحة Mi، Mi Cloud، العثور على الجهاز، وحدات الشاشة الرئيسية، خدمة الألعاب، مكونات نظام MSA و MAB، الخدمة المباشرة، البطاقة السريعة، الاحصائيات، البطاقات الذكية، رابط Mi ومكونات حساب Mi بالإنترنت وتحصل على موقعك."</string>
     <string name="user_agreement">شروط الخدمة</string>
     <string name="privacy_policy">سياسة الخصوصية</string>
     <string name="application_permissions">أذونات التطبيق</string>
@@ -48,11 +48,11 @@
     <string name="agree_terms">لقد قرأت واوافق على شروط الخدمة وسياسة الخصوصية.</string>
     <string name="miui_terms_no_network">ليس لديك اتصال إنترنت. راجع شروط الخدمة على %s.</string>
     <string name="miui_privacy_policy_no_network">ليس لديك اتصال بالإنترنت. راجع سياسة الخصوصية في %s.</string>
-    <string name="locale_picker_title">اختر المنطقة الخاصة بك</string>
+    <string name="locale_picker_title">اختر المنطقة</string>
     <string name="install_preinstall_app">جارٍ تحميل التطبيقات…</string>
     <string name="title_fingerprint">تعيين كلمة مرور</string>
     <string name="item_fingerprint">بصمة الإصبع</string>
-    <string name="item_lock_screen_password">فقط قفل الشاشة</string>
+    <string name="item_lock_screen_password">قفل الشاشة فقط</string>
     <string name="desc_fingerprint">استخدم بصمة اليد لالغاء قفل الجهاز، التحقق من معاملات دفع Mi، او لتسجيل الدخول الى التطبيقات و الخدمات.</string>
     <string name="desc_extra_fingerprint" />
     <string name="next_fingerprint">التالي</string>
@@ -62,13 +62,13 @@
     <string name="content_description_miui_version">MIUI 9</string>
     <string name="content_description_complete">اكتمل</string>
     <string name="language_picker_other_languages_title">المزيد من اللغات</string>
-    <string name="language_settings">اختيار اللغة</string>
+    <string name="language_settings">اختر اللغة</string>
     <string name="enable_accessibility_dialog_message">لقد قمت بتشغيل TalkBack من خلال الضغط على الشاشة بـ ۲ أصابع لأكثر من ۱۰ ثواني. توفر ميزة TalkBack ردود فعل صوتية لأشخاص يعانون من إعاقات بصرية. إذا قمت بتشغيلة عن طريق الصدفة، اضغط على زر إلغاء الأمر، ومن ثم نقر مزدوج على الشاشة.</string>
     <string name="enable_accessibility_dialog_positive_btn">موافق</string>
     <string name="enable_accessibility_dialog_negative_btn">إلغاء</string>
     <string name="cm_terms_title">اتفاقية مشغل شبكة الهاتف الجوال</string>
     <string name="cm_terms_content">من أجل تحسين الخدمات المقدمة لك، قد يقوم مشغل شبكة الهاتف الجوال المختار من قبلك بتحميل بياناتك الشخصية والمعلومات حول هذا الجهاز إلى خوادمه باستخدام شبكات Wi-Fi أو اتصال بيانات الجوال. سيتم استخدام هذه المعلومات فقط لأغراض إحصائية من أجل تحسين جودة الخدمات وتقديم محتوى أكثر تخصيصا. لن يتم استخدام هذه المعلومات لتحديد هويتك شخصيا، ولن يتم الكشف عنها إلى أطراف ثالثة.</string>
     <string name="two_dimensional_code_scan">مسح رمز QR</string>
-    <string name="user_strayed_warning">تم تصميم الصفحة لاختبار المصنع، انقر فوق زر رجوع للخروج.</string>
-    <string name="fail_to_generate_qr_code">فشل في إنشاء رمز QR، يرجى إعادة إدخال هذه الصفحة.</string>
+    <string name="user_strayed_warning">تم تصميم الصفحة لاختبار المصنع، انقر على زر الرجوع للخروج.</string>
+    <string name="fail_to_generate_qr_code">تعذر إنشاء رمز QR. افتح هذه الصفحة مرة أخرى.</string>
 </resources>

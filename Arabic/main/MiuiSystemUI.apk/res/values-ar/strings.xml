@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">لا يوجد</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -157,8 +159,8 @@
     <string name="mobile_data_always_on">البيانات الخلوية نشطة دائما</string>
     <string name="bluetooth_disable_absolute_volume">تعطيل مستوى الصوت المطلق</string>
     <string name="wifi_display_certification_summary">عرض خيارات لشهادة العرض اللاسلكي</string>
-    <string name="wifi_verbose_logging_summary">زيادة مستوى تسجيل WIFI، إظهار RSSI لكل SSID في قائمة شبكات WIFI.</string>
-    <string name="wifi_aggressive_handover_summary">عند تفعيلها، سيتم تبديل الاتصال إلى بيانات الجوال بشكل أكثر نشاطا، عندما تكون إشارة Wifi منخفضة.</string>
+    <string name="wifi_verbose_logging_summary">زيادة مستوى تسجيل الـ WI‑FI، إظهار RSSI لكل SSID في قائمة شبكات WI‑FI.</string>
+    <string name="wifi_aggressive_handover_summary">عند تفعيلها، سيتم تبديل الاتصال إلى بيانات الجوال بشكل أكثر نشاطا، عندما تكون إشارة Wi‑Fi منخفضة.</string>
     <string name="wifi_allow_scan_with_traffic_summary">‏السماح H, تقييد عمليات فحص Wi‑Fi للتجوال بناءً على حجم حركة البيانات في الواجهة.</string>
     <string name="select_logd_size_title">أحجام سجل المخزن المؤقت</string>
     <string name="select_logd_size_dialog_title">تحديد الحجم لسجل المخزن المؤقت</string>
@@ -223,7 +225,7 @@
     <string name="force_hw_ui_summary">إجبار استخدام GPU لرسم 2D</string>
     <string name="force_msaa">‏فرض 4x MSAA</string>
     <string name="force_msaa_summary">تمكين 4x MSAA في تطبيقات OpenGL ES 2.0</string>
-    <string name="show_non_rect_clip">Debug non-rectangular clip operations</string>
+    <string name="show_non_rect_clip">تصحيح عمليات القطع الغير مستطيلة</string>
     <string name="track_frame_time">ملف أداء GPU</string>
     <string name="window_animation_scale_title">مقياس الرسوم المتحركة</string>
     <string name="transition_animation_scale_title">مقياس الرسوم المتحركة للنقل</string>
@@ -410,12 +412,12 @@
     <string name="accessibility_desc_recent_apps">نظرة عامة</string>
     <string name="recents_empty_message">لا توجد عناصر حديثة</string>
     <string name="recents_empty_message_dismissed_all">لقد قمت بإزالة جميع العناصر</string>
-    <string name="recents_empty_message_multi_window">اذهب للصفحة الرئيسية لفتح التطبيقات</string>
+    <string name="recents_empty_message_multi_window">فتح التطبيقات من الشاشة الرئيسية</string>
     <string name="recents_app_info_button_label">معلومات التطبيق</string>
-    <string name="recents_lock_to_app_button_label">إصلاح الشاشة</string>
+    <string name="recents_lock_to_app_button_label">شاشة الالتصاق</string>
     <string name="recents_search_bar_label">بحث</string>
     <string name="recents_launch_error_message">تعذر بدء %s</string>
-    <string name="recents_launch_disabled_message">توقف %s في الوضع الآمن</string>
+    <string name="recents_launch_disabled_message">لا يمكن تشغيل %s في الوضع الآمن</string>
     <string name="recents_stack_action_button_label">إزالة الكل</string>
     <string name="recents_incompatible_app_message">هذا التطبيق لا يدعم وضع تقسيم الشاشة</string>
     <string name="recents_drag_hint_message">اسحب العناصر إلى هنا</string>
@@ -495,7 +497,7 @@ d MMMM"</string>
     <string name="camera_key_action_category_title">استخدام إذا تطبيق الكاميرا غير مفتوح</string>
     <string name="camera_key_action_none_title">لا إجراء</string>
     <string name="camera_key_action_shortcut_title">اختصار</string>
-    <string name="camera_key_action_toggle_title">زر الزناد</string>
+    <string name="camera_key_action_toggle_title">مفتاح التشغيل/ الإيقاف</string>
     <string name="camera_key_action_app_title">فتح تطبيق</string>
     <string name="camera_key_action_shortcut_home">العودة للشاشة الرئيسية</string>
     <string name="camera_key_action_shortcut_screenshot">لقطة الشاشة</string>
@@ -526,7 +528,7 @@ d MMMM"</string>
     <string name="ext_media_nofs_notification_title">وحدة تخزين USB فارغة</string>
     <string name="ext_media_nofs_notification_message">وحدة تخزين USB فارغة أو نظام ملفات غير مدعوم.</string>
     <string name="ext_media_unmountable_notification_title">وحدة تخزين USB تالفة</string>
-    <string name="ext_media_unmountable_notification_message">وحدة تخزين USB تالفة. قد تضطر إلى إعادة تنسيقه.</string>
+    <string name="ext_media_unmountable_notification_message">وحدة تخزين USB تالفة. قد تضطر إلى إعادة تهيئتها.</string>
     <string name="ext_media_badremoval_notification_title">تم أزالة وحدة تخزين USB على نحو غير المتوقع</string>
     <string name="ext_media_badremoval_notification_message">إلغاء تركيب وحدة تخزين USB قبل الإزالة لتجنب فقد البيانات.</string>
     <string name="ext_media_safe_unmount_notification_title">وحدة تخزين USB آمنة للإزالة</string>
@@ -555,6 +557,7 @@ d MMMM"</string>
     <string name="notification_hidden_text">الإشعارات مخفية</string>
     <string name="block_notification_text">إخفاء</string>
     <string name="block_notification_content_text">لن تظهر إشعارات %1$s مرة أخرى. يمكنك تغيير ذلك من الإعدادات.</string>
+    <string name="block_notification_desc">لن تظهر إشعارات التطبيق مرة أخرى. يمكنك تغيير ذلك من الإعدادات.</string>
     <string name="notification_otg_mouse_in">الماوس متصل</string>
     <string name="notification_otg_keyboard_in">لوحة المفاتيح متصلة</string>
     <string name="notification_otg_gamestick_in">وحدة التحكم بالألعاب متصلة</string>
@@ -578,7 +581,7 @@ d MMMM"</string>
     <string name="mdb_usb_disconnection_exit">USB غير متصل</string>
     <string name="mdb_restore_mode">إستعادة وضع</string>
     <string name="mdb_entering">جارٍ البدء…</string>
-    <string name="status_bar_recording_back">عودة الى المسجّل</string>
+    <string name="status_bar_recording_back">عودة الى المسجل</string>
     <string name="status_bar_recording_pause">تم إيقاف المسجل مؤقتاً</string>
     <string name="usb_share_net_info">استخدام اتصال الكمبيوتر بالإنترنت</string>
     <string name="battery_profiles">استخدام وضع البطارية</string>

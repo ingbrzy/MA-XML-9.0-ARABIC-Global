@@ -21,7 +21,7 @@
     <string name="phone_locked_foget_password_mehod_back">رجوع</string>
     <string name="phone_locked_foget_password_method_next">التالي</string>
     <string name="phone_locked_forget_password_suggesstions_title">كيفية مسح البيانات؟</string>
-    <string name="phone_locked_forget_password_suggesstion_one_content"><Data>قم بإيقاف تشغيل الجهاز، ثم اضغط باستمرار على &lt;font color=#a5220e>زر الطاقة &lt;/font> و &lt;font color=#a5220e>زر رفع مستوى الصوت &lt;/font>معا حتى تشاهد شعار Mi.;</Data></string>
+    <string name="phone_locked_forget_password_suggesstion_one_content"><Data>قم بإيقاف تشغيل جهازك، ثم اضغط باستمرار على &lt;font color=#a5220e>زر الطاقة&lt;/font> و &lt;font color=#a5220e>زر رفع مستوى الصوت&lt;/font> معا حتى تشاهد شعار Mi.;</Data></string>
     <string name="phone_locked_forget_password_suggesstion_two_content"><Data>تحديد &lt;font color=#a5220e>\"مسح وإعادة تعيين/font> ثم انتظر حتى يقوم جهاز بإعادة التشغيل..;</Data></string>
     <string name="phone_locked_foget_password_ok">متابعة</string>
     <string name="lockscreen_access_pattern_start">تم بدء النقش</string>
@@ -56,7 +56,7 @@
     <string name="input_password_after_boot_msg">لفتح جهازك، ادخل كلمة المرور</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">تحتاج إلى الدخول إلى الواجهة الاولى بعد إعادة تشغيل الجهاز</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">لا يمكن التبديل بين الواجهات أثناء إجراء مكالمة</string>
-    <string name="input_password_handle_sdcard_fs">إيقاف \"محاكاة تحسينات بطاقة SD\" قبل الدخول إلى الواجهة الثانية.</string>
+    <string name="input_password_handle_sdcard_fs">إيقاف \"تحسينات بطاقة SD الزائفة\" قبل الدخول إلى الواجهة الثانية.</string>
     <string name="accessibility_enter_lock_wallpaper">انقر لفتح خلفية كاروسيل</string>
     <string name="lock_wallpaper_learn_more">المزيد</string>
     <string name="lock_wallpaper_enter">أدخل</string>
@@ -75,7 +75,7 @@
     <string name="keyguard_charging_info_last_charged_time_text">آخر شحن</string>
     <string name="keyguard_charging_info_battery_used_time_text">على البطارية</string>
     <string name="keyguard_charging_info_drained_power_percent_text">استنزفت</string>
-    <string name="keyguard_charging_info_tip_text1">ابقي جهازك مشحون عن لا يقل ١٠٪ في كل الأوقات لإطالة عمر البطارية.</string>
+    <string name="keyguard_charging_info_tip_text1">ابقي جهازك مشحون ١٠٪ على الاقل في جميع الأوقات لإطالة عمر البطارية.</string>
     <string name="keyguard_charging_info_tip_text2">لا تقم بشحن جهازك أكثر من اللازم. الشحن القصير المتعدد أفضل من الشحن طول الليل.</string>
     <string name="keyguard_charging_info_tip_text3">تجنب شحن الجهاز عندما تكون درجة الحرارة المحيطة أقل من ٠° درجة مئوية.</string>
     <string name="keyguard_charging_info_tip_text4">لا تستخدم الجهاز بنشاط أثناء شحنه لتجنب ارتفاع درجة الحرارة.</string>

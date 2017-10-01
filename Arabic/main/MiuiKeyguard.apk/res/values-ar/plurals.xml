@@ -41,52 +41,52 @@
         <item quantity="many">%d إشعار جديد</item>
     </plurals>
     <plurals name="keyguard_charging_info_charging_full_need_min_time__text">
-        <item quantity="other">"حوالي %d  دقائق حتى اكتمال الشحن"</item>
-        <item quantity="zero">"حوالي %d  دقيقة حتى اكتمال الشحن"</item>
-        <item quantity="one">"حوالي %d  دقيقة حتى اكتمال الشحن"</item>
-        <item quantity="two">"حوالي %d  دقائق حتى اكتمال الشحن"</item>
-        <item quantity="few">"حوالي %d  دقائق حتى اكتمال الشحن"</item>
-        <item quantity="many">"حوالي %d  دقائق حتى اكتمال الشحن"</item>
+        <item quantity="other">%d دقيقة حتى يكتمل الشحن</item>
+        <item quantity="zero">%d دقيقة حتى يكتمل الشحن</item>
+        <item quantity="one">%d دقيقة حتى يكتمل الشحن</item>
+        <item quantity="two">%d دقائق حتى يكتمل الشحن</item>
+        <item quantity="few">"%d  دقائق حتى يكتمل الشحن"</item>
+        <item quantity="many">%d دقيقة حتى يكتمل الشحن</item>
     </plurals>
     <plurals name="keyguard_charging_info_charging_full_need_hour_time__text">
-        <item quantity="other">حوالي %d ساعة حتى اكتمال الشحن</item>
-        <item quantity="zero">حوالي %d ساعة حتى اكتمال الشحن</item>
-        <item quantity="one">حوالي %d ساعة حتى اكتمال الشحن</item>
-        <item quantity="two">حوالي %d ساعات حتى اكتمال الشحن</item>
-        <item quantity="few">حوالي %d ساعات حتى اكتمال الشحن</item>
-        <item quantity="many">حوالي %d ساعة حتى اكتمال الشحن</item>
+        <item quantity="other">%d ساعة حتى يكتمل الشحن</item>
+        <item quantity="zero">%d ساعة حتى يكتمل الشحن</item>
+        <item quantity="one">%d ساعة حتى يكتمل الشحن</item>
+        <item quantity="two">%d ساعات حتى يكتمل الشحن</item>
+        <item quantity="few">%d ساعات حتى يكتمل الشحن</item>
+        <item quantity="many">%d ساعة حتى يكتمل الشحن</item>
     </plurals>
     <plurals name="keyguard_charging_info_charging_full_need_time__text">
-        <item quantity="other">"حوالي %1$d  ساعة %2$d دقيقة حتى يكتمل الشحن"</item>
-        <item quantity="zero">"حوالي %1$d  ساعة %2$d دقيقة حتى يكتمل الشحن"</item>
-        <item quantity="one">"حوالي %1$d  ساعة %2$d دقيقة حتى يكتمل الشحن"</item>
-        <item quantity="two">"حوالي %1$d  ساعات %2$d دقائق حتى يكتمل الشحن"</item>
-        <item quantity="few">"حوالي %1$d  ساعات %2$d دقائق حتى يكتمل الشحن"</item>
-        <item quantity="many">"حوالي %1$d  ساعة %2$d دقيقة حتى يكتمل الشحن"</item>
+        <item quantity="other">"%1$d  ساعة و %2$d دقيقة حتى يكتمل الشحن"</item>
+        <item quantity="zero">"%1$d  ساعة و %2$d دقيقة حتى يكتمل الشحن"</item>
+        <item quantity="one">"%1$d  ساعة و %2$d دقيقة حتى يكتمل الشحن"</item>
+        <item quantity="two">"%1$d  ساعات و %2$d دقائق حتى يكتمل الشحن"</item>
+        <item quantity="few">"%1$d  ساعات و %2$d دقائق حتى يكتمل الشحن"</item>
+        <item quantity="many">"%1$d  ساعة و %2$d دقيقة حتى يكتمل الشحن"</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_min_time_text">
-        <item quantity="other">حوالي %d دقيقة متبقية</item>
-        <item quantity="zero">حوالي %d دقيقة متبقية</item>
-        <item quantity="one">حوالي %d دقيقة متبقية</item>
-        <item quantity="two">حوالي %d دقائق متبقية</item>
-        <item quantity="few">حوالي %d دقائق متبقية</item>
-        <item quantity="many">حوالي %d دقيقة متبقية</item>
+        <item quantity="other">%d دقيقة متبقية</item>
+        <item quantity="zero">%d دقيقة متبقية</item>
+        <item quantity="one">%d دقيقة متبقية</item>
+        <item quantity="two">%d دقائق متبقية</item>
+        <item quantity="few">%d دقائق متبقية</item>
+        <item quantity="many">%d دقيقة متبقية</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_hour_time_text">
-        <item quantity="other">"حوالي %d  ساعة متبقية"</item>
-        <item quantity="zero">"حوالي %d  ساعة متبقية"</item>
-        <item quantity="one">"حوالي %d  ساعة متبقية"</item>
-        <item quantity="two">"حوالي %d  ساعات متبقية"</item>
-        <item quantity="few">"حوالي %d  ساعات متبقية"</item>
-        <item quantity="many">"حوالي %d  ساعة متبقية"</item>
+        <item quantity="other">"%d  ساعة متبقية"</item>
+        <item quantity="zero">"%d  ساعة متبقية"</item>
+        <item quantity="one">"%d  ساعة متبقية"</item>
+        <item quantity="two">"%d  ساعات متبقية"</item>
+        <item quantity="few">"%d  ساعات متبقية"</item>
+        <item quantity="many">"%d  ساعة متبقية"</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_time_text">
-        <item quantity="other">حوالي %1$d ساعة %2$d دقيقة متبقية</item>
-        <item quantity="zero">حوالي %1$d ساعة %2$d دقيقة متبقية</item>
-        <item quantity="one">حوالي %1$d ساعة %2$d دقيقة متبقية</item>
-        <item quantity="two">حوالي %1$d ساعات %2$d دقائق متبقية</item>
-        <item quantity="few">حوالي %1$d ساعات %2$d دقائق متبقية</item>
-        <item quantity="many">حوالي %1$d ساعة %2$d دقيقة متبقية</item>
+        <item quantity="other">%1$d ساعة و %2$d دقيقة متبقية</item>
+        <item quantity="zero">%1$d ساعة و %2$d دقيقة متبقية</item>
+        <item quantity="one">%1$d ساعة و %2$d دقيقة متبقية</item>
+        <item quantity="two">%1$d ساعات و %2$d دقائق متبقية</item>
+        <item quantity="few">%1$d ساعات و %2$d دقائق متبقية</item>
+        <item quantity="many">%1$d ساعة و %2$d دقيقة متبقية</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_hour_time_format">
         <item quantity="other">%dساعة</item>
@@ -105,11 +105,11 @@
         <item quantity="many">%d دقيقة</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_time_format">
-        <item quantity="other">%1$d h %2$d دقيقة</item>
-        <item quantity="zero">%1$d h %2$d دقيقة</item>
-        <item quantity="one">%1$d h %2$d دقيقة</item>
-        <item quantity="two">%1$d h %2$d دقائق</item>
-        <item quantity="few">%1$d h %2$d دقائق</item>
-        <item quantity="many">%1$d h %2$d دقيقة</item>
+        <item quantity="other">%1$d س. %2$d دق</item>
+        <item quantity="zero">%1$d س. %2$d دق</item>
+        <item quantity="one">%1$d س. %2$d دق</item>
+        <item quantity="two">%1$d س. %2$d دق</item>
+        <item quantity="few">%1$d دقائق %2$d ساعات</item>
+        <item quantity="many">%1$d س. %2$d دق</item>
     </plurals>
 </resources>

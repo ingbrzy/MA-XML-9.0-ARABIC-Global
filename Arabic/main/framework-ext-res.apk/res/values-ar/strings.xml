@@ -158,7 +158,7 @@
     <string name="fourhours">ساعتين</string>
     <string name="eighthours">٨ ساعات</string>
     <string name="remain">المتبقي: %s</string>
-    <string name="configure_input_methods">اختيار لوحة المفاتيح</string>
+    <string name="configure_input_methods">اختر لوحة المفاتيح</string>
     <string name="miui_upgrading_notification_title">تحميل النظام، وبعض المميزات قد لا تتوفر.</string>
     <string name="miui_screen_ratio_hint">مشاكل ابعاد الشاشة</string>
     <string name="miui_screen_ratio_hint_message">يسمح لهذا التطبيق بالعمل في وضع الشاشة الكاملة مما قد يؤدي إلى أن يتم عرضه بشكل غير صحيح. يمكنك تغيير هذا من الإعدادات > الإعدادات الإضافية > الأزرار.</string>

@@ -129,8 +129,6 @@
     <string name="birthday_event_description_a_week_later">أسبوع واحد حتى</string>
     <string name="birthday_event_description_day_after_tomorrow">بعد غد هو</string>
     <string name="birthday_event_description_day_before_yesterday">أول أمس كان</string>
-    <string name="birthday_event_description_days_ago">%1$d أيام منذ</string>
-    <string name="birthday_event_description_days_later">%1$d أيام حتى</string>
     <string name="birthday_event_description_default">%1$s ثانية %2$s %3$s %4$s</string>
     <string name="birthday_event_description_special">%1$s %2$s %3$s %4$s %5$s</string>
     <string name="birthday_event_description_today">اليوم هو</string>
@@ -188,7 +186,6 @@
     <string name="download">تنزيل</string>
     <string name="edit_date_calculate_days_backward_error_hint">لا يمكن الحساب إلى الأمام</string>
     <string name="edit_date_calculate_days_empty_hint">أدخل عدد الأيام</string>
-    <string name="edit_date_calculate_days_error_hint">You can enter up to %1$d days</string>
     <string name="edit_date_calculate_days_forward_error_hint">لا يمكن الحساب إلى الوراء</string>
     <string name="edit_event_anniversary_name_empty_hint">أدخل اسم الحدث</string>
     <string name="edit_event_anniversary_name_hint">الحدث</string>
@@ -212,6 +209,7 @@
     <string name="edit_event_tab_birthday">تاريخ ميلاد</string>
     <string name="edit_event_tab_countdown">عد تنازلي</string>
     <string name="edit_event_tab_event">حدث</string>
+    <string name="english_premium_league">الدوري الإنجليزي الممتاز</string>
     <string name="event_account">حساب</string>
     <string name="event_action_delete">حذف</string>
     <string name="event_action_edit">تعديل</string>
@@ -233,6 +231,8 @@
     <string name="from_google_group_calendar">تقويم Google</string>
     <string name="global_action_text_card_manager">المزيد من الفئات</string>
     <string name="global_cricket_no_match">لا يوجد جدولة لمباريات الكريكيت لهذا اليوم. تحقق في أيام أخرى.</string>
+    <string name="global_football_final">النهائي</string>
+    <string name="global_football_no_match">لا توجد مباريات كرة قدم مجدولة لهذا اليوم.</string>
     <string name="global_onthisday_com">OnThisDay.com</string>
     <string name="guide_card_hint_text">استيراد تواريخ ميلاد من جهات الاتصال</string>
     <string name="holiday_card_title">عطلة</string>
@@ -283,7 +283,7 @@
     <string name="panchang_ayana">Ayana</string>
     <string name="panchang_gulikai_kalam">Gulikai Kalam</string>
     <string name="panchang_hindu_lunar_month">الشهر القمري الهندي</string>
-    <string name="panchang_inauspicious_timings">Inauspicious Timings</string>
+    <string name="panchang_inauspicious_timings">توقيت مشؤوم</string>
     <string name="panchang_karan">Karan</string>
     <string name="panchang_moon_sign">اشارة القمر</string>
     <string name="panchang_nakshatra">Nakshatra</string>
@@ -294,8 +294,8 @@
     <string name="panchang_shaka_samvat">Shaka Samvat</string>
     <string name="panchang_sun_sign">اشاره الشمس</string>
     <string name="panchang_tithi">Tithi</string>
-    <string name="panchang_to"> to </string>
-    <string name="panchang_upto"> upto </string>
+    <string name="panchang_to">  إلى </string>
+    <string name="panchang_upto"> يصل إلى </string>
     <string name="panchang_vikram_samvat">Vikram Samvat</string>
     <string name="panchang_yamaghanta">Yamaghanta</string>
     <string name="panchang_yog">Yog</string>
@@ -376,7 +376,7 @@
     <string name="today_train_event">قطار</string>
     <string name="too_long_content">المحتوى طويل جدا</string>
     <string name="too_long_description">وصف الحدث طويل جدا</string>
-    <string name="too_long_location">Event location is too long</string>
+    <string name="too_long_location">موقع الحدث طويل جدا</string>
     <string name="too_long_name">الاسم طويل جداً</string>
     <string name="travel_airport">مطار</string>
     <string name="travel_carriage_number_text">سيارة</string>

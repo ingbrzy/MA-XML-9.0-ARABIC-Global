@@ -19,9 +19,9 @@
     <string name="settings_safetylegal_activity_title">معلومات الأمان</string>
     <string name="settings_safetylegal_activity_unreachable">تعذر الاتصال بالشبكة. لعرض هذه المعلومات الآن،اذهب إلى %s من أي كمبيوتر آخر متصل بالإنترنت.</string>
     <string name="settings_safetylegal_activity_loading">لحظة من فضلك…</string>
-    <string name="ime_privacy_policy">اختيار لوحة المفاتيح</string>
+    <string name="ime_privacy_policy">اختر لوحة المفاتيح</string>
     <string name="ad_service">خدمة الاعلان</string>
     <string name="settings_ad_loading">لحظة من فضلك…</string>
     <string name="settings_ad_loading_unavailable">تعذر تحميل المعلومات.</string>
-    <string name="autoconnect">اتصال تلقائي</string>
+    <string name="autoconnect">إتصال تلقائي</string>
 </resources>

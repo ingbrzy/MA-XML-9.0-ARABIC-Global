@@ -344,7 +344,7 @@
     <string name="no_sim_card_or_unactivated">لم يتم تثبيت بطاقة SIM أو تفعيلها</string>
     <string name="remove_device_success_notice">إذا أزلت هذا الجهاز من أجهزتك الموثوق بها، فقد تحتاج إلى إعادة عملية التحقق عند تسجيل الدخول.​</string>
     <string name="device_delete_success_title">تسجيل خروج</string>
-    <string name="device_delete_success_message">إذا لم تقم بتسجيل الدخول على هذا الجهاز، قم بتغيير كلمة السر على الفور.</string>
+    <string name="device_delete_success_message">إذا لم تقم بتسجيل الدخول على هذا الجهاز، قم بتغيير كلمة المرور على الفور.</string>
     <string name="change_password">تغيير كلمة المرور</string>
     <string name="completed">تعيين الكل</string>
     <string name="no_network_title">لا يمكن الاتصال بالشبكة.</string>
@@ -433,8 +433,8 @@
     <string name="mipay_balance">الرصيد</string>
     <string name="mipay_others">أخرى</string>
     <string name="mipay_identity">التحقق من الهوية</string>
-    <string name="mipay_indentity_done">تم</string>
-    <string name="mipay_identitiy_no">لا</string>
+    <string name="mipay_indentity_done">تم التحقق</string>
+    <string name="mipay_identitiy_no">لم يتم التحقق</string>
     <string name="account_token_expired_title">فشلت المصادقة</string>
     <string name="account_token_expired_msg">"إنتهت صلاحية رمز التحقق، ابدأ من جديد أو قم بتسجيل الخروج من
 معرف حساب الخاص بك: %s"</string>

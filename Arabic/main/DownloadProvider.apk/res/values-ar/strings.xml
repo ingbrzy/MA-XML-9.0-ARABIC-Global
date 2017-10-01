@@ -81,5 +81,4 @@
     <string name="download_queued">في قائمة الانتظار</string>
     <string name="download_running">قيد التقدم</string>
     <string name="download_error">أخفق الاتصال بالشبكة</string>
-    <string name="download_running_percent">قيد التقدم، %d%%</string>
 </resources>

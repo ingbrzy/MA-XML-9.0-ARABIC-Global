@@ -114,7 +114,7 @@
     <string name="hint_antispam_mode_edit">وضع مخصص</string>
     <string name="st_title_adress">إضافة مواقع</string>
     <string name="st_title_adress_num">%d محدّد</string>
-    <string name="sms_blacklist">قائمة حظر SMS</string>
+    <string name="sms_blacklist">قائمة حظر الرسائل</string>
     <string name="sms_prefix">قائمة حظر البادئات</string>
     <string name="sms_address">قائمة حظر المناطق</string>
     <string name="sms_filter">فلتر ذكي</string>
@@ -263,8 +263,8 @@
     <string name="antispam_mode_details">تفاصيل قائمة الحظر</string>
     <string name="st_share_settings">استخدام إعدادات SIM 1</string>
     <string name="st_msg_settings">قائمة حظر SMS</string>
-    <string name="st_msg_intercept_contacts">حظر SMS من جهات الإتصال</string>
-    <string name="st_msg_stranger_group">حظر SMS من الغرباء</string>
+    <string name="st_msg_intercept_contacts">حظر الرسائل من جهات الإتصال</string>
+    <string name="st_msg_stranger_group">حظر الرسائل من الغرباء</string>
     <string name="st_msg_other_group">أخرى</string>
     <string name="st_msg_keyword_group">قائمة حظر الكلمة المفتاحية</string>
     <string name="st_call_settings">قائمة حظر المكالمات</string>
@@ -841,7 +841,7 @@
     <string name="om_settings_lock_app_manage">قفل التطبيقات</string>
     <string name="om_settings_lock_app">قفل التطبيقات</string>
     <string name="om_settings_speed_up_auto">زيادة السرعة تلقائياً</string>
-    <string name="om_settings_memory_clean_lock_screen">حذف ذاكرة التخزين المؤقت عند إغلاق الشاشة</string>
+    <string name="om_settings_memory_clean_lock_screen">تنظيف ذاكرة التخزين المؤقت عندما يكون الجهاز مقفل</string>
     <string name="om_settings_notify_manage">الإشعارات</string>
     <string name="om_settings_memory_occupy_notify">حجم ذاكرة التخزين المؤقت عالي</string>
     <string name="om_settings_memocy_occupy_too_large_summary">إعلامي عندما يكون حجم ذاكرة التخزين المؤقت كبير جدا</string>
@@ -898,7 +898,7 @@
     <string name="power_center_time_to_shutdown">وقت إيقاف التشغيل</string>
     <string name="power_center_state_on">مشغّل</string>
     <string name="power_center_state_off">متوقّف</string>
-    <string name="power_center_charge_time">%1$sحتى اكتمال الشحن</string>
+    <string name="power_center_charge_time">%1$sحتى يكتمل الشحن</string>
     <string name="power_dialog_cancel">إلغاء</string>
     <string name="power_dialog_ok">موافق</string>
     <string name="power_consume_rank_title">استخدام البطارية</string>
@@ -1570,6 +1570,7 @@
     <string name="hints_risk_name_title">الخطر:</string>
     <string name="hints_risk_descx_title">الوصف:</string>
     <string name="button_text_clear">حذف</string>
+    <string name="antivirus_main_activity_back">الرجوع من فحص الحماية</string>
     <string name="toast_removed_from_virus_white_list">تم الإزالة من الإستثناءات. سيتم فحص العنصر في المرة القادمة.</string>
     <string name="long_click_dialog_title">تنبيه</string>
     <string name="long_click_dialog_summary">اضغط مع الإستمرار على النتائج في القائمة لإضافتها إلى الاستثناءات</string>
@@ -1628,6 +1629,7 @@
     <string name="card_main_deepclean_wechat_action">حذف</string>
     <string name="card_main_sectool_title">الأدوات</string>
     <string name="card_main_monthreport_action">عرض</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">اختبار الشبكة</string>
     <string name="card_main_netcheck_summary">اختبار الاتصال لمشاكل الشبكة</string>
     <string name="card_main_netcheck_action">اختبار</string>
@@ -1652,6 +1654,7 @@
     <string name="skin_change_close_toast">سيتم تطبيق التغييرات في المرة القادمة التي تقوم فيها بتشغيل الحماية</string>
     <string name="Setting_lock">الإعدادات</string>
     <string name="app_name">قفل التطبيقات</string>
+    <string name="back_app_name">الرجوع إلى قفل التطبيقات</string>
     <string name="notification_item">حماية التطبيقات بقفل التطبيقات</string>
     <string name="lock_mode_title">إعدادات القفل</string>
     <string name="after_the_lock_screen">قفل التطبيقات جنبا إلى جنب مع الشاشة</string>
@@ -1668,6 +1671,7 @@
     <string name="lockpattern_continue_button_text">التالي</string>
     <string name="lockpattern_confirm_button_text">موافق</string>
     <string name="modifypassword">تغيير كلمة المرور</string>
+    <string name="back_modifypassword">الرجوع إلى تغيير كلمة المرور</string>
     <string name="showpattern">عرض النقش</string>
     <string name="notification_mask_title">إخفاء المحتوى</string>
     <string name="notification_mask_summary">عدم إظهار محتوى الإشعارات على شاشة القفل وفي مركز الإشعارات</string>
@@ -1684,11 +1688,11 @@
     <string name="passwordIncorrect">اسم المستخدم او كلمة السر غير صحيحة</string>
     <string name="access_control_app_is_launching">التطبيق قيد التشغيل</string>
     <string name="access_control_need_to_unlock_nofingerprint">أدخل كلمة مرور قفل التطبيقات</string>
-    <string name="access_control_failed_need_to_unlock_nofingerprint">كلمة المرور مطلوبة لفتح التطبيقات</string>
+    <string name="access_control_failed_need_to_unlock_nofingerprint">ارسم نقش إلغاء القفل لإستخدام بصمة جديدة</string>
     <string name="access_control_fingerprint_not_identified_msg">تعذر قراءة البصمة.</string>
     <string name="access_control_need_password">"%s اضيف بنجاح
 "</string>
-    <string name="privacy_mode_dialog_title">وضع الزائر</string>
+    <string name="privacy_mode_dialog_title">وضع الضيف</string>
     <string name="lockpattern_settings_help_how_to_record">رسم نقش</string>
     <string name="lockpattern_recording_incorrect_too_short">قم بتوصيل %d نقاط على الاقل</string>
     <string name="lockpattern_recording_intro_header">قم بتوصيل ٤ نقاط على الاقل لإنشاء نقش</string>
@@ -2008,6 +2012,11 @@
     <string name="net_booster_overdue_notification_tip">جلسة زيادة سرعة الشبكة على وشك الانتهاء. تجديد الجلسة؟</string>
     <string name="net_booster_expire_notification">جلسة زيادة سرعة الشبكة على وشك الانتهاء</string>
     <string name="xunyou_pay_webview">خدمات Xunyou</string>
+    <string name="xunyou_server_expired">انتهت الجلسة.</string>
+    <string name="game_anti_disturb_msg">عدم الإزعاج أثناء اللعب</string>
+    <string name="gamebooster_main_activity_back">الرجوع من مسرع الألعاب</string>
+    <string name="data_booster_title">استقرار اتصال البيانات</string>
+    <string name="data_booster_desc">قم بإلغاء تنشيط فتحات SIM الأخرى للحفاظ على اتصال مستقر</string>
     <string name="power_center_consume_rank">استخدام البطارية</string>
     <string name="power_center_custom_title">وضع البطارية</string>
     <string name="power_center_auto_shutdown_summary_default">قم بتشغيل جهازك أو إيقافه في وقت المحدد</string>

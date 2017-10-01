@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">مسجّل الشاشة</string>
+    <string name="app_name">مسجل الشاشة</string>
     <string name="app_info">تسجيل، انقر للإيقاف</string>
-    <string name="app_notification_title">مسجّل الشاشة</string>
+    <string name="app_notification_title">مسجل الشاشة</string>
     <string name="screen_record_params">معايير التسجيل</string>
     <string name="resolution">الدقة</string>
     <string name="resolution_summary">الفيديوهات بدقة أعلى تبدو أكثر وضوحا</string>
@@ -22,7 +22,7 @@
     <string name="stop_record_while_locking">قفل الشاشة للإنهاء</string>
     <string name="stop_record_while_locking_summary">إنهاء التسجيل وحفظ الفيديو عندما تكون الشاشة مقفلة</string>
     <string name="gleam_led_while_recording">إشعار ضوء فلاش أثناء التسجيل</string>
-    <string name="quit_recording">مغادرة مسجّل الشاشة</string>
+    <string name="quit_recording">مغادرة مسجل الشاشة</string>
     <string name="timer_format">%s</string>
     <string name="no_recorder_info">لا توجد فيديوهات هنا</string>
     <string name="no_recorder_info2">انقر الزر لبدء التسجيل</string>
@@ -61,7 +61,11 @@
     <string name="stop_by_second_space">تبديل الواجهات سيوقف التسجيل</string>
     <string name="cannot_change_parames">تعذر تغيير المعايير أثناء التسجيل</string>
     <string name="cannot_record">تعذر التسجيل، حاول مجدداً لاحقاً.</string>
-    <string name="frequently_click_toast">جارٍ تهيئة الخدمة، يرجى الانتظار لحظة</string>
+    <string name="stop_recording">إيقاف التسجيل</string>
+    <string name="start_recording">بدء التسجيل</string>
+    <string name="frequently_click_toast">لحظة من فضلك…</string>
+    <string name="recording_failure">لا يمكن التسجيل، ابدء من جديد</string>
+    <string name="recording_max_size">تم إيقاف التسجيل وحفظه لوصول ملف الفيديو إلى الحجم الأفصى. أبدء التسجيل من حيث توقفت إذا لم تنتهي بعد.</string>
     <string name="no_sound">كتم</string>
     <string name="mic_sound">ميكروفون</string>
     <string name="loopback_sound">مكبر صوت</string>

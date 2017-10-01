@@ -32,8 +32,8 @@
     <string-array name="action_param_translate">
         <item>لا شيء</item>
         <item>الافتراضي</item>
-        <item>صورة</item>
-        <item>فيلم</item>
+        <item>صور</item>
+        <item>أفلام</item>
         <item>توفير شحن البطارية</item>
         <item>التوازن</item>
         <item>الأداء</item>
@@ -67,12 +67,12 @@
         <item>ايقاظ الجهاز بشكل متكرر</item>
     </string-array>
     <string-array name="power_checker_recent_group_titles">
-        <item>نواة قفل الايقاظ</item>
-        <item>قفل الايقاظ</item>
-        <item>مسح WIFI</item>
-        <item>GPS</item>
-        <item>المعالج CPU</item>
-        <item>نهضة</item>
+        <item>منع وضع النوم العميق</item>
+        <item>منع وضع النوم</item>
+        <item>جارٍ البحث عن شبكة Wi-Fi</item>
+        <item>باستخدام GPS</item>
+        <item>التحكم في المعالج</item>
+        <item>ايقاظ الجهاز بشكل متكرر</item>
     </string-array>
     <string-array name="power_checker_group_suffix">
         <item></item>
@@ -80,11 +80,11 @@
         <item></item>
     </string-array>
     <string-array name="thermal_entries">
-        <item>وضع التحكم بالحرارة الافتراضي</item>
-        <item>وضع الأداء الاول</item>
+        <item>وضع التحكم بدرجة الحرارة الافتراضية</item>
+        <item>وضع الأداء</item>
     </string-array>
     <string-array name="thermal_summaries">
-        <item>الوضع الحالي الإفتراضي</item>
+        <item>وضع التحكم بدرجة الحرارة الحالية</item>
         <item>وضع الأداء الحالي</item>
     </string-array>
 </resources>

@@ -32,6 +32,14 @@
         <item quantity="few">المحادثات تحتوي على رسائل متعددة، هل تريد حذفها على أية حال؟</item>
         <item quantity="many">المحادثات تحتوي على رسائل متعددة، هل تريد حذفها على أية حال؟</item>
     </plurals>
+    <plurals name="confirm_delete_draft">
+        <item quantity="other">حذف %1$d مسودة؟</item>
+        <item quantity="zero">حذف %1$d مسودة؟</item>
+        <item quantity="one">حذف %1$d مسودة؟</item>
+        <item quantity="two">حذف %1$d مسودات؟</item>
+        <item quantity="few">حذف %1$d مسودات؟</item>
+        <item quantity="many">حذف %1$d مسودة؟</item>
+    </plurals>
     <plurals name="contact_num_selected">
         <item quantity="other">تم تحديد %d عنصر</item>
         <item quantity="zero">تم تحديد %d عنصر</item>
@@ -63,6 +71,14 @@
         <item quantity="two">تم تغيير المجلدات</item>
         <item quantity="few">تم تغيير المجلدات</item>
         <item quantity="many">تم تغيير المجلدات</item>
+    </plurals>
+    <plurals name="conversation_msg_header_count">
+        <item quantity="other">+%1$d شخص</item>
+        <item quantity="zero">+%1$d شخص</item>
+        <item quantity="one">+%1$d شخص</item>
+        <item quantity="two">+%1$d أشخاص</item>
+        <item quantity="few">+%1$d أشخاص</item>
+        <item quantity="many">+%1$d شخص</item>
     </plurals>
     <plurals name="conversation_muted">
         <item quantity="other">تجاهل %1$d محادثة.</item>

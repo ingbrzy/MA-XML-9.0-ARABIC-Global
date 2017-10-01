@@ -133,7 +133,7 @@
     <string name="toast_report_sent_failed">تعذر إرسال التقرير</string>
     <string name="toast_report_copied_to_clipboard">تم نسخ التقرير إلى الحافظة</string>
     <string name="toast_description_required">تحتاج إلى كتابة وصف</string>
-    <string name="toast_feedbackservice_in_submit">معالجة الملاحظات السابقة…</string>
+    <string name="toast_feedbackservice_in_submit">جارٍ معالجة المشاكل السابقة…</string>
     <string name="toast_pending_log_collection">لايزال يتم تجميع السجلات…</string>
     <string name="toast_feedback_submitted">تم إرسال التقرير</string>
     <string name="toast_feedback_submitting">جار الإرسال…</string>
@@ -155,7 +155,7 @@
     <string name="announcement">تنبيه</string>
     <string name="app_empty">لم تقوم بتنزيل أي تطبيقات بعد.</string>
     <string name="screen_lock">قفل الشاشة</string>
-    <string name="systemui">شريط الإشعارات</string>
+    <string name="systemui">مركز الإشعارات</string>
     <string name="cta_dialog_title">اتصال الإنترنت</string>
     <string name="cta_dialog_content">يحتاج هذا التطبيق للاتصال بالإنترنت ليعمل بشكل طبيعي.</string>
     <string name="cta_not_show_again">عدم الإظهار مرة أخرى</string>
@@ -186,7 +186,7 @@
     <string name="plus_one_submit_dialog_not_show_again">تذكر التفضيل</string>
     <string name="toast_fill_brackets">يفتقد تقريرك بعض المعلومات</string>
     <string name="tab_title_chat">الأسئلة الشائعة</string>
-    <string name="tab_title_report">الملاحظات</string>
+    <string name="tab_title_report">الإبلاغ عن خلل</string>
     <string name="tab_title_my_reports">تقاريري</string>
     <string name="nothing">--</string>
     <string name="feedback_id">الهوية: %d</string>
@@ -212,7 +212,7 @@
     <string name="feedback_select_upload_log">إضافة سجلات</string>
     <string name="feedback_select_modem_log">إضافة سجلات المودم</string>
     <string name="feedback_select_suggestion">إقتراحات</string>
-    <string name="feedback_select_problem">المشاكل</string>
+    <string name="feedback_select_problem">مشاكل</string>
     <string name="feedback_choose_module">تحديد عنصر</string>
     <string name="toast_module_required">تحديد عنصر</string>
     <string name="feedback_choose_module_hint">مطلوب</string>
@@ -235,7 +235,7 @@
     <string name="feedback_status_commit_failed_title">تعذر ارسال التقرير</string>
     <string name="feedback_status_processing">جارٍ المعالجة…</string>
     <string name="feedback_status_supplement">قم بوصف مشكلتك بالتفصيل</string>
-    <string name="feedback_status_recorded">تم استلام الملاحظة</string>
+    <string name="feedback_status_recorded">تم استلام المشكلة</string>
     <string name="feedback_status_reresolved">تم حلها</string>
     <string name="feedback_status_answered">تم الإجابة</string>
     <string name="feedback_status_replyed">تم الرد</string>

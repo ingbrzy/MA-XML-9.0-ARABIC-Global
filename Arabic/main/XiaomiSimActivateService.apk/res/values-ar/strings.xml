@@ -108,11 +108,11 @@
     <string name="activate_history_multisim_success_overview">تم تفعيل بطاقة SIM %2$d بنجاح. يتم تشغيل التفعيل بواسطة %1$s\".</string>
     <string name="activate_history_multisim_canceled_overview">تم إلغاء بطاقة SIM %2$d. يتم تشغيل التفعيل بواسطة %1$s\".</string>
     <string name="activate_history_sms">لقد تم ارسال رسالة SMS خلال التفعيل.</string>
-    <string name="phone_verify_title">الموافقة لـ %1$s على التحقق من رقم الهاتف الخاصة بك</string>
-    <string name="phone_verify_text">%1$s لن يحصل على رقم هاتفك، فقط تحقق من أن رقم هاتفك متطابق。</string>
+    <string name="phone_verify_title">السماح لـ%1$s بالتحقق من رقم الهاتف الخاصة بك</string>
+    <string name="phone_verify_text">لن يحصل %1$s على رقم هاتفك. سيقوم فقط بالتأكد من أن الرقم صالح. موافق؟</string>
     <string name="phone_verify_processing">جارٍ التحقق…</string>
-    <string name="phone_get_title">الموافقة لـ %1$s على الحصول من رقم الهاتف الخاصة بك</string>
-    <string name="phone_get_text">هل توافق على إعطاء %1$s رقم هاتفك: %2$s</string>
-    <string name="phone_get_processing">جار الحصول…</string>
-    <string name="agree">موافق</string>
+    <string name="phone_get_title">السماح لـ %1$s الحصول على رقم الهاتف الخاصة بك</string>
+    <string name="phone_get_text">السماح لـ %1$s الحصول على رقم هاتفك (%2$s)؟</string>
+    <string name="phone_get_processing">الحصول…</string>
+    <string name="agree">السماح</string>
 </resources>

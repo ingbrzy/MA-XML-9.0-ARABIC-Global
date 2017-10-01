@@ -227,6 +227,7 @@
     <string name="file_uploading">جارٍ التحميل…</string>
     <string name="new_backup">نسخ احتياطي</string>
     <string name="restore_backup">إستعادة</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">لحظة من فضلك…</string>
     <string name="state_mounting">الوصول إلى تخزين جهاز التوجيه…</string>
     <string name="abort_backup_confirm">لم يتم الانتهاء من النسخ الاحتياطي. التوقف على أية حال؟</string>
@@ -260,7 +261,7 @@
     <string name="notif_trans_receiving_completed">تم استلام البيانات بنجاح</string>
     <string name="notif_trans_sending_failed">تعذر ارسال البيانات</string>
     <string name="notif_trans_receiving_failed">تعذر استقبال البيانات</string>
-    <string name="notif_trans_wait_for_reconnecting">جهاز الريموت غير متصل. يرجى الاتصال مرة أخرى.</string>
+    <string name="notif_trans_wait_for_reconnecting">إنقطع الاتصال. الاتصال مرة أخرى.</string>
     <string name="custom_progress">%d عنصر</string>
     <string name="remote_receive">استلام</string>
     <string name="click_to_view">انقر للعرض</string>
@@ -310,8 +311,8 @@
     <string name="trans_progress_subdescript_transing_receiver_finish">تم استلام %s، في انتظار الإستعادة…</string>
     <string name="trans_cancel_confirm">النقل قيد التقدم، هل تريد الإيقاف الآن؟</string>
     <string name="trans_cancelling">جارٍ الإلغاء…</string>
-    <string name="trans_device_disconnected">الجهاز غير متصل</string>
-    <string name="trans_device_wait_for_reconnecting">الجهاز غير متصل. يرجى إعادة الاتصال.</string>
+    <string name="trans_device_disconnected">إنقطع الاتصال</string>
+    <string name="trans_device_wait_for_reconnecting">إنقطع الاتصال. الاتصال مرة أخرى للمتابعة.</string>
     <string name="trans_connecting_toast">جارٍ الاتصال…</string>
     <string name="trans_connect_failed_toast">تعذر الاتصال</string>
     <string name="trans_generate_qr_code_failed">تعذر إنشاء رمز QR</string>
@@ -327,10 +328,10 @@
 ٢. افتح التطبيق و انقر بدء
 ٣. قم بمسح رمز QR باستخدام جهازك القديم"</string>
     <string name="trans_operate_old_phone_tips2">اذهب الى الإعدادات> إعدادات إضافية > ناقل Mi، انقر [أنا المرسل]</string>
-    <string name="trans_operate_reconnect_new_tips">"انتظر حتى يظهر الهاتف الجديد \"الجهاز غير متصل\".
-ثم اضغط [Reconnect] لإنشاء رمز QR."</string>
-    <string name="trans_operate_reconnect_old_tips">"انتظر حتى يظهر الهاتف الجديد \"الجهاز غير متصل\".
-ثم اضغط [Reconnect] لمسح رمز QR."</string>
+    <string name="trans_operate_reconnect_new_tips">"انتظر حتى يظهر الهاتف الجديد \"إنقطع الاتصال\".
+ثم انقر على \"الاتصال مرة أخرى\" لإنشاء رمز QR."</string>
+    <string name="trans_operate_reconnect_old_tips">"انتظر حتى يظهر الهاتف القديم \"إنقطع الاتصال\".
+ثم انقر على \"الاتصال مرة أخرى\" لإنشاء رمز QR."</string>
     <string name="trans_wait_trans_data">"متصل بالجهاز القديم.
 في انتظار النقل…"</string>
     <string name="trans_select_data">قم بتحديد عناصر للارسال</string>
@@ -353,8 +354,8 @@
     <string name="trans_retry">إعادة المحاولة</string>
     <string name="trans_start_failed_title">تعذر بدء النقل</string>
     <string name="trans_start_failed_message">تعذر بدء النقل، قم بالمحاولة مجدداً أو إعادة تشغيل الجهاز.</string>
-    <string name="trans_connect_failed_device_incompatible">الجهاز غير متوافق. يرجى إلغاء عملية النقل الجارية وإعادة المحاولة.</string>
-    <string name="trans_connection_failed">الجهاز غير متصل</string>
+    <string name="trans_connect_failed_device_incompatible">الجهاز غير متوافق. قم بإلغاء النقل وإعادة المحاولة.</string>
+    <string name="trans_connection_failed">إنقطع الاتصال</string>
     <string name="user_notice_title">تنبيه</string>
     <string name="user_notice_message">بعض الميزات تتطلب الإتصال بالإنترنت لتعمل بشكل طبيعي.</string>
     <string name="user_notice_declaration_ignore">عدم الإظهار مرة أخرى</string>
@@ -364,4 +365,31 @@
     <string name="backup_security_tips_message">بعض التطبيقات قد لا يمكن نسخها احتياطيا أو استعادتها.</string>
     <string name="trans_security_tips_title">توافق ناقل Mi</string>
     <string name="trans_security_tips_message">بعض التطبيقات لا تدعم ناقل Mi.</string>
+    <string name="trans_intro_title">الأسئلة الشائعة</string>
+    <string name="trans_intro_question_1">١. كيف يمكنني استخدام ناقل Mi؟</string>
+    <string name="trans_intro_title_new">على الهاتف الجديد:</string>
+    <string name="trans_intro_desc_new">انقر على \"آنا المستلم\". سيتم إنشاء رمز QR.</string>
+    <string name="trans_intro_title_old">على الهاتف القديم:</string>
+    <string name="trans_intro_desc_old">انقر على \"آنا المرسل\". ثم قم بمسح رمز QR على الهاتف الجديد و انتظر حتى يتعرف ناقل Mi على الملفات المطلوب إرسالها و انقر \"إرسال\".</string>
+    <string name="trans_intro_question_2">٢. ماذا أفعل إذا توقف ناقل Mi في خطوة معينة؟</string>
+    <string name="trans_intro_desc_2">قم بإلغاء النقل و الخروج من ناقل Mi، ثم ابدأ من جديد. سيتم استبدال الملفات المكررة أثناء عملية النقل الجديدة.</string>
+    <string name="trans_intro_question_3">٣. لماذا لا يمكنني استخدام الـ Wi-Fi أثناء عملية النقل؟</string>
+    <string name="trans_intro_desc_3">يستخدم ناقل Mi الـ Wi-Fi لنقل الملفات. و لهذا السبب لا يمكنك الاتصال بالإنترنت باستخدام الـ Wi-Fi على أي من الجهازين أثناء النقل. ولكن لدى بعض الأجهزة الجديدة(مثل Mi 6) القدرة على الاتصال بالإنترنت عبر ال Wi-Fi أثناء عمليات النقل.</string>
+    <string name="trans_intro_question_4">٤، لماذا يخبرني ناقل Mi بأنه لا يوجد مساحة تخزين كافية على هاتفي القديم؟</string>
+    <string name="trans_intro_desc_4">يتم استخدام مساحة التخزين على الأجهزة القديمة لإنشاء حزم النقل. تأكد من أن لديك على الأقل 500 ميغابايت - 1 غيغابايت من السعة التخزينية المتاحة على الهاتف القديم قبل بدء النقل.</string>
+    <string name="trans_intro_question_5">٥. لماذا لا يتم نقل بعض التطبيقات بنجاح؟</string>
+    <string name="trans_intro_desc_5">هناك عدة أسباب لحدوث ذلك: مشكلات توافق إصدار النظام و التطبيق، مشكلات الشبكة، مشكلات التوافق الخاصة بجهاز معين، إلخ.</string>
+    <string name="trans_intro_question_6">٦. لماذا بعض التطبيقات لا تشتغل على جهاز جديد؟</string>
+    <string name="trans_intro_desc_6">ترتبط بعض التطبيقات (الخدمات البنكية الإلكترونية، أو التمويل، إلخ) مع جهاز معين لأسباب أمنية. جرب محو بيانات التطبيق أو إعادة تثبيت التطبيق على جهاز جديد.</string>
+    <string name="trans_intro_question_7">٧. لماذا لا يتم نقل سجل الـ WeChat كاملا؟</string>
+    <string name="trans_intro_desc_7">قد لا يتم نقل بيانات وسجل دردشة تطبيق WeChat بشكل كامل عبر ناقل Mi. انتقل إلى إعدادات الـ WeChat و قم بتسجيل الخروج من حسابك للحصول على المزيد من فرص النقل بنجاح.</string>
+    <string name="trans_intro_question_8">٨. ما هي العناصر التي لا يمكن نقلها؟</string>
+    <string name="trans_intro_title_account">الحسابات وكلمات المرور:</string>
+    <string name="trans_intro_desc_account">يجب عليك تسجيل الدخول مرة أخرى إلى حساباتك (مثل: حساب Mi، Google، إلخ.) على الجهاز الجديد لأسباب تتعلق بالحماية.</string>
+    <string name="trans_intro_title_private">ألبوم مخفي:</string>
+    <string name="trans_intro_desc_private">لا يمكن وصول ناقل Mi إلى الصور في الألبوم المخفي لأنها مشفرة. يمكنك استعادة هذه الصور من Mi Cloud على جهاز جديد.</string>
+    <string name="trans_intro_title_multiuser">بيانات الواجهة الثانية:</string>
+    <string name="trans_intro_desc_multiuser">لا يمكن وصول ناقل Mi إلى العناصر في الواجهة الثانية. قم بنقل العناصر إلى الواجهة الاولى و تشغيل ناقل Mi هناك.</string>
+    <string name="trans_intro_title_multiapp">بيانات التطبيقات المزدوجة:</string>
+    <string name="trans_intro_desc_multiapp">لا يقوم ناقل Mi بنقل بيانات التطبيقات المزدوجة لتجنب التعارض بين الملفات.</string>
 </resources>

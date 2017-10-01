@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="path_soundrecorder_setting">تطبيقات النظام/المسجّل</string>
-    <string name="search_app">المسجّل</string>
+    <string name="path_soundrecorder_setting">تطبيقات النظام/المسجل</string>
+    <string name="search_app">المسجل</string>
     <string name="search_led_indicator">إشعارات شاشة القفل</string>
     <string name="search_tip_rename">تسمية التسجيلات يدوياً</string>
     <string name="search_led_indicator_prompt">أثناء التسجيل, قم بعرض اختصار شريط الحالة و ضوء إشعار الوميض في شاشة القفل</string>
@@ -10,9 +10,9 @@
     <string name="search_enable_earpiece_title">استخدام جهاز الاستقبال لتشغيل الصوت</string>
     <string name="search_quliaty_title">جودة التسجيل</string>
     <string name="keywords_search_record_list">المسجل;التحويل النصي;التحويلات النصية;تسجيل;مشاركة التسجيل;التسجيل;التسجيلات</string>
-    <string name="keywords_search_record">تسجيل جديد; إضافة تسجيل;تسجيل;تسجيلات;التحويل النصي;نسخ;المسجّل;مسجل الكلام;مسجل الصوت;مسجل التطبيقات;تسجيل التطبيقات;كيف أقوم بالتسجيل;أين هو المسجل;مسجل MIUI</string>
+    <string name="keywords_search_record">تسجيل جديد; إضافة تسجيل;تسجيل;تسجيلات;التحويل النصي;نسخ;المسجل;مسجل الكلام;مسجل الصوت;مسجل التطبيقات;تسجيل التطبيقات;كيف أقوم بالتسجيل;أين هو المسجل;مسجل MIUI</string>
     <string name="keywords_search_call_record">تسجيل المكالمات;تسجيل المكالمة;تسجيل المكالمة;تسجيلات المكالمة</string>
-    <string name="app_name">المسجّل</string>
+    <string name="app_name">المسجل</string>
     <string name="record">تسجيل</string>
     <string name="recording">جارٍ التسجيل</string>
     <string name="recording_stopped">توقف التسجيل</string>
@@ -48,7 +48,7 @@
     <string name="dialog_title_storage_full">لا توجد مساحة كافية</string>
     <string name="dialog_content_storage_full">توقف التسجيل حيث لا توجد مساحة كافية متبقية على الذاكرة الداخلية للجهاز.</string>
     <string name="status_bar_recording">جارٍ التسجيل…</string>
-    <string name="status_bar_back">انقر للعودة إلى المسجّل</string>
+    <string name="status_bar_back">انقر للعودة إلى المسجل</string>
     <string name="status_bar_recording_pause">تم إيقاف المسجل مؤقتاً</string>
     <string name="low_battery_error_title">البطارية منخفضة</string>
     <string name="low_battery_error">أقل من ٥٪ متبقية من البطارية. قم بايقاف وحفظ التسجيل الخاص بك للتأكد من عدم فقدانه.</string>
@@ -139,14 +139,14 @@
     <string name="recognition_error_download_fail">تعذر التنزيل، تحقق من اتصال الشبكة ثم حاول مجددا.</string>
     <string name="recognition_error_downloading">جارٍ التنزيل</string>
     <string name="recognition_status_downloading">جارٍ التنزيل</string>
-    <string name="runtime_permission_ungranted">لا يمكن استخدام المسجّل بسبب أذونات غير ممنوحة</string>
+    <string name="runtime_permission_ungranted">لا يمكن استخدام المسجل بسبب أذونات غير ممنوحة</string>
     <string name="btn_clear_records">حذف التسجيلات (%d عنصر)</string>
     <string name="alert_message_clear_records">حذف التسجيلات المحددة؟</string>
     <string name="clear_records">حذف التسجيلات المتزامنة</string>
     <string name="choose_call_records_count">%d عنصر</string>
     <string name="network_tip_dialog_title">يتطلب إتصال إنترنت</string>
-    <string name="network_tip_dialog_content">يحتاج هذا التطبيق للاتصال بالإنترنت، كذلك قراءة جهات الاتصال الخاصة بك لتسمية التسجيلات التي تسجل أثناء المكالمات.</string>
-    <string name="network_tip_dialog_ok">سماح</string>
+    <string name="network_tip_dialog_content">يحتاج المسجّل إلى الاتصال بالإنترنت، كذلك قراءة جهات الاتصال الخاصة بك للعمل بشكل طبيعي. موافق؟</string>
+    <string name="network_tip_dialog_ok">موافق</string>
     <string name="network_tip_dialog_cancel">إلغاء</string>
     <string name="head_set_tip_dialog_title">استخدام mic الداخلي</string>
     <string name="head_set_tip_dialog_msg">افصل سماعات الأذن الخاصة بك لتكون قادرة على تسجيل الصوت مع مفضلة محددة (مثال، الموسيقى، الصوت).</string>

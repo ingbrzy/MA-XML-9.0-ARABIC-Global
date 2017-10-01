@@ -39,7 +39,7 @@
     <string name="pc_activity_title">تحسين البطارية</string>
     <string name="game_booster">مسرّع الألعاب</string>
     <string name="game_booster_title">زيادة</string>
-    <string name="top_game">أفضل الألعاب</string>
+<string name="top_game"/>
     <string name="game_setting">إعدادات اللعبة</string>
     <string name="gs_auto_clean_memory">مسح الذاكرة المؤقتة</string>
     <string name="gs_auto_clean_memory_detail">مسح ذاكرة التخزين المؤقت تلقائيا لتحسين اللعب</string>

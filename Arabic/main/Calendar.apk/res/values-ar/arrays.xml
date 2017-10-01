@@ -47,7 +47,7 @@
         <item>الوقت المركزي</item>
         <item>مدينة مكسيكو</item>
         <item>ساسكاتشوان</item>
-        <item>Bogota</item>
+        <item>بوغوتا</item>
         <item>التوقيت الشرقي</item>
         <item>فنزويلا</item>
         <item>التوقيت الأطلنطي (باربادوس)</item>
@@ -129,6 +129,10 @@
         <item>برج الحمل</item>
         <item>٣/٢٠ - ٤/١٩</item>
     </string-array>
+    <string-array name="bundesliga">
+        <item>٢</item>
+        <item>الدوري الألماني</item>
+    </string-array>
     <string-array name="cancer_info">
         <item>السرطان</item>
         <item>برج السرطان</item>
@@ -154,10 +158,18 @@
         <item>قبل ٢ أيام</item>
         <item>قبل ١ اسبوع</item>
     </string-array>
+    <string-array name="english_premium_league">
+        <item>٤</item>
+        <item>@string/english_premium_league</item>
+    </string-array>
     <string-array name="gemini_info">
         <item>الجوزاء</item>
         <item>برج الجوزاء</item>
         <item>٥/٢٠ - ٦/٢٠</item>
+    </string-array>
+    <string-array name="la_liga">
+        <item>۳</item>
+        <item>الدوري الإسباني</item>
     </string-array>
     <string-array name="leo_info">
         <item>الأسد</item>
@@ -168,6 +180,10 @@
         <item>الميزان</item>
         <item>برج الميزان</item>
         <item>٩/٢٢ - ١٠/٢٣</item>
+    </string-array>
+    <string-array name="ligue_1">
+        <item>٥</item>
+        <item>الدوري الفرنسي الدرجة الأولى</item>
     </string-array>
     <string-array name="pisces_info">
         <item>pisces</item>
@@ -267,6 +283,10 @@
         <item>العقرب</item>
         <item>برج العقرب</item>
         <item>١٠/٢٣ - ١١/٢١</item>
+    </string-array>
+    <string-array name="serie_a">
+        <item>١</item>
+        <item>الدوري الإيطالي الدرجة الأولى</item>
     </string-array>
     <string-array name="taurus_info">
         <item>الثور</item>
