@@ -474,4 +474,5 @@
     <string name="app_description_title">حول المنظف</string>
     <string name="app_description_content">يقوم المنظف بإيجاد المهملات على جهازك ويحرر مساحة التخزين. تأكد من أنك تستطيع أن تفعل ذلك دون هذه الميزات قبل إلغاء تثبيت التطبيق.</string>
     <string name="engine_init">جارٍ التهيئة...</string>
+    <string name="international_Ad">Ad</string>
 </resources>

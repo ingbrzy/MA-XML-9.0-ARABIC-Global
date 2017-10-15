@@ -380,6 +380,7 @@
     <string name="detail_app_button">معلومات التطبيق</string>
     <string name="pref_about_traffic_title">إعدادات استخدام البيانات</string>
     <string name="pref_traffic_manage_title">استخدام البيانات</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">حد بيانات الجوال</string>
     <string name="pref_adjust_traffic_data">تعيين استخدام البيانات</string>
     <string name="pref_category_title_other">إعدادات إضافية</string>
@@ -872,6 +873,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"هذا التطبيق قد يبطئ
 جهازك"</string>
+    <string name="om_memory_clean_memory_info_text">%2$s / %1$s</string>
     <string name="om_ill_proc_handle_unstaill_title">إلغاء التثبيت %s؟</string>
     <string name="om_ill_proc_handle_uninstall_prompt">إلغاء تثبيت هذا التطبيق لإصلاح مشاكل إستخدام البطارية.</string>
     <string name="om_ill_proc_type_wakelock_title">هذا التطبيق يقوم بحظر وضع السكون ويستنزف البطارية</string>
@@ -1203,6 +1205,7 @@
     <string name="sp_monitored_apps_count_zero">لا توجد تطبيقات دفع محمية</string>
     <string name="monitor_app_more">المزيد</string>
     <string name="monitor_app_add">إضافة</string>
+    <string name="sc_system_risk_fix_info_xspace">الضرر لا يمكن إصلاحة في المساحة, من فضلك قم بالتبديل إلى مساحة المالك لإصلاحه.</string>
     <string name="sp_background_risk_dialog_title">تنبيه</string>
     <string name="sp_background_risk_dialog_summary">، التحقق من مشاكل الدفع وإصلاحها.</string>
     <string name="sp_background_risk_type_wifi">شبكة Wi-Fi هذه خطيرة</string>
@@ -1266,6 +1269,7 @@
     <string name="menu_text_networkassistants">استخدام البيانات</string>
     <string name="menu_text_networkassistants_remain">%s متبقي</string>
     <string name="menu_text_networkassistants_danger">%s زائد</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">غ.ب</string>
     <string name="menu_text_networkassistants_unit_mb">م.ب</string>
     <string name="menu_text_networkassistants_unit_kb">ك.ب</string>
@@ -1626,6 +1630,7 @@
     <string name="card_main_deepclean_wechat_action">حذف</string>
     <string name="card_main_sectool_title">الأدوات</string>
     <string name="card_main_monthreport_action">عرض</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">اختبار الشبكة</string>
     <string name="card_main_netcheck_summary">اختبار الاتصال لمشاكل الشبكة</string>
     <string name="card_main_netcheck_action">اختبار</string>
@@ -1810,7 +1815,7 @@
     <string name="app_manager_perm">الأذونات</string>
     <string name="app_manager_app_update">تحديثات</string>
     <string name="app_manager_details_storage_title">التخزين</string>
-    <string name="app_manager_details_traffic_title">استخدام البيانات هذا الشهر</string>
+    <string name="app_manager_details_traffic_title">إستخدام البيانات</string>
     <string name="app_manager_details_electric_title">البطارية</string>
     <string name="app_manager_card_permission_title">الأذونات</string>
     <string name="app_manager_permission_startself_title">تشغيل تلقائي</string>
@@ -1895,6 +1900,30 @@
     <string name="app_manager_show_all_apps">عرض جميع التطبيقات</string>
     <string name="app_manager_hide_system_server">إخفاء خدمات النظام</string>
     <string name="app_manager_back">رجوع</string>
+    <string name="app_manager_defaults_setting">الافتراضية</string>
+    <string name="app_manager_clear_cache">مسح ذاكرة التخزين المؤقتة</string>
+    <string name="app_manager_reset_app_preferences">إعادة تعيين تفضيلات التطبيق</string>
+    <string name="app_manager_reset_app_preferences_title">إعادة تعيين تفضيلات التطبيق؟</string>
+    <string name="app_manager_reset_app_preferences_desc">"سيؤدي هذا إلى إعادة تعيين جميع التفضيلات ل:
+
+ "<li>التطبيقات المعطلة</li>"
+ "<li>اشعارات التطبيقات المعطلة</li>"
+ "<li>التطبيقات الافتراضية من أجل الإجراءات</li>"
+ "<li>قيود بيانات الخلفية للتطبيقات</li>"
+
+ أنت لن تفقد أي بيانات في التطبيق."</string>
+    <string name="app_manager_reset_app_preferences_button">إعادة تعيين التطبيقات</string>
+    <string name="app_manager_disable_text">تعطيل</string>
+    <string name="app_manager_enable_text">تفعيل</string>
+    <string name="app_manager_disable_dlg_title">هل تريد تعطيل التطبيق المدمج؟</string>
+    <string name="app_manager_disable_dlg_text">إذا قمت بتعطيل هذا التطبيق، التطبيقات الأخرى قد لا تعمل كما هو مقصود.</string>
+    <string name="app_manager_disabled">معطّل</string>
+    <string name="app_manager_enabled">مفعل</string>
+    <string name="app_manager_globel_perm_title">أذونات التطبيق</string>
+    <string name="app_manager_globel_perm_summary">إدارة الأذونات ذات الصلة بالموقع ،التخزين، الهاتف، الرسائل وجهات الاتصال.</string>
+    <string name="app_manager_globel_other_perm_title">أذونات أخرى</string>
+    <string name="app_manager_uninstall_protected_dlg_title">إلغاء تثبيت تطبيقات النظام</string>
+    <string name="app_manager_uninstall_protected_dlg_msg">قد يؤدي إلغاء تثبيت تطبيقات النظام إلى منع بعض مكونات MIUI من العمل بشكل صحيح. هل تريد إلغاء التثبيت على أي حال؟</string>
     <string name="ad_btn_default_text">معرفة المزيد</string>
     <string name="open_activity_err">لم يتم العثور على التطبيق</string>
     <string name="low_memory_warning_dialog_title">لا توجد مساحة كافية</string>
@@ -2013,6 +2042,7 @@
     <string name="gamebooster_main_activity_back">الرجوع من مسرع الألعاب</string>
     <string name="data_booster_title">استقرار اتصال البيانات</string>
     <string name="data_booster_desc">قم بإلغاء تنشيط فتحات SIM الأخرى للحفاظ على اتصال مستقر</string>
+    <string name="international_Ad">Ad</string>
     <string name="power_center_consume_rank">استخدام البطارية</string>
     <string name="power_center_custom_title">وضع البطارية</string>
     <string name="power_center_auto_shutdown_summary_default">قم بتشغيل جهازك أو إيقافه في وقت المحدد</string>
