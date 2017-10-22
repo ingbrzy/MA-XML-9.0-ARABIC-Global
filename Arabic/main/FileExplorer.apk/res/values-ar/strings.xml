@@ -161,7 +161,6 @@
     <string name="gigabyteShort">غيغابايت</string>
     <string name="terabyteShort">تيرابايت</string>
     <string name="petabyteShort">بنتابايت</string>
-    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="tab_local">محلي</string>
     <string name="sys_size_enable">" متاح"</string>
     <string name="tools">الأدوات</string>
@@ -421,7 +420,6 @@
     <string name="video_upload_btn_hint">الفيديوهات بصغة MP4 يجب ان تكون بين ٣ث~١٠دقائق</string>
     <string name="video_upload_btn">التالي</string>
     <string name="video_upload_title">تحديد فيديو</string>
-    <string name="video_upload_item_title">%1$s (%2$s)</string>
     <string name="video_comment_topic">\#إضافة موضوع#</string>
     <string name="video_comment_hint">تحديد موضوع</string>
     <string name="video_comment_publish">إرسال</string>
@@ -495,7 +493,6 @@
     <string name="video_topic_hint">البحث عن أشخاص أو مواضيع</string>
     <string name="comment_reply">رد %1$s:</string>
     <string name="comment_hint">إضافة تعليق</string>
-    <string name="origin_name">%1$s:</string>
     <string name="hot_comments">تعليقات مشهورة</string>
     <string name="new_comments">تعليقات جديدة</string>
     <string name="copy_text">نسخ النص</string>
@@ -755,7 +752,6 @@
     <string name="finish_str">تم</string>
     <string name="tab_msg">الرسائل</string>
     <string name="msg_page_video_default_title">لقد قمت بحتميل فيديو، إلق نظرة!</string>
-    <string name="recommend_users">%1$s+</string>
     <string name="follow_success_tip">تمت المتابعة بنجاح</string>
     <string name="comment_fail">تعذر نشر التعليق، حاول مجددا</string>
     <string name="comment_fail_banned_temporary">لقد تم حظرك مؤقتا بسبب تعليقات غير لائقة</string>
