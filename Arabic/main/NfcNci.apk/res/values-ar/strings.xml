@@ -32,7 +32,7 @@
     <string name="pair_no">لا</string>
     <string name="tap_again_to_pay">انقر مرة أخرى للدفع بواسطة %1$s</string>
     <string name="tap_again_to_complete">انقر مرة أخرى للإستكمال بإستخدام %1$s</string>
-    <string name="transaction_failure">تعذر إكمال هذة المعاملة مع %1$s.</string>
+    <string name="transaction_failure">تعذر إكمال هذة العملية مع %1$s.</string>
     <string name="could_not_use_app">تعذر استخدام %1$s.</string>
     <string name="pay_with">الدفع بواسطة</string>
     <string name="complete_with">الاكمال بواسطة</string>

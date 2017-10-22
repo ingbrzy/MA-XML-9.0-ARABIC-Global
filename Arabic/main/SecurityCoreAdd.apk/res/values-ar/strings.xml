@@ -130,7 +130,7 @@
     <string name="transferContact">سيتم نقل جهات الاتصال من الواجهة الثانية إلى الواجهة الاولى</string>
     <string name="transferMessage">سيتم نقل الرسائل من الواجهة الثانية إلى الواجهة الاولى</string>
     <string name="transferImage">سيتم نقل الصور من الواجهة الاولى إلى ألبوم \"الواجهة الثانية\" في الواجهة الاولى</string>
-    <string name="transferApp">سيتم نقل التطبيقات المثبتة في الواجهة الثانية إلى الواجهة الاولى. ولكن سيتم فقدان جميع بيانات التطبيقات.</string>
+    <string name="transferApp">ستنقل التطبيقات المثبتة في الواجهة الثانية إلى الواجهة الاولى. ولكن سيتم فقدان جميع بيانات التطبيقات.</string>
     <string name="transferFile">تحديد ملفات أخرى يدوياً</string>
     <string name="continueButton">متابعة</string>
     <string name="removingSpace">جارٍ الحذف…</string>
@@ -215,7 +215,7 @@
     <string name="restore_show_desc">عدم عرض الرسائل الخاصة في الواجهة الثانية. ستظل متاحة في الواجهة الاولى.</string>
     <string name="confirm_restore">عدم الإظهار</string>
     <string name="restore_show_toast">لا تظهر الرسائل الخاصة</string>
-    <string name="remove_second_space_msg">سيتم فقدان جميع بيانات تطبيقات الواجهة الثانية بعد حذف الواجهة الثانية. حذف الواجهة الثانية الآن؟</string>
+    <string name="remove_second_space_msg">ستفقد جميع بيانات تطبيقات الواجهة الثانية بعد حذف الواجهة الثانية. حذف الواجهة الثانية الآن؟</string>
     <string name="second_space_finger_printf_title">بصمة اصبع الواجهة الثانية</string>
     <string name="second_space_finger_printf_desc">إضافة بصمة اصبع خاصة للدخول إلى الواجهة الثانية</string>
     <string name="setting_finger_print_title">إضافة بصمة اصبع الواجهة الثانية</string>

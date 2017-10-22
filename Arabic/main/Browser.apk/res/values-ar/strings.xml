@@ -23,10 +23,14 @@
     <string name="action_menu_account_not_login_hint">قم بتسجيل الدخول للمزامنة مع Mi Cloud</string>
     <string name="action_menu_bookshelf">رف الكتب</string>
     <string name="action_menu_current_version">الإصدار الحالي</string>
+    <string name="action_menu_request_desktop_site">طلب موقع سطح المكتب</string>
+    <string name="action_menu_request_desktop_site_off">طلب موقع سطح المكتب متوقف</string>
+    <string name="action_menu_request_desktop_site_on">طلب موقع سطح المكتب مشغل</string>
     <string name="action_menu_text_add_bookmark">إضافة إشارة مرجعية</string>
     <string name="action_menu_text_bandwidth">موفر البيانات</string>
     <string name="action_menu_text_bandwidth_off">موفر البيانات</string>
     <string name="action_menu_text_bandwidth_on">موفر البيانات</string>
+    <string name="action_menu_text_bookmark_add_off">لا يمكن إضافة أي صفحة ويب.</string>
     <string name="action_menu_text_bookmark_added">تم إضافة إشارة مرجعية</string>
     <string name="action_menu_text_copy_url">نسخ URL</string>
     <string name="action_menu_text_create_qr_code">رمز QR</string>
@@ -61,6 +65,7 @@
     <string name="add_favorites_to">إضافة إلى المفضلة</string>
     <string name="add_new_bookmark">إضافة إشارة مرجعية</string>
     <string name="add_new_quicklink">إضافة إلى صفحة البداية</string>
+    <string name="add_pwa_to_homescreen">إضافة هذا الويب إلى الشاشة الرئيسية؟</string>
     <string name="add_ql_bm_title">حفظ</string>
     <string name="add_quicklink_to_popular">إضافة إلى صفحة البداية</string>
     <string name="add_quicklinks">إضافة</string>
@@ -74,6 +79,7 @@
     <string name="added_to_bookmarks">تمت الإضافة إلى الإشارات المرجعية</string>
     <string name="adjust_text_zoom_toast">قد يتسبب تغيير زوم النص في عرض بعض مواقع الويب بشكل غير صحيح</string>
     <string name="agree">موافق</string>
+    <string name="agree_permissions_request">أوافق</string>
     <string name="alert_tips">هذا الموقع قد يكون غير آمن</string>
     <string name="allow">السماح</string>
     <string name="app_new_version">"تم تثبيت أحدث إصدار من هذا التطبيق مسبقا "</string>
@@ -132,6 +138,7 @@
     <string name="browserFrameFormResubmitMessage">الصفحة التي تحاول عرضها تحتوي على بيانات تم إرسالها مسبقا. إذا قمت بإعادة إرسال البيانات، سيتم تكرار الإجراءات السابقة (مثل عمليات البحث أو الشراء).</string>
     <string name="browserFrameNetworkErrorLabel">خطأ في الاتصال</string>
     <string name="cancel">إلغاء</string>
+    <string name="cancle_sync_cloud_tabs">إلغاء المزامنة</string>
     <string name="cannot_download">يمكن تنزيل \"HTTP\" أو \"HTTPS\" من URLs فقط</string>
     <string name="choosertitle_sharevia">مشاركة عبر</string>
     <string name="clear_history">مسح السجل</string>
@@ -152,7 +159,7 @@
     <string name="cloud_sync_failed_toast">تعذر التحديث</string>
     <string name="cloud_tab">علامات تبويب Cloud</string>
     <string name="cloud_time_tips">المزامنة الأخيرة</string>
-    <string name="cloud_up_to_loading_tips">قم بالتحرير للمزامنة</string>
+    <string name="cloud_up_to_loading_tips">تحرير للمزامنة</string>
     <string name="color_picker_button_black">أسود</string>
     <string name="color_picker_button_blue">أزرق</string>
     <string name="color_picker_button_cancel">إلغاء</string>
@@ -167,6 +174,7 @@
     <string name="color_picker_dialog_title">تحديد اللون</string>
     <string name="color_picker_hue">تدرج اللون</string>
     <string name="color_picker_saturation">صفاء اللون</string>
+    <string name="color_picker_value">القيمة</string>
     <string name="comment_app_menu">التعليق</string>
     <string name="comment_description">تعليق</string>
     <string name="comment_hint">تعليق</string>
@@ -183,6 +191,7 @@
     <string name="contextmenu_manually_block_ad">وضع علامة كإعلان</string>
     <string name="contextmenu_map">خريطة</string>
     <string name="contextmenu_openlink">إفتح</string>
+    <string name="contextmenu_openlink_in_browser">فتح في المتصفح</string>
     <string name="contextmenu_openlink_newwindow">فتح في علامة تبويب جديدة</string>
     <string name="contextmenu_openlink_newwindow_background">فتح في علامة تبويب خلفية</string>
     <string name="contextmenu_recognise_qr_code">مسح رمز QR</string>
@@ -192,7 +201,7 @@
     <string name="contextmenu_share_image">مشاركة الصورة</string>
     <string name="contextmenu_sharelink">مشاركة الرابط</string>
     <string name="contextmenu_view_image">عرض الصورة</string>
-    <string name="contextmenu_webpage_capture">حفظ كلقطة شاشة</string>
+    <string name="contextmenu_webpage_capture">لقطة الشاشة</string>
     <string name="contextmenu_webpage_html">حفظ كملف HTML</string>
     <string name="contextmenu_webpage_snapshot">حفظ الصفحة</string>
     <string name="copy_to_clipboard_failure_message">فشل النسخ إلى الحافظة</string>
@@ -285,6 +294,9 @@
     <string name="edit_quicklink">تعديل</string>
     <string name="empty_app_name">تطبيق أخر</string>
     <string name="empty_bookmark">فارغ</string>
+    <string name="empty_cloud_tab_login_hint">لا توجد علامات تبويب cloud</string>
+    <string name="empty_cloud_tab_logout_hint">"تسجيل الدخول الى حساب Mi
+ سوف تظهر هنا علامات التبويب المفتوحة في الأجهزة الأخرى"</string>
     <string name="empty_history_hint">السجل فارغ</string>
     <string name="empty_snapshot_hint">فارغ</string>
     <string name="enable_geolocation_confirm_message">سيؤثر إيقاف خدمات الموقع على التوصيات التي تتلقاها.</string>
@@ -308,6 +320,7 @@
     <string name="find_on_page_next">التالي</string>
     <string name="find_on_page_prev">رجوع</string>
     <string name="find_previous">البحث عن السابق</string>
+    <string name="finish_sync_cloud_tabs">انتهت المزامنة</string>
     <string name="firstUsingSearchEngineTips">تبديل محرك البحث؟</string>
     <string name="fling_on_border_gesture_hint">يمكنك اختيار وظيفة هذه الإيماءة من الإعدادات</string>
     <string name="force_quick_search_title">بحث</string>
@@ -341,6 +354,7 @@
     <string name="homepage_more_sites">المزيد من مواقع الويب</string>
     <string name="homepage_search_hint">بحث</string>
     <string name="homepage_top_card_menu">أعلى</string>
+    <string name="ignore_add_pwa_dialog_today">لا تظهر اليوم</string>
     <string name="in_incognito">أنت في وضع التصفح المخفي! صفحات الويب الموجودة بعلامة التبويب هذه لن تظهر في سجل المتصفح.</string>
     <string name="in_secureaccess">تم تبديل المتصفح الى الوضع الآمن</string>
     <string name="isReplacePage">الملف موجود مسبقاً، هل تريد استبداله؟</string>
@@ -550,9 +564,12 @@
     <string name="pay_failed_toast">تعذر إتمام عملية الدفع</string>
     <string name="pay_success_toast">تم الدفع بنجاح</string>
     <string name="permission_alert_window">السماح للنوافذ المنبثقة استخدام هذه الميزة</string>
+    <string name="permission_notification">إرسال إشعارات لك</string>
     <string name="permission_unknown">إجراء غير معروف</string>
+    <string name="permissions_prompt_message">"%s يريد أن "</string>
     <string name="popup_window_attempt">هل تريد السماح لهذا الموقع فتح نافذة منبثقة؟</string>
     <string name="positive_confirm_message">إيقاف التشغيل على أية حال</string>
+    <string name="pref_accept_quicklink_push">دفع صفحة البداية</string>
     <string name="pref_accessibility">إمكانية الوصول</string>
     <string name="pref_accessibility_title">إمكانية الوصول</string>
     <string name="pref_accessibility_url_shortcut_enter_summary">يمكن إدخال تركيبات الأحرف المشتركة بضغطة واحدة في شريط العنوان</string>
@@ -591,8 +608,8 @@
     <string name="pref_extras_reset_default_dlg">إستعادة الإعدادات الافتراضية؟</string>
     <string name="pref_extras_reset_default_summary">استعادة الإعدادات الافتراضية</string>
     <string name="pref_extras_reset_default_title">أخرى</string>
-    <string name="pref_extras_send_feedback">إرسال ملاحظة</string>
-    <string name="pref_extras_title">متقدم</string>
+    <string name="pref_extras_send_feedback">الإبلاغ عن خلل</string>
+    <string name="pref_extras_title">الإعدادات المتقدمة</string>
     <string name="pref_extras_title_version">معلومات الإصدار</string>
     <string name="pref_file_downlaod_save_is_reset_default_settings">حفظ الملفات في الموقع الافتراضي للمتصفح</string>
     <string name="pref_file_downlaod_save_reset_default_settings">استعادة الموقع الافتراضي</string>
@@ -663,12 +680,14 @@
     <string name="progress_dialog_setting_wallpaper">تعيين خلفية الشاشة …</string>
     <string name="pull_to_refresh_pull_label">اسحب للتحديث</string>
     <string name="pull_to_refresh_release_label">حرّره للموصى به و التحديث</string>
+    <string name="pwa_app_name">تطبيق الويب</string>
     <string name="qr_code_title">رمز QR</string>
     <string name="qr_description">مسح رمز QR</string>
     <string name="quicklink_bookmark_save">حفظ في</string>
     <string name="quicklink_cannot_save_url">لا يمكن إضافة عنوان URL هذا.</string>
     <string name="quicklink_folder_text">أفضل التطبيقات</string>
     <string name="quicklink_not_saved">تعذر الإضافة إلى صفحة البدء</string>
+    <string name="quicklink_push_confirm_message">سيؤدي إيقاف تشغيل هذه الميزة إلى التأثير في دفع صفحة البداية.</string>
     <string name="quicklink_saved">تم الحفظ إلى صفحة البداية</string>
     <string name="quicklink_saved_before">تم إضافة هذا الموقع مسبقا</string>
     <string name="quicklink_user_define_webpage_title">الاسم</string>
@@ -691,6 +710,7 @@
     <string name="readmode_recommend_message">لقد قرأت هذا الكتاب سابقا :)</string>
     <string name="readmode_refresh">تحديث</string>
     <string name="readmodelist_bookmarks_to_show">قائمة القراءة</string>
+    <string name="refuse_permissions_request">رفض</string>
     <string name="remember_passwords_confirm_message">إيقاف هذه الميزة قد يؤثّر على الإستخدام.</string>
     <string name="remove_bookmark">حذف الإشارة المرجعية</string>
     <string name="remove_bookmark_group">حذف المجموعة</string>
@@ -801,16 +821,24 @@
     <string name="suggest_access_btn_play">تشغيل</string>
     <string name="suggest_access_btn_view">عرض</string>
     <string name="suggest_access_item_album_songs">%d أغاني</string>
+    <string name="suggest_access_item_app_mark">تطبيق</string>
     <string name="suggest_access_item_app_size">2f.% ميغابايت</string>
     <string name="suggest_access_item_app_update">تحديث: %s</string>
+    <string name="suggest_access_item_book_mark">كتاب</string>
+    <string name="suggest_access_item_mina_mark">خدمة مباشرة</string>
+    <string name="suggest_access_item_music_mark">موسيقى</string>
     <string name="suggest_access_item_singer_albums">%d ألبومات</string>
     <string name="suggest_access_item_singer_pop">%d الأغاني الشهيرة</string>
+    <string name="suggest_access_item_site_mark">مواقع</string>
+    <string name="suggest_access_item_video_mark">فيديو</string>
+    <string name="suggest_access_item_website_mark">موقع إلكتروني</string>
     <string name="suggest_access_music">موسيقى Mi</string>
     <string name="suggest_item_delete_text">حذف</string>
     <string name="suggest_open_app_failed">تعذر فتح هذا التطبيق</string>
     <string name="switchText">نعم</string>
     <string name="switch_proxy_dialog_msg">تم الكشف عن شبكة سرقة. استخدم تطبيق حماية MIUI الافتراضي أو قم بالإبلاغ عن هذه المشكلة إلى مشغّل شبكة الجوّال الخاص بك.</string>
     <string name="switch_proxy_dialog_title">شبكة سرقة</string>
+    <string name="sync_cloud_tabs">المزامنة</string>
     <string name="tab_hotpage">آخر الأخبار</string>
     <string name="tab_quicklinks">صفحة البداية</string>
     <string name="tab_yellowpage">الروابط</string>

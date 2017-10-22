@@ -340,6 +340,7 @@
     <string name="pref_camera_beautify_entry_low">منخفض</string>
     <string name="pref_camera_beautify_entry_normal">متوسط</string>
     <string name="pref_camera_beautify_entry_high">عالي</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">خيارات</string>
     <string name="button_front_camera_title">اخذ سيلفي</string>
     <string name="button_normal_video_title">تسجيل فيديو</string>
@@ -356,10 +357,12 @@
     <string name="toast_saving">جارٍ حفظ الصور…</string>
     <string name="cannot_connect_camera_volte_call">مكالمة فيديو جارية، يرجى المحاولة لاحقاٌ.</string>
     <string name="hibernate_hint">انقر على الشاشة لايقاظ الكاميرا</string>
+    <string name="pref_camera_picturesize_entry_widescreen">@string/pref_camera_picturesize_entry_fullscreen</string>
     <string name="accessibility_zoom_button">وضع التكبير</string>
     <string name="accessibility_portrait_button">وضع Portrait</string>
     <string name="toast_burst_snap_finished_summary">اكتملت اللقطة السريعة، تم التقاط %1$s صور</string>
     <string name="pref_dualcamera_watermark_title">علامة مائية للكاميرا المزدوجة</string>
+    <string name="pref_camera_device_watermark_title">علامة مائية للجهاز</string>
     <string name="pref_camera_zoom_mode_title">العدسة</string>
     <string name="pref_camera_zoom_mode_entry_wide">واسع</string>
     <string name="pref_camera_zoom_mode_entry_tele">المقربة</string>
@@ -418,6 +421,7 @@
     <string name="hint_fast_motion">سيتم تشغيل الفيديو الذي قمت بتصويره بشكل أسرع.</string>
     <string name="hint_slow_motion">سيتم تشغيل الفيديو الذي قمت بتصويره ببطئ.</string>
     <string name="hunt_dual_water_mark">سيتم إضافة العلامة المائية للكاميرا المزدوجة تلقائيا.</string>
+    <string name="hint_device_water_mark">سيتم إضافة العلامة المائية للجهاز تلقائيا.</string>
     <string name="module_name_fun">فيديو قصير</string>
     <string name="module_name_video">فيديو</string>
     <string name="module_name_capture">صورة</string>
@@ -455,5 +459,5 @@
     <string name="pref_retain_camera_mode_title">حفظ الوضع السابق</string>
     <string name="pref_retain_camera_mode_summary">تبديل الكاميرا إلى الوضع المستخدم سابقا عند فتحك التطبيق.</string>
     <string name="pref_fingerprint_capture_title">التصوير بمستشعر بصمة الإصبع</string>
-    <string name="multi_window_mode_not_supported">"Camera doesn't work in Split screen"</string>
+    <string name="multi_window_mode_not_supported">لا تعمل الكاميرا في وضع تقسيم الشاشة</string>
 </resources>

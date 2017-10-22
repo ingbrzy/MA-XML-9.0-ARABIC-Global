@@ -105,11 +105,11 @@
         <item quantity="many">%d دقيقة</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_time_format">
-        <item quantity="other">%1$d س%2$d دق</item>
-        <item quantity="zero">%1$d س%2$d دق</item>
-        <item quantity="one">%1$d س%2$d دق</item>
-        <item quantity="two">%1$d س%2$d دق</item>
-        <item quantity="few">%1$d س%2$d دق</item>
-        <item quantity="many">%1$d س%2$d دق</item>
+        <item quantity="other">%1$dس %2$dدق</item>
+        <item quantity="zero">%1$dس %2$dدق</item>
+        <item quantity="one">%1$dس %2$dدق</item>
+        <item quantity="two">%1$dس %2$dدق</item>
+        <item quantity="few">%1$dس %2$dدق</item>
+        <item quantity="many">%1$dس %2$dدق</item>
     </plurals>
 </resources>

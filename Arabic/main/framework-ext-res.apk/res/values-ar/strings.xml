@@ -68,6 +68,8 @@
     <string name="reboot_progress">جار إعادة التشغيل…</string>
     <string name="screen_on_proximity_sensor_title">وضع الجيب</string>
     <string name="screen_on_proximity_sensor_summary">لا تقم بتغطية منطقة سماعة الأذن</string>
+    <string name="screen_on_proximity_sensor_hint">لإيقاف تشغيل هذه الميزة, إضغط على زر رفع الصوت وزر الرجوع معاً.</string>
+    <string name="screen_on_proximity_sensor_hint_has_navigation_bar">لإيقاف تشغيل هذه الميزة، اضغط على زر رفع مستوى الصوت.</string>
     <string name="screen_button_notification_title">تم إيقاف تشغيل أزرار التنقل</string>
     <string name="screen_button_notification_text">لتشغيلها، اضغط على زري الصفحة الرئيسية والطاقة في وقت واحد.</string>
     <string name="screen_paper_mode_enter_toast">وضع القراءة قيد التشغيل. لأيقاف تشغيلة، اذهب إلى الإعدادات > الشاشة > وضع القراءة.</string>

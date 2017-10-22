@@ -178,6 +178,7 @@
     <string name="file_size">الحجم:</string>
     <string name="file_title">الإسم:</string>
     <string name="file_width_height">الحجم:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">رسالة جديدة</string>
     <string name="forward_from">إعادة توجيه من:</string>
     <string name="forward_prefix">"إعادة توجيه: "</string>
@@ -250,7 +251,7 @@
     <string name="message_number">رقم الهاتف:</string>
     <string name="message_pending">جارٍ الإرسال</string>
     <string name="message_queued">لا يمكن إرسال رسالتك في الوقت الحالي. سيتم الإرسال عند توفر الخدمة.</string>
-    <string name="message_queued_second_space">لا يمكن إرسال رسالتك الآن. من فضلك قم بفتح شبكة البيانات.</string>
+    <string name="message_queued_second_space">تعذر إرسال الرسالة. قم بتشغيل بيانات الجوال لإرسالها.</string>
     <string name="message_readed">مقروء</string>
     <string name="message_received">تم التسليم</string>
     <string name="message_rejected">تم الرفض</string>
@@ -300,9 +301,6 @@
     <string name="mx_activate_status_desc_query_activte_info">جارٍالتحقق من معلومات بطاقة SIM…</string>
     <string name="mx_activate_status_desc_request_activation_sms_phone_error">رقم الهاتف الذي أدخلته غير صالح</string>
     <string name="mx_activate_status_desc_wait_for_sms_fail">تعذر تفعيل رسالة Mi</string>
-    <string name="mx_and_voip_enable">رسالة Mi و صوت</string>
-    <string name="mx_and_voip_enable_popup_msg">ارسل الرسائل وقم بإجراء مكالمات مع مستخدمي MIUI آخرين بدون تحمل رسوم من شركة الاتصالات الخاص بك. VoIP مدعوم من Weihui. راجع سياسة خصوصية weihui.</string>
-    <string name="mx_and_voip_enable_popup_msg2">سياسة الخصوصية</string>
     <string name="mx_auto_resend_mms">إرسال كرسالة وسائط متعددة(MMS)</string>
     <string name="mx_auto_resend_mms_summary">إرسال رسائل الوسائط المتعددة كرسالة MMS عبر بيأنات الهاتف المحمول عندما تكون غير متصلاً بشبكة Wi-Fi. سوف تتحمل الرسوم العادية من شركة الإتصالات الخاصة بك.</string>
     <string name="mx_auto_resend_sms">إرسال كرسالة رسالة قصيرة(SMS)</string>
@@ -314,7 +312,6 @@
     <string name="mx_dspt">ارسل رسائل نصية قصيرة (SMS) ورسائل الوسائط المتعددة (MMS) لأجهزة MIUI اخرى بدون تحمّل اية رسوم عندما تكون متصل بشبكة الـWi-Fi.</string>
     <string name="mx_dspt_listview">ارسل رسائل إلى مستخدمي MIUI آخرين بدون دفع رسوم</string>
     <string name="mx_dspt_provision">تتيح لك رسالة Mi إرسال الرسائل لمستخدمي MIUI الآخرين عبر الانترنت دون تكبد رسوم. قد تكون هناك حاجة لارسال رسالة (SMS) لإعادة تفعيل رسالة Mi. ستفرض عليك شركة الاتصالات رسوم هذه الرسالة. الى جانب ذلك، هذه الخدمة تحتاج إلى الوصول إلى بيانات الجوال للعمل بشكل طبيعي.</string>
-    <string name="mx_dspt_provision_ex">أرسل الرسائل وقم بإجراء المحادثات مع مستخدمي MIUI آخرين عير الأنترنت بدون تحمل رسوم من شركة الإتصالات الخاص بك. VoIP مدعوم من قبل Weihui. عرض سياسة خصوصية Weihui.</string>
     <string name="mx_dspt_provision_ex2">سياسة الخصوصية</string>
     <string name="mx_enable">رسالة Mi</string>
     <string name="mx_enable_ex">رسالة Mi والصوت</string>
@@ -355,8 +352,8 @@
     <string name="notification_multiple">[%s]</string>
     <string name="notification_multiple_title">رسائل جديدة</string>
     <string name="number_add_hint">أدخل رقم الهاتف</string>
-    <string name="open_audio_record_panel">فتح لوحة تسجيل الصوت</string>
-    <string name="open_edit_sms_panel">فتح لوحة تعديل الـ Sms</string>
+    <string name="open_audio_record_panel">افتح اللوحة لتسجيل الصوت</string>
+    <string name="open_edit_sms_panel">افتح اللوحة لتعديل الرسالة</string>
     <string name="open_url_with_web">هل تريد فتح عنوان الـ URL هذا في المتصفح؟</string>
     <string name="over_max_mms_size">.رسالة الوسائط المتعددة كبيرة جدًا</string>
     <string name="overwrite_edited_content">سوف تتم الكتابة فوق المحتويات التي قمت بتعديلها.</string>
@@ -400,7 +397,6 @@
     <string name="pref_summary_mms_read_reports">إظهار الإشعارات في شكل المحادثة عندما يقوم المستلم بتنزيل محتويات رسائل الوسائط المتعددة MMS</string>
     <string name="pref_summary_mms_retrieval_during_roaming">تنزيل الصور والفيديوهات في الرسائل تلقائيا عند التجوال</string>
     <string name="pref_summary_notification_body_enabled">إظهار الرسائل على شاشة القفل وفي تظليل الإشعار</string>
-    <string name="pref_summary_notification_body_enabled_when_secure">لا يمكنك معاينة الرسائل في وضع الضيف</string>
     <string name="pref_summary_off_system_mms_priority">استخدام تطبيقات جهة أخرى لإرسال رسائل الوسائط المتعددة(MMS) وإستلامها</string>
     <string name="pref_summary_on_system_mms_priority">تعيين تطبيق الرسائل لـ MIUI كتطبيق افتراضي لإرسال رسائل الوسائط المتعددة وإستلامها</string>
     <string name="pref_summary_send_delivery_reports">إرسال رسالة تأكيد التسليم إلى المرسل عند إستلام رسالة وسائط متعددة</string>
@@ -530,6 +526,7 @@
     <string name="send_signature_confirm_dialog_title">إرسال الرسالة</string>
     <string name="send_sms">إرسال رسالة</string>
     <string name="send_to">إلى:</string>
+    <string name="send_to_index_contact">%1$s2$s</string>
     <string name="sent_at_time">تم الارسال في: %1s</string>
     <string name="sent_label">"مرسلة: "</string>
     <string name="service_message_not_found">انتهت صلاحية الرسالة أو غير متوفرة</string>
@@ -566,15 +563,15 @@
     <string name="sms_report_dialog_title">حاول مجددا</string>
     <string name="sms_report_failed">تعذر إرسال التقرير</string>
     <string name="sms_report_success">تم ارسال التقرير بنجاح</string>
-    <string name="snippet_audio">[صوت]</string>
-    <string name="snippet_picture">[صورة]</string>
+    <string name="snippet_audio">[Audio]</string>
+    <string name="snippet_picture">[Image]</string>
     <string name="sp_category_all">كل رسائل الخدمة</string>
     <string name="sp_category_bank">رسائل إشعارات البنك</string>
     <string name="sp_category_title_prefix">%s</string>
     <string name="sp_conversation_title">الإشعارات</string>
     <string name="sp_mark_as_read_menu_title">وضع علامة \"مقروء\"</string>
-    <string name="sqlite_disk_full">قاعدة البيانات أو القرص ممتلئ</string>
-    <string name="sqlite_low_memory">الذاكرة منخفضة</string>
+    <string name="sqlite_disk_full">مساحة التخزين على جهازك ممتلئة.</string>
+    <string name="sqlite_low_memory">لا توجد مساحة تخزين كافية</string>
     <string name="status_failed">غير ناجح</string>
     <string name="status_label">"الحالة: "</string>
     <string name="status_pending">معلق</string>
@@ -651,9 +648,6 @@
     <string name="view">عرض</string>
     <string name="view_bookmark">عرض الرسالة الأصلية</string>
     <string name="view_message_details">عرض تفاصيل الرسالة</string>
-    <string name="voip_enable">رسالة Mi والصوت</string>
-    <string name="voip_enable_popup_msg">قم بإجراء مكالمات مع مستخدمي MIUI آخرين بدون تحمل رسوم من شركة الإتصالات الخاص بك. VoIP مدعوم من Weihui. راجع سياسة خصوصية weihui.</string>
-    <string name="voip_enable_popup_msg2">سياسة الخصوصية</string>
     <string name="wap_push_title">"[WAP Push] "</string>
     <string name="warning_show">إرسال في %d ثواني</string>
     <string name="wild_msg_processing">جارٍ التنفيذ…</string>

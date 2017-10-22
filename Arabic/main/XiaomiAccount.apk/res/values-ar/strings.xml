@@ -2,7 +2,7 @@
 <resources>
     <string name="passport_account_label">حساب Mi</string>
     <string name="passport_notification_title">خطأ في تسجيل الدخول إلى %1$s</string>
-    <string name="passport_login_prompt">حساب Mi واحد. جميع خدمات Mi.</string>
+    <string name="passport_login_prompt">حساب Mi واحد لجميع خدمات Mi.</string>
     <string name="passport_login_using_other_ways"><u>طرق أخرى لتسجيل الدخول</u></string>
     <string name="passport_login_title">تسجيل الدخول إلى حساب Mi</string>
     <string name="passport_login">تسجيل الدخول</string>
@@ -27,7 +27,7 @@
     <string name="passport_re_register">سجل مرة أخرى</string>
     <string name="passport_register">إنشاء حساب</string>
     <string name="passport_vcode_sms_send_prompt">إرسال رمز التحقق إلى %s</string>
-    <string name="passport_get_verify_code">الحصول على الرمز</string>
+    <string name="passport_get_verify_code">الحصول على رمز</string>
     <string name="passport_re_get_verify_code">الحصول على الرمز مرة أخرى</string>
     <string name="passport_getting_verify_code">جارٍ الحصول</string>
     <string name="passport_send_too_many_code">تم إرسال الكثير من رموز التحقق إلى هذا الرقم. انتظر ٢٤ ساعة ثم حاول مرة أخرى.</string>
@@ -328,7 +328,7 @@
     <string name="loading_micloud_sync_data">لحظة من فضلك…</string>
     <string name="activity_not_found_notice">لا يمكن العثور على التطبيق</string>
     <string name="scan_barcode_title">لتسجيل الدخول في حساب Mi، امسح رمز QR</string>
-    <string name="talkback_scan_barcode">scan the QR code</string>
+    <string name="talkback_scan_barcode">امسح رمز QR</string>
     <string name="authorize_title">ترخيص</string>
     <string name="my_device_title">الجهاز الحالي</string>
     <string name="device_list_title">الأجهزة الخاصة بي</string>

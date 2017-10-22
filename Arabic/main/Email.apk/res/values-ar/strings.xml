@@ -464,6 +464,7 @@
     <string name="gmail_web_login_go">موافق</string>
     <string name="gmail_web_login_required_message">تسجيل الدخول إلى Gmail</string>
     <string name="header_category_account">الحسابات</string>
+    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">ردود الأفعال</string>
     <string name="header_label_general_preferences">عام</string>
     <string name="help_and_info">المساعدة</string>
@@ -810,8 +811,10 @@
     <string name="recognize_hotel_other_money">مصاريف أخرى %1$s</string>
     <string name="recognize_hotel_reverse_date">قم بالتسجيل قبل %1$s:%2$s %3$s</string>
     <string name="recognize_hotel_room_type">الغرفة</string>
+    <string name="recognize_hotel_room_type_value">%2$s × %1$s</string>
     <string name="recognize_hotel_title">حجز فندق</string>
     <string name="recognize_hotel_user_names">ضيف</string>
+    <string name="recognize_hotel_user_names_value">%2$s+%1$s</string>
     <string name="recognize_setting_title">إعدادات السفر</string>
     <string name="recognize_ticket_air_notification_content">استمتع برحلتك!</string>
     <string name="recognize_ticket_air_notification_title">سوف تقلع الرحلة %3$s (%1$s/%2$s) قريبا. تحقق من معلومات الطيران الخاصة بك مرة أخرى.</string>
@@ -912,6 +915,7 @@
     <string name="silent_ringtone">صامت</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
+    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="smtp_password_error">كلمة المرور لخادم البريد الصادر غير صحيحة</string>
     <string name="sort_attachment">ترتيب حسب</string>
     <string name="storage">التخزين</string>

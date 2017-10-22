@@ -380,6 +380,7 @@
     <string name="detail_app_button">معلومات التطبيق</string>
     <string name="pref_about_traffic_title">إعدادات استخدام البيانات</string>
     <string name="pref_traffic_manage_title">استخدام البيانات</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">حد بيانات الجوال</string>
     <string name="pref_adjust_traffic_data">تعيين استخدام البيانات</string>
     <string name="pref_category_title_other">إعدادات إضافية</string>
@@ -833,7 +834,7 @@
     <string name="memory_cleaned_memory_info">الذاكرة المتاحة</string>
     <string name="memory_clean_no_running_process">لا توجد مهام للحذف</string>
     <string name="memory_clean_btn_click_text">زيادة السرعة</string>
-    <string name="optimize_result_header_view_summary">زيادة السرعة</string>
+    <string name="optimize_result_header_view_summary">زيادة في السرعة</string>
     <string name="optimize_result_available_memory_info">الذاكرة المتاحة</string>
     <string name="optimize_result_title_uninstall_apps">التطبيقات</string>
     <string name="om_settings_title">إعدادات التحسين</string>
@@ -872,6 +873,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"هذا التطبيق قد يبطئ
 جهازك"</string>
+    <string name="om_memory_clean_memory_info_text">%2$s / %1$s</string>
     <string name="om_ill_proc_handle_unstaill_title">إلغاء التثبيت %s؟</string>
     <string name="om_ill_proc_handle_uninstall_prompt">إلغاء تثبيت هذا التطبيق لإصلاح مشاكل إستخدام البطارية.</string>
     <string name="om_ill_proc_type_wakelock_title">هذا التطبيق يقوم بحظر وضع السكون ويستنزف البطارية</string>
@@ -1203,7 +1205,7 @@
     <string name="sp_monitored_apps_count_zero">لا توجد تطبيقات دفع محمية</string>
     <string name="monitor_app_more">المزيد</string>
     <string name="monitor_app_add">إضافة</string>
-    <string name="sc_system_risk_fix_info_xspace">الضرر لا يمكن إصلاحة في المساحة, من فضلك قم بالتبديل إلى مساحة المالك لإصلاحه.</string>
+    <string name="sc_system_risk_fix_info_xspace">لا يمكن إصلاح الخطر في الواجهة x، يرجى التبديل إلى واجهة المالك لإصلاحه.</string>
     <string name="sp_background_risk_dialog_title">تنبيه</string>
     <string name="sp_background_risk_dialog_summary">، التحقق من مشاكل الدفع وإصلاحها.</string>
     <string name="sp_background_risk_type_wifi">شبكة Wi-Fi هذه خطيرة</string>
@@ -1212,7 +1214,7 @@
     <string name="sp_background_risk_type_sign">تطبيق غير رسمي قيد التشغيل</string>
     <string name="sp_background_risk_type_root">تم القيام بروت للنظام</string>
     <string name="resource_securitycenter_settings">الحماية</string>
-    <string name="keywords_securitycenter_settings">استخدام البطارية؛إدارة التشغيل التلقائي؛تثبيت عبر USB؛أذونات التطبيق؛شراء بيانات الجوال؛قائمة الحظر؛استخدام البيانات؛خطة معايرة البيانات؛اختبار شبكة؛ حفظ البطارية؛حرارة زائدة؛تشغيل؛إيقاف التشغيل؛البطارية؛استنزاف؛مشاكل البطارية؛الطاقة؛توفير شحن البطارية؛توفير الطاقة؛توفير الطاقة؛توفير البطارية؛ تشغيل تلقائي؛الأذونات؛تشغيل تلقائي؛تشغيل MIUI التلقائي؛تشغيل تلقائي للتطبيق؛ تشغيل تلقائي للتطبيقات؛بدء سلسلة؛بدء سلاسل؛بدء المشغل؛ تثبيت USB؛تثبيت من كمبيوتر؛تثبيت ADB: الموقع؛وصول جهات الاتصال؛ البيانات؛بيانات الجوال؛شراء ييانات؛رفع البيانات؛خطة البيانات؛ حظر؛القائمة السوداء؛قائمة الحظر الذكية؛احتيال؛مبيعات؛عملاء؛قائمة حظر المكالمات؛قائمة حظر الرسائل؛قائمة حظر الرسائل؛قائمة حظر SMS؛القائمة السوداء؛القائمة السوداء؛قائمة الحظر؛احتيال؛حظر جهة اتصال؛حظر جهات اتصال؛ الحركة؛ معايرة؛ الاتصال؛إنترنت؛اختبار؛ استخدام البطارية</string>
+    <string name="keywords_securitycenter_settings">استخدام البطارية؛إدارة التشغيل التلقائي؛تثبيت عبر USB؛أذونات التطبيق؛شراء بيانات الجوال؛قائمة الحظر؛استخدام البيانات؛خطة معايرة البيانات؛اختبار شبكة؛ حفظ البطارية؛حرارة زائدة؛تشغيل؛إيقاف التشغيل؛البطارية؛استنزاف؛مشاكل البطارية؛الطاقة؛توفير شحن البطارية؛توفير الطاقة؛توفير الطاقة؛توفير البطارية؛ تشغيل تلقائي؛الأذونات؛تشغيل تلقائي؛تشغيل MIUI التلقائي؛تشغيل تلقائي للتطبيق؛ تشغيل تلقائي للتطبيقات؛بدء سلسلة؛بدء سلاسل؛بدء المشغل؛ تثبيت USB؛تثبيت من كمبيوتر؛تثبيت ADB: الموقع؛وصول جهات الاتصال؛ البيانات؛بيانات الجوال؛شراء ييانات؛رفع البيانات؛خطة البيانات؛ حظر؛القائمة السوداء؛قائمة الحظر الذكية؛احتيال؛مبيعات؛عملاء؛قائمة حظر المكالمات؛قائمة حظر الرسائل؛قائمة حظر الرسائل؛قائمة حظر SMS؛القائمة السوداء؛القائمة السوداء؛قائمة الحظر؛احتيال؛حظر جهة اتصال؛حظر جهات اتصال؛ الحركة؛ معايرة؛ الاتصال؛إنترنت؛اختبار؛ استخدام البطارية؛ لعبة؛المسرع؛Glory of the king؛وضع الأداء؛عدم الإزعاج؛DND</string>
     <string name="path_securitycenter_settings">تطبيقات النظام/الحماية</string>
     <string name="resource_securitycenter">الحماية</string>
     <string name="keywords_securitycenter">الحماية;تحقق;فحص</string>
@@ -1253,6 +1255,9 @@
     <string name="resource_powercenter_powerrank">البطارية والأداء</string>
     <string name="keywords_powercenter_powerrank">استخدام البطارية</string>
     <string name="path_powercenter_powerrank">البطارية والأداء/استخدام البطارية</string>
+    <string name="resource_gamebooster">مسرّع الألعاب</string>
+    <string name="keywords_gamebooster">لعبة؛المسرع؛Glory of the king؛وضع الأداء؛عدم الإزعاج</string>
+    <string name="path_gamebooster">تطبيقات النظام/الحماية/مسرع الألعاب</string>
     <string name="app_name_securitycenter">الحماية</string>
     <string name="ok">موافق</string>
     <string name="exit">خروج</string>
@@ -1267,6 +1272,7 @@
     <string name="menu_text_networkassistants">استخدام البيانات</string>
     <string name="menu_text_networkassistants_remain">%s متبقي</string>
     <string name="menu_text_networkassistants_danger">%s زائد</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">غ.ب</string>
     <string name="menu_text_networkassistants_unit_mb">م.ب</string>
     <string name="menu_text_networkassistants_unit_kb">ك.ب</string>
@@ -1542,8 +1548,8 @@
     <string name="antivirus_privacy_dialog_cloudscan_description">تحميل وفحص أسماء التطبيق والتفاصيل باستخدام تعريفات الفيروسات عبر الإنترنت.</string>
     <string name="antivirus_privacy_dialog_ok">موافق</string>
     <string name="pref_title_manual_check_virus_db_update">التحقق من وجود تحديثات</string>
-    <string name="virus_update_tips_title">الإتصال بشبكة Wi-Fi</string>
-    <string name="virus_wait_network_dialog_message">حجم التحديثات كبير. اتصل بشبكة Wi-Fi لتنزيلها.</string>
+    <string name="virus_update_tips_title">تحذير</string>
+    <string name="virus_wait_network_dialog_message">هاتفك غير متصل حاليا بشبكة WLAN. قد يكلفك ذلك استخدام بيانات الجوال. متابعة؟</string>
     <string name="antivirus_not_wlan">أنت غير متصل بشبكة الـ Wi-Fi. قد يؤدي استخدام بيانات الجوال إلى فرض رسوم إضافية. هل تريد المتابعة على أي حال؟</string>
     <string name="antivirus_longtime_no_update">يبدو أن تعريفات الفيروسات قديمة. التحديثات المنتظمة تساعدك في الحصول على نتائج مسح أفضل. السماح للحماية الاتصال بالإنترنت وتحديث تعريفات الفيروسات؟</string>
     <string name="antivirus_longtime_no_update1">يبدو أن تعريفات الفيروسات قديمة. التحديثات المنتظمة تساعدك في الحصول على نتائج مسح أفضل. قم بتحديث التعريفات ثم حاول مجددا.</string>
@@ -1627,6 +1633,7 @@
     <string name="card_main_deepclean_wechat_action">حذف</string>
     <string name="card_main_sectool_title">الأدوات</string>
     <string name="card_main_monthreport_action">عرض</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">اختبار الشبكة</string>
     <string name="card_main_netcheck_summary">اختبار الاتصال لمشاكل الشبكة</string>
     <string name="card_main_netcheck_action">اختبار</string>
@@ -1646,7 +1653,7 @@
     <string name="card_main_xspace_title">التطبيقات المزدوجة</string>
     <string name="card_main_xspace_summary">إنشاء حسابات مزدوجة لأي تطبيق</string>
     <string name="card_main_xspace_action">إنشاء</string>
-    <string name="card_main_overscroll_tips">حماية في أفضل مستوياتها</string>
+    <string name="card_main_overscroll_tips">الحماية في أفضل مستوياتها</string>
     <string name="card_main_gamebooster_title">زيادة سرعة الألعاب</string>
     <string name="skin_change_close_toast">سيتم تطبيق التغييرات في المرة القادمة التي تقوم فيها بتشغيل الحماية</string>
     <string name="Setting_lock">الإعدادات</string>
@@ -1932,10 +1939,16 @@
     <string name="game_booster">مسرّع الألعاب</string>
     <string name="game_booster_title">تسريع</string>
     <string name="top_game">أفضل الألعاب</string>
+    <string name="game_booster_tab_top">الأقصى</string>
+    <string name="game_bootser_tab_settings">إعدادات المسرّع</string>
+    <string name="game_booster_jump_webview">لحظة من فضلك…</string>
     <string name="game_setting">إعدادات اللعبة</string>
     <string name="gs_auto_clean_memory">مسح ذاكرة التخزين المؤقت</string>
     <string name="gs_auto_clean_memory_detail">مسح ذاكرة التخزين المؤقتة تلقائيا لتحسين آداء اللعب</string>
     <string name="gs_anto_clean_memory_whitelist">الاستثناءات</string>
+    <string name="gs_call_handsfree">الرد على المكالمات حر اليدين</string>
+    <string name="gs_call_handsfree_mute">الوضع الصامت</string>
+    <string name="gs_forbid_autosync">تقييد المزامنة الخلفية</string>
     <string name="gs_app_back_self_start">توفير شحن البطارية</string>
     <string name="gs_only_self_start_for_list">تقييد العمليات الخلفية لتوفير البطارية للألعاب</string>
     <string name="gs_game_shortcut">تمتع بتجربة لعب أكثر مرونة</string>
@@ -2032,13 +2045,19 @@
     <string name="net_booster_overdue_notification">جلسة زيادة سرعة الشبكة على وشك الانتهاء</string>
     <string name="net_booster_overdue_notification_tip">جلسة زيادة سرعة الشبكة على وشك الانتهاء. تجديد الجلسة؟</string>
     <string name="net_booster_expire_notification">جلسة زيادة سرعة الشبكة على وشك الانتهاء</string>
+    <string name="net_booster_expire_notification_tip">%d يوم متبقي قبل انتهاء دورة تسريع الشبكة. قم بتجديد الدورة لتجنب مشاكل سرعة الشبكة.</string>
     <string name="xunyou_pay_webview">خدمات Xunyou</string>
     <string name="xunyou_server_expired">انتهت الجلسة.</string>
     <string name="game_anti_disturb_msg">عدم الإزعاج أثناء اللعب</string>
-    <string name="gamebooster_main_activity_back">الرجوع من مسرع الألعاب</string>
+    <string name="gamebooster_main_activity_back">رجوع</string>
     <string name="data_booster_title">استقرار اتصال البيانات</string>
     <string name="data_booster_desc">قم بإلغاء تنشيط فتحات SIM الأخرى للحفاظ على اتصال مستقر</string>
-    <string name="international_Ad">Ad</string>
+    <string name="international_Ad">اعلان</string>
+    <string name="thermal_tips_title">تنبيه</string>
+    <string name="thermal_tips_message">قد يؤدي لعب الألعاب في وضع الأداء إلى مشاكل زيادة السخونة.</string>
+    <string name="forbid_autobright_title">إصلاح سطوع الشاشة</string>
+    <string name="gamebooster_lowbattery_notification_title">البطارية أقل من ٥%%</string>
+    <string name="gamebooster_lowbattery_notification_summary">اشحن جهازك قبل ان ينطفئ.</string>
     <string name="power_center_consume_rank">استخدام البطارية</string>
     <string name="power_center_custom_title">وضع البطارية</string>
     <string name="power_center_auto_shutdown_summary_default">قم بتشغيل جهازك أو إيقافه في وقت المحدد</string>

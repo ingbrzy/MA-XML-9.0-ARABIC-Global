@@ -53,7 +53,7 @@
     <string name="title_fingerprint">تعيين كلمة مرور</string>
     <string name="item_fingerprint">بصمة الإصبع</string>
     <string name="item_lock_screen_password">قفل الشاشة فقط</string>
-    <string name="desc_fingerprint">استخدم بصمة اليد لالغاء قفل الجهاز، التحقق من معاملات دفع Mi، او لتسجيل الدخول الى التطبيقات و الخدمات.</string>
+    <string name="desc_fingerprint">استخدم بصمة اليد لالغاء قفل الجهاز، التحقق من عمليات دفع Mi، او لتسجيل الدخول الى التطبيقات و الخدمات.</string>
     <string name="desc_extra_fingerprint" />
     <string name="next_fingerprint">التالي</string>
     <string name="desc_extra_international_fingerprint" />

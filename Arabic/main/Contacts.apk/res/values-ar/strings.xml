@@ -109,7 +109,7 @@
     <string name="menu_discard">تجاهل</string>
     <string name="label_notes">ملاحظات</string>
     <string name="label_sip_address">مكالمة الإنترنت</string>
-    <string name="ghostData_company">شركة</string>
+    <string name="ghostData_company">الشركة</string>
     <string name="ghostData_title">العنوان</string>
     <string name="invalidContactMessage">جهة اتصال غير موجودة</string>
     <string name="createContactShortcutSuccessful">أُضيف عنصر واجهة المستخدم لجهات الاتصال إلى الشاشة الرئيسية</string>
@@ -308,6 +308,7 @@
     <string name="vcard_export_will_start_message">سيتم تصدير %s بعد قليل.</string>
     <string name="vcard_export_request_rejected_message">تم رفض طلب تصدير vCard. حاول مرة أخرى لاحقا.</string>
     <string name="vcard_unknown_filename">جهة اتصال</string>
+    <string name="percentage">%s%%</string>
     <string name="confirm_export_title">هل ترغب في تصدير جهات الاتصال؟</string>
     <string name="confirm_export_message">سيتم تصدير قائمة جهات الاتصال لديك إلى ملف: %s.</string>
     <string name="exporting_contact_failed_title">تعذر التصدير</string>
@@ -451,6 +452,7 @@
     <string name="recent">الحديثة</string>
     <string name="recent_updates">التحديثات الأخيرة</string>
     <string name="account_type_format">%1$s جهة اتصال</string>
+    <string name="from_account_format">%1$s</string>
     <string name="use_photo_as_primary">استخدام هذه الصورة</string>
     <string name="contact_read_only">غير قابل للتعديل من هذا التطبيق.</string>
     <string name="no_contact_details">لا توجد معلومات إضافية عن جهة الاتصال هذه.</string>
@@ -516,6 +518,7 @@
     <string name="non_phone_add_to_contacts">إضافة لجهة اتصال موجودة</string>
     <string name="activity_title_confirm_add_detail">أضف إلى جهات الاتصال</string>
     <string name="non_phone_close">إغلاق</string>
+    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="date_year_toggle">تقديم سنة</string>
     <string name="social_widget_label">جهة اتصال</string>
     <string name="social_widget_loading">جارٍ التحميل…</string>
@@ -533,6 +536,7 @@
     <string name="toast_text_copied">تم نسخ النص</string>
     <string name="cancel_confirmation_dialog_title">إلغاء</string>
     <string name="cancel_confirmation_dialog_message">تجاهل هذه التغييرات؟</string>
+    <string name="call_type_and_date">%1$s %2$s</string>
     <string name="profile_display_name">إعداد ملفي الشخصي</string>
     <string name="enter_contact_name">أدخل اسم الشخص</string>
     <string name="view_updates_from_group">عرض التحديثات</string>
@@ -685,6 +689,7 @@
     <string name="miprofile_alertdialog_message">عرض هذ الاسم لجهات الاتصال عند طلب تبادل بطاقات.</string>
     <string name="miprofile_alertdialog_edit">ادخل اسم</string>
     <string name="miprofile_switch_off_alertdialog_message">لن تستطيع تبادل بطاقات جهة الاتصال مع الاشخاص الآخرين.</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_bind_account_alertdialog_title">أضف رقم هاتف</string>
     <string name="miprofile_bind_account_alertdialog_message">تحتاج إلى إضافة رقم هاتف هذا الجهاز إلى حساب Mi الخاص بك لاستخدام هذه الميزة.</string>
     <string name="miprofile_bind_account_alertdialog_positive">أضف رقم</string>
@@ -1005,6 +1010,7 @@
     <string name="preference_smart_group_location_summary">تصنيف حسب رمز المنطقة</string>
     <string name="preference_smart_group_frequency_title">الحديثة</string>
     <string name="preference_smart_group_frequency_summary">تصنيف حسب الأحدث</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_label">مجموعات ذكية</string>
     <string name="smart_group_loading">لحظة من فضلك…</string>
     <string name="smart_group_company_label">الشركات</string>
@@ -1059,6 +1065,7 @@
     <string name="device_import_local_account">حساب محلي</string>
     <string name="import_name">الاسم</string>
     <string name="import_percent">٠%</string>
+    <string name="percent_sign">%</string>
     <string name="ret_sign">"
 "</string>
     <string name="checkhint">تحقق من الهاتف المستهدف</string>
@@ -1089,7 +1096,7 @@
     <string name="import_weibo_error_user_cancel">تم إلغاء الاستيراد</string>
     <string name="import_weibo_error_unknown">خطأ غير معروف</string>
     <string name="add_xiaomi_account_dialog_title">اختيار حساب</string>
-    <string name="add_xiaomi_account_dialog_msg">قم بنسخة احتياطية لجهات الاتصال في حساب Mi حتى تتمكن من الوصول إليها من أي مكان!</string>
+    <string name="add_xiaomi_account_dialog_msg">قم بنسخ جهات الاتصال احتياطياً إلى حساب Mi لتتمكن من الوصول إليها من أي مكان!</string>
     <string name="add_xiaomi_account_dialog_btn">استخدم حساب Mi</string>
     <string name="keep_local_btn">استخدام التخزين الداخلي للهاتف</string>
     <string name="batch_delete">حذف الدفعة</string>

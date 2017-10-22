@@ -350,6 +350,7 @@
     <string name="quick_yellow_page_tab_phones">الهاتف</string>
     <string name="recharge_actual_price">السعر:</string>
     <string name="recharge_charge_range">السعر: %1$s-%2$s يوان</string>
+    <string name="recharge_charge_value">السعر: %s يوان</string>
     <string name="recharge_follow_name">تعبئة</string>
     <string name="recharge_history">سجل شحن الرصيد</string>
     <string name="recharge_history_empty">فارغ</string>
@@ -393,6 +394,7 @@
     <string name="sending_shortcut">جارٍ الإرسال…</string>
     <string name="service_unavailiable">الخدمة غير متوفرة</string>
     <string name="share">مشاركة</string>
+    <string name="shop_recommendation_format">%1$s: %2$s</string>
     <string name="smart_antispam">هوية المتصل</string>
     <string name="toast_finish_delete_call_log">تم حذف سجل المكالمات</string>
     <string name="toast_text_copied">تم نسخ النص</string>

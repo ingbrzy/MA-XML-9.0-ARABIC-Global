@@ -436,7 +436,7 @@
     <string name="micloud_confusion_setting_notify_text">إيقاف تشغيل المزامنة للإجهزة الأخرى مرتبطة مع حسابك.</string>
     <string name="micloud_confusion_setting_password_error">كلمة المرور التي أدخلتها غير صحيحة</string>
     <string name="micloud_confusion_toast_confirm">تم التحقق من الجهاز</string>
-    <string name="micloud_confusion_toast_deny">تسجيل الدخول إلى حساب Mi</string>
+    <string name="micloud_confusion_toast_deny">تسجيل الدخول لحساب Mi</string>
     <string name="micloud_confusion_alert_title">جارٍ تعديل حسابك من جهاز آخر</string>
     <string name="micloud_confusion_alert_message">يقوم %s بتغيير معلومات حساب Mi.</string>
     <string name="micloud_confusion_alert_negative">فيما بعد</string>

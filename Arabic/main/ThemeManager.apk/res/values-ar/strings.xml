@@ -298,6 +298,7 @@
     <string name="theme_batch_update_dlg_content_single">تحديث %1$s الآن؟</string>
     <string name="theme_current_using_has_update">تحديث السمة متاح</string>
     <string name="theme_immediately_apply_tip">تعيين تحديث السمة الآن؟</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_fresh_man_notifaction">سمات جديدة متاحة</string>
     <string name="selected_resource_file_invalid">الملف المحدد غير صالح</string>
     <string name="apply_theme_with_ringtones">استخدام نغمات رنين السمة</string>
