@@ -2,7 +2,7 @@
 <resources>
     <string-array name="change_response_labels">
         <item>هذا الحدث فقط</item>
-        <item>جميع الأحداث في سلسلة الأحداث</item>
+        <item>جميع الأحداث في هذه السلسلة</item>
     </string-array>
     <string-array name="delete_repeating_labels">
         <item>هذا الحدث فقط</item>
@@ -10,8 +10,8 @@
         <item>جميع الأحداث</item>
     </string-array>
     <string-array name="ordinal_labels">
-        <item>أول</item>
-        <item>ثانية</item>
+        <item>الأول</item>
+        <item>الثاني</item>
         <item>الثالث</item>
         <item>الرابع</item>
         <item>الأخير</item>
@@ -28,7 +28,7 @@
         <item>الإثنين</item>
     </string-array>
     <string-array name="response_labels1">
-        <item>لا استجابة</item>
+        <item>لا توجد إستجابة</item>
         <item>نعم</item>
         <item>ربما</item>
         <item>لا</item>
@@ -157,6 +157,10 @@
         <item>قبل ١ يوم</item>
         <item>قبل ٢ أيام</item>
         <item>قبل ١ اسبوع</item>
+    </string-array>
+    <string-array name="english_premium_league">
+        <item>٤</item>
+        <item>@string/english_premium_league</item>
     </string-array>
     <string-array name="gemini_info">
         <item>الجوزاء</item>
@@ -313,74 +317,5 @@
     <string-array name="widget_style_list">
         <item>شفاف</item>
         <item>خلفية بيضاء</item>
-    </string-array>
-    <string-array name="availability">
-        <item>مشغول</item>
-        <item>متواجد</item>
-        <item>مبدئي</item>
-    </string-array>
-    <string-array name="buttons_list">
-        <item>يوم</item>
-        <item>أسبوع</item>
-        <item>شهر</item>
-        <item>أجندة</item>
-    </string-array>
-    <string-array name="delete_repeating_labels_no_selected">
-        <item>هذا الحدث والأحداث المستقبلية</item>
-        <item>جميع الأحداث</item>
-    </string-array>
-    <string-array name="preferences_default_reminder_labels">
-        <item>لا شيء</item>
-        <item>0 دقائق</item>
-        <item>دقيقة واحدة</item>
-        <item>5 دقائق</item>
-        <item>10 دقائق</item>
-        <item>15 دقيقة</item>
-        <item>20 دقيقة</item>
-        <item>25 دقيقة</item>
-        <item>30 دقيقة</item>
-        <item>45 دقيقة</item>
-        <item>ساعة واحدة</item>
-        <item>ساعتان</item>
-        <item>3 ساعات</item>
-        <item>12 ساعة</item>
-        <item>24 ساعة</item>
-        <item>يومان</item>
-        <item>أسبوع واحد</item>
-    </string-array>
-    <string-array name="quick_response_defaults">
-        <item>تتم إقامته بعد تأخير لمدة دقيقتين.</item>
-        <item>كن هناك خلال حوالي 10 دقائق.</item>
-        <item>انطلق وابدأ بدوني.</item>
-        <item>عذرًا، لا يمكنني الحضور. علينا إعادة الجدولة.</item>
-    </string-array>
-    <string-array name="reminder_methods_labels">
-        <item>إشعار</item>
-        <item>بريد إلكتروني</item>
-        <item>رسائل SMS</item>
-        <item>المنبه</item>
-    </string-array>
-    <string-array name="reminder_minutes_labels">
-        <item>0 دقائق</item>
-        <item>دقيقة واحدة</item>
-        <item>5 دقائق</item>
-        <item>10 دقائق</item>
-        <item>15 دقيقة</item>
-        <item>20 دقيقة</item>
-        <item>25 دقيقة</item>
-        <item>30 دقيقة</item>
-        <item>45 دقيقة</item>
-        <item>ساعة واحدة</item>
-        <item>ساعتان</item>
-        <item>3 ساعات</item>
-        <item>12 ساعة</item>
-        <item>24 ساعة</item>
-        <item>يومان</item>
-        <item>أسبوع واحد</item>
-    </string-array>
-    <string-array name="visibility">
-        <item>افتراضي</item>
-        <item>خاص</item>
-        <item>عام</item>
     </string-array>
 </resources>

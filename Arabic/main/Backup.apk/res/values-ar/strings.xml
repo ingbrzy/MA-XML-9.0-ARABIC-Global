@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"تقديم حجم النسخة: %1$s
 حجم تحديث دلتا: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">التخزين غير متاح، تحقق من بطاقة الذاكرة SD الخاصة بك.</string>
+    <string name="xiaomi_bytes_unit">%1$sبايت</string>
+    <string name="xiaomi_kilobytes_unit">%1$sكيلوبايت</string>
+    <string name="xiaomi_megabytes_unit">%1$sميغابايت</string>
     <string name="xiaomi_connect_download_manager_fail">تعذر بداية التنزيل. كن متاكدا من أن مدير التنزيلات يعمل بصفة طبيعية.</string>
     <string name="app_name">نسخة احتياطية</string>
     <string name="local_app_name">النسخ الاحتياطي</string>
@@ -15,8 +18,6 @@
     <string name="button_cancel">إلغاء</string>
     <string name="button_send">ارسل</string>
     <string name="backup_empty">لا توجد نسخ احتياطية.</string>
-    <string name="backup_items_sysdata_tailer">" ملفات بيانات النظام،"</string>
-    <string name="backup_items_app_tailer">" ملفات بيانات التطبيق"</string>
     <string name="backup_failed">تعذر النسخ الاحتياطي</string>
     <string name="sdcard_unmounted">ادخال بطاقة الذاكرة SD الآن</string>
     <string name="backup_progress">جارٍ النسخ الاحتياطي…</string>
@@ -37,7 +38,6 @@
     <string name="start_restore">استعادة</string>
     <string name="backup_file_error">تعذر النسخ الاحتياطي</string>
     <string name="unit_byte">بايت</string>
-    <string name="unit_piece">"  عناصر"</string>
     <string name="restore_finished">تمت الاستعادة بنجاح</string>
     <string name="restore_report">تفاصيل الاستعادة</string>
     <string name="restore_progress">جار الاستعادة…</string>
@@ -224,6 +224,7 @@
     <string name="file_uploading">جارٍ التحميل…</string>
     <string name="new_backup">نسخ احتياطي</string>
     <string name="restore_backup">إستعادة</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">لحظة من فضلك…</string>
     <string name="state_mounting">الوصول إلى تخزين جهاز التوجيه…</string>
     <string name="abort_backup_confirm">لم يتم الانتهاء من النسخ الاحتياطي. التوقف على أية حال؟</string>
@@ -356,19 +357,13 @@
     <string name="user_notice_message">بعض الميزات تتطلب الإتصال بالإنترنت لتعمل بشكل طبيعي.</string>
     <string name="user_notice_declaration_ignore">عدم الإظهار مرة أخرى</string>
     <string name="total_size">، %s</string>
-    <string name="btn_got_it">فهمت</string>
-    <string name="backup_security_tips_title">قد لا يعمل النسخ الاحتياطي</string>
-    <string name="backup_security_tips_message">بعض التطبيقات قد لا يمكن نسخها احتياطيا أو استعادتها.</string>
-    <string name="trans_security_tips_title">توافق ناقل Mi</string>
-    <string name="trans_security_tips_message">بعض التطبيقات لا تدعم ناقل Mi.</string>
     <string name="trans_intro_title">الأسئلة الشائعة</string>
     <string name="trans_intro_question_1">١. كيف يمكنني استخدام ناقل Mi؟</string>
+    <string name="trans_intro_question_2">٢. ماذا أفعل إذا توقف ناقل Mi في خطوة معينة؟</string>
     <string name="trans_intro_title_new">على الهاتف الجديد:</string>
     <string name="trans_intro_desc_new">انقر على \"آنا المستلم\". سيتم إنشاء رمز QR.</string>
     <string name="trans_intro_title_old">على الهاتف القديم:</string>
     <string name="trans_intro_desc_old">انقر على \"آنا المرسل\". ثم قم بمسح رمز QR على الهاتف الجديد و انتظر حتى يتعرف ناقل Mi على الملفات المطلوب إرسالها و انقر \"إرسال\".</string>
-    <string name="trans_intro_question_2">٢. ماذا أفعل إذا توقف ناقل Mi في خطوة معينة؟</string>
-    <string name="trans_intro_desc_2">قم بإلغاء النقل و الخروج من ناقل Mi، ثم ابدأ من جديد. سيتم استبدال الملفات المكررة أثناء عملية النقل الجديدة.</string>
     <string name="trans_intro_question_3">٣. لماذا لا يمكنني استخدام الـ Wi-Fi أثناء عملية النقل؟</string>
     <string name="trans_intro_desc_3">يستخدم ناقل Mi الـ Wi-Fi لنقل الملفات. و لهذا السبب لا يمكنك الاتصال بالإنترنت باستخدام الـ Wi-Fi على أي من الجهازين أثناء النقل. ولكن لدى بعض الأجهزة الجديدة(مثل Mi 6) القدرة على الاتصال بالإنترنت عبر ال Wi-Fi أثناء عمليات النقل.</string>
     <string name="trans_intro_question_4">٤، لماذا يخبرني ناقل Mi بأنه لا يوجد مساحة تخزين كافية على هاتفي القديم؟</string>
@@ -388,4 +383,13 @@
     <string name="trans_intro_desc_multiuser">لا يمكن وصول ناقل Mi إلى العناصر في الواجهة الثانية. قم بنقل العناصر إلى الواجهة الاولى و تشغيل ناقل Mi هناك.</string>
     <string name="trans_intro_title_multiapp">بيانات التطبيقات المزدوجة:</string>
     <string name="trans_intro_desc_multiapp">لا يقوم ناقل Mi بنقل بيانات التطبيقات المزدوجة لتجنب التعارض بين الملفات.</string>
+    <string name="btn_got_it">فهمت</string>
+    <string name="backup_security_tips_title">قد لا يعمل النسخ الاحتياطي</string>
+    <string name="backup_security_tips_message">بعض التطبيقات قد لا يمكن نسخها احتياطيا أو استعادتها.</string>
+    <string name="trans_security_tips_title">توافق ناقل Mi</string>
+    <string name="trans_security_tips_message">بعض التطبيقات لا تدعم ناقل Mi.</string>
+    <string name="backup_items_sysdata_tailer">" ملفات بيانات النظام،"</string>
+    <string name="backup_items_app_tailer">" ملفات بيانات التطبيق"</string>
+    <string name="unit_piece">"  عناصر"</string>
+    <string name="trans_intro_desc_2">قم بإلغاء النقل و الخروج من ناقل Mi، ثم ابدأ من جديد. سيتم استبدال الملفات المكررة أثناء عملية النقل الجديدة.</string>
 </resources>

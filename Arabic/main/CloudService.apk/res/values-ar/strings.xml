@@ -35,7 +35,7 @@
     <string name="account">حساب</string>
     <string name="verify">تحقق</string>
     <string name="next">التالي</string>
-    <string name="password">ادخل كلمة المرور الخاصة بك</string>
+    <string name="password">ادخل كلمة المرور</string>
     <string name="vcode">رمز التحقق</string>
     <string name="bad_authentication">حساب أو كلمة المرور غير صحيحة</string>
     <string name="header_data_and_synchronization">البيانات والمزامنة</string>

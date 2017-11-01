@@ -1,23 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="Ndays">
-        <item quantity="other">%d يوم</item>
-        <item quantity="one">يوم واحد</item>
+        <item quantity="other">قبل %d يوم</item>
+        <item quantity="zero">قبل %d يوم</item>
+        <item quantity="one">قبل %d يوم</item>
+        <item quantity="two">قبل %d أيام</item>
+        <item quantity="few">قبل %d أيام</item>
+        <item quantity="many">قبل %d يوم</item>
     </plurals>
     <plurals name="Nhours">
-        <item quantity="other">%d ساعة</item>
-        <item quantity="one">ساعة واحدة</item>
+        <item quantity="other">قبل %d ساعة</item>
+        <item quantity="zero">قبل %d ساعة</item>
+        <item quantity="one">قبل %d ساعة</item>
+        <item quantity="two">قبل %d ساعات</item>
+        <item quantity="few">قبل %d ساعات</item>
+        <item quantity="many">قبل %d ساعة</item>
     </plurals>
     <plurals name="Nminutes">
-        <item quantity="other">%d دقيقة</item>
-        <item quantity="one">دقيقة واحدة</item>
+        <item quantity="other">منذ %d دقيقة</item>
+        <item quantity="zero">منذ %d دقيقة</item>
+        <item quantity="one">منذ %d دقيقة</item>
+        <item quantity="two">منذ %d دقائق</item>
+        <item quantity="few">منذ %d دقائق</item>
+        <item quantity="many">منذ %d دقيقة</item>
     </plurals>
     <plurals name="month_more_events">
         <item quantity="other">+%d</item>
-        <item quantity="one">1+</item>
+        <item quantity="zero">+%d</item>
+        <item quantity="one">+١</item>
+        <item quantity="two">+%d</item>
+        <item quantity="few">+%d</item>
+        <item quantity="many">+%d</item>
     </plurals>
     <plurals name="weekN">
-        <item quantity="other">الأسبوع %d</item>
+        <item quantity="other">اسبوع %d</item>
+        <item quantity="zero">اسبوع %d</item>
+        <item quantity="one">اسبوع %d</item>
+        <item quantity="two">اسبوع %d</item>
+        <item quantity="few">اسبوع %d</item>
+        <item quantity="many">اسبوع %d</item>
     </plurals>
     <plurals name="Ndays_after_at">
         <item quantity="other">خلال %1$d يوم على الساعة %2$s</item>
@@ -186,17 +207,5 @@
         <item quantity="two">%d أيام عمل</item>
         <item quantity="few">%d أيام عمل</item>
         <item quantity="many">%d يوم عمل</item>
-    </plurals>
-    <plurals name="N_remaining_events">
-        <item quantity="other">+%d من الأحداث</item>
-        <item quantity="one">+ حدث واحد</item>
-    </plurals>
-    <plurals name="Nevents">
-        <item quantity="other">%d من الأحداث</item>
-        <item quantity="one">حدث واحد</item>
-    </plurals>
-    <plurals name="Nmins">
-        <item quantity="other">%d دقيقة</item>
-        <item quantity="one">دقيقة واحدة</item>
     </plurals>
 </resources>

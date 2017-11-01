@@ -144,30 +144,6 @@
         <item quantity="few">تم إضافة %d صور Cloud، إيقاف تشغيل \"إظهار فقط الألبومات المحلية\" للعرض.</item>
         <item quantity="many">تم إضافة %d صورة Cloud، إيقاف تشغيل \"إظهار فقط الألبومات المحلية\" للعرض.</item>
     </plurals>
-    <plurals name="delete_photo_msg_format">
-        <item quantity="other">حذف %1$d صورة %2$s؟</item>
-        <item quantity="zero">حذف %1$d صورة %2$s؟</item>
-        <item quantity="one">حذف هذه الصورة %2$s؟</item>
-        <item quantity="two">حذف %1$d صور %2$s؟</item>
-        <item quantity="few">حذف %1$d صور %2$s؟</item>
-        <item quantity="many">حذف %1$d صورة %2$s؟</item>
-    </plurals>
-    <plurals name="delete_video_msg_format">
-        <item quantity="other">حذف %1$d فيديو %2$s؟</item>
-        <item quantity="zero">حذف %1$d فيديو %2$s؟</item>
-        <item quantity="one">حذف الفيديو %2$s؟</item>
-        <item quantity="two">حذف %1$d فيديوهات %2$s؟</item>
-        <item quantity="few">حذف %1$d فيديوهات %2$s؟</item>
-        <item quantity="many">حذف %1$d فيديو %2$s؟</item>
-    </plurals>
-    <plurals name="delete_media_msg_format">
-        <item quantity="other">حذف %1$d عنصر %2$s ؟</item>
-        <item quantity="zero">حذف %1$d عنصر %2$s ؟</item>
-        <item quantity="one">حذف %1$d عنصر %2$s ؟</item>
-        <item quantity="two">حذف %1$d عناصر %2$s ؟</item>
-        <item quantity="few">حذف %1$d عناصر %2$s ؟</item>
-        <item quantity="many">حذف %1$d عنصر %2$s ؟</item>
-    </plurals>
     <plurals name="album_item_msg_format">
         <item quantity="other">(%d عنصر)</item>
         <item quantity="zero">(%d عنصر)</item>
@@ -257,12 +233,12 @@
         <item quantity="many">%d فيديو</item>
     </plurals>
     <plurals name="add_secret_ensure_message">
-        <item quantity="other">Hide these files?</item>
-        <item quantity="zero">Hide these files?</item>
-        <item quantity="one">Hide this file?</item>
-        <item quantity="two">Hide these files?</item>
-        <item quantity="few">Hide these files?</item>
-        <item quantity="many">Hide these files?</item>
+        <item quantity="other">إخفاء هذه الملفات؟</item>
+        <item quantity="zero">إخفاء هذا الملف؟</item>
+        <item quantity="one">إخفاء هذا الملف؟</item>
+        <item quantity="two">إخفاء هذه الملفات؟</item>
+        <item quantity="few">إخفاء هذه الملفات؟</item>
+        <item quantity="many">إخفاء هذه الملفات؟</item>
     </plurals>
     <plurals name="number_of_images_synced">
         <item quantity="other">%1$d صورة</item>
@@ -407,5 +383,29 @@
         <item quantity="two">تمت إضافة %1$d صور من \"%2$s\" وإضافتها إلى قاعدة البيانات.</item>
         <item quantity="few">تمت إضافة %1$d صور من \"%2$s\" وإضافتها إلى قاعدة البيانات.</item>
         <item quantity="many">تمت إضافة %1$d صورة من \"%2$s\" وإضافتها إلى قاعدة البيانات.</item>
+    </plurals>
+    <plurals name="delete_photo_msg_format">
+        <item quantity="other">حذف %1$d صورة %2$s؟</item>
+        <item quantity="zero">حذف %1$d صورة %2$s؟</item>
+        <item quantity="one">حذف هذه الصورة %2$s؟</item>
+        <item quantity="two">حذف %1$d صور %2$s؟</item>
+        <item quantity="few">حذف %1$d صور %2$s؟</item>
+        <item quantity="many">حذف %1$d صورة %2$s؟</item>
+    </plurals>
+    <plurals name="delete_video_msg_format">
+        <item quantity="other">حذف %1$d فيديو %2$s؟</item>
+        <item quantity="zero">حذف %1$d فيديو %2$s؟</item>
+        <item quantity="one">حذف الفيديو %2$s؟</item>
+        <item quantity="two">حذف %1$d فيديوهات %2$s؟</item>
+        <item quantity="few">حذف %1$d فيديوهات %2$s؟</item>
+        <item quantity="many">حذف %1$d فيديو %2$s؟</item>
+    </plurals>
+    <plurals name="delete_media_msg_format">
+        <item quantity="other">حذف %1$d عنصر %2$s ؟</item>
+        <item quantity="zero">حذف %1$d عنصر %2$s ؟</item>
+        <item quantity="one">حذف %1$d عنصر %2$s ؟</item>
+        <item quantity="two">حذف %1$d عناصر %2$s ؟</item>
+        <item quantity="few">حذف %1$d عناصر %2$s ؟</item>
+        <item quantity="many">حذف %1$d عنصر %2$s ؟</item>
     </plurals>
 </resources>

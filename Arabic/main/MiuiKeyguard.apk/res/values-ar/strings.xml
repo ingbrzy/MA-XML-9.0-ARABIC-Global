@@ -56,7 +56,7 @@
     <string name="input_password_after_boot_msg">لفتح جهازك، ادخل كلمة المرور</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">تحتاج إلى الدخول إلى الواجهة الاولى بعد إعادة تشغيل الجهاز</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">لا يمكن التبديل بين الواجهات أثناء إجراء مكالمة</string>
-    <string name="input_password_handle_sdcard_fs">إيقاف \"تحسينات بطاقة SD الزائفة\" قبل الدخول إلى الواجهة الثانية.</string>
+    <string name="input_password_handle_sdcard_fs">إيقاف تشغيل \"تحسين بطاقة الذاكرة SD الوهمية\" من الإعدادات > الإعدادات الإضافية> خيارات المطور قبل الدخول في الواجهة الثانية.</string>
     <string name="accessibility_enter_lock_wallpaper">انقر لفتح خلفية كاروسيل</string>
     <string name="lock_wallpaper_learn_more">المزيد</string>
     <string name="lock_wallpaper_enter">أدخل</string>

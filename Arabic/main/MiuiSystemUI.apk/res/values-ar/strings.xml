@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">لا يوجد</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -536,6 +538,7 @@ d MMMM"</string>
     <string name="ext_media_mountable_notification_title">جهاز وحدة تخزين USB متصل</string>
     <string name="ext_media_mountable_notification_message">المس للفتح في المدير.</string>
     <string name="ext_media_safe_remove">تمت الإزالة بأمان</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">ك/ث</string>
     <string name="megabyte_per_second">م/ث</string>
     <string name="status_bar_network_flow_today">اليوم: %1$s</string>
@@ -615,6 +618,7 @@ d MMMM"</string>
     <string name="notification_header_title">الإشعارات</string>
     <string name="weather_publish_time">تم تحديثه %1$s</string>
     <string name="no_weather_description">احصل على معلومات الطقس ></string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="screenshot_long_screenshot">التمرير</string>
     <string name="screenshot_edit">تعديل</string>
     <string name="screenshot_send">ارسل</string>
@@ -647,7 +651,7 @@ d MMMM"</string>
     <string name="accessibility_settings">الإعدادت</string>
     <string name="accessibility_search_scanner">الماسح</string>
     <string name="accessibility_brightness_slider">شريط تمرير السطوع</string>
-    <string name="click_to_return_multi_window">انقر للعودة لتقسيم الشاشة</string>
+    <string name="click_to_return_multi_window">انقر للعودة إلى تقسيم الشاشة</string>
     <string name="recent_dock_tip">انقر لتحديد التطبيقات</string>
     <string name="dock_keyguard_locked_failed_to_dock_text">تقسيم الشاشة غير مدعوم في شاشة القفل.</string>
     <string name="un_important_notifications">الإشعارات الغير هامة</string>

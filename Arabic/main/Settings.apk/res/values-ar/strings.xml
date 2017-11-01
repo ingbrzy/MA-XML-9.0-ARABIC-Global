@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">لا يوجد</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -679,6 +681,7 @@
     <string name="security_enable_widgets_title">تمكين الأدوات</string>
     <string name="security_enable_widgets_disabled_summary">معطّلة بواسطة المشرف</string>
     <string name="owner_info_settings_summary">لا أحد</string>
+    <string name="owner_info_settings_status">%1$d / %2$d</string>
     <string name="owner_info_settings_edit_text_hint">‏جهاز Android الخاص بهاني مثلاً</string>
     <string name="user_info_settings_title">معلومات المستخدم</string>
     <string name="show_profile_info_on_lockscreen_label">إظهار معلومات الملف الشخصي في شاشة التأمين</string>
@@ -940,6 +943,7 @@
     <string name="wifi_display_options_name">الاسم</string>
     <string name="wifi_band_24ghz">2.4 غيغاهرتز</string>
     <string name="wifi_band_5ghz">۵ غيغاهرتز</string>
+    <string name="link_speed">‏%1$d ميغابت في الثانية</string>
     <string name="nfc_quick_toggle_title">NFC</string>
     <string name="nfc_quick_toggle_summary">السماح بتبادل البيانات عندما يلمس الهاتف جهازًا آخر</string>
     <string name="android_beam_settings_title">Android Beam</string>
@@ -2206,6 +2210,7 @@
     <string name="gadget_title">التحكم في الطاقة</string>
     <string name="gadget_toggle_wifi">تحديث إعدادات Wi-Fi</string>
     <string name="gadget_toggle_bluetooth">تحديث إعداد البلوتوث</string>
+    <string name="gadget_state_template">%1$s %2$s</string>
     <string name="gadget_state_on">تشغيل</string>
     <string name="gadget_state_off">إيقاف</string>
     <string name="gadget_state_turning_on">جارٍ التشغيل…</string>
@@ -2383,6 +2388,7 @@
     <string name="delete">حذف</string>
     <string name="misc_files">ملفات متنوعة</string>
     <string name="misc_files_selected_count">تم تحديد %1$d من إجمالي %2$d</string>
+    <string name="misc_files_selected_count_bytes">%1$s من إجمالي %2$s</string>
     <string name="select_all">تحديد الكل</string>
     <string name="data_usage_summary_title">استخدام البيانات</string>
     <string name="data_usage_app_summary_title">استخدام بيانات التطبيق</string>
@@ -2629,6 +2635,7 @@
     <string name="nfc_payment_no_apps">ادفع بواسطة هاتفك في المتاجر والمحال</string>
     <string name="nfc_payment_default">التطبيق الافتراضي للدفع</string>
     <string name="nfc_payment_default_not_set">لم يتم التعيين</string>
+    <string name="nfc_payment_app_and_desc">%1$s - %2$s</string>
     <string name="nfc_payment_use_default">استخدام الافتراضي</string>
     <string name="nfc_payment_favor_default">دومًا</string>
     <string name="nfc_payment_favor_open">إذا كان هناك تطبيق دفع آخر مفتوحًا</string>
@@ -2689,6 +2696,7 @@
     <string name="regulatory_info_text" />
     <string name="sim_setup_wizard_title">‏بطاقات SIM</string>
     <string name="sim_settings_title">‏بطاقات SIM</string>
+    <string name="sim_settings_summary">%1$s - %2$s</string>
     <string name="sim_cards_changed_message">‏تم تغيير بطاقات SIM</string>
     <string name="sim_cards_changed_message_summary">انقر لتعيين الأنشطة.</string>
     <string name="sim_cellular_data_unavailable">بيانات الجوّال غير متوفرة</string>
@@ -2809,6 +2817,7 @@
     <string name="zen_mode_option_important_interruptions">الأولوية فقط</string>
     <string name="zen_mode_option_alarms">التنبيهات فقط</string>
     <string name="zen_mode_option_no_interruptions">كتم الصوت تمامًا</string>
+    <string name="zen_mode_summary_combination">%1$s: %2$s</string>
     <string name="zen_mode_visual_interruptions_settings_title">حظر الإشعارات المرئية</string>
     <string name="configure_notification_settings">تهيئة الإشعارات</string>
     <string name="advanced_section_header">متقدمة</string>
@@ -2902,6 +2911,7 @@
     <string name="zen_mode_schedule_alarm_title">يمكن للتنبيه أن يحل محل وقت الانتهاء</string>
     <string name="zen_mode_schedule_alarm_summary">التوقف عند وقت الانتهاء أو التنبيه التالي، أيهما أولاً</string>
     <string name="summary_divider_text">"، "</string>
+    <string name="summary_range_symbol_combination">%1$s - %2$s</string>
     <string name="summary_range_verbal_combination">%1$s إلى %2$s</string>
     <string name="zen_mode_calls">المكالمات</string>
     <string name="zen_mode_messages">الرسائل</string>
@@ -3083,6 +3093,8 @@
     <string name="memory_avg_use">المتوسط</string>
     <string name="memory_max_desc">الحد الأقصى: %1$s</string>
     <string name="memory_avg_desc">المتوسط: %1$s</string>
+    <string name="memory_use_running_format">%1$s / %2$s</string>
+    <string name="process_format">%1$s (%2$d)</string>
     <string name="high_power_apps">تحسين البطارية</string>
     <string name="high_power_filter_on">بدون تحسين</string>
     <string name="high_power_on">بدون تحسين</string>
@@ -3359,6 +3371,7 @@
     <string name="dndm_auto_setting_group">مجدول</string>
     <string name="dndm_auto_button_title">تكرار وقت عدم الإزعاج</string>
     <string name="dndm_auto_time_setting">ضبط الوقت</string>
+    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_on">من</string>
     <string name="dndm_auto_time_turn_on_title">تشغيل تلقائي لعدم الإزعاج</string>
     <string name="dndm_auto_time_turn_off">إلى</string>
@@ -3645,6 +3658,7 @@
     <string name="notification_reboot_title_hm">اعادة التشغيل لتطبيق التحديث</string>
     <string name="notification_reboot_summary_hm">انقر لإعادة تشغيل الجهاز.</string>
     <string name="notification_reboot_btn">إعادة التشغيل</string>
+    <string name="miui_updater">المحدث</string>
     <string name="giga_hertz">غيغاهرتز</string>
     <string name="reading_data">جار الحصول على المعلومات…</string>
     <string name="available_size">%s متوفر</string>
@@ -3657,10 +3671,10 @@
     <string name="sync_settings">المزامنة</string>
     <string name="google_title">غوغل</string>
     <string name="account_other">أخرى</string>
-    <string name="no_account_found">No application supports adding accounts</string>
+    <string name="no_account_found">لا يوجد تطبيق يدعم إضافة الحسابات</string>
     <string name="xiaomi_cloud_service_disabled">متوقّف</string>
     <string name="xiaomi_cloud_service_unknown">غير معروف</string>
-    <string name="xiaomi_cloud_service_description">Mi Cloud syncs contacts, photos, and other items across your devices. \"Find device\" also requires Mi Cloud to work normally.</string>
+    <string name="xiaomi_cloud_service_description">يقوم Mi Cloud بمزامنة جهات الاتصال، الصور، و عناصر أخرى عبر الأجهزة. \"العثور على الجهاز\" يحتاج ايضا Mi Cloud ليعمل بشكل طبيعي.</string>
     <string name="sure_sync_now">مزامنة العناصر الآن؟</string>
     <string name="sync_now">مزامنة</string>
     <string name="sms_received_sound_title">استلام رسالة</string>
@@ -3671,7 +3685,7 @@
     <string name="alarm_sound_dialog_title">اختيار صوت المنبه</string>
     <string name="calendar_sound_title">صوت التقويم</string>
     <string name="calendar_sound_dialog_title">اختيار صوت التقويم</string>
-    <string name="thememanager_not_found">تعذر فتح المظاهر. تأكد من تثبيت التطبيق.</string>
+    <string name="thememanager_not_found">تعذر فتح السمات. تأكد من تثبيت التطبيق.</string>
     <string name="ringtone_uniform_setting_title">ضبط SIM المزدوجة</string>
     <string name="ringtone_slot_setting_title">إعدادات SIM الفردية</string>
     <string name="haptic_feedback_level">اهتزاز</string>
@@ -4833,6 +4847,7 @@
     <string name="size_giga_byte">غيغابايت</string>
     <string name="size_tera_byte">تيرابايت</string>
     <string name="size_peta_byte">بنتابايت</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="radio_info_asdiv_switch_label">حالة ASDiv:</string>
     <string name="app_factory_reset_dlg_title">إلغاء تثبيت التحديثات؟</string>
     <string name="app_factory_reset_dlg_text">سيتم إلغاء تثبيت جميع التحديثات لتطبيق نظام الأندرويد هذا.</string>
@@ -4943,8 +4958,8 @@
     <string name="music_dirac_mode_off">Dirac متوقف</string>
     <string name="music_dirac_mode_general">عام</string>
     <string name="music_dirac_mode_general_earbuds">عام</string>
-    <string name="music_dirac_mode_general_inear">In-Ear عام</string>
-    <string name="music_dirac_mode_in_ear_2013">(Mi In-Ear (2013</string>
+    <string name="music_dirac_mode_general_inear">عامة In-Ear</string>
+    <string name="music_dirac_mode_in_ear_2013">Mi In-Ear (2013)</string>
     <string name="music_dirac_mode_earbuds">Mi Earbuds</string>
     <string name="music_dirac_mode_piston_100">Mi Piston</string>
     <string name="music_dirac_mode_piston_1">Mi Piston-1</string>
@@ -4978,7 +4993,6 @@
     <string name="manage_facerecoginition_text">إدارة بيانات الوجه</string>
     <string name="face_unlock_enable">التعرف على الوجه يعمل</string>
     <string name="face_unlock_disable">التعرف على الوجه متوقف</string>
-    <string name="lockpattern_recording_intro_header_second_space">ارسم نقش إلغاء قفل الشاشة للواجهة الثانية:</string>
     <string name="lockpattern_pattern_same_with_owner">يجب أن تكون مختلفة عن كلمة مرور الواجهة الاولى</string>
     <string name="lockpattern_pattern_same_with_security_space">يجب أن تكون مختلفة عن كلمة سر الواجهة الثانية</string>
     <string name="lockpattern_pattern_same_with_others">يجب أن تكون مختلفة عن كلمة مرور الفضاء الأخرى</string>
@@ -5110,12 +5124,12 @@
     <string name="add_fingerprint_text">إضافة بصمة الإصبع</string>
     <string name="add_fingerprint_instruction_title">اضف بصمة إصبعك</string>
     <string name="add_back_fingerprint_instruction_msg">ضع إصبعك على المستشعر</string>
-    <string name="add_front_fingerprint_instruction_msg">يوجد مستشعر بصمة الاصبع في الجزء الخلفي من جهازك.</string>
-    <string name="add_fingerprint_edge_instruction_title">قم بتحريك اصبعك بسلاسة</string>
+    <string name="add_front_fingerprint_instruction_msg">يوجد مستشعر بصمة الإصبع في الجزء الخلفي من جهازك.</string>
+    <string name="add_fingerprint_edge_instruction_title">قم بتحريك إصبعك قليلا</string>
     <string name="add_fingerprint_edge_instruction_msg">حرك إصبعك حتى يتمكن المستشعر من تسجيل حواف بصماتك.</string>
     <string name="information_dialog_button_text">فهمت</string>
     <string name="add_fingerprint_toast_text">ضع إصبعك على المستشعر</string>
-    <string name="add_fingerprint_similar_fingerprint_input_error_msg">قم بتحريك اصبعك بسلاسة</string>
+    <string name="add_fingerprint_similar_fingerprint_input_error_msg">قم بتحريك إصبعك قليلا</string>
     <string name="add_fingerprint_failed_retry_text">تعذر إضافة بصمة الاصبع، حاول مجددا</string>
     <string name="add_fingerprint_put_finger_title">إضافة بصمة الإصبع</string>
     <string name="add_fingerprint_put_finger_msg">ضع إصبعك عدة مرات على المستشعر وارفعها عندما تشعر بإهتزاز.</string>
@@ -5140,6 +5154,7 @@
     <string name="delete_or_keep_legacy_passwords_confirm_msg">حذف بصمة الإصبع هذه؟</string>
     <string name="delete_legacy_fingerprint">حذف</string>
     <string name="keep_legacy_fingerprint">إبقاء</string>
+    <string name="lockpattern_recording_intro_header_second_space">ارسم نقش إلغاء قفل الشاشة للواجهة الثانية:</string>
     <string name="lock_screen_unlock_show">تخطي سحب الشاشة</string>
     <string name="lock_screen_unlock_show_summary">الذهاب مباشرة إلى الشاشة الرئيسية أو إدخال كلمة المرور من وضع الإيقاظ</string>
     <string name="security_keyguard_category_name">شاشة القفل</string>

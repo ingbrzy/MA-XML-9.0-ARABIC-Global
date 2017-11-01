@@ -71,4 +71,7 @@
     <string name="two_dimensional_code_scan">مسح رمز QR</string>
     <string name="user_strayed_warning">تم تصميم الصفحة لاختبار المصنع، انقر على زر الرجوع للخروج.</string>
     <string name="fail_to_generate_qr_code">تعذر إنشاء رمز QR. افتح هذه الصفحة مرة أخرى.</string>
+    <string name="enable_accessibility_canceled">تم إلغاء إمكانية الوصول.</string>
+    <string name="accessibility_enabled">تم تفعيل إمكانية الوصول.</string>
+    <string name="continue_to_enable_accessibility">استمر بالضغط باستمرار على إصبعين لتفعيل إمكانية الوصول.</string>
 </resources>

@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">التنقل إلى الشاشة الرئيسية</string>
+    <string name="abc_action_bar_home_description_format">%1$s، %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s، %2$s، %3$s</string>
+    <string name="abc_action_bar_up_description">التنقل إلى أعلى</string>
+    <string name="abc_action_menu_overflow_description">خيارات إضافية</string>
+    <string name="abc_action_mode_done">تم</string>
+    <string name="abc_activity_chooser_view_see_all">عرض الكل</string>
+    <string name="abc_activitychooserview_choose_application">اختيار تطبيق</string>
+    <string name="abc_capital_off">إيقاف</string>
+    <string name="abc_capital_on">تشغيل</string>
+    <string name="abc_search_hint">بحث…</string>
+    <string name="abc_searchview_description_clear">محو طلب البحث</string>
+    <string name="abc_searchview_description_query">طلب البحث</string>
+    <string name="abc_searchview_description_search">بحث</string>
+    <string name="abc_searchview_description_submit">إرسال طلب البحث</string>
+    <string name="abc_searchview_description_voice">البحث الصوتي</string>
+    <string name="abc_shareactionprovider_share_with">مشاركة مع</string>
+    <string name="abc_shareactionprovider_share_with_application">‏مشاركة مع %s</string>
+    <string name="abc_toolbar_collapse_description">تصغير</string>
     <string name="common_google_play_services_enable_button">تمكين</string>
     <string name="common_google_play_services_enable_text">‏لن يعمل %1$s ما لم يتم تمكين خدمات Google Play.</string>
     <string name="common_google_play_services_enable_title">‏تمكين خدمات Google Play</string>
@@ -20,6 +39,8 @@
     <string name="common_open_on_phone">فتح على الهاتف</string>
     <string name="common_signin_button_text">تسجل الدخول</string>
     <string name="common_signin_button_text_long">‏تسجيل الدخول عبر Google</string>
+    <string name="search_menu_title">البحث</string>
+    <string name="status_bar_notification_info_overflow">+999</string>
     <string name="app_name">Mi Drop</string>
     <string name="cancel_confirm">إلغاء الإرسال</string>
     <string name="cancel_lang">إلغاء</string>
@@ -33,6 +54,8 @@
     <string name="clear_all">مسح الكل</string>
     <string name="click_to_send">انقر على الصورة الشخصية للإرسال</string>
     <string name="coolboot_title">مشاركة Mi Drop</string>
+    <string name="date_format_ddmmyyyy">yyyy/MM/dd</string>
+    <string name="date_format_ddmmyyyyhmma">yyyy/MM/dd h:mm a</string>
     <string name="default_lang">لغة النظام</string>
     <string name="delete">حذف</string>
     <string name="delete_item_desc">حذف هذا الملف من قائمة النقل؟</string>
@@ -46,6 +69,14 @@
     <string name="enable_hotspot">تم تشغيل نقطة إتصال الـ Wi-Fi بنجاح</string>
     <string name="exit">خروج</string>
     <string name="file_count">%1$d</string>
+    <string name="file_size_b">%1$d B</string>
+    <string name="file_size_gb">%2$1.2f GB</string>
+    <string name="file_size_kb">%2$1.2f KB</string>
+    <string name="file_size_mb">%2$1.2f MB</string>
+    <string name="file_speed_b">%1$d B/s</string>
+    <string name="file_speed_gb">%2$1.2f GB/s</string>
+    <string name="file_speed_kb">%2$1.2f KB/s</string>
+    <string name="file_speed_mb">%2$1.2f MB/s</string>
     <string name="files_selected">محددة</string>
     <string name="files_selected_count">الملفات المحددة: %1$d | الإجمالي: %2$s</string>
     <string name="help">المساعدة</string>
@@ -69,7 +100,7 @@
     <string name="no_network">"تعذر الاتصال بالشبكة.
 تحقق من الإعدادات وحاول مجددا."</string>
     <string name="no_permission_to_enable_hotspot">لا يمكن تشغيل نقطة إتصال الـ Wi-Fi بسبب عدم منح الأذونات.</string>
-    <string name="no_receiver_found">تعذر العثور على المستلم</string>
+    <string name="no_receiver_found">تعذر العثور على مستلم</string>
     <string name="not_found_desc">يمكنك مشاركة هذا الرابط إذا لم يكن لدى صديقك Mi Drop على جهازه.</string>
     <string name="notif_receive_lockscreen">عرض التفاصيل</string>
     <string name="notif_send_cancel">تم إلغاء الإرسال إلى %1$s</string>
@@ -83,7 +114,7 @@
     <string name="receive_exit_dialog_negative_btn">متابعة الاستلام</string>
     <string name="receive_exit_dialog_positive_btn">إلغاء النقل</string>
     <string name="receive_more">استلام المزيد</string>
-    <string name="received_files">تم استلام الملفات</string>
+    <string name="received_files">الملفات المستلمة</string>
     <string name="receiver_accept">قبول</string>
     <string name="receiver_clean">قم بتفريغ مساحة</string>
     <string name="receiver_in_progress_summary">انتظر حتى يتم الانتهاء من النقل الحالي قبل إرسال الملفات.</string>
@@ -92,7 +123,7 @@
     <string name="receiver_insufficient_storage_cannot_send">لا يوجد مساحة تخزين كافية. لا يمكن إرسال الملفات.</string>
     <string name="receiver_interrupt_summary">لا تقم بإيقاف تشغيل الـ Wi-Fi أثناء نقل جاري.</string>
     <string name="receiver_interrupt_summary_v21">لا تقم بإيقاف تشغيل نقطة إتصال الـ Wi-Fi أثناء نقل جاري.</string>
-    <string name="receiver_notification">اطلب من الشخص الأخر تشغيل Mi Drop والنقر على \"إرسال\".</string>
+    <string name="receiver_notification">اطلب من الشخص الآخر تشغيل Mi Drop وانقر على \"إرسال\".</string>
     <string name="receiver_notification_turn_on">اطلب من المستلم تشغيل Mi Drop في مركز الاشعارات.</string>
     <string name="receiver_notification_turn_on_help">بعد ذلك، قم بمسح رمز QR المستلم و ابدأ بإرسال الملفات.</string>
     <string name="receiver_reject">رفض</string>
@@ -125,8 +156,8 @@
     <string name="sender_wait">جارٍ إرسال الملفات…</string>
     <string name="sender_wait_queue">على وشك الإرسال…</string>
     <string name="setting_now">تعيين</string>
-    <string name="share_desc">إليك كيفية مشاركة Mi Drop:</string>
-    <string name="share_mi_drop">مشاركة Mi Drop لأصدقائك</string>
+    <string name="share_desc">مشاركة Mi Drop بدون استخدام بيانات الهاتف</string>
+    <string name="share_mi_drop">مشاركة Mi Drop مع أصدقائك</string>
     <string name="step_1">"الخطوة ١: 
 اطلب من الشخص الأخر الاتصال بـ Wi-Fi."</string>
     <string name="step_2">"الخطوة ٢: 
@@ -137,7 +168,6 @@
     <string name="storage_usb">وحدة تخزين USB</string>
     <string name="trans_progress_finish">تم</string>
     <string name="trans_progress_percent">%1$s%%</string>
-    <string name="trans_speed">%1$s/ثانية</string>
     <string name="transfer_cancel">تم إلغاء النقل</string>
     <string name="transfer_fail_desc">تم قطع اتصال الشبكة، أو تم إلغاء النقل من قبل شخص أخر.</string>
     <string name="transfer_failed">تعذر النقل</string>
@@ -156,6 +186,6 @@
     <string name="version">الإصدار</string>
     <string name="want_receive">استلام الملفات</string>
     <string name="want_send">إرسال الملفات</string>
-    <string name="wifi_name">Wi-Fi:</string>
+    <string name="wifi_name">اسم الـ Wi-Fi:</string>
     <string name="wifi_psw">كلمة المرور:</string>
 </resources>
