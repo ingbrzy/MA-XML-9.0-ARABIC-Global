@@ -332,8 +332,6 @@
     <string name="xl_vip_open">الشراء</string>
     <string name="xl_vip_pay">تمديد</string>
     <string name="xl_vip_overdue">انتهت صلاحيتها</string>
-    <string name="download_num_size">%1$s | %2$s</string>
-    <string name="app_size">%1$s</string>
     <string name="ad_title">قام اشخاص ايضاً بتنزيل هذه مع  %1$s </string>
     <string name="rank_data_empty">لا يوجد تصنيف</string>
     <string name="net_error">لا يمكن الاتصال بالشبكة، حاول مجدداً</string>
