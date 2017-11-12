@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"تقديم حجم النسخة: %1$s
 حجم تحديث دلتا: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">التخزين غير متاح، تحقق من بطاقة الذاكرة SD الخاصة بك.</string>
+    <string name="xiaomi_bytes_unit">%1$sبايت</string>
+    <string name="xiaomi_kilobytes_unit">%1$sكيلوبايت</string>
+    <string name="xiaomi_megabytes_unit">%1$sميغابايت</string>
     <string name="xiaomi_connect_download_manager_fail">تعذر بداية التنزيل. كن متاكدا من أن مدير التنزيلات يعمل بصفة طبيعية.</string>
     <string name="app_name">نسخة احتياطية</string>
     <string name="local_app_name">النسخ الاحتياطي</string>
@@ -15,6 +18,7 @@
     <string name="button_cancel">إلغاء</string>
     <string name="button_send">ارسل</string>
     <string name="backup_empty">لا توجد نسخ احتياطية.</string>
+    <string name="comma_seperator">"، "</string>
     <string name="backup_failed">تعذر النسخ الاحتياطي</string>
     <string name="sdcard_unmounted">ادخال بطاقة الذاكرة SD الآن</string>
     <string name="backup_progress">جارٍ النسخ الاحتياطي…</string>
@@ -28,6 +32,7 @@
     <string name="delete">حذف</string>
     <string name="cancel">إلغاء</string>
     <string name="reconnect">إعادة الاتصال</string>
+    <string name="pause">إيقاف مؤقت</string>
     <string name="delete_backup_process">جارٍ الحذف…</string>
     <string name="backup_error">تعذر النسخ الاحتياطي</string>
     <string name="delete_failed_backup_confirm">تحتوي هذه النسخة احتياطية على أخطاء.</string>
@@ -194,7 +199,7 @@
     <string name="enable_encrypt_xiaomi_account">تم إنشاء هذه النسخة الاحتياطية بواسطة %1$s. للإستعادة، احذف الحساب الحالي وسجل الدخول كـ %2$s.</string>
     <string name="enable_encrypt_ok">موافق</string>
     <string name="no_encrypt_password">لا توجد كلمة مرور</string>
-    <string name="enable_encrypt_fail">فشل التشفير</string>
+    <string name="enable_encrypt_fail">خطأ في التشفير</string>
     <string name="read_encrypt_fail">تعذر قراءة النسخة المشفرة</string>
     <string name="exchange_account">تبديل الحسابات</string>
     <string name="system_backup">نسخ احتياطي</string>
@@ -221,6 +226,9 @@
     <string name="file_uploading">جارٍ التحميل…</string>
     <string name="new_backup">نسخ احتياطي</string>
     <string name="restore_backup">إستعادة</string>
+    <string name="enable_encrypt_description">مشفر</string>
+    <string name="disable_encrypt_description">غير مشفر</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">لحظة من فضلك…</string>
     <string name="state_mounting">الوصول إلى تخزين جهاز التوجيه…</string>
     <string name="abort_backup_confirm">لم يتم الانتهاء من النسخ الاحتياطي. التوقف على أية حال؟</string>
@@ -233,7 +241,7 @@
     <string name="summary_err_restore_encrypting">تعذرت الإستعادة. تأكد من إجراء هذه النسخة الاحتياطية باستخدام حساب Mi.</string>
     <string name="summary_err_backup_no_network">تعذر الاتصال بالشبكة</string>
     <string name="summary_err_restore_no_network">تعذر الاتصال بالشبكة</string>
-    <string name="err_authentication_failed">فشلت المصادقة</string>
+    <string name="err_authentication_failed">تعذرت المصادقة</string>
     <string name="err_low_storage">لا توجد مساحة كافية</string>
     <string name="err_unknown">خطأ غير معروف</string>
     <string name="err_version_too_old">ملف النسخ الاحتياطي قديم جداً.</string>
@@ -255,6 +263,8 @@
     <string name="notif_trans_sending_failed">تعذر ارسال البيانات</string>
     <string name="notif_trans_receiving_failed">تعذر استقبال البيانات</string>
     <string name="notif_trans_wait_for_reconnecting">إنقطع الاتصال. الاتصال مرة أخرى.</string>
+    <string name="notif_trans_auto_reconnecting_title">انقطع الاتصال. جارٍ إعادة الاتصال تلقائيا…</string>
+    <string name="notif_trans_auto_reconnecting_content">يمكنك إلغاء المهمة الحالية إذا لزم الأمر.</string>
     <string name="custom_progress">%d عنصر</string>
     <string name="remote_receive">استلام</string>
     <string name="click_to_view">انقر للعرض</string>
@@ -306,11 +316,12 @@
     <string name="trans_cancelling">جارٍ الإلغاء…</string>
     <string name="trans_device_disconnected">إنقطع الاتصال</string>
     <string name="trans_device_wait_for_reconnecting">إنقطع الاتصال. الاتصال مرة أخرى للمتابعة.</string>
+    <string name="trans_device_auto_reconnecting">انقطع اتصال الجهاز. جارٍ إعادة الاتصال تلقائيا…</string>
     <string name="trans_connecting_toast">جارٍ الاتصال…</string>
     <string name="trans_connect_failed_toast">تعذر الاتصال</string>
     <string name="trans_generate_qr_code_failed">تعذر إنشاء رمز QR</string>
     <string name="trans_scan_invalid_qrcode">رمز QR غير صالح</string>
-    <string name="trans_scan_qr_code_tips">امسح رمز QR على الجهاز الجديد</string>
+    <string name="trans_scan_qr_code_tips">مسح رمز QR بإستخدام جهاز جديد</string>
     <string name="trans_show_qr_code_label">وصل جهاز قديم</string>
     <string name="trans_show_qr_code_tips">امسح رمز QR بإستخدام جهاز قديم</string>
     <string name="trans_operate_new_phone_tips">"اذهب الى الإعدادات > الإعدادات الإضافية > ناقل Mi
@@ -354,23 +365,26 @@
     <string name="user_notice_declaration_ignore">عدم الإظهار مرة أخرى</string>
     <string name="total_size">، %s</string>
     <string name="trans_intro_title">الأسئلة الشائعة</string>
-    <string name="trans_intro_question_1">١. كيف يمكنني استخدام ناقل Mi؟</string>
-    <string name="trans_intro_question_2">٢. ماذا أفعل إذا توقف ناقل Mi في خطوة معينة؟</string>
+    <string name="trans_intro_question_1">١. كيف يمكنني استخدام ناقل Mi لنقل البيانات من جهاز iOS؟</string>
+    <string name="trans_intro_desc_1">في هاتف Mi، قم بالاتصال بشبكة Wi-Fi و انقر \"انا المستلم\". ثم حدد جهاز iOS الخاص بك، و سجل الدخول إلى iCloud وقم بإستراد البيانات.</string>
+    <string name="trans_intro_question_2">٢. كيف يمكنني استخدام ناقل Mi لنقل البيانات من جهاز اندرويد؟</string>
     <string name="trans_intro_title_new">على الهاتف الجديد:</string>
     <string name="trans_intro_desc_new">انقر على \"آنا المستلم\". سيتم إنشاء رمز QR.</string>
     <string name="trans_intro_title_old">على الهاتف القديم:</string>
     <string name="trans_intro_desc_old">انقر على \"آنا المرسل\". ثم قم بمسح رمز QR على الهاتف الجديد و انتظر حتى يتعرف ناقل Mi على الملفات المطلوب إرسالها و انقر \"إرسال\".</string>
-    <string name="trans_intro_question_3">٣. لماذا لا يمكنني استخدام الـ Wi-Fi أثناء عملية النقل؟</string>
-    <string name="trans_intro_desc_3">يستخدم ناقل Mi الـ Wi-Fi لنقل الملفات. و لهذا السبب لا يمكنك الاتصال بالإنترنت باستخدام الـ Wi-Fi على أي من الجهازين أثناء النقل. ولكن لدى بعض الأجهزة الجديدة(مثل Mi 6) القدرة على الاتصال بالإنترنت عبر ال Wi-Fi أثناء عمليات النقل.</string>
-    <string name="trans_intro_question_4">٤، لماذا يخبرني ناقل Mi بأنه لا يوجد مساحة تخزين كافية على هاتفي القديم؟</string>
-    <string name="trans_intro_desc_4">يتم استخدام مساحة التخزين على الأجهزة القديمة لإنشاء حزم النقل. تأكد من أن لديك على الأقل 500 ميغابايت - 1 غيغابايت من السعة التخزينية المتاحة على الهاتف القديم قبل بدء النقل.</string>
-    <string name="trans_intro_question_5">٥. لماذا لا يتم نقل بعض التطبيقات بنجاح؟</string>
-    <string name="trans_intro_desc_5">هناك عدة أسباب لحدوث ذلك: مشكلات توافق إصدار النظام و التطبيق، مشكلات الشبكة، مشكلات التوافق الخاصة بجهاز معين، إلخ.</string>
-    <string name="trans_intro_question_6">٦. لماذا بعض التطبيقات لا تشتغل على جهاز جديد؟</string>
-    <string name="trans_intro_desc_6">ترتبط بعض التطبيقات (الخدمات البنكية الإلكترونية، أو التمويل، إلخ) مع جهاز معين لأسباب أمنية. جرب محو بيانات التطبيق أو إعادة تثبيت التطبيق على جهاز جديد.</string>
-    <string name="trans_intro_question_7">٧. لماذا لا يتم نقل سجل الـ WeChat كاملا؟</string>
-    <string name="trans_intro_desc_7">قد لا يتم نقل بيانات وسجل دردشة تطبيق WeChat بشكل كامل عبر ناقل Mi. انتقل إلى إعدادات الـ WeChat و قم بتسجيل الخروج من حسابك للحصول على المزيد من فرص النقل بنجاح.</string>
-    <string name="trans_intro_question_8">٨. ما هي العناصر التي لا يمكن نقلها؟</string>
+    <string name="trans_intro_question_3">٣. ماذا اعمل إذا توقف ناقل Mi في خطوة معينة؟</string>
+    <string name="trans_intro_desc_3">قم بإلغاء النقل و الخروج من ناقل Mi، ثم ابدأ من جديد. سيتم استبدال الملفات المكررة أثناء عملية النقل الجديدة.</string>
+    <string name="trans_intro_question_4">٤. لماذا لا يمكنني استخدام الـ Wi-Fi أثناء عملية النقل؟</string>
+    <string name="trans_intro_desc_4">يستخدم ناقل Mi الـ Wi-Fi لنقل الملفات. و لهذا السبب لا يمكنك الاتصال بالإنترنت بإستخدام الـ Wi-Fi على أي من الجهازين أثناء النقل. ولكن لدى بعض الأجهزة الجديدة(مثل Mi 6) القدرة على الاتصال بالإنترنت عبر الـ Wi-Fi أثناء عمليات النقل.</string>
+    <string name="trans_intro_question_5">٥. لماذا لا يخبرني ناقل Mi بأنه لا يوجد مساحة تخزين كافية على هاتفي القديم؟</string>
+    <string name="trans_intro_desc_5">يتم استخدام مساحة التخزين على الأجهزة القديمة لإنشاء حزم النقل. تأكد من أن لديك على الأقل ٥٠٠ ميغابايت - ١ غيغابايت من السعة التخزينية المتاحة على الهاتف القديم قبل بدء النقل.</string>
+    <string name="trans_intro_question_6">٦. لماذا لا يتم نقل بعض التطبيقات بنجاح؟</string>
+    <string name="trans_intro_desc_6">هناك عدة أسباب لحدوث ذلك: مشكلات توافق إصدار النظام و التطبيق، مشكلات الشبكة، مشكلات التوافق الخاصة بجهاز معين، إلخ.</string>
+    <string name="trans_intro_question_7">٧. لماذا بعض التطبيقات لا تشتغل على جهاز جديد؟</string>
+    <string name="trans_intro_desc_7">ترتبط بعض التطبيقات (الخدمات البنكية الإلكترونية، أو التمويل، إلخ) مع جهاز معين لأسباب أمنية. جرب محو بيانات التطبيق أو إعادة تثبيت التطبيق على جهاز جديد.</string>
+    <string name="trans_intro_question_8">٨. لماذا لا يتم نقل سجل الـ WeChat كاملا؟</string>
+    <string name="trans_intro_desc_8">قد لا يتم نقل بيانات وسجل دردشة تطبيق الـ WeChat بشكل كامل عبر ناقل Mi. انتقل إلى إعدادات WeChat و قم بتسجيل الخروج من حسابك للحصول على المزيد من فرص النقل بنجاح.</string>
+    <string name="trans_intro_question_9">٩. ما هي العناصر التي لا يمكن نقلها؟</string>
     <string name="trans_intro_title_account">الحسابات وكلمات المرور:</string>
     <string name="trans_intro_desc_account">يجب عليك تسجيل الدخول مرة أخرى إلى حساباتك (مثل: حساب Mi، Google، إلخ.) على الجهاز الجديد لأسباب تتعلق بالحماية.</string>
     <string name="trans_intro_title_private">ألبوم مخفي:</string>
@@ -384,8 +398,92 @@
     <string name="backup_security_tips_message">بعض التطبيقات قد لا يمكن نسخها احتياطيا أو استعادتها.</string>
     <string name="trans_security_tips_title">توافق ناقل Mi</string>
     <string name="trans_security_tips_message">بعض التطبيقات لا تدعم ناقل Mi.</string>
-    <string name="backup_items_sysdata_tailer">" ملفات بيانات النظام،"</string>
-    <string name="backup_items_app_tailer">" ملفات بيانات التطبيق"</string>
-    <string name="unit_piece">"  عناصر"</string>
-    <string name="trans_intro_desc_2">قم بإلغاء النقل و الخروج من ناقل Mi، ثم ابدأ من جديد. سيتم استبدال الملفات المكررة أثناء عملية النقل الجديدة.</string>
+    <string name="trans_wlan_tips_title">لا تقم بإيقاف تشغيل Wi-Fi</string>
+    <string name="trans_wlan_tips_message">لا تقم بإيقاف تشغيل Wi-Fi أو التبديل إلى شبكات Wi-Fi أخرى أثناء النقل. وإلا لن يتمكن ناقل Mi من نقل البيانات.</string>
+    <string name="trans_disconnected_tips_title">تم فصل الجهاز عن بعد</string>
+    <string name="trans_disconnected_tips_message">تم فصل الجهاز عن بعد. قم بالاتصال مرة أخرى يدويا أو إلغاء النقل.</string>
+    <string name="trans_button_cancel">إلغاء</string>
+    <string name="close_twice_auth_tutor">إيقاف المصادقة ذات العاملين لـ Apple ID</string>
+    <string name="close_twice_auth_steps">اتبع الخطوات التالية لإيقاف المصادقة ذات العاملين لـ Apple ID:</string>
+    <string name="close_twice_auth_step_1">١. افتح أي متصفح ويب على أي جهاز كمبيوتر واذهب إلى appleid.apple.com.</string>
+    <string name="close_twice_auth_step_2">2. Sign in to the Apple ID you want to disable two factor authentication for, go to the \"Security\" section of account settings and choose \"Edit\"</string>
+    <string name="close_twice_auth_step_3">3. Click \"Turn Off Two-Factor Authentication\". Click again to confirm.</string>
+    <string name="close_twice_auth_note">"Note:
+After creating a new security question and confirming your date of birth, your Apple ID two-factor authentication will be turned off. If you don't see the option to turn off two-factor authentication on the Apple ID account page, you can't turn it off."</string>
+    <string name="close_twice_auth_btn">Turn off two-factor authentication</string>
+    <string name="close_twice_auth_operation">"URL:
+https://appleid.apple.com/#!&amp;page=signin to close"</string>
+    <string name="platform_chooser_title">اختيار جهاز قديم</string>
+    <string name="platform_chooser_item_ios">Import from an iOS device</string>
+    <string name="platform_chooser_item_android">Import from an Android device</string>
+    <string name="icloud_need_wifi_title">Connect to Wi-Fi</string>
+    <string name="icloud_need_wifi_message">"You aren't connected to Wi-Fi now. To import data from iCloud, connect to Wi-Fi."</string>
+    <string name="icloud_login_title">Sign in to iCloud</string>
+    <string name="icloud_backup_tip">Sign in to the iCloud account of your old iOS device</string>
+    <string name="icloud_how_to_backup_tip_title">نصائح:</string>
+    <string name="icloud_how_to_backup_tip_summary">To import data from iOS, you must create an iCloud backup.</string>
+    <string name="icloud_how_to_backup_tip_steps">"1. Open Settings on your iOS device, and select iCloud.
+2. Toggle the switch for Contacts.
+3.Select Photos and toggle the switch for iCloud Photo Library."</string>
+    <string name="user_name">Apple ID أو البريد الإلكتروني</string>
+    <string name="password">Password</string>
+    <string name="user_name_null">"Username can't be empty"</string>
+    <string name="password_null">"Password can't be empty"</string>
+    <string name="name_password_not_consistent">Username or password is wrong</string>
+    <string name="login">Sign in</string>
+    <string name="logining">Signing in…</string>
+    <string name="login_failed">"Couldn't sign in. Try again."</string>
+    <string name="connect_wifi_tip">"Couldn't connect to the network. Connect to Wi-Fi to import items from iCloud."</string>
+    <string name="connect_wifi">Connect to Wi-Fi</string>
+    <string name="notif_icloud_logining">Signing in to iCloud on the old iOS device…</string>
+    <string name="notif_icloud_loading_summary">جارٍ تحميل البيانات…</string>
+    <string name="notif_icloud_import_title">استيراد البيانات من iCloud</string>
+    <string name="notif_icloud_loaded_summary">Waiting…</string>
+    <string name="notif_icloud_canceling_summary">جارٍ الإلغاء…</string>
+    <string name="notif_icloud_canceled_summary">تم الإلغاء</string>
+    <string name="notif_icloud_saved_summary">Imported successfully</string>
+    <string name="notif_icloud_need_wifi_summary">Waiting for Wi-Fi</string>
+    <string name="hsa_title">المصادقة ذات العاملين</string>
+    <string name="hsa_input_tip">Your Apple ID uses two-factor authentication. Enter verification code.</string>
+    <string name="hsa_input_hint">أدخل رمز التحقق</string>
+    <string name="hsa_code_null">"Verification code can't be empty"</string>
+    <string name="hsa_send_again">ارسال مرة أخرى</string>
+    <string name="hsa_send_again_countdown">Send again (%ds)</string>
+    <string name="hsa_sending">جار الإرسال…</string>
+    <string name="hsa_send_failed">"Couldn't send verification code. Waot a minute or two and try again."</string>
+    <string name="hsa_tip_title">نصائح:</string>
+    <string name="hsa_tip_message">"1. A message with the verification code has been sent to the device associated with your Apple ID.
+2. Turn off two-factor authentication if the verification code doesn't work."</string>
+    <string name="hsa_tip_message_with_device">"1. A message with the verification code has been sent to \"%s\" associated with your Apple ID.
+2. Turn off two-factor authentication if the verification code doesn't work."</string>
+    <string name="hsa_tip_message_shutdown_hsa">How to turn off two-factor authentication</string>
+    <string name="hsa_verify_failed">فشلت المصادقة ذات العاملين</string>
+    <string name="hsa_verify_failed_message">فشلت المصادقة ذات العاملين. يمكنك إعادة المحاولة أو إيقاف تشغيل المصادقة ذات العاملين.</string>
+    <string name="hsa_verify_retry">Try again</string>
+    <string name="hsa_verify_shutdown">إيقاف</string>
+    <string name="import_data_from_icloud">استيراد البيانات من iCloud</string>
+    <string name="loading_data">تحميل البيانات</string>
+    <string name="icloud_need_sync">"To import data from iOS,
+you should create an iCloud backup first."</string>
+    <string name="import_tip_title">نصائح:</string>
+    <string name="import_tip_summary">Due to compatibility issues, you can only transfer contacts and photos from iOS devices. Make sure you create an iCloud backup before starting the transfer.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
+    <string name="button_import">استيراد</string>
+    <string name="select_empty">قم بتحديد عناصر للاستيراد</string>
+    <string name="select_item_summary_wait">Waiting…</string>
+    <string name="select_item_summary_loading">جارٍ تحميل البيانات…</string>
+    <string name="select_item_contacts">جهات الاتصال</string>
+    <string name="select_item_photos">الصور</string>
+    <string name="select_item_empty_summary">No items</string>
+    <string name="cancel_moving_dialog_title">إيقاف الاستيراد</string>
+    <string name="cancel_moving_dialog_message">Stop importing now?</string>
+    <string name="notif_icloud_saving_summary">جارٍ استعادة البيانات…</string>
+    <string name="saving_data">"Importing data from iCloud…
+Don't turn off Wi-Fi"</string>
+    <string name="saving_data_no_time">Restoring data…</string>
+    <string name="saving_data_space_low">"Not enough storage space.
+Free up at least %s."</string>
+    <string name="save_finish_with_failing_items">"Transfer was interrupted.
+The data which wasn't imported must be imported again."</string>
+    <string name="import_again">الاستيراد مرة أخرى</string>
 </resources>

@@ -384,6 +384,7 @@
     <string name="detail_app_button">معلومات التطبيق</string>
     <string name="pref_about_traffic_title">إعدادات استخدام البيانات</string>
     <string name="pref_traffic_manage_title">استخدام البيانات</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">حد بيانات الجوال</string>
     <string name="pref_adjust_traffic_data">تعيين استخدام البيانات</string>
     <string name="pref_category_title_other">إعدادات إضافية</string>
@@ -797,8 +798,8 @@
     <string name="diagnostic_attention_dialog_message">تشخيص %1$s قيد التقدم. انتظر حتى ينتهي ثم حاول مرة اخرى.</string>
     <string name="correction_attention_dialog_message">ضبط الإعدادات الآن. انتظر حتى انتهاء العملية ثم حاول مرة أخرى.</string>
     <string name="text_button">فهمت</string>
-    <string name="vpn_unbale_get_phonenum">"Can't get phone numbers using designated data plans"</string>
-    <string name="vpn_disabled_by_user">Designated data connection is off</string>
+    <string name="vpn_unbale_get_phonenum">لا يمكن الحصول على أرقام الهواتف بإستخدام خطط البيانات المحددة</string>
+    <string name="vpn_disabled_by_user">اتصال البيانات المحددة متوقف</string>
     <string name="btn_back">رجوع</string>
     <string name="firewall_allow_data">السماح بإستخدام بيانات الجوال</string>
     <string name="firewall_restrict_data">تقييد استخدام بيانات الجوال</string>
@@ -817,6 +818,13 @@
     <string name="menu_charge_traffic">شراء بيانات</string>
     <string name="menu_charge_bill">شحن الرصيد</string>
     <string name="privacy_dialog_message">عند الاتصال بالإنترنت، سيتم تشفير هذه الرسالة مع معلومات شركة الاتصالات وتحميلها على خوادم Mi لمساعدتنا على تحسين مراقبة استخدام البيانات.</string>
+    <string name="status_bar_network_flow_purchase">"   شراء >"</string>
+    <string name="status_bar_network_flow_setup_data_plan">"   تثبيت خطة البيانات >"</string>
+    <string name="status_bar_network_flow_phone_balance">"   رصيد الهاتف:%1$s "</string>
+    <string name="status_bar_network_flow_exceed_content">اليوم: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;تجاوز الخطة: &lt;font color=%2$s>%3$s&lt;/font>؛</string>
+    <string name="status_bar_network_flow_content">اليوم: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;؛المتبقي: %2$s</string>
+    <string name="status_bar_network_flow_content_not_setting">اليوم: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;؛هذا الشهر: %2$s</string>
+    <string name="status_bar_network_flow_today">اليوم: %1$s</string>
     <string name="optimize_manage_title">زيادة السرعة</string>
     <string name="cpu_usage_android_system">نظام اندرويد</string>
     <string name="cpu_usage_process_run_time_little_time">أقل من دقيقة</string>
@@ -878,6 +886,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"هذا التطبيق قد يبطئ
 جهازك"</string>
+    <string name="om_memory_clean_memory_info_text">%2$s / %1$s</string>
     <string name="om_ill_proc_handle_unstaill_title">إلغاء التثبيت %s؟</string>
     <string name="om_ill_proc_handle_uninstall_prompt">إلغاء تثبيت هذا التطبيق لإصلاح مشاكل إستخدام البطارية.</string>
     <string name="om_ill_proc_type_wakelock_title">هذا التطبيق يقوم بحظر وضع السكون ويستنزف البطارية</string>
@@ -1174,7 +1183,7 @@
     <string name="sp_settings_info_monitor">مراقبة بيئة النظام تلقائيا عند بدأ تطبيقات الدفع</string>
     <string name="scan_status_safe">آمن</string>
     <string name="scan_status_risk">ذو خطورة</string>
-    <string name="safepay_alert_dialog_button_risk">إصلاح</string>
+    <string name="safepay_alert_dialog_button_fix">Fix</string>
     <string name="safepay_alert_dialog_button_continue">متابعة</string>
     <string name="safe_result_header_info_protecting">الحماية</string>
     <string name="safe_result_item_info_system_version">MIUI مُحدث</string>
@@ -1210,6 +1219,9 @@
     <string name="monitor_app_more">المزيد</string>
     <string name="monitor_app_add">إضافة</string>
     <string name="sc_system_risk_fix_info_xspace">لا يمكن إصلاح الخطر في الواجهة x، يرجى التبديل إلى واجهة المالك لإصلاحه.</string>
+    <string name="dialog_no_longer_alert">no longer remind</string>
+    <string name="sp_background_risk_dialog_title_wifi_approve">Free WLAN Alert</string>
+    <string name="sp_background_risk_dialog_summary_wifi_approve">You are currently using a free public wifi which could be a fishing one. Make sure it is safe before your payment.</string>
     <string name="sp_background_risk_dialog_title">تنبيه</string>
     <string name="sp_background_risk_dialog_summary">، التحقق من مشاكل الدفع وإصلاحها.</string>
     <string name="sp_background_risk_type_wifi">شبكة Wi-Fi هذه خطيرة</string>
@@ -1276,6 +1288,7 @@
     <string name="menu_text_networkassistants">استخدام البيانات</string>
     <string name="menu_text_networkassistants_remain">%s متبقي</string>
     <string name="menu_text_networkassistants_danger">%s زائد</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">غ.ب</string>
     <string name="menu_text_networkassistants_unit_mb">م.ب</string>
     <string name="menu_text_networkassistants_unit_kb">ك.ب</string>
@@ -1636,6 +1649,7 @@
     <string name="card_main_deepclean_wechat_action">حذف</string>
     <string name="card_main_sectool_title">الأدوات</string>
     <string name="card_main_monthreport_action">عرض</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">اختبار الشبكة</string>
     <string name="card_main_netcheck_summary">اختبار الاتصال لمشاكل الشبكة</string>
     <string name="card_main_netcheck_action">اختبار</string>
@@ -1659,16 +1673,21 @@
     <string name="card_main_gamebooster_title">زيادة سرعة الألعاب</string>
     <string name="skin_change_close_toast">سيتم تطبيق التغييرات في المرة القادمة التي تقوم فيها بتشغيل الحماية</string>
     <string name="Setting_lock">الإعدادات</string>
+    <string name="more_lock">المزيد</string>
     <string name="app_name">قفل التطبيقات</string>
     <string name="back_app_name">الرجوع إلى قفل التطبيقات</string>
     <string name="notification_item">حماية التطبيقات بقفل التطبيقات</string>
+    <string name="notification_masked_item">إخفاء الإشعارات</string>
     <string name="lock_mode_title">إعدادات القفل</string>
     <string name="after_the_lock_screen">قفل التطبيقات جنبا إلى جنب مع الشاشة</string>
     <string name="set_applock_password">تعيين كلمة مرور</string>
     <string name="ac_firstUseApplock_title">قم بتعيين كلمة مرور لحماية تطبيقاتك</string>
     <string name="ac_firstUseApplock_subTitle">استخدم أدوات حماية النظام على مستوى أفضل</string>
     <string name="notification_subtitle">انقر للتشغيل</string>
+    <string name="notification_masked_subtitle">إخفاء الإشعارات من التطبيقات المحمية بقفل التطبيقات</string>
     <string name="ac_enter_applock">ادخل قفل التطبيقات</string>
+    <string name="ac_mask_all_apps">إخفاء لجميع التطبيقات</string>
+    <string name="ac_unmask_all_apps">عدم الإخفاء لجميع التطبيقات</string>
     <string name="ac_summaryOn">تم التشغيل، تحتاج كلمة مرور لفتح التطبيقات</string>
     <string name="ac_summaryOff">تم الإيقاف، لا تحتاج كلمة مرور لفتح التطبيقات</string>
     <string name="lockpattern_tutorial_cancel_label">إلغاء</string>
@@ -1680,10 +1699,12 @@
     <string name="back_modifypassword">الرجوع إلى تغيير كلمة المرور</string>
     <string name="showpattern">عرض النقش</string>
     <string name="notification_mask_title">إخفاء المحتوى</string>
-    <string name="notification_mask_summary">عدم إظهار محتوى الإشعارات على شاشة القفل وفي مركز الإشعارات</string>
+    <string name="notification_mask_summary">إخفاء محتوي الإشعار على شاشة القفل وفي مركز الإشعارات</string>
     <string name="convenient_mode">إلغاء قفل جميع التطبيقات في وقت واحد</string>
     <string name="convenient_summary">أدخل كلمة المرور مرة واحدة لإلغاء قفل جميع التطبيقات</string>
     <string name="suggest_app_tolock">اقتراحات</string>
+    <string name="suggest_app_tolock_masked">مخفية</string>
+    <string name="suggest_app_tolock_unmasked">الإشعارات المرئية</string>
     <string name="forget_password_button_text"><u>نسيت كلمة السر</u></string>
     <string name="forget_password_button_text_normal">نسيت كلمة المرور</string>
     <string name="lockpattern_too_many_failed_confirmation_attempts_header">محاولات غير ناجحة كثيرة جدا!</string>
@@ -1829,7 +1850,6 @@
     <string name="app_manager_permission_notify_title">الإشعارات</string>
     <string name="app_manager_permission_power_saving_title">توفير شحن البطارية</string>
     <string name="app_manager_permission_power_saving_summary">توفير شحن البطارية MIUI</string>
-    <string name="app_manager_default_open">الفتح افتراضيا</string>
     <string name="app_manager_default_open_title">مسح الافتراضية</string>
     <string name="app_manager_default_close_summary">لم يتم تعيين الإفتراضية.</string>
     <string name="app_manager_default_open_summary">لقد اخترت تشغيل هذا التطبيق افتراضيا لبعض الإجراءات.</string>
@@ -1909,12 +1929,12 @@
     <string name="app_manager_clear_cache">مسح ذاكرة التخزين المؤقتة</string>
     <string name="app_manager_reset_app_preferences">إعادة تعيين تفضيلات التطبيق</string>
     <string name="app_manager_reset_app_preferences_title">إعادة تعيين تفضيلات التطبيق؟</string>
-    <string name="app_manager_reset_app_preferences_desc">"سيؤدي هذا إلى إعادة تعيين جميع التفضيلات ل:
+    <string name="app_manager_reset_app_preferences_desc">"سيؤدي هذا إلى إعادة تعيين جميع التفضيلات لـ:
 
  "<li>التطبيقات المعطلة</li>"
- "<li>اشعارات التطبيقات المعطلة</li>"
- "<li>التطبيقات الافتراضية من أجل الإجراءات</li>"
- "<li>قيود بيانات الخلفية للتطبيقات</li>"
+ "<li>إشعارات التطبيقات المعطلة</li>"
+ "<li>التطبيقات الإفتراضية من أجل الإجراءات</li>"
+ "<li>قيود البيانات الخلفية للتطبيقات</li>"
 
  أنت لن تفقد أي بيانات في التطبيق."</string>
     <string name="app_manager_reset_app_preferences_button">إعادة تعيين التطبيقات</string>
@@ -1922,13 +1942,23 @@
     <string name="app_manager_enable_text">تفعيل</string>
     <string name="app_manager_disable_dlg_title">هل تريد تعطيل التطبيق المدمج؟</string>
     <string name="app_manager_disable_dlg_text">إذا قمت بتعطيل هذا التطبيق، التطبيقات الأخرى قد لا تعمل كما هو مقصود.</string>
-    <string name="app_manager_disabled">معطّل</string>
+    <string name="app_manager_disabled">معطل</string>
     <string name="app_manager_enabled">مفعل</string>
     <string name="app_manager_globel_perm_title">أذونات التطبيق</string>
     <string name="app_manager_globel_perm_summary">إدارة الأذونات ذات الصلة بالموقع ،التخزين، الهاتف، الرسائل وجهات الاتصال.</string>
     <string name="app_manager_globel_other_perm_title">أذونات أخرى</string>
     <string name="app_manager_uninstall_protected_dlg_title">إلغاء تثبيت تطبيقات النظام</string>
     <string name="app_manager_uninstall_protected_dlg_msg">قد يؤدي إلغاء تثبيت تطبيقات النظام إلى منع بعض مكونات MIUI من العمل بشكل صحيح. هل تريد إلغاء التثبيت على أي حال؟</string>
+    <string name="app_manager_has_not_data">لا توجد بيانات</string>
+    <string name="app_manager_memory">ذاكرة RAM</string>
+    <string name="app_manager_as_dlg_title">تنبيه</string>
+    <string name="app_manager_as_dlg_msg">لسماح التطبيقات للتشغيل التلقائي يتطلب ذاكرة RAM إضافية و مصادر البطارية. السماح على كل حال؟</string>
+    <string name="app_manager_default_cleared">تم التنظيف</string>
+    <string name="app_manager_not_allow">No</string>
+    <string name="app_manager_allow">Yes</string>
+    <string name="app_manager_install_other_app">install apps unknown sources</string>
+    <string name="app_manager_disabled_by_admin">Disabled by admin</string>
+    <string name="app_manager_advanced_setting">Advanced settings</string>
     <string name="ad_btn_default_text">معرفة المزيد</string>
     <string name="open_activity_err">لم يتم العثور على التطبيق</string>
     <string name="low_memory_warning_dialog_title">لا توجد مساحة كافية</string>
@@ -1976,6 +2006,8 @@
     <string name="function_close">متوقّف</string>
     <string name="add_done">تمت الإضافة بنجاح</string>
     <string name="boost_done">تم زيادة السرعة بنجاح</string>
+    <string name="boost_stop">Turn off speed boost</string>
+    <string name="already_close_gamebooster">Gaming speed boost is off</string>
     <string name="no_game">تعذر العثور على ألعاب</string>
     <string name="gamebooster_network_dialog_title">بعض الميزات ليست متاحة</string>
     <string name="gamebooster_network_dialog_message">السماح للحماية بالاتصال بالشبكة من أجل استخدام جميع ميزات مسرّع اللعبة؟</string>
@@ -2030,6 +2062,8 @@
     <string name="renew_now">تجديد</string>
     <string name="receive_now">إستلام</string>
     <string name="net_booster">زيادة سرعة الشبكة</string>
+    <string name="xunyou_net_booster">Network speed boost</string>
+    <string name="xunyou_net_booster_detail">Use Xunyou speed boost services for gaming</string>
     <string name="wlan_booster">تحسين Wi-Fi</string>
     <string name="tab_gift">الهدايا</string>
     <string name="tab_guide">دليل</string>
@@ -2044,6 +2078,8 @@
     <string name="wifi_optizition_loading">جارٍ تشغيل زيادة سرعة شبكة Xunyou…</string>
     <string name="free_send_net_booster">زيادة سرعة الشبكة مجاناً</string>
     <string name="free_send_net_booster_tip">استمتع بالعب بسلاسة مع زيادة سرعة الشبكة مجانا.</string>
+    <string name="free_send_net_booster_busniess">احصل على Xunlei لزيادة السرعة</string>
+    <string name="free_send_net_booster_busniess_tip">انقر للاستلام</string>
     <string name="net_booster_overdue_notification">جلسة زيادة سرعة الشبكة على وشك الانتهاء</string>
     <string name="net_booster_overdue_notification_tip">جلسة زيادة سرعة الشبكة على وشك الانتهاء. تجديد الجلسة؟</string>
     <string name="net_booster_expire_notification">جلسة زيادة سرعة الشبكة على وشك الانتهاء</string>
@@ -2058,8 +2094,13 @@
     <string name="thermal_tips_title">تنبيه</string>
     <string name="thermal_tips_message">قد يؤدي لعب الألعاب في وضع الأداء إلى مشاكل زيادة السخونة.</string>
     <string name="forbid_autobright_title">إصلاح سطوع الشاشة</string>
+    <string name="forbid_autobright_summary">"Screen brightness will stay the same when you're playing games"</string>
     <string name="gamebooster_lowbattery_notification_title">البطارية أقل من ٥%%</string>
     <string name="gamebooster_lowbattery_notification_summary">اشحن جهازك قبل ان ينطفئ.</string>
+    <string name="game_ad_recommendation">الجميع يلعبها</string>
+    <string name="game_booster_close">Game Speed Booster off</string>
+    <string name="databooster_tips_title">Attention</string>
+    <string name="databooster_tips_message">Turn on to restrict all SIM cards except for the data card. Turn this feature off if errors occur in the games of your choice.</string>
     <string name="power_center_consume_rank">استخدام البطارية</string>
     <string name="power_center_custom_title">وضع البطارية</string>
     <string name="power_center_auto_shutdown_summary_default">قم بتشغيل جهازك أو إيقافه في وقت المحدد</string>

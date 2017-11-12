@@ -54,8 +54,6 @@
     <string name="clear_all">مسح الكل</string>
     <string name="click_to_send">انقر على الصورة الشخصية للإرسال</string>
     <string name="coolboot_title">مشاركة Mi Drop</string>
-    <string name="date_format_ddmmyyyy">yyyy/MM/dd</string>
-    <string name="date_format_ddmmyyyyhmma">yyyy/MM/dd h:mm a</string>
     <string name="default_lang">لغة النظام</string>
     <string name="delete">حذف</string>
     <string name="delete_item_desc">حذف هذا الملف من قائمة النقل؟</string>
@@ -188,4 +186,6 @@
     <string name="want_send">إرسال الملفات</string>
     <string name="wifi_name">اسم الـ Wi-Fi:</string>
     <string name="wifi_psw">كلمة المرور:</string>
+    <string name="date_format_ddmmyyyy">yyyy/MM/dd</string>
+    <string name="date_format_ddmmyyyyhmma">yyyy/MM/dd h:mm a</string>
 </resources>

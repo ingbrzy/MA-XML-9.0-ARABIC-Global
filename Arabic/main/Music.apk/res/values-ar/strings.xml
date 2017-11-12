@@ -501,6 +501,7 @@
     <string name="set_id3_failed">لا يمكن حفظ المعلومات</string>
     <string name="set_id3_not_support_format">لا يمكن تعديل صيغة هذا الملف</string>
     <string name="set_id3_not_have_read_or_write_permission">ليس لديك التصريح لتعديل هذا الملف</string>
+    <string name="listview_index_of_total">%1$d/%2$d</string>
     <string name="lyric_setting">إعدادات الكلمات</string>
     <string name="modify_lyric">تعديل الكلمات</string>
     <string name="modify_progress">تغيير سرعة تمرير الكلمات</string>

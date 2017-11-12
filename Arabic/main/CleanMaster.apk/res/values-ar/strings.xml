@@ -384,7 +384,7 @@
     <string name="load_only_under_wlan">تحميل بإستخدام Wi-Fi فقط</string>
     <string name="recommend_news">تلقي توصيات</string>
     <string name="dialog_title_stop_scan">إيقاف الفحص</string>
-    <string name="dialog_msg_stop_scan">إيقاف فحص التنظيف الجاري؟</string>
+    <string name="dialog_msg_stop_scan">إيقاف فحص التنظيف الحالي؟</string>
     <string name="dialog_title_esc_cleanmaster">الخروج من المنظف</string>
     <string name="dialog_msg_esc_cleanmaster">إيقاف فحص التنظيف الجاري؟</string>
     <string name="pref_category_title_engine_settings">فحص إعدادات التعريف</string>

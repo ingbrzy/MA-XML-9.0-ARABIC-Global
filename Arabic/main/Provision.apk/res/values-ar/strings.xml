@@ -69,7 +69,7 @@
     <string name="cm_terms_title">اتفاقية مشغل شبكة الهاتف الجوال</string>
     <string name="cm_terms_content">من أجل تحسين الخدمات المقدمة لك، قد يقوم مشغل شبكة الهاتف الجوال المختار من قبلك بتحميل بياناتك الشخصية والمعلومات حول هذا الجهاز إلى خوادمه باستخدام شبكات Wi-Fi أو اتصال بيانات الجوال. سيتم استخدام هذه المعلومات فقط لأغراض إحصائية من أجل تحسين جودة الخدمات وتقديم محتوى أكثر تخصيصا. لن يتم استخدام هذه المعلومات لتحديد هويتك شخصيا، ولن يتم الكشف عنها إلى أطراف ثالثة.</string>
     <string name="two_dimensional_code_scan">مسح رمز QR</string>
-    <string name="user_strayed_warning">تم تصميم الصفحة لاختبار المصنع، انقر على زر الرجوع للخروج.</string>
+    <string name="user_strayed_warning">تم تصميم الصفحة لاختبارات المصنع، انقر على زر \"الرجوع\" للخروج.</string>
     <string name="fail_to_generate_qr_code">تعذر إنشاء رمز QR. افتح هذه الصفحة مرة أخرى.</string>
     <string name="enable_accessibility_canceled">تم إلغاء إمكانية الوصول.</string>
     <string name="accessibility_enabled">تم تفعيل إمكانية الوصول.</string>

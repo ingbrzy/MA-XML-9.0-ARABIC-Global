@@ -246,7 +246,7 @@
     <string name="no_match_repate_scanner">تعذر العثور على بصمات اصبع مطابقة، افحص مرة اخرى</string>
     <string name="delete_phone_fingerprint">حذف بصمة اصبع الواجهة الثانية</string>
     <string name="delete_fingerprint">حذف بصمة الاصبع</string>
-    <string name="fingerprint_number_upper_limit">Too many unsuccessful unlock attempts</string>
+    <string name="fingerprint_number_upper_limit">محاولات \"إلغاء قفل\" غير ناجحة كثيرة جدا</string>
     <string name="delete_fingerprint_desc">سيتم حذف بصمة الاصبع مع كلمة المرور للواجهة الثانية</string>
     <string name="fingerprint_removal_failed">تعذر حذف بصمة الاصبع</string>
     <string name="notification_recommend_title">أعلى ١٢ تطبيق في الواجهة الثانية</string>
@@ -287,7 +287,7 @@
     <string name="can_not_switch_when_calling">لا يمكن التبديل بين الواجهات أثناء إجراء مكالمة</string>
     <string name="can_not_delete_when_calling">لا يمكن حذف الواجهات أثناء إجراء مكالمة</string>
     <string name="support_desc">خدمات الحماية مقدمة من طرف Graphite</string>
-    <string name="sdcardfs_dialog_message">Turn off \"Mock SD card optimization\" in Settings > Additional settings > Developer options before entering Second space.</string>
+    <string name="sdcardfs_dialog_message">قد تكون البيانات القديمة غير متوافقة مع نظام الملفات الجديد. تحسين البيانات قبل دخول الواجهة الثانية وإعادة تشغيل الجهاز.</string>
     <string name="do_not_ask">لا تسأل مجدداً</string>
     <string name="gpg_message">يحتاج إنشاء تطبيقات مزدوجة إلى ألعاب متجر Play. إنشاء تطبيق مزدوج لألعاب متجر play؟</string>
     <string name="gpg_title">التطبيق المزدوج لألعاب متجر Play</string>
@@ -314,4 +314,6 @@
 واجهتين. جهاز واحد."</string>
     <string name="privacy_password_fingerprint_dialog_title">قم بمسح بصمة الاصبع الخاصة بك</string>
     <string name="privacy_password_fingerprint_dialog_message">ضع إصبعك على المستشعر</string>
+    <string name="optimize_now">تحسين</string>
+    <string name="dialog_title">تنبيه</string>
 </resources>

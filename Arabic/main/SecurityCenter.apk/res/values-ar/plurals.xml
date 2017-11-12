@@ -412,6 +412,14 @@
         <item quantity="few">"انتظر لمدة %d ثواني ثم حاول مرة أخرى. "</item>
         <item quantity="many">"انتظر لمدة %d ثانية ثم حاول مرة أخرى. "</item>
     </plurals>
+    <plurals name="number_masked">
+        <item quantity="other">%d تطبيق</item>
+        <item quantity="zero">%d تطبيقات</item>
+        <item quantity="one">%d تطبيق</item>
+        <item quantity="two">%d تطبيقات</item>
+        <item quantity="few">%d تطبيقات</item>
+        <item quantity="many">%d تطبيق</item>
+    </plurals>
     <plurals name="number_locked">
         <item quantity="other">تم قفل %d تطبيق</item>
         <item quantity="zero">تم قفل %d تطبيق</item>
@@ -427,6 +435,22 @@
         <item quantity="two">%d تطبيقات غير مقفلة</item>
         <item quantity="few">%d تطبيقات غير مقفلة</item>
         <item quantity="many">%d تطبيق غير مقفل</item>
+    </plurals>
+    <plurals name="number_masked_text">
+        <item quantity="other">تم إخفاء %d إشعار</item>
+        <item quantity="zero">تم إخفاء %d إشعارات</item>
+        <item quantity="one">تم إخفاء %d إشعار</item>
+        <item quantity="two">تم إخفاء %d إشعارات</item>
+        <item quantity="few">تم إخفاء %d إشعارات</item>
+        <item quantity="many">تم إخفاء %d إشعار</item>
+    </plurals>
+    <plurals name="number_to_mask_text">
+        <item quantity="other">%d إشعار مرئي</item>
+        <item quantity="zero">%d إشعارات مرئية</item>
+        <item quantity="one">%d إشعار مرئي</item>
+        <item quantity="two">%d إشعارات مرئية</item>
+        <item quantity="few">%d إشعارات مرئية</item>
+        <item quantity="many">%d إشعار مرئي</item>
     </plurals>
     <plurals name="find_applications">
         <item quantity="other">بحث عن %d تطبيق</item>

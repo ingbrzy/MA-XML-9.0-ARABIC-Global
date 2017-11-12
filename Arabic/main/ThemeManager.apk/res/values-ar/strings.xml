@@ -298,6 +298,7 @@
     <string name="theme_batch_update_dlg_content_single">تحديث %1$s الآن؟</string>
     <string name="theme_current_using_has_update">تحديث السمة متاح</string>
     <string name="theme_immediately_apply_tip">تعيين تحديث السمة الآن؟</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_fresh_man_notifaction">سمات جديدة متاحة</string>
     <string name="selected_resource_file_invalid">الملف المحدد غير صالح</string>
     <string name="apply_theme_with_ringtones">استخدام نغمات رنين السمة</string>
@@ -358,9 +359,9 @@
     <string name="gift_received_list_empty">لم تستلم أية هدايا.</string>
     <string name="gift_received_notification_title">أعطاك %s سمة.</string>
     <string name="present_online_themes">احصل على المزيد من السمات عبر الانترنت</string>
-    <string name="present_local_themes">My theme resources</string>
-    <string name="present_official_themes">Official Selection</string>
-    <string name="find_more_theme">Find more</string>
+    <string name="present_local_themes">مصادر سماتي</string>
+    <string name="present_official_themes">الاختيار الرسمي</string>
+    <string name="find_more_theme">اعثر على المزيد</string>
     <string name="lockscreen_magazine_title">خلفية كاروسيل</string>
     <string name="lockscreen_magazine_summary">الفئات</string>
     <string name="lockscreen_magazine_subscribe">%1$s متابع</string>
@@ -429,13 +430,13 @@
     <string name="local_photos">الصور المحلية</string>
     <string name="recently_used">مستخدمة مؤخرا</string>
     <string name="system_precust">مثبتة مسبقا</string>
-    <string name="wallpaper_settings_loading_text">يرجى الإنتظار للحظة…</string>
+    <string name="wallpaper_settings_loading_text">لحظة من فضلك…</string>
     <string name="wallpaper_settings_no_history">لا يوجد سجل</string>
-    <string name="card_loading">يرجى الإنتظار للحظة…</string>
+    <string name="card_loading">لحظة من فضلك…</string>
     <string name="card_no_network">تعذر الاتصال بالشبكة. تحقق من إعدادات الشبكة ثم حاول مرة أخرى.</string>
     <string name="card_data_request_error">حدث خطأ ما، انتظر دقيقة أو دقيقتين ثم حاول مرة أخرى.</string>
-    <string name="card_retry">إعادة المحاولة</string>
-    <string name="in_the_end">لا يوجد المزيد من العناصر للمشاهدة</string>
+    <string name="card_retry">حاول مجددا</string>
+    <string name="in_the_end">لا يوجد المزيد من العناصر لعرضها</string>
     <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_color_ring">نغمة الرنة</string>
     <string name="item_resource_audio_optional_phone_ring">نغمة الرنين</string>
@@ -448,11 +449,11 @@
     <string name="ringtone_set_success">تم التعيين بنجاح</string>
     <string name="online_precust_peach_blossom">الخوخ المزهر</string>
     <string name="online_precust_asphalt">اسفلت</string>
-    <string name="online_precust_forest_stories">Forest Stories</string>
-    <string name="online_precust_chubby_dreamer">Chubby Dreamer</string>
-    <string name="online_precust_paper_world">Paper World</string>
-    <string name="online_precust_geometry">Geometry</string>
-    <string name="online_precust_tiny">Tiny</string>
+    <string name="online_precust_forest_stories">قصص الغابة</string>
+    <string name="online_precust_chubby_dreamer">السمين الحالم</string>
+    <string name="online_precust_paper_world">ورقة العالم</string>
+    <string name="online_precust_geometry">هندسة</string>
+    <string name="online_precust_tiny">صغير</string>
     <string name="online_precust_mi_note2">Mi Note 2</string>
     <string name="online_precust_scenery">منظر</string>
     <string name="online_precust_plant">نبات</string>
@@ -460,9 +461,9 @@
     <string name="online_precust_creative">أبداع</string>
     <string name="online_precust_building">مبنى</string>
     <string name="online_precust_lifestyle">نمط الحياة</string>
-    <string name="online_precust_abstract">Abstract</string>
+    <string name="online_precust_abstract">الملخص</string>
     <string name="region_not_support">عذرا، لا تتوفر هذه السمات في منطقتك.</string>
-    <string name="hide_free">"إخفاء مجاني "</string>
+    <string name="hide_free">"إخفاء المجاني "</string>
     <string name="hide_incompatible">"إخفاء الغير متوافق "</string>
     <string name="current_version_incompatible">إصدار غير متوافق</string>
 </resources>

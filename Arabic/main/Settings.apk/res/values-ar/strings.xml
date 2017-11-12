@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">لا يوجد</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -306,7 +308,7 @@
     <string name="suw_back_button_label">رجوع</string>
     <string name="suw_more_button_label">المزيد</string>
     <string name="launcher_title">الشاشة الرئيسية والمستخدمة مؤخراً</string>
-    <string name="defalut_launcher_title">المشغل الافتراضي (Launcher)</string>
+    <string name="defalut_launcher_title">المشغل الافتراضي</string>
     <string name="miui_screen_config_title">إعدادات الشاشة الرئيسية</string>
     <string name="launcher_auto_fill_empty_title">قم بملأ الخانات الفارغة</string>
     <string name="lock_screen_cells_title">تنسيق قفل الشاشة الرئيسية</string>
@@ -679,6 +681,7 @@
     <string name="security_enable_widgets_title">تمكين الأدوات</string>
     <string name="security_enable_widgets_disabled_summary">معطّلة بواسطة المشرف</string>
     <string name="owner_info_settings_summary">لا أحد</string>
+    <string name="owner_info_settings_status">%1$d / %2$d</string>
     <string name="owner_info_settings_edit_text_hint">‏جهاز Android الخاص بهاني مثلاً</string>
     <string name="user_info_settings_title">معلومات المستخدم</string>
     <string name="show_profile_info_on_lockscreen_label">إظهار معلومات الملف الشخصي في شاشة التأمين</string>
@@ -940,6 +943,7 @@
     <string name="wifi_display_options_name">الاسم</string>
     <string name="wifi_band_24ghz">2.4 غيغاهرتز</string>
     <string name="wifi_band_5ghz">۵ غيغاهرتز</string>
+    <string name="link_speed">‏%1$d ميغابت في الثانية</string>
     <string name="nfc_quick_toggle_title">NFC</string>
     <string name="nfc_quick_toggle_summary">السماح بتبادل البيانات عندما يلمس الهاتف جهازًا آخر</string>
     <string name="android_beam_settings_title">Android Beam</string>
@@ -2206,6 +2210,7 @@
     <string name="gadget_title">التحكم في الطاقة</string>
     <string name="gadget_toggle_wifi">تحديث إعدادات Wi-Fi</string>
     <string name="gadget_toggle_bluetooth">تحديث إعداد البلوتوث</string>
+    <string name="gadget_state_template">%1$s %2$s</string>
     <string name="gadget_state_on">تشغيل</string>
     <string name="gadget_state_off">إيقاف</string>
     <string name="gadget_state_turning_on">جارٍ التشغيل…</string>
@@ -2383,6 +2388,7 @@
     <string name="delete">حذف</string>
     <string name="misc_files">ملفات متنوعة</string>
     <string name="misc_files_selected_count">تم تحديد %1$d من إجمالي %2$d</string>
+    <string name="misc_files_selected_count_bytes">%1$s من إجمالي %2$s</string>
     <string name="select_all">تحديد الكل</string>
     <string name="data_usage_summary_title">استخدام البيانات</string>
     <string name="data_usage_app_summary_title">استخدام بيانات التطبيق</string>
@@ -2629,6 +2635,7 @@
     <string name="nfc_payment_no_apps">ادفع بواسطة هاتفك في المتاجر والمحال</string>
     <string name="nfc_payment_default">التطبيق الافتراضي للدفع</string>
     <string name="nfc_payment_default_not_set">لم يتم التعيين</string>
+    <string name="nfc_payment_app_and_desc">%1$s - %2$s</string>
     <string name="nfc_payment_use_default">استخدام الافتراضي</string>
     <string name="nfc_payment_favor_default">دومًا</string>
     <string name="nfc_payment_favor_open">إذا كان هناك تطبيق دفع آخر مفتوحًا</string>
@@ -2689,6 +2696,7 @@
     <string name="regulatory_info_text" />
     <string name="sim_setup_wizard_title">‏بطاقات SIM</string>
     <string name="sim_settings_title">‏بطاقات SIM</string>
+    <string name="sim_settings_summary">%1$s - %2$s</string>
     <string name="sim_cards_changed_message">‏تم تغيير بطاقات SIM</string>
     <string name="sim_cards_changed_message_summary">انقر لتعيين الأنشطة.</string>
     <string name="sim_cellular_data_unavailable">بيانات الجوّال غير متوفرة</string>
@@ -2809,6 +2817,7 @@
     <string name="zen_mode_option_important_interruptions">الأولوية فقط</string>
     <string name="zen_mode_option_alarms">التنبيهات فقط</string>
     <string name="zen_mode_option_no_interruptions">كتم الصوت تمامًا</string>
+    <string name="zen_mode_summary_combination">%1$s: %2$s</string>
     <string name="zen_mode_visual_interruptions_settings_title">حظر الإشعارات المرئية</string>
     <string name="configure_notification_settings">تهيئة الإشعارات</string>
     <string name="advanced_section_header">متقدمة</string>
@@ -2902,6 +2911,7 @@
     <string name="zen_mode_schedule_alarm_title">يمكن للتنبيه أن يحل محل وقت الانتهاء</string>
     <string name="zen_mode_schedule_alarm_summary">التوقف عند وقت الانتهاء أو التنبيه التالي، أيهما أولاً</string>
     <string name="summary_divider_text">"، "</string>
+    <string name="summary_range_symbol_combination">%1$s - %2$s</string>
     <string name="summary_range_verbal_combination">%1$s إلى %2$s</string>
     <string name="zen_mode_calls">المكالمات</string>
     <string name="zen_mode_messages">الرسائل</string>
@@ -3083,6 +3093,8 @@
     <string name="memory_avg_use">المتوسط</string>
     <string name="memory_max_desc">الحد الأقصى: %1$s</string>
     <string name="memory_avg_desc">المتوسط: %1$s</string>
+    <string name="memory_use_running_format">%1$s / %2$s</string>
+    <string name="process_format">%1$s (%2$d)</string>
     <string name="high_power_apps">تحسين البطارية</string>
     <string name="high_power_filter_on">بدون تحسين</string>
     <string name="high_power_on">بدون تحسين</string>
@@ -3359,6 +3371,7 @@
     <string name="dndm_auto_setting_group">مجدول</string>
     <string name="dndm_auto_button_title">تكرار وقت عدم الإزعاج</string>
     <string name="dndm_auto_time_setting">ضبط الوقت</string>
+    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_on">من</string>
     <string name="dndm_auto_time_turn_on_title">تشغيل تلقائي لعدم الإزعاج</string>
     <string name="dndm_auto_time_turn_off">إلى</string>
@@ -3645,7 +3658,7 @@
     <string name="notification_reboot_title_hm">اعادة التشغيل لتطبيق التحديث</string>
     <string name="notification_reboot_summary_hm">انقر لإعادة تشغيل الجهاز.</string>
     <string name="notification_reboot_btn">إعادة التشغيل</string>
-    <string name="miui_updater">المحدث</string>
+    <string name="miui_updater">تحديث النظام</string>
     <string name="giga_hertz">غيغاهرتز</string>
     <string name="reading_data">جار الحصول على المعلومات…</string>
     <string name="available_size">%s متوفر</string>
@@ -3673,7 +3686,7 @@
     <string name="calendar_sound_title">صوت التقويم</string>
     <string name="calendar_sound_dialog_title">اختيار صوت التقويم</string>
     <string name="thememanager_not_found">تعذر فتح السمات. تأكد من تثبيت التطبيق.</string>
-    <string name="ringtone_uniform_setting_title">ضبط SIM المزدوجة</string>
+    <string name="ringtone_uniform_setting_title">ضبط بطاقات SIM المزدوجة</string>
     <string name="ringtone_slot_setting_title">إعدادات SIM الفردية</string>
     <string name="haptic_feedback_level">اهتزاز</string>
     <string name="privacy_protect_title">حماية الخصوصية</string>
@@ -3784,8 +3797,6 @@
     <string name="pref_volume_wake_summary">يؤدي الضغط على أزرار الصوت إلى إيقاظ الجهاز</string>
     <string name="pref_volume_launch_camera_title">تشغيل الكاميرا</string>
     <string name="pref_volume_launch_camera_summary">اضغط على زر خفض الصوت مرتين لتشغيل الكاميرا</string>
-    <string name="suspend_gesture_enabled">قم بتدوير الهاتف لإيقاف الشاشة</string>
-    <string name="palm_enabled">قم بتغطية الشاشة لإيقافها</string>
     <string name="media_button">زر الوسائط</string>
     <string name="preferred_media_app_summary">اختيار مشغل الموسيقى</string>
     <string name="no_media_button_receiver">لا</string>
@@ -4834,6 +4845,7 @@
     <string name="size_giga_byte">غيغابايت</string>
     <string name="size_tera_byte">تيرابايت</string>
     <string name="size_peta_byte">بنتابايت</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="radio_info_asdiv_switch_label">حالة ASDiv:</string>
     <string name="app_factory_reset_dlg_title">إلغاء تثبيت التحديثات؟</string>
     <string name="app_factory_reset_dlg_text">سيتم إلغاء تثبيت جميع التحديثات لتطبيق نظام الأندرويد هذا.</string>
@@ -4846,7 +4858,6 @@
     <string name="reset_second_space_passwd_confirm">متابعة</string>
     <string name="reset_second_space_passwd_cancel">إلغاء</string>
     <string name="backtouch_enable_title">ضبط مستوى الصوت على الجهة الخلفية</string>
-    <string name="edge_touch_volume">ضبط مستوى الصوت على الحواف</string>
     <string name="keywords_bluetooth">بلوتوث;بلوتوث;بلوتوث</string>
     <string name="keywords_airplane">الطائرة;وضع الطائرة;الطائرة;وضع الطائرة;طيران;وضع الطيران</string>
     <string name="keywords_do_not_disturb">DND;وضع DND;عدم الإزعاج;نوم;الليل;مشغول</string>
