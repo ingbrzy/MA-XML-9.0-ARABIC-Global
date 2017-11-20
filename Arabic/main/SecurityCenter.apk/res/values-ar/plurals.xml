@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="fw_blocked_count_call">
-        <item quantity="other">%d مكالمة</item>
-        <item quantity="zero">%d مكالمة</item>
-        <item quantity="one">%d مكالمة</item>
-        <item quantity="two">%d مكالمات</item>
-        <item quantity="few">%d مكالمات</item>
-        <item quantity="many">%d مكالمة</item>
+        <item quantity="other">%1$d مكالمة من %2$s وآخرون</item>
+        <item quantity="zero">%1$d مكالمة من %2$s وآخرين</item>
+        <item quantity="one">%1$d مكالمة من %2$s</item>
+        <item quantity="two">%1$d مكالمات من %2$s وآخرون</item>
+        <item quantity="few">%1$d مكالمات من %2$s وآخرون</item>
+        <item quantity="many">%1$d مكالمة من %2$s وآخرون</item>
     </plurals>
     <plurals name="fw_blocked_count_sms">
         <item quantity="other">%d رسالة</item>

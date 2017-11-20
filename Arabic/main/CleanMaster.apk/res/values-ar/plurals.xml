@@ -124,8 +124,8 @@
         <item quantity="other">تم ايجاد %d فيديو، يمكنك حذف الغير ضروري.</item>
         <item quantity="zero">تم ايجاد %d فيديو، يمكنك حذف الغير ضروري</item>
         <item quantity="one">تم ايجاد %d فيديو، يمكنك حذف الغير ضروري.</item>
-        <item quantity="two">تم ايجاد %d فيديو، يمكنك حذف الغير ضروري.</item>
-        <item quantity="few">تم ايجاد %d فيديو، يمكنك حذف الغير ضروري.</item>
+        <item quantity="two">تم ايجاد %d فيديوهات، يمكنك حذف الغير ضروري</item>
+        <item quantity="few">تم ايجاد %d فيديوهات، يمكنك حذف الغير ضروري</item>
         <item quantity="many">تم ايجاد %d فيديو، يمكنك حذف الغير ضروري</item>
     </plurals>
     <plurals name="deepclean_install_info_desc1">

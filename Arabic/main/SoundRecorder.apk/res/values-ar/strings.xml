@@ -46,7 +46,7 @@
     <string name="rename_duplicate">يوجد بالفعل تسجيل آخر بنفس الاسم.</string>
     <string name="rename_no_more_tip">عدم الإظهار مرة أخرى</string>
     <string name="dialog_title_storage_full">لا توجد مساحة كافية</string>
-    <string name="dialog_content_storage_full">توقف التسجيل حيث لا توجد مساحة كافية متبقية على الذاكرة الداخلية للجهاز.</string>
+    <string name="dialog_content_storage_full">توقف التسجيل بسبب عدم وجود مساحة كافية على الذاكرة الداخلية للجهاز.</string>
     <string name="status_bar_recording">جارٍ التسجيل…</string>
     <string name="status_bar_back">انقر للعودة إلى المسجل</string>
     <string name="status_bar_recording_pause">تم إيقاف المسجل مؤقتاً</string>

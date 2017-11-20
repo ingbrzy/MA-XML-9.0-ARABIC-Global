@@ -287,7 +287,8 @@
     <string name="can_not_switch_when_calling">لا يمكن التبديل بين الواجهات أثناء إجراء مكالمة</string>
     <string name="can_not_delete_when_calling">لا يمكن حذف الواجهات أثناء إجراء مكالمة</string>
     <string name="support_desc">خدمات الحماية مقدمة من طرف Graphite</string>
-    <string name="sdcardfs_dialog_message">قد تكون البيانات القديمة غير متوافقة مع نظام الملفات الجديد. تحسين البيانات قبل دخول الواجهة الثانية وإعادة تشغيل الجهاز.</string>
+    <string name="sdcardfs_dialog_title">تحديث مهم</string>
+    <string name="sdcardfs_dialog_message">لدى MIUI 9 ملف نظام جديد. وقد تكون البيانات القديمة غير متوافقة معه. لحل هذه المشكلة، اتبع الخطوات لتثبيت التحديث. سيتم إعادة تشغيل الجهاز مرتين أثناء هذا التحديث.</string>
     <string name="do_not_ask">لا تسأل مجدداً</string>
     <string name="gpg_message">يحتاج إنشاء تطبيقات مزدوجة إلى ألعاب متجر Play. إنشاء تطبيق مزدوج لألعاب متجر play؟</string>
     <string name="gpg_title">التطبيق المزدوج لألعاب متجر Play</string>
@@ -316,4 +317,13 @@
     <string name="privacy_password_fingerprint_dialog_message">ضع إصبعك على المستشعر</string>
     <string name="optimize_now">تحسين</string>
     <string name="dialog_title">تنبيه</string>
+    <string name="remove_user_click_message">* إذا لم يكن لديك أي عناصر مهمة في الواجهة الثانية، %s</string>
+    <string name="remove_user_click_message_action">يمكنك حذف الواجهة الثانية وإعادة تشغيل الجهاز الآن.</string>
+    <string name="sdcradfs_dialog_in_owner_title">الواجهة الثانية</string>
+    <string name="sdcradfs_dialog_in_owner_message">"لدى MIUI 9 ملف نظام جديد. وقد تكون البيانات القديمة غير متوافقة معه. للتحديث، قم بنقل العناصر من الواجهة الثانية، وإعادة تشغيل الجهاز ومن ثم إنشاء الواجهة الثانية مرة أخرى.
+إذا لم تقم بالتحديث، فقد لا تعمل التطبيقات المزدوجة بشكل صحيح."</string>
+    <string name="sdcradfs_dialog_in_sec_title">تحديث مهم</string>
+    <string name="sdcradfs_dialog_in_sec_message">"للتحديث، يجب عليك حذف الواجهة الثانية وإنشاءها مرة أخرى. قم بنقل البيانات من الواجهة الثانية إلى الواجهة الأولى ومن ثم إعد تشغيل الجهاز لإكمال التحديث.
+إذا لم تقم بالتحديث، فقد لا تعمل التطبيقات المزدوجة بشكل صحيح."</string>
+    <string name="space_created_success">تم إنشاء الواجهة الثانية بنجاح</string>
 </resources>

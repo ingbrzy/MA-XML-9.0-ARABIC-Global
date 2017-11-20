@@ -39,7 +39,7 @@
     <string name="onscreen_add_call_text">إضافة مكالمة</string>
     <string name="onscreen_audio_mode_bluetooth">بلوتوث</string>
     <string name="onscreen_audio_mode_conference">جماعية</string>
-    <string name="onscreen_audio_mode_handset">بدون استخدام الأيدي</string>
+    <string name="onscreen_audio_mode_handset">سماعة الأذن</string>
     <string name="onscreen_audio_mode_headset">سماعة الرأس</string>
     <string name="onscreen_audio_mode_speaker">مكبر الصوت</string>
     <string name="onscreen_audio_switch_mode">تبديل الصوت</string>

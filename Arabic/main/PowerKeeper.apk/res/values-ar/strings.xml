@@ -122,9 +122,9 @@
     <string name="config_scenario_policies_title">مشاهد</string>
     <string name="scenario_policies_summary">تطبيق استراتيجيات توفير الطاقة المختلفة لمشاهد مختلفة.</string>
     <string name="sleep_config_enhance_title">وضع النوم</string>
-    <string name="sleep_config_enhance_description">كلما قام MIUI بالكشف على أنك نائم، فإنه سيتم إغلاق تطبيقات الخلفية، وتقييد NFC، والبلوتوث، وGPS، وبيانات الجوال واستخدام الـ Wi-Fi، ولن تضيء الشاشة للإشعارات.</string>
-    <string name="nonui_mode_config_title">وضع الغير تفاعلي</string>
-    <string name="nonui_mode_config_description">لا تقم بإضاءة الشاشة للاشعارات، إيقاف ضوء الإشعار، بصمات الأصبع، ولمس التحكم عندما يكون الجهاز في الجيب.</string>
+    <string name="sleep_config_enhance_description">كلما اكتشف MIUI أنك نائم، فإنه سيغلق التطبيقات الخلفية ويقييد إستخدام NFC، البلوتوث، GPS، بيانات الجوال و Wi-Fi، ولن تضيء الشاشة للإشعارات.</string>
+    <string name="nonui_mode_config_title">الوضع الغير تفاعلي</string>
+    <string name="nonui_mode_config_description">لا تضىء الشاشة للإشعارات، قم بإيقاف ضوء LED، مستشعر بصمة الاصبع، وعناصر التحكم باللمس لحفظ البطارية عند اكتشاف MIUI أنك لا تستخدم جهازك.</string>
     <string name="scenario_policies_warmcontrol">التحكم في درجة الحرارة</string>
     <string name="warm_configure">إعدادات التحكم في درجة الحرارة</string>
     <string name="important_warning">تنبيه</string>
@@ -200,6 +200,6 @@
     <string name="failure">فشل</string>
     <string name="cloud_addr_info">معلومات Cloud</string>
     <string name="lasttime_feature_cloud">الميزات المحدثة:</string>
-    <string name="lasttime_applist_cloud">قائمة التطبيقات المحدثة:</string>
+    <string name="lasttime_applist_cloud">التطبيقات المحدثة:</string>
     <string name="base_info">معلومات أساسية</string>
 </resources>

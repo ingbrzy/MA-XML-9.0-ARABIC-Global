@@ -8,9 +8,9 @@
     <string name="cancel_action">إلغاء</string>
     <string name="bad_wallpaper_source_prompt">لا يمكن تحميل الخلفية</string>
     <string name="apply_action">تعيين</string>
-    <string name="download_action">تحميل</string>
-    <string name="lock_screen_failed_message">لا يمكن تعيين خلفية الشاشة في شاشة القفل</string>
-    <string name="lock_screen_success_message">تطبيق لشاشة القفل</string>
+    <string name="download_action">تنزيل</string>
+    <string name="lock_screen_failed_message">لا يمكن تعيين الخلفية في شاشة القفل</string>
+    <string name="lock_screen_success_message">تم التعيين في شاشة القفل</string>
     <string name="wallpaper_failed_message">لا يمكن تعيين الخلفية</string>
     <string name="launcher_not_exist">حدث خطأ ما، عد إلى الشاشة الرئيسية ثم حاول مرة أخرى.</string>
     <string name="image_too_small_message">الصورة الأصلية ليست كبيرة بما فيه الكفاية</string>
@@ -71,9 +71,9 @@
     <string name="uninstall_dialog_message">إلغاء التثبيت سيزيل كل بيانات التطبيق.</string>
     <string name="uninstall_dialog_title_format">إلغاء تثبيت %s؟</string>
     <string name="uninstall_xspace_dialog_title_format">إلغاء التثبيت المزدوج \"%s\"؟</string>
-    <string name="uninstall_xspace_dialog_message">إلغاء تثبيت التطبيقات المزدوجة سيزيل كل بيانات التطبيق.</string>
+    <string name="uninstall_xspace_dialog_message">سيزيل إلغاء تثبيت التطبيقات المزدوجة كل بيانات التطبيق.</string>
     <string name="uninstall_with_xspace_dialog_message">ستتم إزالة التطبيقات المزدوجة المتشابهة جنبا إلى جنب مع بيانات التطبيق.</string>
-    <string name="confirm_uninstall_dialog_title">ستتم إزالة التطبيقات المزدوجة المتشابهة.</string>
+    <string name="confirm_uninstall_dialog_title">لن يتم تثبيت التطبيقات المزدوجة</string>
     <string name="confirm_uninstall_dialog_has_xspace_app_msg">سيتم إلغاء تثبيت التطبيقات المزدوجة معاً مع هذا.</string>
     <string name="confirm_uninstall_dialog_contain_xspace_app_msg">سيتم إلغاء تثبيت التطبيقات المزدوجة معاً مع هذه.</string>
     <string name="uninstall">إلغاء التثبيت</string>

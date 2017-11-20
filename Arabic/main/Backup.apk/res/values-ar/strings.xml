@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"تقديم حجم النسخة: %1$s
 حجم تحديث دلتا: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">التخزين غير متاح، تحقق من بطاقة الذاكرة SD الخاصة بك.</string>
+    <string name="xiaomi_bytes_unit">%1$sبايت</string>
+    <string name="xiaomi_kilobytes_unit">%1$sكيلوبايت</string>
+    <string name="xiaomi_megabytes_unit">%1$sميغابايت</string>
     <string name="xiaomi_connect_download_manager_fail">تعذر بداية التنزيل. كن متاكدا من أن مدير التنزيلات يعمل بصفة طبيعية.</string>
     <string name="app_name">نسخة احتياطية</string>
     <string name="local_app_name">النسخ الاحتياطي</string>
@@ -56,7 +59,7 @@
     <string name="backup_delete">حذف:</string>
     <string name="findlost_contact">استرداد جهات الاتصال</string>
     <string name="findlost_contact_online">استرداد جهات الاتصال من Mi Cloud</string>
-    <string name="cloud_backup_login">تسجيل الدخول إلى حساب Mi</string>
+    <string name="cloud_backup_login">تسجيل الدخول لحساب Mi</string>
     <string name="cloud_backup_hint">للوصول إلى النُسخ الاحتياطية، سجل الدخول الآن</string>
     <string name="cloud_backup_window_title">نسخ Mi Cloud الإحتياطي</string>
     <string name="cloud_restore_window_title">استعادة Mi Cloud</string>
@@ -93,7 +96,7 @@
     <string name="task_stopped_exception">تم إلغاء الاستعادة</string>
     <string name="sdcard_no_enough_space">لا توجد مساحة كافية</string>
     <string name="sdcard_no_enough_space_message">لا توجد مساحة تخزين كافية على بطاقة الذاكرة SD.</string>
-    <string name="data_no_enough_space_message">لا توجد مساحة كافية على الذاكرة الداخلية للجهاز.</string>
+    <string name="data_no_enough_space_message">ليس هناك مساحة تخزين كافية على جهازك.</string>
     <string name="task_running_hint">هذه العملية قيد التشغيل بالفعل في الخلفية</string>
     <string name="task_running_dialog">النسخ الاحتياطي والاستعادة قيد التشغيل. المس موافق للعرض.</string>
     <string name="task_running_backup_hint">هذه المهمة قيد التشغيل بالفعل في الخلفية</string>
@@ -225,6 +228,7 @@
     <string name="restore_backup">إستعادة</string>
     <string name="enable_encrypt_description">مشفر</string>
     <string name="disable_encrypt_description">غير مشفر</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">لحظة من فضلك…</string>
     <string name="state_mounting">الوصول إلى تخزين جهاز التوجيه…</string>
     <string name="abort_backup_confirm">لم يتم الانتهاء من النسخ الاحتياطي. التوقف على أية حال؟</string>
@@ -402,83 +406,84 @@
     <string name="close_twice_auth_tutor">إيقاف المصادقة ذات العاملين لـ Apple ID</string>
     <string name="close_twice_auth_steps">اتبع الخطوات التالية لإيقاف المصادقة ذات العاملين لـ Apple ID:</string>
     <string name="close_twice_auth_step_1">١. افتح أي متصفح ويب على أي جهاز كمبيوتر واذهب إلى appleid.apple.com.</string>
-    <string name="close_twice_auth_step_2">2. Sign in to the Apple ID you want to disable two factor authentication for, go to the \"Security\" section of account settings and choose \"Edit\"</string>
-    <string name="close_twice_auth_step_3">3. Click \"Turn Off Two-Factor Authentication\". Click again to confirm.</string>
-    <string name="close_twice_auth_note">"Note:
-After creating a new security question and confirming your date of birth, your Apple ID two-factor authentication will be turned off. If you don't see the option to turn off two-factor authentication on the Apple ID account page, you can't turn it off."</string>
-    <string name="close_twice_auth_btn">Turn off two-factor authentication</string>
+    <string name="close_twice_auth_step_2">٢. قم بتسجيل الدخول إلى Apple ID الذي ترغب فيه تعطيل المصادقة ذات العاملين، ثم انتقل إلى قسم \"الحماية\" في إعدادات الحساب و اختر \"تعديل\".</string>
+    <string name="close_twice_auth_step_3">٣. اضغط على \"إيقاف المصادقة ذات العاملين\". انقر مرة أخرى للتأكيد.</string>
+    <string name="close_twice_auth_note">"ملاحظة:
+بعد إنشاء سؤال أمان جديد وتأكيد تاريخ ميلادك، سيتم إيقاف عمل \"التحقق بخطوتين\" لـ Apple ID الخاص بك. إذا لم يظهر لك خيار إيقاف \"التحقق بخطوتين\" على صفحة حساب Apple ID، فلا يمكنك إيقاف تشغيله."</string>
+    <string name="close_twice_auth_btn">إيقاف المصادقة ذات العاملين</string>
     <string name="close_twice_auth_operation">"URL:
-https://appleid.apple.com/#!&amp;page=signin to close"</string>
+https://appleid.apple.com/#!&amp;page=signin لإيقاف المصادقة ذات العاملين"</string>
     <string name="platform_chooser_title">اختيار جهاز قديم</string>
-    <string name="platform_chooser_item_ios">Import from an iOS device</string>
-    <string name="platform_chooser_item_android">Import from an Android device</string>
-    <string name="icloud_need_wifi_title">Connect to Wi-Fi</string>
-    <string name="icloud_need_wifi_message">"You aren't connected to Wi-Fi now. To import data from iCloud, connect to Wi-Fi."</string>
-    <string name="icloud_login_title">Sign in to iCloud</string>
-    <string name="icloud_backup_tip">Sign in to the iCloud account of your old iOS device</string>
+    <string name="platform_chooser_item_ios">استيراد من جهاز iOS</string>
+    <string name="platform_chooser_item_android">استيراد من جهاز اندرويد</string>
+    <string name="icloud_need_wifi_title">الإتصال بشبكة Wi-Fi</string>
+    <string name="icloud_need_wifi_message">انت غير متصل بشبكة Wi-Fi الآن. لاستيراد البيانات من iCloud، اتصل بشبكة Wi-Fi.</string>
+    <string name="icloud_login_title">تسجيل الدخول إلى iCloud</string>
+    <string name="icloud_backup_tip">تسجيل الدخول إلى حساب iCloud من جهاز iOS القديم</string>
     <string name="icloud_how_to_backup_tip_title">نصائح:</string>
-    <string name="icloud_how_to_backup_tip_summary">To import data from iOS, you must create an iCloud backup.</string>
-    <string name="icloud_how_to_backup_tip_steps">"1. Open Settings on your iOS device, and select iCloud.
-2. Toggle the switch for Contacts.
-3.Select Photos and toggle the switch for iCloud Photo Library."</string>
+    <string name="icloud_how_to_backup_tip_summary">لاستيراد البيانات من iOS، يجب عليك إنشاء نسخ iCloud احتياطي.</string>
+    <string name="icloud_how_to_backup_tip_steps">"١. افتح الإعدادات في جهاز iOS، ثم حدد iCloud.
+٢. ٢. قم بتبديل المفتاح لجهات الاتصال.
+٣. حدد صور وبدل المفتاح لمكتبة صور iCloud."</string>
     <string name="user_name">Apple ID أو البريد الإلكتروني</string>
-    <string name="password">Password</string>
-    <string name="user_name_null">"Username can't be empty"</string>
-    <string name="password_null">"Password can't be empty"</string>
-    <string name="name_password_not_consistent">Username or password is wrong</string>
-    <string name="login">Sign in</string>
-    <string name="logining">Signing in…</string>
-    <string name="login_failed">"Couldn't sign in. Try again."</string>
-    <string name="connect_wifi_tip">"Couldn't connect to the network. Connect to Wi-Fi to import items from iCloud."</string>
-    <string name="connect_wifi">Connect to Wi-Fi</string>
-    <string name="notif_icloud_logining">Signing in to iCloud on the old iOS device…</string>
+    <string name="password">كلمة المرور</string>
+    <string name="user_name_null">اسم المستخدم لا يمكن ان يكون فارغ</string>
+    <string name="password_null">لا يمكن أن تكون كلمة المرور فارغة</string>
+    <string name="name_password_not_consistent">اسم المستخدم او كلمة المرور غير صحيحة</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="logining">جارٍ تسجيل الدخول…</string>
+    <string name="login_failed">تعذر تسجيل الدخول، حاول مجددا.</string>
+    <string name="connect_wifi_tip">تعذر الاتصال بالشبكة. اتصل بشبكة Wi-Fi للاستيراد من iCloud.</string>
+    <string name="connect_wifi">الإتصال بشبكة Wi-Fi</string>
+    <string name="notif_icloud_logining">جارٍ تسجيل الدخول إلى iCloud في جهاز iOS القديم…</string>
     <string name="notif_icloud_loading_summary">جارٍ تحميل البيانات…</string>
     <string name="notif_icloud_import_title">استيراد البيانات من iCloud</string>
-    <string name="notif_icloud_loaded_summary">Waiting…</string>
+    <string name="notif_icloud_loaded_summary">جارٍ الانتظار…</string>
     <string name="notif_icloud_canceling_summary">جارٍ الإلغاء…</string>
     <string name="notif_icloud_canceled_summary">تم الإلغاء</string>
-    <string name="notif_icloud_saved_summary">Imported successfully</string>
-    <string name="notif_icloud_need_wifi_summary">Waiting for Wi-Fi</string>
+    <string name="notif_icloud_saved_summary">تم الاستيراد بنجاح</string>
+    <string name="notif_icloud_need_wifi_summary">في انتظار شبكة Wi-Fi</string>
     <string name="hsa_title">المصادقة ذات العاملين</string>
-    <string name="hsa_input_tip">Your Apple ID uses two-factor authentication. Enter verification code.</string>
+    <string name="hsa_input_tip">يتيح لك Apple ID الخاص بك إمكانية تفعيل المصادقة ذات العاملين. أدخل رمز التحقق.</string>
     <string name="hsa_input_hint">أدخل رمز التحقق</string>
-    <string name="hsa_code_null">"Verification code can't be empty"</string>
+    <string name="hsa_code_null">رمز التحقق لا يمكن أن يكون فارغاً</string>
     <string name="hsa_send_again">ارسال مرة أخرى</string>
-    <string name="hsa_send_again_countdown">Send again (%ds)</string>
+    <string name="hsa_send_again_countdown">ارسال مرة أخرى(%dث)</string>
     <string name="hsa_sending">جار الإرسال…</string>
-    <string name="hsa_send_failed">"Couldn't send verification code. Waot a minute or two and try again."</string>
+    <string name="hsa_send_failed">تعذر إرسال رمز التحقق. انتظر دقيقة أو دقيقتين ثم حاول مجددا.</string>
     <string name="hsa_tip_title">نصائح:</string>
-    <string name="hsa_tip_message">"1. A message with the verification code has been sent to the device associated with your Apple ID.
-2. Turn off two-factor authentication if the verification code doesn't work."</string>
-    <string name="hsa_tip_message_with_device">"1. A message with the verification code has been sent to \"%s\" associated with your Apple ID.
-2. Turn off two-factor authentication if the verification code doesn't work."</string>
-    <string name="hsa_tip_message_shutdown_hsa">How to turn off two-factor authentication</string>
+    <string name="hsa_tip_message">"١. تم ارسال رسالة رمز تحقق إلى الجهاز المرتبط بـ Apple ID الخاصة بك.
+٢. قم بإيقاف المصادقة ذات العاملين اذا لم يعمل رمز التحقق."</string>
+    <string name="hsa_tip_message_with_device">"١. تم ارسال رسالة رمز تحقق إلى \"%s\" المرتبط بـ Apple ID الخاصة بك.
+٢. قم بإيقاف المصادقة ذات العاملين اذا لم يعمل رمز التحقق."</string>
+    <string name="hsa_tip_message_shutdown_hsa">كيفية إيقاف المصادقة ذات العاملين</string>
     <string name="hsa_verify_failed">فشلت المصادقة ذات العاملين</string>
     <string name="hsa_verify_failed_message">فشلت المصادقة ذات العاملين. يمكنك إعادة المحاولة أو إيقاف تشغيل المصادقة ذات العاملين.</string>
-    <string name="hsa_verify_retry">Try again</string>
+    <string name="hsa_verify_retry">إعادة المحاولة</string>
     <string name="hsa_verify_shutdown">إيقاف</string>
     <string name="import_data_from_icloud">استيراد البيانات من iCloud</string>
     <string name="loading_data">تحميل البيانات</string>
-    <string name="icloud_need_sync">"To import data from iOS,
-you should create an iCloud backup first."</string>
+    <string name="icloud_need_sync">"لاستيراد البيانات من iOS،
+يجب عليك إنشاء نسخ iCloud احتياطي أولا."</string>
     <string name="import_tip_title">نصائح:</string>
-    <string name="import_tip_summary">Due to compatibility issues, you can only transfer contacts and photos from iOS devices. Make sure you create an iCloud backup before starting the transfer.</string>
+    <string name="import_tip_summary">بسبب مشاكل في التوافق، يمكنك فقط نقل جهات الاتصال و الصور من أجهزة iOS. يجب عليك إنشاء نسخ iCloud احتياطي قبل بدأ النقل.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">استيراد</string>
     <string name="select_empty">قم بتحديد عناصر للاستيراد</string>
-    <string name="select_item_summary_wait">Waiting…</string>
+    <string name="select_item_summary_wait">جارٍ الانتظار…</string>
     <string name="select_item_summary_loading">جارٍ تحميل البيانات…</string>
     <string name="select_item_contacts">جهات الاتصال</string>
     <string name="select_item_photos">الصور</string>
-    <string name="select_item_empty_summary">No items</string>
+    <string name="select_item_empty_summary">لا توجد عناصر</string>
     <string name="cancel_moving_dialog_title">إيقاف الاستيراد</string>
-    <string name="cancel_moving_dialog_message">Stop importing now?</string>
+    <string name="cancel_moving_dialog_message">إيقاف الاستيراد الآن؟</string>
     <string name="notif_icloud_saving_summary">جارٍ استعادة البيانات…</string>
-    <string name="saving_data">"Importing data from iCloud…
-Don't turn off Wi-Fi"</string>
-    <string name="saving_data_no_time">Restoring data…</string>
-    <string name="saving_data_space_low">"Not enough storage space.
-Free up at least %s."</string>
-    <string name="save_finish_with_failing_items">"Transfer was interrupted.
-The data which wasn't imported must be imported again."</string>
+    <string name="saving_data">"جارٍ استرداد البيانات من iCloud…
+لا تقم بإيقاف تشغيل Wi-Fi"</string>
+    <string name="saving_data_no_time">جارٍ استعادة البيانات…</string>
+    <string name="saving_data_space_low">"لا توجد مساحة تخزين كافية.
+ قم بتفريغ %s على الأقل."</string>
+    <string name="save_finish_with_failing_items">"انقطع النقل.
+ يجب استيراد البيانات التي لم يتم استيرادها مرة أخرى."</string>
     <string name="import_again">الاستيراد مرة أخرى</string>
 </resources>

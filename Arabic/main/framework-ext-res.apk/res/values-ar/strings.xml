@@ -38,6 +38,7 @@
     <string name="translation_query_error">تعذر إيجاد نتائج</string>
     <string name="translation_query_error_network">لا يمكن الحصول على معلومات، تحقق من اتصال الشبكة وحاول مرة أخرى</string>
     <string name="translation_more">المزيد</string>
+    <string name="autofill">التدوين الآلي</string>
     <string name="auto_start_warning_title">السماح لـ %s بالبدء تلقائياً؟</string>
     <string name="auto_start_warning_allow">السماح</string>
     <string name="auto_start_warning_deny">رفض</string>
@@ -68,7 +69,7 @@
     <string name="reboot_progress">جار إعادة التشغيل…</string>
     <string name="screen_on_proximity_sensor_title">وضع الجيب</string>
     <string name="screen_on_proximity_sensor_summary">لا تقم بتغطية منطقة سماعة الأذن</string>
-    <string name="screen_on_proximity_sensor_hint">لإيقاف تشغيل هذه الميزة, إضغط على زر رفع الصوت وزر الرجوع معاً.</string>
+    <string name="screen_on_proximity_sensor_hint">لإيقاف تشغيل هذه الميزة، إضغط على زر رفع مستوى الصوت و زر الرجوع معاً.</string>
     <string name="screen_on_proximity_sensor_hint_has_navigation_bar">لإيقاف تشغيل هذه الميزة، اضغط على زر رفع مستوى الصوت.</string>
     <string name="screen_button_notification_title">تم إيقاف تشغيل أزرار التنقل</string>
     <string name="screen_button_notification_text">لتشغيلها، اضغط على زري الصفحة الرئيسية والطاقة في وقت واحد.</string>

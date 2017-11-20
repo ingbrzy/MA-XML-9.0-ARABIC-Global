@@ -279,7 +279,7 @@
     <string name="wallpaper_decoded_error">لا يمكن تحميل خلفية الشاشة</string>
     <string name="close">إغلاق</string>
     <string name="download_success">اكتمل التنزيل</string>
-    <string name="account_info">أنا</string>
+    <string name="account_info">حسابي الخاص</string>
     <string name="account_name_not_login">تسجيل الدخول</string>
     <string name="favorite_list">المفضلة</string>
     <string name="favorite_list_format">المفضلة %1$s</string>
@@ -298,6 +298,7 @@
     <string name="theme_batch_update_dlg_content_single">تحديث %1$s الآن؟</string>
     <string name="theme_current_using_has_update">تحديث السمة متاح</string>
     <string name="theme_immediately_apply_tip">تعيين تحديث السمة الآن؟</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_fresh_man_notifaction">سمات جديدة متاحة</string>
     <string name="selected_resource_file_invalid">الملف المحدد غير صالح</string>
     <string name="apply_theme_with_ringtones">استخدام نغمات رنين السمة</string>
@@ -358,8 +359,8 @@
     <string name="gift_received_list_empty">لم تستلم أية هدايا.</string>
     <string name="gift_received_notification_title">أعطاك %s سمة.</string>
     <string name="present_online_themes">احصل على المزيد من السمات عبر الانترنت</string>
-    <string name="present_local_themes">مصادر سماتي</string>
-    <string name="present_official_themes">الاختيار الرسمي</string>
+    <string name="present_local_themes">السيمات الخاصة بي</string>
+    <string name="present_official_themes">نصائحنا</string>
     <string name="find_more_theme">اعثر على المزيد</string>
     <string name="lockscreen_magazine_title">خلفية كاروسيل</string>
     <string name="lockscreen_magazine_summary">الفئات</string>
@@ -461,8 +462,8 @@
     <string name="online_precust_building">مبنى</string>
     <string name="online_precust_lifestyle">نمط الحياة</string>
     <string name="online_precust_abstract">الملخص</string>
-    <string name="region_not_support">عذرا، لا تتوفر هذه السمات في منطقتك.</string>
-    <string name="hide_free">"إخفاء المجاني "</string>
-    <string name="hide_incompatible">"إخفاء الغير متوافق "</string>
-    <string name="current_version_incompatible">إصدار غير متوافق</string>
+    <string name="region_not_support">لا تتوفر السيمات في منطقتك.</string>
+    <string name="hide_free">إخفاء السيمات المجانية</string>
+    <string name="hide_incompatible">إخفاء السيمات الغير متوافقة</string>
+    <string name="current_version_incompatible">السيمات غير متوافقة</string>
 </resources>

@@ -68,7 +68,7 @@
     <string name="HIPS_Perm_use_sip">خدمات الفيديو</string>
     <string name="HIPS_Perm_use_sip_Desc">استخدام بروتوكول بدء الدورة (SIP) لتدفق الفيديو</string>
     <string name="HIPS_Perm_process_outgoing_calls">الوصول الى تطبيق الهاتف</string>
-    <string name="HIPS_Perm_process_outgoing_calls_Desc">مراقبة و انهاء المكالمات</string>
+    <string name="HIPS_Perm_process_outgoing_calls_Desc">الرد، مراقبة، و إنهاء المكالمة</string>
     <string name="HIPS_Perm_process_nfc">NFC</string>
     <string name="HIPS_Perm_process_nfc_Desc">الوصول إلى الأجهزة قرب حقل الاتصالات (NFC)</string>
     <string name="HIPS_Perm_install_shortcut">إختصارات الشاشة الرئيسية</string>
@@ -90,16 +90,16 @@
     <string name="permission_group_title_media_related">الوسائط المتعددة</string>
     <string name="permission_group_title_settings_related">الإعدادات</string>
     <string name="ok">موافق</string>
-    <string name="default_permission_description">إجراء نشاط غير معروف</string>
+    <string name="default_permission_description">تنفيذ إجراءات غير معروفة</string>
     <string name="location_settings">إعدادات الموقع</string>
     <string name="location_warning">%1$s هو مزود خدمات الموقع لهذا الجهاز. يمكن تعديل \"الوصول للموقع\" من إعدادات الموقع.</string>
-    <string name="permission_warning_template">السماح لـ%1$s بـ%2$s ؟</string>
-    <string name="permission_warning_template_ask">السماح لـ %1$s بالأذونات التالية؟</string>
+    <string name="permission_warning_template">السماح ل%1$s ب%2$s؟</string>
+    <string name="permission_warning_template_ask">السماح ل%1$s الأذونات التالية؟</string>
     <string name="screen_overlay_title">تم الكشف عن تراكب الشاشة</string>
-    <string name="screen_overlay_message">لتغيير إعدادات الأذونات, يجب ان تقوم بايقاف تشغيل تراكب الشاشة من إعدادات>التطبيق</string>
+    <string name="screen_overlay_message">لتغيير هذا الإذن، يجب عليك إيقاف تشغيل تراكب الشاشة من الإعدادات>التطبيقات.</string>
     <string name="screen_overlay_button">فتح الإعدادات</string>
     <string name="grant_dialog_button_allow">السماح</string>
     <string name="grant_dialog_button_deny">رفض</string>
     <string name="current_permission_template">%1$s من %2$s</string>
-    <string name="never_ask_again">لا تسأل مجددا</string>
+    <string name="never_ask_again">لا تسأل مجدداً</string>
 </resources>

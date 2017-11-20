@@ -125,6 +125,7 @@
     <string name="delete_wild_sims_title">حذف الأرقام المحددة</string>
     <string name="delivery_report_activity">تقرير التسليم</string>
     <string name="delivery_toast_body">تم استلام الرسالة بواسطة %s</string>
+    <string name="dialog_message_sms_report">سيتم رفع الرسائل المزعجة و معلومات المرسل إلى MIUI عند إبلاغك عنها. سيتم استخدامها فقط لتحسين مرشحات البريد المزعج لـ MIUI.</string>
     <string name="disable_notifications_dialog_message">هل تريد إيقاف إشعارات الرسالة النصية المتكررة من تطبيق الرسائل الإفتراضي؟</string>
     <string name="disabled">متوقّف</string>
     <string name="discard">تجاهل</string>
@@ -178,6 +179,7 @@
     <string name="file_size">الحجم:</string>
     <string name="file_title">الإسم:</string>
     <string name="file_width_height">الحجم:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">رسالة جديدة</string>
     <string name="forward_from">إعادة توجيه من:</string>
     <string name="forward_prefix">"إعادة توجيه: "</string>
@@ -302,8 +304,8 @@
     <string name="mx_activate_status_desc_wait_for_sms_fail">تعذر تفعيل رسالة Mi</string>
     <string name="mx_auto_resend_mms">إرسال كرسالة وسائط متعددة(MMS)</string>
     <string name="mx_auto_resend_mms_summary">إرسال رسائل الوسائط المتعددة كرسالة MMS عبر بيأنات الهاتف المحمول عندما تكون غير متصلاً بشبكة Wi-Fi. سوف تتحمل الرسوم العادية من شركة الإتصالات الخاصة بك.</string>
-    <string name="mx_auto_resend_sms">إرسال كرسالة رسالة قصيرة(SMS)</string>
-    <string name="mx_auto_resend_sms_summary">إرسال الرسائل كرسائل نصية قصيرة(SMS) عبر بيأنات الهاتف المحمول عندما تكون غير متصلاً بشبكة Wi-Fi. سوف تتحمل رسوم عادية من شركة الإتصالات الخاصة بك.</string>
+    <string name="mx_auto_resend_sms">إرسال كرسالة قصيرة</string>
+    <string name="mx_auto_resend_sms_summary">إرسال الرسائل كرسائل نصية قصيرة عبر بيأنات الهاتف المحمول عندما تكون غير متصلاً بشبكة Wi-Fi. سوف تتحمل رسوم عادية من شركة الإتصالات الخاصة بك.</string>
     <string name="mx_btn_enable">تفعيل</string>
     <string name="mx_btn_enable_now">تفعيل</string>
     <string name="mx_count_dspt">لقد قمت بارسال %1$d رسائل نصية (SMS) و %2$d رسائل الوسائط المتعددة (MMS) مجانا</string>
@@ -374,7 +376,7 @@
     <string name="pref_hide_verification_code_summary">إخفاء \"كلمات المرور لمرة واحدة\" تلقائيا في إشعارات الرسائل على تأمين شاشة القفل</string>
     <string name="pref_messages_to_save">تعيين عدد الرسائل المراد حفظها</string>
     <string name="pref_mms_settings_title">(MMS) رسائل الوسائط</string>
-    <string name="pref_msg_trash_bin_title">الرسائل المحذوفة مؤخراً</string>
+    <string name="pref_msg_trash_bin_title">مهملات الرسائل</string>
     <string name="pref_notification_settings_title">الإشعارات</string>
     <string name="pref_other_title">إعدادات إضافية</string>
     <string name="pref_show_blocked_messages_summary">إظهار رسائل الـ SMS المحظورة في قائمة المحادثات</string>
@@ -387,6 +389,7 @@
     <string name="pref_sms_storage_title">التخزبن</string>
     <string name="pref_sms_theme_title">عرض</string>
     <string name="pref_summary_allow_si_sl_push">السماح للرسائل بتحميل المحتوى من مواقع الويب</string>
+    <string name="pref_summary_allow_upload_message_info">سيتم رفع الرسائل المزعجة و معلومات المرسل إلى MIUI عند إبلاغك عنها.</string>
     <string name="pref_summary_auto_delete">حذف الرسائل القديمة عند الوصول إلى الحد الأقصى</string>
     <string name="pref_summary_delete_limit">%1$sمن الرسائل لكل محادثة</string>
     <string name="pref_summary_delivery_reports">عرض تقارير التسليم لجميع الرسائل المرسلة</string>
@@ -404,6 +407,7 @@
     <string name="pref_system_title">النظام</string>
     <string name="pref_title_about_smart_sms">معلومات عن شريك الرسائل الذكية</string>
     <string name="pref_title_allow_si_sl_push">السماح برسائل WAP push (SI/SL)</string>
+    <string name="pref_title_allow_upload_message_info">تحميل الرسائل المزعجة</string>
     <string name="pref_title_auto_delete">حذف الرسائل القديمة</string>
     <string name="pref_title_card_format">مشاركة شكل البطاقة</string>
     <string name="pref_title_delivery_reports">حالة التسليم</string>
@@ -525,6 +529,7 @@
     <string name="send_signature_confirm_dialog_title">إرسال الرسالة</string>
     <string name="send_sms">إرسال رسالة</string>
     <string name="send_to">إلى:</string>
+    <string name="send_to_index_contact">%1$s2$s</string>
     <string name="sent_at_time">تم الارسال في: %1s</string>
     <string name="sent_label">"مرسلة: "</string>
     <string name="service_message_not_found">انتهت صلاحية الرسالة أو غير متوفرة</string>
@@ -556,6 +561,7 @@
     <string name="sms_full_title">ذاكرة الرسائل القصيرة ممتلئة</string>
     <string name="sms_rejected_body">تم رفض رسالة نصية واردة.</string>
     <string name="sms_rejected_title">تم رفض الرسالة النصية</string>
+    <string name="sms_report">الإبلاغ عن الرسائل المزعجة</string>
     <string name="sms_report_dialog_content">تعذر إرسال التقرير، حاول مرة أخرى.</string>
     <string name="sms_report_dialog_retry">حاول مجددا</string>
     <string name="sms_report_dialog_title">حاول مجددا</string>
@@ -585,7 +591,7 @@
     <string name="storage_dialog_database">قاعدة البيأنات:</string>
     <string name="storage_dialog_mms">رسائل الوسائط المتعددة: %d</string>
     <string name="storage_dialog_mms_size">حجم رسائل الوسائط المتعددة(MMS):</string>
-    <string name="storage_dialog_sms">الرسائل النصيىة القصيرة: %d</string>
+    <string name="storage_dialog_sms">الرسائل النصية القصيرة: %d</string>
     <string name="storage_limits_activity">حدود السعة التخزينية</string>
     <string name="storage_limits_message">هل تريد تحديد عدد الرسائل التي تقوم بحفظها لكل محادثة؟</string>
     <string name="storage_limits_setting">تعيين حدود</string>
@@ -605,7 +611,7 @@
     <string name="title_show_blocked_messages">إظهار الرسائل المحظورة</string>
     <string name="title_show_list_avatar">إظهار صور الملف الشخصي</string>
     <string name="title_show_photo_word">تعيين صورة لجهة الاتصال</string>
-    <string name="title_show_sms_template">فحص رسالة SMS للتعرف على رموز التحقق</string>
+    <string name="title_show_sms_template">تحقق من الرسالة القصيرة للتعرف على رموز التحقق</string>
     <string name="title_show_sms_template_in">فحص رسالة SMS للتحقق من الـ OTP</string>
     <string name="title_timed_message_dialog">تعيين رسالة مؤقتة</string>
     <string name="title_use_gsm_alphabet">استخدام أبجدية GSM</string>

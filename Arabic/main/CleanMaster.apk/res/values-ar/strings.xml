@@ -384,9 +384,9 @@
     <string name="load_only_under_wlan">تحميل بإستخدام Wi-Fi فقط</string>
     <string name="recommend_news">تلقي توصيات</string>
     <string name="dialog_title_stop_scan">إيقاف الفحص</string>
-    <string name="dialog_msg_stop_scan">إيقاف فحص التنظيف الحالي؟</string>
+    <string name="dialog_msg_stop_scan">إيقاف الفحص الآن؟</string>
     <string name="dialog_title_esc_cleanmaster">الخروج من المنظف</string>
-    <string name="dialog_msg_esc_cleanmaster">إيقاف فحص التنظيف الجاري؟</string>
+    <string name="dialog_msg_esc_cleanmaster">إيقاف الفحص والخروج من المنظف؟</string>
     <string name="pref_category_title_engine_settings">فحص إعدادات التعريف</string>
     <string name="pref_title_choose_engine">التعريفات</string>
     <string name="recommend_the_following">اتخاذ الإجراءات التالية للحصول على أقصى استفادة من جهازك</string>
@@ -466,12 +466,12 @@
     <string name="file_not_found">لم يتم ايجاد الملف</string>
     <string name="app_usage_never">لم تستخدم مؤخرا</string>
     <string name="app_usage_recently">استخدم مؤخرا</string>
-    <string name="resutl_function_deep_clean_summary">" "<Data>&lt;font color=#ff0000 >%1$s&lt;/font> يمكن مسح المزيد من الملفات لتفريغ المزيد من المساحة.</Data>" "</string>
+    <string name="resutl_function_deep_clean_summary">" يمكن مسح المزيد من "<Data>&lt;font color=#ff0000 >%1$s&lt;/font> ملفات لتفريغ المزيد من المساحة.</Data>" "</string>
     <string name="resutl_function_wechat_clean_summary">" "<Data>&lt;font color=#ff0000 >%1$s&lt;/font> من التخزين المؤقت للـWeChat. تفريغ المزيد من المساحة.</Data>" "</string>
     <string name="resutl_function_qq_clean_summary">" "<Data>يمكنك حذف &lt;font color=#ff0000 >%1$s&lt;/font> من ذاكرة التخزين المؤقت الناتجة عن تطبيق QQ;</Data>" "</string>
     <string name="engine_tm">Tencent</string>
     <string name="engine_cm">Clean Master</string>
     <string name="app_description_title">حول المنظف</string>
     <string name="app_description_content">يقوم المنظف بإيجاد المهملات على جهازك ويحرر مساحة التخزين. تأكد من أنك تستطيع أن تفعل ذلك دون هذه الميزات قبل إلغاء تثبيت التطبيق.</string>
-    <string name="engine_init">جارٍ التهيئة...</string>
+    <string name="engine_init">جارٍ التهيئة…</string>
 </resources>

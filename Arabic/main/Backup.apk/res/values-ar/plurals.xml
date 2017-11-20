@@ -57,35 +57,35 @@
         <item quantity="many">عنصر</item>
     </plurals>
     <plurals name="save_item_saving_summary">
-        <item quantity="other">Restored %d items</item>
-        <item quantity="zero">Restored %d items</item>
-        <item quantity="one">Restored %d item</item>
-        <item quantity="two">Restored %d items</item>
-        <item quantity="few">Restored %d items</item>
-        <item quantity="many">Restored %d items</item>
+        <item quantity="other">تم استيراد %d عنصر</item>
+        <item quantity="zero">تم استيراد %d عناصر</item>
+        <item quantity="one">تم استيراد %d عنصر</item>
+        <item quantity="two">تم استيراد %d عناصر</item>
+        <item quantity="few">تم استيراد %d عناصر</item>
+        <item quantity="many">تم استيراد %d عنصر</item>
     </plurals>
     <plurals name="save_item_saved_summary">
-        <item quantity="other">Imported and restored %d items</item>
-        <item quantity="zero">Imported and restored %d items</item>
-        <item quantity="one">Imported and restored %d item</item>
-        <item quantity="two">Imported and restored %d items</item>
-        <item quantity="few">Imported and restored %d items</item>
-        <item quantity="many">Imported and restored %d items</item>
+        <item quantity="other">تم استيراد واستعادة %d عنصر</item>
+        <item quantity="zero">تم استيراد واستعادة %d عناصر</item>
+        <item quantity="one">تم استيراد واستعادة %d عنصر</item>
+        <item quantity="two">تم استيراد واستعادة %d عناصر</item>
+        <item quantity="few">تم استيراد واستعادة %d عناصر</item>
+        <item quantity="many">تم استيراد واستعادة %d عنصر</item>
     </plurals>
     <plurals name="save_item_failed_summary_seg1">
-        <item quantity="other">"Imported %d items. "</item>
-        <item quantity="zero">"Imported %d items. "</item>
-        <item quantity="one">"Imported %d item. "</item>
-        <item quantity="two">"Imported %d items. "</item>
-        <item quantity="few">"Imported %d items. "</item>
-        <item quantity="many">"Imported %d items. "</item>
+        <item quantity="other">"تم استيراد %d عنصر. "</item>
+        <item quantity="zero">"تم استيراد %d عناصر. "</item>
+        <item quantity="one">"تم استيراد %d عنصر. "</item>
+        <item quantity="two">"تم استيراد %d عناصر. "</item>
+        <item quantity="few">"تم استيراد %d عناصر. "</item>
+        <item quantity="many">"تم استيراد %d عنصر. "</item>
     </plurals>
     <plurals name="save_item_failed_summary_seg2">
-        <item quantity="other">Import %d items again.</item>
-        <item quantity="zero">Import %d items again.</item>
-        <item quantity="one">Import %d item again.</item>
-        <item quantity="two">Import %d items again.</item>
-        <item quantity="few">Import %d items again.</item>
-        <item quantity="many">Import %d items again.</item>
+        <item quantity="other">استيراد %d عنصر مجددا.</item>
+        <item quantity="zero">استيراد %d عناصر مجددا.</item>
+        <item quantity="one">استيراد %d عنصر مجددا.</item>
+        <item quantity="two">استيراد %d عناصر مجددا.</item>
+        <item quantity="few">استيراد %d عناصر مجددا.</item>
+        <item quantity="many">استيراد %d عنصر مجددا.</item>
     </plurals>
 </resources>

@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">لا يوجد</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -536,6 +538,7 @@ d MMMM"</string>
     <string name="ext_media_mountable_notification_title">جهاز وحدة تخزين USB متصل</string>
     <string name="ext_media_mountable_notification_message">المس للفتح في المدير.</string>
     <string name="ext_media_safe_remove">تمت الإزالة بأمان</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">ك/ث</string>
     <string name="megabyte_per_second">م/ث</string>
     <string name="status_bar_network_flow_today">اليوم: %1$s</string>
@@ -590,8 +593,8 @@ d MMMM"</string>
     <string name="notification_low_battery_need_charge">البطارية منخفضة. اشحن هاتفك.</string>
     <string name="oldman_airplane_mode_text">الطائرة</string>
     <string name="oldman_incall_text">في مكالمة</string>
-    <string name="demo_mode">وضع توضيحي</string>
-    <string name="show_demo_mode">إظهار الوضع التوضيحي</string>
+    <string name="demo_mode">الوضع التجريبي</string>
+    <string name="show_demo_mode">إظهار الوضع التجريبي</string>
     <string name="no_multi_window_app">لا توجد تطبيقات تدعم وضع تقسيم الشاشة</string>
     <string name="not_support_multi_window">التطبيق الحالي لا يدعم وضع تقسيم الشاشة</string>
     <string name="divider_menu_swap_task">تبديل</string>
@@ -615,7 +618,8 @@ d MMMM"</string>
     <string name="notification_header_title">الإشعارات</string>
     <string name="weather_publish_time">تم تحديثه %1$s</string>
     <string name="no_weather_description">احصل على معلومات الطقس ></string>
-    <string name="screenshot_long_screenshot">التمرير</string>
+    <string name="weather_description_no_aqi">%1$s</string>
+    <string name="screenshot_long_screenshot">تمرير</string>
     <string name="screenshot_edit">تعديل</string>
     <string name="screenshot_send">ارسل</string>
     <string name="screenshot_delete">حذف</string>
@@ -657,7 +661,7 @@ d MMMM"</string>
     <string name="unimportant_desc">ستظهر جميع الاشعارات الغير مهمة في مجلد منفصل.</string>
     <string name="important_desc">ستظهر جميع الاشعارات الهامة مباشرة في مركز الاشعارات.</string>
     <string name="cancel">إلغاء</string>
-    <string name="search_hint">بحث عن مواقع ويب، تطبيقات، جهات إتصال، فيديوهات...</string>
+    <string name="search_hint">بحث عن مواقع ويب، تطبيقات، جهات إتصال، مقاطع فيديو</string>
     <string name="description_image_button_reject">رفض</string>
     <string name="description_image_button_answer">رد</string>
 </resources>

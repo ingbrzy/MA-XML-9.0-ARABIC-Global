@@ -451,7 +451,7 @@
     <string name="micloud_sync_alert_dialog_positive">موافق</string>
     <string name="micloud_battery_low_notification_title">البطارية منخفضة</string>
     <string name="micloud_battery_low_notification_message">قم بتوصيل الشاحن للمزامنة</string>
-    <string name="micloud_upgrade_member">الحصول على مساحة تخزين إضافية</string>
+    <string name="micloud_upgrade_member">احصل على مساحة تخزين</string>
     <string name="micloud_notif_content_depend_wifi">الاتصال بـ Wi-Fi للمزامنة.</string>
     <string name="micloud_notif_title_master_depend_wifi">لا يمكن المزامنة مع Mi Cloud</string>
     <string name="micloud_notif_content_master_depend_wifi">الاتصال بWi-Fi أولاً.</string>

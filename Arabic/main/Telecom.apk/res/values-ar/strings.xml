@@ -294,7 +294,7 @@
     <string name="notification_missedCall_call_back">إعادة المكالمة</string>
     <string name="notification_missedCall_message">رسالة</string>
     <string name="accessibility_call_muted">تم كتم صوت المكالمة.</string>
-    <string name="accessibility_speakerphone_enabled">تم تمكين سماعة الهاتف.</string>
+    <string name="accessibility_speakerphone_enabled">مكبر الصوت قيد التشغيل</string>
     <string name="respond_via_sms_canned_response_1">لا يمكنني التحدث الآن. ماذا هناك؟</string>
     <string name="respond_via_sms_canned_response_2">سأرد الاتصال بك فورا.</string>
     <string name="respond_via_sms_canned_response_3">سأتصل بك في وقت لاحق.</string>
@@ -306,13 +306,13 @@
     <string name="respond_via_sms_confirmation_format">تم إرسال الرسالة إلى %s.</string>
     <string name="enable_account_preference_title">حسابات الاتصال</string>
     <string name="outgoing_call_not_allowed_user_restriction">مكالمات الطوارئ فقط مسموح بها.</string>
-    <string name="outgoing_call_not_allowed_no_permission">لا يمكن لهذا التطبيق إجراء مكالمات صادرة دون إذن الهاتف.</string>
-    <string name="outgoing_call_error_no_phone_number_supplied">لأجراء مكالمة، أدخل رقم صحيح.</string>
-    <string name="duplicate_video_call_not_allowed">لا يمكن إضافة المكالمة في هذا الوقت.</string>
+    <string name="outgoing_call_not_allowed_no_permission">لا يمكن لهذا التطبيق إجراء مكالمات صادرة دون إذن.</string>
+    <string name="outgoing_call_error_no_phone_number_supplied">لإجراء مكالمة، أدخل رقم صحيح.</string>
+    <string name="duplicate_video_call_not_allowed">لا يمكن إضافة المزيد من المكالمات</string>
     <string name="no_vm_number">رقم البريد الصوتي مفقود</string>
     <string name="no_vm_number_msg">لا يوجد رقم بريد صوتي مخزن على بطاقة SIM.</string>
     <string name="add_vm_number_str">أضف رقم</string>
-    <string name="change_default_dialer_dialog_title">استخدم %s كتطبيق افتراضي للهاتف الخاص بك؟</string>
+    <string name="change_default_dialer_dialog_title">تعيين %s كتطبيق افتراضي للهاتف الخاص بك؟</string>
     <string name="change_default_dialer_with_previous_app_set_text">هل تريد استخدام %1$s بدلاً من %2$s تطبيقًا افتراضيًا لبرنامج الاتصال؟</string>
     <string name="change_default_dialer_no_previous_app_set_text">هل تريد استخدام %s تطبيقًا افتراضيًا لبرنامج الاتصال؟</string>
     <string name="blocked_numbers">الأرقام المحظورة</string>
@@ -325,12 +325,12 @@
     <string name="block_button">حظر</string>
     <string name="non_primary_user">يمكن فقط لمالك الجهاز عرض وإدارة الأرقام المحظورة.</string>
     <string name="delete_icon_description">إلغاء الحظر</string>
-    <string name="blocked_numbers_butter_bar_title">الحظر المؤقت متوقف</string>
-    <string name="blocked_numbers_butter_bar_body">بعد قيامك بالاتصال أو مراسلة رقم الطوارئ، يتم إيقاف الحظر لضمان أن خدمات الطوارئ يمكنها الاتصال بك.</string>
-    <string name="blocked_numbers_butter_bar_button">إعادة التفعيل الآن</string>
+    <string name="blocked_numbers_butter_bar_title">قائمة الحظر متوقفة</string>
+    <string name="blocked_numbers_butter_bar_body">بعد قيامك بالاتصال أو مراسلة رقم الطوارئ، يتم إيقاف قائمة الحظر لضمان أن خدمات الطوارئ يمكنها الاتصال بك.</string>
+    <string name="blocked_numbers_butter_bar_button">تشغيل مرة أخرى</string>
     <string name="blocked_numbers_number_blocked_message">%1$s محظور</string>
     <string name="blocked_numbers_number_unblocked_message">%1$s غير محظور</string>
-    <string name="blocked_numbers_block_emergency_number_message">يتعذر حظر رقم الطوارئ.</string>
+    <string name="blocked_numbers_block_emergency_number_message">لا يمكن حظر رقم الطوارئ</string>
     <string name="blocked_numbers_number_already_blocked_message">%1$s محظور مسبقا.</string>
     <string name="test_account_0_label">Q Mobile</string>
     <string name="test_account_1_label">Market Wireless</string>
@@ -341,8 +341,8 @@
     <string name="test_account_2_short_description">Talk to everyone in your Circles!</string>
     <string name="test_account_3_short_description">Chat with Chat Network users</string>
     <string name="handle_restricted">RESTRICTED</string>
-    <string name="toast_personal_call_msg">يتم استخدام أداة الاتصال الشخصي لإجراء الاتصال</string>
-    <string name="toast_make_video_call_failed">لا يمكن إجراء مكالمة فيديو، تنسيق رقم غير صحيح</string>
+    <string name="toast_personal_call_msg">استخدام متصل مخصص</string>
+    <string name="toast_make_video_call_failed">لا يمكن إجراء مكالمة فيديو. الرقم الذي أدخلته غير صحيح.</string>
     <string name="headset_plugin_view_text">يتم توصيل سماعة الرأس.</string>
     <string name="headset_plugin_view_title">سماعة الرأس</string>
     <string name="voice_report_incoming_call">مكالمة واردة</string>
@@ -359,7 +359,7 @@
     <string name="callFailed_simError">خطأ في بطاقة SIM</string>
     <string name="incall_error_supp_service_unknown">هذه الخدمة غير مدعومة.</string>
     <string name="incall_error_power_off">قم بإيقاف تشغيل وضع الطيران لإجراء مكالمة.</string>
-    <string name="change_default_dialer_dialog_affirmative">تعيين الافتراضي</string>
+    <string name="change_default_dialer_dialog_affirmative">تعيين كتطبيق افتراضي للهاتف الخاص بك</string>
     <string name="change_default_dialer_dialog_negative">إلغاء</string>
-    <string name="change_default_dialer_warning_message">%s سيكون قادرا على وضع ومراقبة جميع جوانب المكالمات. يجب تعيين التطبيقات التي تثق بها فقط كتطبيقات افتراضية.</string>
+    <string name="change_default_dialer_warning_message">%s سيكون قادرا على القيام ومراقبة جميع جوانب المكالمات. يجب تعيين التطبيقات التي تثق بها فقط كتطبيقات افتراضية.</string>
 </resources>

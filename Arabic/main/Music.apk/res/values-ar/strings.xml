@@ -39,9 +39,9 @@
     <string name="button_queue_for_wifi">صف</string>
     <string name="button_cancel_download">إلغاء</string>
     <string name="wifi_required_title">يجب عليك الاتصال بشبكة Wi-Fi لتنزيل هذا الملف</string>
-    <string name="wifi_required_body" formatted="false">"يجب استخدام الـ Wi-Fi لإكمال هذا %s التنزيل.
+    <string name="wifi_required_body" formatted="false">"يجب استخدام Wi-Fi لإكمال هذا %s التنزيل.
 
-انقر%s لبدء هذا التنزيل في المرة القادمة عند اتصالك بشبكة Wi-Fi."</string>
+انقر %s لبدء هذا التنزيل في المرة القادمة عند اتصالك بشبكة Wi-Fi."</string>
     <string name="download_no_application_title">لا يمكن فتح الملف</string>
     <string name="download_percent">%d%%</string>
     <string name="notification_need_wifi_for_size">حجم التحميل يتطلب Wi-Fi.</string>
@@ -501,6 +501,7 @@
     <string name="set_id3_failed">لا يمكن حفظ المعلومات</string>
     <string name="set_id3_not_support_format">لا يمكن تعديل صيغة هذا الملف</string>
     <string name="set_id3_not_have_read_or_write_permission">ليس لديك التصريح لتعديل هذا الملف</string>
+    <string name="listview_index_of_total">%1$d/%2$d</string>
     <string name="lyric_setting">إعدادات الكلمات</string>
     <string name="modify_lyric">تعديل الكلمات</string>
     <string name="modify_progress">تغيير سرعة تمرير الكلمات</string>
@@ -521,7 +522,7 @@
     <string name="bill_list_fragment_title">قوائم</string>
     <string name="nowplaying_dialog_title_delete_tracks">حذف قائمة التشغيل الحالية؟</string>
     <string name="nowplaying_menu_item_delete">حذف</string>
-    <string name="nowplaying_circle_style">تشغيل نمط الدوران الآن</string>
+    <string name="nowplaying_circle_style">تشغيل النمط الدائري</string>
     <string name="nowplaying_circle_style_wave">موجة</string>
     <string name="nowplaying_circle_style_rainbow">قوس قزح</string>
     <string name="similar_songs">أغاني مماثلة</string>
