@@ -43,7 +43,6 @@
 
 انقر %s لبدء هذا التنزيل في المرة القادمة عند اتصالك بشبكة Wi-Fi."</string>
     <string name="download_no_application_title">لا يمكن فتح الملف</string>
-    <string name="download_percent">%d%%</string>
     <string name="notification_need_wifi_for_size">حجم التحميل يتطلب Wi-Fi.</string>
     <string name="download_unknown_title">&lt;بدون عنوان></string>
     <string name="root_downloads">التنزيلات</string>
