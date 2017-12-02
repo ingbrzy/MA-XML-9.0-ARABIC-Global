@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="welcome">مرحباً</string>
-    <string name="app_name">الإعدادت الأولية</string>
+    <string name="app_name">الإعدادات الأولية</string>
     <string name="input_method_setting">اختر لوحة المفاتيح</string>
     <string name="input_method_category">اختر لوحة المفاتيح الافتراضية التي ستستخدمها عند كتابة الرسائل، الملاحظات، و غيرة. إعلم أنه يمكنك تثبيت لوحات مفاتيح أخرى من قبل برامج اخرى في وقت لاحق.</string>
     <string name="provision_inputmethod_policy_description">"
@@ -68,9 +68,6 @@
     <string name="enable_accessibility_dialog_negative_btn">إلغاء</string>
     <string name="cm_terms_title">اتفاقية مشغل شبكة الهاتف الجوال</string>
     <string name="cm_terms_content">من أجل تحسين الخدمات المقدمة لك، قد يقوم مشغل شبكة الهاتف الجوال المختار من قبلك بتحميل بياناتك الشخصية والمعلومات حول هذا الجهاز إلى خوادمه باستخدام شبكات Wi-Fi أو اتصال بيانات الجوال. سيتم استخدام هذه المعلومات فقط لأغراض إحصائية من أجل تحسين جودة الخدمات وتقديم محتوى أكثر تخصيصا. لن يتم استخدام هذه المعلومات لتحديد هويتك شخصيا، ولن يتم الكشف عنها إلى أطراف ثالثة.</string>
-    <string name="two_dimensional_code_scan">مسح رمز QR</string>
-    <string name="user_strayed_warning">تم تصميم الصفحة لاختبارات المصنع، انقر على زر \"الرجوع\" للخروج.</string>
-    <string name="fail_to_generate_qr_code">تعذر إنشاء رمز QR. افتح هذه الصفحة مرة أخرى.</string>
     <string name="enable_accessibility_canceled">تم إلغاء إمكانية الوصول.</string>
     <string name="accessibility_enabled">تم تفعيل إمكانية الوصول.</string>
     <string name="continue_to_enable_accessibility">استمر بالضغط باستمرار على إصبعين لتفعيل إمكانية الوصول.</string>

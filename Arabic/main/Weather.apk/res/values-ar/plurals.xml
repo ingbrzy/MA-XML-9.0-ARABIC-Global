@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="daily_forcast_drawer_on_top">
-        <item quantity="other">توقعات %1$s يوم</item>
-        <item quantity="zero">توقعات %1$s يوم</item>
-        <item quantity="one">توقعات %1$s يوم</item>
-        <item quantity="two">توقعات %1$s أيام</item>
-        <item quantity="few">توقعات %1$s أيام</item>
-        <item quantity="many">توقعات %1$s يوم</item>
+        <item quantity="other">%1$s-day forecast</item>
+        <item quantity="zero">%1$s-day forecast</item>
+        <item quantity="one">%1$s-day forecast</item>
+        <item quantity="two">%1$s-day forecast</item>
+        <item quantity="few">%1$s-day forecast</item>
+        <item quantity="many">%1$s-day forecast</item>
     </plurals>
     <plurals name="activity_main_update_time_in_one_hour">
-        <item quantity="other">قبل %d دقيقة</item>
-        <item quantity="zero">قبل %d دقيقة</item>
-        <item quantity="one">قبل %d دقيقة</item>
-        <item quantity="two">قبل %d دقائق</item>
-        <item quantity="few">قبل %d دقائق</item>
-        <item quantity="many">قبل %d دقيقة</item>
+        <item quantity="other">%d minutes ago</item>
+        <item quantity="zero">%d minutes ago</item>
+        <item quantity="one">%d minute ago</item>
+        <item quantity="two">%d minutes ago</item>
+        <item quantity="few">%d minutes ago</item>
+        <item quantity="many">%d minutes ago</item>
     </plurals>
     <plurals name="activity_main_update_time_in_one_day">
         <item quantity="other">قبل %d ساعة</item>

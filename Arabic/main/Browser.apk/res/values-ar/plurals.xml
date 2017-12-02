@@ -32,6 +32,14 @@
         <item quantity="few">%1$d من %2$d</item>
         <item quantity="many">%1$d من %2$d</item>
     </plurals>
+    <plurals name="transfer_prompt">
+        <item quantity="other">تشغيل الفيديو في %1$d ثانية</item>
+        <item quantity="zero">تشغيل الفيديو في %1$d ثانية</item>
+        <item quantity="one">تشغيل الفيديو في %1$d ثانية</item>
+        <item quantity="two">تشغيل الفيديو في %1$d ثواني</item>
+        <item quantity="few">تشغيل الفيديو في %1$d ثواني</item>
+        <item quantity="many">تشغيل الفيديو في %1$d ثانية</item>
+    </plurals>
     <plurals name="v5_edit_mode_title">
         <item quantity="other">%1$d محدد</item>
         <item quantity="zero">%1$d محدد</item>

@@ -11,8 +11,8 @@
         <item>تشغيل العرض</item>
         <item>إيقاف العرض</item>
         <item>إيقاف العرض بعد ١٠ دقائق</item>
-        <item>شاشة كاملة</item>
-        <item>الخروج من وضع شاشة كاملة</item>
+        <item>ملء الشاشة</item>
+        <item>الخروج من وضع ملء الشاشة</item>
         <item>التطبيق يعمل في الخلفية</item>
         <item>الهاتف في وضع الشحن</item>
         <item>الهاتف لا يشحن</item>
@@ -86,5 +86,9 @@
     <string-array name="thermal_summaries">
         <item>وضع التحكم بدرجة الحرارة الحالية</item>
         <item>وضع الأداء الحالي</item>
+    </string-array>
+    <string-array name="power_mode_entries">
+        <item>الأداء</item>
+        <item>متوازن</item>
     </string-array>
 </resources>

@@ -72,7 +72,7 @@
     <string name="screen_on_proximity_sensor_hint">لإيقاف تشغيل هذه الميزة، إضغط على زر رفع مستوى الصوت و زر الرجوع معاً.</string>
     <string name="screen_on_proximity_sensor_hint_has_navigation_bar">لإيقاف تشغيل هذه الميزة، اضغط على زر رفع مستوى الصوت.</string>
     <string name="screen_button_notification_title">تم إيقاف تشغيل أزرار التنقل</string>
-    <string name="screen_button_notification_text">لتشغيلها، اضغط على زري الصفحة الرئيسية والطاقة في وقت واحد.</string>
+    <string name="screen_button_notification_text">لتشغيلها، اضغط على زري الصفحة الرئيسية والطاقة معاً.</string>
     <string name="screen_paper_mode_enter_toast">وضع القراءة قيد التشغيل. لأيقاف تشغيلة، اذهب إلى الإعدادات > الشاشة > وضع القراءة.</string>
     <string name="sim_added_reboot_title">سيتم تفعيل بطاقة SIM بعد إعادة تشغيل جهازك.</string>
     <string name="sim_added_reboot_confirm">إعادة تشغيل</string>
@@ -164,7 +164,7 @@
     <string name="configure_input_methods">اختر لوحة المفاتيح</string>
     <string name="miui_upgrading_notification_title">تحميل النظام، وبعض المميزات قد لا تتوفر.</string>
     <string name="miui_screen_ratio_hint">مشاكل ابعاد الشاشة</string>
-    <string name="miui_screen_ratio_hint_message">يسمح لهذا التطبيق بالعمل في وضع الشاشة الكاملة مما قد يؤدي إلى أن يتم عرضه بشكل غير صحيح. يمكنك تغيير هذا من الإعدادات > الإعدادات الإضافية > الأزرار.</string>
+    <string name="miui_screen_ratio_hint_message">يسمح لهذا التطبيق بالعمل في وضع ملء الشاشة مما قد يؤدي إلى أن يتم عرضه بشكل غير صحيح. يمكنك تغيير هذا من الإعدادات > الإعدادات الإضافية > الأزرار.</string>
     <string name="miui_screen_ratio_hint_dont_show_again">لا تظهر مرة اخرى</string>
     <string name="miui_screen_ratio_hint_ok">موافق</string>
     <string name="miui_screen_ratio_hint_go_to_settings">اذهب إلى الإعدادات</string>

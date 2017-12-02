@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">لا يوجد</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -106,12 +108,12 @@
     <string name="tts_lang_not_selected">اللغة غير محددة</string>
     <string name="tts_default_lang_summary">تعيين اللغة الإفتراضية لإخراج تحويل النص الى كلام</string>
     <string name="tts_play_example_title">الاستماع إلى مثال</string>
-    <string name="tts_play_example_summary">تشغيل عرض توضيحي قصير لتوليف الكلام</string>
+    <string name="tts_play_example_summary">تشغيل عرض توضيحي قصير لتحويل النص إلى كلام</string>
     <string name="tts_install_data_title">تثبيت البيانات الصوتية</string>
-    <string name="tts_install_data_summary">تثبيت البيانات الصوتية المطلوبة لتوليف الكلام</string>
+    <string name="tts_install_data_summary">تثبيت البيانات الصوتية المطلوبة لتحويل النص إلى كلام</string>
     <string name="tts_engine_security_warning">قد يكون محرك الصوت هذا قادرا على تسجيل وجمع كل ما تقوله، بما في ذلك البيانات الشخصية مثل كلمات السر وأرقام بطاقات الائتمان. تم توفير محرك الصوت هذا من طرف %s. تشغيل محرك الصوت؟</string>
     <string name="tts_engine_network_required">تتطلب هذه اللغة اتصال شبكة سليم لتحويل النص إلى كلام.</string>
-    <string name="tts_default_sample_string">هذا مثال لتوليف الكلام</string>
+    <string name="tts_default_sample_string">هذا مثال لتحويل النص إلى كلام</string>
     <string name="tts_status_title">حالة اللغة الافتراضية</string>
     <string name="tts_status_ok">%1$s مدعومة بالكامل</string>
     <string name="tts_status_requires_network">تحتاج %1$s الاتصال بالشبكة</string>
@@ -346,7 +348,7 @@
     <string name="accessibility_phone_two_bars">أشارتين للهاتف.</string>
     <string name="accessibility_phone_three_bars">ثلاث اشارات للهاتف.</string>
     <string name="accessibility_phone_four_bars">اربع اشارات للهاتف.</string>
-    <string name="accessibility_phone_signal_full">اشارة الهاتف كاملة.</string>
+    <string name="accessibility_phone_signal_full">إشارة الهاتف كاملة.</string>
     <string name="accessibility_no_data">لا توجد بيانات.</string>
     <string name="accessibility_data_one_bar">اشارة بيانات واحدة.</string>
     <string name="accessibility_data_two_bars">اشارتين للبيانات.</string>
@@ -357,7 +359,7 @@
     <string name="accessibility_wimax_one_bar">أشارة WiMAX واحدة.</string>
     <string name="accessibility_wimax_two_bars">أشارتين WiMAX.</string>
     <string name="accessibility_wimax_three_bars">ثلاث أشارات WiMAX.</string>
-    <string name="accessibility_wimax_signal_full">اشارة WiMAX كاملة.</string>
+    <string name="accessibility_wimax_signal_full">إشارة WiMAX كاملة.</string>
     <string name="accessibility_data_connection_gprs">GPRS</string>
     <string name="accessibility_data_connection_3g">3G</string>
     <string name="accessibility_data_connection_3.5g">3.5G</string>
@@ -426,16 +428,16 @@
     <string name="recents_exit_multi_window_mode">خروج</string>
     <string name="keyboard_shortcut_group_system_recents">الحديثة</string>
     <string name="accessibility_divider">مقسم تقسيم الشاشة</string>
-    <string name="accessibility_action_divider_left_full">تكبير الشاشة باليسار</string>
+    <string name="accessibility_action_divider_left_full">ملء الشاشة باليسار</string>
     <string name="accessibility_action_divider_left_70">اليسار ٧٠%</string>
     <string name="accessibility_action_divider_left_50">اليسار ٥٠%</string>
     <string name="accessibility_action_divider_left_30">اليسار ٣٠%</string>
-    <string name="accessibility_action_divider_right_full">تكبير الشاشة باليمين</string>
-    <string name="accessibility_action_divider_top_full">تكبير الشاشة بالأعلى</string>
+    <string name="accessibility_action_divider_right_full">ملء الشاشة باليمين</string>
+    <string name="accessibility_action_divider_top_full">ملء الشاشة بالأعلى</string>
     <string name="accessibility_action_divider_top_70">الأعلى ٧٠%</string>
     <string name="accessibility_action_divider_top_50">الأعلى ٥٠%</string>
     <string name="accessibility_action_divider_top_30">الأعلى ٣٠%</string>
-    <string name="accessibility_action_divider_bottom_full">تكبير الشاشة بالأسفل</string>
+    <string name="accessibility_action_divider_bottom_full">ملء الشاشة بالأسفل</string>
     <string name="dock_forced_resizable">قد لا يعمل هذا التطبيق مع تقسيم الشاشة</string>
     <string name="dock_non_resizeble_failed_to_dock_text">هذا التطبيق لا يدعم وضع تقسيم الشاشة</string>
     <string name="status_bar_date_format">"EEEE
@@ -536,6 +538,7 @@ d MMMM"</string>
     <string name="ext_media_mountable_notification_title">جهاز وحدة تخزين USB متصل</string>
     <string name="ext_media_mountable_notification_message">المس للفتح في المدير.</string>
     <string name="ext_media_safe_remove">تمت الإزالة بأمان</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">ك/ث</string>
     <string name="megabyte_per_second">م/ث</string>
     <string name="status_bar_network_flow_today">اليوم: %1$s</string>
@@ -551,10 +554,9 @@ d MMMM"</string>
     <string name="expanded_confirm_disable_notification">إخفاء</string>
     <string name="block_record_notification_title">إشعارات مخفية</string>
     <string name="block_record_notification_text">إخفاء الإشعارات من %1$s.</string>
-    <string name="notification_hidden_text">الإشعارات مخفية</string>
+    <string name="notification_hidden_text">يوجد لديك رسالة جديدة</string>
     <string name="block_notification_text">إخفاء</string>
     <string name="block_notification_content_text">لن تظهر إشعارات %1$s مرة أخرى. يمكنك تغيير ذلك من الإعدادات.</string>
-    <string name="block_notification_desc">لن تظهر إشعارات التطبيق مرة أخرى. يمكنك تغيير ذلك من الإعدادات.</string>
     <string name="notification_otg_mouse_in">الماوس متصل</string>
     <string name="notification_otg_keyboard_in">لوحة المفاتيح متصلة</string>
     <string name="notification_otg_gamestick_in">وحدة التحكم بالألعاب متصلة</string>
@@ -588,8 +590,8 @@ d MMMM"</string>
     <string name="notification_low_battery_open_save_mode">قم بتشغيل توفير شحن البطارية</string>
     <string name="notification_low_battery_action_btn">تشغيل</string>
     <string name="notification_low_battery_need_charge">البطارية منخفضة. اشحن هاتفك.</string>
-    <string name="oldman_airplane_mode_text">الطائرة</string>
-    <string name="oldman_incall_text">في مكالمة</string>
+    <string name="oldman_airplane_mode_text">وضع الطائرة</string>
+    <string name="oldman_incall_text">العودة إلى المكالمة</string>
     <string name="demo_mode">الوضع التجريبي</string>
     <string name="show_demo_mode">إظهار الوضع التجريبي</string>
     <string name="no_multi_window_app">لا توجد تطبيقات تدعم وضع تقسيم الشاشة</string>
@@ -614,7 +616,8 @@ d MMMM"</string>
     <string name="account_info">لم يتم تسجيل الدخول</string>
     <string name="notification_header_title">الإشعارات</string>
     <string name="weather_publish_time">تم تحديثه %1$s</string>
-    <string name="no_weather_description">احصل على معلومات الطقس ></string>
+    <string name="no_weather_description">الحصول على معلومات الطقس ></string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="screenshot_long_screenshot">تمرير</string>
     <string name="screenshot_edit">تعديل</string>
     <string name="screenshot_send">ارسل</string>
@@ -644,7 +647,7 @@ d MMMM"</string>
     <string name="quick_settings_bluetooth_label">البلوتوث</string>
     <string name="quick_settings_bluetooth_detail_empty_text">لا توجد أجهزة مقترنة متاحة</string>
     <string name="accessibility_ime_switch_button">تبديل زر طريقة الادخال.</string>
-    <string name="accessibility_settings">الإعدادت</string>
+    <string name="accessibility_settings">الإعدادات</string>
     <string name="accessibility_search_scanner">الماسح</string>
     <string name="accessibility_brightness_slider">شريط تمرير السطوع</string>
     <string name="click_to_return_multi_window">انقر للعودة إلى تقسيم الشاشة</string>
@@ -657,7 +660,4 @@ d MMMM"</string>
     <string name="unimportant_desc">ستظهر جميع الاشعارات الغير مهمة في مجلد منفصل.</string>
     <string name="important_desc">ستظهر جميع الاشعارات الهامة مباشرة في مركز الاشعارات.</string>
     <string name="cancel">إلغاء</string>
-    <string name="search_hint">بحث عن مواقع ويب، تطبيقات، جهات إتصال، مقاطع فيديو</string>
-    <string name="description_image_button_reject">رفض</string>
-    <string name="description_image_button_answer">رد</string>
 </resources>

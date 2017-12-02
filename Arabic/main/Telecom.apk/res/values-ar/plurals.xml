@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="notification_missedCallTitle">
-        <item quantity="other">Missed calls</item>
-        <item quantity="zero">Missed calls</item>
-        <item quantity="one">Missed call</item>
-        <item quantity="two">Missed calls</item>
-        <item quantity="few">Missed calls</item>
-        <item quantity="many">Missed calls</item>
+        <item quantity="other">مكالمة فائتة</item>
+        <item quantity="zero">مكالمات فائتة</item>
+        <item quantity="one">مكالمة فائتة</item>
+        <item quantity="two">مكالمات فائتة</item>
+        <item quantity="few">مكالمات فائتة</item>
+        <item quantity="many">مكالمة فائتة</item>
     </plurals>
 </resources>

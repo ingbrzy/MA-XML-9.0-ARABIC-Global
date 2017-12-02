@@ -24,6 +24,22 @@
         <item quantity="few">%d عناصر</item>
         <item quantity="many">%d عنصر</item>
     </plurals>
+    <plurals name="total_num">
+        <item quantity="other">%d items,</item>
+        <item quantity="zero">%d items,</item>
+        <item quantity="one">%d item,</item>
+        <item quantity="two">%d items,</item>
+        <item quantity="few">%d items,</item>
+        <item quantity="many">%d items,</item>
+    </plurals>
+    <plurals name="custom_progress">
+        <item quantity="other">%d items</item>
+        <item quantity="zero">%d items</item>
+        <item quantity="one">%d item</item>
+        <item quantity="two">%d items</item>
+        <item quantity="few">%d items</item>
+        <item quantity="many">%d items</item>
+    </plurals>
     <plurals name="trans_time_format_minute">
         <item quantity="other">%d دقيقة</item>
         <item quantity="zero">%d دقيقة</item>

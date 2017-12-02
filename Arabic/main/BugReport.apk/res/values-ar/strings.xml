@@ -57,6 +57,7 @@
     <string name="save_pic_success">حفظ الصورة إلى %s</string>
     <string name="save_pic_fail">تعذر حفظ الصورة. تحقق من بطاقة الـ SD الخاصة بك</string>
     <string name="pic_not_exist">هذه الصورة غير موجودة</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">تحديد منتج</string>
     <string name="michat_skillset_business_type_title">تحديد خدمة</string>
     <string name="michat_close_text">انتهت الدردشة</string>
@@ -213,8 +214,11 @@
     <string name="feedback_select_suggestion">إقتراحات</string>
     <string name="feedback_select_problem">مشاكل</string>
     <string name="feedback_choose_module">تحديد عنصر</string>
+    <string name="feedback_choose_third_app_name">تحديد إسم التطبيق</string>
     <string name="toast_module_required">تحديد عنصر</string>
     <string name="feedback_choose_module_hint">مطلوب</string>
+    <string name="feedback_choose_reproductivity">النسق التوالدي</string>
+    <string name="feedback_title_reproductivity">تحديد النسق التوالدي</string>
     <string name="feedback_report_remind_login_desc">قم بتسجيل الدخول لحساب Mi الخاص بك كي يتمكن الدعم الفني من الاتصال بك.</string>
     <string name="feedback_report_remind_login_desc2">يمكنك ايضا الاطلاع على تقدم التقرير الخاص بك في\"تقاريري\".</string>
     <string name="feedback_history_remind_login_desc">تسجيل الدخول مع حساب Mi الخاص بك لعرض التفاصيل و حالة تقدم تقريرك</string>
@@ -224,6 +228,7 @@
     <string name="feedback_title_hint">قم بوصف المشكله باختصار</string>
     <string name="feedback_description_suggest_hint">ارغب في إضافة ميزة جديدة () وذلك لاني احتاج ().</string>
     <string name="feedback_description_bugreport_hint">في بعض الحالات (…) هاتفي يسيء التصرف (…).</string>
+    <string name="feedback_description_hint">صف المشكلة التي واجهتها</string>
     <string name="toast_title_required">قم بوصف المشكلة الخاصة بك</string>
     <string name="toast_problem_class_required">تحديد فئة</string>
     <string name="feedback_third_packagename_hint">ما هو تطبيق الجهة الخارجية الذي يسبب مشاكل؟</string>
@@ -240,6 +245,7 @@
     <string name="feedback_status_replyed">تم الرد</string>
     <string name="feedback_status_jira_comment">إضافة تعليق</string>
     <string name="feedback_status_forum_reply">رد</string>
+    <string name="feedback_status_submit_attachment">تم إرسال المرفق بنجاح</string>
     <string name="feedback_status_change_notification_title">تم تحديث حالة تقدم تقريرك</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s مشكلة \"%2$s\"</string>
     <string name="feedback_suggestion_status_change_notification_desc">%1$s اقتراحات \"%2$s\"</string>
@@ -297,9 +303,11 @@
     <string name="toast_log_not_exists">السجل المطلوب تم حذفه أو غير موجود</string>
     <string name="toast_pic_not_exists">تم حذف الصورة المخبأة</string>
     <string name="toast_screenshot_too_large">لا يمكن رفع ملفات أكبر من 10 ميجابايت.</string>
+    <string name="toast_log_too_large">تعذر التحميل. الملف كبيراً جداً.</string>
     <string name="title_bbs_feedback_main">تعرف على المزيد حول هواتف Mi</string>
     <string name="title_customer_service">خدمة العملاء</string>
     <string name="customer_service_apply">طلب خدمة العملاء</string>
     <string name="customer_service_complain">تقرير خدمة العملاء</string>
     <string name="customer_service_station">خدمة المواقع</string>
+    <string name="select_system_app_tag">تحديد علامات</string>
 </resources>

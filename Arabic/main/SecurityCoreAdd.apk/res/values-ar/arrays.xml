@@ -15,4 +15,9 @@
         <item>سيتم فقدان بيانات التطبيق بعد ما يتم نقل التطبيقات إلى الواجهة الحالية.</item>
         <item>التطبيقات مستخدمة في كلا الواجهتين.</item>
     </string-array>
+    <string-array name="choose_ask_type">
+        <item>اسال دائماً</item>
+        <item>التطبيق الافتراضي</item>
+        <item>Dual app</item>
+    </string-array>
 </resources>

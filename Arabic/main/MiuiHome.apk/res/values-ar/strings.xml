@@ -270,7 +270,7 @@
     <string name="menu_trans_effect">تأثيرات التنقل</string>
     <string name="menu_default_screen_preview">تعيين الشاشة الإفتراضية</string>
     <string name="menu_cell_setting">تخطيط الشاشة الرئيسية</string>
-    <string name="menu_auto_fill">قم بملأ الخانات الفارغة</string>
+    <string name="menu_auto_fill">قم بملء الخانات الفارغة</string>
     <string name="menu_lock">تخطيط قفل الشاشة الرئيسية</string>
     <string name="menu_more">المزيد</string>
     <string name="default_screen_preview_title">انقر لتعيين الشاشة الإفتراضية</string>

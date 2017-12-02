@@ -33,12 +33,12 @@
         <item quantity="many">+%d</item>
     </plurals>
     <plurals name="weekN">
-        <item quantity="other">اسبوع %d</item>
-        <item quantity="zero">اسبوع %d</item>
-        <item quantity="one">اسبوع %d</item>
-        <item quantity="two">اسبوع %d</item>
-        <item quantity="few">اسبوع %d</item>
-        <item quantity="many">اسبوع %d</item>
+        <item quantity="other">الأسبوع %d</item>
+        <item quantity="zero">الأسبوع %d</item>
+        <item quantity="one">الأسبوع %d</item>
+        <item quantity="two">الأسبوع %d</item>
+        <item quantity="few">الأسبوع %d</item>
+        <item quantity="many">الأسبوع %d</item>
     </plurals>
     <plurals name="Ndays_after_at">
         <item quantity="other">خلال %1$d يوم على الساعة %2$s</item>

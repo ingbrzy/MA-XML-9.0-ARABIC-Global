@@ -60,6 +60,7 @@
     <string name="ok_button">موافق</string>
     <string name="cancel_button">إلغاء</string>
     <string name="list_empty_text">فارغ</string>
+    <string name="list_empty_text_xspace">Install WeChat/QQ/Weibo, create dual apps, and try again.</string>
     <string name="xspace_label">التطبيقات المزدوجة</string>
     <string name="xspace_setting_label">إعدادات التطبيق المزدوج</string>
     <string name="xspace_account">حسابات التطبيق المزدوج</string>
@@ -150,6 +151,7 @@
     <string name="click_to_switch">انقر للعرض</string>
     <string name="confirm_main_space_password">تأكيد كلمة مرور الواجهة الاولى</string>
     <string name="create_space_loading">جارٍ إنشاء الواجهة الثانية…</string>
+    <string name="close_second_space">تم حذف الواجهة الثانية</string>
     <string name="close_second_space_success">تم حذف الواجهة الثانية</string>
     <string name="enable">تشغيل</string>
     <string name="disable">إيقاف التشغيل</string>
@@ -258,6 +260,17 @@
     <string name="xpsace_guide_button">إنشاء</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">تعذر العثور على أية تطبيقات</string>
+    <string name="xspace_weixin_title">WeChat</string>
+    <string name="weixin_pay">دفع WeChat</string>
+    <string name="weixin_share">Share to Moments</string>
+    <string name="xspace_weibo_title">Weibo</string>
+    <string name="weibo_send">الإرسال إلى Weibo</string>
+    <string name="xspace_qq_title">QQ</string>
+    <string name="qq_send">Send to QQ friends/devices</string>
+    <string name="xspace_default_setting_label">التطبيق الافتراضي</string>
+    <string name="xspace_default_app_title">التطبيق الافتراضي</string>
+    <string name="xspace_default_app_summary">تعيين التطبيق الافتراضي للمدفوعات، والمشاركة، والمفضلة، وأكثر من ذلك.</string>
+    <string name="xspace_default_setting_dialog_title">الافتراضية</string>
     <string name="space_name_default">واجهة العمل</string>
     <string name="space_des_default">واجهة منعزلة مع بيانات مشفرة</string>
     <string name="create_work_space">إنشاء واجهة عمل</string>
@@ -286,7 +299,7 @@
     <string name="function_not_support">غير مدعوم على هذا جهاز</string>
     <string name="can_not_switch_when_calling">لا يمكن التبديل بين الواجهات أثناء إجراء مكالمة</string>
     <string name="can_not_delete_when_calling">لا يمكن حذف الواجهات أثناء إجراء مكالمة</string>
-    <string name="support_desc">خدمات الحماية مقدمة من طرف Graphite</string>
+    <string name="support_desc">خدمات الحماية مقدمة من طرف Spaces Mobile</string>
     <string name="sdcardfs_dialog_title">تحديث مهم</string>
     <string name="sdcardfs_dialog_message">لدى MIUI 9 ملف نظام جديد. وقد تكون البيانات القديمة غير متوافقة معه. لحل هذه المشكلة، اتبع الخطوات لتثبيت التحديث. سيتم إعادة تشغيل الجهاز مرتين أثناء هذا التحديث.</string>
     <string name="do_not_ask">لا تسأل مجدداً</string>

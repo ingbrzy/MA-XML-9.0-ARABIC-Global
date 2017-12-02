@@ -184,8 +184,8 @@
     <string name="toast_backup_uninstall_success">تم اكتمال النسخ الإحتياطي و إلغاء التثبيت</string>
     <string name="activity_title_cache_data">بيانات التطبيق</string>
     <string name="deepclean_cache_header_left">ملفات البيانات: %d</string>
-    <string name="notification_title_of_garbage_cleanup">حجم المهملات</string>
-    <string name="notification_summary_of_garbage_cleanup">سلة المهملات تجاوزت %s.</string>
+    <string name="notification_title_of_garbage_cleanup">%s of trash files</string>
+    <string name="notification_summary_of_garbage_cleanup">Tap to free up space.</string>
     <string name="notification_summary_after_auto_cleanup">تم تنظيف %s.</string>
     <string name="toast_uninstall_success">اكتمل إلغاء التثبيت</string>
     <string name="toast_app_no_residual_on_sdcard">التطبيق لا يحتوي على أي ملفات مخزنة على بطاقة الذاكرة SD</string>
@@ -308,7 +308,7 @@
     <string name="seton_immediately">تشغيل</string>
     <string name="notify_when">الحصول على إشعار عند وصول حجم سلة المهملات الى ١٠٠ميغابايت</string>
     <string name="goto_set">تعيين</string>
-    <string name="virus_scan">فحص الفيروسات</string>
+    <string name="virus_scan">Security scan</string>
     <string name="tips_of_virus_scan">افحص جهازك من الفيروسات بإنتظام لإبقائه آمناً</string>
     <string name="conn_of_function_safe">اتصال الشبكة للحماية</string>
     <string name="tips_of_connect">الاتصال بالانترنت لإستخدام المجموعه كاملة لمميزات الحماية</string>

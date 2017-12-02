@@ -54,7 +54,7 @@
     <string name="passport_change_phone_number">تبديل الأرقام</string>
     <string name="passport_forget_password"><u>نسيت كلمة المرور</u></string>
     <string name="passport_forget_password_no_underline">نسيت كلمة المرور</string>
-    <string name="passport_reg_type_email">استخدام عنوان البريد الإلكتروني</string>
+    <string name="passport_reg_type_email">عنوان البريد الإلكتروني</string>
     <string name="passport_register_by_email"><u>إنشاء حساب باستخدام عنوان البريد الإلكتروني</u></string>
     <string name="passport_account_not_actived">لم يتم تفعيل حسابك</string>
     <string name="passport_active_email_visit">تحقق من علبة الوارد الخاصة بك في %s</string>
@@ -258,6 +258,7 @@
     <string name="account_limit_update_birthday">لايمكن تحديث تاريخ الميلاد حالياُ</string>
     <string name="account_user_other_info">المزيد من المصادر</string>
     <string name="account_user_region">البلد</string>
+    <string name="account_global_region">Overseas</string>
     <string name="account_user_location">الموقع</string>
     <string name="account_user_location_title">تحديد الموقع الحالي</string>
     <string name="account_user_education">التعليم</string>
@@ -287,10 +288,6 @@
     <string name="confirm_unbundled_phone_dialog_message">رقم الهاتف %1$s مرتبط بحساب Mi %2$s. اذا قمت بالمتابعة لن يكون مرتبط مع حساب Mi %3$s. متابعة؟</string>
     <string name="change_phone_number">تغيير رقم الهاتف</string>
     <string name="change_email_address">تغيير البريد الإلكتروني</string>
-    <string name="checking_phone_num_availible">التحقق من الهاتف…</string>
-    <string name="account_binded_phone">الهاتف %d</string>
-    <string name="account_bind_new_phone">إضافة هاتف جديد</string>
-    <string name="account_bind_phone_notice">استخدم رقم الهاتف هذا لتسجيل الدخول لحسابك, إعادة تعيين كلمة المرور أو تغيير إعدادات الأمان.</string>
     <string name="continue_action">متابعة</string>
     <string name="replace_binded_phone">إستبدال الهاتف</string>
     <string name="delete_action">حذف</string>
@@ -315,6 +312,15 @@
     <string name="resend_email_reach_limit_message">لقد قمت بطلب الكثير من رسائل التحقق إلى البريد الإلكتروني. تأكد من أن رسالة التحقق ليست في مجلد البريد المزعج.</string>
     <string name="update_email_address_dialog_title">تحديث البريد الإلكتروني</string>
     <string name="update_email_address_dialog_message">تحتاج إلى تأكيد هويتك قبل التمكن من تحديث البريد الإلكتروني.</string>
+    <string name="update_phone_notice">تغيير إعدادات الحماية</string>
+    <string name="no_phone">بدون رقم هاتف</string>
+    <string name="action_update_phone">تغيير رقم الهاتف</string>
+    <string name="action_add_phone">إضافة رقم هاتف</string>
+    <string name="phone_num_use_for">رقم الهاتف يستخدم لـ:</string>
+    <string name="sign_in">جارٍ تسجيل الدخول</string>
+    <string name="get_back_pwd">إعادة تعيين كلمة المرور</string>
+    <string name="identity">هوية</string>
+    <string name="set_success">تم التغيير بنجاح</string>
     <string name="account_user_details">معلومات شخصية</string>
     <string name="account_security">حماية الحساب</string>
     <string name="account_mibi_center">رصيد Mi</string>

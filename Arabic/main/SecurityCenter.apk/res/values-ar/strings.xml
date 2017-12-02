@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="fw_blocked">قائمة الحظر</string>
+    <string name="fw_oversea">Block calls from abroad</string>
     <string name="fw_blocked_count">"تم حظر "</string>
     <string name="fw_blocked_join">" و "</string>
+    <string name="fw_oversea_content">Block incoming calls from foreign phone numbers</string>
     <string name="tab_title">قائمة الحظر</string>
     <string name="tab_blacklist">قائمة الحظر</string>
     <string name="tab_sms">الرسائل</string>
@@ -132,6 +134,7 @@
     <string name="call_contact_block">حظر المكالمات من جهات الإتصال</string>
     <string name="call_transfer_block">حظر المكالمات المعاد توجيهها</string>
     <string name="call_cloud_block">قائمة حظر Cloud</string>
+    <string name="call_oversea_block">Block calls from abroad</string>
     <string name="mark_fraud_block">المبلغ عنه كمزعج</string>
     <string name="mark_agent_block">المبلغ عنه كوكالة</string>
     <string name="mark_sell_block">مبلغ عنه كمسوق عبر الهاتف</string>
@@ -270,6 +273,7 @@
     <string name="st_call_settings">قائمة حظر المكالمات</string>
     <string name="st_call_intercept_stranger">حظر المكالمات من الغرباء</string>
     <string name="st_call_intercept_forwarding">حظر المكالمات المعاد توجيهها</string>
+    <string name="st_call_intercept_oversea">Block calls from abroad</string>
     <string name="st_call_intercept_reported">حظر المكالمات الواردة من الأرقام المبلغ عنها</string>
     <string name="st_call_intercept_contacts">حظر المكالمات من جهات الإتصال</string>
     <string name="st_call_intercept_unknown">حظر المكالمات من الأرقام المخفية</string>
@@ -281,6 +285,7 @@
     <string name="st_confirm_dialog_btn_open">فتح</string>
     <string name="st_confirm_dialog_summary_stranger_call">سيتم حظر جميع المكالمات من الغرياء.</string>
     <string name="st_confirm_dialog_summary_contact_call">سيتم حظر جميع المكالمات من جهات الإتصال.</string>
+    <string name="st_confirm_dialog_summary_oversea_call">Turn on to block all incoming calls from foreign phone numbers.</string>
     <string name="cta_dialog_title">اتصال الإنترنت</string>
     <string name="cta_dialog_msg">الحماية تحتاج إلى الاتصال بالإنترنت للحصول على التحديثات، وكذلك الوصول إلى الموقع للعمل بشكل طبيعي.</string>
     <string name="cta_settings">السماح بالاتصال بالإنترنت</string>
@@ -384,6 +389,7 @@
     <string name="detail_app_button">معلومات التطبيق</string>
     <string name="pref_about_traffic_title">إعدادات استخدام البيانات</string>
     <string name="pref_traffic_manage_title">استخدام البيانات</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">حد بيانات الجوال</string>
     <string name="pref_adjust_traffic_data">تعيين استخدام البيانات</string>
     <string name="pref_category_title_other">إعدادات إضافية</string>
@@ -885,6 +891,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"هذا التطبيق قد يبطئ
 جهازك"</string>
+    <string name="om_memory_clean_memory_info_text">%2$s / %1$s</string>
     <string name="om_ill_proc_handle_unstaill_title">إلغاء التثبيت %s؟</string>
     <string name="om_ill_proc_handle_uninstall_prompt">إلغاء تثبيت هذا التطبيق لإصلاح مشاكل إستخدام البطارية.</string>
     <string name="om_ill_proc_type_wakelock_title">هذا التطبيق يقوم بحظر وضع السكون ويستنزف البطارية</string>
@@ -963,7 +970,7 @@
     <string name="battery_history_seconds">%1$dث</string>
     <string name="delete">حذف</string>
     <string name="every_day">كل يوم</string>
-    <string name="legal_workday">عطلة</string>
+    <string name="legal_workday">Legal workdays</string>
     <string name="never">١ مرة</string>
     <string name="power_20s_shutdown">سيتم إيقاف الجهاز في غضون %d ثانية</string>
     <string name="boot_reminder">قم بتشغيل جهازك في وقت مجدول</string>
@@ -1273,6 +1280,7 @@
     <string name="keywords_gamebooster">لعبة؛المسرع؛King of Glory؛وضع الاداء؛عدم الازعاج؛DND؛العاب؛لعب؛ألعاب؛زيادة سرعة اللعب؛سرعة</string>
     <string name="path_gamebooster">تطبيقات النظام/الحماية/مسرع الألعاب</string>
     <string name="app_name_securitycenter">الحماية</string>
+    <string name="back_description_securitycenter">رجوع</string>
     <string name="ok">موافق</string>
     <string name="exit">خروج</string>
     <string name="cancel">إلغاء</string>
@@ -1286,6 +1294,7 @@
     <string name="menu_text_networkassistants">استخدام البيانات</string>
     <string name="menu_text_networkassistants_remain">%s متبقي</string>
     <string name="menu_text_networkassistants_danger">%s زائد</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">غ.ب</string>
     <string name="menu_text_networkassistants_unit_mb">م.ب</string>
     <string name="menu_text_networkassistants_unit_kb">ك.ب</string>
@@ -1646,6 +1655,7 @@
     <string name="card_main_deepclean_wechat_action">حذف</string>
     <string name="card_main_sectool_title">الأدوات</string>
     <string name="card_main_monthreport_action">عرض</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">اختبار الشبكة</string>
     <string name="card_main_netcheck_summary">اختبار الاتصال لمشاكل الشبكة</string>
     <string name="card_main_netcheck_action">اختبار</string>
@@ -1841,11 +1851,9 @@
     <string name="app_manager_details_electric_title">البطارية</string>
     <string name="app_manager_card_permission_title">الأذونات</string>
     <string name="app_manager_permission_startself_title">تشغيل تلقائي</string>
-    <string name="app_manager_permission_startself_summary">التطبيقات التي تبدأ تلقائيا تشغل ذاكرة الوصول العشوائي (RAM) وتستنزف البطارية بشكل أسرع</string>
     <string name="app_manager_permission_manager_title">الأذونات</string>
     <string name="app_manager_permission_notify_title">الإشعارات</string>
     <string name="app_manager_permission_power_saving_title">توفير شحن البطارية</string>
-    <string name="app_manager_permission_power_saving_summary">توفير شحن البطارية MIUI</string>
     <string name="app_manager_default_open_title">مسح الافتراضية</string>
     <string name="app_manager_default_close_summary">لم يتم تعيين الإفتراضية.</string>
     <string name="app_manager_default_open_summary">لقد اخترت تشغيل هذا التطبيق افتراضيا لبعض الإجراءات.</string>
@@ -1871,7 +1879,6 @@
     <string name="app_manager_stop_wakepath_success">تم التقييد بنجاح</string>
     <string name="app_maanger_app_uninstalled_toast">لم يتم إلغاء تثبيت هذا التطبيق</string>
     <string name="app_manager_start_by">بدأ ب%s</string>
-    <string name="app_manager_not_record">تعذر العثور على التطبيقات التي تتطلب أذونات</string>
     <string name="app_manager_uninstall_xspace_app_dlg_msg">إلغاء تثبيت التطبيقات المزدوجة سيزيل كل بيانات التطبيق.</string>
     <string name="app_manager_uninstall_with_xspace_app_dlg_msg">ستتم إزالة التطبيقات المزدوجة المتشابهة جنبا إلى جنب مع بيانات التطبيق.</string>
     <string name="app_manager_uninstall_xspace_app_dlg_title">إلغاء تثبيت التطبيقات المزدوجة؟</string>
@@ -1885,7 +1892,6 @@
     <string name="app_manager_menu_clear_data">مسح البيانات</string>
     <string name="app_manager_clear_data_dlg_title">حذف بيانات التطبيق؟</string>
     <string name="app_manager_clear_data_dlg_message">سيتم حذف جميع بيانات هذا التطبيق بشكل دائم. هذا يتضمن كل الملفات، الإعدادات، الحسابات، قواعد البيانات، إلخ.</string>
-    <string name="app_manager_clear_failed_dlg_title">مسح البيانات</string>
     <string name="app_manager_clear_failed_dlg_message">تعذر مسح البيانات من التطبيق.</string>
     <string name="app_manager_manage_space">إدارة المساحة</string>
     <string name="app_manager_permission_summary_reject">تقييد الكل</string>
@@ -1893,7 +1899,6 @@
     <string name="app_manager_powerkeeper_miui_auto">توفير شحن البطارية MIUI</string>
     <string name="app_manager_powerkeeper_restrict_bg">تقييد التطبيقات في الخلفية</string>
     <string name="app_manager_powerkeeper_no_bg">تقييد نشاط الخلفية</string>
-    <string name="app_manager_sort">ترتيب حسب</string>
     <string name="app_manager_instruction">تعليمات</string>
     <string name="app_manager_app_storage">"التخزين: "</string>
     <string name="app_manager_app_traffic">"إستخدام البيانات: "</string>
@@ -2046,7 +2051,7 @@
     <string name="boostering">جارٍ زيادة السرعة…</string>
     <string name="booster_suc">تم زيادة السرعة بنجاح</string>
     <string name="support_game_booster_tips">زيادة السرعة وتحسين تجربة الألعاب</string>
-    <string name="setting">الإعدادت</string>
+    <string name="setting">الإعدادات</string>
     <string name="loading">لحظة من فضلك…</string>
     <string name="auto_import_games">ضع جميع ألعابك في مكان واحد</string>
     <string name="game_more_improve">تقييد الأنشطة الخلفيه و سرعة التنزيل لتوفير البطارية و النطاق الترددي للألعاب</string>
@@ -2097,6 +2102,11 @@
     <string name="game_booster_close">مسرّع الألعاب متوقف</string>
     <string name="databooster_tips_title">تنبيه</string>
     <string name="databooster_tips_message">قم بتشغيله لتقييد جميع بطاقات SIM باستثناء بطاقة البيانات. أوقف تشغيل هذه الميزة إذا حدثت أخطاء في الألعاب التي تختارها.</string>
+    <string name="app_manager_permission_startself_summary">التطبيقات التي تبدأ تلقائيا تشغل ذاكرة الوصول العشوائي (RAM) وتستنزف البطارية بشكل أسرع</string>
+    <string name="app_manager_permission_power_saving_summary">توفير شحن البطارية MIUI</string>
+    <string name="app_manager_not_record">تعذر العثور على التطبيقات التي تتطلب أذونات</string>
+    <string name="app_manager_clear_failed_dlg_title">مسح البيانات</string>
+    <string name="app_manager_sort">ترتيب حسب</string>
     <string name="power_center_consume_rank">استخدام البطارية</string>
     <string name="power_center_custom_title">وضع البطارية</string>
     <string name="power_center_auto_shutdown_summary_default">قم بتشغيل جهازك أو إيقافه في وقت المحدد</string>

@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="notification_download_success_more">
+        <item quantity="other">%1$d downloaded</item>
+        <item quantity="zero">%1$d downloaded</item>
+        <item quantity="one">%1$d downloaded</item>
+        <item quantity="two">%1$d downloaded</item>
+        <item quantity="few">%1$d downloaded</item>
+        <item quantity="many">%1$d downloaded</item>
+    </plurals>
+    <plurals name="notif_title_multiple_downloading">
+        <item quantity="other">Downloading %1$d files</item>
+        <item quantity="zero">Downloading %1$d files</item>
+        <item quantity="one">Downloading %1$d file</item>
+        <item quantity="two">Downloading %1$d files</item>
+        <item quantity="few">Downloading %1$d files</item>
+        <item quantity="many">Downloading %1$d files</item>
+    </plurals>
+    <plurals name="notification_download_failed_more">
+        <item quantity="other">"Couldn't download %1$d items"</item>
+        <item quantity="zero">"Couldn't download %1$d items"</item>
+        <item quantity="one">"Couldn't download %1$d item"</item>
+        <item quantity="two">"Couldn't download %1$d items"</item>
+        <item quantity="few">"Couldn't download %1$d items"</item>
+        <item quantity="many">"Couldn't download %1$d items"</item>
+    </plurals>
     <plurals name="notif_summary_active">
-        <item quantity="other">جارٍ تنزيل %d من الملفات</item>
-        <item quantity="one">جارٍ تنزيل ملف واحد</item>
+        <item quantity="other">يتم تنزيل %d ملف</item>
+        <item quantity="zero">يتم تنزيل %d ملف</item>
+        <item quantity="one">يتم تحميل ١ ملف</item>
+        <item quantity="two">يتم تنزيل %d ملفات</item>
+        <item quantity="few">يتم تنزيل %d ملفات</item>
+        <item quantity="many">يتم تنزيل %d ملف</item>
     </plurals>
     <plurals name="notif_summary_waiting">
-        <item quantity="other">هناك %d من الملفات في وضع الانتظار</item>
-        <item quantity="one">هناك ملف واحد في وضع الانتظار</item>
+        <item quantity="other">%d ملف في الإنتظار</item>
+        <item quantity="zero">%d ملف في الإنتظار</item>
+        <item quantity="one">١ ملف في الإنتظار</item>
+        <item quantity="two">%d ملفات في الإنتظار</item>
+        <item quantity="few">%d ملفات في الإنتظار</item>
+        <item quantity="many">%d ملف في الإنتظار</item>
     </plurals>
 </resources>

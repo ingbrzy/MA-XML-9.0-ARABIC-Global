@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">توفير شحن البطارية</string>
+    <string name="app_name">البطارية والأداء</string>
     <string name="activity_title_poweroptimize">توفير شحن البطارية</string>
     <string name="activity_title_poweranalyze">اختبارالبطارية</string>
     <string name="activity_title_powerconfigure">إعدادات البطارية</string>
@@ -55,8 +55,8 @@
     <string name="screen_on">الشاشة قيد التشغيل</string>
     <string name="screen_off">الشاشة في حالة إيقاف</string>
     <string name="screen_off_10_min">الشاشة في حالة إيقاف لأكثر من ١٠ دقائق</string>
-    <string name="full_screen_enter">الدخول في وضع شاشة كاملة</string>
-    <string name="full_screen_exit">الخروج من وضع كامل الشاشة</string>
+    <string name="full_screen_enter">الدخول في وضع ملء الشاشة</string>
+    <string name="full_screen_exit">الخروج من وضع ملء الشاشة</string>
     <string name="background">التطبيق يعمل في الخلفية</string>
     <string name="set_brightness">أقصى سطوع الشاشة</string>
     <string name="set_cpufreq_max">أعلى تردد للمعالج</string>
@@ -75,7 +75,7 @@
     <string name="power_config_title">الإعدادات</string>
     <string name="power_config_app_launch_title">المقدمة</string>
     <string name="power_config_app_background_title">خلفية</string>
-    <string name="power_config_app_full_screen_title">شاشة كاملة</string>
+    <string name="power_config_app_full_screen_title">ملء الشاشة</string>
     <string name="power_config_phone_charging_title">يتم الشحن</string>
     <string name="power_config_phone_idle_title">سكون</string>
     <string name="power_config_cpu_mode_title">وضع CPU</string>
@@ -107,7 +107,7 @@
     <string name="mode_settings">الإعدادات</string>
     <string name="hide_mode_desc">عند تشغيل التطبيق في الخلفية، سيتم مراقبة أنشطته للتقليل من استخدام البطارية.</string>
     <string name="hide_mode_ultimate_desc">الوضع الأقصى مُفعل. سيتم ايقاف التطبيقات في الخلف. قم بإيقاف تشغيل توفير شحن البطارية للخروج من الوضع الأقصى.</string>
-    <string name="power_hide_mode_title">إدارة استخدام التطبيقات للبطارية</string>
+    <string name="power_hide_mode_title">البطارية والأداء</string>
     <string name="power_hide_mode_summary">توفير شحن البطارية عن طريق تقييد العمليات الخلفية للتطبيقات الفردية، Wi-Fi، اتصالات بيانات الهاتف، و استخدامات GPS</string>
     <string name="power_config_apps">توفير البطارية</string>
     <string name="app_list_title">اختر التطبيقات</string>
@@ -125,6 +125,10 @@
     <string name="sleep_config_enhance_description">كلما اكتشف MIUI أنك نائم، فإنه سيغلق التطبيقات الخلفية ويقييد إستخدام NFC، البلوتوث، GPS، بيانات الجوال و Wi-Fi، ولن تضيء الشاشة للإشعارات.</string>
     <string name="nonui_mode_config_title">الوضع الغير تفاعلي</string>
     <string name="nonui_mode_config_description">لا تضىء الشاشة للإشعارات، قم بإيقاف ضوء LED، مستشعر بصمة الاصبع، وعناصر التحكم باللمس لحفظ البطارية عند اكتشاف MIUI أنك لا تستخدم جهازك.</string>
+    <string name="power_center">الطاقة</string>
+    <string name="power_usage">استهلاك الطاقة</string>
+    <string name="power_mode">إعدادات الطاقة</string>
+    <string name="performance_category">الأداء</string>
     <string name="scenario_policies_warmcontrol">التحكم في درجة الحرارة</string>
     <string name="warm_configure">إعدادات التحكم في درجة الحرارة</string>
     <string name="important_warning">تنبيه</string>

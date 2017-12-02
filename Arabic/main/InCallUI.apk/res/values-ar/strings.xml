@@ -42,7 +42,6 @@
     <string name="onscreen_audio_mode_handset">سماعة الأذن</string>
     <string name="onscreen_audio_mode_headset">سماعة الرأس</string>
     <string name="onscreen_audio_mode_speaker">مكبر الصوت</string>
-    <string name="onscreen_audio_switch_mode">تبديل الصوت</string>
     <string name="onscreen_call_record">تسجيل</string>
     <string name="sip_call_not_support_record">لا يمكن تسجيل مكالمات SIP</string>
     <string name="onscreen_hold_text">تعليق</string>
@@ -56,7 +55,6 @@
     <string name="conference_call_description" formatted="false">%s,%s الخ إجمالي %s</string>
     <string name="conference_call_single_description" formatted="false">%s الخ. مجموع %s</string>
     <string name="separate_from_conference">مكالمة منفصلة</string>
-    <string name="callUnanswered_forwarded">إعادة توجية مكالمة لم يتم الرد عليها</string>
     <string name="caller_manage_header">مكالمة جماعية %s</string>
     <string name="incall_call_type_label_sip">مكالمة عبر الإنترنت</string>
     <string name="incoming_call_forwarded_title">إعادة توجيه مكالمات واردة</string>
@@ -65,7 +63,6 @@
     <string name="card_title_conf_call">مكالمة جماعية</string>
     <string name="card_title_video_conf_call">مكالمة فيديو جماعية</string>
     <string name="card_title_threeway_call">مكالمة ثلاثية</string>
-    <string name="card_title_incoming_call">مكالمة واردة</string>
     <string name="card_title_answering">الرد على المكالمة</string>
     <string name="card_title_answering_time_out">تعذر الرد على المكالمة، إعادة المحاولة.</string>
     <string name="card_title_call_ended">"تم إنهاء المكالمة "</string>
@@ -79,7 +76,6 @@
     <string name="card_title_in_video">فيديو</string>
     <string name="card_video_hold_swap">تبادل</string>
     <string name="onscreenEndCallText">إنهاء</string>
-    <string name="calling_via_template">الاتصال بإستخدام %s</string>
     <string name="respond_via_sms_custom_message">رسالة مخصصة</string>
     <string name="manageConferenceLabel">إدارة المكالمات الجماعية</string>
     <string name="emergency_call_dialog_number_for_display">رقم الطوارئ</string>
@@ -152,12 +148,6 @@
     <string name="antispam_provider">محدد بواسطة %s</string>
     <string name="antispam_notification_title">رقم غير معروف</string>
     <string name="suspect_info">كن حذرا من المعلومات الشخصية الخاصة بك.</string>
-    <string name="ivr_menu_list_title">قائمة الصوت</string>
-    <string name="ivr_menu_dialing_msg">يتم إعادة التوجيه…</string>
-    <string name="ivr_menu_dialing_msg_no_mute">انتقل إلى الخدمة المحددة…[تم تمكين التصحيح التلقائي للخطأ]</string>
-    <string name="ivr_menu_list_sub_menu_count_format">انقر %s</string>
-    <string name="non_ivr_menu_view_menu">عرض القائمة</string>
-    <string name="non_ivr_menu_collapse_menu">تقليص القائمة</string>
     <string name="livetalk_dial">بإستخدام حزمة شحن الرصيد</string>
     <string name="areacode_set_default">تعيين كإفتراضي</string>
     <string name="default_area_code_setting">رمز المنطقة الإفتراضي</string>
@@ -166,9 +156,6 @@
     <string name="not_activate_sim_card_content_with_operator">قم بالتحقق من بطاقة SIM%1$s (%2$s) للقيام بمكالمة باستخدام حزمة إعادة الشحن. مازال يمكنك القيام بمكالمات عادية حيث سيتم فرض رسومها عليك من قبل شركة الاتصالات.</string>
     <string name="dialog_call_ordinary_telephone">مكالمة عادية</string>
     <string name="dialog_activate_livetalk">رقم التحقق</string>
-    <string name="no_balance_title">لا يوجد رصيد كافي</string>
-    <string name="no_balance_message">لا يوجد رصيد كافي في حزمة شحن الرصيد الخاصة بك. حاول أن تقوم بمكالمة عادية بدلاً عن ذلك.</string>
-    <string name="dialog_purchase">إعادة الشحن</string>
     <string name="not_support_title">رقم غير معتمد</string>
     <string name="not_support_message">لا تدعم حزمة شحن الرصيد هذه الأرقام حالياُ. يمكنك القيام بمكالمة عادية عوضاُ عن ذلك.</string>
     <string name="livetalk_hangup">إنهاء المكالمة</string>
@@ -182,7 +169,6 @@
     <string name="can_not_call_oneself">لا يمكن الاتصال بهذا الرقم</string>
     <string name="card_title_video_call_paused">تم إيقاف الفيديو مؤقتاً</string>
     <string name="card_title_incoming_conference_call">مكالمة جماعية واردة</string>
-    <string name="video_switch_to_voice_call_prompt">التبديل لمكالمة صوتية</string>
     <string name="onscreen_change_to_voice">مكالمة صوتية</string>
     <string name="onscreen_change_to_video">مكالمة فيديو</string>
     <string name="onscreen_switch_camera">تبديل الكاميرا</string>
@@ -194,9 +180,7 @@
     <string name="notification_incoming_video_call">مكالمة فيديو واردة</string>
     <string name="onscreen_message_text">الرسائل</string>
     <string name="onscreen_close_preview_camera">إغلاق الكاميرا</string>
-    <string name="video_call_not_allowed_if_tty_enabled">إيقاف التشغيل وضع TTY اولا</string>
     <string name="upgrade_vt_prompt">التبديل لمكالمة فيديو؟</string>
-    <string name="conference_caller_name_me">أنا</string>
     <string name="incoming_answer_voice_text">رد صوتي</string>
     <string name="picking_participant">الحصول على معلومات جهة الاتصال…</string>
     <string name="conference_caller_info_name">مكالمة جماعية مع %1$s</string>
@@ -240,6 +224,10 @@
     <string name="dial_with_gsm_phone">مكالمة عادية</string>
     <string name="livetalk_left_minute">%s دقيقة متبقية</string>
     <string name="miprofile_stranger_card">بطاقة غريبة</string>
+    <string name="no_balance_message">لا يوجد رصيد كافي في حزمة شحن الرصيد الخاصة بك. حاول أن تقوم بمكالمة عادية بدلاً عن ذلك.</string>
     <string name="purchase_now">إعادة الشحن</string>
+    <string name="video_switch_to_voice_call_prompt">التبديل لمكالمة صوتية</string>
     <string name="onscreen_rcs_text">الرسائل</string>
+    <string name="video_call_not_allowed_if_tty_enabled">إيقاف التشغيل وضع TTY اولا</string>
+    <string name="conference_caller_name_me">أنا</string>
 </resources>

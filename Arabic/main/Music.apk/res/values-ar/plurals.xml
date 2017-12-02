@@ -192,6 +192,14 @@
         <item quantity="few">%dمتابعيين</item>
         <item quantity="many">%dمتابع</item>
     </plurals>
+    <plurals name="songs_count">
+        <item quantity="other">%dsongs</item>
+        <item quantity="zero">%dsongs</item>
+        <item quantity="one">%d song</item>
+        <item quantity="two">%dsongs</item>
+        <item quantity="few">%dsongs</item>
+        <item quantity="many">%dsongs</item>
+    </plurals>
     <plurals name="Nunbackup_audios">
         <item quantity="other">%1$d أغنية لم يتم نسخها احتياطياً (%2$.1fMB)</item>
         <item quantity="zero">%1$d أغاني لم يتم نسخها احتياطياً (%2$.1fMB)</item>
@@ -247,5 +255,21 @@
         <item quantity="two">تم تخطي %d أغاني. قم بتشغيل الخدمات عبر الأنترنت في الإعدادات للإستماع إليها.</item>
         <item quantity="few">تم تخطي %d أغاني. قم بتشغيل الخدمات عبر الأنترنت في الإعدادات للإستماع إليها.</item>
         <item quantity="many">تم تخطي %d أغنية. قم بتشغيل الخدمات عبر الأنترنت في الإعدادات للإستماع إليها.</item>
+    </plurals>
+    <plurals name="Nrecognize_switch_off_alert_message">
+        <item quantity="other">Has shutdown optimize album and lyric. Do you want to revert optimized info, album and lyric of %d songs?</item>
+        <item quantity="zero">Has shutdown optimize album and lyric. Do you want to revert optimized info, album and lyric of %d songs?</item>
+        <item quantity="one">Has shutdown optimize album and lyric. Do you want to revert optimized info, album and lyric of %d song?</item>
+        <item quantity="two">Has shutdown optimize album and lyric. Do you want to revert optimized info, album and lyric of %d songs?</item>
+        <item quantity="few">Has shutdown optimize album and lyric. Do you want to revert optimized info, album and lyric of %d songs?</item>
+        <item quantity="many">Has shutdown optimize album and lyric. Do you want to revert optimized info, album and lyric of %d songs?</item>
+    </plurals>
+    <plurals name="Nassociate_songs">
+        <item quantity="other">Matching album and lyric (%1$d/%2$d songs)</item>
+        <item quantity="zero">Matching album and lyric (%1$d/%2$d songs)</item>
+        <item quantity="one">Matching album and lyric (%1$d/%2$d song)</item>
+        <item quantity="two">Matching album and lyric (%1$d/%2$d songs)</item>
+        <item quantity="few">Matching album and lyric (%1$d/%2$d songs)</item>
+        <item quantity="many">Matching album and lyric (%1$d/%2$d songs)</item>
     </plurals>
 </resources>

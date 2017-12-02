@@ -9,7 +9,7 @@
     <string name="accessibility_repeats">تكرار</string>
     <string name="accessibility_sync_cal">مزامنة التقويم</string>
     <string name="accounts">الحسابات والمزامنة</string>
-    <string name="acct_not_synced">لم تتم مزامنة هذا الحساب ولذلك قد تكون تقاويمك          غير محدثة.</string>
+    <string name="acct_not_synced">لم تتم مزامنة هذا الحساب. قد تكون تقاويمك غير محدثة.</string>
     <string name="acessibility_selected_marker_description">الحدث المحدد</string>
     <string name="agenda_today">اليوم، %1$s</string>
     <string name="agenda_tomorrow">غدا، %1$s</string>
@@ -17,16 +17,16 @@
     <string name="agenda_yesterday">أمس، %1$s</string>
     <string name="alert_title">إشعارات التقويم</string>
     <string name="app_label">التقويم</string>
-    <string name="calendar_refresh">\"تحديث\"</string>
+    <string name="calendar_refresh">تحديث</string>
     <string name="change_response_title">تغيير الإستجابة</string>
     <string name="copy_email">نسخ عنوان البريد الإلكتروني</string>
     <string name="copy_number">نسخ رقم الهاتف</string>
     <string name="create_an_account_desc">"يعمل التقويم بشكل أفضل باستخدام حساب Mi.
 
 • يمكنك الوصول إليه من أي متصفح على الويب.
-• قم بنسخ الأحداث الخاصة بك احتياطيا بأمان"</string>
+• قم بنسخ الأحداث الخاصة بك احتياطيا بأمان."</string>
     <string name="creating_event">تم إنشاء الحدث</string>
-    <string name="creating_event_with_guest">سيتم إرسال الدعوات</string>
+    <string name="creating_event_with_guest">جارٍ ارسال الدعوات…</string>
     <string name="daily">يومي</string>
     <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="day_view_new_event_hint">حدث جديد</string>
@@ -44,7 +44,7 @@
     <string name="edit_event_to_label">إلى</string>
     <string name="email_guests_label">إرسال بريد إلكتروني للضيوف</string>
     <string name="email_picker_label">إرسال بريد إلكتروني إلى</string>
-    <string name="empty_event">لم يتم إنشاء حدث فارغ</string>
+    <string name="empty_event">لا يمكن إنشاء أحداث فارغة</string>
     <string name="event_create">حدث جديد</string>
     <string name="event_delete">حذف الحدث</string>
     <string name="event_edit">تعديل الحدث</string>
@@ -61,7 +61,7 @@
     <string name="hint_where">الموقع</string>
     <string name="loading">لحظة من فضلك…</string>
     <string name="menu_general_preferences">عام</string>
-    <string name="menu_preferences">الإعدادت</string>
+    <string name="menu_preferences">الإعدادات</string>
     <string name="modify_all">تغيير جميع الأحداث في السلسلة</string>
     <string name="modify_all_following">تغيير هذا وجميع الأحداث المستقبلية</string>
     <string name="modify_event">تغيير هذا الحدث فقط</string>
@@ -90,7 +90,7 @@
     <string name="response_no">لا</string>
     <string name="response_yes">نعم</string>
     <string name="saving_event">تم حفظ الحدث</string>
-    <string name="saving_event_with_guest">سيتم إرسال التحديثات</string>
+    <string name="saving_event_with_guest">جارٍ ارسال التحديثات…</string>
     <string name="search">بحث</string>
     <string name="select_synced_calendars_title">التقاويم المراد مزامنتها</string>
     <string name="show_day_view">إظهار اليوم</string>
@@ -198,12 +198,12 @@
     <string name="edit_event_reminder_summary_3_days_before">٣ أيام مقدما وفي ذلك اليوم على الساعة %1$s</string>
     <string name="edit_event_reminder_text">يوم %1$s على الساعة %2$s</string>
     <string name="edit_event_reminder_time">وقت التذكير</string>
-    <string name="edit_event_reminder_with_another_day_text">يوم %1$s, %2$s على الساعة %3$s</string>
+    <string name="edit_event_reminder_with_another_day_text">يوم %1$s ،%2$s على الساعة %3$s</string>
     <string name="edit_event_tab_anniversary">ذكرى</string>
     <string name="edit_event_tab_birthday">تاريخ ميلاد</string>
     <string name="edit_event_tab_countdown">عد تنازلي</string>
     <string name="edit_event_tab_event">حدث</string>
-    <string name="email_install_hint">تمت إزالة تثبيت البريد الإلكتروني. من خلال إعادة تثبيته، يمكنك استعادة بيانات حساب التقويم أو إضافة حساب جديد.</string>
+    <string name="email_install_hint">تم إلغاء تثبيت تطبيق البريد. قم بتثبيت البريد مجددا لإستعادة حسابات التقويم أو إضافة جديد.</string>
     <string name="english_premium_league">الدوري الإنجليزي</string>
     <string name="event_account">حساب</string>
     <string name="event_action_delete">حذف</string>
@@ -241,9 +241,9 @@
     <string name="insert_event_dialog_title">تنبيه</string>
     <string name="insert_event_toast_add_failed">تعذر الإضافة</string>
     <string name="insert_event_toast_add_success">تم إنشاء الحدث</string>
-    <string name="install_email_app">تثبيت البريد الإلكتروني</string>
-    <string name="install_email_finished">تم تثبيت البريد الإلكتروني</string>
-    <string name="installing_email">جارٍ التثبيت...</string>
+    <string name="install_email_app">تثبيت البريد</string>
+    <string name="install_email_finished">تم التثبيت بنجاح</string>
+    <string name="installing_email">جارٍ التثبيت…</string>
     <string name="item_num_selected">%1$d محدّدة</string>
     <string name="jump_date_full">انتقال إلى تاريخ</string>
     <string name="load_more_hint">تحديث أحداث %1$d</string>
@@ -273,9 +273,9 @@
     <string name="no_network">"تعذر الاتصال بالشبكة.
 تحقق من إعدادات الشبكة ثم حاول مرة أخرى."</string>
     <string name="no_network_btn">حاول مرة أخرى</string>
-    <string name="no_visiable_calendar_message">تحتاج إلى تحديد حساب تقويم. انقر على \"اختر حساب\" للمتابعة.</string>
-    <string name="no_visiable_calendar_select_account">تحديد حساب</string>
-    <string name="no_visiable_calendar_title">قم بتحديد حساب تقويم</string>
+    <string name="no_visiable_calendar_message">تحتاج إلى إضافة حساب تقويم. انقر على \"إضافة حساب\" للمتابعة.</string>
+    <string name="no_visiable_calendar_select_account">إضافة حساب</string>
+    <string name="no_visiable_calendar_title">إضافة حساب</string>
     <string name="panchang_amanta">Amanta</string>
     <string name="panchang_amanta_month">شهر أمانتا:</string>
     <string name="panchang_ayana">Ayana</string>
