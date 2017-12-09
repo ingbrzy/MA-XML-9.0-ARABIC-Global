@@ -50,20 +50,6 @@
         <item>عندما يكون الجهاز مقفل او بعد الخروج من تطبيق</item>
         <item>عندما يكون الجهاز مقفل او بعد ١ دقيقة من مغادرة تطبيق</item>
     </string-array>
-    <string-array name="sort_type">
-        <item>الحالة</item>
-        <item>اسم التطبيق</item>
-        <item>الإستخدام المتكرر</item>
-        <item>التخزين المستخدم</item>
-        <item>وقت التثبيت</item>
-    </string-array>
-    <string-array name="sort_title">
-        <item>ترتيب حسب الحالة</item>
-        <item>ترتيب حسب إسم التطبيق</item>
-        <item>ترتيب حسب الإستخدام المتكرر</item>
-        <item>ترتيب حسب التخزين المستخدم</item>
-        <item>الترتيب حسب وقت التثبيت</item>
-    </string-array>
     <string-array name="key_app_info">
         <item>install_source</item>
         <item>install_time</item>
