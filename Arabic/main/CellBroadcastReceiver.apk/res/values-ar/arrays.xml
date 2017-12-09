@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="alert_reminder_interval_entries">
+        <item>مرة واحدة</item>
+        <item>كل دقيقتين</item>
+        <item>كل ۱۵ دقيقة</item>
+        <item>إيقاف</item>
+    </string-array>
     <string-array name="alert_sound_duration_entries">
         <item>ثانيتان</item>
         <item>٤ ثوانٍ</item>
         <item>٦ ثوانٍ</item>
         <item>۸ ثوانٍ</item>
         <item>۱۰ ثوانٍ</item>
-    </string-array>
-    <string-array name="alert_reminder_interval_entries">
-        <item>مرة واحدة</item>
-        <item>كل دقيقتين</item>
-        <item>كل ۱۵ دقيقة</item>
-        <item>إيقاف</item>
     </string-array>
 </resources>

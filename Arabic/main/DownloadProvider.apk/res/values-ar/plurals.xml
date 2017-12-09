@@ -17,12 +17,12 @@
         <item quantity="many">Downloading %1$d files</item>
     </plurals>
     <plurals name="notification_download_failed_more">
-        <item quantity="other">"Couldn't download %1$d items"</item>
-        <item quantity="zero">"Couldn't download %1$d items"</item>
-        <item quantity="one">"Couldn't download %1$d item"</item>
-        <item quantity="two">"Couldn't download %1$d items"</item>
-        <item quantity="few">"Couldn't download %1$d items"</item>
-        <item quantity="many">"Couldn't download %1$d items"</item>
+        <item quantity="other">تعذر تنزيل %1$d عنصر</item>
+        <item quantity="zero">تعذر تنزيل %1$d عنصر</item>
+        <item quantity="one">تعذر تنزيل %1$d عنصر</item>
+        <item quantity="two">تعذر تنزيل %1$d عناصر</item>
+        <item quantity="few">تعذر تنزيل %1$d عناصر</item>
+        <item quantity="many">تعذر تنزيل %1$d عنصر</item>
     </plurals>
     <plurals name="notif_summary_active">
         <item quantity="other">يتم تنزيل %d ملف</item>

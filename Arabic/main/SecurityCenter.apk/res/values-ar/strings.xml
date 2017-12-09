@@ -350,10 +350,8 @@
     <string name="main_button_mi_sim_open">عرض التفاصيل</string>
     <string name="firewall_activity_lable">تقييد استخدام البيانات بالتطبيق</string>
     <string name="firewall_applist">التطبيقات</string>
-    <string name="firewall_rule_group_title_mobile">الهاتف الجوال</string>
-    <string name="firewall_rule_group_title_wifi">شبكة Wi-Fi</string>
-    <string name="firewall_fragment_tab_title_nonsys">المثبتة</string>
-    <string name="firewall_fragment_tab_title_sys">النظام</string>
+    <string name="firewall_mobile">Mobile</string>
+    <string name="firewall_wifi">Wi-Fi</string>
     <string name="firewall_fragment_sys_listempty">فارغ</string>
     <string name="firewall_fragment_nonesys_listempty">فارغ</string>
     <string name="firewall_restrict_notify_title">%s لا يمكن إستخدام الشبكة</string>
@@ -367,6 +365,7 @@
     <string name="search_result_text">تعذر العثور على أية تطبيقات</string>
     <string name="firewall_mobile_dialog_message">لن يتمكن التطبيق المثبت الاتصال بالإنترنت باستخدام بيانات الجوال عند توقف هذا التبديل.</string>
     <string name="firewall_wifi_dialog_message">لن يتمكن التطبيق المثبت الاتصال بالإنترنت باستخدام الـ Wi-Fi عند توقف هذا التبديل</string>
+    <string name="firewall_system_title">系统应用联网控制</string>
     <string name="usage_sorted_activity_lable">استخدام البيانات</string>
     <string name="usage_sorted_loading_text">لحظة من فضلك…</string>
     <string name="usage_sorted_empty_text">فارغ</string>
@@ -389,6 +388,7 @@
     <string name="detail_app_button">معلومات التطبيق</string>
     <string name="pref_about_traffic_title">إعدادات استخدام البيانات</string>
     <string name="pref_traffic_manage_title">استخدام البيانات</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">حد بيانات الجوال</string>
     <string name="pref_adjust_traffic_data">تعيين استخدام البيانات</string>
     <string name="pref_category_title_other">إعدادات إضافية</string>
@@ -890,6 +890,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"هذا التطبيق قد يبطئ
 جهازك"</string>
+    <string name="om_memory_clean_memory_info_text">%2$s / %1$s</string>
     <string name="om_ill_proc_handle_unstaill_title">إلغاء التثبيت %s؟</string>
     <string name="om_ill_proc_handle_uninstall_prompt">إلغاء تثبيت هذا التطبيق لإصلاح مشاكل إستخدام البطارية.</string>
     <string name="om_ill_proc_type_wakelock_title">هذا التطبيق يقوم بحظر وضع السكون ويستنزف البطارية</string>
@@ -1292,6 +1293,7 @@
     <string name="menu_text_networkassistants">استخدام البيانات</string>
     <string name="menu_text_networkassistants_remain">%s متبقي</string>
     <string name="menu_text_networkassistants_danger">%s زائد</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">غ.ب</string>
     <string name="menu_text_networkassistants_unit_mb">م.ب</string>
     <string name="menu_text_networkassistants_unit_kb">ك.ب</string>
@@ -1652,6 +1654,7 @@
     <string name="card_main_deepclean_wechat_action">حذف</string>
     <string name="card_main_sectool_title">الأدوات</string>
     <string name="card_main_monthreport_action">عرض</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">اختبار الشبكة</string>
     <string name="card_main_netcheck_summary">اختبار الاتصال لمشاكل الشبكة</string>
     <string name="card_main_netcheck_action">اختبار</string>
@@ -1886,8 +1889,9 @@
     <string name="app_usage_recently">مستخدمة مؤخرا</string>
     <string name="app_manager_have_not_consume">لا شيء</string>
     <string name="app_manager_menu_clear_data">مسح البيانات</string>
-    <string name="app_manager_clear_data_dlg_title">حذف بيانات التطبيق؟</string>
-    <string name="app_manager_clear_data_dlg_message">سيتم حذف جميع بيانات هذا التطبيق بشكل دائم. هذا يتضمن كل الملفات، الإعدادات، الحسابات، قواعد البيانات، إلخ.</string>
+    <string name="app_manager_clear_data_dlg_title">حذف جميع البيانات؟</string>
+    <string name="app_manager_clear_data_dlg_message">All app data, including files, settings, accounts, databases, and cache will be permanently deleted.</string>
+    <string name="app_manager_clear_dlg_title">مسح البيانات</string>
     <string name="app_manager_clear_failed_dlg_message">تعذر مسح البيانات من التطبيق.</string>
     <string name="app_manager_manage_space">إدارة المساحة</string>
     <string name="app_manager_permission_summary_reject">تقييد الكل</string>
@@ -1956,6 +1960,15 @@
     <string name="app_manager_install_other_app">تثبيت التطبيقات من مصادر غير معروفة</string>
     <string name="app_manager_disabled_by_admin">معطل بواسطة المشرف</string>
     <string name="app_manager_advanced_setting">الإعدادات المتقدمة</string>
+    <string name="app_manager_total_size">المجموع</string>
+    <string name="app_manager_code_size">حجم التطبيق</string>
+    <string name="app_manager_data_size">بيانات المستخدم</string>
+    <string name="app_manager_cache_size">ذاكرة التخزين المؤقت</string>
+    <string name="app_manager_clear_all_data">مسح جميع البيانات</string>
+    <string name="app_manager_dlg_clear_cache_title">مسح ذاكرة التخزين المؤقت؟</string>
+    <string name="app_manager_support_uninstall">يمكنك إلغاء تثبيت هذه التطبيقات</string>
+    <string name="app_manager_not_support_uninstall">لا يمكن إلغاء تثبيت هذا التطبيق</string>
+    <string name="app_manager_comuting_size">Computing…</string>
     <string name="ad_btn_default_text">معرفة المزيد</string>
     <string name="open_activity_err">لم يتم العثور على التطبيق</string>
     <string name="low_memory_warning_dialog_title">لا توجد مساحة كافية</string>
@@ -2080,7 +2093,6 @@
     <string name="net_booster_overdue_notification">جلسة زيادة سرعة الشبكة على وشك الانتهاء</string>
     <string name="net_booster_overdue_notification_tip">جلسة زيادة سرعة الشبكة على وشك الانتهاء. تجديد الجلسة؟</string>
     <string name="net_booster_expire_notification">جلسة زيادة سرعة الشبكة على وشك الانتهاء</string>
-    <string name="net_booster_expire_notification_tip">%d يوم متبقي قبل انتهاء دورة تسريع الشبكة. قم بتجديد الدورة لتجنب مشاكل سرعة الشبكة.</string>
     <string name="xunyou_pay_webview">خدمات Xunyou</string>
     <string name="xunyou_server_expired">انتهت الجلسة.</string>
     <string name="game_anti_disturb_msg">عدم الإزعاج أثناء اللعب</string>
@@ -2098,11 +2110,7 @@
     <string name="game_booster_close">مسرّع الألعاب متوقف</string>
     <string name="databooster_tips_title">تنبيه</string>
     <string name="databooster_tips_message">قم بتشغيله لتقييد جميع بطاقات SIM باستثناء بطاقة البيانات. أوقف تشغيل هذه الميزة إذا حدثت أخطاء في الألعاب التي تختارها.</string>
-    <string name="app_manager_permission_startself_summary">التطبيقات التي تبدأ تلقائيا تشغل ذاكرة الوصول العشوائي (RAM) وتستنزف البطارية بشكل أسرع</string>
-    <string name="app_manager_permission_power_saving_summary">توفير شحن البطارية MIUI</string>
-    <string name="app_manager_not_record">تعذر العثور على التطبيقات التي تتطلب أذونات</string>
-    <string name="app_manager_clear_failed_dlg_title">مسح البيانات</string>
-    <string name="app_manager_sort">ترتيب حسب</string>
+    <string name="net_booster_expire_notification_tip">%d يوم متبقي قبل انتهاء دورة تسريع الشبكة. قم بتجديد الدورة لتجنب مشاكل سرعة الشبكة.</string>
     <string name="power_center_consume_rank">استخدام البطارية</string>
     <string name="power_center_custom_title">وضع البطارية</string>
     <string name="power_center_auto_shutdown_summary_default">قم بتشغيل جهازك أو إيقافه في وقت المحدد</string>

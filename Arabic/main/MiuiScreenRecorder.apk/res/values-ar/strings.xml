@@ -7,7 +7,7 @@
     <string name="battery_not_allowed" formatted="false">لا يمكن التسجيل عند انخفاض البطارية لأقل من ۳%. تأكد من أن شحن البطارية ۲۰% على الأقل.</string>
     <string name="bit_rate">جودة الفيديو</string>
     <string name="bit_rate_summary">جودة أعلى يعني حجم اكبر للملف</string>
-    <string name="bubble_text">اضغط لبدء التسجيل</string>
+    <string name="bubble_text">اضغط للبدء</string>
     <string name="button_back">رجوع</string>
     <string name="button_clear_storage">تفريغ مساحة</string>
     <string name="button_confirm">موافق</string>

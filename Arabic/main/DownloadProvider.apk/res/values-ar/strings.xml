@@ -17,7 +17,7 @@
     <string name="permlab_downloadWithoutNotification">تنزيل الملفات بدون أي إشعارات</string>
     <string name="permdesc_downloadWithoutNotification">السماح للتطبيقات بتنزيل الملفات بدون أي إشعارات تظهر للمستخدم.</string>
     <string name="permlab_accessAllDownloads">الوصول إلى جميع تنزيلات النظام</string>
-    <string name="permdesc_accessAllDownloads">Allows the app to view and modify all downloads initiated by any app.</string>
+    <string name="permdesc_accessAllDownloads">السماح للتطبيق بعرض و تعديل جميع التنزيلات الأساسية بإي تطبيق في النظام.</string>
     <string name="download_unknown_title">&lt;بدون عنوان></string>
     <string name="notification_download_complete">تم التنزيل بنجاح.</string>
     <string name="notification_download_failed">تعذر تنزيل العناصر.</string>

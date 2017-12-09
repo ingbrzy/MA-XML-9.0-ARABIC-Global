@@ -190,11 +190,15 @@
     <string name="passport_user_reg_region_warning">لن تتمكن من تغيير بلدك / منطقتك بعد إنشاء الحساب.</string>
     <string name="passport_sync_account_data">جارٍ مزامنة معلومات الحساب…</string>
     <string name="passport_sync_account_data_failed_warning">تتم مزامنة معلومات حسابك الآن، يمكنك تسجيل الدخول باستخدام معرف حساب Mi. إذا كنت تريد تسجيل الدخول باستخدام الهاتف أو البريد الإلكتروني، انتظر حتى تتم مزامنة المعلومات بالكامل.</string>
-    <string name="passport_confirm_recycle_account_msg">%s &lt;font color=Red>疑似&lt;/font>是运营商回收后再次收买的号码，该号码下已有小米帐号，这个帐号是你的吗？</string>
+    <string name="passport_confirm_recycle_account_msg">"&lt;font color=Red>Looks like&lt;/font> the number %s has been recycled by your carrier, and there's a Mi Account associated with it. Is this account yours?"</string>
     <string name="passport_login_recycle_account_yes">نعم</string>
     <string name="passport_login_recycle_account_no">لا</string>
     <string name="passport_reg_recycle_account_yes">نعم</string>
-    <string name="passport_reg_recycle_account_no">لا</string>
+    <string name="passport_reg_recycle_account_no">No</string>
+    <string name="passport_get_innetdate_title">Check when the number went online</string>
+    <string name="passport_get_innetdate_msg">&lt;font color=Red>Looks like&lt;/font> the number %s has been recycled by your carrier. Check when the number went online?</string>
+    <string name="passport_get_innetdate_agree">Check</string>
+    <string name="passport_get_innetdate_disagree">لا</string>
     <string name="search_app_name">حساب Mi</string>
     <string name="search_mi_account">حساب Mi</string>
     <string name="search_mi_account_key_words">Mi Cloud،إعداد الحساب،معلومات دفع Mi،تسجيل الخروج</string>
@@ -254,11 +258,12 @@
     <string name="account_error_invalid_user_name">لا يمكن أن يحتوي الاسم على &lt;، >، /</string>
     <string name="account_error_shorter_user_name">يجب أن يكون الاسم أطول من ٢ حرفين</string>
     <string name="account_error_longer_user_name">الإسم لا يمكن أن يتجاوز 15 حرفاً</string>
+    <string name="account_error_user_name">اسم مستخدم غير صالح</string>
     <string name="account_error_user_birthday">تاريخ الميلاد الذي أدخلته غير صالح</string>
     <string name="account_limit_update_birthday">لايمكن تحديث تاريخ الميلاد حالياُ</string>
     <string name="account_user_other_info">المزيد من المصادر</string>
     <string name="account_user_region">البلد</string>
-    <string name="account_global_region">Overseas</string>
+    <string name="account_global_region">دولي</string>
     <string name="account_user_location">الموقع</string>
     <string name="account_user_location_title">تحديد الموقع الحالي</string>
     <string name="account_user_education">التعليم</string>
@@ -313,13 +318,13 @@
     <string name="update_email_address_dialog_title">تحديث البريد الإلكتروني</string>
     <string name="update_email_address_dialog_message">تحتاج إلى تأكيد هويتك قبل التمكن من تحديث البريد الإلكتروني.</string>
     <string name="update_phone_notice">تغيير إعدادات الحماية</string>
-    <string name="no_phone">بدون رقم هاتف</string>
+    <string name="no_phone">لا يوجد رقم هاتف</string>
     <string name="action_update_phone">تغيير رقم الهاتف</string>
-    <string name="action_add_phone">إضافة رقم هاتف</string>
-    <string name="phone_num_use_for">رقم الهاتف يستخدم لـ:</string>
+    <string name="action_add_phone">أضف رقم هاتف</string>
+    <string name="phone_num_use_for">يستخدم رقم الهاتف لـ:</string>
     <string name="sign_in">جارٍ تسجيل الدخول</string>
     <string name="get_back_pwd">إعادة تعيين كلمة المرور</string>
-    <string name="identity">هوية</string>
+    <string name="identity">الهوية</string>
     <string name="set_success">تم التغيير بنجاح</string>
     <string name="account_user_details">معلومات شخصية</string>
     <string name="account_security">حماية الحساب</string>
@@ -446,5 +451,9 @@
     <string name="account_token_expired_msg">"إنتهت صلاحية رمز التحقق، ابدأ من جديد أو قم بتسجيل الخروج من
 معرف حساب الخاص بك: %s"</string>
     <string name="bind_safe_phone_msg">إضف رقم هاتفك لتتمكن من تسجيل الدخول إلى حساب Mi الخاص بك في المرة القادمة.</string>
-    <string name="account_notification_message">انتهت الجلسة. سجل الدخول مرة أخرى.</string>
+    <string name="account_notification_message">> انتهت صلاحية الجلسة. سجل الدخول مرة أخرى.</string>
+    <string name="sim_changed_notification_title">هل غيرت رقم هاتفك؟</string>
+    <string name="sim_changed_notification_msg">انقر لتحديث رقم الاسترداد.</string>
+    <string name="recycle_phone_notification_title">مخاطر حساب Mi الأمنية</string>
+    <string name="recycle_phone_notification_msg">يبدو انه تم إعادة استخدام رقم الهاتف. انقر للتحديث.</string>
 </resources>

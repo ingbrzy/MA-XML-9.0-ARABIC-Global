@@ -57,6 +57,7 @@
     <string name="save_pic_success">حفظ الصورة إلى %s</string>
     <string name="save_pic_fail">تعذر حفظ الصورة. تحقق من بطاقة الـ SD الخاصة بك</string>
     <string name="pic_not_exist">هذه الصورة غير موجودة</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">تحديد منتج</string>
     <string name="michat_skillset_business_type_title">تحديد خدمة</string>
     <string name="michat_close_text">انتهت الدردشة</string>
@@ -152,7 +153,7 @@
     <string name="network_err">لا يمكن الاتصال بالشبكة.</string>
     <string name="refresh">تحديث</string>
     <string name="announcement">تنبيه</string>
-    <string name="app_empty">لم تقوم بتنزيل أي تطبيقات بعد.</string>
+    <string name="app_empty">تعذر العثور على تطبيقات.</string>
     <string name="screen_lock">قفل الشاشة</string>
     <string name="systemui">مركز الإشعارات</string>
     <string name="cta_dialog_title">اتصال الإنترنت</string>
@@ -279,6 +280,7 @@
     <string name="title_answer_feedback_main">لقد وجدنا إجابات!</string>
     <string name="title_same_question_feedback_main">مشاكل مماثلة في منتدى MIUI</string>
     <string name="related_question_answer_details">مشكلة ذات صلة</string>
+    <string name="issue_search">بحث</string>
     <string name="module_item_more">المزيد</string>
     <string name="module_item_less">إخفاء</string>
     <string name="feedback_guess">تخميننا</string>
@@ -296,6 +298,7 @@
     <string name="module_more">المزيد</string>
     <string name="module_search">بحث</string>
     <string name="module_google_apps">تطبيقات Google</string>
+    <string name="app_search">البحث عن تطبيقات</string>
     <string name="feedback_submit_hint">قم بالإبلاغ عن المشاكل في كل مرة تواجهك لمساعدتنا في حلها بشكل أسرع.</string>
     <string name="feedback_submit_hint_gone">رسالة مغلقة</string>
     <string name="toast_post_deleted">هذا الموضوع غير موجود، تم حذف أو تم تعديله.</string>

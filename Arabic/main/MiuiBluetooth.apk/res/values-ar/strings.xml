@@ -44,5 +44,5 @@
     <string name="unbind_device_alert_ok">إلغاء الإقتران</string>
     <string name="unbind_device_alert_cancel">إلغاء</string>
     <string name="ok_button">موافق</string>
-    <string name="bluetooth_device_context_unpair">Unpair</string>
+    <string name="bluetooth_device_context_unpair">إلغاء الإقتران</string>
 </resources>

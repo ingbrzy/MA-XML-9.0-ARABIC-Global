@@ -97,6 +97,7 @@
     <string name="call_sim_menu_title_suffix">(الأساسي)</string>
     <string name="call_telex">الاتصال بالتلكس</string>
     <string name="call_tty_tdd">الاتصال بـ TTY/TDD</string>
+    <string name="call_type_and_date">%1$s %2$s</string>
     <string name="call_unit">CNY</string>
     <string name="call_work">الاتصال بالعمل</string>
     <string name="call_work_mobile">الاتصال بالهاتف الجوال للعمل</string>
@@ -264,7 +265,7 @@
     <string name="contacts_unavailable_create_contact">إنشاء جهة اتصال جديدة</string>
     <string name="contacts_unavailable_import_contacts">استيراد من ملف</string>
     <string name="contacts_unavailable_import_from_old_device">استيراد من جهاز أقدم</string>
-    <string name="contacts_unavailable_import_sim_contacts">استيراد جهات اتصال SIM</string>
+    <string name="contacts_unavailable_import_sim_contacts">استيراد جهات اتصال بطاقة SIM</string>
     <string name="convenient_service">الخدمات</string>
     <string name="copy_number">نسخ</string>
     <string name="copy_text">نسخ إلى الحافظة</string>
@@ -449,7 +450,7 @@
     <string name="export_to_sim2">تصدير إلى بطاقة SIM 2</string>
     <string name="export_to_sim_prepare_title">جارٍالتجهيز…</string>
     <string name="export_to_sim_title">جارٍ التصدير…</string>
-    <string name="export_vcard_description">تصدير vCard إلى وحدة التخزين الداخلية بالهاتف</string>
+    <string name="export_vcard_description">تصدير vCard إلى ذاكرة الهاتف</string>
     <string name="exporting_contact_failed_message">لم يتم تصدير بيانات جهة الاتصال.nلسبب: \"%s\"</string>
     <string name="exporting_contact_failed_title">تعذر التصدير</string>
     <string name="exporting_contact_list_message">جارٍ التصدير إلى %s.</string>
@@ -479,6 +480,7 @@
     <string name="force_touch_new_contact">جهة اتصال جديدة</string>
     <string name="foundTooManyContacts">تم العثور على أكثر من %d جهة اتصال.</string>
     <string name="frequentList">متكرر</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">الاسم</string>
     <string name="gallery">المعرض</string>
     <string name="generic_no_account_prompt">حافظ على جهات اتصالك آمنة حتى إذا فقدت هاتفك: عليك بمزامنتها مع الخدمة عبر الإنترنت.</string>
@@ -524,7 +526,7 @@
     <string name="import_all_vcard_string">استيراد جميع ملفات vCard</string>
     <string name="import_contact_card_aggregate_suggestion_button">دمج البطاقات</string>
     <string name="import_contact_card_button">استيراد جهات الاتصال</string>
-    <string name="import_failure_no_vcard_file">لم يتم العثور على ملفات vCard في وحدة التخزين.</string>
+    <string name="import_failure_no_vcard_file">لم يتم العثور على ملفات vCard على الجهاز.</string>
     <string name="import_from_onekey_migrate">استيراد بإستخدام ناقل Mi</string>
     <string name="import_from_other_phone">استيراد من هاتف آخر</string>
     <string name="import_from_sdcard">استيراد من وحدة التخزين</string>
@@ -536,7 +538,7 @@
     <string name="import_one_vcard_string">استيراد ملف vCard</string>
     <string name="import_percent">٠%</string>
     <string name="import_selected_sim_entries_miui">استيراد جهات الاتصال المحددة</string>
-    <string name="import_sim_contacts_hint_title">استيراد جهات اتصال SIM</string>
+    <string name="import_sim_contacts_hint_title">استيراد جهات اتصال بطاقة SIM</string>
     <string name="import_sim_entries_finish">جهات الاتصال المستوردة من بطاقة الـSIM</string>
     <string name="import_sim_entry_miui">استيراد</string>
     <string name="import_to_xiaomi_account_confirm">استيراد</string>
@@ -544,7 +546,7 @@
     <string name="import_to_xiaomi_account_progress_message">جارٍ الاستيراد…</string>
     <string name="import_to_xiaomi_account_progress_title">استيراد جهات الاتصال إلى حساب Mi</string>
     <string name="import_to_xiaomi_account_title">استيراد إلى حساب Mi</string>
-    <string name="import_vcard_description">استيراد جهات اتصال من وحدة التخزين الداخلية بهاتفك</string>
+    <string name="import_vcard_description">استيراد جهات الاتصال من ذاكرة الهاتف</string>
     <string name="import_vcard_dialog_message">استيراد vCard؟</string>
     <string name="importing_sim_contacts_miui">Importing contacts from SIM card…</string>
     <string name="importing_sim_contacts_miui_prepare">جارٍ إعداد جهات الاتصال…</string>
@@ -661,6 +663,7 @@
     <string name="miprofile_contact_header">جهات الاتصال مع بطاقات جهة اتصال</string>
     <string name="miprofile_contact_meaasge">جهات الاتصال المحلية</string>
     <string name="miprofile_contact_verifying">تحقق</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">تعديل الملف الشخصي</string>
     <string name="miprofile_error_accept_self">لا يمكن تبادل بطاقة جهة الاتصال الخاصة بك</string>
     <string name="miprofile_error_no_miaccount">تسجيل الدخول إلى حساب Mi</string>
@@ -812,6 +815,8 @@
     <string name="path_wipe_data">تطبيقات النظام/جهات الاتصال/تنظيم جهات الاتصال/مسح البيانات</string>
     <string name="payphone">هاتف عمومي</string>
     <string name="people">جهات الاتصال</string>
+    <string name="percent_sign">%</string>
+    <string name="percentage">%s%%</string>
     <string name="phoneLabelsGroup">الهاتف</string>
     <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">الرقم طويل جداً</string>
@@ -1045,6 +1050,7 @@
     <string name="sim_unloaded">بطاقة SIM غير مثبتة</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">لا توجد أعضاء في المجموعة</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">الشركات</string>
     <string name="smart_group_company_unavailable">لا توجد معلومات عن الشركة</string>
     <string name="smart_group_frequency_1">خلال الشهر الماضي</string>
@@ -1174,12 +1180,13 @@
     <string name="voip_audio_description">مكالمة VoIP</string>
     <string name="voip_video_description">مكالمة فيديو VoIP</string>
     <string name="websiteLabelsGroup">موقع ويب</string>
+    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="wipe_data">مسح البيانات</string>
     <string name="yellowPageNavigationIconLabel">الصفحات الصفراء</string>
     <string name="yellowPageNavigationLabel">الصفحات الصفراء</string>
     <string name="yellowpage_fc_toast">لا يمكن إستخدام هذه الميزة بسبب تعطل الصفحات الصفراء.</string>
     <string name="yellowpage_navigation_ad_hint">اعلان</string>
-    <string name="yellowpage_navigation_balance_refresh_failed">تعذر التحقق من الرصيد وبيانات الجوال،          حاول مرة أخرى لاحقاََ.</string>
+    <string name="yellowpage_navigation_balance_refresh_failed">تعذر التحقق من الرصيد وبيانات الجوال،          يرجى إعادة المحاولة لاحقاََ.</string>
     <string name="yellowpage_navigation_balance_refresh_succeed">تم التحقق من التوازن و بيانات الجوال</string>
     <string name="yellowpage_navigation_clear_search_history">مسح السجل</string>
     <string name="yellowpage_navigation_more_items">المزيد</string>

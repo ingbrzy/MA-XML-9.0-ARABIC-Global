@@ -106,6 +106,7 @@
     <string name="package_filter">حزم</string>
     <string name="other_filter">أخرى</string>
     <string name="xunlei_brand">مدعوم من Xunlei</string>
+    <string name="xunlei_brand_url">http://mobile.xunlei.com</string>
     <string name="xunlei_switch">محرك تنزيل Xunlei</string>
     <string name="turn_off_xunlei_title">إيقاف تشغيل Xunlei</string>
     <string name="turn_off_xunlei_message">قد تواجه سرعات تنزيل أبطئ.</string>
@@ -146,8 +147,8 @@
     <string name="download_list_open_xl_message">سيساعد مسرع Xunlei على تسريع التنزيلات.</string>
     <string name="download_list_open_xl_ok">موافق</string>
     <string name="download_list_open_xl_cancel">إلغاء</string>
-    <string name="download_list_intoAuth">Verify your account</string>
-    <string name="download_list_intoAuthAlert">Just a sec…</string>
+    <string name="download_list_intoAuth">التحقق من حسابك</string>
+    <string name="download_list_intoAuthAlert">لحظة من فضلك…</string>
     <string name="unbind_xunlei_success">تم تسجيل الخروج من حساب Xunlei</string>
     <string name="unbind_xunlei_2_success">تمت إضافة حساب Xunlei</string>
     <string name="privacy_tip_title">استخدام مسرع Xunlei؟</string>
@@ -331,6 +332,8 @@
     <string name="xl_vip_open">الشراء</string>
     <string name="xl_vip_pay">تمديد</string>
     <string name="xl_vip_overdue">انتهت صلاحيتها</string>
+    <string name="download_num_size">%1$s | %2$s</string>
+    <string name="app_size">%1$s</string>
     <string name="ad_title">قام اشخاص ايضاً بتنزيل هذه مع  %1$s </string>
     <string name="rank_data_empty">لا يوجد تصنيف</string>
     <string name="net_error">لا يمكن الاتصال بالشبكة، حاول مجدداً</string>
