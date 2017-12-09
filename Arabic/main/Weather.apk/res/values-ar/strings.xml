@@ -60,7 +60,6 @@
     <string name="share_title">مشاركة الطقس</string>
     <string name="share_weather_desc_split">،</string>
     <string name="share_weather_desc">\#طقس MIUI#اليوم %1$s %2$s</string>
-    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="hourly_forcast_now">الآن</string>
     <string name="sunrise">الشروق</string>
     <string name="sunset">الغروب</string>
@@ -154,11 +153,9 @@
     <string name="install">تثبيت</string>
     <string name="open">إفتح</string>
     <string name="open_now">فتح</string>
-    <string name="install_progress">%1$s%%</string>
     <string name="daily_forecast_detail_date">M/d</string>
     <string name="hourly_forecast_date">M/d</string>
     <string name="aqi_publish_source">تم تحديثه %1$s بواسطة CNEMC</string>
-    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="aqi_data_source">مدعوم من Colorful Clouds</string>
     <string name="traffic_controls">مساحة الطريق التموينية</string>
     <string name="traffic_control_today_numbers">اليوم: %1$s</string>
@@ -175,7 +172,6 @@
     <string name="international_details_uv_index_title">مؤشر الأشعة فوق البنفسجية</string>
     <string name="international_details_pressure_title">الضغط</string>
     <string name="pressure_connect">%1$s ميلي بار</string>
-    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="weather_alert">تنبيهات الطقس</string>
     <string name="edit_alert_city_title">إدارة التنبيهات</string>
     <string name="aqi_detail_unit">الوحدة: µg/m³</string>
@@ -242,8 +238,6 @@
     <string name="minute_rain_pull_down_refresh">إسحب لأسفل للتحديث</string>
     <string name="minute_rain_refreshing_now">جارٍ التحديث…</string>
     <string name="minute_rain_let_go_refresh">حرّره للتحديث</string>
-    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
-    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="alert_detail_title">تفاصيل التنبيه</string>
     <string name="aqi_quality_map_title">خريطة جودة الهواء</string>
     <string name="aqi_station_min_distance_station">أقرب محطة</string>

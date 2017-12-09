@@ -6,7 +6,6 @@
     <string name="sina_token_expired_warning">إنتهت صلاحية حساب Weibo، قم بإضافة الحساب مرة أخرى.</string>
     <string name="sina_token_invalid_warning">حساب Weibo غير صالح، قم بإضافة الحساب مرة أخرى.</string>
     <string name="sina_share_fail_content_repeat">لقد قمت بمشاركة هذا مسبقا.</string>
-    <string name="search_title_notes">@string/app_name</string>
     <string name="search_keyword_notes">الملاحظات;المذكرة</string>
     <string name="search_path_notes">تطبيقات النظام/الملاحظات</string>
     <string name="dlg_move_message">جارٍ النقل…</string>
@@ -119,7 +118,6 @@
     <string name="error_unsupport_content">هذه الملاحظه تحتوي على محتوى غير مدعوم، المس هنا للتحديث</string>
     <string name="error_contact_not_exist">جهة اتصال غير موجودة</string>
     <string name="sync_tips">انقر لمزامنة الملاحظات مع Mi Cloud.</string>
-    <string name="micloud_state_total_count">%1$s</string>
     <string name="pref_title_font_size">حجم الخط</string>
     <string name="call_folder_name">ملاحظات المكالمات</string>
     <string name="trash_folder_name">المهملات</string>
