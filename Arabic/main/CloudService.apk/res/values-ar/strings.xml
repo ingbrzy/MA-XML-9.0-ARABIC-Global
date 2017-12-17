@@ -65,8 +65,6 @@
     <string name="sync_dspt_provision_title">Mi Cloud</string>
     <string name="sync_dspt_provision_header">المزامنة</string>
     <string name="sync_dspt_provision">"مزامنة الصور, جهات الاتصال, الملاحظات والمزيد على جميع أجهزتك أو الوصول إليها على "</string>
-    <string name="sync_dspt_provision2">i.mi.com</string>
-    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">". يمكنك تشغيل أو إيقاف تشغيل هذه الميزة في أي وقت من الإعدادات.
 "</string>
     <string name="sync_dspt_entrance_provision">يساعدك Mi Cloud على مزامنة الصور، جهات الإتصال وغيرها من العناصر عبر الأجهزة. يمكنك الدخول إلى العناصر التي تمت مزامنتها في أي مكان في %s.</string>
@@ -78,8 +76,6 @@
     <string name="sync_dspt_entrance_provision_skip">تخطي هذه الخطوة</string>
     <string name="sync_dspt_entrance_provision_network">يحتاج هذا التطبيق للاتصال بالإنترنت للعمل بشكل طبيعي. قد نتطلب مزامنة البيانات الاتصال بشبكة البيانات وفتح الـ WiFi.</string>
     <string name="find_device_dspt_provision">إذا فقدت الجهاز، يمكنك الذهاب إلى %s لتحديد موقعه أو قفله أو استعادته. يمكنك تشغيل أو إيقاف تشغيل هذه الميزة في أي وقت من الإعدادات.</string>
-    <string name="find_device_dspt_provision_2">i.mi.com</string>
-    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_dspt_provision_3">. يمكنك تشغيل أو إيقاف تشغيل هذه الميزة في أي وقت من الإعدادات.</string>
     <string name="find_device_dspt_provision_4">إذا قمت بتبديل بطاقات SIM، سيتم أرسال رسالة نصية قصيرة تلقائيًا لتفعيل هذه الميزة.</string>
     <string name="find_device_send_sms_alert">إذا قمت بتبديل بطاقات الـ SIM، سيتم تلقائياً إرسال رسالة نصية قصيرة أخرى لتفعيل هذة الميزة.</string>
@@ -131,7 +127,6 @@
     <string name="find_device_error_server">خطأ في الخادم</string>
     <string name="find_device_success_title">العثور على الجهاز</string>
     <string name="find_device_notice_p1">الذهاب إلى</string>
-    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">"لتحديد موقع أو قفل أو استعادة هاتفك.
 إذا قمت بتبديل بطاقات SIM، سيتم إرسالة رسالة نصية قصيرة أخرى تلقائيًا لتفعيل هذه الميزة."</string>
     <string name="i_know">موافق</string>
@@ -484,8 +479,6 @@
     <string name="micloud_find_device_opened">العثور على الجهاز يعمل</string>
     <string name="micloud_find_device_open_fail">تعذر تشغيل العثور على الجهاز</string>
     <string name="micloud_find_device_opened_content">العثور على جهازك في %s</string>
-    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
-    <string name="micloud_find_device_opened_content_url_int">www.mi.com/micloud</string>
     <string name="micloud_find_device_verify_fail">تعذر إعادة تفعيل العثور على الجهاز</string>
     <string name="micloud_find_device_close_fail">تعذر إيقاف تشغيل العثور على الجهاز</string>
     <string name="micloud_find_device_finish">تم</string>
