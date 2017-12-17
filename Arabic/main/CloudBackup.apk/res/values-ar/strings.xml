@@ -51,6 +51,8 @@
     <string name="self_phone">هذا الهاتف</string>
     <string name="process_whole_recovery">الاستعادة \"%s\"</string>
     <string name="device_xiaomi">هاتف Mi</string>
+    <string name="device_corrupt">Mi Phone (Data corrupt)</string>
+    <string name="size_unknown">Size unknown</string>
     <string name="recovering">استعادة \"%s\"</string>
     <string name="start_recover">استعادة \"%s\"</string>
     <string name="latest_backup_time_loading">جارٍ التحميل…</string>
@@ -58,7 +60,6 @@
     <string name="backing_up_to_micloud">جارٍ النسخ الاحتياطي…</string>
     <string name="restore_from_cloud">إستعادة من نسخ Mi Cloud الإحتياطي</string>
     <string name="backup_to_cloud">نسخ التطبيق احتياطيًا</string>
-    <string name="restoring_file_tile">إستعادة %d ملفات</string>
     <string name="menu_item_sort">ترتيب حسب</string>
     <string name="menu_item_sort_name">الإسم</string>
     <string name="menu_item_sort_size">الحجم</string>

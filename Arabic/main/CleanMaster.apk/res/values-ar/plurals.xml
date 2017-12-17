@@ -145,12 +145,12 @@
         <item quantity="many">تعذر تصدير %d فيديو. قم بتفريغ المساحة ثم حاول مجددا</item>
     </plurals>
     <plurals name="wechat_empty_files">
-        <item quantity="other">( %1$d ملف فارغ) %2$s</item>
-        <item quantity="zero">( %1$d ملف فارغ) %2$s</item>
-        <item quantity="one">( %1$d ملف فارغ) %2$s</item>
-        <item quantity="two">( %1$d ملفات فارغة) %2$s</item>
-        <item quantity="few">( %1$d ملفات فارغة) %2$s</item>
-        <item quantity="many">( %1$d ملف فارغ) %2$s</item>
+        <item quantity="other">(%1$d empty files)</item>
+        <item quantity="zero">(%1$d empty files)</item>
+        <item quantity="one">(%1$d empty file)</item>
+        <item quantity="two">(%1$d empty files)</item>
+        <item quantity="few">(%1$d empty files)</item>
+        <item quantity="many">(%1$d empty files)</item>
     </plurals>
     <plurals name="app_usage_day">
         <item quantity="other">لم يستخدم لمدة %d يوم</item>

@@ -50,6 +50,11 @@
         <item>عندما يكون الجهاز مقفل او بعد الخروج من تطبيق</item>
         <item>عندما يكون الجهاز مقفل او بعد ١ دقيقة من مغادرة تطبيق</item>
     </string-array>
+    <string-array name="lock_mode_value">
+        <item>١</item>
+        <item>٠</item>
+        <item>٢</item>
+    </string-array>
     <string-array name="sort_type">
         <item>الحالة</item>
         <item>اسم التطبيق</item>
@@ -81,6 +86,10 @@
     <string-array name="sms_report_type">
         <item>استخدام البيانات</item>
         <item>رصيد الهاتف</item>
+    </string-array>
+    <string-array name="tether_limit_warn_type">
+        <item>إيقاف و إشعار</item>
+        <item>الإعلام فقط</item>
     </string-array>
     <string-array name="alarm_repeat_type">
         <item>مرة</item>
@@ -123,5 +132,10 @@
         <item>عدم الاهتزاز أبداً</item>
         <item>اهتزاز في الوضع الصامت</item>
         <item>الاهتزاز دائماً</item>
+    </string-array>
+    <string-array name="power_dialog_vibration_items_values">
+        <item>٠</item>
+        <item>١</item>
+        <item>٢</item>
     </string-array>
 </resources>

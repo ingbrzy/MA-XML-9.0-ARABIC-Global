@@ -84,8 +84,8 @@
     <string name="passport_delete_account">تسجيل خروج</string>
     <string name="passport_vcode_notification_title">التحقق من تسجيل الدخول غير مكتمل</string>
     <string name="passport_account_name">الحساب: %1$s</string>
-    <string name="passport_account_hint_text">البريد الإلكتروني، رقم الهاتف أو هوية حساب Mi</string>
-    <string name="passport_email_or_id_hint_text">عنوان البريد الإلكتروني أو هوية حساب Mi</string>
+    <string name="passport_account_hint_text">البريد الإلكتروني/رقم الهاتف/معرف الحساب Mi</string>
+    <string name="passport_email_or_id_hint_text">البريد الالكتروني/معرف حساب Mi</string>
     <string name="passport_phone_num_hint_text">رقم الهاتف</string>
     <string name="passport_input_password_hint">ادخل كلمة المرور</string>
     <string name="passport_input_captcha_hint">أدخل الرمز</string>
@@ -194,10 +194,10 @@
     <string name="passport_login_recycle_account_yes">نعم</string>
     <string name="passport_login_recycle_account_no">لا</string>
     <string name="passport_reg_recycle_account_yes">نعم</string>
-    <string name="passport_reg_recycle_account_no">No</string>
+    <string name="passport_reg_recycle_account_no">لا</string>
     <string name="passport_get_innetdate_title">Check when the number went online</string>
     <string name="passport_get_innetdate_msg">&lt;font color=Red>Looks like&lt;/font> the number %s has been recycled by your carrier. Check when the number went online?</string>
-    <string name="passport_get_innetdate_agree">Check</string>
+    <string name="passport_get_innetdate_agree">التحقق</string>
     <string name="passport_get_innetdate_disagree">لا</string>
     <string name="search_app_name">حساب Mi</string>
     <string name="search_mi_account">حساب Mi</string>

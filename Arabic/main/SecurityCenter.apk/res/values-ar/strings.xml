@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="fw_blocked">قائمة الحظر</string>
-    <string name="fw_oversea">Block calls from abroad</string>
+    <string name="fw_oversea">حظر المكالمات من الخارج</string>
     <string name="fw_blocked_count">"تم حظر "</string>
     <string name="fw_blocked_join">" و "</string>
-    <string name="fw_oversea_content">Block incoming calls from foreign phone numbers</string>
+    <string name="fw_oversea_content">حظر المكالمات الواردة من أرقام الهواتف الغريبة</string>
     <string name="tab_title">قائمة الحظر</string>
     <string name="tab_blacklist">قائمة الحظر</string>
     <string name="tab_sms">الرسائل</string>
@@ -134,7 +134,7 @@
     <string name="call_contact_block">حظر المكالمات من جهات الإتصال</string>
     <string name="call_transfer_block">حظر المكالمات المعاد توجيهها</string>
     <string name="call_cloud_block">قائمة حظر Cloud</string>
-    <string name="call_oversea_block">Block calls from abroad</string>
+    <string name="call_oversea_block">حظر المكالمات من الخارج</string>
     <string name="mark_fraud_block">المبلغ عنه كمزعج</string>
     <string name="mark_agent_block">المبلغ عنه كوكالة</string>
     <string name="mark_sell_block">مبلغ عنه كمسوق عبر الهاتف</string>
@@ -273,7 +273,7 @@
     <string name="st_call_settings">قائمة حظر المكالمات</string>
     <string name="st_call_intercept_stranger">حظر المكالمات من الغرباء</string>
     <string name="st_call_intercept_forwarding">حظر المكالمات المعاد توجيهها</string>
-    <string name="st_call_intercept_oversea">Block calls from abroad</string>
+    <string name="st_call_intercept_oversea">حظر المكالمات من الخارج</string>
     <string name="st_call_intercept_reported">حظر المكالمات الواردة من الأرقام المبلغ عنها</string>
     <string name="st_call_intercept_contacts">حظر المكالمات من جهات الإتصال</string>
     <string name="st_call_intercept_unknown">حظر المكالمات من الأرقام المخفية</string>
@@ -285,7 +285,7 @@
     <string name="st_confirm_dialog_btn_open">فتح</string>
     <string name="st_confirm_dialog_summary_stranger_call">سيتم حظر جميع المكالمات من الغرياء.</string>
     <string name="st_confirm_dialog_summary_contact_call">سيتم حظر جميع المكالمات من جهات الإتصال.</string>
-    <string name="st_confirm_dialog_summary_oversea_call">Turn on to block all incoming calls from foreign phone numbers.</string>
+    <string name="st_confirm_dialog_summary_oversea_call">تشغيل لحظر المكالمات الواردة من أرقام الهواتف الغريبة.</string>
     <string name="cta_dialog_title">اتصال الإنترنت</string>
     <string name="cta_dialog_msg">الحماية تحتاج إلى الاتصال بالإنترنت للحصول على التحديثات، وكذلك الوصول إلى الموقع للعمل بشكل طبيعي.</string>
     <string name="cta_settings">السماح بالاتصال بالإنترنت</string>
@@ -350,7 +350,7 @@
     <string name="main_button_mi_sim_open">عرض التفاصيل</string>
     <string name="firewall_activity_lable">تقييد استخدام البيانات بالتطبيق</string>
     <string name="firewall_applist">التطبيقات</string>
-    <string name="firewall_mobile">Mobile</string>
+    <string name="firewall_mobile">Mobile data</string>
     <string name="firewall_wifi">Wi-Fi</string>
     <string name="firewall_fragment_sys_listempty">فارغ</string>
     <string name="firewall_fragment_nonesys_listempty">فارغ</string>
@@ -365,7 +365,7 @@
     <string name="search_result_text">تعذر العثور على أية تطبيقات</string>
     <string name="firewall_mobile_dialog_message">لن يتمكن التطبيق المثبت الاتصال بالإنترنت باستخدام بيانات الجوال عند توقف هذا التبديل.</string>
     <string name="firewall_wifi_dialog_message">لن يتمكن التطبيق المثبت الاتصال بالإنترنت باستخدام الـ Wi-Fi عند توقف هذا التبديل</string>
-    <string name="firewall_system_title">系统应用联网控制</string>
+    <string name="firewall_system_title">Data usage for system apps</string>
     <string name="usage_sorted_activity_lable">استخدام البيانات</string>
     <string name="usage_sorted_loading_text">لحظة من فضلك…</string>
     <string name="usage_sorted_empty_text">فارغ</string>
@@ -388,6 +388,7 @@
     <string name="detail_app_button">معلومات التطبيق</string>
     <string name="pref_about_traffic_title">إعدادات استخدام البيانات</string>
     <string name="pref_traffic_manage_title">استخدام البيانات</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">حد بيانات الجوال</string>
     <string name="pref_adjust_traffic_data">تعيين استخدام البيانات</string>
     <string name="pref_category_title_other">إعدادات إضافية</string>
@@ -651,6 +652,7 @@
     <string name="traffic_warning_purchase_title">تحذير استخدام بيانات جوال</string>
     <string name="traffic_purchase_body">اضغط إعادة شحن رصيدك.</string>
     <string name="traffic_over_purchase_link">"تجاوزت حد استخدام بيانات خطة جوالك.&lt;br/>إذا تجاوزت حد استخدام بيانات خطتك، يمكن أن تفرض عليك شركة الاتصالات مصاريفًا إضافية.&lt;br/>&lt;br/>&lt;font color='#ccffffff'>&lt;U>اضغط لإعادة شحن رصيدك.&lt;/U>&lt;/font>"</string>
+    <string name="more_settings">المزيد</string>
     <string name="repair_loading_text">لحظة من فضلك…</string>
     <string name="network_diagnostics">اختبار الشبكة</string>
     <string name="btn_start_diagnostic">اختبار الشبكة</string>
@@ -828,6 +830,16 @@
     <string name="status_bar_network_flow_content">اليوم: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp; المتبقي: %2$s</string>
     <string name="status_bar_network_flow_content_not_setting">اليوم: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp; هذا الشهر: %2$s</string>
     <string name="status_bar_network_flow_today">اليوم: %1$s</string>
+    <string name="pref_key_tethering_setting">حد بيانات لمرة واحدة</string>
+    <string name="pref_key_tethering_title">حد بيانات لمرة واحدة</string>
+    <string name="tether_limit_value_custom">مخصص</string>
+    <string name="tether_limit_dialog_title">حد بيانات الجوال</string>
+    <string name="tether_custom_dialog_title">حد بيانات الجوال</string>
+    <string name="tether_over_limit_warning_notify_title">Reached hotspot data limit</string>
+    <string name="tether_over_limit_warning_notify_message">إيقاف تشغيل نقطة الاتصال المحمولة.</string>
+    <string name="tether_over_limit_dialog_title">تحذير استخدام البيانات</string>
+    <string name="tether_over_limit_dialog_message">You reached portable hotspot data limit.</string>
+    <string name="tether_over_limit_dialog_cancle_btn">Reset hotspot</string>
     <string name="optimize_manage_title">زيادة السرعة</string>
     <string name="cpu_usage_android_system">نظام اندرويد</string>
     <string name="cpu_usage_process_run_time_little_time">أقل من دقيقة</string>
@@ -889,6 +901,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"هذا التطبيق قد يبطئ
 جهازك"</string>
+    <string name="om_memory_clean_memory_info_text">%2$s / %1$s</string>
     <string name="om_ill_proc_handle_unstaill_title">إلغاء التثبيت %s؟</string>
     <string name="om_ill_proc_handle_uninstall_prompt">إلغاء تثبيت هذا التطبيق لإصلاح مشاكل إستخدام البطارية.</string>
     <string name="om_ill_proc_type_wakelock_title">هذا التطبيق يقوم بحظر وضع السكون ويستنزف البطارية</string>
@@ -967,7 +980,7 @@
     <string name="battery_history_seconds">%1$dث</string>
     <string name="delete">حذف</string>
     <string name="every_day">كل يوم</string>
-    <string name="legal_workday">Legal workdays</string>
+    <string name="legal_workday">أيام العمل الرسمية</string>
     <string name="never">١ مرة</string>
     <string name="power_20s_shutdown">سيتم إيقاف الجهاز في غضون %d ثانية</string>
     <string name="boot_reminder">قم بتشغيل جهازك في وقت مجدول</string>
@@ -1291,6 +1304,7 @@
     <string name="menu_text_networkassistants">استخدام البيانات</string>
     <string name="menu_text_networkassistants_remain">%s متبقي</string>
     <string name="menu_text_networkassistants_danger">%s زائد</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">غ.ب</string>
     <string name="menu_text_networkassistants_unit_mb">م.ب</string>
     <string name="menu_text_networkassistants_unit_kb">ك.ب</string>
@@ -1651,6 +1665,7 @@
     <string name="card_main_deepclean_wechat_action">حذف</string>
     <string name="card_main_sectool_title">الأدوات</string>
     <string name="card_main_monthreport_action">عرض</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">اختبار الشبكة</string>
     <string name="card_main_netcheck_summary">اختبار الاتصال لمشاكل الشبكة</string>
     <string name="card_main_netcheck_action">اختبار</string>
@@ -1886,7 +1901,7 @@
     <string name="app_manager_have_not_consume">لا شيء</string>
     <string name="app_manager_menu_clear_data">مسح البيانات</string>
     <string name="app_manager_clear_data_dlg_title">حذف جميع البيانات؟</string>
-    <string name="app_manager_clear_data_dlg_message">All app data, including files, settings, accounts, databases, and cache will be permanently deleted.</string>
+    <string name="app_manager_clear_data_dlg_message">سيتم حذف جميع بيانات التطبيق، بما في ذلك الملفات والإعدادات والحسابات وقواعد البيانات وذاكرة التخزين المؤقت نهائيا.</string>
     <string name="app_manager_clear_dlg_title">مسح البيانات</string>
     <string name="app_manager_clear_failed_dlg_message">تعذر مسح البيانات من التطبيق.</string>
     <string name="app_manager_manage_space">إدارة المساحة</string>
@@ -1964,7 +1979,7 @@
     <string name="app_manager_dlg_clear_cache_title">مسح ذاكرة التخزين المؤقت؟</string>
     <string name="app_manager_support_uninstall">يمكنك إلغاء تثبيت هذه التطبيقات</string>
     <string name="app_manager_not_support_uninstall">لا يمكن إلغاء تثبيت هذا التطبيق</string>
-    <string name="app_manager_comuting_size">Computing…</string>
+    <string name="app_manager_comuting_size">جارِِ الحساب…</string>
     <string name="ad_btn_default_text">معرفة المزيد</string>
     <string name="open_activity_err">لم يتم العثور على التطبيق</string>
     <string name="low_memory_warning_dialog_title">لا توجد مساحة كافية</string>
@@ -2106,7 +2121,6 @@
     <string name="game_booster_close">مسرّع الألعاب متوقف</string>
     <string name="databooster_tips_title">تنبيه</string>
     <string name="databooster_tips_message">قم بتشغيله لتقييد جميع بطاقات SIM باستثناء بطاقة البيانات. أوقف تشغيل هذه الميزة إذا حدثت أخطاء في الألعاب التي تختارها.</string>
-    <string name="net_booster_expire_notification_tip">%d يوم متبقي قبل انتهاء دورة تسريع الشبكة. قم بتجديد الدورة لتجنب مشاكل سرعة الشبكة.</string>
     <string name="power_center_consume_rank">استخدام البطارية</string>
     <string name="power_center_custom_title">وضع البطارية</string>
     <string name="power_center_auto_shutdown_summary_default">قم بتشغيل جهازك أو إيقافه في وقت المحدد</string>
