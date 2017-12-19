@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_files_confirm">
+        <item quantity="other">حذف %1$d ملف</item>
+        <item quantity="zero">حذف %1$d ملف</item>
+        <item quantity="one">حذف %1$d ملف</item>
+        <item quantity="two">حذف %1$d ملفات</item>
+        <item quantity="few">حذف %1$d ملفات</item>
+        <item quantity="many">حذف %1$d ملف</item>
+    </plurals>
+    <plurals name="delete_folders_confirm">
+        <item quantity="other">" و d$1% مجلد؟"</item>
+        <item quantity="zero">" و d$1% مجلد؟"</item>
+        <item quantity="one">" و d$1% مجلد؟"</item>
+        <item quantity="two">" و d$1% مجلدات؟"</item>
+        <item quantity="few">" و d$1% مجلدات؟"</item>
+        <item quantity="many">" و d$1% مجلد؟"</item>
+    </plurals>
+    <plurals name="directory_item_count">
+        <item quantity="other">%d عنصر</item>
+        <item quantity="zero">%d عنصر</item>
+        <item quantity="one">%d عنصر</item>
+        <item quantity="two">%d عناصر</item>
+        <item quantity="few">%d عناصر</item>
+        <item quantity="many">%d عنصر</item>
+    </plurals>
+    <plurals name="numSelectedFile">
+        <item quantity="other">تم تحديد %1$d</item>
+        <item quantity="zero">"تم تحديد  %1$d "</item>
+        <item quantity="one">"تم تحديد  %1$d "</item>
+        <item quantity="two">"تم تحديد  %1$d "</item>
+        <item quantity="few">"تم تحديد  %1$d "</item>
+        <item quantity="many">"تم تحديد  %1$d "</item>
+    </plurals>
+    <plurals name="items_picture">
+        <item quantity="other">(%1$d عنصر)</item>
+        <item quantity="zero">(%1$d عنصر)</item>
+        <item quantity="one">(%1$d عنصر)</item>
+        <item quantity="two">(%1$d عناصر)</item>
+        <item quantity="few">(%1$d عناصر)</item>
+        <item quantity="many">(%1$d عنصر)</item>
+    </plurals>
+    <plurals name="file_count">
+        <item quantity="other">%1$d عنصر</item>
+        <item quantity="zero">%1$d عنصر</item>
+        <item quantity="one">%1$d عنصر</item>
+        <item quantity="two">%1$d عناصر</item>
+        <item quantity="few">%1$d عناصر</item>
+        <item quantity="many">%1$d عنصر</item>
+    </plurals>
+    <plurals name="search_head_hint_app">
+        <item quantity="other">ملفات مرتبطة بالتطبيق \"%1$s\" (%2$d عنصر)</item>
+        <item quantity="zero">ملفات مرتبطة بالتطبيق \"%1$s\" (%2$d عنصر)</item>
+        <item quantity="one">ملفات مرتبطة بالتطبيق \"%1$s\" (%2$d عنصر)</item>
+        <item quantity="two">ملفات مرتبطة بالتطبيق \"%1$s\" (%2$d عناصر)</item>
+        <item quantity="few">ملفات مرتبطة بالتطبيق \"%1$s\" (%2$d عناصر)</item>
+        <item quantity="many">ملفات مرتبطة بالتطبيق \"%1$s\" (%2$d عنصر)</item>
+    </plurals>
+    <plurals name="search_head_hint_file">
+        <item quantity="other">\"%1$s\" ملفات مرتبطة (%2$d عنصر)</item>
+        <item quantity="zero">\"%1$s\" ملفات مرتبطة (%2$d عنصر)</item>
+        <item quantity="one">\"%1$s\" ملفات مرتبطة (%2$d عنصر)</item>
+        <item quantity="two">\"%1$s\" ملفات مرتبطة (%2$d عناصر)</item>
+        <item quantity="few">\"%1$s\" ملفات مرتبطة (%2$d عناصر)</item>
+        <item quantity="many">\"%1$s\" ملفات مرتبطة (%2$d عنصر)</item>
+    </plurals>
+    <plurals name="search_head_hint_tag">
+        <item quantity="other">\"%1$s\" ملفات مرتبطة بالعلامة (%2$d عنصر)</item>
+        <item quantity="zero">\"%1$s\" ملفات مرتبطة بالعلامة (%2$d عنصر)</item>
+        <item quantity="one">\"%1$s\" ملفات مرتبطة بالعلامة (%2$d عنصر)</item>
+        <item quantity="two">\"%1$s\" ملفات مرتبطة بالعلامة (%2$d عناصر)</item>
+        <item quantity="few">\"%1$s\" ملفات مرتبطة بالعلامة (%2$d عناصر)</item>
+        <item quantity="many">\"%1$s\" ملفات مرتبطة بالعلامة (%2$d عنصر)</item>
+    </plurals>
+    <plurals name="mins_ago">
+        <item quantity="other">منذ %1$d دقيقة</item>
+        <item quantity="zero">منذ %1$d دقيقة</item>
+        <item quantity="one">منذ %1$d دقيقة</item>
+        <item quantity="two">منذ %1$d دقائق</item>
+        <item quantity="few">منذ %1$d دقائق</item>
+        <item quantity="many">منذ %1$d دقيقة</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">منذ %1$d ساعة</item>
+        <item quantity="zero">منذ %1$d ساعة</item>
+        <item quantity="one">منذ %1$d ساعة</item>
+        <item quantity="two">منذ %1$d ساعات</item>
+        <item quantity="few">منذ %1$d ساعات</item>
+        <item quantity="many">منذ %1$d ساعة</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">منذ %1$d يوم</item>
+        <item quantity="zero">منذ %1$d يوم</item>
+        <item quantity="one">منذ %1$d يوم</item>
+        <item quantity="two">منذ %1$d أيام</item>
+        <item quantity="few">منذ %1$d أيام</item>
+        <item quantity="many">منذ %1$d يوم</item>
+    </plurals>
+    <plurals name="found_new_files">
+        <item quantity="other">تم ايجاد %1$d ملف جديد</item>
+        <item quantity="zero">تم ايجاد %1$d ملف جديد</item>
+        <item quantity="one">تم ايجاد %1$d ملف جديد</item>
+        <item quantity="two">تم ايجاد %1$d ملفات جديدة</item>
+        <item quantity="few">تم ايجاد %1$d ملفات جديدة</item>
+        <item quantity="many">تم ايجاد %1$d ملف جديد</item>
+    </plurals>
+    <plurals name="backup_message_wechat_video">
+        <item quantity="other">%1$d فيديو في محادثات WeChat على وشك انتهاء الصلاحية. هل تريد استرجاعها الى وحدة التخزين الداخلي للجهاز ؟</item>
+        <item quantity="zero">%1$d فيديو في محادثات WeChat على وشك انتهاء الصلاحية. هل تريد استرجاعه الى وحدة التخزين الداخلي للجهاز ؟</item>
+        <item quantity="one">%1$d فيديو في محادثات WeChat على وشك انتهاء الصلاحية. هل تريد استرجاعه الى وحدة التخزين الداخلي للجهاز ؟</item>
+        <item quantity="two">%1$d فيديوهات في محادثات WeChat على وشك انتهاء الصلاحية. هل تريد استرجاعها الى وحدة التخزين الداخلي للجهاز ؟</item>
+        <item quantity="few">%1$d فيديوهات في محادثات WeChat على وشك انتهاء الصلاحية. هل تريد استرجاعها الى وحدة التخزين الداخلي للجهاز ؟</item>
+        <item quantity="many">%1$d فيديو في محادثات WeChat على وشك انتهاء الصلاحية. هل تريد استرجاعها الى وحدة التخزين الداخلي للجهاز ؟</item>
+    </plurals>
+    <plurals name="remote_video_update">
+        <item quantity="other">تم إيجاد %1$s فيديوهات جديدة</item>
+        <item quantity="zero">تم إيجاد %1$s فيديو جديد</item>
+        <item quantity="one">تم إيجاد %1$s فيديو جديد</item>
+        <item quantity="two">تم إيجاد %1$s فيديوهات جديدة</item>
+        <item quantity="few">تم إيجاد %1$s فيديوهات جديدة</item>
+        <item quantity="many">تم إيجاد %1$s فيديوهات جديدة</item>
+    </plurals>
+    <plurals name="video_ad_download_tip">
+        <item quantity="other">تنزيل</item>
+        <item quantity="zero">تنزيل</item>
+        <item quantity="one">تنزيل</item>
+        <item quantity="two">تنزيلات</item>
+        <item quantity="few">تنزيلات</item>
+        <item quantity="many">تنزيل</item>
+    </plurals>
+    <plurals name="video_play_num">
+        <item quantity="other">%1$s مشاهدة</item>
+        <item quantity="zero">%1$s مشاهدة</item>
+        <item quantity="one">%1$s مشاهدة</item>
+        <item quantity="two">%1$s مشاهدات</item>
+        <item quantity="few">%1$s مشاهدات</item>
+        <item quantity="many">%1$s مشاهدة</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">&lt;font color=#fc7050>%d&lt;/font> فيديو</item>
+        <item quantity="zero">&lt;font color=#fc7050>%d&lt;/font> فيديو</item>
+        <item quantity="one">&lt;font color=#fc7050>%d&lt;/font> فيديو</item>
+        <item quantity="two">&lt;font color=#fc7050>%d&lt;/font> فيديوهات</item>
+        <item quantity="few">&lt;font color=#fc7050>%d&lt;/font> فيديوهات</item>
+        <item quantity="many">&lt;font color=#fc7050>%d&lt;/font> فيديو</item>
+    </plurals>
+    <plurals name="number_of_comment_flow">
+        <item quantity="other">%1$s تعليق</item>
+        <item quantity="zero">%1$s تعليق</item>
+        <item quantity="one">%1$s تعليق</item>
+        <item quantity="two">%1$s تعليقات</item>
+        <item quantity="few">%1$s تعليقات</item>
+        <item quantity="many">%1$s تعليق</item>
+    </plurals>
+    <plurals name="user_sign_limt">
+        <item quantity="other">يمكنك أدخال %d حرف</item>
+        <item quantity="zero">يمكنك أدخال %d حرف</item>
+        <item quantity="one">يمكنك أدخال %d حرف</item>
+        <item quantity="two">يمكنك أدخال %d أحرف</item>
+        <item quantity="few">يمكنك أدخال %d أحرف</item>
+        <item quantity="many">يمكنك أدخال %d حرف</item>
+    </plurals>
+    <plurals name="video_items">
+        <item quantity="other">%1$d عنصر</item>
+        <item quantity="zero">%1$d عنصر</item>
+        <item quantity="one">%1$d عنصر</item>
+        <item quantity="two">%1$d عناصر</item>
+        <item quantity="few">%1$d عناصر</item>
+        <item quantity="many">%1$d عنصر</item>
+    </plurals>
+    <plurals name="original_user_days">
+        <item quantity="other">• &lt;font color=#fc7050>%1$d&lt;/font> يوم</item>
+        <item quantity="zero">• &lt;font color=#fc7050>%1$d&lt;/font> يوم</item>
+        <item quantity="one">• &lt;font color=#fc7050>%1$d&lt;/font> يوم</item>
+        <item quantity="two">• &lt;font color=#fc7050>%1$d&lt;/font> أيام</item>
+        <item quantity="few">• &lt;font color=#fc7050>%1$d&lt;/font> أيام</item>
+        <item quantity="many">• &lt;font color=#fc7050>%1$d&lt;/font> يوم</item>
+    </plurals>
+    <plurals name="original_user_play_1">
+        <item quantity="other">• لقد قمت بتحميل &lt;font color=#fc7050>%1$s&lt;/font> فيديو.</item>
+        <item quantity="zero">• لقد قمت بتحميل &lt;font color=#fc7050>%1$s&lt;/font> فيديو.</item>
+        <item quantity="one">• لقد قمت بتحميل &lt;font color=#fc7050>%1$s&lt;/font> فيديو.</item>
+        <item quantity="two">• لقد قمت بتحميل &lt;font color=#fc7050>%1$s&lt;/font> فيديوهات.</item>
+        <item quantity="few">• لقد قمت بتحميل &lt;font color=#fc7050>%1$s&lt;/font> فيديوهات.</item>
+        <item quantity="many">• لقد قمت بتحميل &lt;font color=#fc7050>%1$s&lt;/font> فيديو.</item>
+    </plurals>
+    <plurals name="original_user_play_2">
+        <item quantity="other">لقد جعلت &lt;font color=#fc7050>%1$s&lt;/font> شخص سعيد!</item>
+        <item quantity="zero">لقد جعلت &lt;font color=#fc7050>%1$s&lt;/font> شخص سعيد!</item>
+        <item quantity="one">لقد جعلت &lt;font color=#fc7050>%1$s&lt;/font> شخص سعيد!</item>
+        <item quantity="two">لقد جعلت &lt;font color=#fc7050>%1$s&lt;/font> أشخاص سعداء!</item>
+        <item quantity="few">لقد جعلت &lt;font color=#fc7050>%1$s&lt;/font> أشخاص سعداء!</item>
+        <item quantity="many">لقد جعلت &lt;font color=#fc7050>%1$s&lt;/font> شخص سعيد!</item>
+    </plurals>
+    <plurals name="original_user_fans">
+        <item quantity="other">• لقد حصلت على &lt;font color=#fc7050>%1$s&lt;/font> متابع!</item>
+        <item quantity="zero">• لقد حصلت على &lt;font color=#fc7050>%1$s&lt;/font> متابع!</item>
+        <item quantity="one">• لقد حصلت على &lt;font color=#fc7050>%1$s&lt;/font> متابع!</item>
+        <item quantity="two">• لقد حصلت على &lt;font color=#fc7050>%1$s&lt;/font> متابعين!</item>
+        <item quantity="few">• لقد حصلت على &lt;font color=#fc7050>%1$s&lt;/font> متابعين!</item>
+        <item quantity="many">• لقد حصلت على &lt;font color=#fc7050>%1$s&lt;/font> متابع!</item>
+    </plurals>
+    <plurals name="video_publish_watchable_hint">
+        <item quantity="other">احصل على %1$d متابع أكثر لترقية حالتك</item>
+        <item quantity="zero">احصل على %1$d متابعيين أكثر لترقية حالتك</item>
+        <item quantity="one">احصل على %1$d متابع أكثر لترقية حالتك</item>
+        <item quantity="two">احصل على %1$d متابعيين أكثر لترقية حالتك</item>
+        <item quantity="few">احصل على %1$d متابعيين أكثر لترقية حالتك</item>
+        <item quantity="many">احصل على %1$d متابع أكثر لترقية حالتك</item>
+    </plurals>
+    <plurals name="follow_count">
+        <item quantity="other">&lt;font color=#fc7050>%d&lt;/font> متابع</item>
+        <item quantity="zero">&lt;font color=#fc7050>%d&lt;/font> متابع</item>
+        <item quantity="one">&lt;font color=#fc7050>%d&lt;/font> متابع</item>
+        <item quantity="two">&lt;font color=#fc7050>%d&lt;/font> متابعين</item>
+        <item quantity="few">&lt;font color=#fc7050>%d&lt;/font> متابعين</item>
+        <item quantity="many">&lt;font color=#fc7050>%d&lt;/font> متابع</item>
+    </plurals>
+    <plurals name="gems">
+        <item quantity="other">%1$s جوهرة</item>
+        <item quantity="zero">%1$s جوهرة</item>
+        <item quantity="one">%1$s جوهرة</item>
+        <item quantity="two">%1$s جواهر</item>
+        <item quantity="few">%1$s جواهر</item>
+        <item quantity="many">%1$s جوهرة</item>
+    </plurals>
+    <plurals name="more_gems">
+        <item quantity="other">اجمع &lt;font color=#fc7050>&lt;b>%d&lt;/b>&lt;/font> جوهرة اكثر للمشاركة في السحب.;</item>
+        <item quantity="zero">اجمع &lt;font color=#fc7050>&lt;b>%d&lt;/b>&lt;/font> جوهرة اكثر للمشاركة في السحب.;</item>
+        <item quantity="one">اجمع &lt;font color=#fc7050>&lt;b>%d&lt;/b>&lt;/font> جوهرة اكثر للمشاركة في السحب.;</item>
+        <item quantity="two">اجمع &lt;font color=#fc7050>&lt;b>%d&lt;/b>&lt;/font> جواهر اكثر للمشاركة في السحب.;</item>
+        <item quantity="few">اجمع &lt;font color=#fc7050>&lt;b>%d&lt;/b>&lt;/font> جواهر اكثر للمشاركة في السحب.;</item>
+        <item quantity="many">اجمع &lt;font color=#fc7050>&lt;b>%d&lt;/b>&lt;/font> جوهرة اكثر للمشاركة في السحب.;</item>
+    </plurals>
+    <plurals name="clockin_days">
+        <item quantity="other">تم تسجيل الدخول في %1$s أيام متتالية</item>
+        <item quantity="zero">تم تسجيل الدخول في %1$s أيام متتالية</item>
+        <item quantity="one">تم تسجيل الدخول في %1$s أيام متتالية</item>
+        <item quantity="two">تم تسجيل الدخول في %1$s أيام متتالية</item>
+        <item quantity="few">تم تسجيل الدخول في %1$s أيام متتالية</item>
+        <item quantity="many">تم تسجيل الدخول في %1$s أيام متتالية</item>
+    </plurals>
+    <plurals name="clockin_new_chip">
+        <item quantity="other">لقد حصلت على &lt;font color=#faea47>&lt;b>%d&lt;/b>&lt;/font> نقطة</item>
+        <item quantity="zero">لقد حصلت على &lt;font color=#faea47>&lt;b>%d&lt;/b>&lt;/font> نقطة</item>
+        <item quantity="one">لقد حصلت على &lt;font color=#faea47>&lt;b>%d&lt;/b>&lt;/font> نقطة</item>
+        <item quantity="two">لقد حصلت على &lt;font color=#faea47>&lt;b>%d&lt;/b>&lt;/font> نقاط</item>
+        <item quantity="few">لقد حصلت على &lt;font color=#faea47>&lt;b>%d&lt;/b>&lt;/font> نقاط</item>
+        <item quantity="many">لقد حصلت على &lt;font color=#faea47>&lt;b>%d&lt;/b>&lt;/font> نقطة</item>
+    </plurals>
+    <plurals name="clockin_day_count">
+        <item quantity="other">تم تسجيل الدخول في %1$s يوم على التوالي، استمر!</item>
+        <item quantity="zero">تم تسجيل الدخول في %1$s أيام على التوالي، استمر!</item>
+        <item quantity="one">تم تسجيل الدخول في %1$s يوم على التوالي، استمر!</item>
+        <item quantity="two">تم تسجيل الدخول في %1$s أيام على التوالي، استمر!</item>
+        <item quantity="few">تم تسجيل الدخول في %1$s أيام على التوالي، استمر!</item>
+        <item quantity="many">تم تسجيل الدخول في %1$s يوم على التوالي، استمر!</item>
+    </plurals>
+    <plurals name="total_topic_num">
+        <item quantity="other">%1$s موضوع</item>
+        <item quantity="zero">%1$s مواضيع</item>
+        <item quantity="one">%1$s موضوع</item>
+        <item quantity="two">%1$s مواضيع</item>
+        <item quantity="few">%1$s مواضيع</item>
+        <item quantity="many">%1$s موضوع</item>
+    </plurals>
+    <plurals name="total_user_num">
+        <item quantity="other">%1$s شخص</item>
+        <item quantity="zero">%1$s أشخاص</item>
+        <item quantity="one">%1$s شخص</item>
+        <item quantity="two">%1$s أشخاص</item>
+        <item quantity="few">%1$s أشخاص</item>
+        <item quantity="many">%1$s شخص</item>
+    </plurals>
+</resources>
