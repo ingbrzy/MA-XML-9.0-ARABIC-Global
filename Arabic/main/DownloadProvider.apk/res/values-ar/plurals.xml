@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="notification_download_success_more">
-        <item quantity="other">%1$d downloaded</item>
-        <item quantity="zero">%1$d downloaded</item>
-        <item quantity="one">%1$d downloaded</item>
-        <item quantity="two">%1$d downloaded</item>
-        <item quantity="few">%1$d downloaded</item>
-        <item quantity="many">%1$d downloaded</item>
+        <item quantity="other">تم تنزيل %1$d ملف</item>
+        <item quantity="zero">تم تنزيل %1$d ملف</item>
+        <item quantity="one">تم تنزيل %1$d ملف</item>
+        <item quantity="two">تم تنزيل %1$d ملفات</item>
+        <item quantity="few">تم تنزيل %1$d ملفات</item>
+        <item quantity="many">تم تنزيل %1$d ملف</item>
     </plurals>
     <plurals name="notif_title_multiple_downloading">
-        <item quantity="other">Downloading %1$d files</item>
-        <item quantity="zero">Downloading %1$d files</item>
-        <item quantity="one">Downloading %1$d file</item>
-        <item quantity="two">Downloading %1$d files</item>
-        <item quantity="few">Downloading %1$d files</item>
-        <item quantity="many">Downloading %1$d files</item>
+        <item quantity="other">جارٍ تنزيل %1$d ملف</item>
+        <item quantity="zero">جارٍ تنزيل %1$d ملف</item>
+        <item quantity="one">جارٍ تنزيل %1$d ملف</item>
+        <item quantity="two">جارٍ تنزيل %1$d ملفات</item>
+        <item quantity="few">جارٍ تنزيل %1$d ملفات</item>
+        <item quantity="many">جارٍ تنزيل %1$d ملف</item>
     </plurals>
     <plurals name="notification_download_failed_more">
         <item quantity="other">تعذر تنزيل %1$d عنصر</item>

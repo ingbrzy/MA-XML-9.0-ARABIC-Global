@@ -24,7 +24,7 @@
     <string name="notification_need_wifi_for_size">حجم التنزيل يتطلب Wi-Fi.</string>
     <string name="notification_paused_in_background">تم الإيقاف مؤقتا في الخلفية.</string>
     <string name="wifi_required_title">الملف كبير جدا للتنزيل بإستخدام بيانات الجوال</string>
-    <string name="wifi_required_body" formatted="false">"اتصل بشبكة Wi-Fi لإكمال تنزيل %sهذا. 
+    <string name="wifi_required_body" formatted="false">"اتصل بشبكة Wi-Fi لإكمال تنزيل %s. 
 
 انقر على %s لبدء هذا التنزيل في المرة القادمة عند اتصالك بشبكة Wi-Fi."</string>
     <string name="wifi_recommended_title">الانتظار للتنزيل لاحقا؟</string>
@@ -41,4 +41,5 @@
     <string name="download_running">يتم التنزيل</string>
     <string name="download_error">تعذر التنزيل</string>
     <string name="download_running_percent">جارٍ التنزيل %s</string>
+    <string name="common_google_play_services_unknown_issue">‏لدى %1$s مشكلة في خدمات Google Play. الرجاء إعادة المحاولة.</string>
 </resources>

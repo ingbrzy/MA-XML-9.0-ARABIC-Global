@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="restoring_file_tile">
-        <item quantity="other">Restoring %d files</item>
-        <item quantity="zero">Restoring %d files</item>
-        <item quantity="one">Restoring %d file</item>
-        <item quantity="two">Restoring %d files</item>
-        <item quantity="few">Restoring %d files</item>
-        <item quantity="many">Restoring %d files</item>
+        <item quantity="other">إستعادة %d ملف</item>
+        <item quantity="zero">إستعادة %d ملف</item>
+        <item quantity="one">إستعادة %d ملف</item>
+        <item quantity="two">إستعادة %d ملفات</item>
+        <item quantity="few">إستعادة %d ملفات</item>
+        <item quantity="many">إستعادة %d ملف</item>
     </plurals>
 </resources>

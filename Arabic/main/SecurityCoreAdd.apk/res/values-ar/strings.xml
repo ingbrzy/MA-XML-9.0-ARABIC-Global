@@ -60,7 +60,7 @@
     <string name="ok_button">موافق</string>
     <string name="cancel_button">إلغاء</string>
     <string name="list_empty_text">فارغ</string>
-    <string name="list_empty_text_xspace">Install WeChat/QQ/Weibo, create dual apps, and try again.</string>
+    <string name="list_empty_text_xspace">قم بتثبيت WeChat/QQ/Weibo، وأنشئ تطبيق مزدوج، ثم حاول مجدداً.</string>
     <string name="xspace_label">التطبيقات المزدوجة</string>
     <string name="xspace_setting_label">إعدادات التطبيق المزدوج</string>
     <string name="xspace_account">حسابات التطبيق المزدوج</string>
@@ -262,11 +262,11 @@
     <string name="search_result_text">تعذر العثور على أية تطبيقات</string>
     <string name="xspace_weixin_title">WeChat</string>
     <string name="weixin_pay">دفع WeChat</string>
-    <string name="weixin_share">Share to Moments</string>
+    <string name="weixin_share">مشاركة على اللحظات</string>
     <string name="xspace_weibo_title">Weibo</string>
     <string name="weibo_send">الإرسال إلى Weibo</string>
     <string name="xspace_qq_title">QQ</string>
-    <string name="qq_send">Send to QQ friends/devices</string>
+    <string name="qq_send">ارسل الى الأصدقاء في QQ/الأجهزة</string>
     <string name="xspace_default_setting_label">التطبيق الافتراضي</string>
     <string name="xspace_default_app_title">التطبيق الافتراضي</string>
     <string name="xspace_default_app_summary">تعيين التطبيق الافتراضي للمدفوعات، والمشاركة، والمفضلة، وأكثر من ذلك.</string>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="more_coupons_count">
-        <item quantity="other">%d قسيمة</item>
-        <item quantity="zero">%d قسيمة</item>
-        <item quantity="one">قسيمة واحدة</item>
-        <item quantity="two">%d قسائم</item>
-        <item quantity="few">%d قسائم</item>
-        <item quantity="many">%d قسيمة</item>
+        <item quantity="other">%d كوبون</item>
+        <item quantity="zero">%d كوبون</item>
+        <item quantity="one">١ كوبون</item>
+        <item quantity="two">%d كوبونات</item>
+        <item quantity="few">%d كوبونات</item>
+        <item quantity="many">%d كوبون</item>
     </plurals>
     <plurals name="review_count">
         <item quantity="other">عرض %d تعليق</item>

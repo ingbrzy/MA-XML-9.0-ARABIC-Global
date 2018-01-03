@@ -42,6 +42,7 @@
     <string name="search_menu_title">البحث</string>
     <string name="status_bar_notification_info_overflow">+999</string>
     <string name="app_name">Mi Drop</string>
+    <string name="btn_save">حفظ</string>
     <string name="cancel_confirm">إلغاء الإرسال</string>
     <string name="cancel_lang">إلغاء</string>
     <string name="cancel_message">لن يستلم الشخص الأخر الملفات إذا قمت بإلغاء النقل. إلغاء النقل الآن؟</string>
@@ -57,24 +58,28 @@
     <string name="default_lang">لغة النظام</string>
     <string name="delete">حذف</string>
     <string name="delete_item_desc">حذف هذا الملف من قائمة النقل؟</string>
+    <string name="dialog_btn_setup">إعداد</string>
     <string name="dialog_close_data">إيقاف بيانات الهاتف</string>
     <string name="dialog_mobile_data_warn">سيتمكن الشخص الأخر من استخدام بيانات هاتفك إذا ابقيت بيانات الهاتف مشغلة.</string>
     <string name="dialog_mobile_data_warn_title">إيقاف بيانات الهاتف</string>
+    <string name="dialog_msg_need_find_friend_permission">قم بإعداد الأذونات ليتمكن Mi Drop من إيجاد أصدقاءك القريبون.</string>
+    <string name="dialog_msg_need_set_hotspot_permission">قم بإعداد الأذونات ليتمكن Mi Drop من إعداد نقطة الاتصال المحمولة.</string>
     <string name="dialog_ok">استمر</string>
+    <string name="dialog_title_permission_required">الأذونات مطلوبة</string>
     <string name="enable_ap_message">يمنع أندرويد 7.1 والإصدارات الأحدث تشغيل نقطة إتصال الـ Wi-Fi تلقائيا. قم بالتشغيل يدويا.</string>
     <string name="enable_ap_quit">خروج</string>
     <string name="enable_ap_set">تعيين</string>
     <string name="enable_hotspot">تم تشغيل نقطة إتصال الـ Wi-Fi بنجاح</string>
     <string name="exit">خروج</string>
     <string name="file_count">%1$d</string>
-    <string name="file_size_b">%1$d B</string>
-    <string name="file_size_gb">%2$1.2f GB</string>
-    <string name="file_size_kb">%2$1.2f KB</string>
-    <string name="file_size_mb">%2$1.2f MB</string>
-    <string name="file_speed_b">%1$d B/s</string>
-    <string name="file_speed_gb">%2$1.2f GB/s</string>
-    <string name="file_speed_kb">%2$1.2f KB/s</string>
-    <string name="file_speed_mb">%2$1.2f MB/s</string>
+    <string name="file_size_b">%1$d بايت</string>
+    <string name="file_size_gb">%2$1.2f غيغابايت</string>
+    <string name="file_size_kb">%2$1.2f كيلوبايت</string>
+    <string name="file_size_mb">%2$1.2f ميغابايت</string>
+    <string name="file_speed_b">%1$d بايت/s</string>
+    <string name="file_speed_gb">%2$1.2f غيغابايت/s</string>
+    <string name="file_speed_kb">%2$1.2f كيلوبايت/s</string>
+    <string name="file_speed_mb">%2$1.2f ميغابايت/s</string>
     <string name="files_selected">محددة</string>
     <string name="files_selected_count">الملفات المحددة: %1$d | الإجمالي: %2$s</string>
     <string name="help">المساعدة</string>
@@ -93,6 +98,7 @@
 
  يجب عليك تشغيل خدمات الموقع في أندرويد 6.0 والإصدارات الأحدث لتتمكن من إرسال واستلام الملفات."</string>
     <string name="location_skip">تخطى</string>
+    <string name="max_send_file">٩٩+</string>
     <string name="never_remind">عدم الإظهار مرة أخرى</string>
     <string name="no_file">فارغ</string>
     <string name="no_network">"تعذر الاتصال بالشبكة.
@@ -107,6 +113,7 @@
     <string name="other_files">الملفات</string>
     <string name="popup_window_bottom_bar_send">إرسال</string>
     <string name="popup_window_header_clear_all">مسح</string>
+    <string name="prompt_grant_write_settings_permission">السماح لـ Mi Drop بتغيير إعدادات النظام.</string>
     <string name="receive">استلام</string>
     <string name="receive_exit_dialog_message">لن يتم إرسال الملفات إذا قمت بإلغاء النقل. إلغاء على أي حال؟</string>
     <string name="receive_exit_dialog_negative_btn">متابعة الاستلام</string>
@@ -153,7 +160,11 @@
     <string name="sender_transfer_interrupt">تم قطع النقل. لا تقم بإيقاف تشغيل الـ Wi-Fi أثناء نقل جاري.</string>
     <string name="sender_wait">جارٍ إرسال الملفات…</string>
     <string name="sender_wait_queue">على وشك الإرسال…</string>
+    <string name="setname_enter_name_hint">أدخل اسمك المستعار</string>
+    <string name="setname_enter_name_prompt">يساعد الإسم المستعار الآخرين على التعرف عليك بشكل أسرع.</string>
+    <string name="setname_title">تعديل الإسم المستعار</string>
     <string name="setting_now">تعيين</string>
+    <string name="settings_set_name">الإسم المستعار</string>
     <string name="share_desc">مشاركة Mi Drop بدون استخدام بيانات الهاتف</string>
     <string name="share_mi_drop">مشاركة Mi Drop مع أصدقائك</string>
     <string name="step_1">"الخطوة ١: 
@@ -186,6 +197,4 @@
     <string name="want_send">إرسال الملفات</string>
     <string name="wifi_name">اسم الـ Wi-Fi:</string>
     <string name="wifi_psw">كلمة المرور:</string>
-    <string name="date_format_ddmmyyyy">yyyy/MM/dd</string>
-    <string name="date_format_ddmmyyyyhmma">yyyy/MM/dd h:mm a</string>
 </resources>

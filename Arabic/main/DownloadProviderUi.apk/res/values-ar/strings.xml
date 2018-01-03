@@ -106,6 +106,7 @@
     <string name="package_filter">حزم</string>
     <string name="other_filter">أخرى</string>
     <string name="xunlei_brand">مدعوم من Xunlei</string>
+    <string name="xunlei_brand_url">http://mobile.xunlei.com</string>
     <string name="xunlei_switch">محرك تنزيل Xunlei</string>
     <string name="turn_off_xunlei_title">إيقاف تشغيل Xunlei</string>
     <string name="turn_off_xunlei_message">قد تواجه سرعات تنزيل أبطئ.</string>
@@ -331,6 +332,8 @@
     <string name="xl_vip_open">الشراء</string>
     <string name="xl_vip_pay">تمديد</string>
     <string name="xl_vip_overdue">انتهت صلاحيتها</string>
+    <string name="download_num_size">%1$s | %2$s</string>
+    <string name="app_size">%1$s</string>
     <string name="ad_title">قام اشخاص ايضاً بتنزيل هذه مع  %1$s </string>
     <string name="rank_data_empty">لا يوجد تصنيف</string>
     <string name="net_error">لا يمكن الاتصال بالشبكة، حاول مجدداً</string>
@@ -447,4 +450,5 @@
     <string name="dialog_btn_ok">موافق</string>
     <string name="ad_install">تثبيت</string>
     <string name="download_title">التنزيلات</string>
+    <string name="common_google_play_services_unknown_issue">‏لدى %1$s مشكلة في خدمات Google Play. الرجاء إعادة المحاولة.</string>
 </resources>

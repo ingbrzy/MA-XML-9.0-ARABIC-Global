@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"تقديم حجم النسخة: %1$s
 حجم تحديث دلتا: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">التخزين غير متاح، تحقق من بطاقة الذاكرة SD الخاصة بك.</string>
+    <string name="xiaomi_bytes_unit">%1$sبايت</string>
+    <string name="xiaomi_kilobytes_unit">%1$sكيلوبايت</string>
+    <string name="xiaomi_megabytes_unit">%1$sميغابايت</string>
     <string name="xiaomi_connect_download_manager_fail">تعذر بداية التنزيل. كن متاكدا من أن مدير التنزيلات يعمل بصفة طبيعية.</string>
     <string name="app_name">نسخة احتياطية</string>
     <string name="local_app_name">النسخ الاحتياطي</string>
@@ -225,6 +228,7 @@
     <string name="restore_backup">إستعادة</string>
     <string name="enable_encrypt_description">مشفر</string>
     <string name="disable_encrypt_description">غير مشفر</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">لحظة من فضلك…</string>
     <string name="state_mounting">الوصول إلى تخزين جهاز التوجيه…</string>
     <string name="abort_backup_confirm">لم يتم الانتهاء من النسخ الاحتياطي. التوقف على أية حال؟</string>
@@ -289,10 +293,30 @@
     <string name="trans_time_spent">"
 الوقت المنقضي: %s"</string>
     <string name="trans_restoring_no_items">جارٍ مزامنة العناصر</string>
-    <string name="trans_detail_category_sysdata">بيانات النظام</string>
+    <string name="trans_detail_category_sysdata">بيانات النظام (يتضمن الرسائل و جهات الاتصال و سجل المكالمات)</string>
     <string name="trans_detail_category_userdata">التطبيقات</string>
     <string name="trans_detail_category_account">الحسابات وجهات الاتصال</string>
     <string name="trans_detail_category_files">ملفات</string>
+    <string name="trans_detail_category_audio_video_doc">الصوت، الفيديو، و الملفات</string>
+    <string name="trans_detail_category_wechat_qq">بيانات WeChat و QQ (يتضمن سجل الدردشة)</string>
+    <string name="trans_detail_category_user_app_data">بيانات التطبيق</string>
+    <string name="trans_detail_wechat_data">بيانات WeChat (يتضمن سجل المحادثة)</string>
+    <string name="trans_detail_qq_data">بيانات QQ (يتضمن سجل الدردشة)</string>
+    <string name="trans_detail_app_data_useless_tip">يمكنك استعادة هذه من التطبيق، لا حاجة لنقلة.</string>
+    <string name="trans_detail_item_app_data_too_large_tip">يبدو أن العنصر كبير جدا لنقلة.</string>
+    <string name="trans_detail_item_app_data_selected_tip">اختيار التطبيقات المقابلة كذلك.</string>
+    <string name="trans_detail_list_footer">ملاحظة: يمكنك اختيار نقل التطبيقات بشكل منفصل. ومع ذلك، إذا قمت بتحديد بيانات التطبيق، سيتم نقل التطبيقات المقابلة كذلك.</string>
+    <string name="trans_detail_page_tip">كلما زادت العناصر التي حددتها، ستستمر عملية النقل.</string>
+    <string name="trans_detail_sys_data_list_title">تطبيقات النظام</string>
+    <string name="trans_detail_app_data_list_title">بيانات التطبيق</string>
+    <string name="trans_detail_app_apk_list_title">التطبيقات المثبتة</string>
+    <string name="trans_detail_wechat_qq_list_title">WeChat و QQ</string>
+    <string name="trans_detail_audio_video_doc_list_title">الصوت و الفيديو و الملفات</string>
+    <string name="trans_detail_sys_data_page_title">تحديد تطبيقات النظام</string>
+    <string name="trans_detail_app_data_page_title">تحديد بيانات التطبيق</string>
+    <string name="trans_detail_app_apk_page_title">تحديد التطبيقات</string>
+    <string name="trans_detail_wechat_qq_page_title">تحديد WeChat و QQ و بيانات التطبيق</string>
+    <string name="trans_detail_audio_video_doc_page_title">تحديد الصوت و الفيديو و الملفات</string>
     <string name="trans_sending_completed">تم الارسال بنجاح</string>
     <string name="trans_receiving_completed">تم الاستلام بنجاح</string>
     <string name="trans_time_format_second">اقل من دقيقة</string>
@@ -309,6 +333,7 @@
     <string name="trans_progress_subdescript_transing_receiver_finish">تم استلام %s، في انتظار الإستعادة…</string>
     <string name="trans_cancel_confirm">النقل قيد التقدم، هل تريد الإيقاف الآن؟</string>
     <string name="trans_cancelling">جارٍ الإلغاء…</string>
+    <string name="trans_pausing">‏‏يتم الإيقاف مؤقتًا…</string>
     <string name="trans_device_disconnected">إنقطع الاتصال</string>
     <string name="trans_device_wait_for_reconnecting">إنقطع الاتصال. الاتصال مرة أخرى للمتابعة.</string>
     <string name="trans_device_auto_reconnecting">انقطع اتصال الجهاز. جارٍ إعادة الاتصال تلقائيا…</string>
@@ -338,6 +363,8 @@
 الملفات المماثلة في الجهاز الجديد سيتم استبدالها"</string>
     <string name="trans_select_data_no_space">"لا توجد مساحة كافية على الجهاز الجديد
 قم بتحديد الملفات مرة اخرى او تنظيف %s من مساحة التخزين على الجهاز الجديد"</string>
+    <string name="trans_select_data_too_large">"تم تحديد عدد كبير جدا من العناصر للنقل.
+ حدد فقط العناصر المهمة لنقل أسرع."</string>
     <string name="trans_calculating_base_size">حساب حجم البيانات</string>
     <string name="trans_calculating">جارٍ الحساب…</string>
     <string name="trans_native_no_space">"لا توجد مساحة كافية على هذا الجهاز.
@@ -462,8 +489,9 @@ https://appleid.apple.com/#!&amp;page=signin لإيقاف المصادقة ذا�
     <string name="loading_data">تحميل البيانات</string>
     <string name="icloud_need_sync">"لاستيراد البيانات من iOS،
 يجب عليك إنشاء نسخ iCloud احتياطي أولا."</string>
-    <string name="import_tip_title">نصائح:</string>
+    <string name="list_footer_tip_title">نصائح:</string>
     <string name="import_tip_summary">بسبب مشاكل في التوافق، يمكنك فقط نقل البيانات جزئيا من أجهزة iOS. يجب عليك إنشاء نسخ iCloud احتياطي قبل بدأ النقل.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">استيراد</string>
     <string name="select_empty">قم بتحديد عناصر للاستيراد</string>
     <string name="select_item_summary_wait">جارٍ الانتظار…</string>
@@ -487,4 +515,20 @@ https://appleid.apple.com/#!&amp;page=signin لإيقاف المصادقة ذا�
     <string name="error_permissions">لا يمتلك هذا التطبيق الأذونات المطلوبة للوصول إلى التقويم. انتقل إلى الإعدادات وتحقق من الأذونات للمتابعة.</string>
     <string name="succ_description">تم بنجاح</string>
     <string name="failed_description">فشل</string>
+    <string name="notif_connect_miasist">متصل بـ Mi PC Suite</string>
+    <string name="notif_disconnect_miasist">غير متصل بـ Mi PC Suite</string>
+    <string name="notif_sending_transingsd">جار إرسال %1$s (%2$s)…</string>
+    <string name="notif_receiving_transingsd">جارٍ استلام %1$s (%2$s)…</string>
+    <string name="notif_calculating_app">جارٍ حساب %1$s (%2$s)…</string>
+    <string name="notif_parse_select_descript_error">تعذر مزامنة عناصر قائمة النسخ الاحتياطية.</string>
+    <string name="alert_miasist_occupy_backup">جارٍ نسخ العناصر احتياطياً بإستخدام Mi PC Suite. انتظر حتى يكتمل و أعد المحاولة.</string>
+    <string name="alert_miasist_occupy_restore">جارٍ استعادة العناصر بإستخدام Mi PC Suite… انتظر حتى يكتمل ثم أعد المحاولة.</string>
+    <string name="alert_phone_occupy_backup">لا يمكنك استخدام Mi PC Suite الآن. انتظر حتى تكتمل العملية الحالية على جهازك ثم أعد المحاولة.</string>
+    <string name="alert_second_space_not_support_miasist">لا يمكنك استخدام Mi PC Suite في الواجهة الثانية. انتقل إلى الواجهة الاولى.</string>
+    <string name="alert_title_backup_to_miasist">نسخ العناصر احتياطياً بإستخدام Mi PC Suite؟</string>
+    <string name="alert_message_backup_to_miasist">يطلب Mi PC Suite الإذن لإنشاء نسخة احتياطية على الكمبيوتر. السماح؟</string>
+    <string name="alert_title_restore_from_miasist">استعادة العناصر على الكمبيوتر؟</string>
+    <string name="alert_message_restore_from_miasist">يطلب Mi PC Suite الإذن لاستعادة العناصر على الكمبيوتر. السماح؟</string>
+    <string name="alert_button_deny">رفض</string>
+    <string name="alert_button_agree_and_continue">السماح</string>
 </resources>

@@ -51,8 +51,8 @@
     <string name="self_phone">هذا الهاتف</string>
     <string name="process_whole_recovery">الاستعادة \"%s\"</string>
     <string name="device_xiaomi">هاتف Mi</string>
-    <string name="device_corrupt">Mi Phone (Data corrupt)</string>
-    <string name="size_unknown">Size unknown</string>
+    <string name="device_corrupt">هاتف Mi (تلف البيانات)</string>
+    <string name="size_unknown">حجم غير معروف</string>
     <string name="recovering">استعادة \"%s\"</string>
     <string name="start_recover">استعادة \"%s\"</string>
     <string name="latest_backup_time_loading">جارٍ التحميل…</string>
@@ -126,9 +126,12 @@
     <string name="btn_back">رجوع</string>
     <string name="btn_continue">متابعة</string>
     <string name="btn_skip">تخطي هذه الخطوة</string>
+    <string name="btn_retry">تحقق مرة اخرى</string>
     <string name="can_not_restore_in_lite_mode">لا يمكن الإستعادة في الوضع البسيط</string>
     <string name="can_not_backup_in_lite_mode">لا يمكن الإستعادة في الوضع البسيط</string>
     <string name="restore_data_title">إستعادة البيانات</string>
+    <string name="provision_error_connect_msg">يمكنك تجربة الشبكة وإعادة المحاولة. لن تكون وظيفة النسخ الاحتياطي متاحة بدون شبكة صالحة.</string>
+    <string name="provision_error_connect_title">لا يمكن الاتصال</string>
     <string name="authentication_failed">تعذر التحقق من الحساب.</string>
     <string name="no_account">لم تقم بتسجيل الدخول إلى حساب Mi.</string>
     <string name="no_backup">لا توجد نسخ احتياطية في Mi Cloud.</string>

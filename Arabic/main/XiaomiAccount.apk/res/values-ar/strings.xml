@@ -10,6 +10,7 @@
     <string name="passport_skip_login">تخطي</string>
     <string name="passport_skip_setup_account_title">تخطي الإعداد</string>
     <string name="passport_skip_setup_account_msg">يمكنك إعداد حساب Mi في الإعدادات فيما بعد.</string>
+    <string name="passport_confirm_login">متابعة</string>
     <string name="passport_find_password_on_web_msg">قم بزيارة account.mi.com لإعادة تعيين كلمة المرور.</string>
     <string name="passport_title_reg">إنشاء حساب</string>
     <string name="passport_reg_prompt">ليس لديك حساب Mi؟ قم بإنشاء واحد مجانا.</string>
@@ -167,6 +168,7 @@
     <string name="passport_barcode_add_account_prompt">للإتصال بحساب، افحص رمز QR مرة أخرى بعد تسجيل الدخول.</string>
     <string name="passport_quick_register_notice"><u>ليس لديك حساب Mi؟ قم بإنشاء واحد.</u></string>
     <string name="passport_password_phone_login">تسجيل الدخول باستخدام حساب Mi</string>
+    <string name="passport_sms_verification_code_login">SMS verification code login</string>
     <string name="passport_login_other_account">حساب آخر</string>
     <string name="passport_reg_new_account">إنشاء حساب</string>
     <string name="passport_select_the_login_account">تحديد الحساب الذي تريج تسجيل الدخول به</string>
@@ -190,13 +192,13 @@
     <string name="passport_user_reg_region_warning">لن تتمكن من تغيير بلدك / منطقتك بعد إنشاء الحساب.</string>
     <string name="passport_sync_account_data">جارٍ مزامنة معلومات الحساب…</string>
     <string name="passport_sync_account_data_failed_warning">تتم مزامنة معلومات حسابك الآن، يمكنك تسجيل الدخول باستخدام معرف حساب Mi. إذا كنت تريد تسجيل الدخول باستخدام الهاتف أو البريد الإلكتروني، انتظر حتى تتم مزامنة المعلومات بالكامل.</string>
-    <string name="passport_confirm_recycle_account_msg">"&lt;font color=Red>Looks like&lt;/font> the number %s has been recycled by your carrier, and there's a Mi Account associated with it. Is this account yours?"</string>
+    <string name="passport_confirm_recycle_account_msg">&lt;font color=Red>يبدو انه&lt;/font> تم إعادة استخدام هذا الرقم %s من قِبل شركة الاتصالات، وهناك حساب Mi مرتبط به. هل هذا هو حسابك؟</string>
     <string name="passport_login_recycle_account_yes">نعم</string>
     <string name="passport_login_recycle_account_no">لا</string>
     <string name="passport_reg_recycle_account_yes">نعم</string>
     <string name="passport_reg_recycle_account_no">لا</string>
     <string name="passport_get_innetdate_title">Check when the number went online</string>
-    <string name="passport_get_innetdate_msg">&lt;font color=Red>Looks like&lt;/font> the number %s has been recycled by your carrier. Check when the number went online?</string>
+    <string name="passport_get_innetdate_msg">&lt;font color=Red>يبدو انه&lt;/font> تم إعادة استخدام هذا الرقم %s من قِبل شركة الاتصالات، التحقق من الرقم الذي كان متصلا بالإنترنت؟</string>
     <string name="passport_get_innetdate_agree">التحقق</string>
     <string name="passport_get_innetdate_disagree">لا</string>
     <string name="search_app_name">حساب Mi</string>
@@ -455,5 +457,5 @@
     <string name="sim_changed_notification_title">هل غيرت رقم هاتفك؟</string>
     <string name="sim_changed_notification_msg">انقر لتحديث رقم الاسترداد.</string>
     <string name="recycle_phone_notification_title">مخاطر حساب Mi الأمنية</string>
-    <string name="recycle_phone_notification_msg">يبدو انه تم إعادة استخدام رقم الهاتف. انقر للتحديث.</string>
+    <string name="recycle_phone_notification_msg">يبدو انه تم إعادة استخدام رقم هاتفك. انقر للتحديث.</string>
 </resources>

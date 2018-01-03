@@ -13,8 +13,8 @@
     <string name="handy_mode_default_to_close_whether_open">تم إيقاف وضع اليد الواحدة افتراضياً. تشغيل وضع اليد الواحدة؟</string>
     <string name="hide_touch_assistant">إخفاء تلقائياً</string>
     <string name="hide_touch_assistant_intro">إخفاء الكرة السريعة في التطبيقات المحددة.</string>
-    <string name="hide_when_fullscreen">التحرك جانبا عندما تكون الشاشة كاملة</string>
-    <string name="hide_when_fullscreen_intro">التحرك جانبا عند الدخول في وضع الشاشة الكاملة.</string>
+    <string name="hide_when_fullscreen">التحرك جانبا عند ملء الشاشة</string>
+    <string name="hide_when_fullscreen_intro">التحرك جانبا عند الدخول في وضع ملء الشاشة.</string>
     <string name="motion_behavior">الإيماءة المفضلة</string>
     <string name="name_alipay_payment_code">دفع Alipay</string>
     <string name="name_alipay_scan">ماسح Alipay</string>

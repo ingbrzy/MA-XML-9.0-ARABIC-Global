@@ -64,6 +64,22 @@
         <item quantity="few">%d تطبيقات</item>
         <item quantity="many">%d تطبيق</item>
     </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d apps can connect to the network in the background</item>
+        <item quantity="zero">%d apps can connect to the network in the background</item>
+        <item quantity="one">%d app can connect to the network in the background</item>
+        <item quantity="two">%d apps can connect to the network in the background</item>
+        <item quantity="few">%d apps can connect to the network in the background</item>
+        <item quantity="many">%d apps can connect to the network in the background</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">"%d apps can't connect to the network in the background"</item>
+        <item quantity="zero">"%d apps can't connect to the network in the background"</item>
+        <item quantity="one">"%d app can't connect to the network in the background"</item>
+        <item quantity="two">"%d apps can't connect to the network in the background"</item>
+        <item quantity="few">"%d apps can't connect to the network in the background"</item>
+        <item quantity="many">"%d apps can't connect to the network in the background"</item>
+    </plurals>
     <plurals name="daily_sim_over_limit_notify_title">
         <item quantity="other">لقد إستخدمت %s حد للبيانات اليومية.</item>
         <item quantity="zero">لقد إستخدمت %s حد للبيانات اليومية.</item>
@@ -123,6 +139,14 @@
         <item quantity="two">تم العثور على %d تطبيقات</item>
         <item quantity="few">تم العثور على %d تطبيقات</item>
         <item quantity="many">تم العثور على %d تطبيق</item>
+    </plurals>
+    <plurals name="network_restrict_count">
+        <item quantity="other">"Network access is restricted for &lt;font color='#ff0000'>%d:&lt;/font> apps"</item>
+        <item quantity="zero">"Network access is restricted for &lt;font color='#ff0000'>%d:&lt;/font> apps"</item>
+        <item quantity="one">"Network access is restricted for &lt;font color='#ff0000'>%d&lt;/font> app"</item>
+        <item quantity="two">"Network access is restricted for &lt;font color='#ff0000'>%d:&lt;/font> apps"</item>
+        <item quantity="few">"Network access is restricted for &lt;font color='#ff0000'>%d:&lt;/font> apps"</item>
+        <item quantity="many">"Network access is restricted for &lt;font color='#ff0000'>%d:&lt;/font> apps"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d تطبيق لا يعمل بشكل صحيح ويستنزف البطارية</item>
@@ -523,14 +547,6 @@
         <item quantity="two">%d مرات</item>
         <item quantity="few">%d مرات</item>
         <item quantity="many">%d مرة</item>
-    </plurals>
-    <plurals name="app_manager_reject_count">
-        <item quantity="other">تم الحظر %d مرة</item>
-        <item quantity="zero">تم الحظر %d مرة</item>
-        <item quantity="one">تم الحظر %d مرة</item>
-        <item quantity="two">تم الحظر %d مرات</item>
-        <item quantity="few">تم الحظر %d مرات</item>
-        <item quantity="many">تم الحظر %d مرة</item>
     </plurals>
     <plurals name="app_usage_day">
         <item quantity="other">استخدم منذ %d يوم</item>

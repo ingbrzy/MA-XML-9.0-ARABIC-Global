@@ -65,7 +65,7 @@
     <string name="class_0_message_activity">رسالة من فئة 0</string>
     <string name="close">إغلاق</string>
     <string name="cloud_recommend_msg">انقر لمزامنة الرسائل مع Mi Cloud.</string>
-    <string name="cloud_state_disabled">المزامنة مع Mi Cloud غير مفعله</string>
+    <string name="cloud_state_disabled">تشغيل المزامنة مع Mi Cloud</string>
     <string name="cloud_state_sync_finished">تمت المزامنة مع Mi Cloud</string>
     <string name="cloud_state_syncing">جارٍ المزامنة مع …Mi Cloud</string>
     <string name="compressing">الصورة كبير للغاية. جارٍ الضغط…</string>
@@ -74,7 +74,7 @@
     <string name="confirm_delete_SIM_message">حذف رسالة SIM هذه؟</string>
     <string name="confirm_delete_all_SIM_messages">حذف جميع رسائل SIM؟</string>
     <string name="confirm_delete_all_conversations">حذف كل المحادثات؟</string>
-    <string name="confirm_delete_conversation">هل أنت متأكد من حذف هذة المحادثة؟</string>
+    <string name="confirm_delete_conversation">حذف هذه المحادثة؟</string>
     <string name="confirm_delete_group_message">حذف الرسائل الجماعية؟</string>
     <string name="confirm_delete_locked_message">حذف الرسالة المؤمنة؟</string>
     <string name="confirm_delete_message">حذف هذه الرسالة؟</string>
@@ -179,6 +179,7 @@
     <string name="file_size">الحجم:</string>
     <string name="file_title">الإسم:</string>
     <string name="file_width_height">الحجم:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">رسالة جديدة</string>
     <string name="forward_from">إعادة توجيه من:</string>
     <string name="forward_prefix">"إعادة توجيه: "</string>
@@ -528,6 +529,7 @@
     <string name="send_signature_confirm_dialog_title">إرسال الرسالة</string>
     <string name="send_sms">إرسال رسالة</string>
     <string name="send_to">إلى:</string>
+    <string name="send_to_index_contact">%1$s2$s</string>
     <string name="sent_at_time">تم الارسال في: %1s</string>
     <string name="sent_label">"مرسلة: "</string>
     <string name="service_message_not_found">انتهت صلاحية الرسالة أو غير متوفرة</string>

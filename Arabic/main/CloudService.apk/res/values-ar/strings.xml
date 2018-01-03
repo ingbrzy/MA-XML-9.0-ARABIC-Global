@@ -65,6 +65,8 @@
     <string name="sync_dspt_provision_title">Mi Cloud</string>
     <string name="sync_dspt_provision_header">المزامنة</string>
     <string name="sync_dspt_provision">"مزامنة الصور, جهات الاتصال, الملاحظات والمزيد على جميع أجهزتك أو الوصول إليها على "</string>
+    <string name="sync_dspt_provision2">i.mi.com</string>
+    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">". يمكنك تشغيل أو إيقاف تشغيل هذه الميزة في أي وقت من الإعدادات.
 "</string>
     <string name="sync_dspt_entrance_provision">يساعدك Mi Cloud على مزامنة الصور، جهات الإتصال وغيرها من العناصر عبر الأجهزة. يمكنك الدخول إلى العناصر التي تمت مزامنتها في أي مكان في %s.</string>
@@ -76,6 +78,8 @@
     <string name="sync_dspt_entrance_provision_skip">تخطي هذه الخطوة</string>
     <string name="sync_dspt_entrance_provision_network">يحتاج هذا التطبيق للاتصال بالإنترنت للعمل بشكل طبيعي. قد نتطلب مزامنة البيانات الاتصال بشبكة البيانات وفتح الـ WiFi.</string>
     <string name="find_device_dspt_provision">إذا فقدت الجهاز، يمكنك الذهاب إلى %s لتحديد موقعه أو قفله أو استعادته. يمكنك تشغيل أو إيقاف تشغيل هذه الميزة في أي وقت من الإعدادات.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_dspt_provision_3">. يمكنك تشغيل أو إيقاف تشغيل هذه الميزة في أي وقت من الإعدادات.</string>
     <string name="find_device_dspt_provision_4">إذا قمت بتبديل بطاقات SIM، سيتم أرسال رسالة نصية قصيرة تلقائيًا لتفعيل هذه الميزة.</string>
     <string name="find_device_send_sms_alert">إذا قمت بتبديل بطاقات الـ SIM، سيتم تلقائياً إرسال رسالة نصية قصيرة أخرى لتفعيل هذة الميزة.</string>
@@ -127,6 +131,7 @@
     <string name="find_device_error_server">خطأ في الخادم</string>
     <string name="find_device_success_title">العثور على الجهاز</string>
     <string name="find_device_notice_p1">الذهاب إلى</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">"لتحديد موقع أو قفل أو استعادة هاتفك.
 إذا قمت بتبديل بطاقات SIM، سيتم إرسالة رسالة نصية قصيرة أخرى تلقائيًا لتفعيل هذه الميزة."</string>
     <string name="i_know">موافق</string>
@@ -240,8 +245,8 @@
     <string name="micloud_main_suggest_master_sync">تعذر مزامنة كل شيء</string>
     <string name="micloud_main_set_internet">الشبكة</string>
     <string name="micloud_main_sync_now">مزامنة الآن</string>
-    <string name="micloud_main_sync_on">المزامنة مفعلة</string>
-    <string name="micloud_main_master_sync_on">المزامنة مفعلة</string>
+    <string name="micloud_main_sync_on">تفعيل المزامنة</string>
+    <string name="micloud_main_master_sync_on">تفعيل المزامنة</string>
     <string name="micloud_main_network_error">يتعذر الاتصال بالشبكة</string>
     <string name="micloud_main_sync_on_wifi">في انتظار Wi-Fi</string>
     <string name="micloud_main_sync_setting">إعدادات المزامنة</string>
@@ -398,7 +403,7 @@
     <string name="micloud_storage">التخزين</string>
     <string name="micloud_member">عضوية Mi Cloud</string>
     <string name="micloud_buy_member">شراء عضوية Mi Cloud</string>
-    <string name="micloud_buy_member_safe">شراء عضوية Mi Cloud</string>
+    <string name="micloud_buy_member_safe">تمديد تخزين Mi Cloud</string>
     <string name="micloud_website">عناصر Mi Cloud</string>
     <string name="micloud_member_advantage">الحصول على مساحة تخزين إضافية.</string>
     <string name="micloud_main_title_sync_fail">تتعذر المزامنة</string>
@@ -409,6 +414,7 @@
     <string name="micloud_main_error_network_disallowed">تأكد من أنك قمت بالسماح للوصول إلى الإنترنت.</string>
     <string name="micloud_main_error_activated_fail">تفعيل بطاقة SIM الخاصة بك.</string>
     <string name="micloud_main_error_permission_limit">السماح لتطبيق Mi Cloud الوصول إلى التخزين.</string>
+    <string name="micloud_manage_space_data">إدارة بيانات Mi Cloud</string>
     <string name="micloud_confusion_no">لا</string>
     <string name="micloud_confusion_yes">نعم</string>
     <string name="micloud_confusion_cancel">إلغاء</string>
@@ -417,7 +423,7 @@
     <string name="micloud_confusion_entrance_question">هل قمت مؤخراً بتعديل حساب Mi الخاص بك بإستخدام %s؟</string>
     <string name="micloud_confusion_entrance_hint">لا تقم بتسجيل الدخول إلى حساب Mi الخاص بك بإستخدام إجهزة عامة</string>
     <string name="micloud_confusion_account_title">حساب Mi</string>
-    <string name="micloud_confusion_account_question">هل هوية حساب Mi: %s تعود لك؟</string>
+    <string name="micloud_confusion_account_question">هل معرف حساب Mi: %s تعود لك؟</string>
     <string name="micloud_confusion_account_hint">سيتم مزامنة التغييرات التي تقوم بها على هذا الجهاز على جميع الأجهزة الخاصة بك. لحماية حسابك, ينصح بإيقاف تشغيل المزامنة للأجهزة الأخرى عند عدم أستخدامك لها.</string>
     <string name="micloud_confusion_setting_title">العديد من الأجهزة</string>
     <string name="micloud_confusion_setting_question">إيقاف تشغيل المزامنة للأجهزة الأخرى المرتبطة بحسابك.</string>
@@ -479,6 +485,8 @@
     <string name="micloud_find_device_opened">العثور على الجهاز يعمل</string>
     <string name="micloud_find_device_open_fail">تعذر تشغيل العثور على الجهاز</string>
     <string name="micloud_find_device_opened_content">العثور على جهازك في %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
+    <string name="micloud_find_device_opened_content_url_int">www.mi.com/micloud</string>
     <string name="micloud_find_device_verify_fail">تعذر إعادة تفعيل العثور على الجهاز</string>
     <string name="micloud_find_device_close_fail">تعذر إيقاف تشغيل العثور على الجهاز</string>
     <string name="micloud_find_device_finish">تم</string>
@@ -513,6 +521,17 @@
     <string name="soundrecorder_sync_records">مزامنة مع Mi Cloud</string>
     <string name="soundrecorder_sync_only_in_wifi">استخدام شبكة Wi-Fi فقط للمزامنة</string>
     <string name="soundrecorder_sync_only_in_wifi_summary">لن يستخدم المسجل بيانات الجوال لتنزيل أو تحميل التسجيلات</string>
+    <string name="micloud_wipe_data_confirm_label">حذف البيانات من Mi Cloud</string>
+    <string name="micloud_wipe_data_confirm_title">حذف العناصر المتزامنة مع Mi Cloud من الهاتف بعد تسجيلك الخروج؟</string>
+    <string name="micloud_wipe_data_retain">إبقاء</string>
+    <string name="micloud_wipe_data_remove">حذف</string>
+    <string name="wipe_data_dialog_title">لم تتم مزامنة بعض العناصر</string>
+    <string name="wipe_data_dialog_msg">لم تتم مزامنة %s وستبقى على هاتفك.</string>
+    <string name="wipe_data_dialog_button_check_sync">تحقق اذا تم مزامنتة</string>
+    <string name="wipe_data_dialog_msg_and_on">٬ وبعض العناصر الأخرى</string>
+    <string name="wipe_secret_photo_dialog_title">لم يتم مزامنة الصور المخفية</string>
+    <string name="confirm_delete">حذف</string>
+    <string name="confirm_save">إبقاء</string>
     <string name="micloud_request_permission_title">Mi Cloud يحتاج الى أذونات</string>
     <string name="micloud_request_permission_content">Mi Cloud يحتاج الى أذونات لمزامنة البيانات. السماح لـMi Cloud للدخول الى التقويم، جهات الاتصال، حساب Mi، حالة بطاقة SIM، سجل المكالمات والرسائل.</string>
     <string name="micloud_request_permission_confirm">متابعة</string>
@@ -539,25 +558,21 @@
     <string name="passed_synced_time_hour">تمت المزامنة منذ %1$d س و%2$d دق</string>
     <string name="passed_synced_time_day">تمت المزامنة منذ %d أيام</string>
     <string name="cloud_storage_is_full">ممتلئ</string>
-    <string name="micloud_wipe_data_confirm_label">حذف البيانات من Mi Cloud</string>
-    <string name="micloud_wipe_data_confirm_title">حذف العناصر المتزامنة مع Mi Cloud من الهاتف بعد تسجيلك الخروج؟</string>
-    <string name="micloud_wipe_data_retain">إبقاء</string>
-    <string name="micloud_wipe_data_remove">حذف</string>
-    <string name="wipe_data_dialog_title">لم يتم مزامنة العناصر</string>
-    <string name="wipe_data_dialog_msg">بعض العناصر (%s) لم تتم مزامنتها. سيتم حفظها على جهازك ولن يتم حذفها.</string>
-    <string name="wipe_data_dialog_button_check_sync">تحقق اذا تم مزامنتة</string>
-    <string name="wipe_data_dialog_msg_and_on">٬ وبعض العناصر الأخرى</string>
-    <string name="wipe_secret_photo_dialog_title">لم يتم مزامنة الصور المخفية</string>
-    <string name="confirm_delete">حذف</string>
-    <string name="confirm_save">إبقاء</string>
     <string name="micloud_dialog_sync_now_title">الاتصال بـ Wi-Fi للمزامنة</string>
     <string name="micloud_dialog_sync_now_message">اتصل بالـWi-Fi لتجنب رسوم بيانات الجوال الإضافية</string>
     <string name="micloud_dialog_sync_now_negative">ليس الآن</string>
     <string name="micloud_dialog_sync_now_positive">استخدام بيانات الجوال</string>
+    <string name="micloud_main_head_menu_recycle_bin_title">سلة المهملات</string>
+    <string name="micloud_main_head_menu_recycle_bin_summary">إعادة نسخ الصور و جهات الاتصال احتياطياََ</string>
+    <string name="micloud_main_head_menu_cloud_backup">نسخ Cloud الإحتياطي</string>
+    <string name="micloud_main_head_menu_state_open">مفتوح</string>
+    <string name="micloud_main_head_menu_state_close">مغلق</string>
+    <string name="micloud_footer_normal_url">i.mi.com</string>
+    <string name="micloud_footer_international_url">mi.com/micloud</string>
     <string name="ks_fingerprint_payment">الدفع بإستخدام بصمة الأصبع</string>
     <string name="ks_name_fido">FIDO</string>
-    <string name="ks_name_alipay">AliPay</string>
-    <string name="ks_name_soter">WeChat</string>
+    <string name="ks_name_alipay">IFAA</string>
+    <string name="ks_name_soter">Soter</string>
     <string name="ks_status_available">متاح</string>
     <string name="ks_status_unavailable">غير متاح</string>
     <string name="ks_fingerprint_status">حالة الدفع</string>

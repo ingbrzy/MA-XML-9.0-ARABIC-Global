@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="adblock_notification">
-        <item quantity="other">%d أعلان محضور</item>
-        <item quantity="zero">%d أعلان محضور</item>
-        <item quantity="one">%d أعلان محضور</item>
-        <item quantity="two">%d أعلانات محضورة</item>
-        <item quantity="few">%d أعلانات محضورة</item>
-        <item quantity="many">%d أعلان محضور</item>
+        <item quantity="other">%d أعلان محظور</item>
+        <item quantity="zero">%d أعلان محظور</item>
+        <item quantity="one">%d أعلان محظور</item>
+        <item quantity="two">%d أعلانات محظورة</item>
+        <item quantity="few">%d أعلانات محظورة</item>
+        <item quantity="many">%d أعلان محظور</item>
     </plurals>
     <plurals name="adblock_rules_number_text">
         <item quantity="other">تم حظر %d عنصر</item>
@@ -121,12 +121,12 @@
         <item quantity="many">حذف %1$d عنصر من السجل؟</item>
     </plurals>
     <plurals name="video_push_multi_message">
-        <item quantity="other">%1$d updates are available.</item>
-        <item quantity="zero">%1$d updates are available.</item>
-        <item quantity="one">%1$d update is available.</item>
-        <item quantity="two">%1$d updates are available.</item>
-        <item quantity="few">%1$d updates are available.</item>
-        <item quantity="many">%1$d updates are available.</item>
+        <item quantity="other">%1$d تحديث متاح.</item>
+        <item quantity="zero">%1$d تحديث متاح.</item>
+        <item quantity="one">%1$d تحديث متاح.</item>
+        <item quantity="two">%1$d تحديثات متاحة.</item>
+        <item quantity="few">%1$d تحديثات متاحة.</item>
+        <item quantity="many">%1$d تحديث متاح.</item>
     </plurals>
     <plurals name="video_subtitle_last_message">
         <item quantity="other">%d دقيقة متبقية</item>
