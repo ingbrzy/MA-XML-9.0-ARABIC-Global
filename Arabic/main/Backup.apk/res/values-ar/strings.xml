@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"تقديم حجم النسخة: %1$s
 حجم تحديث دلتا: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">التخزين غير متاح، تحقق من بطاقة الذاكرة SD الخاصة بك.</string>
+    <string name="xiaomi_bytes_unit">%1$sبايت</string>
+    <string name="xiaomi_kilobytes_unit">%1$sكيلوبايت</string>
+    <string name="xiaomi_megabytes_unit">%1$sميغابايت</string>
     <string name="xiaomi_connect_download_manager_fail">تعذر بداية التنزيل. كن متاكدا من أن مدير التنزيلات يعمل بصفة طبيعية.</string>
     <string name="app_name">نسخة احتياطية</string>
     <string name="local_app_name">النسخ الاحتياطي</string>
@@ -58,7 +61,7 @@
     <string name="findlost_contact">استرداد جهات الاتصال</string>
     <string name="findlost_contact_online">استرداد جهات الاتصال من Mi Cloud</string>
     <string name="cloud_backup_login">تسجيل الدخول لحساب Mi</string>
-    <string name="cloud_backup_hint">للوصول إلى النُسخ الاحتياطية، سجل الدخول الآن</string>
+    <string name="cloud_backup_hint">للوصول إلى النسخ الاحتياطية، سجل الدخول الآن</string>
     <string name="cloud_backup_window_title">نسخ Mi Cloud الإحتياطي</string>
     <string name="cloud_restore_window_title">استعادة Mi Cloud</string>
     <string name="cloud_restore_title">استعادة البيانات الاحتياطية</string>
@@ -95,10 +98,10 @@
     <string name="sdcard_no_enough_space">لا توجد مساحة كافية</string>
     <string name="sdcard_no_enough_space_message">لا توجد مساحة تخزين كافية على بطاقة الذاكرة SD.</string>
     <string name="data_no_enough_space_message">ليس هناك مساحة تخزين كافية على جهازك.</string>
-    <string name="task_running_hint">هذه العملية قيد التشغيل بالفعل في الخلفية</string>
+    <string name="task_running_hint">هذه العملية قيد التشغيل مسبقاً في الخلفية</string>
     <string name="task_running_dialog">النسخ الاحتياطي والاستعادة قيد التشغيل. المس موافق للعرض.</string>
-    <string name="task_running_backup_hint">هذه المهمة قيد التشغيل بالفعل في الخلفية</string>
-    <string name="task_running_restore_hint">هذه المهمة قيد التشغيل بالفعل في الخلفية</string>
+    <string name="task_running_backup_hint">تعمل هذه المهمة في الخلفية</string>
+    <string name="task_running_restore_hint">تعمل هذه المهمة في الخلفية</string>
     <string name="task_running_backup_dialog">النسخ الاحتياطي قيد التشغيل. المس موافق للعرض.</string>
     <string name="task_running_restore_dialog">الاستعادة قيد التشغيل. المس موافق للعرض.</string>
     <string name="task_service_not_launched">المهمة لم تبدأ بعد</string>
@@ -225,6 +228,7 @@
     <string name="restore_backup">إستعادة</string>
     <string name="enable_encrypt_description">مشفر</string>
     <string name="disable_encrypt_description">غير مشفر</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">لحظة من فضلك…</string>
     <string name="state_mounting">الوصول إلى تخزين جهاز التوجيه…</string>
     <string name="abort_backup_confirm">لم يتم الانتهاء من النسخ الاحتياطي. التوقف على أية حال؟</string>
@@ -289,30 +293,30 @@
     <string name="trans_time_spent">"
 الوقت المنقضي: %s"</string>
     <string name="trans_restoring_no_items">جارٍ مزامنة العناصر</string>
-    <string name="trans_detail_category_sysdata">بيانات النظام (يتضمن الرسائل و جهات الاتصال و سجل المكالمات)</string>
+    <string name="trans_detail_category_sysdata">بيانات النظام (يتضمن الرسائل وجهات الاتصال وسجل المكالمات)</string>
     <string name="trans_detail_category_userdata">التطبيقات</string>
     <string name="trans_detail_category_account">الحسابات وجهات الاتصال</string>
     <string name="trans_detail_category_files">ملفات</string>
-    <string name="trans_detail_category_audio_video_doc">الصوت، الفيديو، و الملفات</string>
-    <string name="trans_detail_category_wechat_qq">بيانات WeChat و QQ (يتضمن سجل الدردشة)</string>
+    <string name="trans_detail_category_audio_video_doc">الصوت والفيديو، والملفات</string>
+    <string name="trans_detail_category_wechat_qq">بيانات WeChat وQQ (يتضمن سجل الدردشة)</string>
     <string name="trans_detail_category_user_app_data">بيانات التطبيق</string>
-    <string name="trans_detail_wechat_data">بيانات WeChat (يتضمن سجل المحادثة)</string>
-    <string name="trans_detail_qq_data">بيانات QQ (يتضمن سجل الدردشة)</string>
-    <string name="trans_detail_app_data_useless_tip">يمكنك استعادة هذه من التطبيق، لا حاجة لنقلة.</string>
+    <string name="trans_detail_wechat_data">بيانات WeChat (يتضمن سجل المحادثات)</string>
+    <string name="trans_detail_qq_data">بيانات QQ (يتضمن سجل الدردشات)</string>
+    <string name="trans_detail_app_data_useless_tip">يمكنك استعادة هذه من التطبيق، لا حاجة لنقلها.</string>
     <string name="trans_detail_item_app_data_too_large_tip">يبدو أن العنصر كبير جدا لنقلة.</string>
-    <string name="trans_detail_item_app_data_selected_tip">اختيار التطبيقات المقابلة كذلك.</string>
-    <string name="trans_detail_list_footer">ملاحظة: يمكنك اختيار نقل التطبيقات بشكل منفصل. ومع ذلك، إذا قمت بتحديد بيانات التطبيق، سيتم نقل التطبيقات المقابلة كذلك.</string>
-    <string name="trans_detail_page_tip">كلما زادت العناصر التي حددتها، ستستمر عملية النقل.</string>
+    <string name="trans_detail_item_app_data_selected_tip">كما تم اختيار التطبيقات المقابلة.</string>
+    <string name="trans_detail_list_footer">ملاحظة: يمكنك اختيار نقل التطبيقات بشكل منفصل. ومع ذلك، عند تحديد البيانات، سيتم أيضا نقل التطبيقات المقابلة.</string>
+    <string name="trans_detail_page_tip">كلما زادت العناصر التي حددتها، استمرت عملية النقل لوقت أطول.</string>
     <string name="trans_detail_sys_data_list_title">تطبيقات النظام</string>
     <string name="trans_detail_app_data_list_title">بيانات التطبيق</string>
     <string name="trans_detail_app_apk_list_title">التطبيقات المثبتة</string>
     <string name="trans_detail_wechat_qq_list_title">WeChat و QQ</string>
-    <string name="trans_detail_audio_video_doc_list_title">الصوت و الفيديو و الملفات</string>
+    <string name="trans_detail_audio_video_doc_list_title">الصوت والفيديو والملفات</string>
     <string name="trans_detail_sys_data_page_title">تحديد تطبيقات النظام</string>
     <string name="trans_detail_app_data_page_title">تحديد بيانات التطبيق</string>
     <string name="trans_detail_app_apk_page_title">تحديد التطبيقات</string>
-    <string name="trans_detail_wechat_qq_page_title">تحديد WeChat و QQ و بيانات التطبيق</string>
-    <string name="trans_detail_audio_video_doc_page_title">تحديد الصوت و الفيديو و الملفات</string>
+    <string name="trans_detail_wechat_qq_page_title">تحديد WeChat وQQ وبيانات التطبيق</string>
+    <string name="trans_detail_audio_video_doc_page_title">تحديد الصوت والفيديو والملفات</string>
     <string name="trans_sending_completed">تم الارسال بنجاح</string>
     <string name="trans_receiving_completed">تم الاستلام بنجاح</string>
     <string name="trans_time_format_second">اقل من دقيقة</string>
@@ -487,6 +491,7 @@ https://appleid.apple.com/#!&amp;page=signin لإيقاف المصادقة ذا�
 يجب عليك إنشاء نسخ iCloud احتياطي أولا."</string>
     <string name="list_footer_tip_title">نصائح:</string>
     <string name="import_tip_summary">بسبب مشاكل في التوافق، يمكنك فقط نقل البيانات جزئيا من أجهزة iOS. يجب عليك إنشاء نسخ iCloud احتياطي قبل بدأ النقل.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">استيراد</string>
     <string name="select_empty">قم بتحديد عناصر للاستيراد</string>
     <string name="select_item_summary_wait">جارٍ الانتظار…</string>

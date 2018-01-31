@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="notification_missedCallTitle">
-        <item quantity="other">مكالمة فائتة</item>
-        <item quantity="zero">مكالمات فائتة</item>
-        <item quantity="one">مكالمة فائتة</item>
-        <item quantity="two">مكالمات فائتة</item>
-        <item quantity="few">مكالمات فائتة</item>
-        <item quantity="many">مكالمة فائتة</item>
+    <plurals name="notification_missedCallTitle_miui">
+        <item quantity="other">مكالمة لم يرد عليها</item>
+        <item quantity="zero">مكالمة لم يرد عليها</item>
+        <item quantity="one">مكالمة لم يرد عليها</item>
+        <item quantity="two">مكالمات لم يرد عليها</item>
+        <item quantity="few">مكالمات لم يرد عليها</item>
+        <item quantity="many">مكالمة لم يرد عليها</item>
     </plurals>
 </resources>

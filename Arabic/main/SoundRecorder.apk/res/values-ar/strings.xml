@@ -26,7 +26,6 @@
     <string name="notification_recording_ticker">تم كتم صوت الهاتف</string>
     <string name="notification_playback">جارٍ التشغيل…</string>
     <string name="notification_stopped">توقف التسجيل</string>
-    <string name="notification_warning">مساحة التخزين منخفضة (أقل من %d دقيقة)</string>
     <string name="record_list">التسجيلات</string>
     <string name="record_list_fm">تسجيلات FM</string>
     <string name="record_list_call">المكالمات المسجلة</string>
@@ -73,6 +72,7 @@
     <string name="message_file_size_error">وصل التسجيل إلى الحد الأقصى المدعوم من %s</string>
     <string name="pause">إيقاف مؤقت</string>
     <string name="back">رجوع</string>
+    <string name="menu">القائمة</string>
     <string name="toast_uninstall_fileexplorer">مدير التطبيق غير مثبت</string>
     <string name="record_download">تنزيل من Mi Cloud</string>
     <string name="record_download_msg">يمكن تشغيل التسجيلات فقط بعد الانتهاء من تنزيلها.</string>
@@ -141,10 +141,8 @@
     <string name="recognition_error_downloading">جارٍ التنزيل</string>
     <string name="recognition_status_downloading">جارٍ التنزيل</string>
     <string name="runtime_permission_ungranted">لا يمكن استخدام المسجل بسبب أذونات غير ممنوحة</string>
-    <string name="btn_clear_records">حذف التسجيلات (%d عنصر)</string>
     <string name="alert_message_clear_records">حذف التسجيلات المحددة؟</string>
     <string name="clear_records">حذف التسجيلات المتزامنة</string>
-    <string name="choose_call_records_count">%d عنصر</string>
     <string name="network_tip_dialog_title">يتطلب إتصال إنترنت</string>
     <string name="network_tip_dialog_content">يحتاج المسجّل إلى الاتصال بالإنترنت، كذلك قراءة جهات الاتصال الخاصة بك للعمل بشكل طبيعي. موافق؟</string>
     <string name="network_tip_dialog_ok">موافق</string>

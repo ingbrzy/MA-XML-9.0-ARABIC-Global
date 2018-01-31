@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="mins_ago">
-        <item quantity="other">منذ %1$d دقيقة</item>
-        <item quantity="zero">منذ %1$d دقيقة</item>
-        <item quantity="one">منذ %1$d دقيقة</item>
-        <item quantity="two">منذ %1$d دقائق</item>
-        <item quantity="few">منذ %1$d دقائق</item>
-        <item quantity="many">منذ %1$d دقيقة</item>
+        <item quantity="other">منذ %1$d دق</item>
+        <item quantity="zero">منذ %1$d دق</item>
+        <item quantity="one">منذ %1$d دق</item>
+        <item quantity="two">منذ %1$d دق</item>
+        <item quantity="few">منذ %1$d دق</item>
+        <item quantity="many">منذ %1$d دق</item>
     </plurals>
     <plurals name="hours_ago">
-        <item quantity="other">منذ %1$d ساعة</item>
-        <item quantity="zero">منذ %1$d ساعة</item>
-        <item quantity="one">منذ %1$d ساعة</item>
-        <item quantity="two">منذ %1$d ساعات</item>
-        <item quantity="few">منذ %1$d ساعات</item>
-        <item quantity="many">منذ %1$d ساعة</item>
+        <item quantity="other">منذ %1$d س</item>
+        <item quantity="zero">منذ %1$d س</item>
+        <item quantity="one">منذ %1$d س</item>
+        <item quantity="two">منذ %1$d س</item>
+        <item quantity="few">منذ %1$d س</item>
+        <item quantity="many">منذ %1$d س</item>
     </plurals>
     <plurals name="days_ago">
         <item quantity="other">منذ %1$d يوم</item>

@@ -255,14 +255,14 @@
     <string name="scanner_fingerprint">جارٍ فحص بصمة الاصبع…</string>
     <string name="scanner_fingerprint_enter_second">"مسح بصمة اصبع الواجهة الثانية
  للدخول إلى الواجهة الثانية من شاشة القفل"</string>
-    <string name="xspace_guide_title">إنشاء تطبيق مزدوج ل%s</string>
+    <string name="xspace_guide_title">إنشاء تطبيق مزدوج</string>
     <string name="xspace_guide_des">استخدم ٢ حسابات دون تبديل</string>
     <string name="xpsace_guide_button">إنشاء</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">تعذر العثور على أية تطبيقات</string>
     <string name="xspace_weixin_title">WeChat</string>
     <string name="weixin_pay">دفع WeChat</string>
-    <string name="weixin_share">مشاركة على اللحظات</string>
+    <string name="weixin_share_sign">تسجيل الدخول و المشاركة</string>
     <string name="xspace_weibo_title">Weibo</string>
     <string name="weibo_send">الإرسال إلى Weibo</string>
     <string name="xspace_qq_title">QQ</string>
@@ -271,6 +271,9 @@
     <string name="xspace_default_app_title">التطبيق الافتراضي</string>
     <string name="xspace_default_app_summary">تعيين التطبيق الافتراضي للمدفوعات، والمشاركة، والمفضلة، وأكثر من ذلك.</string>
     <string name="xspace_default_setting_dialog_title">الافتراضية</string>
+    <string name="xspace_default_guide_notification_content">انقر للتغيير</string>
+    <string name="xspace_default_guide_notification_main_title">استخدام التطبيق الأفتراضي</string>
+    <string name="xspace_default_guide_notification_xspace_title">استخدام التطبيق المزدوج</string>
     <string name="space_name_default">واجهة العمل</string>
     <string name="space_des_default">واجهة منعزلة مع بيانات مشفرة</string>
     <string name="create_work_space">إنشاء واجهة عمل</string>

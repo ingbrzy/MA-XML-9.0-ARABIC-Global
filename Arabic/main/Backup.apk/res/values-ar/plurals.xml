@@ -41,20 +41,20 @@
         <item quantity="many">%d عنصر</item>
     </plurals>
     <plurals name="trans_time_format_minute">
-        <item quantity="other">%d دقيقة</item>
-        <item quantity="zero">%d دقيقة</item>
-        <item quantity="one">%d دقيقة</item>
-        <item quantity="two">%d دقائق</item>
-        <item quantity="few">%d دقائق</item>
-        <item quantity="many">%d دقيقة</item>
+        <item quantity="other">%d دق</item>
+        <item quantity="zero">%d دق</item>
+        <item quantity="one">%d دق</item>
+        <item quantity="two">%d دق</item>
+        <item quantity="few">%d دق</item>
+        <item quantity="many">%d دق</item>
     </plurals>
     <plurals name="trans_time_format_hours">
-        <item quantity="other">%d ساعة</item>
-        <item quantity="zero">%d ساعة</item>
-        <item quantity="one">%d ساعة</item>
-        <item quantity="two">%d ساعات</item>
-        <item quantity="few">%d ساعات</item>
-        <item quantity="many">%d ساعة</item>
+        <item quantity="other">%d س</item>
+        <item quantity="zero">%d س</item>
+        <item quantity="one">%d س</item>
+        <item quantity="two">%d س</item>
+        <item quantity="few">%d س</item>
+        <item quantity="many">%d س</item>
     </plurals>
     <plurals name="select_item_summary">
         <item quantity="other">%1$s | %2$d عنصر</item>

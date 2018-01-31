@@ -5,12 +5,14 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">لا يوجد</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -247,7 +249,7 @@
     <string name="local_backup_password_toast_success">تعيين كلمة مرور احتياطية جديدة</string>
     <string name="local_backup_password_toast_confirmation_mismatch">كلمات المرور غير متطابقة</string>
     <string name="local_backup_password_toast_validation_failure">تعذر تعيين نسخة احتياطية لكلمة المرور</string>
-    <string name="inactive_apps_title">التطبيقات غير النشطة</string>
+    <string name="inactive_apps_title">التطبيقات الغير نشطة</string>
     <string name="inactive_app_inactive_summary">غير نشط. انقر لتشغيل / إيقاف.</string>
     <string name="inactive_app_active_summary">نشط. انقر لتشغيل / إيقاف.</string>
     <string name="runningservices_settings_title">الخدمات قيد التشغيل</string>
@@ -424,7 +426,6 @@
     <string name="recents_multistack_add_stack_dialog_split_custom">تخصيص</string>
     <string name="recents_multi_window_mode">تقسيم الشاشة</string>
     <string name="recents_exit_multi_window_mode">خروج</string>
-    <string name="keyboard_shortcut_group_system_recents">الحديثة</string>
     <string name="accessibility_divider">مقسم تقسيم الشاشة</string>
     <string name="accessibility_action_divider_left_full">ملء الشاشة باليسار</string>
     <string name="accessibility_action_divider_left_70">اليسار ٧٠%</string>
@@ -438,8 +439,112 @@
     <string name="accessibility_action_divider_bottom_full">ملء الشاشة بالأسفل</string>
     <string name="dock_forced_resizable">قد لا يعمل هذا التطبيق مع تقسيم الشاشة</string>
     <string name="dock_non_resizeble_failed_to_dock_text">هذا التطبيق لا يدعم وضع تقسيم الشاشة</string>
+    <string name="accessibility_desc_work_lock">شاشة القفل لمساحة العمل</string>
+    <string name="keyboard_key_button_template">زر %1$s</string>
+    <string name="keyboard_key_home">البداية</string>
+    <string name="keyboard_key_back">رجوع</string>
+    <string name="keyboard_key_dpad_up">فوق</string>
+    <string name="keyboard_key_dpad_down">أسفل</string>
+    <string name="keyboard_key_dpad_left">يسار</string>
+    <string name="keyboard_key_dpad_right">يمين</string>
+    <string name="keyboard_key_dpad_center">وسط</string>
+    <string name="keyboard_key_tab">Tab</string>
+    <string name="keyboard_key_space">مسافة</string>
+    <string name="keyboard_key_enter">أدخل</string>
+    <string name="keyboard_key_backspace">مسح</string>
+    <string name="keyboard_key_media_play_pause">تشغيل/إيقاف مؤقت</string>
+    <string name="keyboard_key_media_stop">إيقاف</string>
+    <string name="keyboard_key_media_next">التالي</string>
+    <string name="keyboard_key_media_previous">السابق</string>
+    <string name="keyboard_key_media_rewind">إرجاع</string>
+    <string name="keyboard_key_media_fast_forward">تقديم سريع</string>
+    <string name="keyboard_key_page_up">أعلى الصفحة</string>
+    <string name="keyboard_key_page_down">أسفل الصفحة</string>
+    <string name="keyboard_key_forward_del">حذف</string>
+    <string name="keyboard_key_move_home">البداية</string>
+    <string name="keyboard_key_move_end">النهاية</string>
+    <string name="keyboard_key_insert">أدخل</string>
+    <string name="keyboard_key_num_lock">قفل الأرقام</string>
+    <string name="keyboard_key_numpad_template">مفتاح الرقم %1$s</string>
+    <string name="keyboard_shortcut_group_system">النظام</string>
+    <string name="keyboard_shortcut_group_system_home">الشاشة الرئيسية</string>
+    <string name="keyboard_shortcut_group_system_recents">الأخيرة</string>
+    <string name="keyboard_shortcut_group_system_back">رجوع</string>
+    <string name="keyboard_shortcut_group_system_notifications">الإشعارات</string>
+    <string name="keyboard_shortcut_group_system_shortcuts_helper">أختصارات لوحة المفاتيح</string>
+    <string name="keyboard_shortcut_group_system_switch_input">تبديل طريقة الادخال</string>
+    <string name="keyboard_shortcut_group_applications">التطبيقات</string>
+    <string name="keyboard_shortcut_group_applications_assist">المساعد</string>
+    <string name="keyboard_shortcut_group_applications_browser">المتصفح</string>
+    <string name="keyboard_shortcut_group_applications_contacts">جهات الاتصال</string>
+    <string name="keyboard_shortcut_group_applications_email">البريد الإلكتروني</string>
+    <string name="keyboard_shortcut_group_applications_sms">الرسائل القصيرة SMS</string>
+    <string name="keyboard_shortcut_group_applications_im">رسالة فورية</string>
+    <string name="keyboard_shortcut_group_applications_music">الموسيقى</string>
+    <string name="keyboard_shortcut_group_applications_youtube">YouTube</string>
+    <string name="keyboard_shortcut_group_applications_calendar">التقويم</string>
+    <string name="legacy_vpn_name">VPN</string>
+    <string name="monitoring_button_view_policies">عرض السياسات</string>
+    <string name="monitoring_description_ca_certificate">يتم تثبيت مرجع مصدق على هذا الجهاز. قد تتم مراقبة حركة مرور الشبكة الآمنة أو تعديلها.</string>
+    <string name="monitoring_description_named_management">"تتم إدارة جهازك بواسطة %1$s.
+
+يمكن للمشرف مراقبة وإدارة الإعدادات والتطبيقات والبيانات المرتبطة بجهازك ومعلومات موقع جهازك.
+
+لمزيد من المعلومات، اتصل بالمشرف."</string>
+    <string name="monitoring_description_managed_profile_ca_certificate">قامت مؤسستك بتثبيت مرجع مصدق في ملف العمل الشخصي. قد تتم مراقبة حركة مرور الشبكة الآمنة أو تعديلها.</string>
+    <string name="monitoring_description_management">"تتم إدارة جهازك من قِبل مؤسستك.
+
+يمكن للمشرف مراقبة وإدارة الإعدادات والتطبيقات والبيانات المرتبطة بجهازك ومعلومات موقع جهازك.
+
+لمزيد من المعلومات، اتصل بالمشرف."</string>
+    <string name="monitoring_description_management_ca_certificate">قامت مؤسستك بتثبيت مرجع مصدق في هذا الجهاز. قد تتم مراقبة حركة مرور الشبكة الآمنة أو تعديلها.</string>
+    <string name="monitoring_description_managed_profile_named_vpn">ملف العمل الشخصي متصل بـ %1$s، حيث يمكنه مراقبة نشاط الشبكة، بما في ذلك الرسائل الإلكترونية والتطبيقات ومواقع الويب.</string>
+    <string name="monitoring_description_management_network_logging">قام المشرف الخاص بك بتشغيل تسجيل الشبكة، الذي يراقب حركة المرور على جهازك.</string>
+    <string name="monitoring_description_named_vpn">انت متصل بـ %1$s، حيث يمكنه مراقبة نشاط الشبكة، بما في ذلك الرسائل الإلكترونية والتطبيقات ومواقع الويب.</string>
+    <string name="monitoring_description_personal_profile_named_vpn">ملف التعريف الشخصي متصل بـ %1$s، حيث يمكنه مراقبة نشاط الشبكة، بما في ذلك الرسائل الإلكترونية والتطبيقات ومواقع الويب.</string>
+    <string name="monitoring_description_two_named_vpns">انت متصل بـ %1$s و %2$s، حيث ايمكنه مراقبة نشاط الشبكة، بما في ذلك الرسائل الإلكترونية والتطبيقات ومواقع الويب.</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
+    <string name="monitoring_description_vpn_settings">فتح إعدادات VPN</string>
+    <string name="monitoring_title">مراقبة الشبكة</string>
+    <string name="monitoring_subtitle_ca_certificate">شهادات CA</string>
+    <string name="monitoring_subtitle_network_logging">مسجل الشبكة</string>
+    <string name="monitoring_subtitle_vpn">VPN</string>
+    <string name="monitoring_title_device_owned">إدارة الجهاز</string>
+    <string name="quick_settings_done">تم</string>
+    <string name="quick_settings_disclosure_management_monitoring">تدير مؤسستك هذا الجهاز و قد تراقب حركة مرور الشبكة</string>
+    <string name="quick_settings_disclosure_named_management_monitoring">قد تقوم %1$s بإدارة هذا الجهاز ومراقبة حركة المرور</string>
+    <string name="quick_settings_disclosure_management_named_vpn">يتم إدارة الجهاز من قِبل موؤسستك ومتصل بـ %1$s</string>
+    <string name="quick_settings_disclosure_named_management_named_vpn">يتم إدارة الجهاز من قِبل %1$s ومتصل بـ %2$s</string>
+    <string name="quick_settings_disclosure_management">تتم إدارة الجهاز من قِبل مؤسستك</string>
+    <string name="quick_settings_disclosure_named_management">تتم إدارة الجهاز من قِبل %1$s</string>
+    <string name="quick_settings_disclosure_management_vpns">تتم إدارة الجهاز من قِبل مؤسستك ومتصله بـ VPNs</string>
+    <string name="quick_settings_disclosure_named_management_vpns">تتم إدارة الجهاز من قِبل %1$s ومتصله بـ VPNs</string>
+    <string name="quick_settings_disclosure_managed_profile_monitoring">قد تراقب مؤسستك حركة الشبكة في ملف العمل الشخصي</string>
+    <string name="quick_settings_disclosure_named_managed_profile_monitoring">قد يراقب %1$s حركة الشبكة في ملف العمل الشخصي</string>
+    <string name="quick_settings_disclosure_monitoring">قد يتم مراقبة الشبكة</string>
+    <string name="quick_settings_disclosure_vpns">الجهاز متصل بشبكات VPN</string>
+    <string name="quick_settings_disclosure_managed_profile_named_vpn">ملف العمل الشخصي متصل بـ %1$s</string>
+    <string name="quick_settings_disclosure_personal_profile_named_vpn">ملف التعريف الشخصي متصل بـ %1$s</string>
+    <string name="quick_settings_disclosure_named_vpn">الجهاز متصل بـ %1$s</string>
     <string name="status_bar_date_format">"EEEE
 d MMMM"</string>
+    <string name="monitoring_title_profile_owned">مراقبة الملف الشخصي</string>
+    <string name="monitoring_description_do_body_vpn">لقد اتصلت بتطبيق %1$s، الذي يمكن أن يراقب نشاط الشبكة، بما في ذلك رسائل البريد الإلكتروني والتطبيقات والمواقع الإلكترونية.</string>
+    <string name="monitoring_description_network_logging">"شغَّل المشرف ميزة تسجيل بيانات الشبكة، والتي يتم من خلالها مراقبة حركة البيانات على جهازك.
+
+للحصول على المزيد من المعلومات، اتصل بالمشرف."</string>
+    <string name="monitoring_description_vpn">"‏لقد منحت تطبيقًا الإذن لإعداد اتصال شبكة ظاهرية خاصة (VPN).
+
+يمكن لهذا التطبيق مراقبة أنشطتك على الجهاز والشبكة، بما في ذلك الرسائل الإلكترونية والتطبيقات ومواقع الويب."</string>
+    <string name="monitoring_description_vpn_profile_owned">"تتم إدارة ملفك الشخصي للعمل بواسطة %1$s.
+
+ويمكن للمشرف مراقبة نشاط الشبكة، بما في ذلك رسائل البريد الإلكتروني والتطبيقات والمواقع الإلكترونية.
+
+للحصول على المزيد من المعلومات، اتصل بالمشرف.
+
+وتجدر الإشارة إلى أنك متصل أيضًا بشبكة ظاهرية خاصة يمكن أن تراقب نشاط الشبكة."</string>
+    <string name="monitoring_description_app">تم ربطك بـ %1$s، الذي يمكنه مراقبة أنشطتك على الشبكة، بما في ذلك الرسائل الإلكترونية والتطبيقات ومواقع الويب.</string>
+    <string name="monitoring_description_app_personal">أنت متصل بـ %1$s، الذي يمكنه مراقبة أنشطتك الشخصية على الشبكة، بما في ذلك الرسائل الإلكترونية والتطبيقات ومواقع الويب.</string>
     <string name="status_bar_recent_guide_all">"مرّر لأعلى للإغلاق
 مرّر لأسفل للقفل"</string>
     <string name="status_bar_recent_guide_top">مرّر لأعلى للإغلاق</string>
@@ -457,8 +562,11 @@ d MMMM"</string>
     <string name="accessibility_recent_task_memory_info">مجموع الذاكرة العشوائية: %2$s | الذاكرة العشوائية المتاحة: %1$s. انقر مرتين للتنظيف.</string>
     <string name="accessibility_recent_task_locked">مقفل، مرّر لأسفل لإلغاء القفل.</string>
     <string name="accessibility_recent_task_unlocked">غير مقفل</string>
-    <string name="nav_guide_title">إخفاء أزرار اللمس</string>
-    <string name="nav_guide_message">استخدم الإيماءات لإخفاء أو إظهار أزرار اللمس.</string>
+    <string name="accessibility_recent_task_locked_state">مقفل</string>
+    <string name="accessibility_recent_task_unlocked_state">غير مقفل</string>
+    <string name="accessibility_drag_hint_message">اسحب العناصر إلى أعلى الشاشة</string>
+    <string name="nav_guide_title">إخفاء أزرار الشاشة</string>
+    <string name="nav_guide_message">استخدم الإيماءات لإخفاء أو إظهار أزرار الشاشة.</string>
     <string name="nav_guide_cancel">تجاهل</string>
     <string name="nav_guide_ok">إعداد</string>
     <string name="usb_mode_notification">وحدة تخزين USB</string>
@@ -536,6 +644,7 @@ d MMMM"</string>
     <string name="ext_media_mountable_notification_title">جهاز وحدة تخزين USB متصل</string>
     <string name="ext_media_mountable_notification_message">المس للفتح في المدير.</string>
     <string name="ext_media_safe_remove">تمت الإزالة بأمان</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="kilobyte_per_second">ك/ث</string>
     <string name="megabyte_per_second">م/ث</string>
     <string name="status_bar_network_flow_today">اليوم: %1$s</string>
@@ -614,6 +723,19 @@ d MMMM"</string>
     <string name="notification_header_title">الإشعارات</string>
     <string name="weather_publish_time">تم تحديثه %1$s</string>
     <string name="no_weather_description">الحصول على معلومات الطقس ></string>
+    <string name="weather_description_no_aqi">%1$s</string>
+    <string name="accessibility_desc_notification_shade">مركز الإشعارات</string>
+    <string name="accessibility_desc_quick_settings">الإعدادات السريعة</string>
+    <string name="accessibility_desc_details_page">%1$s تفاصيل للصفحة</string>
+    <string name="accessibility_desc_block_notification">إخفاء الإشعارات</string>
+    <string name="accessibility_desc_select_block_notification">حدد الإشعارات المراد إخفاءها</string>
+    <string name="accessibility_desc_confirm_block">إخفاء</string>
+    <string name="accessibility_desc_reconfirm_block">إخفاء الآن؟</string>
+    <string name="accessibility_desc_cancel_block">عدم الإخفاء</string>
+    <string name="accessibility_desc_app_allow_block">يمكن إخفاء إشعارات %1$s</string>
+    <string name="accessibility_desc_app_unallow_block">لا يمكن إخفاء إشعارات %1$s</string>
+    <string name="accessibility_desc_check_block_notification">تحديد إشعارات %1$s</string>
+    <string name="accessibility_desc_uncheck_block_notification">الغاء تحديد إشعارات %1$s</string>
     <string name="screenshot_long_screenshot">تمرير</string>
     <string name="screenshot_edit">تعديل</string>
     <string name="screenshot_send">ارسل</string>
@@ -634,7 +756,6 @@ d MMMM"</string>
     <string name="notification_manager">إدارة الإشعارات</string>
     <string name="notification_manager_des">تصفية وإدارة الإشعارات</string>
     <string name="quick_settings_more_settings">مزيد من الإعدادات</string>
-    <string name="quick_settings_done">تم</string>
     <string name="quick_settings_wifi_detail_empty_text">لا توجد شبكات Wi-Fi متاحة</string>
     <string name="quick_settings_wifi_label">شبكة Wi-Fi</string>
     <string name="quick_settings_wifi_nearby">تحديد شبكة قريبة</string>
@@ -659,22 +780,30 @@ d MMMM"</string>
     <string name="search_hint">بحث عن مواقع ويب، تطبيقات، جهات إتصال، مقاطع فيديو</string>
     <string name="description_image_button_reject">رفض</string>
     <string name="description_image_button_answer">رد</string>
-    <string name="screenshot_feedback_txt">Feedback</string>
-    <string name="screenshot_toalbum_txt">Preview</string>
-    <string name="how_to_use_fsg">How to use full-screen gesture?</string>
-    <string name="how_to_back_home">How to back to home</string>
-    <string name="how_to_switch_recents">How to switch to recents</string>
-    <string name="fsg_demo_back">Back</string>
-    <string name="fsg_demo_go_on">Go on</string>
-    <string name="fs_gesture_back_home_summary">Slide from bottom quickly</string>
-    <string name="fs_gesture_switch_recents_summary">Slide from bottom and wait a second</string>
-    <string name="fs_gesture_back_ready_title">How to go back last page?</string>
-    <string name="fs_gesture_left_back_ready_summary">Swipe left from screen</string>
-    <string name="fs_gesture_right_back_ready_summary">Swipe right from screen</string>
-    <string name="fs_gesture_skip">Back</string>
-    <string name="fs_gesture_finish">Nice!</string>
-    <string name="fs_gesture_final_title">Finish studying</string>
-    <string name="fs_gesture_final_summary">You can set in [Settings-Full screen]</string>
-    <string name="fs_gesture_final_restart">Study again</string>
-    <string name="fs_gesture_final_over">Finish</string>
+    <string name="screenshot_feedback_txt">الإبلاغ عن خلل</string>
+    <string name="screenshot_toalbum_txt">معاينة</string>
+    <string name="please_slide_agian">يرجى التمرير مرة أخرى</string>
+    <string name="how_to_use_fsg">يمكنك تنفيذ الإجراءات التالية بإستخدام الإيماءات:</string>
+    <string name="how_to_back_home">الانتقال إلى الشاشة الرئيسية</string>
+    <string name="how_to_switch_recents">فتح التطبيقات الأخيرة</string>
+    <string name="fsg_demo_back">رجوع</string>
+    <string name="fsg_demo_go_on">متابعة</string>
+    <string name="fs_gesture_back_home_summary">مرّر سريعا من الأسفل</string>
+    <string name="fs_gesture_switch_recents_summary">مرّر من الأسفل وتوقف</string>
+    <string name="fs_gesture_back_ready_title">رجوع</string>
+    <string name="fs_gesture_left_back_ready_summary">مرّر من يمين حافة الشاشة</string>
+    <string name="fs_gesture_right_back_ready_summary">مرّر من يسار حافة الشاشة</string>
+    <string name="fs_gesture_skip">رجوع</string>
+    <string name="fs_gesture_finish">رائع!</string>
+    <string name="fs_gesture_final_title">أنت جاهز للانطلاق!</string>
+    <string name="fs_gesture_final_summary">يمكنك اختيار العودة إلى استخدام الأزرار من الإعدادات> عرض ملء الشاشة</string>
+    <string name="fs_gesture_final_restart">مرة أخرى</string>
+    <string name="fs_gesture_final_over">تم</string>
+    <string name="monitoring_description_do_header_generic">تتم إدارة جهازك بواسطة %1$s.</string>
+    <string name="monitoring_description_do_header_with_name">تستخدم %1$s تطبيق %2$s لإدارة جهازك.</string>
+    <string name="monitoring_description_do_body">يمكن للمشرف مراقبة الإعدادات وإدارتها والدخول إلى المؤسسة والتطبيقات والبيانات المرتبطة بجهازك ومعلومات موقع الجهاز.</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
+    <string name="monitoring_description_do_learn_more">مزيد من المعلومات</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
+    <string name="monitoring_description_ca_cert_settings">فتح بيانات الاعتماد الموثوق بها</string>
 </resources>

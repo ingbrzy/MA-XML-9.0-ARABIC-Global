@@ -213,6 +213,8 @@
     <string name="auto_advance_help_title">بعد حذف رسالة، اعرض…</string>
     <string name="auto_advance_label">حذف تدفق الرسائل</string>
     <string name="auto_advance_summary">اختيار أي رسالة يتم عرضها بعد حذف رسالة</string>
+    <string name="auto_login_fail">"Couldn't sign in automatically"</string>
+    <string name="auto_login_fail_to_retry">"Couldn't sign in automatically, try again."</string>
     <string name="auto_remind_bind">إضافة</string>
     <string name="auto_remind_discribe_text">تشغيل لتلقي تذكيرات تلقائية</string>
     <string name="auto_remind_text">تذكيرات تلقائية</string>
@@ -223,6 +225,8 @@
     <string name="bank_card_detail">تفاصيل بطاقة الائتمان</string>
     <string name="battery_saver">توفير شحن البطارية</string>
     <string name="battery_saver_keywords">توفير شحن البطارية؛بطارية البريد</string>
+    <string name="bcc">نسخة مخفية</string>
+    <string name="bcc_heading">"نسخة مخفية: "</string>
     <string name="bill_center_setting">إعدادات الفواتير</string>
     <string name="bill_center_setting_head">استيراد معلومات من هذه الحسابات</string>
     <string name="bill_cycle_text">دورة الفواتير</string>
@@ -242,6 +246,9 @@
     <string name="cancel_action">إلغاء</string>
     <string name="cancel_pop3_attchemt_downloading">لا يمكن إلغاء التحميلات الجارية للمرفقات في حسابات POP3</string>
     <string name="cant_move_or_change_labels">لا يمكن نقل عناصر من حسابات متعددة.</string>
+    <string name="cc">نسخة</string>
+    <string name="cc_attribution">Cc: %1$s&lt;br></string>
+    <string name="cc_bcc">نسخة/نسخة مخفية</string>
     <string name="cc_heading">"Cc: "</string>
     <string name="change_folders_selection_dialog_title">تغيير المجلدات</string>
     <string name="change_sync_settings">تغيير إعدادات المزامنة</string>
@@ -469,6 +476,7 @@
     <string name="gmail_web_login_go">موافق</string>
     <string name="gmail_web_login_required_message">تسجيل الدخول إلى Gmail</string>
     <string name="header_category_account">الحسابات</string>
+    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">ردود الأفعال</string>
     <string name="header_label_general_preferences">عام</string>
     <string name="help_and_info">المساعدة</string>
@@ -490,6 +498,7 @@
     <string name="invalid_recipient">العنوان %s غير صالح.</string>
     <string name="invalid_recipient_title">خطأ في المستلم</string>
     <string name="kilobytes">%s كيلوبايت</string>
+    <string name="label_notification_ticker" formatted="false">%s: %s</string>
     <string name="load_from_remote">البحث في صندوق البريد على الخادم</string>
     <string name="load_more">تحميل المزيد</string>
     <string name="loading_conversation">جارٍ التحميل…</string>
@@ -772,6 +781,9 @@
     <string name="push_wps_confirm_message">استخدام WPS Office لمحاولة فتح هذا المرفق.</string>
     <string name="push_wps_confirm_title">تجربة WPS Office</string>
     <string name="push_wps_no_response_app">لم يتم العثور على تطبيق للتعامل مع هذا الاجراء</string>
+    <string name="qq_auto_login_failed_cpy_pass_success">Copied successfully. Go back to the sign-in page and paste the code into the password form.</string>
+    <string name="qq_auto_login_failed_dialog_message">Copy verification code, tap \"Enter username and password to sign in\" on the sign-in page, and paste the code into the password form.</string>
+    <string name="qq_auto_login_failed_dialog_positive_label">Copy code</string>
     <string name="qq_bar_open_imap">المساعدة</string>
     <string name="qq_bar_send_message">إرسال SMS</string>
     <string name="qq_login_basecode">تسجيل الدخول إلى ويب بريد QQ. أدخل كلمة المرور مستقلة.</string>
@@ -816,8 +828,10 @@
     <string name="recognize_hotel_other_money">مصاريف أخرى %1$s</string>
     <string name="recognize_hotel_reverse_date">قم بالتسجيل قبل %1$s:%2$s %3$s</string>
     <string name="recognize_hotel_room_type">الغرفة</string>
+    <string name="recognize_hotel_room_type_value">%2$s × %1$s</string>
     <string name="recognize_hotel_title">حجز فندق</string>
     <string name="recognize_hotel_user_names">ضيف</string>
+    <string name="recognize_hotel_user_names_value">%2$s+%1$s</string>
     <string name="recognize_setting_title">إعدادات السفر</string>
     <string name="recognize_ticket_air_notification_content">استمتع برحلتك!</string>
     <string name="recognize_ticket_air_notification_title">سوف تقلع الرحلة %3$s (%1$s/%2$s) قريبا. تحقق من معلومات الطيران الخاصة بك مرة أخرى.</string>
@@ -850,6 +864,7 @@
     <string name="report_spam">إبلاغ عن بريد مزعج</string>
     <string name="request_entity_large">الملف كبير للغاية</string>
     <string name="respond_inline">"   الرد داخلياً"</string>
+    <string name="retry_login">Sign in again</string>
     <string name="save_action">حفظ</string>
     <string name="save_attachment">حفظ</string>
     <string name="save_draft_failed">فشل حفظ المسودة</string>
@@ -919,6 +934,7 @@
     <string name="silent_ringtone">صامت</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
+    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="smtp_password_error">كلمة المرور لخادم البريد الصادر غير صحيحة</string>
     <string name="sort_attachment">ترتيب حسب</string>
     <string name="storage">التخزين</string>
@@ -948,6 +964,7 @@
     <string name="tablet">الكمبيوتر اللوحي</string>
     <string name="tap_to_configure">المس للإعداد.</string>
     <string name="tap_to_enable_sync">المس للتشغيل.</string>
+    <string name="to">إلى</string>
     <string name="to_heading">"إلى: "</string>
     <string name="toast_bar_fail_synchronization">تعذر الاتصال بالشبكة</string>
     <string name="toast_bar_insufficient_memory_space">لا يمكن استلام رسائل البريد الإلكتروني. لايوجد مساحة كافية.</string>
@@ -1025,12 +1042,4 @@
     <string name="you_are_in_mobile_network">إستخدام بيانات الجوال لتحميل السجلات؟</string>
     <string name="youfuli">عروض</string>
     <string name="zip_viewer_no_file">لا توجد ملفات.</string>
-    <string name="actionbar_large_unread_count">%1$d+ الغير مقروءة</string>
-    <string name="hide_atts_remaining">إخفاء %1$d مرفقات</string>
-    <string name="local_search_result">%s من النتائج في مزامنة الرسائل</string>
-    <string name="more_atts_remaining">%1$d أخرى متبقية</string>
-    <string name="new_messages">%1$d من الرسائل الجديدة</string>
-    <string name="quick_reply_hint">الرد على %1$d اشخاص</string>
-    <string name="remote_search_result">%s من النتائج على الخادم</string>
-    <string name="unsent_messages_in_outbox">%1$s غير مرسلة في %2$s</string>
 </resources>

@@ -6,6 +6,7 @@
     <string name="sina_token_expired_warning">إنتهت صلاحية حساب Weibo، قم بإضافة الحساب مرة أخرى.</string>
     <string name="sina_token_invalid_warning">حساب Weibo غير صالح، قم بإضافة الحساب مرة أخرى.</string>
     <string name="sina_share_fail_content_repeat">لقد قمت بمشاركة هذا مسبقا.</string>
+    <string name="search_title_notes">@string/app_name</string>
     <string name="search_keyword_notes">الملاحظات;المذكرة</string>
     <string name="search_path_notes">تطبيقات النظام/الملاحظات</string>
     <string name="dlg_move_message">جارٍ النقل…</string>
@@ -74,6 +75,7 @@
     <string name="db_downgrade_clear_date_reminder">التبديل إلى إصدار مختلف من MIUI يتطلب مسح بيانات تطبيق الملاحظات. ولكن قبل القيام بذلك، تأكد من أنك قمت بعمل نسخة احتياطية من الملاحظات الخاصة بك إلى Mi Cloud.</string>
     <string name="db_downgrade_clear_button">مسح بيانات التطبيق</string>
     <string name="cloud_service_state_open_reminder">تشغيل المزامنة مع Mi Cloud لمزامنة الملاحظات.</string>
+    <string name="toast_cancel_to_insert_image">تعذر إضافة صورة.</string>
     <string name="app_name">الملاحظات</string>
     <string name="app_widget">ملاحظات</string>
     <string name="widget_havenot_content">انقر لإنشاء ملاحظة. اضغط مع الاستمرار على الأداة لتغيير الحجم.</string>
@@ -118,6 +120,7 @@
     <string name="error_unsupport_content">هذه الملاحظه تحتوي على محتوى غير مدعوم، المس هنا للتحديث</string>
     <string name="error_contact_not_exist">جهة اتصال غير موجودة</string>
     <string name="sync_tips">انقر لمزامنة الملاحظات مع Mi Cloud.</string>
+    <string name="micloud_state_total_count">%1$s</string>
     <string name="pref_title_font_size">حجم الخط</string>
     <string name="call_folder_name">ملاحظات المكالمات</string>
     <string name="trash_folder_name">المهملات</string>
@@ -195,6 +198,6 @@
     <string name="cancel_alarm_description">إلغاء المنبه</string>
     <string name="edit_header_done_description">تم</string>
     <string name="refuse_to_share_as_pic_because_of_content">الملاحظة كبيرة جدا للمشاركة.</string>
-    <string name="refuse_to_share_as_pic_because_of_loading">انتظر حتى يتم تحميل الملاحظة وحاول مجددا.</string>
+    <string name="refuse_to_open_as_pic_because_of_loading">انتظر حتى يتم تحميل الملاحظة وحاول مجددا.</string>
     <string name="toast_reach_text_limit_checkbox">لا يمكن إضافة مربع الاختيار لأن الملاحظة طويلة جداً</string>
 </resources>

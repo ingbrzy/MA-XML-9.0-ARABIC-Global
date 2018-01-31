@@ -16,6 +16,22 @@
         <item quantity="few">تم إضافة %d صور Cloud، إيقاف تشغيل \"إظهار فقط الألبومات المحلية\" للعرض.</item>
         <item quantity="many">تم إضافة %d صورة Cloud، إيقاف تشغيل \"إظهار فقط الألبومات المحلية\" للعرض.</item>
     </plurals>
+    <plurals name="add_to_album_failed_with_reason_and_count">
+        <item quantity="other">لا يمكن إضافة %2$d عنصر إلى الألبوم. %1$s.</item>
+        <item quantity="zero">لا يمكن إضافة %2$d عنصر إلى الألبوم. %1$s.</item>
+        <item quantity="one">لا يمكن إضافة %2$d عنصر إلى الألبوم. %1$s.</item>
+        <item quantity="two">لا يمكن إضافة %2$d عناصر إلى الألبوم. %1$s.</item>
+        <item quantity="few">لا يمكن إضافة %2$d عناصر إلى الألبوم. %1$s.</item>
+        <item quantity="many">لا يمكن إضافة %2$d عنصر إلى الألبوم. %1$s.</item>
+    </plurals>
+    <plurals name="add_to_secret_failed_with_reason_and_count">
+        <item quantity="other">لا يمكن إضافة %2$d عنصر إلى الألبوم مخفي. %1$s.</item>
+        <item quantity="zero">لا يمكن إضافة %2$d عنصر إلى الألبوم مخفي. %1$s.</item>
+        <item quantity="one">لا يمكن إضافة %2$d عنصر إلى الألبوم مخفي. %1$s.</item>
+        <item quantity="two">لا يمكن إضافة %2$d عناصر إلى الألبوم مخفي. %1$s.</item>
+        <item quantity="few">لا يمكن إضافة %2$d عناصر إلى الألبوم مخفي. %1$s.</item>
+        <item quantity="many">لا يمكن إضافة %2$d عنصر إلى الألبوم مخفي. %1$s.</item>
+    </plurals>
     <plurals name="age_day">
         <item quantity="other">%d يوم</item>
         <item quantity="zero">%d يوم</item>
@@ -240,6 +256,14 @@
         <item quantity="few">مجموع %d صور</item>
         <item quantity="many">مجموع %d صورة</item>
     </plurals>
+    <plurals name="fail_reason_processing_file">
+        <item quantity="other">جارٍ معالجة الصورة…</item>
+        <item quantity="zero">جارٍ معالجة الصورة…</item>
+        <item quantity="one">جارٍ معالجة الصورة…</item>
+        <item quantity="two">جارٍ معالجة الصور…</item>
+        <item quantity="few">جارٍ معالجة الصور…</item>
+        <item quantity="many">جارٍ معالجة الصورة…</item>
+    </plurals>
     <plurals name="fast_share_auto_render_failed">
         <item quantity="other">تخطي %1$d صورة لا يمكن تقديمها.</item>
         <item quantity="zero">تخطي %1$d صورة لا يمكن تقديمها.</item>
@@ -408,6 +432,14 @@
         <item quantity="few">مجموع %d صور</item>
         <item quantity="many">مجموع %d صورة</item>
     </plurals>
+    <plurals name="remove_from_secret_failed_with_reason_and_count">
+        <item quantity="other">لا يمكن إزالة %2$d عنصر من الألبوم المخفي. %1$s.</item>
+        <item quantity="zero">لا يمكن إزالة %2$d عنصر من الألبوم المخفي. %1$s.</item>
+        <item quantity="one">لا يمكن إزالة %2$d عنصر من الألبوم المخفي. %1$s.</item>
+        <item quantity="two">لا يمكن إزالة %2$d عناصر من الألبوم المخفي. %1$s.</item>
+        <item quantity="few">لا يمكن إزالة %2$d عناصر من الألبوم المخفي. %1$s.</item>
+        <item quantity="many">لا يمكن إزالة %2$d عنصر من الألبوم المخفي. %1$s.</item>
+    </plurals>
     <plurals name="search_feedback_done_mark_and_contribute_false_negative">
         <item quantity="other">تمت إضافة %1$d صورة من \"%2$s\" وإضافتها إلى قاعدة البيانات.</item>
         <item quantity="zero">تمت إضافة %1$d صورة من \"%2$s\" وإضافتها إلى قاعدة البيانات.</item>
@@ -439,6 +471,38 @@
         <item quantity="two">حذف %1$d صور من \"%2$s\".</item>
         <item quantity="few">حذف %1$d صور من \"%2$s\".</item>
         <item quantity="many">حذف %1$d صورة من \"%2$s\".</item>
+    </plurals>
+    <plurals name="send_processing_files_error">
+        <item quantity="other">تعذر المشاركة. جارٍ اتمام معالجة %dصور…</item>
+        <item quantity="zero">تعذر المشاركة. جارٍ اتمام معالجة %dصورة…</item>
+        <item quantity="one">تعذر المشاركة. جارٍ اتمام معالجة %dصورة…</item>
+        <item quantity="two">تعذر المشاركة. جارٍ اتمام معالجة %dصورة…</item>
+        <item quantity="few">تعذر المشاركة. جارٍ اتمام معالجة %dصورة…</item>
+        <item quantity="many">تعذر المشاركة. جارٍ اتمام معالجة %dصور…</item>
+    </plurals>
+    <plurals name="slim_complete_photo_count">
+        <item quantity="other">تم تحسين %d صورة</item>
+        <item quantity="zero">تم تحسين %d صورة</item>
+        <item quantity="one">تم تحسين %d صورة</item>
+        <item quantity="two">تم تحسين %d صور</item>
+        <item quantity="few">تم تحسين %d صور</item>
+        <item quantity="many">تم تحسين %d صورة</item>
+    </plurals>
+    <plurals name="slim_exit_dialog_message">
+        <item quantity="other">لم يتم تحسين %d صور. توقف الأن؟</item>
+        <item quantity="zero">لم يتم تحسين %d صورة. اتوقف الأن؟</item>
+        <item quantity="one">لم يتم تحسين %d صورة. اتوقف الأن؟</item>
+        <item quantity="two">لم يتم تحسين %d صور. توقف الأن؟</item>
+        <item quantity="few">لم يتم تحسين %d صورة. توقف الأن؟</item>
+        <item quantity="many">لم يتم تحسين %d صور. توقف الأن؟</item>
+    </plurals>
+    <plurals name="slim_remain_photo_count">
+        <item quantity="other">تبقى %d صورة</item>
+        <item quantity="zero">تبقى %d صورة</item>
+        <item quantity="one">تبقى %d صورة</item>
+        <item quantity="two">تبقى %d صور</item>
+        <item quantity="few">تبقى %d صور</item>
+        <item quantity="many">تبقى %d صورة</item>
     </plurals>
     <plurals name="sync_error_title">
         <item quantity="other">لم يتم النسخ احتياطياً لـ %d صورة أو فيديو</item>

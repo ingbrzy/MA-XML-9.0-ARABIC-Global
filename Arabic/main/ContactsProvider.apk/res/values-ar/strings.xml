@@ -28,4 +28,5 @@
     <string name="call_log_provider_label">سجل المكالمات</string>
     <string name="third_party_delete_contact_info">يحاول \"%s\" حذف جهات اتصالك. لا يمكن أن يتم هذا الإجراء من قبل تطبيقات أطراف خارجية. لحذف جهات الاتصال، استخدم تطبيق جهات اتصال MIUI الافتراضية.</string>
     <string name="low_memory_toast">لا يمكن متابعة إستخدام هذه الميزة بسبب ضعف الذاكرة.</string>
+    <string name="update_accounts_changed">تم تغيير الحسابات</string>
 </resources>

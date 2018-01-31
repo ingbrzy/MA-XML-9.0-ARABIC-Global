@@ -126,7 +126,7 @@
     <string name="bookmarks_search">المتصفح</string>
     <string name="bottom_bar_tabs_long_click_down_tip_txt">مرّر لأسفل للإغلاق</string>
     <string name="bottom_bar_tabs_long_click_last_tab_tip_txt">هذه علامة التبويب الأخيرة</string>
-    <string name="bottom_bar_tabs_long_click_up_tip_txt">اسحب لأعلى للإغلاق</string>
+    <string name="bottom_bar_tabs_long_click_up_tip_txt">مرّر لأعلى للإغلاق</string>
     <string name="browserFrameFileErrorLabel">خطأ في الملف</string>
     <string name="browserFrameFormResubmitLabel" />
     <string name="browserFrameFormResubmitMessage">الصفحة التي تحاول عرضها تحتوي على بيانات تم إرسالها مسبقا. إذا قمت بإعادة إرسال البيانات، سيتم تكرار الإجراءات السابقة (مثل عمليات البحث أو الشراء).</string>
@@ -167,6 +167,7 @@
     <string name="color_picker_dialog_title">تحديد اللون</string>
     <string name="color_picker_hue">تدرج اللون</string>
     <string name="color_picker_saturation">صفاء اللون</string>
+    <string name="color_picker_value">القيمة</string>
     <string name="comment_app_menu">التعليق</string>
     <string name="comment_description">تعليق</string>
     <string name="comment_hint">تعليق</string>
@@ -194,7 +195,7 @@
     <string name="contextmenu_webpage_capture">حفظ كلقطة شاشة</string>
     <string name="contextmenu_webpage_html">حفظ كملف HTML</string>
     <string name="contextmenu_webpage_snapshot">حفظ الصفحة</string>
-    <string name="copy_to_clipboard_failure_message">فشل النسخ إلى الحافظة</string>
+    <string name="copy_to_clipboard_failure_message">تعذر النسخ إلى الحافظة.</string>
     <string name="copy_url">نسخ URL</string>
     <string name="create_qr_code">رمز QR</string>
     <string name="current_version_pad">لوحة</string>
@@ -203,9 +204,9 @@
     <string name="custom_head_card_text">دائما تأكد أن شيئا رائعا على وشك الحدوث</string>
     <string name="custom_head_card_text_incognito">"أنت متخفي!
 الصفحات التي قمت بعرضها لن تظهر في السجل."</string>
-    <string name="data_traffic_prompt_change">سيؤدي استخدام اتصال بيانات الجوال لمشاهدة مقاطع الفيديو إلى زيادة استخدام البيانات. إذا تجاوزت حد استخدام البيانات لخطتك، فقد تفرض عليك شركة الاتصالات رسوما إضافية.</string>
-    <string name="data_traffic_prompt_message">سيؤدي استخدام اتصال بيانات الجوال لتصفح مقاطع الفيديو إلى زيادة استخدام البيانات. إذا تجاوزت حد استخدام بيانات خطة جوالك، قد تفرض عليك شركة الاتصالات رسوما إضافية.</string>
-    <string name="data_traffic_prompt_message_short">قد يتسبب استخدام بيانات الجوال لتشغيل الفيديوهات في تجاوزك لخطة حد إستخدام البيانات الخاصة بك.</string>
+    <string name="data_traffic_prompt_change">سيؤدي استخدام اتصال بيانات جوالك لمشاهدة مقاطع الفيديو إلى زيادة استخدام البيانات. إذا تجاوزت حد استخدام بيانات خطة جوالك، فقد تفرض عليك شركة الاتصالات رسومًا إضافية.</string>
+    <string name="data_traffic_prompt_message">سيؤدي استخدام اتصال بيانات الجوال لتصفح مقاطع الفيديو إلى زيادة استخدام البيانات. إذا تجاوزت حد استخدام بيانات خطة جوالك، قد تفرض عليك شركة الاتصالات رسوماََ إضافية.</string>
+    <string name="data_traffic_prompt_message_short">سيؤدي استخدام بيانات الجوال لمشاهدة مقاطع الفيديو إلى تجاوز حد استخدام بيانات خطة جوالك.</string>
     <string name="data_traffic_prompt_title">تحذير استخدام البيانات</string>
     <string name="date_picker_dialog_clear">مسح</string>
     <string name="date_picker_dialog_other_button_label">أخرى</string>
@@ -333,6 +334,8 @@
     <string name="hint">تلميح</string>
     <string name="history">السجل</string>
     <string name="home_description">الرئيسية</string>
+    <string name="home_page_news_feed">خدمة الأخبار</string>
+    <string name="home_page_top_sites">أهم المواقع</string>
     <string name="homepage_delete_card_menu">حذف</string>
     <string name="homepage_get_location">الحصول على الموقع</string>
     <string name="homepage_get_location_failed">تعذر الحصول على المعلومات، اختر مدينة</string>
@@ -366,7 +369,7 @@
     <string name="loading_tips">إسحب لأسفل للتحديث</string>
     <string name="local_bookmarks">Mi</string>
     <string name="login_failed_toast">تعذر تسجيل الدخول، قم بالتحديث و حاول مرة أخرى</string>
-    <string name="low_memory_error">غير قادر على إتمام العملية السابقة بسبب ضعف الذاكرة</string>
+    <string name="low_memory_error">تعذر إتمام العملية السابقة بسبب انخفاض الذاكرة.</string>
     <string name="low_memory_toast">لا يمكن إستخدام المتصفح بسبب ضعف الذاكرة</string>
     <string name="max_tabs_warning">لا يمكن فتح المزيد من علامات التبويب</string>
     <string name="maximum_input_alert">لا يمكن إدخال أكثر من ٢٠٤٨ حرف</string>
@@ -380,8 +383,8 @@
     <string name="media_error_timeout">انتهت مهلة الاتصال بالشبكة</string>
     <string name="media_error_video_not_exist">الفيديو غير موجود</string>
     <string name="media_player_error_button">موافق</string>
-    <string name="media_player_error_text_invalid_progressive_playback">عفوا، هذا الفيديو غير صالح ليبث على هذا الجهاز.</string>
-    <string name="media_player_error_text_unknown">عفوا، لا يمكن تشغيل هذا الفيديو.</string>
+    <string name="media_player_error_text_invalid_progressive_playback">هذا الفيديو غير صالح ليبث على هذا الجهاز.</string>
+    <string name="media_player_error_text_unknown">لا يمكن تشغيل هذا الفيديو.</string>
     <string name="media_player_error_title">لا يمكن تشغيل الفيديو</string>
     <string name="media_player_loading_video">تحميل الفيديو</string>
     <string name="menu_addtodesk">إضافة إلى الشاشة الرئيسية</string>
@@ -478,7 +481,7 @@
     <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies" formatted="false">محو ذاكرة التخزين المؤقت و ملفات تعريف الارتباط (%s1الإعدادات%s2 - مسح البيانات، قد تفقد معلومات حسابك).</string>
     <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies_no_invoke">حذف ذاكرة التخزين المؤقت والكوكيز (قد يتم فقدان معلومات حسابك).</string>
     <string name="miuichromium_error_page_suggestion_clear_cache_no_invoke">مسح ذاكرة التخزين المؤقتة.</string>
-    <string name="miuichromium_error_page_suggestion_connect_and_retry">إعادة التحميل بعد الاتصال بالإنترنت.</string>
+    <string name="miuichromium_error_page_suggestion_connect_and_retry">إعادة التحميل بعد الاتصال بالإنترنت</string>
     <string name="miuichromium_error_page_suggestion_contact_admin">تواصل مع مشرف النظام.</string>
     <string name="miuichromium_error_page_suggestion_correct_url">تحقق من العنوان الذي أدخلته وحاول مرة أخرى باستخدام عنوان URL الصحيح.</string>
     <string name="miuichromium_error_page_suggestion_grant_permission">إعادة التحميل بعد منح إذن للمتصفح الوصول إلى الإنترنت.</string>
@@ -651,8 +654,8 @@
     <string name="pref_ua_string">سلسلة وكيل المستخدم</string>
     <string name="pref_version_info">معلومات الإصدار</string>
     <string name="pref_volume_key_action">مرّر باستخدام أزرار الصوت</string>
-    <string name="private_browsing_warning">هذه الوظيفة غير مدعومة في إصدار الأندرويد هذا.</string>
-    <string name="profiler_error_toast">فشل بدء إنشاء ملف التعريف</string>
+    <string name="private_browsing_warning">هذه الوظيفة غير مدعومة في هذا الإصدار من الأندرويد.</string>
+    <string name="profiler_error_toast">تعذر بدء تشغيل ملف التعريف.</string>
     <string name="profiler_no_storage_toast">لا يمكن بدء تشغيل ملف التعريف الشخصي لأن وحدة التخزين الخارجية غير جاهزة</string>
     <string name="profiler_started_toast">تم بدء ملف التعريف الشخصي</string>
     <string name="profiler_stopped_toast">ملف التعريف الشخصي انتهى. تم حفظ النتائج إلى %1$s.</string>
@@ -829,7 +832,7 @@
     <string name="unsecurity_url_toast">هذا الموقع ليس آمنا</string>
     <string name="up_to_loading_tips">قم بالتحرير للتحديث</string>
     <string name="update_no_network_toast">لا يمكن الاتصال بالشبكة</string>
-    <string name="updating_chrome">تحديث Chrome...</string>
+    <string name="updating_chrome">جارٍ تحديث Chrome‧</string>
     <string name="uploads_disabled">تحميلات الملف معطلة</string>
     <string name="url_copy_done">تم نسخ URL إلى الحافظة</string>
     <string name="url_find_on_page_result">عرض في المتصفح</string>
@@ -927,6 +930,6 @@
     <string name="weather_publish_time">تم تحديثه %1$s</string>
     <string name="webpage_title">الإشارات المرجعية والسجل</string>
     <string name="webview_find_on_page">البحث في الصفحة</string>
-    <string name="webviewchromium_private_browsing_warning">هذه الوظيفة غير مدعومة في إصدار الأندرويد هذا.</string>
+    <string name="webviewchromium_private_browsing_warning">هذه الوظيفة غير مدعومة في هذا الإصدار من الأندرويد.</string>
     <string name="week_picker_dialog_title">تعيين الأسبوع</string>
 </resources>

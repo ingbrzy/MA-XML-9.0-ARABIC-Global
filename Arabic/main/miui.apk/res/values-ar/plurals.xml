@@ -105,35 +105,35 @@
         <item quantity="many">خلال نصف ساعة</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
-        <item quantity="other">منذ %d دقيقة</item>
-        <item quantity="zero">منذ %d دقيقة</item>
-        <item quantity="one">منذ ١ دقيقة</item>
-        <item quantity="two">منذ %d دقائق</item>
-        <item quantity="few">منذ %d دقائق</item>
-        <item quantity="many">منذ %d دقيقة</item>
+        <item quantity="other">منذ %d دق</item>
+        <item quantity="zero">منذ %d دق</item>
+        <item quantity="one">منذ ١ دق</item>
+        <item quantity="two">منذ %d دق</item>
+        <item quantity="few">منذ %d دق</item>
+        <item quantity="many">منذ %d دق</item>
     </plurals>
     <plurals name="num_minutes_ago">
-        <item quantity="other">منذ %d دقيقة</item>
-        <item quantity="zero">منذ %d دقيقة</item>
-        <item quantity="one">منذ ١ دقيقة</item>
-        <item quantity="two">منذ %d دقائق</item>
-        <item quantity="few">منذ %d دقائق</item>
-        <item quantity="many">منذ %d دقيقة</item>
+        <item quantity="other">منذ %d دق</item>
+        <item quantity="zero">منذ %d دق</item>
+        <item quantity="one">منذ ١ دق</item>
+        <item quantity="two">منذ %d دق</item>
+        <item quantity="few">منذ %d دق</item>
+        <item quantity="many">منذ %d دق</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">خلال %d دقيقة</item>
-        <item quantity="zero">خلال %d دقيقة</item>
-        <item quantity="one">خلال ١ دقيقة</item>
-        <item quantity="two">خلال %d دقائق</item>
-        <item quantity="few">خلال %d دقائق</item>
-        <item quantity="many">خلال %d دقيقة</item>
+        <item quantity="other">خلال %d دق</item>
+        <item quantity="zero">خلال %d دق</item>
+        <item quantity="one">خلال ١ دق</item>
+        <item quantity="two">خلال %d دق</item>
+        <item quantity="few">خلال %d دق</item>
+        <item quantity="many">خلال %d دق</item>
     </plurals>
     <plurals name="in_num_minutes">
-        <item quantity="other">خلال %d دقيقة</item>
-        <item quantity="zero">خلال %d دقيقة</item>
-        <item quantity="one">خلال ١ دقيقة</item>
-        <item quantity="two">خلال %d دقائق</item>
-        <item quantity="few">خلال %d دقائق</item>
-        <item quantity="many">خلال %d دقيقة</item>
+        <item quantity="other">خلال %d دق</item>
+        <item quantity="zero">خلال %d دق</item>
+        <item quantity="one">خلال ١ دق</item>
+        <item quantity="two">خلال %d دق</item>
+        <item quantity="few">خلال %d دق</item>
+        <item quantity="many">خلال %d دق</item>
     </plurals>
 </resources>

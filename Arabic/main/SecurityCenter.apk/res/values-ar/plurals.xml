@@ -8,6 +8,14 @@
         <item quantity="few">%1$d مكالمات من %2$s وآخرون</item>
         <item quantity="many">%1$d مكالمة من %2$s وآخرون</item>
     </plurals>
+    <plurals name="fw_blocked_count_call_one">
+        <item quantity="other">%1$d مكالمة من %2$s وآخرون</item>
+        <item quantity="zero">%1$d مكالمة من %2$s وآخرون</item>
+        <item quantity="one">%1$d مكالمة من %2$s</item>
+        <item quantity="two">%1$d مكالمات من %2$s وآخرون</item>
+        <item quantity="few">%1$d مكالمات من %2$s وآخرون</item>
+        <item quantity="many">%1$d مكالمة من %2$s وآخرون</item>
+    </plurals>
     <plurals name="fw_blocked_count_sms">
         <item quantity="other">%d رسالة</item>
         <item quantity="zero">%d رسالة</item>
@@ -65,20 +73,20 @@
         <item quantity="many">%d تطبيق</item>
     </plurals>
     <plurals name="bg_network_allow_count">
-        <item quantity="other">%d apps can connect to the network in the background</item>
-        <item quantity="zero">%d apps can connect to the network in the background</item>
-        <item quantity="one">%d app can connect to the network in the background</item>
-        <item quantity="two">%d apps can connect to the network in the background</item>
-        <item quantity="few">%d apps can connect to the network in the background</item>
-        <item quantity="many">%d apps can connect to the network in the background</item>
+        <item quantity="other">يمكن %d تطبيق الاتصال بالشبكة في الخلفية</item>
+        <item quantity="zero">يمكن %d تطبيق الاتصال بالشبكة في الخلفية</item>
+        <item quantity="one">يمكن %d تطبيق الاتصال بالشبكة في الخلفية</item>
+        <item quantity="two">يمكن %d تطبيقات الاتصال بالشبكة في الخلفية</item>
+        <item quantity="few">يمكن %d تطبيقات الاتصال بالشبكة في الخلفية</item>
+        <item quantity="many">يمكن %d تطبيق الاتصال بالشبكة في الخلفية</item>
     </plurals>
     <plurals name="bg_network_restrict_count">
-        <item quantity="other">"%d apps can't connect to the network in the background"</item>
-        <item quantity="zero">"%d apps can't connect to the network in the background"</item>
-        <item quantity="one">"%d app can't connect to the network in the background"</item>
-        <item quantity="two">"%d apps can't connect to the network in the background"</item>
-        <item quantity="few">"%d apps can't connect to the network in the background"</item>
-        <item quantity="many">"%d apps can't connect to the network in the background"</item>
+        <item quantity="other">لا يمكن %d تطبيق الاتصال بالشبكة في الخلفية</item>
+        <item quantity="zero">لا يمكن %d تطبيق الاتصال بالشبكة في الخلفية</item>
+        <item quantity="one">لا يمكن %d تطبيق الاتصال بالشبكة في الخلفية</item>
+        <item quantity="two">لا يمكن %d تطبيقات الاتصال بالشبكة في الخلفية</item>
+        <item quantity="few">لا يمكن %d تطبيقات الاتصال بالشبكة في الخلفية</item>
+        <item quantity="many">لا يمكن %d تطبيق الاتصال بالشبكة في الخلفية</item>
     </plurals>
     <plurals name="daily_sim_over_limit_notify_title">
         <item quantity="other">لقد إستخدمت %s حد للبيانات اليومية.</item>
@@ -141,12 +149,12 @@
         <item quantity="many">تم العثور على %d تطبيق</item>
     </plurals>
     <plurals name="network_restrict_count">
-        <item quantity="other">"Network access is restricted for &lt;font color='#ff0000'>%d:&lt;/font> apps"</item>
-        <item quantity="zero">"Network access is restricted for &lt;font color='#ff0000'>%d:&lt;/font> apps"</item>
-        <item quantity="one">"Network access is restricted for &lt;font color='#ff0000'>%d&lt;/font> app"</item>
-        <item quantity="two">"Network access is restricted for &lt;font color='#ff0000'>%d:&lt;/font> apps"</item>
-        <item quantity="few">"Network access is restricted for &lt;font color='#ff0000'>%d:&lt;/font> apps"</item>
-        <item quantity="many">"Network access is restricted for &lt;font color='#ff0000'>%d:&lt;/font> apps"</item>
+        <item quantity="other">"يتم تقييد الوصول إلى الشبكة لـ &lt;font color='#ff0000'>%d&lt;/font> تطبيق"</item>
+        <item quantity="zero">"يتم تقييد الوصول إلى الشبكة لـ &lt;font color='#ff0000'>%d&lt;/font> تطبيق"</item>
+        <item quantity="one">"يتم تقييد الوصول إلى الشبكة لـ &lt;font color='#ff0000'>%d&lt;/font> تطبيق"</item>
+        <item quantity="two">"يتم تقييد الوصول إلى الشبكة لـ &lt;font color='#ff0000'>%d&lt;/font> تطبيقات"</item>
+        <item quantity="few">"يتم تقييد الوصول إلى الشبكة لـ &lt;font color='#ff0000'>%d&lt;/font> تطبيقات"</item>
+        <item quantity="many">"يتم تقييد الوصول إلى الشبكة لـ &lt;font color='#ff0000'>%d&lt;/font> تطبيق"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">%d تطبيق لا يعمل بشكل صحيح ويستنزف البطارية</item>
@@ -165,20 +173,20 @@
         <item quantity="many">"%d يوم "</item>
     </plurals>
     <plurals name="power_center_battery_hour">
-        <item quantity="other">"%d ساعة "</item>
-        <item quantity="zero">"%d ساعة "</item>
-        <item quantity="one">"%d ساعة "</item>
-        <item quantity="two">"%d ساعات "</item>
-        <item quantity="few">"%d ساعات "</item>
-        <item quantity="many">"%d ساعة "</item>
+        <item quantity="other">"%d س "</item>
+        <item quantity="zero">"%d س "</item>
+        <item quantity="one">"%d س "</item>
+        <item quantity="two">"%d س "</item>
+        <item quantity="few">"%d س "</item>
+        <item quantity="many">"%d س "</item>
     </plurals>
     <plurals name="power_center_battery_minute">
-        <item quantity="other">"%d دقيقة "</item>
-        <item quantity="zero">"%d دقيقة "</item>
-        <item quantity="one">"%d دقيقة "</item>
-        <item quantity="two">"%d دقائق "</item>
-        <item quantity="few">"%d دقائق "</item>
-        <item quantity="many">"%d دقيقة "</item>
+        <item quantity="other">"%d دق "</item>
+        <item quantity="zero">"%d دق "</item>
+        <item quantity="one">"%d دق "</item>
+        <item quantity="two">"%d دق "</item>
+        <item quantity="few">"%d دق "</item>
+        <item quantity="many">"%d دق "</item>
     </plurals>
     <plurals name="deep_clean_auto_memory_clean">
         <item quantity="other">خلال %1$d دقيقة</item>
@@ -235,6 +243,22 @@
         <item quantity="two">قام بتحميله %1$d أشخاص</item>
         <item quantity="few">قام بتحميله %1$d أشخاص</item>
         <item quantity="many">قام بتحميله %1$d شخص</item>
+    </plurals>
+    <plurals name="gb_ad_people_play">
+        <item quantity="other">يلعب %1$d شخص</item>
+        <item quantity="zero">يلعب %1$d شخص اللعبة</item>
+        <item quantity="one">يلعب %1$d شخص اللعبة</item>
+        <item quantity="two">يلعب %1$d أشخاص اللعبة</item>
+        <item quantity="few">يلعب %1$d أشخاص اللعبة</item>
+        <item quantity="many">يلعب %1$d شخص</item>
+    </plurals>
+    <plurals name="gb_ad_ten_thousand_people_play">
+        <item quantity="other">يلعب %1$d أشخاص</item>
+        <item quantity="zero">يلعب %1$d شخص</item>
+        <item quantity="one">يلعب %1$d شخص</item>
+        <item quantity="two">يلعب %1$d أشخاص</item>
+        <item quantity="few">يلعب %1$d شخص</item>
+        <item quantity="many">يلعب %1$d أشخاص</item>
     </plurals>
     <plurals name="view_num">
         <item quantity="other">%1$d مشاهدة</item>

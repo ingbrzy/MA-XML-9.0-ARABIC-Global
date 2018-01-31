@@ -1,68 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="assistant_day">
-        <item quantity="other">خلال %d يوم</item>
-        <item quantity="zero">خلال %d يوم</item>
-        <item quantity="one">خلال %d يوم</item>
-        <item quantity="two">خلال %d أيام</item>
-        <item quantity="few">خلال %d أيام</item>
-        <item quantity="many">خلال %d يوم</item>
-    </plurals>
-    <plurals name="days_ago">
-        <item quantity="other">منذ %1$d يوم</item>
-        <item quantity="zero">منذ %1$d يوم</item>
-        <item quantity="one">منذ %1$d يوم</item>
-        <item quantity="two">منذ %1$d أيام</item>
-        <item quantity="few">منذ %1$d أيام</item>
-        <item quantity="many">منذ %1$d يوم</item>
-    </plurals>
-    <plurals name="hours_ago">
-        <item quantity="other">منذ %1$d ساعة</item>
-        <item quantity="zero">منذ %1$d ساعة</item>
-        <item quantity="one">منذ %1$d ساعة</item>
-        <item quantity="two">منذ %1$d ساعات</item>
-        <item quantity="few">منذ %1$d ساعات</item>
-        <item quantity="many">منذ %1$d ساعة</item>
-    </plurals>
-    <plurals name="main_delete_desc">
-        <item quantity="other">حذف %s عنصر من المفضلة؟</item>
-        <item quantity="zero">حذف %s عنصر من المفضلة؟</item>
-        <item quantity="one">حذف %s عنصر من المفضلة؟</item>
-        <item quantity="two">حذف %s عناصر من المفضلة؟</item>
-        <item quantity="few">حذف %s عناصر من المفضلة؟</item>
-        <item quantity="many">حذف %s عنصر من المفضلة؟</item>
-    </plurals>
-    <plurals name="main_mark_fav_num">
-        <item quantity="other">Marked %s items as important</item>
-        <item quantity="zero">Marked %s items as important</item>
-        <item quantity="one">Marked %s item as important</item>
-        <item quantity="two">Marked %s items as important</item>
-        <item quantity="few">Marked %s items as important</item>
-        <item quantity="many">Marked %s items as important</item>
-    </plurals>
-    <plurals name="main_mark_select_num">
-        <item quantity="other">تم تحديد %s عنصر</item>
-        <item quantity="zero">تم تحديد %s عنصر</item>
-        <item quantity="one">تم تحديد %s عنصر</item>
-        <item quantity="two">تم تحديد %s عناصر</item>
-        <item quantity="few">تم تحديد %s عناصر</item>
-        <item quantity="many">تم تحديد %s عنصر</item>
-    </plurals>
-    <plurals name="mins_ago">
-        <item quantity="other">منذ %1$d دقيقة</item>
-        <item quantity="zero">منذ %1$d دقيقة</item>
-        <item quantity="one">منذ %1$d دقيقة</item>
-        <item quantity="two">منذ %1$d دقائق</item>
-        <item quantity="few">منذ %1$d دقائق</item>
-        <item quantity="many">منذ %1$d دقيقة</item>
-    </plurals>
     <plurals name="sms_hour_suffix">
-        <item quantity="other">خلال %d ساعة</item>
-        <item quantity="zero">خلال %d ساعة</item>
-        <item quantity="one">خلال %d ساعة</item>
-        <item quantity="two">خلال %d ساعات</item>
-        <item quantity="few">خلال %d ساعات</item>
-        <item quantity="many">خلال %d ساعة</item>
+        <item quantity="other">خلال %d س</item>
+        <item quantity="zero">خلال %d س</item>
+        <item quantity="one">خلال %d س</item>
+        <item quantity="two">خلال %d س</item>
+        <item quantity="few">خلال %d س</item>
+        <item quantity="many">خلال %d س</item>
     </plurals>
     <plurals name="sms_minute_suffix">
         <item quantity="other">خلال %d دقيقة</item>
@@ -74,7 +18,7 @@
     </plurals>
     <plurals name="sms_title_hours">
         <item quantity="other">%d ساعة</item>
-        <item quantity="zero">%d ساعة</item>
+        <item quantity="zero">خلال %d س</item>
         <item quantity="one">%d ساعة</item>
         <item quantity="two">%d ساعات</item>
         <item quantity="few">%d ساعات</item>
@@ -88,29 +32,13 @@
         <item quantity="few">%d دقائق</item>
         <item quantity="many">%d دقيقة</item>
     </plurals>
-    <plurals name="step_km">
-        <item quantity="other">%d كم</item>
-        <item quantity="zero">%d كم</item>
-        <item quantity="one">%d كم</item>
-        <item quantity="two">%d كم</item>
-        <item quantity="few">%d كم</item>
-        <item quantity="many">%d كم</item>
-    </plurals>
-    <plurals name="steps">
-        <item quantity="other">%d | خطوة</item>
-        <item quantity="zero">%d | خطوة</item>
-        <item quantity="one">%d | خطوة</item>
-        <item quantity="two">%d | خطوات</item>
-        <item quantity="few">%d | خطوات</item>
-        <item quantity="many">%d | خطوة</item>
-    </plurals>
     <plurals name="time_hour_ago">
-        <item quantity="other">قبل %d ساعة</item>
-        <item quantity="zero">قبل %d ساعة</item>
-        <item quantity="one">قبل %d ساعة</item>
-        <item quantity="two">قبل %d ساعات</item>
-        <item quantity="few">قبل %d ساعات</item>
-        <item quantity="many">قبل %d ساعة</item>
+        <item quantity="other">قبل %d س</item>
+        <item quantity="zero">قبل %d س</item>
+        <item quantity="one">قبل %d س</item>
+        <item quantity="two">قبل %d س</item>
+        <item quantity="few">قبل %d س</item>
+        <item quantity="many">قبل %d س</item>
     </plurals>
     <plurals name="time_minute_ago">
         <item quantity="other">منذ %d دقيقة</item>

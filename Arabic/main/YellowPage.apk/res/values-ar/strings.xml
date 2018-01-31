@@ -17,6 +17,14 @@
     <string name="agree_to_turn_on">موافق</string>
     <string name="all_services">الكل</string>
     <string name="allow">السماح</string>
+    <string name="antispam_curr_version">الإصدار الحالي: %d</string>
+    <string name="antispam_data_downloading">تنزيل معلومات هوية المتصل. قد يستغرق ذلك من ٣ إلى ٥ ثواني.</string>
+    <string name="antispam_data_downloading_error">تعذر الاتصال بالشبكة</string>
+    <string name="antispam_local_newest">الإصدار الحالي مُحدث.</string>
+    <string name="antispam_network_remind_summary">تنزيل التحديثات بإستخدام بيانات الجوال؟</string>
+    <string name="antispam_network_remind_title">تحذير استخدام البيانات</string>
+    <string name="antispam_pull_newest">تم التحديث إلى الإصدار %d بنجاح</string>
+    <string name="antispam_update_version">التحقق من وجود تحديثات</string>
     <string name="app_label">الصفحات الصفراء</string>
     <string name="app_recommendation_install">تثبيت</string>
     <string name="average_price">المتوسط %d يوان</string>
@@ -30,7 +38,7 @@
     <string name="callrecordview_item_newcontact">جهة اتصال جديدة</string>
     <string name="callrecordview_item_op_time_minutes_seconds">%1$dد %2$dث</string>
     <string name="callrecordview_item_op_time_missed">غير متصل</string>
-    <string name="callrecordview_item_op_time_only_minutes">%d دقيقة</string>
+    <string name="callrecordview_item_op_time_only_minutes">%d دق</string>
     <string name="callrecordview_item_op_time_only_seconds">%d ثانية</string>
     <string name="callrecordview_item_op_time_rejected">المرفوضة</string>
     <string name="callrecordview_item_op_time_short_incoming">"الواردة: "</string>
@@ -54,7 +62,7 @@
     <string name="do_not_remind_me">عدم الإظهار مرة أخرى</string>
     <string name="dont_enable">إيقاف التشغيل</string>
     <string name="download_completed">تم حفظ التنزيل في %s</string>
-    <string name="download_failed">لا يمكن التحميل</string>
+    <string name="download_failed">لا يمكن التنزيل</string>
     <string name="download_failed_blocked">لا يمكن الاتصال بالشبكة</string>
     <string name="download_failed_cannot_resume">لا يمكن التنزيل</string>
     <string name="download_failed_file_exists">الملف موجود مسبقا</string>
@@ -62,7 +70,7 @@
     <string name="download_failed_network">لا يمكن الاتصال بالشبكة</string>
     <string name="download_failed_server">تعذر التنزيل</string>
     <string name="download_failed_space">لا توجد مساحة كافية</string>
-    <string name="download_failed_storage">"Couldn't download. Check your SD card."</string>
+    <string name="download_failed_storage">تعذر التنزيل. تحقق من بطاقة الذاكرة SD.</string>
     <string name="downloading">جارٍ التنزيل…</string>
     <string name="enable_now">تشغيل</string>
     <string name="follow_label">متابعة %1$s</string>
@@ -119,7 +127,7 @@
     <string name="mark_number_feedback_success">تم ارسال معلومات الابلاغ بنجاح</string>
     <string name="mark_number_marked_maintitle">تغيير معلومات الابلاغ</string>
     <string name="mark_number_marked_subtitle">%s (تم الابلاغ عنه حاليا)</string>
-    <string name="mark_number_notification_title">Report suspicious number</string>
+    <string name="mark_number_notification_title">الإبلاغ عن رقم مشبوه</string>
     <string name="mark_number_remove">إزالة معلومات الابلاغ</string>
     <string name="mark_title_null_hint">أدخل معلومات الابلاغ</string>
     <string name="menu_add_black_list">إضافة إلى قائمة الحظر</string>
@@ -190,6 +198,7 @@
     <string name="quick_yellow_page_tab_phones">الهاتف</string>
     <string name="recharge_actual_price">السعر:</string>
     <string name="recharge_charge_range">السعر: %1$s-%2$s يوان</string>
+    <string name="recharge_charge_value">السعر: %s يوان</string>
     <string name="recharge_follow_name">تعبئة</string>
     <string name="recharge_history">سجل شحن الرصيد</string>
     <string name="recharge_history_empty">فارغ</string>
@@ -233,6 +242,7 @@
     <string name="sending_shortcut">جارٍ الإرسال…</string>
     <string name="service_unavailiable">الخدمة غير متوفرة</string>
     <string name="share">مشاركة</string>
+    <string name="shop_recommendation_format">%1$s: %2$s</string>
     <string name="smart_antispam">هوية المتصل</string>
     <string name="toast_finish_delete_call_log">تم حذف سجل المكالمات</string>
     <string name="toast_text_copied">تم نسخ النص</string>

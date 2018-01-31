@@ -2,6 +2,7 @@
 <resources>
     <string name="welcome">مرحباً</string>
     <string name="app_name">الإعدادات الأولية</string>
+    <string name="system_navigation_mode">وضع التنقل في النظام</string>
     <string name="input_method_setting">اختر لوحة المفاتيح</string>
     <string name="input_method_category">اختر لوحة المفاتيح الافتراضية التي ستستخدمها عند كتابة الرسائل، الملاحظات، و غيرة. إعلم أنه يمكنك تثبيت لوحات مفاتيح أخرى من قبل برامج اخرى في وقت لاحق.</string>
     <string name="provision_inputmethod_policy_description">"
@@ -13,6 +14,7 @@
     <string name="sim_card_detecting_title">تحقق من شريحة SIM</string>
     <string name="sim_card_detection_info">لتركيب شريحة SIM ، قم بقراءة الإرشادات المرفقة مع جهازك.</string>
     <string name="sim_card_detecting">التحقق من وجود بطاقة SIM…</string>
+    <string name="sim_card_detecting_check">لم يتم العثور على بطاقة SIM. تأكد من تثبيت بطاقة SIM بشكل صحيح، ولديك رصيد كافي.</string>
     <string name="other_settings">إعدادات إضافية</string>
     <string name="other_settings_location">الموقع</string>
     <string name="other_settings_location_summary">السماح للتطبيقات بالوصول إلى موقعك.</string>
@@ -28,6 +30,7 @@
     <string name="sim_dectection_next">متابعة</string>
     <string name="shut_down">إيقاف تشغيل</string>
     <string name="sim_redetection">تحقق مرة اخرى</string>
+    <string name="navigation_picker_gesture_guide">دليل الإيماءات</string>
     <string name="congratulation_title">اكتمل التثبيت</string>
     <string name="congratulation_label">أنت جاهز للانطلاق!</string>
     <string name="pref_title_voice_slot">بطاقة SIM المفضلة للصوت</string>
@@ -36,9 +39,12 @@
     <string name="ime_privacy_policy">سياسة الخصوصية للوحة المفاتيح المحددة</string>
     <string name="ime_privacy_policy_no_network">لا يوجد اتصال بالشبكة. راجع سياسة الخصوصية لوحة المفاتيح هذه على %s.</string>
     <string name="terms_of_use">الأحكام والشروط</string>
-    <string name="terms_of_use_label">"خصوصيتك مهمة جدًا بالنسبة لنا. يرجى قراءة شروط الخدمة وسياسة الخصوصية لفهم ماهي المعلومات التي نجمعها، كيف نستخدمها والخيارات المتاحة لك.
+    <string name="terms_of_use_label">"خصوصيتك مهمة جدًا بالنسبة لنا. يرجى قراءة شروط الخدمة وسياسة الخصوصية لفهم ماهي المعلومات التي نجمعها، وكيف نستخدمها والخيارات المتاحة لك.
 
-يجب أن توافق على شروط الخدمة وسياسة الخصوصية الخاصة بنا قبل أن تتمكن من استخدام MIUI. خدمات Mi، خدمات تفعيل شريحة Mi، Mi Cloud، العثور على الجهاز، وحدات الشاشة الرئيسية، خدمة الألعاب، مكونات نظام MSA و MAB، الخدمة المباشرة، البطاقة السريعة، الاحصائيات، البطاقات الذكية، رابط Mi ومكونات حساب Mi بالإنترنت وتحصل على موقعك."</string>
+يجب عليك أن توافق على شروط الخدمة وسياسة الخصوصية الخاصة بنا قبل أن تتمكن من استخدام MIUI، ستتصل خدمات Mi، وخدمات تفعيل شريحة Mi، وMi Cloud، والعثور على الجهاز، والشاشة الرئيسية، ومركز الألعاب، وMAB، ومكونات نظام MSA وMiui Daemon، وتطبيقات الويب، ومنصة التطبيقات، والبطائق السريعة، والاحصائيات، والبطاقات الذكية، ورابط Mi ومكونات حساب Mi بالإنترنت وتحصل على موقعك."</string>
+    <string name="terms_of_use_label_gms">"خصوصيتك مهمة جدًا بالنسبة لنا. يرجى قراءة شروط الخدمة وسياسة الخصوصية لفهم ماهي المعلومات التي نجمعها، وكيف نستخدمها والخيارات المتاحة لك.
+
+يجب عليك أن توافق على شروط الخدمة وسياسة الخصوصية الخاصة بنا قبل أن تتمكن من استخدام MIUI، ستتصل خدمات Mi، وخدمات تفعيل شريحة Mi وMi Cloud والعثور على الجهاز والشاشة الرئيسية ومركز الألعاب وMAB ومكونات نظام MSA وMiui Daemon وتطبيقات الويب ومنصة التطبيقات والبطائق السريعة والاحصائيات والبطاقات الذكية ورابط Mi وحساب Mi ومكونات خدمات متجر Play بالإنترنت، وستقوم أيضاً بالحصول على موقعك."</string>
     <string name="user_agreement">شروط الخدمة</string>
     <string name="privacy_policy">سياسة الخصوصية</string>
     <string name="application_permissions">أذونات التطبيق</string>
@@ -63,6 +69,9 @@
     <string name="content_description_complete">اكتمل</string>
     <string name="language_picker_other_languages_title">المزيد من اللغات</string>
     <string name="language_settings">اختر اللغة</string>
+    <string name="navigation_picker_radio_text_full_screen">وضع ملء الشاشة</string>
+    <string name="navigation_picker_radio_text_virtual_key">وضع المفتاح الظاهري</string>
+    <string name="congratulation_swipe">مرّر لأعلى لدخول إلى النظام</string>
     <string name="enable_accessibility_dialog_message">لقد قمت بتشغيل TalkBack من خلال الضغط على الشاشة بـ ۲ أصابع لأكثر من ۱۰ ثواني. توفر ميزة TalkBack ردود فعل صوتية لأشخاص يعانون من إعاقات بصرية. إذا قمت بتشغيلة عن طريق الصدفة، اضغط على زر إلغاء الأمر، ومن ثم نقر مزدوج على الشاشة.</string>
     <string name="enable_accessibility_dialog_positive_btn">موافق</string>
     <string name="enable_accessibility_dialog_negative_btn">إلغاء</string>
@@ -71,4 +80,6 @@
     <string name="enable_accessibility_canceled">تم إلغاء إمكانية الوصول.</string>
     <string name="accessibility_enabled">تم تفعيل إمكانية الوصول.</string>
     <string name="continue_to_enable_accessibility">استمر بالضغط باستمرار على إصبعين لتفعيل إمكانية الوصول.</string>
+    <string name="voice_assist_title">ايقاظ مع الصوت</string>
+    <string name="voice_assist_desp">قل \"Mi AI\" لهاتفك. سيتعرف Mi AI على صوتك ويساعدك على إدارة جهازك.</string>
 </resources>

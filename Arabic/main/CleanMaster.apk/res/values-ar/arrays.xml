@@ -12,12 +12,6 @@
         <item>مستخدمة بشكل متكرر</item>
         <item>الحجم</item>
     </string-array>
-    <string-array name="auto_clean_time">
-        <item>كل يوم</item>
-        <item>كل ٣ أيام</item>
-        <item>كل ٧ أيام</item>
-        <item>كل ١٥ يوم</item>
-    </string-array>
     <string-array name="auto_clean_size">
         <item>١٠٠ ميغابايت</item>
         <item>٣٠٠ ميغابايت</item>

@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="announce_for_drag">
+        <item quantity="other">سحب %1$d عنصر</item>
+        <item quantity="zero">سحب %1$d عنصر</item>
+        <item quantity="one">سحب %1$d عنصر</item>
+        <item quantity="two">سحب %1$d عناصر</item>
+        <item quantity="few">سحب %1$d عناصر</item>
+        <item quantity="many">سحب %1$d عنصر</item>
+    </plurals>
     <plurals name="delete_wallpapers_message">
         <item quantity="other">حذف %1$d خلفية شاشة؟</item>
         <item quantity="zero">حذف %1$d خلفية شاشة؟</item>

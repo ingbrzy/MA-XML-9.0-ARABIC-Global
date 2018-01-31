@@ -168,7 +168,7 @@
     <string name="passport_barcode_add_account_prompt">للإتصال بحساب، افحص رمز QR مرة أخرى بعد تسجيل الدخول.</string>
     <string name="passport_quick_register_notice"><u>ليس لديك حساب Mi؟ قم بإنشاء واحد.</u></string>
     <string name="passport_password_phone_login">تسجيل الدخول باستخدام حساب Mi</string>
-    <string name="passport_sms_verification_code_login">SMS verification code login</string>
+    <string name="passport_sms_verification_code_login">تسجيل الدخول بإستخدام SMS</string>
     <string name="passport_login_other_account">حساب آخر</string>
     <string name="passport_reg_new_account">إنشاء حساب</string>
     <string name="passport_select_the_login_account">تحديد الحساب الذي تريج تسجيل الدخول به</string>
@@ -197,7 +197,7 @@
     <string name="passport_login_recycle_account_no">لا</string>
     <string name="passport_reg_recycle_account_yes">نعم</string>
     <string name="passport_reg_recycle_account_no">لا</string>
-    <string name="passport_get_innetdate_title">Check when the number went online</string>
+    <string name="passport_get_innetdate_title">التحقق من الرقم</string>
     <string name="passport_get_innetdate_msg">&lt;font color=Red>يبدو انه&lt;/font> تم إعادة استخدام هذا الرقم %s من قِبل شركة الاتصالات، التحقق من الرقم الذي كان متصلا بالإنترنت؟</string>
     <string name="passport_get_innetdate_agree">التحقق</string>
     <string name="passport_get_innetdate_disagree">لا</string>

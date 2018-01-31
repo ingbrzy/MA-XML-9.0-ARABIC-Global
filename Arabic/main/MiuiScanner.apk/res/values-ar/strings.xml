@@ -5,7 +5,7 @@
     <string name="accessibility_shutter_button">الغالق</string>
     <string name="action_search">بحث</string>
     <string name="address">العنوان:</string>
-    <string name="allow_check_website_security">عرص إشعارات فحص الأمان للموقع</string>
+    <string name="allow_check_website_security">عرض إشعارات فحص الأمان للموقع</string>
     <string name="app_description_content">يمكنك الماسح الضوئي بمسح رموز QR، بطاقات العمل، والوثائق والمزيد. تأكد من أنك تستطيع أن تفعل ذلك دون هذه الميزات قبل حذف التطبيق.</string>
     <string name="app_description_title">حول الماسح</string>
     <string name="app_details">التطبيق:</string>

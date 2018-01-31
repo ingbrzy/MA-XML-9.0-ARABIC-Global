@@ -57,6 +57,7 @@
     <string name="save_pic_success">حفظ الصورة إلى %s</string>
     <string name="save_pic_fail">تعذر حفظ الصورة. تحقق من بطاقة الـ SD الخاصة بك</string>
     <string name="pic_not_exist">هذه الصورة غير موجودة</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">تحديد منتج</string>
     <string name="michat_skillset_business_type_title">تحديد خدمة</string>
     <string name="michat_close_text">انتهت الدردشة</string>
@@ -178,7 +179,7 @@
     <string name="bugreport_dialog_not_show_again">عدم الإظهار مرة أخرى</string>
     <string name="bugreport_dialog_submit_content">قد تحتوي ملاحظاتك على معلومات شخصية وبيانات الموقع.</string>
     <string name="bugreport_dump_start_notification_title">جارٍ إنشاء تقرير عن خلل…</string>
-    <string name="bugreport_dump_start_notification_summary">سيستغرق ذلك عدة دقائق.</string>
+    <string name="bugreport_dump_start_notification_summary">قد يستغرق ذلك عدة دقائق.</string>
     <string name="bugreport_dump_complete_notification_title">تم إنشاء تقرير عن خلل</string>
     <string name="bugreport_dump_complete_notification_summary">انقر للعرض.</string>
     <string name="plus_one_submit_dialog_content">سيتم ارسال ملاحظتك مع سجلات الخطأ إلى خوادم Mi.</string>

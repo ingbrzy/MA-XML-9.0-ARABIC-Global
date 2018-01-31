@@ -17,7 +17,7 @@
     <string name="terabyteShort">ت.ب</string>
     <string name="petabyteShort">ب.ب</string>
     <string name="update_date_format">yyyy/MM/dd</string>
-    <string name="activity_title_garbage_cleanup">أداة التنظيف</string>
+    <string name="activity_title_garbage_cleanup">المنظف</string>
     <string name="activity_title_scanfinish">اكتمل المسح</string>
     <string name="empty_title_photos">لم يتم العثور على أية صور</string>
     <string name="empty_title_garbage_cache">لا شيء لمسح</string>
@@ -147,7 +147,7 @@
     <string name="hints_finish_quick_cleanup">تم</string>
     <string name="hints_finish_quick_cleanup_title">تنظيف %s مهملات</string>
     <string name="dialog_title_load_cleanup_engine_error">حدث خطأ ما</string>
-    <string name="dialog_msg_load_cleanup_engine_error">تم إتلاف محرك التنظيف.</string>
+    <string name="dialog_msg_load_cleanup_engine_error">تلف محرك المنظف.</string>
     <string name="dialog_title_add_white_list_error">تنبيه</string>
     <string name="dialog_msg_add_white_list_error">لا يمكن إضافة هذا الملف للإستثناءات</string>
     <string name="dialog_ok_add_white_list_error">فهمت</string>
@@ -422,6 +422,7 @@
     <string name="wechat_qq_normal_files">المهملات</string>
     <string name="wechat_cache_files">التخزين المؤقت للـWeChat</string>
     <string name="qq_cache_files">الذاكرة المؤقتة لـQQ</string>
+    <string name="wechat_qq_activity_title">تنظيف عميق</string>
     <string name="wechat_qq_chat_files">سجل الدردشة</string>
     <string name="analying">جارٍ فحص البيانات…</string>
     <string name="open_file_error">تعذر العثور على التطبيق الذي يفتح هذا الملف</string>
@@ -492,4 +493,8 @@
     <string name="wq_deep_clean_filter_month_ago">منذ شهر</string>
     <string name="wq_deep_clean_filter_three_month_ago">منذ ٣ أشهر</string>
     <string name="wq_deep_clean_filter_years_ago">منذ ٦ أشهر</string>
+    <string name="auto_clean_time_every_day">كل يوم</string>
+    <string name="auto_clean_time_three_day">كل ٣ أيام</string>
+    <string name="auto_clean_time_seven_day">كل ٧ أيام</string>
+    <string name="auto_clean_time_fifteen_day">كل ١٥ يوم</string>
 </resources>

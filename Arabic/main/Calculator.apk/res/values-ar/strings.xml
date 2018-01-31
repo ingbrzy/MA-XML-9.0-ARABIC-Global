@@ -46,6 +46,13 @@
     <string name="percentDesc">في المئة</string>
     <string name="menuDesc">القائمة</string>
     <string name="settingsDesc">الإعدادات</string>
+    <string name="secondFunctionDesc">التبديل إلى الوظيفة الثانية</string>
+    <string name="degDesc">زاوية</string>
+    <string name="radDesc">راديان</string>
+    <string name="reverceDesc">قوس</string>
+    <string name="switchDesc">تبديل</string>
+    <string name="scannerDesc">الماسح الضوئي</string>
+    <string name="reciprocalDesc">معكوس</string>
     <string name="home_title_calculator">الآلة الحاسبة</string>
     <string name="item_title_calculator">آلة حاسبة</string>
     <string name="item_title_scientific_calculator">علمية</string>
@@ -62,6 +69,10 @@
     <string name="item_title_time_conversion">الوقت</string>
     <string name="item_title_dress_size">حجم الملابس</string>
     <string name="item_title_aa_payment">تقسيم الفاتورة</string>
+    <string name="scanner_had_been_uninstalled">تم إلغاء تثبيت الماسح</string>
+    <string name="install_scanner_to_continued_use">تم إلغاء تثبيت الماسح. هل تريد التثبيت مرة أخرى؟</string>
+    <string name="cancel">إلغاء</string>
+    <string name="install">تثبيت</string>
     <string name="loan_interest_rate">الفائدة</string>
     <string name="loan_edittext_hint_commercial">أدخل القيمة</string>
     <string name="loan_edittext_hint_fund">أدخل القيمة</string>

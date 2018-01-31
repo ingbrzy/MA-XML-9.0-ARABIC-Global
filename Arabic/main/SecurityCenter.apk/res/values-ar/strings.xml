@@ -36,8 +36,8 @@
     <string name="dlg_clear_current_call">مسح كل المكالمات المحظورة الواردة من هذا الرقم؟</string>
     <string name="dlg_clear_all_ok">مسح الكل</string>
     <string name="dlg_clear_current_ok">مسح</string>
-    <string name="dlg_no_block">"Unblock this phone number ?
-It will be added to exceptions, but previously blocked items won't appear in call history."</string>
+    <string name="dlg_no_block">"إلغاء حظر هذا الرقم؟
+سيتم إضافته إلى الاستثناءات، ولكن لن يتم عرض العناصر المحظورة سابقا في سجل المكالمات."</string>
     <string name="dlg_no_block_ok">إلغاء الحظر</string>
     <string name="dlg_add_blacklist_title">إضافة إلى قائمة الحظر</string>
     <string name="dlg_add_blacklist">حظر هذا الرقم؟</string>
@@ -63,14 +63,14 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="dlg_antispam_mode_delete_message">لا يمكنك استرداد القواعد بعد حذفها.</string>
     <string name="dlg_antispam_using_mode_delete_message">حذف القواعد التي تستخدمها حالياً والتبديل مرة أخرى إلى القواعد الافتراضية لقائمة الحظر؟</string>
     <string name="dlg_antispam_using_mode_international_delete_message">حذف القواعد التي تستخدمها حالياً والتبديل مرة أخرى إلى القواعد الافتراضية لقائمة الحظر؟</string>
-    <string name="back_sound_success">Success!</string>
-    <string name="back_sound_fail">Failed！</string>
-    <string name="back_sound_support">"The current network operators doesn't support it！"</string>
-    <string name="back_sound_data">It requires cellular mobile network, please retry!</string>
-    <string name="dlg_move_to_white">Add to exceptions</string>
-    <string name="dlg_add_white">"New calls and messages from the numbers added to exceptions will be shown in call history and Messaging inbox. However, previously blocked items won't appear there. Add selected numbers to exceptions?"</string>
-    <string name="dlg_not_block_sms">"Unblock selected numbers? They will be added to exceptions, but previously blocked items won't appear in Messaging inbox."</string>
-    <string name="dlg_not_block_call">"Unblock selected numbers? They will be added to exceptions, but previously blocked items won't appear in call history."</string>
+    <string name="back_sound_success">تم التعيين بنجاح</string>
+    <string name="back_sound_fail">تعذر التهيئة. تم تغيير تكوين المشغل. يمكنك إعداد بطاقة SIM الحالية كبطاقة بيانات، والاتصال بالشبكة وإعادة المحاولة.</string>
+    <string name="back_sound_support">لا تدعم شبكة موفر الخدمة هذه التهيئة.</string>
+    <string name="back_sound_data">تشغيل بيانات الجوال وإعادة المحاولة.</string>
+    <string name="dlg_move_to_white">إضافة إلى الإستثناءات</string>
+    <string name="dlg_add_white">سيتم عرض المكالمات والرسائل الجديدة من الأرقام المضافة إلى الإستثناءات في سجل المكالمات والرسائل الواردة. ولكن لن تظهر العناصر المحظورة مسبقا هناك. هل تريد إضافة الأرقام المحددة إلى الإستثناءات؟</string>
+    <string name="dlg_not_block_sms">إلغاء حظر الأرقام المحددة؟ سيتم إضافتهم إلى الاستثناءات، ولكن لن يتم عرض العناصر المحظورة سابقا في بريد الرسائل.</string>
+    <string name="dlg_not_block_call">إلغاء حظر الأرقام المحددة؟ سيتم إضافتهم إلى الاستثناءات، ولكن لن يتم عرض العناصر المحظورة سابقا في سجل المكالمات.</string>
     <string name="menu_call">طلب</string>
     <string name="menu_sms">ارسال رسالة</string>
     <string name="menu_bl_call_log">عرض المكالمات المحظورة</string>
@@ -80,6 +80,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="menu_add">إضافة</string>
     <string name="menu_edit">تعديل</string>
     <string name="menu_remove">حذف</string>
+    <string name="menu_white">إلا</string>
     <string name="st_settings_name">إعدادات قائمة الحظر</string>
     <string name="st_filter_keywords_setting_summary1">سيتم حظر الرسائل الواردة من الأرقام المجهولة التي تحتوي على الكلمات الموجودة في هذه القائمة.</string>
     <string name="st_filter_keywords_setting_summary3">سيتم سيتم السماح بالرسائل الواردة من الأرقام المجهولة التي تحتوي على الكلمات الموجودة في هذه القائمة.</string>
@@ -169,12 +170,13 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="st_sub_title_customize_mode_name">الإسم</string>
     <string name="read_all_sms">قراءة الكل</string>
     <string name="loding">تحميل البيانات</string>
-    <string name="action_source_sms_title">الرسائل المحظورة</string>
+    <string name="action_source_sms_title">رسائل محظورة</string>
+    <string name="action_source_call_title">مكالمات محظورة</string>
     <string name="st_title_open_antispam">قائمة الحظر</string>
     <string name="st_title_antispam_mode">القواعد</string>
     <string name="st_sub_title_whiteblack_list_group">قائمة الحظر</string>
-    <string name="st_title_keywords_blacklist">الكلمات المفتاحية للقائمة السوداء</string>
-    <string name="st_title_keywords_whitelist">الكلمات المفتاحية للقائمة البيضاء</string>
+    <string name="st_title_keywords_blacklist">قائمة حظر الكلمة المفتاحية</string>
+    <string name="st_title_keywords_whitelist">إستثناءات الكلمة المفتاحية</string>
     <string name="st_title_blacklist_numbers">الأرقام المحظورة</string>
     <string name="st_title_whitelist_numbers">الاستثناءات</string>
     <string name="st_title_backsound_group">رسالة الغياب</string>
@@ -357,7 +359,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="main_purchase_tips">ترويج</string>
     <string name="main_month_total_used">المستخدمة هذا الشهر</string>
     <string name="main_daily_package">خطة البيانات اليومية</string>
-    <string name="main_indicator_title">في إنتظار التفعيل</string>
+    <string name="main_indicator_title">تفعيل</string>
     <string name="main_tobe_added_desc">بيانات الجوال من ¥٠.٠٣/ميغابايت</string>
     <string name="main_button_mi_sim_close">تفعيل بطاقة Mi SIM</string>
     <string name="main_button_mi_sim_open">عرض التفاصيل</string>
@@ -374,12 +376,13 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="firewall_restrict_android_dialog_content">للتأكد من ان جهازك يعمل بشكل طبيعي، عدد قليل من تطبيقات نظام الأندرويد ستظل على اتصال بالإنترنت. هذه التطبيقات ستستخدم اتصال بيانات الجوال ويمكن أن تولد رسوم بسيطة من شركة الاتصالات الخاصة بك.</string>
     <string name="background_restrict_app_dialog_message">قد يؤدي تقييد وصول الشبكة الخلفية لهذا التطبيق إلى عمل التطبيق بشكل غير طبيعي في استلام الرسائل، وتنزيل محتوى والخ. التقييد على إية حال؟</string>
     <string name="firewall_allow_network">السماح</string>
-    <string name="app_bg_restrict_dialog_message">Restricting background network connection may prevent the app from working normally. For example, it might no longer be able to receive messages or update content. Restrict anyway?</string>
+    <string name="app_bg_restrict_dialog_message">قد يؤدي تقييد اتصال الشبكة في الخلفية إلى منع التطبيق من العمل بشكل طبيعي. على سبيل المثال، لن يكون قادرا على استقبال الرسائل أو تحديث المحتوى.</string>
     <string name="firewall_network_allow">تم السماح %1$s لاستخدام %2$s الاتصال</string>
     <string name="search_result_text">تعذر العثور على أية تطبيقات</string>
     <string name="firewall_mobile_dialog_message">لن يتمكن التطبيق المثبت الاتصال بالإنترنت باستخدام بيانات الجوال عند توقف هذا التبديل.</string>
     <string name="firewall_wifi_dialog_message">لن يتمكن التطبيق المثبت الاتصال بالإنترنت باستخدام الـ Wi-Fi عند توقف هذا التبديل</string>
     <string name="firewall_system_title">استخدام البيانات لتطبيقات النظام</string>
+    <string name="firewall_temp_rule_reason">قام %2$s بتقييد اتصال الأنترنت على %1$s​</string>
     <string name="usage_sorted_activity_lable">استخدام البيانات</string>
     <string name="usage_sorted_loading_text">لحظة من فضلك…</string>
     <string name="usage_sorted_empty_text">فارغ</string>
@@ -402,6 +405,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="detail_app_button">معلومات التطبيق</string>
     <string name="pref_about_traffic_title">إعدادات استخدام البيانات</string>
     <string name="pref_traffic_manage_title">استخدام البيانات</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">خطة البيانات</string>
     <string name="pref_adjust_traffic_data">تعيين استخدام البيانات</string>
     <string name="pref_category_title_other">إعدادات إضافية</string>
@@ -410,7 +414,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="pref_title_traffic_speed_state">عرض سرعة الشبكة</string>
     <string name="pref_title_declaration">تحذير قانوني</string>
     <string name="pref_new_installed_preconfig_title">الإعدادات الافتراضية للتطبيقات الجديدة</string>
-    <string name="pref_bg_network_title">Background connection</string>
+    <string name="pref_bg_network_title">الاتصال في الخلفية</string>
     <string name="pref_mi_sim_settings">إعدادات بطاقة Mi SIM</string>
     <string name="pref_title_upload_data_usage">الإبلاغ عن إحصاءات استخدام البيانات</string>
     <string name="pref_summary_upload_data_usage">قم بالإبلاغ عن احصائيات استخدام البيانات لمساعدتنا على تحسين MIUI. يتم إعداد التقارير وفقا لسياسة الخصوصية الخاصة بنا.</string>
@@ -517,7 +521,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="lock_screen_traffic_warn_title">إشعارات شاشة القفل</string>
     <string name="lock_screen_traffic_notify_body">تم القفل لـ %2$s في %1$s، البيانات المستخدمة %3$s</string>
     <string name="timeshow_s">%d ثانية</string>
-    <string name="timeshow_m">%d دقيقة</string>
+    <string name="timeshow_m">%d دق</string>
     <string name="timeshow_h">%.1f ساعة</string>
     <string name="timeshow_h_int">%d ساعة</string>
     <string name="lock_screen_traffic_guide_notification_title">انقر لإدارة استخدام البيانات.</string>
@@ -614,7 +618,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="sc_allow_network_dialog_tiltle">تعذر استخدام هذه الميزة</string>
     <string name="sc_allow_network_dialog_message">يحتاج هذا التطبيق للاتصال بالإنترنت ليعمل بشكل طبيعي.</string>
     <string name="privacy_prompt_upload">تحميل</string>
-    <string name="privacy_prompt_traffic_adjust_message">"بعد بدء المعايرة، سوف تقوم MIUI بالاتصال بالشبكة، ترميز معلومات شركة الاتصالات الخاصة بك، رقم الهاتف، IMEI، وحساب Mi، ورفع هذه العناصر إلى خوادم Mi. ويتم ذلك من أجل الحصول على قالب المعايرة لشركة الاتصالات وتعلم ما إذا كان من الممكن شراء البيانات في موقعك.
+    <string name="privacy_prompt_traffic_adjust_message">"بعد بدء المعايرة، سوف يقوم MIUI بالاتصال بالشبكة وترميز معلومات شركة الاتصالات الخاصة بك ورقم الهاتف وIMEI وحساب Mi ورفع هذه العناصر إلى خوادم Mi. ويتم ذلك من أجل الحصول على قالب المعايرة لشركة الاتصالات وتعلم ما إذا كان من الممكن شراء البيانات في موقعك.
 
 خلال المعايرة، سوف ترسل MIUI رسالة نصية إلى شركة الاتصالات الخاص بك لتلقي قالب المعايرة."</string>
     <string name="privacy_prompt_tc_sms_report_message">سيتم تشفير رقم هاتفك وتفاصيل شركة الاتصالات الخاصة بك و رفعها الى خوادم Mi لتحديث معلومات استخدام البيانات الخاصة بك.</string>
@@ -759,11 +763,13 @@ It will be added to exceptions, but previously blocked items won't appear in cal
 
  "<b>٥. تأكد من أن جهاز التوجيه متصل بشكل سليم</b>"
 جرب استخدام كابل \"Ethernet cable\" لتوصيل جهاز التوجيه. إذا كان لديك شك في وجود مشكلة في الاتصال داخل منزلك، قم بالاتصال بمزود خدمة الإنترنت."</string>
-    <string name="permission_exception_title">Restricted connection for apps</string>
-    <string name="bg_network_exception_title">Restricted background connection</string>
+    <string name="permission_exception_title">تقييد اتصال التطبيقات</string>
+    <string name="bg_network_exception_title">تقييد اتصالات الخلفية</string>
     <string name="networkchanged_exception_title">تم تغيير الاتصال</string>
     <string name="networkchanged_exception_summary">تم تغيير اتصال الشبكة. قم بإعادة الاختبار.</string>
     <string name="network_test_speed">اختبار سرعة الـ Wi-Fi</string>
+    <string name="network_changed_noti_title">Disconnected from Wi-Fi</string>
+    <string name="network_changed_noti_summary">Using mobile data</string>
     <string name="network_speed_for_apps_title">الاتصال</string>
     <string name="network_speed_for_apps_total">سرعة الاتصال</string>
     <string name="network_speed_for_apps_close_app_dlg_msg">إيقاف إجباري لهذا التطبيق؟</string>
@@ -847,10 +853,10 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="tether_limit_value_custom">مخصص</string>
     <string name="tether_limit_dialog_title">حد بيانات الجوال</string>
     <string name="tether_custom_dialog_title">حد بيانات الجوال</string>
-    <string name="tether_over_limit_warning_notify_title">Reached hotspot data limit</string>
+    <string name="tether_over_limit_warning_notify_title">تم الوصول إلى حد استخدام البيانات</string>
     <string name="tether_over_limit_warning_notify_message">إيقاف تشغيل نقطة الاتصال المحمولة.</string>
     <string name="tether_over_limit_dialog_title">تحذير استخدام البيانات</string>
-    <string name="tether_over_limit_dialog_message">You reached portable hotspot data limit.</string>
+    <string name="tether_over_limit_dialog_message">لقد وصلت إلى حد بيانات نقطة الاتصال المحمولة.</string>
     <string name="tether_over_limit_dialog_cancle_btn">إعادة تعيين نقطة الاتصال</string>
     <string name="optimize_manage_title">زيادة السرعة</string>
     <string name="cpu_usage_android_system">نظام اندرويد</string>
@@ -913,6 +919,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"هذا التطبيق قد يبطئ
 جهازك"</string>
+    <string name="om_memory_clean_memory_info_text">%2$s / %1$s</string>
     <string name="om_ill_proc_handle_unstaill_title">إلغاء التثبيت %s؟</string>
     <string name="om_ill_proc_handle_uninstall_prompt">إلغاء تثبيت هذا التطبيق لإصلاح مشاكل إستخدام البطارية.</string>
     <string name="om_ill_proc_type_wakelock_title">هذا التطبيق يقوم بحظر وضع السكون ويستنزف البطارية</string>
@@ -928,7 +935,8 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="om_ill_proc_type_radio_title">هذا التطبيق يقوم بالإتصال بالشبكة كثيراََ ويستنزف البطارية</string>
     <string name="om_ill_proc_type_radio_detail">إصلاح مشاكل الاتصال بالشبكة</string>
     <string name="om_ill_proc_activity_title">المشاكل</string>
-    <string name="power_center_title">الطاقة</string>
+    <string name="power_center_title">إستخدام البطارية</string>
+    <string name="power_center_back">العودة إلى استخدام البطارية</string>
     <string name="power_center_auto_shutdown">جدولة التشغيل / الإيقاف</string>
     <string name="power_center_ontime_boot">وقت التشغيل</string>
     <string name="power_center_time_to_boot">وقت التشغيل</string>
@@ -986,7 +994,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="usage_type_video">فيديو</string>
     <string name="usage_type_on_time">الوقت مشغّل</string>
     <string name="battery_history_days">%1$dيوم %2$dساعة %3$dدقيقة %4$dثانية</string>
-    <string name="battery_history_hours">%1$dساعة %2$dدقيقة%3$dثانية</string>
+    <string name="battery_history_hours">%1$dس %2$dدق%3$dث</string>
     <string name="battery_history_minutes">%1$dدق %2$dث</string>
     <string name="battery_history_seconds">%1$dث</string>
     <string name="delete">حذف</string>
@@ -1248,6 +1256,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="dialog_no_longer_alert">لا تظهر مرة اخرى</string>
     <string name="sp_background_risk_dialog_title_wifi_approve">تنبيه شبكة Wi-Fi عامة</string>
     <string name="sp_background_risk_dialog_summary_wifi_approve">أنت متصل بشبكة Wi-Fi عامة قد تكون غير آمنة. تأكد من حماية عمليات الدفع الخاصة بك قبل إكمالها.</string>
+    <string name="sc_warning_updater_not_found">تعذر العثور على محدث التطبيقات.</string>
     <string name="sp_background_risk_dialog_title">تنبيه</string>
     <string name="sp_background_risk_dialog_summary">، التحقق من مشاكل الدفع وإصلاحها.</string>
     <string name="sp_background_risk_type_wifi">شبكة Wi-Fi هذه خطيرة</string>
@@ -1315,6 +1324,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="menu_text_networkassistants">استخدام البيانات</string>
     <string name="menu_text_networkassistants_remain">%s متبقي</string>
     <string name="menu_text_networkassistants_danger">%s زائد</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">غ.ب</string>
     <string name="menu_text_networkassistants_unit_mb">م.ب</string>
     <string name="menu_text_networkassistants_unit_kb">ك.ب</string>
@@ -1338,7 +1348,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="activity_title_antispam">قائمة الحظر</string>
     <string name="activity_title_license_manager">الأذونات</string>
     <string name="activity_title_power_manager">استخدام البطارية</string>
-    <string name="activity_title_garbage_cleanup">أداة التنظيف</string>
+    <string name="activity_title_garbage_cleanup">المنظف</string>
     <string name="memory_check_content">حررت %s</string>
     <string name="memory_clear_unused">حذف ذاكرة التخزين المؤقت (%s)</string>
     <string name="activity_title_virus">الفيروسات</string>
@@ -1395,7 +1405,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="menu_item_notification_antispam_text_avail">قائمة الحظر</string>
     <string name="pref_category_title_securitycenter_settings">عام</string>
     <string name="pref_category_title_module_settings">إعدادات الميزة</string>
-    <string name="Settings_title_garbage_cleanup">إعدادات أداة التنظيف</string>
+    <string name="Settings_title_garbage_cleanup">إعدادات المنظف</string>
     <string name="Settings_title_network_assistants">إعدادات استخدام البيانات</string>
     <string name="Settings_title_anti_spam">إعدادات قائمة الحظر</string>
     <string name="Settings_title_power_center">إعدادات البطارية</string>
@@ -1550,8 +1560,8 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="toast_flow_notification">تم إيقاف تشغيل إخطارات استخدام البيانات</string>
     <string name="toast_auto_traffic_correct">يتم ضيط استخدام البيانات تلقائياً</string>
     <string name="toast_show_notification">تم التثبيت في مركز الاشعارات</string>
-    <string name="toast_cleaner_cloudscan">ستستخدم أداة التنظيف التعريفات عبر الإنترنت</string>
-    <string name="toast_garbage_lib">تم تشغيل التحديثات التلقائية لأداة التنظيف</string>
+    <string name="toast_cleaner_cloudscan">سيستخدم المنظف تعريفات عبر الإنترنت</string>
+    <string name="toast_garbage_lib">تم تشغيل التحديثات التلقائية للمنظف</string>
     <string name="title_app_lock_disable">قفل التطبيقات</string>
     <string name="summary_app_lock_disable">قم بحماية بياناتك مع قفل التطبيقات</string>
     <string name="info_and_call">المكالمات والرسائل</string>
@@ -1665,7 +1675,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="preferred_app_entries_music">الموسيقى</string>
     <string name="preferred_app_entries_email">البريد الإلكتروني</string>
     <string name="card_main_applock_title">قفل التطبيقات</string>
-    <string name="card_main_applock_summary">حماية عناصر خاصة بقفل التطبيقات</string>
+    <string name="card_main_applock_summary">Protect messages, photos, and other items with a password.</string>
     <string name="card_main_applock_action">تشغيل</string>
     <string name="card_main_deepclean_title">تنظيف عميق</string>
     <string name="card_main_deepclean_summary">حذف ملفات غير ضروريه</string>
@@ -1675,6 +1685,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="card_main_deepclean_wechat_action">حذف</string>
     <string name="card_main_sectool_title">الأدوات</string>
     <string name="card_main_monthreport_action">عرض</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">اختبار الشبكة</string>
     <string name="card_main_netcheck_summary">اختبار الاتصال لمشاكل الشبكة</string>
     <string name="card_main_netcheck_action">اختبار</string>
@@ -1695,8 +1706,10 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="card_main_xspace_summary">إنشاء حسابات مزدوجة لأي تطبيق</string>
     <string name="card_main_xspace_action">إنشاء</string>
     <string name="card_main_overscroll_tips">الحماية في أفضل مستوياتها</string>
-    <string name="card_main_gamebooster_title">زيادة سرعة الألعاب</string>
+    <string name="card_main_gamebooster_title">مسرّع الألعاب</string>
     <string name="skin_change_close_toast">سيتم تطبيق التغييرات في المرة القادمة التي تقوم فيها بتشغيل الحماية</string>
+    <string name="password_type">تغيير كلمة المرور</string>
+    <string name="password_type_underline"><u>تغيير كلمة المرور</u></string>
     <string name="Setting_lock">الإعدادات</string>
     <string name="more_lock">المزيد</string>
     <string name="app_name">قفل التطبيقات</string>
@@ -1717,7 +1730,11 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="ac_summaryOff">تم الإيقاف، لا تحتاج كلمة مرور لفتح التطبيقات</string>
     <string name="lockpattern_tutorial_cancel_label">إلغاء</string>
     <string name="lockpattern_tutorial_continue_label">التالي</string>
+    <string name="lockpattern_tutorial_continue_label_next">انقر \"التالي\"</string>
+    <string name="lockpattern_tutorial_continue_label_confirm">انقر \"موافق\"</string>
     <string name="lockpattern_retry_button_text">ارسم مجددا</string>
+    <string name="numeric_retry_button_text">إلغاء</string>
+    <string name="mixed_retry_button_text">إلغاء</string>
     <string name="lockpattern_continue_button_text">التالي</string>
     <string name="lockpattern_confirm_button_text">موافق</string>
     <string name="modifypassword">تغيير كلمة المرور</string>
@@ -1740,22 +1757,36 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="passwordIncorrect">اسم المستخدم او كلمة السر غير صحيحة</string>
     <string name="access_control_app_is_launching">التطبيق قيد التشغيل</string>
     <string name="access_control_need_to_unlock_nofingerprint">أدخل كلمة مرور قفل التطبيقات</string>
-    <string name="access_control_failed_need_to_unlock_nofingerprint">ارسم نقش إلغاء القفل لإستخدام بصمة جديدة</string>
+    <string name="access_control_failed_need_to_unlock_nofingerprint">أدخل كلمة المرور قبل استخدام بصمة الإصبع الجديدة</string>
     <string name="access_control_fingerprint_not_identified_msg">تعذر قراءة البصمة.</string>
     <string name="access_control_need_password">"%s اضيف بنجاح
 "</string>
     <string name="privacy_mode_dialog_title">وضع الضيف</string>
     <string name="lockpattern_settings_help_how_to_record">رسم نقش</string>
+    <string name="numeric_settings_help_how_to_record">كيفية تعيين رمز PIN</string>
+    <string name="mixed_settings_help_how_to_record">كيفية تعيين كلمة مرور</string>
     <string name="lockpattern_recording_incorrect_too_short">قم بتوصيل %d نقاط على الاقل</string>
+    <string name="numeric_recording_incorrect_too_short">أدخل %d أرقام على الأقل.</string>
+    <string name="mixed_recording_incorrect_too_short">أدخل %d حروف على الأقل.</string>
     <string name="lockpattern_recording_intro_header">قم بتوصيل ٤ نقاط على الاقل لإنشاء نقش</string>
+    <string name="numeric_recording_intro_header">ادخل كلمة المرور</string>
+    <string name="mixed_recording_intro_header">أدخل ٤ حروف على الأقل</string>
     <string name="lockpattern_pattern_entered_header">تمت اضافة النقش</string>
+    <string name="numeric_pattern_entered_header">تم تعيين رمز PIN بنجاح</string>
+    <string name="mixed_pattern_entered_header">تم تعيين كلمة المرور بنجاح</string>
     <string name="lockpattern_need_to_confirm">ارسم النقش مرة أخرى للتأكيد</string>
+    <string name="numeric_need_to_confirm">أدخل مرة أخرى</string>
+    <string name="mixed_need_to_confirm">أدخل مرة أخرى للتأكيد</string>
     <string name="unlock_pattern_to_bind_fingerprint">ادخل كلمة المرور لتفعيل البصمة</string>
     <string name="lockpattern_access_need_to_unlock_wrong_fingerprint">تعذر التعرف على البصمة، حاول مجدداً.</string>
     <string name="lockpattern_access_need_to_unlock_wrong_pattern">كلمة المرور غير صحيحة، حاول مجدداً.</string>
     <string name="lockpattern_need_to_unlock_wrong">كلمة المرور غير متطابقة، حاول مجدداً.</string>
     <string name="lockpattern_recording_inprogress">إرفع إصبعك عند الانتهاء</string>
     <string name="lockpattern_pattern_confirmed_header">نقش جديد للقفل</string>
+    <string name="numeric_password_confirmed_header_continue">تم التعيين بنجاح. انقر \"التالي\".</string>
+    <string name="numeric_password_confirmed_header_confirm">تم التعيين بنجاح. انقر للتأكيد.</string>
+    <string name="mixed_password_confirmed_header_continue">تم التعيين بنجاح. انقر \"التالي\".</string>
+    <string name="mixed_password_confirmed_header_confirm">تم التعيين بنجاح. انقر للتأكيد.</string>
     <string name="forget_pattern"><u>نسيت كلمة المرور</u></string>
     <string name="unlock_pattern"><u>نقش</u></string>
     <string name="modify_password_mode"><u>تغيير كلمة المرور</u></string>
@@ -1788,6 +1819,19 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="applock_close_dialog_title">إيقاف تشغيل قفل التطبيقات؟</string>
     <string name="applock_close_dialog_summary">لن تكون التطبيقات محمية بعد الآن وسيتم حذف كلمة المرور الخاصة بك بعد إيقاف تشغيل قفل التطبيقات.</string>
     <string name="applock_header_text_less_than_half">صغير جدا. اسحب قليلا.</string>
+    <string name="quite_all_string">إلغاء</string>
+    <string name="delete_input">حذف</string>
+    <string name="input_password_hint_text">ادخل كلمة المرور</string>
+    <string name="wrong_password">كلمة المرور غير صحيحة</string>
+    <string name="unlock_set_unlock_pattern_title">نقش</string>
+    <string name="unlock_set_unlock_pin_title">رمز PIN</string>
+    <string name="unlock_set_unlock_password_title">كلمة المرور</string>
+    <string name="unlock_set_unlock_pattern_summary">قم بتوصيل ٤ نقاط على الاقل</string>
+    <string name="unlock_set_unlock_pin_summary">ادخل ٤ أرقام</string>
+    <string name="unlock_set_unlock_password_summary">الجمع بين حروف مختلفة</string>
+    <string name="set_pattern_password_name">تعيين نقش</string>
+    <string name="set_numeric_password_name">تعيين رمز PIN</string>
+    <string name="set_mixed_password_name">تعيين كلمة مرور</string>
     <string name="wakepath_confirm_start_activity">السماح لـ%1$s بفتح %2$s؟</string>
     <string name="unlike">لا شكراً</string>
     <string name="toast_network_eror">لا يمكن الاتصال بالشبكة</string>
@@ -1885,7 +1929,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="app_manager_show_detail_infos">عرض الكل</string>
     <string name="app_manager_start_by">بدأ ب%s</string>
     <string name="app_manager_uninstall_xspace_app_dlg_msg">إلغاء تثبيت التطبيقات المزدوجة سيزيل كل بيانات التطبيق.</string>
-    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">ستتم إزالة التطبيقات المزدوجة المتشابهة جنبا إلى جنب مع بيانات التطبيق.</string>
+    <string name="app_manager_uninstall_with_xspace_app_dlg_msg">سيتم حذف التطبيقات المزدوجة المقابلة والبيانات الخاصة بهم.</string>
     <string name="app_manager_uninstall_xspace_app_dlg_title">إلغاء تثبيت التطبيقات المزدوجة؟</string>
     <string name="app_manager_appupdate_remind">الإشعار حول التحديثات</string>
     <string name="app_usage_never">لم تستخدم قط</string>
@@ -1906,7 +1950,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="app_manager_app_traffic">"إستخدام البيانات: "</string>
     <string name="app_manager_app_power">"إستخدام البطارية: "</string>
     <string name="app_manager_net_control_title">تقييد استخدام البيانات</string>
-    <string name="app_manager_net_mobile">البيانات</string>
+    <string name="app_manager_net_mobile">بيانات الجوال</string>
     <string name="app_manager_net_wifi">Wi-Fi</string>
     <string name="app_manger_des_separator">"، "</string>
     <string name="app_manager_disable">عدم السماح</string>
@@ -1928,7 +1972,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="app_manager_show_all_apps">عرض جميع التطبيقات</string>
     <string name="app_manager_hide_system_server">إخفاء خدمات النظام</string>
     <string name="app_manager_back">رجوع</string>
-    <string name="app_manager_defaults_setting">الافتراضية</string>
+    <string name="app_manager_defaults_setting">التطبيقات الافتراضية</string>
     <string name="app_manager_clear_cache">مسح ذاكرة التخزين المؤقتة</string>
     <string name="app_manager_reset_app_preferences">إعادة تعيين تفضيلات التطبيق</string>
     <string name="app_manager_reset_app_preferences_title">إعادة تعيين تفضيلات التطبيق؟</string>
@@ -1970,10 +2014,12 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="app_manager_dlg_clear_cache_title">مسح ذاكرة التخزين المؤقت؟</string>
     <string name="app_manager_support_uninstall">يمكنك إلغاء تثبيت هذه التطبيقات</string>
     <string name="app_manager_not_support_uninstall">لا يمكن إلغاء تثبيت هذه التطبيقات</string>
-    <string name="app_manager_comuting_size">جارِِ الحساب…</string>
-    <string name="app_manager_show_all_apps_opened">Showing results from all apps…</string>
-    <string name="app_manager_search_prompt">"Couldn't find results? Try showing results from all apps."</string>
-    <string name="app_manager_open_show_all_apps_immediate">Show all results</string>
+    <string name="app_manager_comuting_size">جارٍ الحساب…</string>
+    <string name="app_manager_show_all_apps_opened">عرض النتائج من جميع التطبيقات…</string>
+    <string name="app_manager_search_prompt">تعذر العثور على النتائج؟ جرب إظهار النتائج من جميع التطبيقات.</string>
+    <string name="app_manager_open_show_all_apps_immediate">عرض جميع النتائج</string>
+    <string name="app_manager_mobile_slot1">بيانات الجوال (SIM 1)</string>
+    <string name="app_manager_mobile_slot2">بيانات الجوال (SIM 2)</string>
     <string name="ad_btn_default_text">معرفة المزيد</string>
     <string name="open_activity_err">لم يتم العثور على التطبيق</string>
     <string name="low_memory_warning_dialog_title">لا توجد مساحة كافية</string>
@@ -1998,7 +2044,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="gs_forbid_autosync">تقييد المزامنة الخلفية</string>
     <string name="gs_app_back_self_start">توفير شحن البطارية</string>
     <string name="gs_only_self_start_for_list">تقييد العمليات الخلفية لتوفير البطارية للألعاب</string>
-    <string name="gs_game_shortcut">تمتع بتجربة لعب أكثر مرونة</string>
+    <string name="gs_game_shortcut">تحسين تجربة الألعاب الخاصة بك</string>
     <string name="gs_game_net_priority">أولوية الاتصال</string>
     <string name="gs_game_net_priority_detail">الحد من سرعة التحميل للحصول على مايكفي من النطاق الترددي للألعاب</string>
     <string name="gs_performance_mode">وضع الأداء</string>
@@ -2022,7 +2068,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="add_done">تمت الإضافة بنجاح</string>
     <string name="boost_done">تم زيادة السرعة بنجاح</string>
     <string name="boost_stop">إيقاف تشغيل زيادة السرعة</string>
-    <string name="already_close_gamebooster">زيادة سرعة الألعاب متوقف</string>
+    <string name="already_close_gamebooster">مسرّع الألعاب متوقف</string>
     <string name="no_game">تعذر العثور على ألعاب</string>
     <string name="gamebooster_network_dialog_title">بعض الميزات ليست متاحة</string>
     <string name="gamebooster_network_dialog_message">السماح للحماية بالاتصال بالشبكة من أجل استخدام جميع ميزات مسرّع اللعبة؟</string>
@@ -2040,15 +2086,14 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="intro_improve">قم بتعزيز تجربة اللعب الخاصة بك على مستوى النظام</string>
     <string name="i_know">فهمت</string>
     <string name="dialog_text">إنشاء إختصار على الشاشة الرئيسية لمسرّع الألعاب</string>
-    <string name="anim_gamebooster_text">لحظة من فضلك…</string>
     <string name="intro_skip">تخطي</string>
     <string name="open_game">فتح</string>
     <string name="try_game">حاول</string>
     <string name="more_game">المزيد من الألعاب</string>
     <string name="sys_title_gamebooster_unit_gb">غيغا</string>
     <string name="sys_title_gamebooster_unit_mb">ميغا</string>
-    <string name="gmscore_support_service">Google Services</string>
-    <string name="gmscore_support_remind">Turn this feature on if you experience problems with using Gmail, Google Maps, and other Google apps. It will slightly reduce battery life.</string>
+    <string name="gmscore_support_service">خدمات Google</string>
+    <string name="gmscore_support_remind">قم بتفعيل هذه الميزة إذا واجهتك مشكلات في استخدام Gmail وخرائط Google وتطبيقات Google الأخرى. سوف يزيد استهلاك البطارية قليلا.</string>
     <string name="google_base_app_install_choice">\"%s\" يتطلب إطار خدمات غوغل للتطبيقات ليعمل بشكل طبيعي، هل تريد تحميلها وتثبيتها؟</string>
     <string name="application_item_disable">مقيد</string>
     <string name="application_item_already_permission">تم السماح</string>
@@ -2066,8 +2111,8 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="scan_installed_games">جارٍ التحقق من الإلعاب المثبتة…</string>
     <string name="boostering">جارٍ زيادة السرعة…</string>
     <string name="booster_suc">تم زيادة السرعة بنجاح</string>
-    <string name="auto_booster_suc">Boosted successfully</string>
-    <string name="auto_back_booster">Stop boosting</string>
+    <string name="auto_booster_suc">تم زيادة السرعة بنجاح</string>
+    <string name="auto_back_booster">إيقاف زيادة السرعة</string>
     <string name="support_game_booster_tips">زيادة السرعة وتحسين تجربة الألعاب</string>
     <string name="setting">الإعدادات</string>
     <string name="loading">لحظة من فضلك…</string>
@@ -2096,7 +2141,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="wifi_optizition_tip">تشغيل زيادة سرعة الـ Wi-Fi لجعل اتصال الـ Wi-Fi أكثر استقراراً. سيتم استخدام كمية صغيرة من بيانات الجوال.</string>
     <string name="wifi_optizition_loading">جارٍ تشغيل زيادة سرعة شبكة Xunyou…</string>
     <string name="free_send_net_booster">زيادة سرعة الشبكة مجاناً</string>
-    <string name="free_send_net_booster_tip">استمتع بالعب بسلاسة مع زيادة سرعة الشبكة مجانا.</string>
+    <string name="free_send_net_booster_tip">استمتع اللعب بسلاسة مع زيادة سرعة الشبكة مجانا.</string>
     <string name="free_send_net_booster_busniess">احصل على Xunlei لزيادة السرعة</string>
     <string name="free_send_net_booster_busniess_tip">انقر للاستلام</string>
     <string name="net_booster_overdue_notification">جلسة زيادة سرعة الشبكة على وشك الانتهاء</string>
@@ -2120,11 +2165,15 @@ It will be added to exceptions, but previously blocked items won't appear in cal
     <string name="databooster_tips_title">تنبيه</string>
     <string name="databooster_tips_message">قم بتشغيله لتقييد جميع بطاقات SIM باستثناء بطاقة البيانات. أوقف تشغيل هذه الميزة إذا حدثت أخطاء في الألعاب التي تختارها.</string>
     <string name="gb_description_image_button_answer">رد</string>
-    <string name="gb_description_image_button_video_answer">Video call</string>
-    <string name="gb_description_image_button_reject">Decline</string>
-    <string name="gs_autobooster">Boost automatically</string>
-    <string name="gs_autobooster_detail">Boost speed for selected games automatically</string>
-    <string name="gs_autobooster_dialog_message">"If you're using Xunyou speed boost, open games on the designated page."</string>
+    <string name="gb_description_image_button_video_answer">مكالمة فيديو</string>
+    <string name="gb_description_image_button_reject">رفض</string>
+    <string name="gs_autobooster">زيادة السرعة تلقائيا</string>
+    <string name="gs_autobooster_detail">زيادة سرعة الألعاب المختارة تلقائياً</string>
+    <string name="gs_autobooster_dialog_message">إذا كنت تستخدم خدمات زيادة سرعة Xunyou، افتح الألعاب على الصفحة المحددة.</string>
+    <string name="accessibility_gameboosterservice_description">كتم صوت مكالمات WeChat الواردة عند تشغيلك الألعاب</string>
+    <string name="gb_cutoff">|</string>
+    <string name="gb_ad_game_size">م.ب</string>
+    <string name="gb_new_feature">ميزة جديدة</string>
     <string name="power_center_consume_rank">استخدام البطارية</string>
     <string name="power_center_custom_title">وضع البطارية</string>
     <string name="power_center_auto_shutdown_summary_default">قم بتشغيل جهازك أو إيقافه في وقت المحدد</string>

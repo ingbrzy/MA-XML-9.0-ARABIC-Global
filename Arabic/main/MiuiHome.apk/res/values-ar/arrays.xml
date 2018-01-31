@@ -4,6 +4,10 @@
         <item>٤x٤</item>
         <item>٤x٥</item>
     </string-array>
+    <string-array name="cell_layout_size_values">
+        <item>٤x٤</item>
+        <item>٤x٥</item>
+    </string-array>
     <string-array name="editing_mode_entries">
         <item>خلفية الشاشة</item>
         <item>الإضافات</item>
@@ -14,8 +18,8 @@
         <item>غائم</item>
         <item>ضبابي</item>
         <item>ضبابي</item>
-        <item>عاصفة مطرية شديدة</item>
-        <item>عاصفة مطرية</item>
+        <item>عاصفة ممطرة شديدة</item>
+        <item>عاصفة ممطرة</item>
         <item>هطول أمطار غزيرة جدا</item>
         <item>عاصفة رعدية</item>
         <item>امطار خفيفة</item>
@@ -40,6 +44,7 @@
         <item>الافتراضي</item>
         <item>كلاسيكي</item>
     </string-array>
+    <array name="region_prefix" />
     <string-array name="transformation_entries">
         <item>شريحة</item>
         <item>تضاؤل</item>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">+999</string>
     <string name="accessibility_calllog_detail">تفاصيل سجل المكالمات</string>
     <string name="accessibility_contact_detail">تفاصيل جهة الاتصال</string>
     <string name="account_container_title">مستورد من</string>
@@ -97,6 +98,7 @@
     <string name="call_sim_menu_title_suffix">(الأساسي)</string>
     <string name="call_telex">الاتصال بالتلكس</string>
     <string name="call_tty_tdd">الاتصال بـ TTY/TDD</string>
+    <string name="call_type_and_date">%1$s %2$s</string>
     <string name="call_unit">CNY</string>
     <string name="call_work">الاتصال بالعمل</string>
     <string name="call_work_mobile">الاتصال بالهاتف الجوال للعمل</string>
@@ -337,6 +339,7 @@
     <string name="description_minus_button">ناقص</string>
     <string name="description_plus_button">زائد</string>
     <string name="description_quick_contact_for">جهة اتصال سريعة لـ %1$s</string>
+    <string name="description_quick_dial_button">Quick dial</string>
     <string name="description_search_button">بحث</string>
     <string name="description_send_message">إرسال رسالة إلى %1$s</string>
     <string name="description_send_text_message">إرسال رسالة نصية إلى %1$s</string>
@@ -388,6 +391,7 @@
     <string name="dialer_empty_text_loading">لحظة من فضلك…</string>
     <string name="dialer_empty_text_no_call_log">لا توجد جهات اتصال جديدة</string>
     <string name="dialer_empty_text_no_search_result">لم يتم العثور على جهات اتصال</string>
+    <string name="dialer_firewall_entry_name">Blocked call logs</string>
     <string name="dialer_menu_description">عرض القائمة</string>
     <string name="dialer_menu_title">قائمة الخيارات</string>
     <string name="dialer_returnToInCallScreen">العودة إلى المكالمة الحالية</string>
@@ -479,6 +483,7 @@
     <string name="force_touch_new_contact">جهة اتصال جديدة</string>
     <string name="foundTooManyContacts">تم العثور على أكثر من %d جهة اتصال.</string>
     <string name="frequentList">متكرر</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">الاسم</string>
     <string name="gallery">المعرض</string>
     <string name="generic_no_account_prompt">حافظ على جهات اتصالك آمنة حتى إذا فقدت هاتفك: عليك بمزامنتها مع الخدمة عبر الإنترنت.</string>
@@ -661,6 +666,7 @@
     <string name="miprofile_contact_header">جهات الاتصال مع بطاقات جهة اتصال</string>
     <string name="miprofile_contact_meaasge">جهات الاتصال المحلية</string>
     <string name="miprofile_contact_verifying">تحقق</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">تعديل الملف الشخصي</string>
     <string name="miprofile_error_accept_self">لا يمكن تبادل بطاقة جهة الاتصال الخاصة بك</string>
     <string name="miprofile_error_no_miaccount">تسجيل الدخول إلى حساب Mi</string>
@@ -804,6 +810,7 @@
     <string name="path_key_rebuild_t9_index_title">تطبيقات النظام/جهات الاتصال/تنظيم جهات الاتصال/إعادة إنشاء فهرس البيانات</string>
     <string name="path_key_sim_manage">تطبيقات النظام/جهات الاتصال/تنظيم جهات الاتصال/بطاقات SIM</string>
     <string name="path_preference_contacts_filter">تطبيقات النظام/جهات الاتصال/تفضيلات العرض/اعداد قوائم جهات الاتصال</string>
+    <string name="path_quick_dial_setting">System apps/Contacts/Quick dial</string>
     <string name="path_remove_duplicate">تطبيقات النظام/جهات الاتصال/تنظيم جهات الاتصال/دمج جهات الاتصال المكررة</string>
     <string name="path_share_visible_contacts">تطبيقات النظام/جهات الاتصال/استيراد/تصدير جهات الاتصال/مشاركة جهات الاتصال</string>
     <string name="path_sim_capacity">تطبيقات النظام/جهات الاتصال/مساحة التخزين على بطاقة SIM</string>
@@ -812,6 +819,8 @@
     <string name="path_wipe_data">تطبيقات النظام/جهات الاتصال/تنظيم جهات الاتصال/مسح البيانات</string>
     <string name="payphone">هاتف عمومي</string>
     <string name="people">جهات الاتصال</string>
+    <string name="percent_sign">%</string>
+    <string name="percentage">%s%%</string>
     <string name="phoneLabelsGroup">الهاتف</string>
     <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">الرقم طويل جداً</string>
@@ -913,6 +922,12 @@
     <string name="pull_to_refresh_release_label">حرّره للتحديث</string>
     <string name="qr_card_card">رمز QR</string>
     <string name="qrcode_card_title">رمز QR</string>
+    <string name="quick_dial_setting_delete_dialog_message">Delete assigned quick dial number?</string>
+    <string name="quick_dial_setting_delete_dialog_option_delete">Delete</string>
+    <string name="quick_dial_setting_hint">Tap a button to assign or remove a quick dial number. Press and hold the button with an assigned number to dial.</string>
+    <string name="quick_dial_setting_set_dialog_message">Assign a quick dial number to this button?</string>
+    <string name="quick_dial_setting_set_dialog_option_set">Yes</string>
+    <string name="quick_dial_setting_title">Quick dial</string>
     <string name="quickcontact_missing_app">لم يتم العثور على أي تطبيق للتعامل مع هذا الإجراء</string>
     <string name="quit_dialog_confirm_message">لم تقم بدمج أي جهات اتصال</string>
     <string name="quit_dialog_confirm_title">إلغاء دمج جهات الاتصال</string>
@@ -981,6 +996,7 @@
     <string name="search_key_rebuild_t9_index_title">تنظيم؛جهات الاتصال؛t9</string>
     <string name="search_key_sim_manage">تنظيم؛جهات الاتصال</string>
     <string name="search_preference_contacts_filter">جهات الاتصال؛الشاشة</string>
+    <string name="search_quick_dial_setting">Contacts</string>
     <string name="search_remove_duplicate">تنظيم؛جهات الاتصال</string>
     <string name="search_results_searching">جارٍ البحث…</string>
     <string name="search_settings_description">أسماء جهات الاتصال</string>
@@ -1045,6 +1061,7 @@
     <string name="sim_unloaded">بطاقة SIM غير مثبتة</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">لا توجد أعضاء في المجموعة</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">الشركات</string>
     <string name="smart_group_company_unavailable">لا توجد معلومات عن الشركة</string>
     <string name="smart_group_frequency_1">خلال الشهر الماضي</string>
@@ -1174,6 +1191,7 @@
     <string name="voip_audio_description">مكالمة VoIP</string>
     <string name="voip_video_description">مكالمة فيديو VoIP</string>
     <string name="websiteLabelsGroup">موقع ويب</string>
+    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="wipe_data">مسح البيانات</string>
     <string name="yellowPageNavigationIconLabel">الصفحات الصفراء</string>
     <string name="yellowPageNavigationLabel">الصفحات الصفراء</string>

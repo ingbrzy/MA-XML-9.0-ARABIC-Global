@@ -18,8 +18,8 @@
     </plurals>
     <plurals name="accessibility_recent_task_first_enter_tips">
         <item quantity="other">تم فتحها حديثا، التطبيقات المتاحة: %d. اسحب لأعلى للحذف، اسحب لأسفل للقفل.</item>
-        <item quantity="zero">تم فتحها حديثا، التطبيق المتاح: %d. اسحب لأعلى للحذف، اسحب لأسفل للقفل.</item>
-        <item quantity="one">تم فتحها حديثا، التطبيق المتاح: %d. اسحب لأعلى للحذف، اسحب لأسفل للقفل.</item>
+        <item quantity="zero">تم فتحها حديثا، التطبيق المتاح: %d. مرّر لأعلى للحذف، اسحب لأسفل للقفل.</item>
+        <item quantity="one">تم فتحها حديثا، التطبيق المتاح: %d. مرّر لأعلى للحذف، اسحب لأسفل للقفل.</item>
         <item quantity="two">تم فتحها حديثا، التطبيقات المتاحة: %d. اسحب لأعلى للحذف، اسحب لأسفل للقفل.</item>
         <item quantity="few">تم فتحها حديثا، التطبيقات المتاحة: %d. اسحب لأعلى للحذف، اسحب لأسفل للقفل.</item>
         <item quantity="many">تم فتحها حديثا، التطبيقات المتاحة: %d. اسحب لأعلى للحذف، اسحب لأسفل للقفل.</item>
@@ -55,6 +55,14 @@
         <item quantity="two">سماء صافية</item>
         <item quantity="few">سماء صافية</item>
         <item quantity="many">سماء صافية</item>
+    </plurals>
+    <plurals name="accessibility_desc_weather_temperature">
+        <item quantity="other">الطقس %d درجة</item>
+        <item quantity="zero">الطقس %d درجة</item>
+        <item quantity="one">الطقس %d درجة</item>
+        <item quantity="two">الطقس %d درجات</item>
+        <item quantity="few">الطقس %d درجات</item>
+        <item quantity="many">الطقس %d درجة</item>
     </plurals>
     <plurals name="fold_tips_title">
         <item quantity="other">%d إشعار غير مهم</item>
