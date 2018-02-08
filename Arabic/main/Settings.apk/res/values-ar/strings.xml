@@ -428,7 +428,6 @@
     <string name="abc_activity_chooser_view_see_all">عرض الكل</string>
     <string name="abc_shareactionprovider_share_with_application">‏مشاركة مع %s</string>
     <string name="abc_shareactionprovider_share_with">مشاركة مع</string>
-    <string name="status_bar_notification_info_overflow">+999</string>
     <string name="abc_capital_on">تشغيل</string>
     <string name="abc_capital_off">إيقاف</string>
     <string name="menu_item_show_more">عرض المزيد</string>

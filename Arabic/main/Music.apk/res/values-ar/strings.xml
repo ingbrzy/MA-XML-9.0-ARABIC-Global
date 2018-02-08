@@ -68,7 +68,6 @@
     <string name="s6">هل تريد السماح للإعلان بإنشاء حدث تقويم؟</string>
     <string name="s7">إعلان تجريبي</string>
     <string name="search_menu_title">البحث</string>
-    <string name="status_bar_notification_info_overflow">+999</string>
     <string name="about">حول موسيقى Mi</string>
     <string name="account">حساب</string>
     <string name="account_and_cloud">حساب</string>
@@ -760,7 +759,6 @@
     <string name="privacy_notif_content">انقر لعرض التفاصيل.</string>
     <string name="privacy_notif_title">مسرع تنزيل Xunlei قيد التشغيل</string>
     <string name="privacy_policy">سياسة الخصوصية</string>
-    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=en</string>
     <string name="privacy_tip_cancel">إلغاء</string>
     <string name="privacy_tip_content">هل تريد استخدام مسرع Xunlei لتسريع التنزيلات؟ سيتم تحميل URL مضيف التنزيل إلى خوادم Xunlei. سيتم أيضاً تحميل تفاصيل حساب Mi الخاص بك لمعرفة إذا كان لديك أي اشتراكات نشطة لهذه الخدمة.</string>
     <string name="privacy_tip_ok">موافق</string>
@@ -1004,7 +1002,6 @@
     <string name="upgrade_to">ترقية إلى</string>
     <string name="upgrade_waringing">ستتمكن فقط من الاستماع إلى الموسيقى المخزنة في جهازك.</string>
     <string name="user_agreement">اتفاقية المستخدم</string>
-    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=en</string>
     <string name="valid_period">صالح: %s</string>
     <string name="version_info">الإصدار</string>
     <string name="vip_after_tomorrow_auto_renew_message">سيتم تجديد اشتراك الموسيقى الخاص بك تلقائياً بعد الغد مساءً. قم بالتأكد أن لديك رصيد Mi كافي في حسابك لأكمال الدفع.</string>
