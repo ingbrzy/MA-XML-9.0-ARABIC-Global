@@ -3,7 +3,7 @@
     <string name="passport_account_label">حساب Mi</string>
     <string name="passport_notification_title">خطأ في تسجيل الدخول إلى %1$s</string>
     <string name="passport_login_prompt">حساب Mi واحد لجميع خدمات Mi.</string>
-    <string name="passport_login_using_other_ways"><u>طرق أخرى لتسجيل الدخول</u></string>
+    <string name="passport_login_using_other_ways">طرق أخرى لتسجيل الدخول</string>
     <string name="passport_login_title">تسجيل الدخول إلى حساب Mi</string>
     <string name="passport_login">تسجيل الدخول</string>
     <string name="passport_relogin">تسجيل الدخول مرة أخرى</string>
@@ -48,7 +48,7 @@
     <string name="passport_reset_password_title">إعادة تعيين كلمة المرور</string>
     <string name="passport_auto_generate_pwd">توليد كلمة مرور آمنة</string>
     <string name="passport_pwd_generate_failure">تعذر توليد كلمة المرور</string>
-    <string name="passport_use_generated_pwd_title">تذكر كلمة المرور الخاصة بك</string>
+    <string name="passport_use_generated_pwd_title">تذكر كلمة المرور الخاصة بك!</string>
     <string name="passport_use_generated_pwd_message">تأكد من أنك تتذكر كلمة المرور الخاصة بك. يمكنك استخدامه لتسجيل الدخول إلى خدمات Mi أخرى.</string>
     <string name="passport_register_restricted_title">لا يمكن استخدام رقم الهاتف هذا</string>
     <string name="passport_register_restricted">تم ارتباط الكثير من الحسابات بهذا الرقم، حاول استخدام رقم آخر</string>
@@ -85,7 +85,7 @@
     <string name="passport_delete_account">تسجيل خروج</string>
     <string name="passport_vcode_notification_title">التحقق من تسجيل الدخول غير مكتمل</string>
     <string name="passport_account_name">الحساب: %1$s</string>
-    <string name="passport_account_hint_text">البريد الإلكتروني/رقم الهاتف/معرف الحساب Mi</string>
+    <string name="passport_account_hint_text">البريد الإلكتروني/رقم الهاتف/معرف حساب Mi</string>
     <string name="passport_email_or_id_hint_text">البريد الالكتروني/معرف حساب Mi</string>
     <string name="passport_phone_num_hint_text">رقم الهاتف</string>
     <string name="passport_input_password_hint">ادخل كلمة المرور</string>
@@ -94,6 +94,7 @@
     <string name="passport_email">عنوان البريد الإلكتروني</string>
     <string name="passport_vcode_prompt_long">أدخل رمز التحقق</string>
     <string name="passport_input_phone_hint">أدخل رقم الهاتف</string>
+    <string name="passport_input_voice_captcha_hint">أدخل رمز التحقق الصوتي</string>
     <string name="passport_error_empty_username">أدخل هوية حساب Mi الخاص بك</string>
     <string name="passport_error_invalid_phone_num">رقم الهاتف غير صالح</string>
     <string name="passport_error_empty_phone_num">أدخل رقم الهاتف</string>
@@ -206,10 +207,10 @@
     <string name="search_mi_account_key_words">Mi Cloud،إعداد الحساب،معلومات دفع Mi،تسجيل الخروج</string>
     <string name="search_mi_account_desc">حساب Mi</string>
     <string name="search_mi_account_path">الإعدادات/حساب Mi</string>
-    <string name="search_user_detail">معلومات شخصية</string>
+    <string name="search_user_detail">المعلومات الشخصية</string>
     <string name="search_user_detail_top_key_words">المعلومات الشخصية,تغيير صورة الملف الشخصي,تغيير اسم المستخدم,تغيير الإسم المستعار,تغيير تاريخ الميلاد,تغيير الجنس</string>
     <string name="search_user_detail_bottom_key_words">تغيير الدخل،تغيير التعليم،تغيير الموقع،تغيير المنطقة</string>
-    <string name="search_user_detail_desc">معلومات شخصية</string>
+    <string name="search_user_detail_desc">المعلومات الشخصية</string>
     <string name="search_user_detail_path">الإعدادات/حساب Mi/المعلومات الشخصية</string>
     <string name="search_account_security">حماية الحساب</string>
     <string name="search_account_security_key_words">تغيير الهاتف،تغيير البريد الإلكتروني،حماية الحساب،الحسابات،Sina Weibo،QQ،ترخيص،الأجهزة</string>
@@ -218,11 +219,12 @@
     <string name="app_name">حساب Mi</string>
     <string name="account">حساب</string>
     <string name="logout_failed">لا يمكن تسجيل الخروج</string>
+    <string name="turning_off_find_device">جارٍ إيقاف تشغيل العثور على الجهاز…</string>
     <string name="turn_off_find_device_failed_title">لا يمكن إيقاف تشغيل العثور على الجهاز</string>
     <string name="no_response_retry">لا يوجد استجابة، حاول مجددا.</string>
     <string name="removing_account">جارٍ تسجيل الخروج…</string>
-    <string name="delete_bank_card_title">إزالة بطاقة البنك الخاصة بك</string>
-    <string name="delete_bank_card_message">سيتم حذف بطاقة البنك الخاصة بك لاسباب أمنية بعد قيامك بتسجيل الخروج</string>
+    <string name="delete_bank_card_title">تنبيه</string>
+    <string name="delete_bank_card_message">سيتم حذف بطاقة بنك دفع Mi وبطاقة NFC بعد تسجيل الخروج.</string>
     <string name="bind_settings">الحسابات</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="bind_sina_weibo">ربط حساب Sina Weibo</string>
@@ -244,7 +246,7 @@
     <string name="access_token_expired_warning">انتهت صلاحية حساب Weibo</string>
     <string name="access_token_invalid_warning">حساب Weibo غير صالح</string>
     <string name="service_error">خطأ في الخدمة</string>
-    <string name="account_user_base_info">معلومات شخصية</string>
+    <string name="account_user_base_info">المعلومات الشخصية</string>
     <string name="account_user_name">الإسم</string>
     <string name="account_user_id">هوية حساب Mi</string>
     <string name="account_none">لا شيء</string>
@@ -323,12 +325,12 @@
     <string name="no_phone">لا يوجد رقم هاتف</string>
     <string name="action_update_phone">تغيير رقم الهاتف</string>
     <string name="action_add_phone">أضف رقم هاتف</string>
-    <string name="phone_num_use_for">يستخدم رقم الهاتف لـ:</string>
-    <string name="sign_in">جارٍ تسجيل الدخول</string>
+    <string name="phone_num_use_for">استخدامات رقم الهاتف:</string>
+    <string name="sign_in">تسجيل الدخول</string>
     <string name="get_back_pwd">إعادة تعيين كلمة المرور</string>
-    <string name="identity">الهوية</string>
+    <string name="identity">المعرف</string>
     <string name="set_success">تم التغيير بنجاح</string>
-    <string name="account_user_details">معلومات شخصية</string>
+    <string name="account_user_details">المعلومات الشخصية</string>
     <string name="account_security">حماية الحساب</string>
     <string name="account_mibi_center">رصيد Mi</string>
     <string name="account_mipay_info">دفع Mi</string>
@@ -358,15 +360,18 @@
     <string name="no_sim_card_or_unactivated">لم يتم تثبيت بطاقة SIM أو تفعيلها</string>
     <string name="remove_device_success_notice">إذا أزلت هذا الجهاز من أجهزتك الموثوق بها، فقد تحتاج إلى إعادة عملية التحقق عند تسجيل الدخول.​</string>
     <string name="device_delete_success_title">تسجيل خروج</string>
-    <string name="device_delete_success_message">إذا لم تقم بتسجيل الدخول على هذا الجهاز، قم بتغيير كلمة المرور على الفور.</string>
+    <string name="device_delete_success_message">إذا لم تقم بتسجيل الدخول على هذا الجهاز، فقم بتغيير كلمة المرور على الفور.</string>
     <string name="change_password">تغيير كلمة المرور</string>
-    <string name="completed">تعيين الكل</string>
+    <string name="completed">تم ضبط الكل!</string>
     <string name="no_network_title">لا يمكن الاتصال بالشبكة.</string>
     <string name="no_network_btn">تحديث</string>
     <string name="get_device_list_failed">لايمكن إيجاد أجهزة</string>
     <string name="delete_device_failed">لا يمكن إزالة الجهاز</string>
     <string name="empty_device_list_notice">لا توجد أجهزة</string>
     <string name="device_name">اسم الجهاز</string>
+    <string name="multi_user_not_show_sync_activity_title">لا تقم بتشغيل المزامنة مع Mi Cloud</string>
+    <string name="multi_user_not_show_sync_activity_message_1">يبدو أنك تستخدم حساب Mi الخاص بالواجهة الاولى.</string>
+    <string name="multi_user_not_show_sync_activity_message_2">في مثل هذه الحالة، سيتم مزامنة كل البيانات إلى الواجهة الثانية الخاص بك. لتجنب هذا، لا تقم بتشغيل المزامنة مع Mi Cloud.</string>
     <string name="find_device_access_denied">لا يمكن الحصول على الحالة، غير مسموح بالدخول</string>
     <string name="find_device_account_error">لا يمكن الحصول على الحالة نظرا لخطأ في الحساب</string>
     <string name="find_device_null_credential_error">لا يمكن الحصول على على معلومات الجهاز، قم بالتصال بخدمة الزبائن الخاصة بـMi</string>
@@ -382,10 +387,7 @@
     <string name="find_device_operation_failed_error_unknown">حدث خطأ ما، أعد المحاولة لاحقا</string>
     <string name="find_device_remote_exception">خطأ RPC</string>
     <string name="io_error_title">تأكيد الشبكة الخاصة بك</string>
-    <string name="login_check_find_device_failed_title">تعذر التحقق من حالة العثور على الجهاز</string>
-    <string name="multi_user_not_show_sync_activity_title">لا تقم بتشغيل المزامنة مع Mi Cloud</string>
-    <string name="multi_user_not_show_sync_activity_message_1">يبدو أنك تستخدم حساب Mi الخاص بالواجهة الاولى.</string>
-    <string name="multi_user_not_show_sync_activity_message_2">في مثل هذه الحالة، سيتم مزامنة كل البيانات إلى الواجهة الثانية الخاص بك. لتجنب هذا، لا تقم بتشغيل المزامنة مع Mi Cloud.</string>
+    <string name="login_check_find_device_failed_title">تعذر التحقق من معلومات حماية الجهاز</string>
     <string name="notify_network_restricted_title">تعذّر على حساب Mi الاتصال بالشبكة</string>
     <string name="notify_network_restricted_content_hidden_state">تم تقييد نشاط خلفية حساب Mi. انقر للسماح.</string>
     <string name="notify_network_restricted_content_bg_network">تم تقييد الدخول للإنترنت لحساب Mi. انقر للسماح.</string>
@@ -414,11 +416,10 @@
     <string name="find_device_activate_account">تفعيل الحساب</string>
     <string name="login_check_find_device">جارٍ الحصول على معلومات حماية الجهاز…</string>
     <string name="unlock_help_notice">"مساعدة:
-· إذا نسيت كلمة المرور الخاصة بك، إذهب إلى id.mi.com لإعادة تعيينها.
-· إن لم تتمكن من إلغاء قفل الجهاز، إذهب إلى i.mi.com لإيقاف العثور على الجهاز
-· قم بإعطاء رقم إلغاء القفل هذا لخدمة العملاء: %s"</string>
-    <string name="find_device_display_id">رقم إلغاء القفل: %s</string>
-    <string name="login_find_device_bind">هذا الجهاز مرتبطاُ بحساب Mi موجود مسبقا (%s). أدخل كلمة المرور للتحقق من الجهاز.</string>
+· إذا نسيت كلمة المرور، انتقل إلى id.mi.com لإعادة تعيينها.
+· إن لم تتمكن من إلغاء قفل الجهاز، انتقل إلى i.mi.com لإيقاف \"العثور على الجهاز\"
+· رقم إلغاء القفل الخاص بك: %s"</string>
+    <string name="login_find_device_bind">هذا الجهاز مرتبط بمعرف حساب Mi موجود مسبقا (%s).</string>
     <string name="find_device_locked_account_phone" formatted="false">%s، رقم الهاتف المرتبط به: %s</string>
     <string name="find_device_locked_account_email" formatted="false">%s، البريد الإلكتروني المرتبط به: %s</string>
     <string name="oauth_title">تسجيل الدخول مع حساب Mi</string>
@@ -446,7 +447,7 @@
     <string name="mipay_transit_card">بطاقة النقل</string>
     <string name="mipay_balance">الرصيد</string>
     <string name="mipay_others">أخرى</string>
-    <string name="mipay_identity">التحقق من الهوية</string>
+    <string name="mipay_identity">التحقق من المعرف</string>
     <string name="mipay_indentity_done">تم التحقق</string>
     <string name="mipay_identitiy_no">لم يتم التحقق</string>
     <string name="account_token_expired_title">فشلت المصادقة</string>

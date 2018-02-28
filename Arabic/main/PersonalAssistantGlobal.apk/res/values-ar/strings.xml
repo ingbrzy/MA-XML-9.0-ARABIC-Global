@@ -202,8 +202,8 @@
     <string name="place_label">الاماكن الأكثر زيارة</string>
     <string name="record_name">تسجيل</string>
     <string name="record_parent">المسجل</string>
-    <string name="red_dowm_blue_grow">الأخضر - ارتفاع، الأحمر - انخفاض</string>
-    <string name="red_grow_blue_dowm">الأحمر - ارتفاع، الأخضر - انخفاض</string>
+    <string name="red_dowm_blue_grow">الأخضر - أعلى، الأحمر - أسفل</string>
+    <string name="red_grow_blue_dowm">الأحمر - أعلى، الأخضر - أسفل</string>
     <string name="req_no_data">تعذر الحصول على المعلومات</string>
     <string name="req_no_sdata">تعذر إيجاد نتائج</string>
     <string name="retry">حاول مجدداً</string>
@@ -268,7 +268,7 @@
     <string name="time_month">dd/MM</string>
     <string name="time_year">dd/MM/yyyy</string>
     <string name="title_schema_code">تظليل الكود</string>
-    <string name="title_schema_title">تظليل الأسم</string>
+    <string name="title_schema_title">تظليل الإسم</string>
     <string name="toast_function_add_not_allowed">يمكنك إضافة ما يصل إلى ۸ اختصارات</string>
     <string name="toast_function_remove_not_allowed">يجب إضافة اختصار واحد على الأقل</string>
     <string name="train_C">القطار C</string>

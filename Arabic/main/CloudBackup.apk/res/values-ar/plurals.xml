@@ -17,11 +17,11 @@
         <item quantity="many">%1$s نسخة احتياطية (%2$s)</item>
     </plurals>
     <plurals name="restoring_file_tile">
-        <item quantity="other">إستعادة %d ملف</item>
-        <item quantity="zero">إستعادة %d ملف</item>
-        <item quantity="one">إستعادة %d ملف</item>
-        <item quantity="two">إستعادة %d ملفات</item>
-        <item quantity="few">إستعادة %d ملفات</item>
-        <item quantity="many">إستعادة %d ملف</item>
+        <item quantity="other">استعادة %d ملف</item>
+        <item quantity="zero">استعادة %d ملف</item>
+        <item quantity="one">استعادة %d ملف</item>
+        <item quantity="two">استعادة %d ملفات</item>
+        <item quantity="few">استعادة %d ملفات</item>
+        <item quantity="many">استعادة %d ملف</item>
     </plurals>
 </resources>

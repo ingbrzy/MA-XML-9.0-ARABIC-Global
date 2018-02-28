@@ -50,6 +50,7 @@
     <string name="actionbar_share">مشاركة</string>
     <string name="actionbar_textselection_title">إختيار النص</string>
     <string name="actionbar_web_search">البحث في الويب</string>
+    <string name="ad_btn_default_text">تثبيت</string>
     <string name="adblock_force_updating_rules_toast">تحديث مانع الإعلانات</string>
     <string name="adblock_rules_not_updated_toast">تعذر التحديث</string>
     <string name="adblock_rules_restore">إلغاء الحظر</string>
@@ -133,6 +134,7 @@
     <string name="browserFrameNetworkErrorLabel">خطأ في الاتصال</string>
     <string name="cancel">إلغاء</string>
     <string name="cannot_download">يمكن تنزيل \"HTTP\" أو \"HTTPS\" من URLs فقط</string>
+    <string name="card_setting_close_recommend">تلقي توصيات</string>
     <string name="choosertitle_sharevia">مشاركة عبر</string>
     <string name="clear_history">مسح السجل</string>
     <string name="clear_most_visited">السجل الحديث</string>
@@ -167,6 +169,7 @@
     <string name="color_picker_dialog_title">تحديد اللون</string>
     <string name="color_picker_hue">تدرج اللون</string>
     <string name="color_picker_saturation">صفاء اللون</string>
+    <string name="color_picker_value">القيمة</string>
     <string name="comment_app_menu">التعليق</string>
     <string name="comment_description">تعليق</string>
     <string name="comment_hint">تعليق</string>
@@ -333,8 +336,8 @@
     <string name="hint">تلميح</string>
     <string name="history">السجل</string>
     <string name="home_description">الرئيسية</string>
-    <string name="home_page_news_feed">خدمة الأخبار</string>
-    <string name="home_page_top_sites">أهم المواقع</string>
+    <string name="home_page_news_feed">آخر الأخبار</string>
+    <string name="home_page_top_sites">أفضل المواقع</string>
     <string name="homepage_delete_card_menu">حذف</string>
     <string name="homepage_get_location">الحصول على الموقع</string>
     <string name="homepage_get_location_failed">تعذر الحصول على المعلومات، اختر مدينة</string>
@@ -382,7 +385,7 @@
     <string name="media_error_timeout">انتهت مهلة الاتصال بالشبكة</string>
     <string name="media_error_video_not_exist">الفيديو غير موجود</string>
     <string name="media_player_error_button">موافق</string>
-    <string name="media_player_error_text_invalid_progressive_playback">هذا الفيديو غير صالح ليبث على هذا الجهاز.</string>
+    <string name="media_player_error_text_invalid_progressive_playback">هذا الفيديو غير صالح للتشغيل على هذا الجهاز.</string>
     <string name="media_player_error_text_unknown">لا يمكن تشغيل هذا الفيديو.</string>
     <string name="media_player_error_title">لا يمكن تشغيل الفيديو</string>
     <string name="media_player_loading_video">تحميل الفيديو</string>
@@ -512,7 +515,11 @@
     <string name="nav_bottom_bar_close_all">إغلاق الكل</string>
     <string name="nav_bottom_bar_new_tab">علامة تبويب جديدة</string>
     <string name="nav_screen_container_tab_incognito">علامة تبويب التصفح المتخفي</string>
-    <string name="nav_screen_container_tab_normal">علامة التبويب العادية</string>
+    <string name="nav_screen_container_tab_normal">علامة تبويب عادية</string>
+    <string name="nav_screen_incognito_message">"في وضع التصفح المتخفي، لن يتم حفظ تصفحك في مواقع الويب أو سجل البحث.
+و لكن تذكر أنه سيتم حفظ الملفات التي تقوم بتنزيلها أو الإشارات المرجعية التي تضيفها."</string>
+    <string name="nav_screen_incognito_title">وضع التصفح المتخفي</string>
+    <string name="navigation_delete_all">مرّر لليسار ولليمين لإغلاق جميع علامات التبويب</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">إلغاء</string>
     <string name="navigationbar_rightbutton_actiontext_go">اذهب</string>
     <string name="navigationbar_rightbutton_actiontext_search">بحث</string>
@@ -560,8 +567,9 @@
     <string name="pref_accessibility_url_shortcut_enter_summary">يمكن إدخال تركيبات الأحرف المشتركة بضغطة واحدة في شريط العنوان</string>
     <string name="pref_accessibility_url_shortcut_enter_title">ادخال سريع لعنوان URL</string>
     <string name="pref_adblock_title">مانع الإعلانات</string>
-    <string name="pref_auto_update_under_wifi">تحديث استخدام الـWi-Fi</string>
+    <string name="pref_auto_update_under_wifi">التحديث بإستخدام Wi-Fi</string>
     <string name="pref_automatic_matching_searchengines_title">التبديل إلى محرك البحث المستخدم غالبا</string>
+    <string name="pref_card_setting">ترتيب أفضل الموقع</string>
     <string name="pref_category_hint">الفئات</string>
     <string name="pref_check_security_url_summary">إرسال عنوان URL موقع الويب إلى خوادم Mi للتحقق إذا ما كانت آمنة</string>
     <string name="pref_check_security_url_summary_international">السماح للمتصفح بالوصول إلى عناوين URL للمواقع التي تزورها لتلقي توصيات أكثر صلة.</string>
@@ -587,8 +595,8 @@
     <string name="pref_enable_novels">الكتب</string>
     <string name="pref_enable_videos">الفيديوهات</string>
     <string name="pref_extras_reset_default">استعادة الاعدادات الافتراضية</string>
-    <string name="pref_extras_reset_default_dlg">إستعادة الإعدادات الافتراضية؟</string>
-    <string name="pref_extras_reset_default_summary">استعادة الإعدادات الافتراضية</string>
+    <string name="pref_extras_reset_default_dlg">استعادة الإعدادات الافتراضية؟</string>
+    <string name="pref_extras_reset_default_summary">استعادة الطلب الافتراضي</string>
     <string name="pref_extras_reset_default_title">أخرى</string>
     <string name="pref_extras_send_feedback">الإبلاغ عن خلل</string>
     <string name="pref_extras_title">متقدم</string>
@@ -653,7 +661,7 @@
     <string name="pref_ua_string">سلسلة وكيل المستخدم</string>
     <string name="pref_version_info">معلومات الإصدار</string>
     <string name="pref_volume_key_action">مرّر باستخدام أزرار الصوت</string>
-    <string name="private_browsing_warning">هذه الوظيفة غير مدعومة في هذا الإصدار من الأندرويد.</string>
+    <string name="private_browsing_warning">هذه الوظيفة غير مدعومة في إصدار الاندرويد هذا.</string>
     <string name="profiler_error_toast">تعذر بدء تشغيل ملف التعريف.</string>
     <string name="profiler_no_storage_toast">لا يمكن بدء تشغيل ملف التعريف الشخصي لأن وحدة التخزين الخارجية غير جاهزة</string>
     <string name="profiler_started_toast">تم بدء ملف التعريف الشخصي</string>
@@ -774,7 +782,7 @@
     <string name="show_security_tip_dialog_title">شروط الخدمة</string>
     <string name="show_weather_location_getter_tip_dialog_description">يحتاج المتصفح للإتصال بالإنترنت للعمل بشكل طبيعي. لتحسين الحماية، وتلقي مزيد من التوصيات ذات الصلة ومعلومات الطقس، قم بالسماح للمتصفح للحصول على عناوين \"URLs\" لمواقع الويب التي تزورها والوصول إلى معلومات الموقع.</string>
     <string name="sign_in_to" formatted="false">تسجيل الدخول إلى %s1 %s2\"</string>
-    <string name="site_sort_des">اسحب العناصر لإعادة الترتيب</string>
+    <string name="site_sort_des">إعادة ترتيب العناصر</string>
     <string name="skip_button_label">تخطي</string>
     <string name="skip_current_version">تخطي هذه النسخة</string>
     <string name="snapshot">محلي</string>
@@ -929,6 +937,6 @@
     <string name="weather_publish_time">تم تحديثه %1$s</string>
     <string name="webpage_title">الإشارات المرجعية والسجل</string>
     <string name="webview_find_on_page">البحث في الصفحة</string>
-    <string name="webviewchromium_private_browsing_warning">هذه الوظيفة غير مدعومة في هذا الإصدار من الأندرويد.</string>
+    <string name="webviewchromium_private_browsing_warning">هذه الوظيفة غير مدعومة في إصدار الاندرويد هذا.</string>
     <string name="week_picker_dialog_title">تعيين الأسبوع</string>
 </resources>

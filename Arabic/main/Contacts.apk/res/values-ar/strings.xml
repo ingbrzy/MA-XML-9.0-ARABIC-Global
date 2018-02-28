@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">+999</string>
     <string name="accessibility_calllog_detail">تفاصيل سجل المكالمات</string>
     <string name="accessibility_contact_detail">تفاصيل جهة الاتصال</string>
     <string name="account_container_title">مستورد من</string>
@@ -97,6 +98,7 @@
     <string name="call_sim_menu_title_suffix">(الأساسي)</string>
     <string name="call_telex">الاتصال بالتلكس</string>
     <string name="call_tty_tdd">الاتصال بـ TTY/TDD</string>
+    <string name="call_type_and_date">%1$s %2$s</string>
     <string name="call_unit">CNY</string>
     <string name="call_work">الاتصال بالعمل</string>
     <string name="call_work_mobile">الاتصال بالهاتف الجوال للعمل</string>
@@ -109,9 +111,9 @@
     <string name="callrecordview_item_newcontact">جهة اتصال جديدة</string>
     <string name="callrecordview_item_op_time_minutes_seconds">%1$dد %2$dث</string>
     <string name="callrecordview_item_op_time_missed">لم يتم الاتصال</string>
-    <string name="callrecordview_item_op_time_only_minutes">%d دقيقة</string>
+    <string name="callrecordview_item_op_time_only_minutes">%d دق</string>
     <string name="callrecordview_item_op_time_only_seconds">%d ثانية</string>
-    <string name="callrecordview_item_op_time_rejected">مرفوض</string>
+    <string name="callrecordview_item_op_time_rejected">تم الرفض</string>
     <string name="callrecordview_item_op_time_short_incoming">"مكالمة واردة: "</string>
     <string name="callrecordview_item_op_time_short_outgoing">"مكالمة صادرة: "</string>
     <string name="callrecordview_item_op_video">فيديو</string>
@@ -337,7 +339,7 @@
     <string name="description_minus_button">ناقص</string>
     <string name="description_plus_button">زائد</string>
     <string name="description_quick_contact_for">جهة اتصال سريعة لـ %1$s</string>
-    <string name="description_quick_dial_button">Quick dial</string>
+    <string name="description_quick_dial_button">الاتصال السريع</string>
     <string name="description_search_button">بحث</string>
     <string name="description_send_message">إرسال رسالة إلى %1$s</string>
     <string name="description_send_text_message">إرسال رسالة نصية إلى %1$s</string>
@@ -381,7 +383,7 @@
     <string name="device_version_header_no_bluetooth">استيراد عبر بطاقة SIM</string>
     <string name="dial">الاتصال</string>
     <string name="dialerDialpadHintText">اطلب لإضافة مكالمة</string>
-    <string name="dialerIconLabel">المكالمات الحديثة</string>
+    <string name="dialerIconLabel">المكالمات الأخيرة</string>
     <string name="dialerKeyboardHintText">استخدام لوحة المفاتيح للاتصال</string>
     <string name="dialer_addAnotherCall">إضافة مكالمة</string>
     <string name="dialer_copy_view_delete_description">حذف الرقم المنسوخ</string>
@@ -389,7 +391,7 @@
     <string name="dialer_empty_text_loading">لحظة من فضلك…</string>
     <string name="dialer_empty_text_no_call_log">لا توجد جهات اتصال جديدة</string>
     <string name="dialer_empty_text_no_search_result">لم يتم العثور على جهات اتصال</string>
-    <string name="dialer_firewall_entry_name">Blocked call logs</string>
+    <string name="dialer_firewall_entry_name">سجلات المكالمات المحظورة</string>
     <string name="dialer_menu_description">عرض القائمة</string>
     <string name="dialer_menu_title">قائمة الخيارات</string>
     <string name="dialer_returnToInCallScreen">العودة إلى المكالمة الحالية</string>
@@ -481,6 +483,7 @@
     <string name="force_touch_new_contact">جهة اتصال جديدة</string>
     <string name="foundTooManyContacts">تم العثور على أكثر من %d جهة اتصال.</string>
     <string name="frequentList">متكرر</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">الاسم</string>
     <string name="gallery">المعرض</string>
     <string name="generic_no_account_prompt">حافظ على جهات اتصالك آمنة حتى إذا فقدت هاتفك: عليك بمزامنتها مع الخدمة عبر الإنترنت.</string>
@@ -663,6 +666,7 @@
     <string name="miprofile_contact_header">جهات الاتصال مع بطاقات جهة اتصال</string>
     <string name="miprofile_contact_meaasge">جهات الاتصال المحلية</string>
     <string name="miprofile_contact_verifying">تحقق</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">تعديل الملف الشخصي</string>
     <string name="miprofile_error_accept_self">لا يمكن تبادل بطاقة جهة الاتصال الخاصة بك</string>
     <string name="miprofile_error_no_miaccount">تسجيل الدخول إلى حساب Mi</string>
@@ -806,7 +810,7 @@
     <string name="path_key_rebuild_t9_index_title">تطبيقات النظام/جهات الاتصال/تنظيم جهات الاتصال/إعادة إنشاء فهرس البيانات</string>
     <string name="path_key_sim_manage">تطبيقات النظام/جهات الاتصال/تنظيم جهات الاتصال/بطاقات SIM</string>
     <string name="path_preference_contacts_filter">تطبيقات النظام/جهات الاتصال/تفضيلات العرض/اعداد قوائم جهات الاتصال</string>
-    <string name="path_quick_dial_setting">System apps/Contacts/Quick dial</string>
+    <string name="path_quick_dial_setting">تطبيقات النظام/الهاتف/الإعدادات المتقدمة/الاتصال السريع</string>
     <string name="path_remove_duplicate">تطبيقات النظام/جهات الاتصال/تنظيم جهات الاتصال/دمج جهات الاتصال المكررة</string>
     <string name="path_share_visible_contacts">تطبيقات النظام/جهات الاتصال/استيراد/تصدير جهات الاتصال/مشاركة جهات الاتصال</string>
     <string name="path_sim_capacity">تطبيقات النظام/جهات الاتصال/مساحة التخزين على بطاقة SIM</string>
@@ -815,6 +819,8 @@
     <string name="path_wipe_data">تطبيقات النظام/جهات الاتصال/تنظيم جهات الاتصال/مسح البيانات</string>
     <string name="payphone">هاتف عمومي</string>
     <string name="people">جهات الاتصال</string>
+    <string name="percent_sign">%</string>
+    <string name="percentage">%s%%</string>
     <string name="phoneLabelsGroup">الهاتف</string>
     <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">الرقم طويل جداً</string>
@@ -865,6 +871,7 @@
     <string name="preference_contacts_display">تفضيلات العرض</string>
     <string name="preference_contacts_filter">اعداد قوائم جهات الاتصال</string>
     <string name="preference_contacts_more">تنظيم جهات الاتصال</string>
+    <string name="preference_contacts_moresetting">المزيد</string>
     <string name="preference_dial_pad_touch_tone_default">افتراضي</string>
     <string name="preference_dial_pad_touch_tone_human">صوت</string>
     <string name="preference_dial_pad_touch_tone_piano">مفاتيح بيانو</string>
@@ -872,6 +879,7 @@
     <string name="preference_dial_pad_touch_tone_title">نغمات لوحة الاتصال</string>
     <string name="preference_display">الشاشة</string>
     <string name="preference_displayOptions">خيارات العرض</string>
+    <string name="preference_display_contact">خيارات العرض</string>
     <string name="preference_export">تصدير</string>
     <string name="preference_import">استيراد</string>
     <string name="preference_import_export">استيراد/تصدير</string>
@@ -916,12 +924,12 @@
     <string name="pull_to_refresh_release_label">حرّره للتحديث</string>
     <string name="qr_card_card">رمز QR</string>
     <string name="qrcode_card_title">رمز QR</string>
-    <string name="quick_dial_setting_delete_dialog_message">Delete assigned quick dial number?</string>
-    <string name="quick_dial_setting_delete_dialog_option_delete">Delete</string>
-    <string name="quick_dial_setting_hint">Tap a button to assign or remove a quick dial number. Press and hold the button with an assigned number to dial.</string>
-    <string name="quick_dial_setting_set_dialog_message">Assign a quick dial number to this button?</string>
-    <string name="quick_dial_setting_set_dialog_option_set">Yes</string>
-    <string name="quick_dial_setting_title">Quick dial</string>
+    <string name="quick_dial_setting_delete_dialog_message">حذف رقم الاتصال السريع المخصص؟</string>
+    <string name="quick_dial_setting_delete_dialog_option_delete">حذف</string>
+    <string name="quick_dial_setting_hint">انقر على الزر لتعيين أو حذف الرقم. اضغط مع الاستمرار على زر الرقم المخصص للاتصال.</string>
+    <string name="quick_dial_setting_set_dialog_message">تعيين رقم الاتصال السريع لهذا الزر؟</string>
+    <string name="quick_dial_setting_set_dialog_option_set">نعم</string>
+    <string name="quick_dial_setting_title">الاتصال السريع</string>
     <string name="quickcontact_missing_app">لم يتم العثور على أي تطبيق للتعامل مع هذا الإجراء</string>
     <string name="quit_dialog_confirm_message">لم تقم بدمج أي جهات اتصال</string>
     <string name="quit_dialog_confirm_title">إلغاء دمج جهات الاتصال</string>
@@ -990,7 +998,7 @@
     <string name="search_key_rebuild_t9_index_title">تنظيم؛جهات الاتصال؛t9</string>
     <string name="search_key_sim_manage">تنظيم؛جهات الاتصال</string>
     <string name="search_preference_contacts_filter">جهات الاتصال؛الشاشة</string>
-    <string name="search_quick_dial_setting">Contacts</string>
+    <string name="search_quick_dial_setting">الهاتف</string>
     <string name="search_remove_duplicate">تنظيم؛جهات الاتصال</string>
     <string name="search_results_searching">جارٍ البحث…</string>
     <string name="search_settings_description">أسماء جهات الاتصال</string>
@@ -1015,7 +1023,7 @@
     <string name="service_provider">الدليل</string>
     <string name="service_provider_detail">تفاصيل الدليل</string>
     <string name="set_data_package">تعيين خطة البيانات اولا</string>
-    <string name="set_default">تعيين الافتراضي</string>
+    <string name="set_default">تعيين كإفتراضي</string>
     <string name="set_photo_failed_msg">تعذر تعيين الصورة</string>
     <string name="share_error">لا يمكن مشاركة جهة الاتصال هذه</string>
     <string name="share_over_limit">لا يمكن مشاركة أكثر من ١٠٠٠ جهة اتصال</string>
@@ -1055,6 +1063,7 @@
     <string name="sim_unloaded">بطاقة SIM غير مثبتة</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">لا توجد أعضاء في المجموعة</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">الشركات</string>
     <string name="smart_group_company_unavailable">لا توجد معلومات عن الشركة</string>
     <string name="smart_group_frequency_1">خلال الشهر الماضي</string>
@@ -1137,7 +1146,7 @@
     <string name="unable_get_device_id">غير قادر على الحصول على IMEI</string>
     <string name="unfold_all">عرض الكل</string>
     <string name="unknow_phone_number_call_failed">لا يمكن الاتصال بأرقام غير معروفة</string>
-    <string name="unknow_phone_number_mms_failed">لا يمكن إرسال رسالة إلى أرقام غير معروفة</string>
+    <string name="unknow_phone_number_mms_failed">لا يمكن إرسال رسائل إلى أرقام غير معروفة</string>
     <string name="unknown">غير معروف</string>
     <string name="unknown_contact_name">جهة اتصال غير معروفة</string>
     <string name="unknown_details_add_to_contact">موجود مسبقا</string>
@@ -1184,12 +1193,13 @@
     <string name="voip_audio_description">مكالمة VoIP</string>
     <string name="voip_video_description">مكالمة فيديو VoIP</string>
     <string name="websiteLabelsGroup">موقع ويب</string>
+    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="wipe_data">مسح البيانات</string>
     <string name="yellowPageNavigationIconLabel">الصفحات الصفراء</string>
     <string name="yellowPageNavigationLabel">الصفحات الصفراء</string>
     <string name="yellowpage_fc_toast">لا يمكن إستخدام هذه الميزة بسبب تعطل الصفحات الصفراء.</string>
     <string name="yellowpage_navigation_ad_hint">اعلان</string>
-    <string name="yellowpage_navigation_balance_refresh_failed">تعذر التحقق من الرصيد وبيانات الجوال،          يرجى إعادة المحاولة لاحقاََ.</string>
+    <string name="yellowpage_navigation_balance_refresh_failed">تعذر التحقق من الرصيد وبيانات الجوال. أعد المحاولة لاحقاً.</string>
     <string name="yellowpage_navigation_balance_refresh_succeed">تم التحقق من التوازن و بيانات الجوال</string>
     <string name="yellowpage_navigation_clear_search_history">مسح السجل</string>
     <string name="yellowpage_navigation_more_items">المزيد</string>

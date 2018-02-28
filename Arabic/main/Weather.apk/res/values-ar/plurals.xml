@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="activity_main_update_time_in_one_day">
-        <item quantity="other">قبل %d ساعة</item>
-        <item quantity="zero">قبل %d ساعة</item>
-        <item quantity="one">قبل %d ساعة</item>
-        <item quantity="two">قبل %d ساعات</item>
+        <item quantity="other">قبل %d س</item>
+        <item quantity="zero">قبل %d س</item>
+        <item quantity="one">قبل %d س</item>
+        <item quantity="two">قبل %d س</item>
         <item quantity="few">قبل %d ساعات</item>
-        <item quantity="many">قبل %d ساعة</item>
+        <item quantity="many">قبل %d س</item>
     </plurals>
     <plurals name="activity_main_update_time_in_one_hour">
-        <item quantity="other">%d minutes ago</item>
-        <item quantity="zero">منذ %d دقيقة</item>
-        <item quantity="one">منذ %d دقيقة</item>
-        <item quantity="two">%d minutes ago</item>
-        <item quantity="few">%d minutes ago</item>
-        <item quantity="many">%d minutes ago</item>
+        <item quantity="other">منذ %d دق</item>
+        <item quantity="zero">منذ %d دق</item>
+        <item quantity="one">منذ %d دق</item>
+        <item quantity="two">منذ %d دق</item>
+        <item quantity="few">منذ %d دق</item>
+        <item quantity="many">منذ %d دق</item>
     </plurals>
     <plurals name="activity_main_update_time_one_day_ago">
         <item quantity="other">قبل %d يوم</item>

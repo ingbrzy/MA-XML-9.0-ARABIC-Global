@@ -77,6 +77,9 @@
     <string name="content_desc_activity_main_add_city">إضافة مدينة</string>
     <string name="content_desc_activity_main_add_city_manage">إدارة المدن</string>
     <string name="content_desc_activity_main_more_settings">مزيد من الإعدادات</string>
+    <string name="content_desc_back_button">Back</string>
+    <string name="content_desc_close_button">إغلاق</string>
+    <string name="content_desc_edit_city_manage">إدارة المدن</string>
     <string name="daily_forcast_drawer_on_bottom">إخفاء</string>
     <string name="daily_forcast_no_stable_direction">نسيم</string>
     <string name="daily_forcast_no_wind">٠</string>
@@ -87,6 +90,7 @@
     <string name="daily_forcast_wind_connect">%2$s %1$s</string>
     <string name="daily_forecast_detail">تفاصيل توقعات الطقس</string>
     <string name="daily_forecast_detail_date">M/d</string>
+    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"تعذر الحصول على البيانات
 اسحب لأسفل للتحديث أو تحقق من إعدادات الشبكة"</string>
     <string name="data_provided_by">البيانات مقدمة من قبل</string>
@@ -106,6 +110,8 @@
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="gps_hint">الموقع الحالي</string>
     <string name="hourly_forcast_now">الآن</string>
+    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">M/d</string>
     <string name="hourly_forecast_title">توقعات كل ساعة</string>
     <string name="index_item_experience_now">تثبيت الآن</string>
@@ -130,11 +136,13 @@
     <string name="information_manager_extension">تمديد الطقس</string>
     <string name="information_views" />
     <string name="install">تثبيت</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_detail_menu_title">التفاصيل</string>
     <string name="international_details_pressure_title">الضغط</string>
     <string name="international_details_real_feel_title">الشعور الحقيقي®</string>
     <string name="international_details_title">التفاصيل</string>
     <string name="international_details_uv_index_title">مؤشر الأشعة فوق البنفسجية</string>
+    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">الرياح</string>
     <string name="it_is_going_to_rain">سوف تمطر</string>
     <string name="locate_fail_detail_err">"لا يمكن تحديد موقع الجهاز
@@ -143,7 +151,9 @@
     <string name="lunar_calendar" />
     <string name="menu_add_city">تعديل المواقع</string>
     <string name="menu_location">المواقع</string>
+    <string name="menu_speaker">بث الصوت</string>
     <string name="mi_pad2">latte</string>
+    <string name="minute_rain">توقعات كل دقيقة</string>
     <string name="minute_rain_after_an_hour">خلال ساعة</string>
     <string name="minute_rain_after_two_hour">خلال ساعتين</string>
     <string name="minute_rain_feedback_subtitle">أخبرنا ما هو الطقس.</string>
@@ -155,6 +165,7 @@
     <string name="minute_rain_progress_indicator_original_time">- -</string>
     <string name="minute_rain_pull_down_refresh">إسحب لأسفل للتحديث</string>
     <string name="minute_rain_refreshing_now">جارٍ التحديث…</string>
+    <string name="missing_required_permission">لقد قمت بتعطيل إذن مطلوب.</string>
     <string name="more_details">المزيد من التفاصيل</string>
     <string name="network_not_available">تعذر الاتصال بالشبكة</string>
     <string name="network_unavailable">لا يمكن الاتصال بالشبكة.</string>
@@ -170,19 +181,19 @@
     <string name="particulate_matter_exceeded">عالي</string>
     <string name="particulate_matter_not_exceeded">عادي</string>
     <string name="particulate_matter_serious_exceeded">عالي جدا</string>
-    <string name="precipitation_degree_five">暴</string>
-    <string name="precipitation_degree_four">大</string>
-    <string name="precipitation_degree_one">无</string>
-    <string name="precipitation_degree_three">中</string>
-    <string name="precipitation_degree_two">小</string>
+    <string name="precipitation_degree_five">ثقيل</string>
+    <string name="precipitation_degree_four">قوي</string>
+    <string name="precipitation_degree_one">لا شيء</string>
+    <string name="precipitation_degree_three">معتدل</string>
+    <string name="precipitation_degree_two">خفيف</string>
     <string name="pressure_connect">%1$s ميلي بار</string>
     <string name="pull_fresh_updated">تم التحديث بنجاح</string>
     <string name="pull_fresh_updating">جارٍ التحديث…</string>
-    <string name="radar_cloud_image_title">雷达降水图</string>
+    <string name="radar_cloud_image_title">خريطة الرادار</string>
     <string name="rainfall_settings_summary">تنبيهات هطول أمطار</string>
     <string name="rainfall_settings_title">هطول أمطار</string>
-    <string name="real_time_sunrise">Sunrise %1$s</string>
-    <string name="real_time_sunset">Sunset %1$s</string>
+    <string name="real_time_sunrise">الشروق %1$s</string>
+    <string name="real_time_sunset">الغروب %1$s</string>
     <string name="realtime_aqi_title">مؤشر جودة الهواء AQI</string>
     <string name="realtime_humidity_title">الرطوبة النسبية</string>
     <string name="realtime_temperature_no_data">N/A</string>
@@ -190,6 +201,8 @@
     <string name="refresh_fail">تعذر الاتصال بالشبكة</string>
     <string name="reminder_from_xiaomi_weather_app">تنبيه طقس Mi</string>
     <string name="retry">حاول مجدداً</string>
+    <string name="search_weather">الطقس</string>
+    <string name="search_weather_keywords">درجة الحرارة؛ توقعات الطقس؛ الطقس؛ جودة الهواء؛ درجة التلوث؛ الرطوبة</string>
     <string name="set">الإعدادات</string>
     <string name="set_degree_centigrade">°C</string>
     <string name="set_fahrenheit">°F</string>
@@ -203,13 +216,14 @@
     <string name="share_subject">مشاركة</string>
     <string name="share_title">مشاركة الطقس</string>
     <string name="share_weather_desc">\#طقس MIUI#اليوم %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">،</string>
     <string name="share_weather_save_pic_fail">تعذر أخذ لقطة الشاشة</string>
     <string name="some_where_on_earth">في مكان ما على الأرض</string>
     <string name="sunrise">الشروق</string>
     <string name="sunset">الغروب</string>
-    <string name="temperature_unit_C">%1$s℃</string>
-    <string name="temperature_unit_F">%1$s℉</string>
+    <string name="temperature_unit_C">%1$s°</string>
+    <string name="temperature_unit_F">%1$sف°</string>
     <string name="title_share_link">مشاركة URL</string>
     <string name="top_pollution_co">CO</string>
     <string name="top_pollution_no2">NO2</string>
@@ -237,8 +251,8 @@
     <string name="update_night_setting_summary_text">تحديث معلومات الطقس مابين الساعة ٢٣:٠٠ و ٠٧:٠٠</string>
     <string name="update_night_setting_title_text">التحديث التلقائي ليلاً</string>
     <string name="update_setting_title_text">تحديث معلومات الطقس</string>
-    <string name="updated_a_moment_ago">تم التحديث منذ لحظة</string>
-    <string name="updating">جارٍ التحديثu2026</string>
+    <string name="updated_a_moment_ago">تم التحديث قبل ثواني</string>
+    <string name="updating">جارٍ التحديث…</string>
     <string name="video_dialog_no_play" />
     <string name="video_dialog_play" />
     <string name="video_dialog_subtitle" />
@@ -254,11 +268,4 @@
     <string name="xiaomi_weather_description_title">حول الطقس</string>
     <string name="yes_vote_ratio">لـ%1$s%%</string>
     <string name="your_location">موقعك</string>
-    <string name="information_manager_default_weather_bg">خلفية الطقس الافتراضية</string>
-    <string name="information_manager_information">معلومات الطقس</string>
-    <string name="information_manager_wlan">الإظهار عندما يكون متصل بشبكة Wi-Fi</string>
-    <string name="information_menu_title" />
-    <string name="information_set">إعدادات أخرى</string>
-    <string name="menu_minute_rain">توقعات الطقس لمدة ساعتين</string>
-    <string name="menu_speeker">بث الصوت</string>
 </resources>

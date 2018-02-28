@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="stock_color_schema">
-        <item>الأحمر - ارتفاع، الأخضر - انخفاض</item>
-        <item>الأخضر - ارتفاع، الأحمر - انخفاض</item>
+        <item>الأحمر - أعلى، الأخضر - أسفل</item>
+        <item>الأخضر - أعلى، الأحمر - أسفل</item>
     </string-array>
     <string-array name="stock_title_schema">
-        <item>تظليل الأسم</item>
+        <item>تظليل الإسم</item>
         <item>تظليل الكود</item>
     </string-array>
 </resources>

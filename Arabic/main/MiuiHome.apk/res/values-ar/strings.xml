@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">+999</string>
     <string name="action_add_to_workspace">إضافة إلى مساحة العمل</string>
     <string name="activity_not_found">لم يتم تثبيت التطبيق على جهازك</string>
     <string name="add_screen">إضافة شاشة</string>
@@ -192,7 +193,7 @@
     <string name="memory_clear_nothing_result">لا يوجد شيء لمسحه من الذاكرة المؤقتة</string>
     <string name="memory_clear_result">تم مسح %1$sبايت</string>
     <string name="menu_add">أضف</string>
-    <string name="menu_auto_fill">قم بملء الخانات الفارغة</string>
+    <string name="menu_auto_fill">ملء الخانات الفارغة</string>
     <string name="menu_back_desktop">الرجوع للشاشة الرئيسية</string>
     <string name="menu_cell_setting">تخطيط الشاشة الرئيسية</string>
     <string name="menu_customize">الاعدادت</string>
@@ -315,9 +316,9 @@
     <string name="widget_global_search">بحث</string>
     <string name="widget_quick_function">وظائف سريعة</string>
     <string name="defalut_launcher_title">المشغل الافتراضي</string>
-    <string name="launcher_auto_fill_empty_title">قم بملء الخانات الفارغة</string>
+    <string name="launcher_auto_fill_empty_title">ملء الخانات الفارغة</string>
     <string name="launcher_title">الشاشة الرئيسية والمستخدمة مؤخراً</string>
-    <string name="lock_screen_cells_title">تنسيق قفل الشاشة الرئيسية</string>
+    <string name="lock_screen_cells_title">قفل تنسيق الشاشة الرئيسية</string>
     <string name="miui_screen_config_title">إعدادات الشاشة الرئيسية</string>
     <string name="open_personal_assistant_dialog_btn_cancel">إلغاء</string>
     <string name="open_personal_assistant_dialog_btn_confirm">إيقاف التشغيل</string>

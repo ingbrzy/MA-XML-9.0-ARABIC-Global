@@ -30,7 +30,7 @@
     <string name="activate_status_desc_failed_getting_gateway">تعذر الحصول على بوابة SMS</string>
     <string name="activate_status_desc_prepare_sending_sms">جارٍ الإعداد لإرسال رسالة تفعيلSMS …</string>
     <string name="activate_status_desc_sending_sms">إرسال رسالة التفعيل (SMS) …</string>
-    <string name="activate_status_desc_sending_sms_fail">تعذر إرسال رسالة تفعيل (SMS) إلى البوابة</string>
+    <string name="activate_status_desc_sending_sms_fail">تعذر إرسال رسالة تفعيل (SMS) إلى الشبكة</string>
     <string name="activate_status_desc_sms_sent">تم إرسال رسالة (SMS) التفعيل</string>
     <string name="activate_status_desc_acquire_phone_number">جار التحقق من رقم الهاتف…</string>
     <string name="activate_status_desc_acquire_phone_number_server_error">حدث خطأ في الخادم أثناء التحقق من رقم الهاتف</string>
@@ -115,4 +115,6 @@
     <string name="phone_get_text">السماح لـ %1$s الحصول على رقم هاتفك (%2$s)؟</string>
     <string name="phone_get_processing">الحصول…</string>
     <string name="agree">السماح</string>
+    <string name="privacy_revoke_tips">إذا تم تعطيل هذا الإذن، فلن يتم مزامنة رسائل sms</string>
+    <string name="privacy_revoke_failed_msg">privacy revoke，can not get phone number，activate failed</string>
 </resources>

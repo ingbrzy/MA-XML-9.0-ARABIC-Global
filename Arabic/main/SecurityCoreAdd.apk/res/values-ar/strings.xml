@@ -262,11 +262,11 @@
     <string name="search_result_text">تعذر العثور على أية تطبيقات</string>
     <string name="xspace_weixin_title">WeChat</string>
     <string name="weixin_pay">دفع WeChat</string>
-    <string name="weixin_share_sign">تسجيل الدخول و المشاركة</string>
+    <string name="weixin_share_sign">تسجيل الدخول والمشاركة</string>
     <string name="xspace_weibo_title">Weibo</string>
     <string name="weibo_send">الإرسال إلى Weibo</string>
     <string name="xspace_qq_title">QQ</string>
-    <string name="qq_send">ارسل الى الأصدقاء في QQ/الأجهزة</string>
+    <string name="qq_send">ارسل الى الأصدقاء في QQ/الكمبيوتر</string>
     <string name="xspace_default_setting_label">التطبيق الافتراضي</string>
     <string name="xspace_default_app_title">التطبيق الافتراضي</string>
     <string name="xspace_default_app_summary">تعيين التطبيق الافتراضي للمدفوعات، والمشاركة، والمفضلة، وأكثر من ذلك.</string>

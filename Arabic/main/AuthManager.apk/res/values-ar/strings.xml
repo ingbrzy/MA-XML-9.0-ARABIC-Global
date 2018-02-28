@@ -13,10 +13,6 @@
     <string name="HIPS_Perm_Location_Desc">الحصول على الموقع الدقيق (القائم على الشبكة ونظام تحديد المواقع العالمي (GPS))</string>
     <string name="HIPS_Perm_PhoneID">الحصول على معلومات الجهاز</string>
     <string name="HIPS_Perm_PhoneID_Desc">الوصول لرقم الهاتف،IMEI و IMSI</string>
-    <string name="HIPS_Perm_SMS">كتابة وحذف الرسائل القصيرة</string>
-    <string name="HIPS_Perm_SMS_Desc">كتابة وحذف الرسائل القصيرة</string>
-    <string name="HIPS_Perm_MMS">كتابة وحذف رسائل وسائط متعددة MMS</string>
-    <string name="HIPS_Perm_MMS_Desc">كتابة وحذف رسائل الوسائط المتعددة</string>
     <string name="HIPS_Perm_Contact">تعديل وحذف جهات الاتصال</string>
     <string name="HIPS_Perm_Contact_Desc">تعديل وحذف جهات الاتصال الخاصة بك</string>
     <string name="HIPS_Perm_CallLog">كتابة وحذف سجل المكالمات</string>

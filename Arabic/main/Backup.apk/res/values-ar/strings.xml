@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"تقديم حجم النسخة: %1$s
 حجم تحديث دلتا: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">التخزين غير متاح، تحقق من بطاقة الذاكرة SD الخاصة بك.</string>
+    <string name="xiaomi_bytes_unit">%1$sبايت</string>
+    <string name="xiaomi_kilobytes_unit">%1$sكيلوبايت</string>
+    <string name="xiaomi_megabytes_unit">%1$sميغابايت</string>
     <string name="xiaomi_connect_download_manager_fail">تعذر بداية التنزيل. كن متاكدا من أن مدير التنزيلات يعمل بصفة طبيعية.</string>
     <string name="app_name">نسخة احتياطية</string>
     <string name="local_app_name">النسخ الاحتياطي</string>
@@ -43,7 +46,7 @@
     <string name="restore_progress">جار الاستعادة…</string>
     <string name="restore_contacts_hit">قد تحتاج إلى تسجيل الدخول مرة أخرى لعرض البيانات المستعادة.</string>
     <string name="restore_telephony_hit">ستؤدي عملية الاستعادة إلى إعادة تشغيل تطبيق الهاتف.</string>
-    <string name="restore_launcher_layout_hit">إستعادة إعدادات المشغل</string>
+    <string name="restore_launcher_layout_hit">استعادة إعدادات المشغل</string>
     <string name="settings_summary">اعدادات الهاتف والرسائل</string>
     <string name="camera_summary">إعدادات الكاميرا (غير متضمنة صور)</string>
     <string name="account_summary">نسخ أحتياطي لكل من حساب Google، حساب Mi، و بيانات المستخدم الأخرى</string>
@@ -63,7 +66,7 @@
     <string name="cloud_restore_window_title">استعادة Mi Cloud</string>
     <string name="cloud_restore_title">استعادة البيانات الاحتياطية</string>
     <string name="local_backup_window_title">بيانات النسخ الاحتياطي المحلية</string>
-    <string name="local_restore_window_title">الإستعادة محلياً</string>
+    <string name="local_restore_window_title">الاستعادة محلياً</string>
     <string name="account_login">تسجيل الدخول</string>
     <string name="miliao_account_login">تسجيل الدخول مع Mi Talk</string>
     <string name="miliao_account_guide">استخدم حساب Mi لتسجيل الدخول إلى Mi Cloud وغيرها من خدمات Mi من أي مكان.</string>
@@ -130,7 +133,7 @@
     <string name="restore_contact">استرداد جهات الاتصال</string>
     <string name="restore_contact_content">قد تؤدي عملية الاسترداد إلى وجود جهات اتصال متكررة.</string>
     <string name="progress_restore_hint">جارٍ الاستعادة…</string>
-    <string name="restore_failed">تعذرت الإستعادة</string>
+    <string name="restore_failed">تعذرت الاستعادة</string>
     <string name="local_select_sysdata">النظام</string>
     <string name="local_select_userapp">التطبيقات</string>
     <string name="local_select_account_contact">الحسابات وجهات الاتصال</string>
@@ -157,7 +160,7 @@
     <string name="auto_backup_user_data">التطبيقات</string>
     <string name="auto_backup_progress">جارٍ النسخ الاحتياطي…</string>
     <string name="backup">نسخ احتياطي</string>
-    <string name="restore">إستعادة</string>
+    <string name="restore">استعادة</string>
     <string name="cloud_last_backup">"آخر عملية نسخ احتياطي في "</string>
     <string name="cloud_search">جارٍ البحث…</string>
     <string name="cloud_no_backup">لا توجد نسخ احتياطية</string>
@@ -172,7 +175,7 @@
     <string name="reverse_all">مسح الكل</string>
     <string name="refresh">تحديث</string>
     <string name="cloud_item_info_summary">"  (محلي: %1$s |Mi Cloud: %2$s)"</string>
-    <string name="cloud_restore_guide">لإستعادة بيانات المستخدم لـ %s، المس إستعادة</string>
+    <string name="cloud_restore_guide">لاستعادة بيانات المستخدم لـ S%s، المس استعادة</string>
     <string name="import_from_xiaomi_account_hint1">"١.\u0009قم بتنزيل تطبيق Mi Talk وسجل الدخول.
 \u0009http://www.miliao.com
 
@@ -193,7 +196,7 @@
     <string name="already_enable_encrypt">التشفير قيد التشغيل</string>
     <string name="enable_encrypt_summery1">سجل الدخول إلى حساب Mi للوصول إلى النسخ الاحتياطية المشفرة.</string>
     <string name="enable_encrypt_summery2">سيتم تشفير النسخ الاحتياطية تلقائياً. ستحتاج لتسجيل الدخول إلى حساب Mi للوصول إليها.</string>
-    <string name="enable_encrypt_xiaomi_account">تم إنشاء هذه النسخة الاحتياطية بواسطة %1$s. للإستعادة، احذف الحساب الحالي وسجل الدخول كـ %2$s.</string>
+    <string name="enable_encrypt_xiaomi_account">تم إنشاء هذه النسخة الاحتياطية بواسطة %1$s. للاستعادة، احذف الحساب الحالي وسجل الدخول كـ %2$s.</string>
     <string name="enable_encrypt_ok">موافق</string>
     <string name="no_encrypt_password">لا توجد كلمة مرور</string>
     <string name="enable_encrypt_fail">خطأ في التشفير</string>
@@ -202,12 +205,12 @@
     <string name="system_backup">نسخ احتياطي</string>
     <string name="backup_empty_info">" النسخ الاحتياطي لكل من البيانات والإعدادات والتطبيقات"</string>
     <string name="backup_empty_info_onpad">" النسخ الاحتياطي لكل من البيانات والإعدادات والتطبيقات"</string>
-    <string name="system_backup_info">إعدادات النظام وتخطيط الشاشة الرئيسية</string>
+    <string name="system_backup_info">إعدادات النظام وتنسيق الشاشة الرئيسية</string>
     <string name="software_backup_info">بيانات التطبيق</string>
     <string name="account_contact_backup_info">حساب Google، حساب Mi، و بيانات جهات الاتصال</string>
     <string name="files_backup_info">جميع الملفات على بطاقة الذاكرة SD ( بما في ذلك الصور، الأغاني، مقاطع الفيديو، بيانات التطبيقات وغيرها)</string>
     <string name="select_backup_item">اختيار عناصر</string>
-    <string name="restore_data">اختيار عناصر للإستعادة</string>
+    <string name="restore_data">اختيار العناصر للاستعادة</string>
     <string name="backup_data">قم بإختيار العناصر لنسخها احتياطياً</string>
     <string name="sd_not_available">إدخال بطاقة ذاكرة SD الآن</string>
     <string name="never">أبداً</string>
@@ -222,19 +225,20 @@
     <string name="page_loading">لحظة من فضلك…</string>
     <string name="file_uploading">جارٍ التحميل…</string>
     <string name="new_backup">نسخ احتياطي</string>
-    <string name="restore_backup">إستعادة</string>
+    <string name="restore_backup">استعادة</string>
     <string name="enable_encrypt_description">مشفر</string>
     <string name="disable_encrypt_description">غير مشفر</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">لحظة من فضلك…</string>
     <string name="state_mounting">الوصول إلى تخزين جهاز التوجيه…</string>
     <string name="abort_backup_confirm">لم يتم الانتهاء من النسخ الاحتياطي. التوقف على أية حال؟</string>
-    <string name="abort_restore_confirm">لم يتم الانتهاء من الإستعادة. التوقف على أية حال؟</string>
+    <string name="abort_restore_confirm">لم يتم الانتهاء من الاستعادة. التوقف على أية حال؟</string>
     <string name="feature_title_call_log">سجل المكالمات</string>
     <string name="feature_title_mms">رسائل وسائط متعددة (MMS)</string>
     <string name="feature_title_account">حساب Mi</string>
     <string name="feature_title_antispam">قائمة الحظر</string>
     <string name="summary_err_backup_encrypting">تسجيل الدخول إلى حساب Mi.</string>
-    <string name="summary_err_restore_encrypting">تعذرت الإستعادة. تأكد من إجراء هذه النسخة الاحتياطية باستخدام حساب Mi.</string>
+    <string name="summary_err_restore_encrypting">تعذرت الاستعادة. تأكد من إجراء هذه النسخة الاحتياطية باستخدام حساب Mi.</string>
     <string name="summary_err_backup_no_network">تعذر الاتصال بالشبكة</string>
     <string name="summary_err_restore_no_network">تعذر الاتصال بالشبكة</string>
     <string name="err_authentication_failed">تعذرت المصادقة</string>
@@ -247,13 +251,13 @@
     <string name="err_router_disconnected">تحقق من اتصال جهاز التوجيه ثم حاول مرة أخرى.</string>
     <string name="err_router_files_delete">تعذر حذف ملفات النسخ الاحتياطي على جهاز التوجيه</string>
     <string name="backup_is_running">النسخ الاحتياطي للجهاز</string>
-    <string name="restore_is_running">إستعادة الجهاز</string>
+    <string name="restore_is_running">استعادة الجهاز</string>
     <string name="notif_backup_title">النسخ الاحتياطي للبيانات</string>
     <string name="notif_backup_content">النسخ الاحتياطي للبيانات المستخدم</string>
-    <string name="notif_restore_title">إستعادة البيانات</string>
-    <string name="notif_restore_content">إستعادة بيانات المستخدم</string>
+    <string name="notif_restore_title">استعادة البيانات</string>
+    <string name="notif_restore_content">استعادة بيانات المستخدم</string>
     <string name="notif_backup_complete_title">تم الاحتفاظ بنسخة احتياطية بنجاح</string>
-    <string name="notif_restore_complete_title">تمت الإستعادة بنجاح</string>
+    <string name="notif_restore_complete_title">تمت الاستعادة بنجاح</string>
     <string name="notif_trans_sending_completed">تم ارسال البيانات بنجاح</string>
     <string name="notif_trans_receiving_completed">تم استلام البيانات بنجاح</string>
     <string name="notif_trans_sending_failed">تعذر ارسال البيانات</string>
@@ -264,7 +268,7 @@
     <string name="remote_receive">استلام</string>
     <string name="click_to_view">انقر للعرض</string>
     <string name="trans_one_key_migrate">ناقل Mi</string>
-    <string name="trans_main_tutor">نقل جهات الاتصال، سجل المكالمات، الرسائل، تخطيطات الشاشة الرئيسية، التطبيقات، الإعدادات وغيره إلى جهاز جديد</string>
+    <string name="trans_main_tutor">نقل جهات الاتصال وسجل المكالمات والرسائل وتنسيقات الشاشة الرئيسية والتطبيقات والإعدادات وغيره إلى جهاز جديد</string>
     <string name="trans_sender">انا المرسل</string>
     <string name="trans_receiver">انا المستلم</string>
     <string name="trans_waiting_for_sender">يتم انتظار الجهاز القديم للاتصال …</string>
@@ -323,10 +327,10 @@
     <string name="trans_progress_subdescript_transingsddata_sender">إرسال %1$s ملف من بطاقة الذاكرة SD، %2$s منتهي</string>
     <string name="trans_progress_subdescript_transingsddata_receiver">إستقبال %1$s ملف من بطاقة الذاكرة SD، %2$s منتهي</string>
     <string name="trans_progress_subdescript_br_sender">نسخ احتياطي %1$s، %2$s اكتمل</string>
-    <string name="trans_progress_subdescript_br_receiver">إستعادة %1$s، %2$s اكتمل</string>
+    <string name="trans_progress_subdescript_br_receiver">استعادة %1$s، %2$s اكتمل</string>
     <string name="trans_progress_subdescript_waiting">يتم انتظار استلام %s</string>
     <string name="trans_progress_subdescript_br_sender_finish">نسخ احتياطي %s، في انتظار الارسال…</string>
-    <string name="trans_progress_subdescript_transing_receiver_finish">تم استلام %s، في انتظار الإستعادة…</string>
+    <string name="trans_progress_subdescript_transing_receiver_finish">تم استلام %s، في انتظار الاستعادة…</string>
     <string name="trans_cancel_confirm">النقل قيد التقدم، هل تريد الإيقاف الآن؟</string>
     <string name="trans_cancelling">جارٍ الإلغاء…</string>
     <string name="trans_pausing">‏‏يتم الإيقاف مؤقتًا…</string>
@@ -334,6 +338,7 @@
     <string name="trans_device_wait_for_reconnecting">إنقطع الاتصال. الاتصال مرة أخرى للمتابعة.</string>
     <string name="trans_device_auto_reconnecting">انقطع اتصال الجهاز. جارٍ إعادة الاتصال تلقائيا…</string>
     <string name="trans_connecting_toast">جارٍ الاتصال…</string>
+    <string name="trans_switching_5g">جارٍ التبديل إلى 5GHz Wi-Fi…</string>
     <string name="trans_connect_failed_toast">تعذر الاتصال</string>
     <string name="trans_generate_qr_code_failed">تعذر إنشاء رمز QR</string>
     <string name="trans_scan_invalid_qrcode">رمز QR غير صالح</string>
@@ -487,6 +492,7 @@ https://appleid.apple.com/#!&amp;page=signin لإيقاف المصادقة ذا�
 يجب عليك إنشاء نسخ iCloud احتياطي أولا."</string>
     <string name="list_footer_tip_title">نصائح:</string>
     <string name="import_tip_summary">بسبب مشاكل في التوافق، يمكنك فقط نقل البيانات جزئيا من أجهزة iOS. يجب عليك إنشاء نسخ iCloud احتياطي قبل بدأ النقل.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">استيراد</string>
     <string name="select_empty">قم بتحديد عناصر للاستيراد</string>
     <string name="select_item_summary_wait">جارٍ الانتظار…</string>
@@ -510,6 +516,7 @@ https://appleid.apple.com/#!&amp;page=signin لإيقاف المصادقة ذا�
     <string name="error_permissions">لا يمتلك هذا التطبيق الأذونات المطلوبة للوصول إلى التقويم. انتقل إلى الإعدادات وتحقق من الأذونات للمتابعة.</string>
     <string name="succ_description">تم بنجاح</string>
     <string name="failed_description">فشل</string>
+    <string name="notif_miasist_try_to_connect">يحاول Mi PC Suite الاتصال بالجهاز</string>
     <string name="notif_connect_miasist">متصل بـ Mi PC Suite</string>
     <string name="notif_disconnect_miasist">غير متصل بـ Mi PC Suite</string>
     <string name="notif_sending_transingsd">جار إرسال %1$s (%2$s)…</string>

@@ -57,6 +57,7 @@
     <string name="save_pic_success">حفظ الصورة إلى %s</string>
     <string name="save_pic_fail">تعذر حفظ الصورة. تحقق من بطاقة الـ SD الخاصة بك</string>
     <string name="pic_not_exist">هذه الصورة غير موجودة</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">تحديد منتج</string>
     <string name="michat_skillset_business_type_title">تحديد خدمة</string>
     <string name="michat_close_text">انتهت الدردشة</string>
@@ -162,6 +163,7 @@
     <string name="cta_confirm">موافق</string>
     <string name="submit_dialog_title">ارسال تقرير</string>
     <string name="submit_dialog_content">سيتم إرسال الملاحظات والسجلات الخاصة بك مع المرفقات إلى خوادم MIUI. قد تحتوي على معلومات شخصية وبيانات الموقع.</string>
+    <string name="submit_dialog_content_global">سيتم إرسال تقريرك مع المرفقات (إن وجدت) والسجلات (يمكنك إزالة خانات الاختيار المقابلة للعناصر التي لا تريد تحميلها) إلى خوادم MIUI وإلى قسم خاص في منتدى MIUI للمطورين للتحليل والتواصل لاحقا. يمكن أن تحتوي السجلات على معلومات شخصية ومعلومات عن الموقع.</string>
     <string name="submit_dialog_cancel">إلغاء</string>
     <string name="submit_dialog_confirm">ارسال</string>
     <string name="mobile_data_note_dialog_title">تحذير إستخدام البيانات</string>
@@ -176,7 +178,7 @@
     <string name="modem_tool_log_finish_title">تم التقاط سجل المودم</string>
     <string name="modem_tool_log_finish_desc">تم حفظ السجل كـ %s</string>
     <string name="bugreport_dialog_not_show_again">عدم الإظهار مرة أخرى</string>
-    <string name="bugreport_dialog_submit_content">قد تحتوي ملاحظاتك على معلومات شخصية وبيانات الموقع.</string>
+    <string name="bugreport_dialog_submit_content">انت تقوم الآن بحفظ سجلات البرامج على هذا الجهاز. يمكن أن تحتوي السجلات على معلومات شخصية ومعلومات عن الموقع. لا تقم بمشاركة السجلات مع أي شخص إذا كنت لا تريد الكشف عن هذه المعلومات.</string>
     <string name="bugreport_dump_start_notification_title">جارٍ إنشاء تقرير عن خلل…</string>
     <string name="bugreport_dump_start_notification_summary">قد يستغرق ذلك عدة دقائق.</string>
     <string name="bugreport_dump_complete_notification_title">تم إنشاء تقرير عن خلل</string>
@@ -213,11 +215,19 @@
     <string name="feedback_select_suggestion">إقتراحات</string>
     <string name="feedback_select_problem">مشاكل</string>
     <string name="feedback_choose_module">تحديد عنصر</string>
-    <string name="feedback_choose_third_app_name">تحديد إسم التطبيق</string>
+    <string name="feedback_choose_third_app_name">حدد اسم التطبيق</string>
     <string name="toast_module_required">تحديد عنصر</string>
     <string name="feedback_choose_module_hint">مطلوب</string>
-    <string name="feedback_choose_reproductivity">النسق التوالدي</string>
-    <string name="feedback_title_reproductivity">تحديد النسق التوالدي</string>
+    <string name="feedback_choose_reproductivity">تكرار المشكلة</string>
+    <string name="feedback_title_reproductivity">حدد مرات تكرار المشكلة</string>
+    <string name="feedback_select_problem_select_desc">تم تحديد \"مشاكل\"</string>
+    <string name="feedback_select_problem_not_select_desc">لم يتم تحديد \"مشاكل\"</string>
+    <string name="feedback_select_suggestion_select_desc">تم تحديد \"إقتراحات\"</string>
+    <string name="feedback_select_suggestion_not_select_desc">لم يتم تحديد \"إقتراحات\"</string>
+    <string name="feedback_select_upload_log_select_desc">تم تحديد \"إضافة سجلات\"</string>
+    <string name="feedback_select_upload_log_not_select_desc">لم يتم تحديد \"إضافة سجلات\"</string>
+    <string name="feedback_select_modem_log_select_desc">تم تحديد \"إضافة سجلات المودم\"</string>
+    <string name="feedback_select_modem_log_not_select_desc">لم يتم تحديد \"إضافة سجلات المودم\"</string>
     <string name="feedback_report_remind_login_desc">قم بتسجيل الدخول لحساب Mi الخاص بك كي يتمكن الدعم الفني من الاتصال بك.</string>
     <string name="feedback_report_remind_login_desc2">يمكنك ايضا الاطلاع على تقدم التقرير الخاص بك في\"تقاريري\".</string>
     <string name="feedback_history_remind_login_desc">تسجيل الدخول مع حساب Mi الخاص بك لعرض التفاصيل و حالة تقدم تقريرك</string>

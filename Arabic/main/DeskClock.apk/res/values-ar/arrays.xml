@@ -1,5 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="alarm_set">
+        <item>سيتم التنبيه في أقل من ١ دقيقة.</item>
+        <item>سيتم التنبيه بعد %1$s.</item>
+        <item>سيصدر المنبه صوتاً في %2$s.</item>
+        <item>سيتم التنبيه بعد %1$s و %2$s.</item>
+        <item>سيتم التنبيه بعد %3$s.</item>
+        <item>سيتم التنبيه بعد %1$s و %3$s.</item>
+        <item>سيتم التنبيه بعد %2$s و %3$s.</item>
+        <item>سيتوقف المنبه بعد %1$s %2$s و %3$s.</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>ابداً</item>
+        <item>١ دقيقة</item>
+        <item>٥ دقائق</item>
+        <item>١٠ دقائق</item>
+        <item>١٥ دقيقة</item>
+        <item>٢٠ دقيقة</item>
+        <item>٢٥ دقيقة</item>
+        <item>٣٠ دقيقة</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>١ دقيقة</item>
+        <item>٥ دقائق</item>
+        <item>١٠ دقائق</item>
+        <item>١٥ دقيقة</item>
+        <item>٢٠ دقيقة</item>
+        <item>٢٥ دقيقة</item>
+        <item>٣٠ دقيقة</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>لا شيء</item>
+        <item>غفوة</item>
+        <item>تجاهل</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
     <string-array name="alarm_in_furture">
         <item>التنبيه في أقل من دقيقة</item>
         <item>التنبيه في %1$s</item>
@@ -9,11 +57,6 @@
         <item>التنبيه في %1$s %3$s</item>
         <item>التنبيه في %2$s %3$s</item>
         <item>التنبيه في%1$s %2$s %3$s</item>
-    </string-array>
-    <string-array name="days">
-        <item>أمس</item>
-        <item>اليوم</item>
-        <item>غداً</item>
     </string-array>
     <string-array name="alarm_repeat_type">
         <item>مرة</item>
@@ -37,6 +80,11 @@
         <item>ضعيف جدا</item>
         <item>شديد</item>
     </string-array>
+    <string-array name="days">
+        <item>أمس</item>
+        <item>اليوم</item>
+        <item>غداً</item>
+    </string-array>
     <string-array name="weather_tips_value">
         <item>تقليل الأنشطة في الهواء الطلق</item>
         <item>الطرق زلقة</item>
@@ -46,39 +94,5 @@
         <item>كن حذراً في الطريق</item>
         <item>عاصفة رملية قادمة، ارتدي قناع!</item>
         <item>أتمنى لك نهارا سعيد!</item>
-    </string-array>
-    <string-array name="alarm_set">
-        <item>سيتم التنبيه في أقل من ١ دقيقة.</item>
-        <item>سيتم التنبيه بعد %1$s.</item>
-        <item>سيصدر المنبه صوتاً في %2$s.</item>
-        <item>سيتم التنبيه بعد %1$s و %2$s.</item>
-        <item>سيتم التنبيه بعد %3$s.</item>
-        <item>سيتم التنبيه بعد %1$s و %3$s.</item>
-        <item>سيتم التنبيه بعد %2$s و %3$s.</item>
-        <item>سيتوقف المنبه بعد %1$s %2$s و %3$s.</item>
-    </string-array>
-    <string-array name="snooze_duration_entries">
-        <item>١ دقيقة</item>
-        <item>٥ دقائق</item>
-        <item>١٠ دقائق</item>
-        <item>١٥ دقيقة</item>
-        <item>٢٠ دقيقة</item>
-        <item>٢٥ دقيقة</item>
-        <item>٣٠ دقيقة</item>
-    </string-array>
-    <string-array name="auto_silence_entries">
-        <item>ابداً</item>
-        <item>١ دقيقة</item>
-        <item>٥ دقائق</item>
-        <item>١٠ دقائق</item>
-        <item>١٥ دقيقة</item>
-        <item>٢٠ دقيقة</item>
-        <item>٢٥ دقيقة</item>
-        <item>٣٠ دقيقة</item>
-    </string-array>
-    <string-array name="volume_button_setting_entries">
-        <item>لا شيء</item>
-        <item>غفوة</item>
-        <item>تجاهل</item>
     </string-array>
 </resources>

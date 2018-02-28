@@ -112,6 +112,14 @@
         <item quantity="few">%d عناصر في قائمة الحظر</item>
         <item quantity="many">%d عنصر في قائمة الحظر</item>
     </plurals>
+    <plurals name="dirty_personalAssistant_count">
+        <item quantity="other">%d عنصر لمنصة التطبيقات</item>
+        <item quantity="zero">%d عنصر لمنصة التطبيقات</item>
+        <item quantity="one">%d عنصر لمنصة التطبيقات</item>
+        <item quantity="two">%d عناصر لمنصة التطبيقات</item>
+        <item quantity="few">%d عناصر لمنصة التطبيقات</item>
+        <item quantity="many">%d عنصر لمنصة التطبيقات</item>
+    </plurals>
     <plurals name="dirty_secretphoto_count">
         <item quantity="other">لم يتم مزامنة %d صورة. قم بتسجيل الخروج بعد مزامنة جميع العناصر للإحتفاظ بها؛ وإلا سيتم حذف العناصر.</item>
         <item quantity="zero">لم يتم مزامنة %d صورة. قم بتسجيل الخروج بعد مزامنة جميع العناصر للإحتفاظ بها؛ وإلا سيتم حذف العناصر.</item>

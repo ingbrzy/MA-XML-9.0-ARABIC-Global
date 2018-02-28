@@ -109,7 +109,7 @@
     <string name="yearly">سنويًا (كل %s)</string>
     <string name="yearly_plain">سنوي</string>
     <string name="account_and_calendar">الحسابات</string>
-    <string name="action_bar_date_button_title">Calculate date</string>
+    <string name="action_bar_date_button_title">احسب التاريخ</string>
     <string name="action_bar_more_menu_view_description">المزيد</string>
     <string name="action_bar_return">رجوع</string>
     <string name="action_text_card_manager">قناة</string>
@@ -160,14 +160,14 @@
     <string name="countdown_notify_before_3_day_title">العد التنازلي: %1$s في ۳ أيام</string>
     <string name="countdown_notify_title">العد التنازلي: %1$s</string>
     <string name="countdown_today">اليوم</string>
-    <string name="date_calculate">تاريخ الحساب</string>
+    <string name="date_calculate">حساب تاريخ</string>
     <string name="date_calculate_days">أدخل عدد الأيام</string>
-    <string name="date_calculate_description">تعلم ما هو التاريخ قبل أو بعد يوم معين</string>
+    <string name="date_calculate_description">معرفة التاريخ قبل أو بعد يوم معين</string>
     <string name="date_calculate_direction">الإتجاه</string>
     <string name="date_calculate_direction_content_description">الاتجاه الحالي: %1s.</string>
-    <string name="date_calculate_hint">Learn what date it is after a number days</string>
+    <string name="date_calculate_hint">معرفة التاريخ بعد عدة أيام</string>
     <string name="date_calculate_result">النتيجة</string>
-    <string name="date_calculate_tab">تاريخ الحساب</string>
+    <string name="date_calculate_tab">حساب تاريخ</string>
     <string name="date_calculate_today">٠ أيام</string>
     <string name="date_calculate_when">بداية</string>
     <string name="date_interval_description">تعلم كم هناك من يوم بين تاريخين</string>
@@ -176,7 +176,7 @@
     <string name="date_interval_tab">الفاصل الزمني</string>
     <string name="date_interval_text_to">إلى %1$s</string>
     <string name="date_jump_hint">الانتقال إلى يوم محدد</string>
-    <string name="date_jump_title">الانتقال إلى تاريخ</string>
+    <string name="date_jump_title">انتقل إلى تاريخ</string>
     <string name="date_today">" (اليوم)"</string>
     <string name="default_reminder_mode">التذكيرات</string>
     <string name="delete_calendar">إلغاء الاشتراك</string>
@@ -344,7 +344,7 @@
     <string name="search_calendar">التاريخ؛شروط شمسية؛قمري؛التقويم؛الحظ؛جدول الأعمال؛اجتماع؛تذكير؛عطلة؛عطلة؛تاريخ الميلاد؛۲۰۱٦؛۲۰۱٧؛مهرجان الربيع؛رأس السنة الميلادية؛عيد العمال الدولي؛مهرجان منتصف الخريف</string>
     <string name="search_calendar_edit_event">اجتماع؛تذكير؛جدول الأعمال</string>
     <string name="search_calendar_settings">التقويم؛جدول الأعمال؛تذكير</string>
-    <string name="select_date">انتقال إلى تاريخ</string>
+    <string name="select_date">انتقل إلى تاريخ</string>
     <string name="set_as_wallpaper">تعيين كخلفية الشاشة</string>
     <string name="setting_about_calendar_version">إصدار التقويم:</string>
     <string name="setting_about_imei">IMEI:</string>

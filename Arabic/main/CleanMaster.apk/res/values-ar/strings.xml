@@ -211,7 +211,7 @@
     <string name="dialog_title_delete_image">حذف الصور المحددة</string>
     <string name="button_text_restore_ignore">تراجع</string>
     <string name="toast_selecte_group_restore_succeed">تمت استعادة الصور</string>
-    <string name="toast_must_select_before_restore">اختر صور للإستعادة</string>
+    <string name="toast_must_select_before_restore">اختر صور للاستعادة</string>
     <string name="toast_select_image_need_delete">اختر صور للحذف</string>
     <string name="toast_delete_select_image_succeed">تم الحذف</string>
     <string name="empty_content_no_ignore_image">فارغ</string>
@@ -234,7 +234,7 @@
     <string name="button_text_photo_selected">محددة</string>
     <string name="label_image_list_none">لا يوجد</string>
     <string name="hints_privacy_header_left">الخصوصية: %d</string>
-    <string name="privacy_cache_title">معلومات شخصية</string>
+    <string name="privacy_cache_title">المعلومات الشخصية</string>
     <string name="privacy_cache_desc">حساب، كلمة المرور، السجل، الإعدادات والمزيد</string>
     <string name="privacy_cache_scaning">جارٍ التحقق…</string>
     <string name="privacy_cache_empty">لا توجد بيانات خاصة</string>

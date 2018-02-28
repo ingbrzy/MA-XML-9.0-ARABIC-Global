@@ -48,6 +48,14 @@
         <item quantity="few">%1$d من %2$d</item>
         <item quantity="many">%1$d من %2$d</item>
     </plurals>
+    <plurals name="nav_screen_incognito_time">
+        <item quantity="other">سيتم إنشاء صفحة جديدة تلقائيا بعد %d ثانية</item>
+        <item quantity="zero">سيتم إنشاء صفحة جديدة تلقائيا بعد %d ثانية</item>
+        <item quantity="one">سيتم إنشاء صفحة جديدة تلقائيا بعد %d ثانية</item>
+        <item quantity="two">سيتم إنشاء صفحة جديدة تلقائيا بعد %d ثواني</item>
+        <item quantity="few">سيتم إنشاء صفحة جديدة تلقائيا بعد %d ثواني</item>
+        <item quantity="many">سيتم إنشاء صفحة جديدة تلقائيا بعد %d ثانية</item>
+    </plurals>
     <plurals name="pref_adblock_counts">
         <item quantity="other">تم حظر %d</item>
         <item quantity="zero">تم حظر %d</item>

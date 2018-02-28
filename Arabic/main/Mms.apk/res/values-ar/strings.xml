@@ -87,10 +87,10 @@
 (سيتم إضافة الرقم إلى الأستثناءات.)"</string>
     <string name="confirm_rate_limit">يتم إرسال عدد كبير من رسائل الوسائط المتعددة.</string>
     <string name="confirm_restore_all_title">هل تريد استعادة كل الرسائل المرسلة من هذا الرقم؟</string>
-    <string name="confirm_restore_checkbox">إستعادة الرسائل المحظورة</string>
-    <string name="confirm_restore_message">إستعادة الرسائل المحددة؟</string>
-    <string name="confirm_restore_positive">إستعادة</string>
-    <string name="confirm_restore_title">إستعادة الرسالة</string>
+    <string name="confirm_restore_checkbox">استعادة الرسائل المحظورة</string>
+    <string name="confirm_restore_message">استعادة الرسائل المحددة؟</string>
+    <string name="confirm_restore_positive">استعادة</string>
+    <string name="confirm_restore_title">استعادة الرسالة</string>
     <string name="confirm_send_mms">أحد بيأنات المستلمين تتضمن عنوان بريد إلكتروني. سيتم إرسال هذه الرسالة كرسالة MMS، وقد تتحمل تكاليف إضافية من شركة الإتصالات الخاص بك.</string>
     <string name="context_menu_add_calendar">إضافة إلى التقويم</string>
     <string name="context_menu_add_contact">إضافة إلى جهات الاتصال</string>
@@ -178,6 +178,7 @@
     <string name="file_size">الحجم:</string>
     <string name="file_title">الإسم:</string>
     <string name="file_width_height">الحجم:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">رسالة جديدة</string>
     <string name="forward_from">إعادة توجيه من:</string>
     <string name="forward_prefix">"إعادة توجيه: "</string>
@@ -474,7 +475,7 @@
     <string name="resize_image_error_information">هذه الصورة كبيرة جدًا لإرسالها، حتى في حالة تغيير حجمها.</string>
     <string name="resource_price_free">مجاني</string>
     <string name="restore_all_button_msg">استعادة كل الرسائل المرسلة من هذا الرقم</string>
-    <string name="restore_blocked_message">إستعادة</string>
+    <string name="restore_blocked_message">استعادة</string>
     <string name="restore_to_phone_memory_failed">تعذر الاستعادة</string>
     <string name="restored_to_phone_memory">تمت الاستعادة</string>
     <string name="save">حفظ</string>
@@ -525,6 +526,7 @@
     <string name="send_signature_confirm_dialog_title">إرسال الرسالة</string>
     <string name="send_sms">إرسال رسالة</string>
     <string name="send_to">إلى:</string>
+    <string name="send_to_index_contact">%1$s2$s</string>
     <string name="sent_at_time">تم الارسال في: %1s</string>
     <string name="sent_label">"مرسلة: "</string>
     <string name="service_message_not_found">انتهت صلاحية الرسالة أو غير متوفرة</string>
@@ -654,7 +656,4 @@
     <string name="wild_msg_title">اختر ارقام الهاتف للمزامنة</string>
     <string name="yes">موافق</string>
     <string name="yesterday">أمس</string>
-    <string name="about_smart_sms_title">شريك الرسائل الذكية</string>
-    <string name="partner_companies">Teddy Mobile, Yulore Tech.</string>
-    <string name="pref_title_about_smart_sms">معلومات عن شريك الرسائل الذكية</string>
 </resources>

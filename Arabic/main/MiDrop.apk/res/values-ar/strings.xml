@@ -33,6 +33,7 @@
     <string name="cancel_lang">إلغاء</string>
     <string name="cancel_message">لن يستلم الشخص الأخر الملفات إذا قمت بإلغاء النقل. إلغاء النقل الآن؟</string>
     <string name="cancel_stop">متابعة الإرسال</string>
+    <string name="cannot_transfer_dir_to_low_version">اطلب من الشخص الآخر تحديث Mi Drop</string>
     <string name="category_files">الملفات</string>
     <string name="category_installed_app">التطبيقات</string>
     <string name="category_music">الموسيقى</string>
@@ -52,7 +53,7 @@
     <string name="dialog_msg_need_find_friend_permission">قم بإعداد الأذونات ليتمكن Mi Drop من إيجاد أصدقاءك القريبون.</string>
     <string name="dialog_msg_need_set_hotspot_permission">قم بإعداد الأذونات ليتمكن Mi Drop من إعداد نقطة الاتصال المحمولة.</string>
     <string name="dialog_msg_score_midrop">ما رأيك في Mi Drop؟</string>
-    <string name="dialog_msg_score_not_good">هل يمكنك ترك التعليق؟</string>
+    <string name="dialog_msg_score_not_good">هل يمكنك ترك تعليق أيضا؟</string>
     <string name="dialog_msg_score_perfect">رائع! تقييم Mi Drop أيضاً في متجر Play؟</string>
     <string name="dialog_ok">استمر</string>
     <string name="dialog_title_permission_required">الأذونات مطلوبة</string>
@@ -96,7 +97,7 @@
     <string name="info_product">الجهاز:</string>
     <string name="info_system">النظام:</string>
     <string name="info_system_version">إصدار النظام:</string>
-    <string name="instruction">أدخل هذا العنوان في المتصفح أو في مدير الملفات للكمبيوتر.</string>
+    <string name="instruction">أدخل هذا العنوان في مدير الملفات للكمبيوتر.</string>
     <string name="instruction_pre_pad">ابدأ لتكون قادرا على إدارة الملفات باستخدام كمبيوتر</string>
     <string name="instruction_pre_phone">ابدأ لتكون قادرا على إدارة الملفات باستخدام كمبيوتر</string>
     <string name="internal_storage">وحدة التخزين الداخلية</string>
@@ -114,6 +115,7 @@
  يجب عليك تشغيل خدمات الموقع في أندرويد 6.0 والإصدارات الأحدث لتتمكن من إرسال واستلام الملفات."</string>
     <string name="location_skip">تخطي</string>
     <string name="max_send_file">٩٩+</string>
+    <string name="more">المزيد</string>
     <string name="never_remind">عدم الإظهار مرة أخرى</string>
     <string name="no_file">فارغ</string>
     <string name="no_network">"تعذر الاتصال بالشبكة.
@@ -134,6 +136,7 @@
     <string name="popup_window_header_clear_all">مسح</string>
     <string name="port_range">يجب أن يكون رقم المنفذ مابين ١٠٢٤–٦٥٥٣٥</string>
     <string name="prompt_grant_write_settings_permission">السماح لـ Mi Drop بتغيير إعدادات النظام.</string>
+    <string name="qr_code">رمز QR</string>
     <string name="receive">استلام</string>
     <string name="receive_exit_dialog_message">لن يتم إرسال الملفات إذا قمت بإلغاء النقل. إلغاء على أي حال؟</string>
     <string name="receive_exit_dialog_negative_btn">متابعة الاستلام</string>
@@ -142,6 +145,7 @@
     <string name="received_files">الملفات المستلمة</string>
     <string name="receiver_accept">قبول</string>
     <string name="receiver_clean">قم بتفريغ مساحة</string>
+    <string name="receiver_file_title">من %s</string>
     <string name="receiver_in_progress_summary">انتظر حتى يتم الانتهاء من النقل الحالي قبل إرسال الملفات.</string>
     <string name="receiver_in_progress_title">نقل الملفات</string>
     <string name="receiver_insufficient_storage">لا توجد مساحة تخزين كافية.</string>
@@ -191,16 +195,21 @@
     <string name="settings_feedback">الإبلاغ عن خلل</string>
     <string name="settings_score">تقييم Mi Drop</string>
     <string name="settings_set_name">الإسم المستعار</string>
-    <string name="share_desc">مشاركة Mi Drop بدون استخدام بيانات الهاتف</string>
+    <string name="share_ap_step_two">عرض الخطوة ٢ بعد أن يتصل صديقك</string>
+    <string name="share_desc">مشاركة الملفات دون الاتصال بالإنترنت</string>
+    <string name="share_first_head_title">مشاركة مع أصدقاء قريبون</string>
     <string name="share_mi_drop">مشاركة Mi Drop مع أصدقائك</string>
+    <string name="share_second_head_title">طرق أخرى للمشاركة</string>
+    <string name="share_via_ap">مشاركة بإستخدام نقطة اتصال محمولة</string>
+    <string name="share_via_qr_code">مشاركة بإستخدام رمز QR</string>
     <string name="start_server">بدء</string>
     <string name="stay_awake_summary">لا تدع الشاشة في وضع السكون عند استخدام الـFTP</string>
     <string name="stay_awake_title">إبقاء الشاشة في وضع نشط</string>
-    <string name="step_1">"الخطوة ١: 
-اطلب من الشخص الأخر الاتصال بـ Wi-Fi."</string>
-    <string name="step_2">"الخطوة ٢: 
-اطلب من الشخص الأخر إدخال العنوان التالي في المستعرض:"</string>
-    <string name="step_2_scan_code">أو مسح رمز QR التالي</string>
+    <string name="step_1">الخطوة ١:</string>
+    <string name="step_1_title">اطلب من صديقك الاتصال بهذه الشبكة</string>
+    <string name="step_2">الخطوة ٢:</string>
+    <string name="step_2_input_ip_address">أو اطلب من صديقك إدخال ذلك في شريط عناوين المتصفح:</string>
+    <string name="step_2_scan_code">اطلب من صديقك مسح رمز QR هذا</string>
     <string name="stop_server">إيقاف</string>
     <string name="stop_transfer">إيقاف</string>
     <string name="storage_internal">التخزين الداخلي</string>
@@ -230,6 +239,7 @@
     <string name="version">الإصدار</string>
     <string name="want_receive">استلام الملفات</string>
     <string name="want_send">إرسال الملفات</string>
+    <string name="wifi_ap">نقطة اتصال محمولة</string>
     <string name="wifi_name">اسم الـ Wi-Fi:</string>
     <string name="wifi_psw">كلمة المرور:</string>
     <string name="wifi_state">حالة شبكة Wi-Fi</string>

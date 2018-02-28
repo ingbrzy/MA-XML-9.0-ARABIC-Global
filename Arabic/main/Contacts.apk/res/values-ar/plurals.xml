@@ -41,12 +41,12 @@
         <item quantity="many">فوراً</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">في %1$d دقيقة</item>
-        <item quantity="zero">في %1$d دقيقة</item>
-        <item quantity="one">في %1$d دقيقة</item>
-        <item quantity="two">منذ %1$d دقائق</item>
-        <item quantity="few">منذ %1$d دقائق</item>
-        <item quantity="many">في %1$d دقيقة</item>
+        <item quantity="other">في %1$d دق</item>
+        <item quantity="zero">في %1$d دق</item>
+        <item quantity="one">في %1$d دق</item>
+        <item quantity="two">منذ %1$d دق</item>
+        <item quantity="few">منذ %1$d دق</item>
+        <item quantity="many">في %1$d دق</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">حالياً</item>
@@ -57,12 +57,12 @@
         <item quantity="many">حالياً</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
-        <item quantity="other">منذ %1$d دقيقة</item>
-        <item quantity="zero">منذ %1$d دقيقة</item>
-        <item quantity="one">منذ %1$d دقيقة</item>
-        <item quantity="two">منذ %1$d دقائق</item>
-        <item quantity="few">منذ %1$d دقائق</item>
-        <item quantity="many">منذ %1$d دقيقة</item>
+        <item quantity="other">منذ %1$d دق</item>
+        <item quantity="zero">منذ %1$d دق</item>
+        <item quantity="one">منذ %1$d دق</item>
+        <item quantity="two">منذ %1$d دق</item>
+        <item quantity="few">منذ %1$d دق</item>
+        <item quantity="many">منذ %1$d دق</item>
     </plurals>
     <plurals name="batch_delete_msg">
         <item quantity="other">حذف %1$d جهة اتصال؟</item>
