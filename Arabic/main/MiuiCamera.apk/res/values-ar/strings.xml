@@ -331,7 +331,6 @@
     <string name="pref_camera_beautify_entry_low">منخفض</string>
     <string name="pref_camera_beautify_entry_normal">متوسط</string>
     <string name="pref_camera_beautify_entry_high">عالي</string>
-    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">خيارات</string>
     <string name="button_front_camera_title">اخذ سيلفي</string>
     <string name="button_normal_video_title">تسجيل فيديو</string>
@@ -400,7 +399,6 @@
     <string name="pref_camera_zoom_mode_entry_tele">تقريب</string>
     <string name="pref_camera_zoom_mode_entry_standard">قياسي</string>
     <string name="pref_camera_zoom_mode_entry_high_pixel">بكسل عالية الدقة</string>
-    <string name="pref_camera_zoom_value_title">التكبير/التصغير</string>
     <string name="pref_camera_portrait_mode_title">وضع Portrait</string>
     <string name="pref_camera_portrait_mode_entry_off">وضع Portrait متوقّف</string>
     <string name="pref_camera_portrait_mode_entry_on">وضع Portrait مشغّل</string>

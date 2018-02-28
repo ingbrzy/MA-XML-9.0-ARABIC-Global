@@ -5,14 +5,12 @@
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
-    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_none">لا يوجد</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
-    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_passpoint">Passpoint</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
@@ -450,7 +448,6 @@
     <string name="abc_activity_chooser_view_see_all">عرض الكل</string>
     <string name="abc_shareactionprovider_share_with_application">‏مشاركة مع %s</string>
     <string name="abc_shareactionprovider_share_with">مشاركة مع</string>
-    <string name="status_bar_notification_info_overflow">+999</string>
     <string name="abc_capital_on">تشغيل</string>
     <string name="abc_capital_off">إيقاف</string>
     <string name="menu_item_show_more">عرض المزيد</string>
@@ -736,7 +733,6 @@
     <string name="security_enable_widgets_title">تمكين الأدوات</string>
     <string name="security_enable_widgets_disabled_summary">معطّلة بواسطة المشرف</string>
     <string name="owner_info_settings_summary">لا أحد</string>
-    <string name="owner_info_settings_status">%1$d / %2$d</string>
     <string name="owner_info_settings_edit_text_hint">‏جهاز Android الخاص بهاني مثلاً</string>
     <string name="user_info_settings_title">معلومات المستخدم</string>
     <string name="show_profile_info_on_lockscreen_label">إظهار معلومات الملف الشخصي في شاشة التأمين</string>
@@ -998,7 +994,6 @@
     <string name="wifi_display_options_name">الاسم</string>
     <string name="wifi_band_24ghz">2.4 غيغاهرتز</string>
     <string name="wifi_band_5ghz">۵ غيغاهرتز</string>
-    <string name="link_speed">‏%1$d ميغابت في الثانية</string>
     <string name="nfc_quick_toggle_title">NFC</string>
     <string name="nfc_quick_toggle_summary">السماح بتبادل البيانات عندما يلمس الهاتف جهازًا آخر</string>
     <string name="android_beam_settings_title">Android Beam</string>
@@ -2265,7 +2260,6 @@
     <string name="gadget_title">التحكم في الطاقة</string>
     <string name="gadget_toggle_wifi">تحديث إعدادات Wi-Fi</string>
     <string name="gadget_toggle_bluetooth">تحديث إعداد البلوتوث</string>
-    <string name="gadget_state_template">%1$s %2$s</string>
     <string name="gadget_state_on">تشغيل</string>
     <string name="gadget_state_off">إيقاف</string>
     <string name="gadget_state_turning_on">جارٍ التشغيل…</string>
@@ -2690,7 +2684,6 @@
     <string name="nfc_payment_no_apps">ادفع بواسطة هاتفك في المتاجر والمحال</string>
     <string name="nfc_payment_default">التطبيق الافتراضي للدفع</string>
     <string name="nfc_payment_default_not_set">لم يتم التعيين</string>
-    <string name="nfc_payment_app_and_desc">%1$s - %2$s</string>
     <string name="nfc_payment_use_default">استخدام الافتراضي</string>
     <string name="nfc_payment_favor_default">دومًا</string>
     <string name="nfc_payment_favor_open">إذا كان هناك تطبيق دفع آخر مفتوحًا</string>
@@ -2751,7 +2744,6 @@
     <string name="regulatory_info_text" />
     <string name="sim_setup_wizard_title">‏بطاقات SIM</string>
     <string name="sim_settings_title">‏بطاقات SIM</string>
-    <string name="sim_settings_summary">%1$s - %2$s</string>
     <string name="sim_cards_changed_message">‏تم تغيير بطاقات SIM</string>
     <string name="sim_cards_changed_message_summary">انقر لتعيين الأنشطة.</string>
     <string name="sim_cellular_data_unavailable">بيانات الجوّال غير متوفرة</string>
@@ -2872,7 +2864,6 @@
     <string name="zen_mode_option_important_interruptions">الأولوية فقط</string>
     <string name="zen_mode_option_alarms">التنبيهات فقط</string>
     <string name="zen_mode_option_no_interruptions">كتم الصوت تمامًا</string>
-    <string name="zen_mode_summary_combination">%1$s: %2$s</string>
     <string name="zen_mode_visual_interruptions_settings_title">حظر الإشعارات المرئية</string>
     <string name="configure_notification_settings">تهيئة الإشعارات</string>
     <string name="advanced_section_header">متقدمة</string>
@@ -2966,7 +2957,6 @@
     <string name="zen_mode_schedule_alarm_title">يمكن للتنبيه أن يحل محل وقت الانتهاء</string>
     <string name="zen_mode_schedule_alarm_summary">التوقف عند وقت الانتهاء أو التنبيه التالي، أيهما أولاً</string>
     <string name="summary_divider_text">"، "</string>
-    <string name="summary_range_symbol_combination">%1$s - %2$s</string>
     <string name="summary_range_verbal_combination">%1$s إلى %2$s</string>
     <string name="zen_mode_calls">المكالمات</string>
     <string name="zen_mode_messages">الرسائل</string>
@@ -3148,8 +3138,6 @@
     <string name="memory_avg_use">المتوسط</string>
     <string name="memory_max_desc">الحد الأقصى: %1$s</string>
     <string name="memory_avg_desc">المتوسط: %1$s</string>
-    <string name="memory_use_running_format">%1$s / %2$s</string>
-    <string name="process_format">%1$s (%2$d)</string>
     <string name="high_power_apps">تحسين البطارية</string>
     <string name="high_power_filter_on">بدون تحسين</string>
     <string name="high_power_on">بدون تحسين</string>
@@ -3427,7 +3415,6 @@
     <string name="dndm_auto_setting_group">مجدول</string>
     <string name="dndm_auto_button_title">تكرار وقت عدم الإزعاج</string>
     <string name="dndm_auto_time_setting">ضبط الوقت</string>
-    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_on">من</string>
     <string name="dndm_auto_time_turn_on_title">تشغيل تلقائي لعدم الإزعاج</string>
     <string name="dndm_auto_time_turn_off">إلى</string>
@@ -4824,7 +4811,6 @@
     <string name="bootloader_locked_answer_1_warning">تذكر: لا يمكنك استخدام \"العثور على الجهاز\" بعد إلغاء قفل الهاتف.</string>
     <string name="bootloader_locked_question_2">افهم المخاطر، ولكن مازلت أرغب في إلغاء قفل جهازي.</string>
     <string name="bootloader_locked_answer_2">انقر على الزر أدناه لربط حساب Mi الخاص بك مع هذا الجهاز. ثم انتقل إلى موقع MIUI لتحميل أداة إلغاء القفل وتثبيته على جهاز الكمبيوتر الخاص بك. وهنا الرابط:</string>
-    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="bootloader_locked_check_status">إضافة حساب و جهاز</string>
     <string name="bootloader_device_bind_already">تم الإضافة بنجاح. حساب Mi الآن مرتبط بهذا الجهاز.</string>
     <string name="bootloader_device_bind_no_account">قم بتسجيل الدخول لحساب Mi أولاً</string>
@@ -4854,7 +4840,6 @@
     <string name="security_encryption_attention_info">يمكنك تشفير حساباتك، الإعدادات، التطبيقات المحمّلة وبياناتها، الوسائط، وملفات أخرى.</string>
     <string name="security_encryption_alert_dialog_title_first">قم بتعيين قفل الشاشة اولا</string>
     <string name="security_encryption_alert_dialog_info_first">قم بتعيين كلمة مرور قفل الشاشة لتشغيل هذه الميزة. يحب عليك إدخال كلمة مرور قفل الشاشة بعد كل عملية إعادة تشغيل لفك تشفير واستخدام الجهاز بشكل طبيعي.</string>
-    <string name="security_encryption_attention_symbol">•</string>
     <string name="security_encryption_attention_1">لن تكون قادرا على استخدام التنبيهات عندما يكون الجهاز في حالة إيقاف.</string>
     <string name="security_encryption_attention_2">سيتوجب عليك إدخال كلمة مرور قفل الشاشة بعد كل إعادة فك تشفير الجهاز. اعادة التشغيل سيستغرق وقتا أطول من المعتاد.</string>
     <string name="security_encryption_attention_3">سيتوجب عليك تعيين كلمة مرور جديدة لشاشة القفل.</string>
@@ -4896,7 +4881,6 @@
     <string name="size_giga_byte">غيغابايت</string>
     <string name="size_tera_byte">تيرابايت</string>
     <string name="size_peta_byte">بنتابايت</string>
-    <string name="size_suffix">%1$s%2$s</string>
     <string name="radio_info_asdiv_switch_label">حالة ASDiv:</string>
     <string name="app_factory_reset_dlg_title">إلغاء تثبيت التحديثات؟</string>
     <string name="app_factory_reset_dlg_text">سيتم إلغاء تثبيت جميع التحديثات لتطبيق نظام الأندرويد هذا.</string>
