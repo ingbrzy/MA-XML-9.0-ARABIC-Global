@@ -6,16 +6,6 @@
         <item>آخر</item>
         <item>مخصص</item>
     </string-array>
-    <string-array name="imProtocols">
-        <item>AIM</item>
-        <item>Windows Live</item>
-        <item>Yahoo</item>
-        <item>Skype</item>
-        <item>QQ</item>
-        <item>Google Talk</item>
-        <item>ICQ</item>
-        <item>Jabber</item>
-    </string-array>
     <string-array name="organizationTypes">
         <item>عمل</item>
         <item>آخر</item>
@@ -24,7 +14,7 @@
     <string-array name="phoneTypes">
         <item>المنزل</item>
         <item>الجوال</item>
-        <item>عمل</item>
+        <item>العمل</item>
         <item>فاكس العمل</item>
         <item>فاكس المنزل</item>
         <item>جهاز نداء</item>
@@ -37,6 +27,20 @@
         <item>آخر</item>
         <item>مخصص</item>
     </string-array>
+    <array name="fingerprint_acquired_vendor" />
+    <string-array name="imAddressTypes">
+        <item>المنزل</item>
+        <item>عمل</item>
+        <item>آخر</item>
+        <item>مخصص</item>
+    </string-array>
+    <string-array name="network_switch_type_name">
+        <item>بيانات الجوّال</item>
+        <item>Wi-Fi</item>
+        <item>بلوتوث</item>
+        <item>إيثرنت</item>
+        <item>‏شبكة ظاهرية خاصة (VPN)</item>
+    </string-array>
     <string-array name="wfcOperatorErrorAlertMessages">
         <item>‏لإجراء مكالمات وإرسال رسائل عبر Wi-Fi، اطلب من مشغّل شبكة الجوّال أولاً إعداد هذا الجهاز، ثم شغّل الاتصال عبر Wi-Fi مرة أخرى من خلال الإعدادات.</item>
     </string-array>
@@ -46,13 +50,5 @@
     <string-array name="wfcSpnFormats">
         <item>%s</item>
         <item>‏%s جارٍ الاتصال عبر Wi-Fi</item>
-    </string-array>
-    <array name="fingerprint_acquired_vendor" />
-    <array name="fingerprint_error_vendor" />
-    <string-array name="imAddressTypes">
-        <item>المنزل</item>
-        <item>عمل</item>
-        <item>آخر</item>
-        <item>مخصص</item>
     </string-array>
 </resources>

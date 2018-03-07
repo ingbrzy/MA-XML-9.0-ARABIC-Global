@@ -5,6 +5,12 @@
     <string name="unlockscreen_recharge_completed">البطارية مشحونة</string>
     <string name="unlockscreen_low_battery">قم بوصل الشاحن الان</string>
     <string name="lockscreen_charging_msg">يتم الشحن</string>
+    <string name="reset_device_tip">الشحن بطيء، يرجى إعادة توصيل الهاتف</string>
+    <string name="reset_device_detail_tip">لزيادة سرعة الشحن اللاسلكي، ضع الهاتف في وسط القاعدة.</string>
+    <string name="wireless_charge_stop">توقف الشحن اللاسلكي</string>
+    <string name="change_to_ac_charging">تم التبديل إلى الشحن اللاسلكي</string>
+    <string name="wireless_charge_dialog_title">تم تغيير موضع هاتفك، يرجى إصلاحه</string>
+    <string name="wireless_charge_dialog_cancel">إلغاء</string>
     <string name="emergency_call_string">الطوارئ</string>
     <string name="forget_password_string">نسيت كلمة المرور</string>
     <string name="input_puk_code">ادخل رمز PUK</string>
@@ -46,6 +52,7 @@
     <string name="fingerprint_try_again_msg">تعذر التحقق من بصمة الاصبع، حاول مجددا.</string>
     <string name="fingerprint_not_identified_title">ادخل كلمة المرور</string>
     <string name="fingerprint_not_identified_msg">الكثير من المحاولات العير ناجحة. أدخل كلمة المرور الآن أو حاول استخدام البصمة الخاصة بك في بضع ثوان.</string>
+    <string name="fingerprint_not_identified_msg_lock">العديد من المحاولات الغير الناجحة. أدخل كلمة المرور الآن.</string>
     <string name="fingerprint_again_identified_msg">بصمة إصبعك نشطة الآن. استخدامها لإلغاء قفل الجهاز، أو إدخال كلمة المرور.</string>
     <string name="fingerprint_add_title">إضافة بصمة الإصبع</string>
     <string name="fingerprint_add_text">تم تحديث واجهه بصمة الأصبع. قم بإضافة بصمة الاصبع الخاص بك مرة أخرى.</string>
@@ -63,13 +70,10 @@
     <string name="lock_wallpaper_enter">أدخل</string>
     <string name="custom_lock_wallpaper_enter">أدخل</string>
     <string name="fingerprint_enter_second_psw_title">أدخل كلمة مرور الواجهة الثانية</string>
-    <string name="fingerprint_enter_second_psw_msg">أدخل كلمة مرور الواجهة الثانية بعد إعادة تشغيل الجهاز لتكون قادرا على استخدام تعرف بصمة الإصبع</string>
+    <string name="fingerprint_enter_second_psw_msg">أدخل كلمة مرور الواجهة الثانية لتكون قادرا على استخدام \"التعرف على بصمة الإصبع\"</string>
     <string name="fingerprint_enter_second_psw_msg_oldman">لا يمكن الدخول إلى الواجهة الثانية أثناء الوضع البسيط</string>
     <string name="keyguard_charging_info_click_to_detail">عرض التفاصيل</string>
     <string name="keyguard_quick_charging_info_click_to_detail">شحن سريع. انقر لعرض التفاصيل.</string>
-    <string name="keyguard_quickly_charging_info_charging_text">شحن سريع…</string>
-    <string name="keyguard_charging_info_finished_charging_text">مشحونة بالكامل</string>
-    <string name="keyguard_charging_info_charging_text">يتم الشحن</string>
     <string name="keyguard_charging_info_last_charge_today_time">اليوم %s</string>
     <string name="keyguard_charging_info_last_charge_yesterday_time">أمس %s</string>
     <string name="keyguard_charging_info_last_charge_time">M/d H:mm</string>
@@ -90,13 +94,17 @@
     <string name="face_data_introduction_title">التعرف على الوجه</string>
     <string name="face_data_introduction_msg">يمكن استخدام بيانات الوجه لإلغاء قفل جهازك أو التحقق من هويتك. قم بإضافة كلمة مرور شاشة القفل قبل إضافة بيانات وجهك.</string>
     <string name="face_data_introduction_next">التالي</string>
-    <string name="face_data_suggesstion_first">إلغاء قفل الجهاز باستخدام بيانات الوجه أقل أمانا من استخدام كلمة مرور شاشة القفل. قد يتم إلغاء قفل جهازك من قبل أشخاص يشبهونك.</string>
+    <string name="face_data_siggesstion_next">التالي</string>
+    <string name="face_data_siggesstion_next_time">التالي (%dث)</string>
+    <string name="face_data_suggesstion_first">تحذير: استخدام التعرف على الوجه هو أقل أمنا من استخدام رمز PIN أو كلمة مرور أو نقش. قد يتم إلغاء القفل عن طريق صورك أو أشخاص مشابهيين لك.</string>
     <string name="face_data_suggesstion_second">تأكد من أن جميع أجزاء وجهك مرئية بوضوح وغير مغطاة بأشياء. يجب أن يكون وجهك مضاء جيدا كذلك.</string>
     <string name="face_data_input_camera_fail">تعذر فتح الكاميرا</string>
     <string name="face_data_input_camera_ok">جارٍ فتح الكاميرا…</string>
     <string name="face_data_input_msg">ضع وجهك داخل الإطار</string>
     <string name="face_data_input_ok_title">تمت الإضافة بنجاح</string>
     <string name="face_data_input_ok_msg">قم بتشغيل الشاشة لإلغاء قفل الجهاز بإستخدام بيانات الوجه.</string>
+    <string name="face_data_input_ok_msg_angle">"إلغي قفل جهازك بإستخدام وجهك عند تشغيل الشاشة.
+(سجل بيانات وجهك في جميع الزوايا المطلوبة)"</string>
     <string name="face_data_input_cancel">إلغاء</string>
     <string name="face_data_input_cancel_msg">تعذر إضافة بيانات الوجه</string>
     <string name="face_data_input_ok">تم</string>
@@ -134,4 +142,10 @@
     <string name="face_unlock_down">إرفع رأسك</string>
     <string name="face_unlock_quality">تعذر رؤية وجهك بوضوح</string>
     <string name="lock_screen_no_sim_card">لا توجد بطاقة SIM</string>
+    <string name="do_disclosure_generic">تتم إدارة هذا الجهاز من قِبل مؤسستك</string>
+    <string name="do_disclosure_with_name">تتم إدارة هذا الجهاز من قِبل %s</string>
+    <string name="face_unlock_reenter_title">سجل بيانات وجهك مرة أخرى.</string>
+    <string name="face_unlock_reenter_content">تم تحديث خوارزمية التعرف على الوجه. انقر لتسجيل بيانات الوجة مرة اخرى.</string>
+    <string name="digital_clock_dot">:</string>
+    <string name="keyguard_left_view_lock_wallpaper">خلفية كاروسيل</string>
 </resources>

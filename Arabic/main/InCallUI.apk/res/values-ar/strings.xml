@@ -53,7 +53,7 @@
     <string name="contacts_icon_label">جهات الاتصال</string>
     <string name="conference_call_number">%sأشخاص</string>
     <string name="conference_call_description" formatted="false">%s,%s الخ إجمالي %s</string>
-    <string name="conference_call_single_description" formatted="false">%s الخ. مجموع %s</string>
+    <string name="conference_call_single_description" formatted="false">%s الخ. المجموع %s</string>
     <string name="separate_from_conference">مكالمة منفصلة</string>
     <string name="caller_manage_header">مكالمة جماعية %s</string>
     <string name="incall_call_type_label_sip">مكالمة عبر الإنترنت</string>
@@ -156,14 +156,14 @@
     <string name="not_activate_sim_card_content_with_operator">قم بالتحقق من بطاقة SIM%1$s (%2$s) للقيام بمكالمة باستخدام حزمة إعادة الشحن. مازال يمكنك القيام بمكالمات عادية حيث سيتم فرض رسومها عليك من قبل شركة الاتصالات.</string>
     <string name="dialog_call_ordinary_telephone">مكالمة عادية</string>
     <string name="dialog_activate_livetalk">رقم التحقق</string>
-    <string name="not_support_title">رقم غير معتمد</string>
-    <string name="not_support_message">لا تدعم حزمة شحن الرصيد هذه الأرقام حالياُ. يمكنك القيام بمكالمة عادية عوضاُ عن ذلك.</string>
+    <string name="not_support_title">هذا الرقم غير مدعوم</string>
+    <string name="not_support_message">لا يمكن الاتصال بهذا الرقم. التبديل إلى مكالمه عادية حيث سيتم فرض رسومها عليك من قبل شركة الاتصالات.</string>
     <string name="livetalk_hangup">إنهاء المكالمة</string>
     <string name="no_call_back_title">تنبيه</string>
     <string name="no_call_back_message">يتم أخذ وقت طويل للاتصال. التبديل إلى مكالمه عادية حيث سيتم فرض رسومها عليك من قبل شركة الاتصالات.</string>
     <string name="keep_wait_call_back">واصل الانتظار</string>
-    <string name="network_error_title">حدث خطأ في الشبكة</string>
-    <string name="network_error_message">حاول أن تقوم بمكالمة عادية. سيتم تحميلك رسومها من قبل شركة الاتصالات الخاصه بك.</string>
+    <string name="network_error_title">شبكة غير مستقرة</string>
+    <string name="network_error_message">الشبكة الحالية غير مستقرة. التبديل إلى مكالمة عادية حيث سيتم فرض رسومها عليك من قبل شركة الاتصالات.</string>
     <string name="do_not_ask">عدم الإظهار مرة أخرى</string>
     <string name="time_left_livetalk">(%d ثانية)</string>
     <string name="can_not_call_oneself">لا يمكن الاتصال بهذا الرقم</string>
@@ -171,15 +171,15 @@
     <string name="card_title_incoming_conference_call">مكالمة جماعية واردة</string>
     <string name="onscreen_change_to_voice">مكالمة صوتية</string>
     <string name="onscreen_change_to_video">مكالمة فيديو</string>
-    <string name="onscreen_switch_camera">تبديل الكاميرا</string>
+    <string name="onscreen_switch_camera">تبديل</string>
     <string name="card_title_video_call">مكالمة فيديو</string>
-    <string name="card_title_upgrade_video_call_requesting">جار طلب الفيديو</string>
+    <string name="card_title_upgrade_video_call_requesting">طلب فيديو…</string>
     <string name="card_title_upgrade_video_call_error">تعذر تحديث الفيديو</string>
     <string name="card_title_upgrade_video_call_timed_out">تعذر تحديث الفيديو</string>
     <string name="card_title_upgrade_video_call_rejected_by_remote">تعذر تحديث الفيديو</string>
     <string name="notification_incoming_video_call">مكالمة فيديو واردة</string>
     <string name="onscreen_message_text">الرسائل</string>
-    <string name="onscreen_close_preview_camera">إغلاق الكاميرا</string>
+    <string name="onscreen_close_preview_camera">إغلاق</string>
     <string name="upgrade_vt_prompt">التبديل لمكالمة فيديو؟</string>
     <string name="incoming_answer_voice_text">رد صوتي</string>
     <string name="picking_participant">الحصول على معلومات جهة الاتصال…</string>
@@ -212,23 +212,4 @@
     <string name="dialpad_seven">٧</string>
     <string name="dialpad_eight">٨</string>
     <string name="dialpad_nine">۹</string>
-    <string name="no_vm_number">رقم البريد الصوتي مفقود</string>
-    <string name="no_vm_number_msg">لا يوجد أرقام بريد صوتي في بطاقة SIM.</string>
-    <string name="add_vm_number_str">إضافة رقم</string>
-    <string name="alert_dialog_yes">نعم</string>
-    <string name="alert_dialog_no">لا</string>
-    <string name="alert_dialog_dismiss">تجاهل</string>
-    <string name="contactPhoto">صورة جهة الاتصال</string>
-    <string name="call_record_button_label">تسجيل %s</string>
-    <string name="call_self">لا يمكنك إجراء مكالمة إلى الرقم الخاص بك</string>
-    <string name="cancel_call">قطع الاتصال</string>
-    <string name="dial_with_gsm_phone">مكالمة عادية</string>
-    <string name="livetalk_left_minute">%s دق متبقية</string>
-    <string name="miprofile_stranger_card">بطاقة غريبة</string>
-    <string name="no_balance_message">لا يوجد رصيد كافي في حزمة شحن الرصيد الخاصة بك. حاول أن تقوم بمكالمة عادية بدلاً عن ذلك.</string>
-    <string name="purchase_now">إعادة الشحن</string>
-    <string name="video_switch_to_voice_call_prompt">التبديل لمكالمة صوتية</string>
-    <string name="onscreen_rcs_text">الرسائل</string>
-    <string name="video_call_not_allowed_if_tty_enabled">إيقاف التشغيل وضع TTY اولا</string>
-    <string name="conference_caller_name_me">أنا</string>
 </resources>

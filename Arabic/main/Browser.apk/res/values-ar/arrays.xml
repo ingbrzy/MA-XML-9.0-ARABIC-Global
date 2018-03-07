@@ -36,7 +36,7 @@
         <item>أزرق</item>
     </string-array>
     <string-array name="pref_fling_on_border_gesture_entries">
-        <item>الصفحة السابقة / التالية</item>
+        <item>الصفحة السابقة/التالية</item>
         <item>تبديل علامات التبويب</item>
         <item>لا شيء</item>
     </string-array>
@@ -52,7 +52,7 @@
         <item>صغير جدا</item>
         <item>صغير</item>
         <item>عادي</item>
-        <item>ضخم</item>
+        <item>كبير</item>
         <item>ضخم</item>
     </string-array>
     <string-array name="pref_ua_choices">

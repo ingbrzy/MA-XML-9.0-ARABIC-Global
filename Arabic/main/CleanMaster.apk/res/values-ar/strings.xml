@@ -5,7 +5,7 @@
     <string name="menu_install">تثبيت هذا البرنامج</string>
     <string name="menu_add_to_white_list">إضافة إلى الإستثناءات</string>
     <string name="text_optimizer">تحميل أسماء المجلدات</string>
-    <string name="summary_optimizer">تعمل هذه الميزة على تحميل أسماء المجلد لتحديث قاعدة بيانات Cheetah Mobile المتصلة بالإنترنت وتحتاج إلى هوية جهازك.</string>
+    <string name="summary_optimizer">تعمل هذه الميزة على تحميل أسماء المجلدات لتحديث قاعدة بيانات Cheetah Mobile المتصلة بالإنترنت ويتطلب ذلك معرف الجهاز.</string>
     <string name="button_optimizer">موافق</string>
     <string name="name_optimizer">سياسة الخصوصية</string>
     <string name="title_optimizer">الأحكام والشروط</string>

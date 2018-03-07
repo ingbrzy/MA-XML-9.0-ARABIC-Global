@@ -44,10 +44,10 @@
     <string name="cloud_app_no_network">لا يمكن الاتصال بالشبكة</string>
     <string name="button_delete">حذف</string>
     <string name="customization"><u>تخصيص</u></string>
-    <string name="self_phone">هذا الهاتف</string>
+    <string name="self_phone">الهاتف الحالي</string>
     <string name="process_whole_recovery">الاستعادة \"%s\"</string>
     <string name="device_xiaomi">هاتف Mi</string>
-    <string name="device_corrupt">هاتف Mi(تلف في البيانات)</string>
+    <string name="device_corrupt">Mi Phone (تلف في البيانات)</string>
     <string name="size_unknown">حجم غير معروف</string>
     <string name="recovering">استعادة \"%s\"</string>
     <string name="start_recover">استعادة \"%s\"</string>
@@ -75,7 +75,7 @@
     <string name="open_wifi">تشغيل Wi-Fi الآن</string>
     <string name="open_wifi_description">الاتصال بشبكة Wi-Fi لاستعادة التطبيق</string>
     <string name="open_wifi_setting">إعدادات Wi-Fi</string>
-    <string name="name_model">"%1$s's%2$s"</string>
+    <string name="name_model">%1$s من %2$s</string>
     <string name="download_settings">تننزيل إعدادات الشاشة الرئيسية %s%%</string>
     <string name="cloud_back_up_date_format">yyyy/MM/dd HH:mm</string>
     <string name="recover_home_settings">استعادة إعدادات الشاشة الرئيسية</string>

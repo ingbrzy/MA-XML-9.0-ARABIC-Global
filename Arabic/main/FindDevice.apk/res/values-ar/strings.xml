@@ -22,6 +22,7 @@
     <string name="find_device_noise_title">منبه العثور على الجهاز</string>
     <string name="find_device_success_title">العثور على الجهاز</string>
     <string name="find_device_notice_p1">اذهب إلى</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">"لتحديد موقع أو قفل أو استعادة هاتفك.
 إذا قمت بتبديل بطاقات SIM، سيتم ارسال رسالة SMS أخرى تلقائيًا لإعادة تفعيل هذه الميزة."</string>
     <string name="i_know">موافق</string>
@@ -38,7 +39,7 @@
     <string name="unlock_error_rpc">خطأ RPC</string>
     <string name="unlock_error_abort">تم الإلغاء من قبل المستخدم</string>
     <string name="unlock_error_passport_sdk_timeout">حزمة تطوير البرامج (SDK) لحساب Mi لا تستجيب</string>
-    <string name="open_wifi_settings">فتح إعدادات الـWi-Fi</string>
+    <string name="open_wifi_settings">فتح إعدادات Wi-Fi</string>
     <string name="activate_xiaomi_account">تفعيل هذا الجهاز</string>
     <string name="login_extra_steps">التحقق من تسجيل الدخول</string>
     <string name="phone_locked">قد يكون هذا الجهاز مرتبطا بحساب Mi موجود مسبقا (%s). قم بتسجيل الدخول لتفعيل هذا الجهاز.</string>

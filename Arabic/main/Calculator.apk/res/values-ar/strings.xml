@@ -53,19 +53,20 @@
     <string name="switchDesc">تبديل</string>
     <string name="scannerDesc">الماسح الضوئي</string>
     <string name="reciprocalDesc">معكوس</string>
+    <string name="negDesc">التبديل بين درجات الحرارة الأقل والأعلى من الصفر</string>
     <string name="home_title_calculator">الآلة الحاسبة</string>
-    <string name="item_title_calculator">آلة حاسبة</string>
+    <string name="item_title_calculator">الآلة الحاسبة</string>
     <string name="item_title_scientific_calculator">علمية</string>
     <string name="item_title_currency">العملة</string>
-    <string name="item_title_mortgage">رهن</string>
+    <string name="item_title_mortgage">الرهن</string>
     <string name="item_title_tax">ضرائب</string>
     <string name="item_title_tip">تلميح</string>
     <string name="item_title_length_conversion">الطول</string>
-    <string name="item_title_area_conversion">المنطقة</string>
-    <string name="item_title_volume_conversion">الصوت</string>
-    <string name="item_title_weight_conversion">كتلة</string>
+    <string name="item_title_area_conversion">المساحة</string>
+    <string name="item_title_volume_conversion">الحجم</string>
+    <string name="item_title_weight_conversion">الكتلة</string>
     <string name="item_title_temprature_conversion">درجة الحرارة</string>
-    <string name="item_title_vel_conversion">سرعة</string>
+    <string name="item_title_vel_conversion">السرعة</string>
     <string name="item_title_time_conversion">الوقت</string>
     <string name="item_title_dress_size">حجم الملابس</string>
     <string name="item_title_aa_payment">تقسيم الفاتورة</string>
@@ -163,7 +164,7 @@
     <string name="convertion_unit">محول الوحدات</string>
     <string name="convertion_unit_length">محول الطول</string>
     <string name="convertion_unit_area">محول المساحة</string>
-    <string name="convertion_unit_volume">محول الصوت</string>
+    <string name="convertion_unit_volume">محول الحجم</string>
     <string name="convertion_unit_weight">محول الكتلة</string>
     <string name="convertion_unit_velocity">محول السرعة</string>
     <string name="convertion_unit_temperature">محول درجة الحرارة</string>
@@ -281,8 +282,8 @@
     <string name="unit_data_display_time_week">اسبوع</string>
     <string name="unit_data_display_time_yr">سنة</string>
     <string name="network_confirm_title">يتطلب أذونات</string>
-    <string name="network_confirm_content">يحتاج محول العملة، الآلات الحاسبة للضرائب والرهن إلى الاتصال بالإنترنت والدخول إلى خدمات الموقع للعمل بشكل طبيعي.</string>
-    <string name="global_network_confirm_content">يحتاج محول العملة الاتصال بالإنترنت للعمل بشكل طبيعي.</string>
+    <string name="network_confirm_content">يحتاج محول العملة والآلات الحاسبة للضرائب والرهن إلى الاتصال بالإنترنت والدخول إلى خدمات الموقع للعمل بشكل طبيعي.</string>
+    <string name="global_network_confirm_content">يحتاج محول العملة الاتصال بالإنترنت ليعمل بشكل طبيعي.</string>
     <string name="word_figure_zheng">整</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_number_0">零</string>
@@ -338,5 +339,5 @@
     <string name="preference_check_update_summary_current_version">الإصدار الحالي: %s</string>
     <string name="preference_check_update_summary_new_version">التحديث المتوفر: %s</string>
     <string name="description_title">معلومات عن الآلة الحاسبة</string>
-    <string name="description_content">بالإضافة إلى الميزات الأساسية، تعمل الآلة الحاسبة أيضا كمحول متعدد الوظائف، رهن العقاري، و آلة حاسبة للضرائب. تأكد من أنك تستطيع أن تفعل ذلك دون هذه الميزات قبل إلغاء تثبيت التطبيق.</string>
+    <string name="description_content">بالإضافة إلى الميزات الأساسية، تعمل الآلة الحاسبة أيضا كمحول متعدد الوظائف ورهن عقاري وآلة حاسبة للضرائب. تأكد من أنك تستطيع أن تفعل ذلك دون هذه الميزات قبل إلغاء تثبيت التطبيق.</string>
 </resources>

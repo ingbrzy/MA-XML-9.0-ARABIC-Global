@@ -161,16 +161,32 @@
  هذا الميزة سيتم إضافتها تلقائياً في الواجهة الثانية."</string>
     <string name="openSuccess">تم التشغيل</string>
     <string name="closeSuccess">تم إيقاف التشغيل</string>
-    <string name="settings_notification_and_switch">التبديل و الإشعارات</string>
+    <string name="settings_set_password_for_owner_space">تعيين قفل الشاشة في الواجهة الاولى</string>
+    <string name="settings_set_password_for_owner_space_desc">تعيين قفل الشاشة في الواجهة الاولى لحذف الإختصار من الإعدادات.</string>
+    <string name="settings_set_password_for_sec_space">تعيين قفل الشاشة في الواجهة الثانية</string>
+    <string name="settings_set_password_for_sec_space_desc">تعيين قفل الشاشة في الواجهة الثانية لحذف الإختصار من الإعدادات.</string>
+    <string name="settings_notification_and_switch_owner_space">إعدادات الواجهة الاولى</string>
+    <string name="settings_second_space_entrance_title">اختصار في الإعدادات</string>
+    <string name="settings_second_space_entrance_summary">عرض اختصار الواجهة الثانية في الإعدادات</string>
+    <string name="settings_switch_shortcut_title">إختصار الشاشة الرئيسية</string>
+    <string name="settings_switch_space">التبديل بين الواجهات</string>
+    <string name="settings_notification_from_second_space_title">عرض الإشعارات من الواجهة الثانية</string>
+    <string name="settings_notification_and_switch_second_space">إعدادات الواجهة الثانية</string>
+    <string name="settings_notification_from_owner_space_title">عرض الإشعارات من الواجهة الاولى</string>
+    <string name="notification_from_owner_user">عرض الإشعارات من الواجهة الاولى</string>
+    <string name="notification_from_second_user">عرض الإشعارات من الواجهة الثانية</string>
+    <string name="radio_button_icon_switch_title">باستخدام اختصار</string>
+    <string name="radio_button_password_switch_title">باستخدام كلمة مرور</string>
     <string name="settings_cross_notification_title">الإشعارات</string>
     <string name="settings_cross_notification_summary">استلام إشعارات من فضاء آخر</string>
-    <string name="settings_switch_shortcut_title">انقر اختصار للتبديل</string>
     <string name="settings_switch_shortcut_summary">عرض اختصار الشاشة الرئيسية في الواجهة الاولى</string>
     <string name="settings_space_data">البيانات</string>
     <string name="settings_status_icon_title">أيقونة الواجهة الثانية</string>
     <string name="settings_status_icon_summary">عرض أيقونة الواجهة الثانية في شريط الحالة</string>
-    <string name="settings_msg_add_shortcut">تم إضافة الإختصار إلى الواجهة الاولى</string>
-    <string name="settings_msg_remove_shortcut">تم حذف الإختصار من الواجهة الاولى</string>
+    <string name="settings_msg_add_shortcut_to_owner_space">تم إضافة الإختصار إلى الواجهة الاولى</string>
+    <string name="settings_msg_add_shortcut_to_second_space">تم إنشاء اختصار في الواجهة الثانية</string>
+    <string name="settings_msg_remove_shortcut_from_owner_space">تم حذف الإختصار من الواجهة الاولى</string>
+    <string name="settings_msg_remove_shortcut_from_second_space">تمت إزالة الاختصار من الواجهة الثانية</string>
     <string name="start_setting_guide_desc_title">هناك بعض الأشياء للإعداد</string>
     <string name="setting_is_show_text_contacts">إعداد جهات اتصال خاصة و رسائل</string>
     <string name="switch_data_app">نقل عناصر إلى الواجهة الثانية</string>
@@ -342,4 +358,14 @@
     <string name="sdcradfs_dialog_in_sec_message">"للتحديث، يجب عليك حذف الواجهة الثانية وإنشاءها مرة أخرى. قم بنقل البيانات من الواجهة الثانية إلى الواجهة الأولى ومن ثم إعد تشغيل الجهاز لإكمال التحديث.
 إذا لم تقم بالتحديث، فقد لا تعمل التطبيقات المزدوجة بشكل صحيح."</string>
     <string name="space_created_success">تم إنشاء الواجهة الثانية بنجاح</string>
+    <string name="space_create_guide_title_1">حماية خصوصيتك</string>
+    <string name="space_create_guide_desc_1">تخزين التطبيقات والصور بشكل آمن</string>
+    <string name="space_create_guide_title_2">إنشاء في أي وقت</string>
+    <string name="space_create_guide_desc_2">جاهز تماما لإستخدام المساحة المنفصلة</string>
+    <string name="space_create_guide_title_3">خالية تماما من المخاطر</string>
+    <string name="space_create_guide_desc_3">لا يؤثر الواجهة الثانية على العناصر الأخرى بجهازك</string>
+    <string name="space_create_guide_switchmode_title">التبديل بين الواجهات</string>
+    <string name="second_space_desktop_tips_dialog_title">تحديث مهم</string>
+    <string name="second_space_desktop_tips_dialog_positive_text">فهمت</string>
+    <string name="second_space_desktop_tips_dialog_message">بعد هذا التحديث، لن يتم عرض أيقونات نقل البيانات وإدارة الواجهة الثانية بعد ذلك على الشاشة الرئيسية. سوف تكون قادر على الوصول إلى الميزات المقابلة في الإعدادات.</string>
 </resources>

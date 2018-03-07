@@ -302,8 +302,9 @@
     <string name="st_confirm_dialog_summary_contact_call">سيتم حظر جميع المكالمات من جهات الإتصال.</string>
     <string name="st_confirm_dialog_summary_oversea_call">التشغيل لحظر المكالمات الواردة من أرقام هواتف غريبة.</string>
     <string name="cta_dialog_title">اتصال الإنترنت</string>
-    <string name="cta_dialog_msg">الحماية تحتاج إلى الاتصال بالإنترنت للحصول على التحديثات، وكذلك الوصول إلى الموقع للعمل بشكل طبيعي.</string>
+    <string name="cta_dialog_msg">الحماية تحتاج إلى الاتصال بالإنترنت للحصول على التحديثات، وكذلك الوصول إلى الموقع لتعمل بشكل طبيعي.</string>
     <string name="cta_settings">السماح بالاتصال بالإنترنت</string>
+    <string name="gdpr_msg"><Data>لإستخدام ميزات الحماية الأساسية، يجب عليك الموافقة على أن Xiaomi سوف تجمع وتعالج وتستخدم بياناتك الشخصية. بما في ذلك معلومات عن الطرق التي تستخدم بها ميزات الحماية(مثل: إحصاءات استخدام بيانات الجوال، ومعلومات عن البرامج الضارة، وكذلك المعلومات الأساسية حول الجهاز) وأنواع أخرى من المعلومات المحددة في &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">سياسة الخصوصية&lt;/a>لدينا.</Data></string>
     <string name="app_name_na">استخدام البيانات</string>
     <string name="list_empty_text">فارغ</string>
     <string name="dialog_title_attention">تنبيه</string>
@@ -373,7 +374,7 @@
     <string name="firewall_network_restrict_notify_mobile">بيانات الهاتف الجوال</string>
     <string name="firewall_network_restrict_notify_message">انقر لتغيير الإعدادات.</string>
     <string name="firewall_restrict_android_dialog_title">تنبيه</string>
-    <string name="firewall_restrict_android_dialog_content">للتأكد من ان جهازك يعمل بشكل طبيعي، عدد قليل من تطبيقات نظام الأندرويد ستظل على اتصال بالإنترنت. هذه التطبيقات ستستخدم اتصال بيانات الجوال ويمكن أن تولد رسوم بسيطة من شركة الاتصالات الخاصة بك.</string>
+    <string name="firewall_restrict_android_dialog_content">للتأكد من ان جهازك يعمل بشكل طبيعي، سيظل عدد قليل من تطبيقات نظام الأندرويد على اتصال بالإنترنت. هذه التطبيقات ستستخدم اتصال بيانات الجوال ويمكن أن تفرض رسوم بسيطة من شركة الاتصالات الخاصة بك.</string>
     <string name="background_restrict_app_dialog_message">قد يؤدي تقييد وصول الشبكة الخلفية لهذا التطبيق إلى عمل التطبيق بشكل غير طبيعي في استلام الرسائل، وتنزيل محتوى والخ. التقييد على إية حال؟</string>
     <string name="firewall_allow_network">السماح</string>
     <string name="app_bg_restrict_dialog_message">قد يؤدي تقييد اتصال الشبكة في الخلفية إلى منع التطبيق من العمل بشكل طبيعي. على سبيل المثال، لن يكون قادرا على استقبال الرسائل أو تحديث المحتوى.</string>
@@ -383,6 +384,12 @@
     <string name="firewall_wifi_dialog_message">لن يتمكن التطبيق المثبت الاتصال بالإنترنت باستخدام الـ Wi-Fi عند توقف هذا التبديل</string>
     <string name="firewall_system_title">استخدام البيانات لتطبيقات النظام</string>
     <string name="firewall_temp_rule_reason">قام %2$s بتقييد اتصال الأنترنت على %1$s​</string>
+    <string name="dialog_restrict_all_wlan_title">تقييد اتصال Wi-Fi</string>
+    <string name="dialog_restrict_all_wlan_summary">سيتم تقييد اتصال Wi-Fi لجميع التطبيقات بعد هذا.</string>
+    <string name="dialog_restrict_all_mobile_title">تقييد %s اتصال بيانات الجوال</string>
+    <string name="dialog_restrict_all_mobile_summary">سيتم تقييد اتصال بيانات الجوال لبطاقة %s لجميع التطبيقات بعد ذلك.</string>
+    <string name="dialog_restrict_positive">إلغاء</string>
+    <string name="dialog_restrict_negative">تقييد</string>
     <string name="usage_sorted_activity_lable">استخدام البيانات</string>
     <string name="usage_sorted_loading_text">لحظة من فضلك…</string>
     <string name="usage_sorted_empty_text">فارغ</string>
@@ -405,6 +412,7 @@
     <string name="detail_app_button">معلومات التطبيق</string>
     <string name="pref_about_traffic_title">إعدادات استخدام البيانات</string>
     <string name="pref_traffic_manage_title">استخدام البيانات</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">خطة البيانات</string>
     <string name="pref_adjust_traffic_data">تعيين استخدام البيانات</string>
     <string name="pref_category_title_other">إعدادات إضافية</string>
@@ -517,6 +525,12 @@
     <string name="leisure_usage_dialog_message">"لقد وصلت إلى حد البيانات خارج وقت الذروة.
 
  قد تفرض عليك شركة الاتصالات رسوم إضافية إذا استخدمت اتصال بيانات الجوال مرة أخرى."</string>
+    <string name="data_usage_protected_notify_title">لقد استخدمت بالفعل ٥غ.ب من بيانات الجوال</string>
+    <string name="data_usage_protected_notify_message">قام MIUI بإيقاف تشغيل بيانات الجوال لمنع فرض رسوم إضافية.</string>
+    <string name="data_usage_mobile_dialog_title">لقد استخدمت ٥ غيغابايت من بيانات الجوال. قام MIUI بإيقاف التشغيل بيانات الجوال.</string>
+    <string name="data_usage_protected_dialog_message">"قام MIUI بإيقاف تشغيل بيانات الجوال لمنع فرض رسوم إضافية.
+
+ إذا قمت بتشغيل بيانات الجوال مرة أخرى، فأن شركة الاتصالات قد تفرض عليك رسوم إضافية."</string>
     <string name="lock_screen_traffic_warn_title">إشعارات شاشة القفل</string>
     <string name="lock_screen_traffic_notify_body">تم القفل لـ %2$s في %1$s، البيانات المستخدمة %3$s</string>
     <string name="timeshow_s">%d ثانية</string>
@@ -918,6 +932,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"هذا التطبيق قد يبطئ
 جهازك"</string>
+    <string name="om_memory_clean_memory_info_text">%2$s / %1$s</string>
     <string name="om_ill_proc_handle_unstaill_title">إلغاء التثبيت %s؟</string>
     <string name="om_ill_proc_handle_uninstall_prompt">إلغاء تثبيت هذا التطبيق لإصلاح مشاكل إستخدام البطارية.</string>
     <string name="om_ill_proc_type_wakelock_title">هذا التطبيق يقوم بحظر وضع السكون ويستنزف البطارية</string>
@@ -1322,6 +1337,7 @@
     <string name="menu_text_networkassistants">استخدام البيانات</string>
     <string name="menu_text_networkassistants_remain">%s متبقي</string>
     <string name="menu_text_networkassistants_danger">%s زائد</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">غ.ب</string>
     <string name="menu_text_networkassistants_unit_mb">م.ب</string>
     <string name="menu_text_networkassistants_unit_kb">ك.ب</string>
@@ -1591,10 +1607,10 @@
     <string name="antivirus_monitor_clean_tips">العناصر المحذوفة: %s</string>
     <string name="antivirus_none_engine_dialog_ok">موافق</string>
     <string name="antivirus_privacy_dialog_title">سياسة الخصوصية</string>
-    <string name="antivirus_privacy_dialog_summary">تعمل هذه الميزة على تشفير معرف جهازك وتحميله إلى خوادم Avast، AVL و Tencent(%s).</string>
+    <string name="antivirus_privacy_dialog_summary">تعمل هذه الميزة على تشفير معرف جهازك وتحميله إلى خوادم Avast وAVL وTencent (%s).</string>
     <string name="antivirus_privacy_dialog_summary_link">عرض سياسة الخصوصية</string>
-    <string name="antivirus_privacy_dialog_cloudscan">تحميل أسماء التطبيق والتفاصيل</string>
-    <string name="antivirus_privacy_dialog_cloudscan_description">تحميل وفحص أسماء التطبيق والتفاصيل باستخدام تعريفات الفيروسات عبر الإنترنت.</string>
+    <string name="antivirus_privacy_dialog_cloudscan">تحميل أسماء وتفاصيل التطبيقات</string>
+    <string name="antivirus_privacy_dialog_cloudscan_description">تحميل وفحص أسماء وتفاصيل التطبيقات باستخدام تعريفات الفيروسات عبر الإنترنت.</string>
     <string name="antivirus_privacy_dialog_ok">موافق</string>
     <string name="pref_title_manual_check_virus_db_update">التحقق من وجود تحديثات</string>
     <string name="virus_update_tips_title">تحذير</string>
@@ -1612,7 +1628,7 @@
     <string name="antivirus_toast_already_update">مُحدث</string>
     <string name="antivirus_toast_network_unavailable">تعذر الاتصال بالشبكة</string>
     <string name="handle_title_network">حماية Wi-Fi</string>
-    <string name="handle_title_pay_env">محيط الدفع</string>
+    <string name="handle_title_pay_env">بيئة الدفع</string>
     <string name="handle_title_privacy">الخصوصية والأمان</string>
     <string name="risk_count_suffix" />
     <string name="virus_auto_update_engine">تحديثات تلقائية: %s</string>
@@ -1682,6 +1698,7 @@
     <string name="card_main_deepclean_wechat_action">حذف</string>
     <string name="card_main_sectool_title">الأدوات</string>
     <string name="card_main_monthreport_action">عرض</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">اختبار الشبكة</string>
     <string name="card_main_netcheck_summary">اختبار الاتصال لمشاكل الشبكة</string>
     <string name="card_main_netcheck_action">اختبار</string>

@@ -95,7 +95,7 @@
     <string name="passport_vcode_prompt_long">أدخل رمز التحقق</string>
     <string name="passport_input_phone_hint">أدخل رقم الهاتف</string>
     <string name="passport_input_voice_captcha_hint">أدخل رمز التحقق الصوتي</string>
-    <string name="passport_error_empty_username">أدخل هوية حساب Mi الخاص بك</string>
+    <string name="passport_error_empty_username">أدخل معرف حساب Mi الخاص بك</string>
     <string name="passport_error_invalid_phone_num">رقم الهاتف غير صالح</string>
     <string name="passport_error_empty_phone_num">أدخل رقم الهاتف</string>
     <string name="passport_wrong_phone_number_format">تنسيق رقم الهاتف الذي أدخلته غير صالح</string>
@@ -248,7 +248,7 @@
     <string name="service_error">خطأ في الخدمة</string>
     <string name="account_user_base_info">المعلومات الشخصية</string>
     <string name="account_user_name">الإسم</string>
-    <string name="account_user_id">هوية حساب Mi</string>
+    <string name="account_user_id">معرف حساب Mi</string>
     <string name="account_none">لا شيء</string>
     <string name="account_no_set">لا شيء</string>
     <string name="account_has_been_set">تم التغيير</string>
@@ -374,7 +374,7 @@
     <string name="multi_user_not_show_sync_activity_message_2">في مثل هذه الحالة، سيتم مزامنة كل البيانات إلى الواجهة الثانية الخاص بك. لتجنب هذا، لا تقم بتشغيل المزامنة مع Mi Cloud.</string>
     <string name="find_device_access_denied">لا يمكن الحصول على الحالة، غير مسموح بالدخول</string>
     <string name="find_device_account_error">لا يمكن الحصول على الحالة نظرا لخطأ في الحساب</string>
-    <string name="find_device_null_credential_error">لا يمكن الحصول على على معلومات الجهاز، قم بالتصال بخدمة الزبائن الخاصة بـMi</string>
+    <string name="find_device_null_credential_error">لا يمكن الحصول على معلومات الجهاز، تواصل مع خدمة Xiaomi للعملاء</string>
     <string name="find_device_request_prepare_error">لا يمكن الحصول على المعلومات، أعد المحاولة لاحقا</string>
     <string name="find_device_request_error">حدث خطأ في الخادم، انتظر دقيقة أو دقيقتين ثم حاول مرة أخرى</string>
     <string name="find_device_bad_response_error">حدث خطأ في الخادم، انتظر دقيقة أو دقيقتين ثم حاول مرة أخرى</string>

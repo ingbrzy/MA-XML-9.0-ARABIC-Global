@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="phone_in_ecm_notification_time">
-        <item quantity="other">لا يوجد اتصال بيانات لمدة %s دقيقة</item>
-        <item quantity="zero">لا يوجد اتصال بيانات لمدة %s دقيقة</item>
-        <item quantity="one">لا يوجد اتصال بيانات لمدة %s دقيقة</item>
-        <item quantity="two">لا يوجد اتصال بيانات لمدة %s دقائق</item>
-        <item quantity="few">لا يوجد اتصال بيانات لمدة %s دقائق</item>
-        <item quantity="many">لا يوجد اتصال بيانات لمدة %s دقيقة</item>
-    </plurals>
     <plurals name="alert_dialog_exit_ecm">
         <item quantity="other">سيكون هذا الهاتف في وضع الرد على مكالمة الطوارئ لمدة %s دقيقة. وأثناء التواجد في هذا الوضع، فلا يمكن استخدام أي تطبيق يستخدم اتصال البيانات. أترغب في الخروج الآن؟</item>
         <item quantity="zero">سيكون هذا الهاتف في وضع الرد على مكالمة الطوارئ لمدة %s دقيقة. وأثناء التواجد في هذا الوضع، فلا يمكن استخدام أي تطبيق يستخدم اتصال البيانات. أترغب في الخروج الآن؟</item>
@@ -69,5 +61,13 @@
 %d محاولات متبقية."</item>
         <item quantity="many">"
 %d محاولة متبقية."</item>
+    </plurals>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">لا يوجد اتصال بيانات لمدة %s دقيقة</item>
+        <item quantity="zero">لا يوجد اتصال بيانات لمدة %s دقيقة</item>
+        <item quantity="one">لا يوجد اتصال بيانات لمدة %s دقيقة</item>
+        <item quantity="two">لا يوجد اتصال بيانات لمدة %s دقائق</item>
+        <item quantity="few">لا يوجد اتصال بيانات لمدة %s دقائق</item>
+        <item quantity="many">لا يوجد اتصال بيانات لمدة %s دقيقة</item>
     </plurals>
 </resources>

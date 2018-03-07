@@ -121,6 +121,7 @@
     <string name="shutdown_alarm_disable_summary">لن يرن المنبه بعد ايقاف التشغيل</string>
     <string name="shutdown_alarm_enable_summary">سيرن المنبه بعد ايقاف التشغيل</string>
     <string name="shutdown_alarm_title">إغلاق المنبه</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">إيقاف لمرة واحدة في %s</string>
     <string name="slider_text">مرّر لأعلى لإيقاف التشغيل</string>
     <string name="snooze_confirm_cancel">تجاهل المنبه</string>

@@ -144,7 +144,7 @@
     <string name="alert_message_clear_records">حذف التسجيلات المحددة؟</string>
     <string name="clear_records">حذف التسجيلات المتزامنة</string>
     <string name="network_tip_dialog_title">يتطلب إتصال إنترنت</string>
-    <string name="network_tip_dialog_content">يحتاج المسجّل إلى الاتصال بالإنترنت، كذلك قراءة جهات الاتصال الخاصة بك للعمل بشكل طبيعي. موافق؟</string>
+    <string name="network_tip_dialog_content">يحتاج المسجل إلى الاتصال بالإنترنت، وكذلك قراءة جهات اتصالك ليعمل بشكل طبيعي. موافق؟</string>
     <string name="network_tip_dialog_ok">موافق</string>
     <string name="network_tip_dialog_cancel">إلغاء</string>
     <string name="head_set_tip_dialog_title">استخدام mic الداخلي</string>

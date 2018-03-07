@@ -38,6 +38,84 @@
         <item>‏استخدام التحقق من HDCP لمحتوى DRM فقط</item>
         <item>‏استخدام التحقق من HDCP دومًا</item>
     </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>‏AVRCP 1.4 (الافتراضي)</item>
+        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp14</item>
+        <item>avrcp15</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>استخدام اختيار النظام (افتراضي)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>aptX</item>
+        <item>aptX HD</item>
+        <item>LDAC</item>
+        <item>تمكين برامج الترميز الاختيارية</item>
+        <item>تعطيل برامج الترميز الاختيارية</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>استخدام اختيار النظام (افتراضي)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>aptX</item>
+        <item>aptX HD</item>
+        <item>LDAC</item>
+        <item>تمكين برامج الترميز الاختيارية</item>
+        <item>تعطيل برامج الترميز الاختيارية</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>استخدام اختيار النظام (افتراضي)</item>
+        <item>44.1 كيلو هرتز</item>
+        <item>48.0 كيلو هرتز</item>
+        <item>88.2 كيلو هرتز</item>
+        <item>96.0 كيلو هرتز</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>استخدام اختيار النظام (افتراضي)</item>
+        <item>44.1 كيلو هرتز</item>
+        <item>48.0 كيلو هرتز</item>
+        <item>88.2 كيلو هرتز</item>
+        <item>96.0 كيلو هرتز</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>استخدام اختيار النظام (افتراضي)</item>
+        <item>16 بت لكل عيّنة</item>
+        <item>24 بت لكل عيّنة</item>
+        <item>32 بت لكل عيّنة</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>استخدام اختيار النظام (افتراضي)</item>
+        <item>16 بت لكل عيّنة</item>
+        <item>24 بت لكل عيّنة</item>
+        <item>32 بت لكل عيّنة</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>استخدام اختيار النظام (افتراضي)</item>
+        <item>أحادي</item>
+        <item>استريو</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>استخدام اختيار النظام (افتراضي)</item>
+        <item>أحادي</item>
+        <item>استريو</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>تحسين جودة الصوت (٩٩٠ كيلوبت في الثانية / ٩٠٩ كيلوبت في الثانية)</item>
+        <item>جودة متوازنة للصوت والاتصال (660 كيلوبت في الثانية/606 كيلوبت في الثانية)</item>
+        <item>تحسين جودة الاتصال (٣٣٠ كيلوبت في الثانية / ٣٠٣ كيلوبت في الثانية)</item>
+        <item>أفضل جهد (معدل سرعة المعلومات التكيُّفي)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>تحسين جودة الصوت</item>
+        <item>جودة متوازنة للصوت والاتصال</item>
+        <item>تحسين جودة الاتصال</item>
+        <item>أفضل جهد (معدل سرعة المعلومات التكيُّفي)</item>
+    </string-array>
     <string-array name="select_logd_size_titles">
         <item>إيقاف</item>
         <item>٦٤ كيلوبايت</item>
@@ -59,6 +137,18 @@
         <item>1 ميغابايت لكل ذاكرة تخزين مؤقت للتسجيل</item>
         <item>٤ ميغابايت لكل ذاكرة تخزين مؤقت للتسجيل</item>
         <item>١٦ ميغابايت لكل ذاكرة تخزين مؤقت للتسجيل</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>إيقاف</item>
+        <item>الكل</item>
+        <item>الكل دون اللاسلكي</item>
+        <item>‏kernel فقط</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>إيقاف</item>
+        <item>كل المخازن المؤقتة للسجلات</item>
+        <item>كل المخازن المؤقتة باستثناء مخازن سجلات اللاسلكي</item>
+        <item>‏التخزين المؤقت لسجل kernel فقط</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>إيقاف الرسوم المتحركة</item>
@@ -115,12 +205,16 @@
     <string-array name="track_frame_time_entries">
         <item>إيقاف</item>
         <item>على الشاشة كأشرطة</item>
-        <item>‏باستخدام adb shell dumpsys gfxinfo</item>
+        <item>في غضون adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
         <item>إيقاف</item>
         <item>عرض مناطق تجاوز الحد</item>
-        <item>‏عرض مناطق العرض المسرحي Deuteranomaly</item>
+        <item>عرض مناطق العجز في رؤية اللونين الأخضر والأحمر</item>
+    </string-array>
+    <string-array name="debug_hw_renderer_entries">
+        <item>‏OpenGL (الافتراضي)</item>
+        <item>‏OpenGL ‏(Skia)</item>
     </string-array>
     <string-array name="app_process_limit_entries">
         <item>الحد القياسي</item>
@@ -161,7 +255,7 @@
     </string-array>
     <string-array name="battery_labels">
         <item>٠‏٪</item>
-        <item>٪۵۰</item>
+        <item>٥٠٪</item>
         <item>٪۱۰۰</item>
     </string-array>
 </resources>

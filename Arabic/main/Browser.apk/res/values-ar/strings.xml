@@ -169,6 +169,7 @@
     <string name="color_picker_dialog_title">تحديد اللون</string>
     <string name="color_picker_hue">تدرج اللون</string>
     <string name="color_picker_saturation">صفاء اللون</string>
+    <string name="color_picker_value">القيمة</string>
     <string name="comment_app_menu">التعليق</string>
     <string name="comment_description">تعليق</string>
     <string name="comment_hint">تعليق</string>
@@ -605,8 +606,8 @@
     <string name="pref_file_download_default_path_prefix">الموقع الافتراضي: %s</string>
     <string name="pref_file_download_save_modify_default_path">موقع التنزيلات</string>
     <string name="pref_file_download_save_title">التنزيلات</string>
-    <string name="pref_fling_on_border">اسحب من الحافة</string>
-    <string name="pref_fling_on_border_title_summary">اسحب من الحافة اليسرى أو اليمنى</string>
+    <string name="pref_fling_on_border">السحب من الحافة</string>
+    <string name="pref_fling_on_border_title_summary">السحب من الحافة اليسرى أو اليمنى</string>
     <string name="pref_font_size_category">حجم نص صفحة الويب</string>
     <string name="pref_force_userscalable">تكبير اجباري</string>
     <string name="pref_force_userscalable_summary">تجاوز طلب موقع الويب للتحكم في سلوك التكبير</string>

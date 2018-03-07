@@ -93,13 +93,13 @@
     <string name="apply">تطبيق</string>
     <string name="assistant_page_label">المساعد</string>
     <string name="associate_face_album">اختر ألبوم</string>
-    <string name="auto_backup_introduce">قم بنسخة احتياطية للصور ومقاطع فيديو تلقائيا (تحتاج الى حساب Mi)</string>
+    <string name="auto_backup_introduce">إنشاء نسخة احتياطية للصور ومقاطع فيديو تلقائيا (تحتاج الى حساب Mi)</string>
     <string name="auto_download_media_title">تنزيل الصور تلقائياً من Mi Cloud</string>
     <string name="auto_update_face">إضافة الصور تلقائيًا</string>
     <string name="auto_update_face_summary">مطابقة الصور وإضافتها تلقائيًا إلى ألبوم الطفل</string>
     <string name="auto_update_off">إيقاف تشغيل</string>
     <string name="auto_update_on">تشغيل</string>
-    <string name="auto_upload_before_share_message">النسخ الاحتياطي لهذا الألبوم إلى Mi Cloud قبل مشاركته</string>
+    <string name="auto_upload_before_share_message">نسخ هذا الألبوم احتياطيا إلى Mi Cloud قبل مشاركته</string>
     <string name="auto_upload_before_share_title">تلميح</string>
     <string name="auto_upload_disable_tip">المزامنة مع Mi Cloud غير مفعلة</string>
     <string name="auto_upload_disable_toast_long_press_menu">المزامنة مع Mi Cloud في حالة إيقاف</string>
@@ -125,7 +125,7 @@
     <string name="baby_nick_name">الاسم المستعار</string>
     <string name="baby_sexy">الجنس</string>
     <string name="baby_suffix">الطفل</string>
-    <string name="backup_automatically_summary">قم بنسخة إحتياطية للصور ومقاطع الفيديو من جميع الأجهزة إلى MiCloud. وهكذا يمكنك بسهولة تصفح، ترتيب، تعديل و مشاركة صور ومقاطع الفيديو في كل الأجهزة.</string>
+    <string name="backup_automatically_summary">النسخ الإحتياطي للصور ومقاطع الفيديو من جميع الأجهزة إلى MiCloud. يمكنك بعد ذلك تصفح وترتيب وتعديل ومشاركة الصور ومقاطع الفيديو في كل الأجهزة بسهولة.</string>
     <string name="backup_automatically_title">النسخ الاحتياطي تلقائياً</string>
     <string name="backup_battery_low_desc">مازال يمكنك اختيار المتابعة للنسخ الاحتياطي للعناصر</string>
     <string name="backup_battery_low_title">توقف النسخ الاحتياطي مؤقتاً بسبب انحفاض البطارية</string>
@@ -137,7 +137,7 @@
     <string name="backup_cta_not_allow_desc">موافق للنسخ الاحتياطي تلقائيا</string>
     <string name="backup_cta_not_allow_title">لا يمكن الوصول إلى الشبكة</string>
     <string name="backup_detail_page_empty">لا توجد صور أو فيديوهات في إنتظار النسخ الاحتياطي</string>
-    <string name="backup_detail_page_title">نسخ Mi Cloud الاحتياطية</string>
+    <string name="backup_detail_page_title">نُسخ Mi Cloud الاحتياطية</string>
     <string name="backup_device_space_low_btn_text">حذف</string>
     <string name="backup_device_space_low_desc">تفريغ مساحة لمتابعة النسخ الاحتياطي للعناصر</string>
     <string name="backup_device_space_low_title">لا توجد مساحة تخزين كافية</string>
@@ -152,7 +152,7 @@
     <string name="backup_no_wifi_btn_text">استخدام البيانات</string>
     <string name="backup_no_wifi_desc">يمكنك ايضا القيام بنسخة إحتياطية للعناصر بإستخدام بيانات الجوال</string>
     <string name="backup_no_wifi_title">انقر للاتصال بشبكة Wi-Fi</string>
-    <string name="backup_only_in_wifi">استخدام Wi‑Fi فقط لنسخ الصور و الفيديوهات احتياطياً</string>
+    <string name="backup_only_in_wifi">استخدام Wi‑Fi فقط لنسخ الصور والفيديوهات احتياطياً</string>
     <string name="backup_only_in_wifi_summary">عدم استخدام بيانات الجوال مطلقاً لنسخ الصور أو الفيديوهات احتياطياً</string>
     <string name="backup_only_wifi_dialog_message">استخدام بيانات الجوال لنسخ الصور والفيديوهات احتياطيا؟</string>
     <string name="backup_pause">إيقاف مؤقت للنسخ الاحتياطي</string>
@@ -160,7 +160,7 @@
     <string name="backup_pending">سيتم القيام بنسخة احتياطية تلقائيا</string>
     <string name="backup_stop">إيقاف النسخ الاحتياطي</string>
     <string name="backup_sync_dialog_confirm">تشغيل</string>
-    <string name="backup_sync_dialog_tips">قم بتشغيل المزامنة مع Mi Cloud لتغيير إعدادات النسخ الاحتياطية.</string>
+    <string name="backup_sync_dialog_tips">قم بتشغيل المزامنة مع Mi Cloud لتغيير إعدادات النُسخ الاحتياطية.</string>
     <string name="backup_sync_dialog_title">المزامنة متوقفة</string>
     <string name="backup_sync_error_btn_text">حاول مجددا</string>
     <string name="backup_sync_error_desc">تعذر الاتصال بـMi Cloud</string>
@@ -196,7 +196,7 @@
     <string name="cast_devices_unavailable_title">تعذر العثور على بروجكتور</string>
     <string name="change_to_face_mode">إظهار الوجه فقط</string>
     <string name="change_to_photo_mode">عرض المعاينات كاملة</string>
-    <string name="change_to_visible">هل تريد إستعادة هذا الشخص؟</string>
+    <string name="change_to_visible">هل تريد استعادة هذا الشخص؟</string>
     <string name="choose_baby_sexy">الجنس</string>
     <string name="choose_owner_relation">العلاقة</string>
     <string name="choose_people">اختيار ألبوم شخص</string>
@@ -209,14 +209,14 @@
     <string name="cleaner_scan_exit_dialog_title">إيقاف الفحص</string>
     <string name="cleaner_scan_finish">تم الفحص بنجاح</string>
     <string name="cleaner_scan_no_result">تعذر تفريغ مساحة أكبر</string>
-    <string name="cleaner_scan_ok">فهمت</string>
+    <string name="cleaner_scan_ok">حسنا</string>
     <string name="cleaner_scan_title">جارٍ فحص الألبومات…</string>
     <string name="cleaner_screen_shot_action">مسح</string>
     <string name="cleaner_screen_shot_description">حذف لقطات الشاشة التي لم تعد تحتاجها.</string>
     <string name="cleaner_screen_shot_title">حذف لقطات الشاشة</string>
     <string name="cleaner_slim_action">جارٍ بدء التحسين…</string>
     <string name="cleaner_slim_description">الحفاظ على الصور المحسنة على جهازك. سيتم تخزين الملفات الأصلية في Mi Cloud.</string>
-    <string name="cleaner_slim_start">تحسين</string>
+    <string name="cleaner_slim_start">التحسين</string>
     <string name="cleaner_slim_title">تحسين الصور</string>
     <string name="cleaner_space_description">يمكن تفريغ المساحة</string>
     <string name="cleaner_space_detail_description">مسح الصور في المعرض لتوفير مساحة التخزين</string>
@@ -290,7 +290,7 @@
     <string name="create_new_face">شخص جديد</string>
     <string name="create_quick_icon_on_desk">إنشاء اختصار</string>
     <string name="creating_baby_album">جارٍ إنشاء الألبوم…</string>
-    <string name="crop_label">الصورة المقصوصة</string>
+    <string name="crop_label">صورة مقصوصة</string>
     <string name="custom_select_title_deselect_all">الغاء التحديد</string>
     <string name="custom_select_title_quickly_share">مشاركة</string>
     <string name="custom_select_title_select_all">تحديد الكل</string>
@@ -353,8 +353,8 @@
     <string name="enable_auto_upload_tip">تشغيل المزامنة مع Mi Cloud لهذا الألبوم؟</string>
     <string name="enable_auto_upload_title">تشغيل المزامنة مع Mi Cloud</string>
     <string name="enable_cloud_for_sharing">تشغيل ألبومات Mi Cloud لعرض الصور المشاركة.</string>
-    <string name="enable_face_album_summary">ترتيب الصورتلقائياً على حسب الأشخاص الموجودين بداخلها</string>
-    <string name="enable_face_album_title">فرز حسب الأشخاص</string>
+    <string name="enable_face_album_summary">ترتيب الصور تلقائياً على حسب الأشخاص الموجودين بداخلها</string>
+    <string name="enable_face_album_title">ترتيب حسب الأشخاص</string>
     <string name="enabling_face_feature">لحظة من فضلك…</string>
     <string name="enter_email_hint">أدخل عنوان البريد الإلكتروني</string>
     <string name="error_album_not_exist">الألبوم غير موجود</string>
@@ -395,7 +395,7 @@
     <string name="error_no_wifi_msg">جهازك غير متصل بشبكة Wi-Fi. قد يؤدي استخدام بيانات الجوال إلى فرض رسوم إضافية.</string>
     <string name="error_no_wifi_tip">تعذر الاتصال بشبكة Wi-Fi</string>
     <string name="error_not_acceptable">تم تعطيل المزامنة.</string>
-    <string name="error_not_synced_action">مزامنة الآن</string>
+    <string name="error_not_synced_action">المزامنة الآن</string>
     <string name="error_not_synced_msg">لم تتم مزامنة المعلومات. انتظر دقيقة أو دقيقتين ثم حاول مرة أخرى.</string>
     <string name="error_not_synced_tip">لم تتم مزامنة المعلومات.</string>
     <string name="error_over_quota_tip">طلبات كثيرة جدا. انتظر دقيقة أو دقيقتين ثم حاول مرة أخرى.</string>
@@ -436,7 +436,7 @@
     <string name="face_album_pending_enable_tip">سيتم ترتيب الصور عندما يكون الجهاز متصلاً بـ Wi-Fi</string>
     <string name="face_album_rename_hint">ادخل اسم</string>
     <string name="face_album_title">صور مع %s</string>
-    <string name="face_album_use_tip">ترتيب الصورتلقائياً على حسب الأشخاص الموجودين بداخلها.</string>
+    <string name="face_album_use_tip">ترتيب الصور تلقائياً على حسب الأشخاص الموجودين بداخلها.</string>
     <string name="face_albumset_loading_data">جارٍ تحميل البيانات…</string>
     <string name="face_choose_tip">اختر من ألبوم موجود مسبقا</string>
     <string name="face_confirm">هذا نفس الشخص</string>
@@ -444,12 +444,14 @@
     <string name="face_name_edit">تعديل</string>
     <string name="face_name_input">ادخل اسم</string>
     <string name="face_recommend">التوصيات</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">تعذر اكمال العملية</string>
     <string name="fail_to_pick_email">البريد الإلكتروني غير صالح</string>
     <string name="fail_to_sync_album">تعذر مزامنة الألبوم. تحقق من اتصال البيانات وقم بالمحاولة مرة أخرى.</string>
     <string name="family_member_invitation_text">فرد اخر من الاسرة</string>
     <string name="fast_share_auto_render">تجميل</string>
     <string name="fast_share_auto_render_finish">تم التجميل</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">ذكرى</string>
     <string name="filter_bi_mono">مونو</string>
     <string name="filter_bi_pink">وردي</string>
@@ -508,16 +510,17 @@
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">غيغابايت</string>
     <string name="grant_permission_go_and_set">ضبط</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"يحتاج المعرض للوصول إلى 
 %s
- للعمل بشكل طبيعي، انقر \"ضبط\" للذهاب إلى الأذونات."</string>
+ ليعمل بشكل طبيعي، انقر \"ضبط\" للذهاب إلى الأذونات."</string>
     <string name="grant_permission_title">السماح بالدخول</string>
     <string name="grant_permission_unlock_and_set">إلغاء القفل والتعيين</string>
     <string name="has_invalid_recipient">مستلمين غير صالحين: %1$s</string>
     <string name="have_known">فهمت</string>
     <string name="hidden_album_display_name">ألبوم مخفي</string>
     <string name="home_menu_cleaner">تفريغ مساحة</string>
-    <string name="home_menu_collage">دمج الصور</string>
+    <string name="home_menu_collage">دمج صور</string>
     <string name="home_menu_photo_movie">مقطع فيديو</string>
     <string name="home_menu_print">طباعة الصور</string>
     <string name="home_page_empty_action">التقاط صورة</string>
@@ -613,7 +616,7 @@
     <string name="merge_album">دمج</string>
     <string name="merge_album_title">دمج هذا الشخص</string>
     <string name="messagelist_sender_self">أنا</string>
-    <string name="micloud_introduce">قم بنسخة احتياطية للصور ومقاطع فيديو تلقائيا (تحتاج الى حساب Mi)</string>
+    <string name="micloud_introduce">إنشاء نسخة احتياطية للصور ومقاطع فيديو تلقائيا (تحتاج الى حساب Mi)</string>
     <string name="more_album_hint">، الخ.</string>
     <string name="more_face">المزيد من الناس المتشابهين</string>
     <string name="more_face_album_name">مزيد من الأشخاص</string>
@@ -672,7 +675,7 @@
     <string name="operation_projection">عرض</string>
     <string name="operation_remove_face">حذف</string>
     <string name="operation_remove_from_face_album">إزالة من الألبوم</string>
-    <string name="operation_remove_from_other_albums">النقل من ألبومات أخرى</string>
+    <string name="operation_remove_from_other_albums">نقل من ألبومات أخرى</string>
     <string name="operation_remove_secret">عدم إخفاء</string>
     <string name="operation_rename">إعادة التسمية</string>
     <string name="operation_save">حفظ</string>
@@ -680,7 +683,7 @@
     <string name="operation_set_contact_photo">تعيين كصورة جهة اتصال</string>
     <string name="operation_set_wallpaper">تعيين كخلفية الشاشة</string>
     <string name="operation_share">مشاركة</string>
-    <string name="operation_show_in_photos_tab">العرض في الصور</string>
+    <string name="operation_show_in_photos_tab">عرض في الصور</string>
     <string name="operation_show_on_map">عرض على الخريطة</string>
     <string name="operation_slide_show">بدء تشغيل عرض الصور</string>
     <string name="operation_successful">تم</string>
@@ -701,6 +704,7 @@
     <string name="people_mark_mode_title_no_mark_name">تحديد شخص</string>
     <string name="people_page_label">الأشخاص</string>
     <string name="people_page_unname">غير مسمى</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">صور الحيوانات الأليفة</string>
     <string name="petabyteShort">بنتابايت</string>
     <string name="photo">الصور</string>
@@ -788,7 +792,7 @@
     <string name="picker_image_will_download">%d من الصور المحددة ليست على الجهاز. سيتم تحميلها.</string>
     <string name="picker_no_network_message">الاتصال بالشبكة للتحميل</string>
     <string name="picker_origin_need_download">%1$d من الصور المُحددة (%2$dميغابايت) ليست على الجهاز. التحميل بإستخدام بيانات الجوال؟</string>
-    <string name="picker_title_format">تحدد %1$d إلى %2$d صور</string>
+    <string name="picker_title_format">حدد %1$d إلى %2$d صور</string>
     <string name="picker_title_selection_format">الصور الُمحددة: %d</string>
     <string name="picker_title_selection_format_multiple">حدد %1$d إلى %2$d صور (%3$d)</string>
     <string name="picker_title_specify_format">تحديد %d صور</string>
@@ -845,7 +849,7 @@
     <string name="remover_erase_aera_too_big">مساحة المحو كبيرة جدا</string>
     <string name="remover_menu_processing">معالجة</string>
     <string name="removing_from_favorites">إزالة من المفضلة…</string>
-    <string name="rename_album">إعادة التسمية الألبوم</string>
+    <string name="rename_album">إعادة تسمية الألبوم</string>
     <string name="rename_album_failed">تعذر إعادة التسمية</string>
     <string name="rename_album_succeeded">تمت إعادة التسمية بنجاح</string>
     <string name="rename_face_album">تغيير الاسم</string>
@@ -914,6 +918,8 @@
     <string name="search_title_recommend">موصى بها</string>
     <string name="search_title_suggestion">الإقتراحات</string>
     <string name="search_title_tag">أجسام</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
     <string name="searching_cast_devices">جارٍ البحث عن بروجكتور…</string>
     <string name="secret_album_card_description">أفضل مكان لجميع أسرارك الخاصة</string>
     <string name="secret_album_card_title">جرب الألبوم المخفي</string>
@@ -1107,7 +1113,7 @@
     <string name="video_editor_loading_plugin">تحميل…</string>
     <string name="video_editor_loading_warning_msg">بسبب خطأ في التشفير، بعض الميزات والمعاينات قد تكون غير متوفرة أثناء عملية التعديل. على الرغم من هذا ،لن يؤثر على ملف الفيديو النهائي.</string>
     <string name="video_editor_loading_warning_title">خطأ في التشفير</string>
-    <string name="video_editor_more">متقدمة</string>
+    <string name="video_editor_more">متقدم</string>
     <string name="video_editor_not_support_tips">ملفات الفيديو هذه غير مدعومة</string>
     <string name="video_editor_ok">موافق</string>
     <string name="video_editor_res_download_failed_tips">تعذر التحميل، تحقق من إعدادات الشبكة و حاول مجدداً</string>
@@ -1134,6 +1140,7 @@
     <string name="view_by_gallery_tip">معرض MIUI</string>
     <string name="view_face_album">عرض الألبوم</string>
     <string name="view_queuing_status">فحص الحالة</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">مرحباً في Mi Cloud</string>
     <string name="where_is_barcode">أين رمز QR؟</string>
     <string name="who_is_this">من هذا؟</string>

@@ -6,6 +6,7 @@
     <string name="sina_token_expired_warning">إنتهت صلاحية حساب Weibo، قم بإضافة الحساب مرة أخرى.</string>
     <string name="sina_token_invalid_warning">حساب Weibo غير صالح، قم بإضافة الحساب مرة أخرى.</string>
     <string name="sina_share_fail_content_repeat">لقد قمت بمشاركة هذا مسبقا.</string>
+    <string name="search_title_notes">@string/app_name</string>
     <string name="search_keyword_notes">الملاحظات;المذكرة</string>
     <string name="search_path_notes">تطبيقات النظام/الملاحظات</string>
     <string name="dlg_move_message">جارٍ النقل…</string>
@@ -62,7 +63,7 @@
     <string name="hint_cannot_view_hidden_note_content">لا يمكن عرض المحتوى في الملاحظات المخفية</string>
     <string name="alert_title_restore">استعادة الملاحظة</string>
     <string name="alert_message_restore">تعذر فتح هذه الملاحظة. قم بإستعادتها لتعديل محتواها.</string>
-    <string name="note_sort_way">اختر كيف تريد ترتيب ملاحظاتك</string>
+    <string name="note_sort_way">كيفية ترتيب ملاحظاتك</string>
     <string name="trash_folder_reminder">الملاحظات التي قمت بحذفها سيتم حذفتها بشكل دائم في غضون ٣٠ يوما.</string>
     <string name="cta_reminder">يحتاج هذا التطبيق الإتصال بالإنترنت لإجراء نسخ احتياطي للملاحظات إلى Mi Cloud، كذلك قراءة جهات الاتصال الخاصة بك لتسمية الملاحظات التي تأخذها أثناء المكالمات.</string>
     <string name="menu_add_folder">إضافة إلى مجلد</string>
@@ -119,6 +120,7 @@
     <string name="error_unsupport_content">هذه الملاحظه تحتوي على محتوى غير مدعوم، المس هنا للتحديث</string>
     <string name="error_contact_not_exist">جهة اتصال غير موجودة</string>
     <string name="sync_tips">انقر لمزامنة الملاحظات مع Mi Cloud.</string>
+    <string name="micloud_state_total_count">%1$s</string>
     <string name="pref_title_font_size">حجم الخط</string>
     <string name="call_folder_name">ملاحظات المكالمات</string>
     <string name="trash_folder_name">المهملات</string>
@@ -198,4 +200,5 @@
     <string name="refuse_to_share_as_pic_because_of_content">الملاحظة كبيرة جدا للمشاركة.</string>
     <string name="refuse_to_open_as_pic_because_of_loading">انتظر حتى يتم تحميل الملاحظة وحاول مجددا.</string>
     <string name="toast_reach_text_limit_checkbox">لا يمكن إضافة مربع الاختيار لأن الملاحظة طويلة جداً</string>
+    <string name="dialog_privacy_revoke_tips">بعد إلغاء الترخيص، سيتوقف التطبيق عن جمع البيانات، وسيتم حذف جميع البيانات ذات الصلة من الخوادم. هذا قد يجعل التطبيق غير قابل للاستخدام تقريبا. هل تريد إلغاء الإذن على أي حال؟ لضمان أمان حسابك، سجل الدخول إلى i.mi.com قبل إلغاء الترخيص لخدمات Mi Cloud.</string>
 </resources>

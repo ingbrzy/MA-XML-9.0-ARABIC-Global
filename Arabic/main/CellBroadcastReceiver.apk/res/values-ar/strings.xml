@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="national_emergency_alert">تحذيرطارئ وطني</string>
+    <string name="national_emergency_alerts">الرسائل التحذيرية الوطنية</string>
+    <string name="warning_alert">رسائل تحذيرية</string>
+    <string name="warning_alerts">الرسائل التحذيرية</string>
+    <string name="test_alert">رسالة تجريبية</string>
+    <string name="test_alerts">الرسالة التجريبية</string>
+    <string name="exercise">تمرين</string>
+    <string name="exercises">تمارين</string>
+    <string name="emergency_alert">تحذيرطارئ</string>
+    <string name="emergency_alerts">الرسائل التحذيرية الطارئة</string>
     <string name="app_label">Cell Broadcasts</string>
     <string name="sms_cb_settings">اعدادات بث الشبكة</string>
     <string name="cell_broadcast_settings_not_available">إعدادات البث الخلوي غير متوفّرة لهذا المستخدم</string>
@@ -30,6 +40,7 @@
     <string name="pws_other_message_identifiers">تنبيه الطوارئ</string>
     <string name="cb_other_message_identifiers">بث الخلية</string>
     <string name="emergency_alert_settings_title">إعدادات اشعارات الطوارئ</string>
+    <string name="notification_channel_broadcast_messages">رسائل البث</string>
     <string name="enable_emergency_alerts_title">تشغيل الإشعارات</string>
     <string name="enable_emergency_alerts_summary">عرض مجموعات بث اشعارات الطوارئ</string>
     <string name="alert_reminder_interval_title">تذكير التنبيه</string>
@@ -91,5 +102,4 @@
     <string name="cmas_opt_out_dialog_text">أنت حاليًا تتلقى اشعارات طوارئ. هل تريد متابعة تلقي اشعارات الطوارئ؟</string>
     <string name="cmas_opt_out_button_yes">نعم</string>
     <string name="cmas_opt_out_button_no">لا</string>
-    <string name="alert_sound_duration_title">مدة صوت التنبيه</string>
 </resources>

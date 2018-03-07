@@ -179,7 +179,7 @@
     <string name="cta_permission_delimiter">,</string>
     <string name="cta_permission_and">و</string>
     <string name="cta_title">شروط الاستخدام</string>
-    <string name="cta_message_license">باستخدام هذا المنتج، فإنك توافق على الشروط المنصوص عليها في شروط الخدمة و سياسة الخصوصية.</string>
+    <string name="cta_message_license">بإستخدام هذا المنتج، فإنك توافق على الشروط المنصوص عليها في شروط الخدمة وسياسة الخصوصية.</string>
     <string name="cta_message_permission">هذا التطبيق يحتاج الى %2$s ليعمل بشكل طبيعي.</string>
     <string name="cta_check_reminder">عدم الإظهار مرة أخرى</string>
     <string name="cta_button_quit">إنهاء</string>

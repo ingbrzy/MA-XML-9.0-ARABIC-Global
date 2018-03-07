@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">+999</string>
     <string name="action_add_to_workspace">إضافة إلى مساحة العمل</string>
     <string name="activity_not_found">لم يتم تثبيت التطبيق على جهازك</string>
     <string name="add_screen">إضافة شاشة</string>
@@ -194,14 +195,14 @@
     <string name="menu_add">أضف</string>
     <string name="menu_auto_fill">ملء الخانات الفارغة</string>
     <string name="menu_back_desktop">الرجوع للشاشة الرئيسية</string>
-    <string name="menu_cell_setting">تخطيط الشاشة الرئيسية</string>
+    <string name="menu_cell_setting">تنسيق الشاشة الرئيسية</string>
     <string name="menu_customize">الاعدادت</string>
     <string name="menu_default_screen_preview">تعيين الشاشة الإفتراضية</string>
     <string name="menu_edit">تعديل الشاشة الرئيسية</string>
     <string name="menu_exit_scene">الخروج من Mi Space</string>
     <string name="menu_item_add_item">وضع على الشاشة الرئيسية</string>
     <string name="menu_launcher_setting">إعدادات المشغل</string>
-    <string name="menu_lock">تخطيط قفل الشاشة الرئيسية</string>
+    <string name="menu_lock">قفل تنسيق الشاشة الرئيسية</string>
     <string name="menu_more">المزيد</string>
     <string name="menu_picktheme">اختر سمة</string>
     <string name="menu_reset_scene">إعادة تعيين للتنسيق الافتراضي</string>
