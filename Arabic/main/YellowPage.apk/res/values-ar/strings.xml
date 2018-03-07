@@ -242,7 +242,6 @@
     <string name="sending_shortcut">جارٍ الإرسال…</string>
     <string name="service_unavailiable">الخدمة غير متوفرة</string>
     <string name="share">مشاركة</string>
-    <string name="shop_recommendation_format">%1$s: %2$s</string>
     <string name="smart_antispam">هوية المتصل</string>
     <string name="toast_finish_delete_call_log">تم حذف سجل المكالمات</string>
     <string name="toast_text_copied">تم نسخ النص</string>

@@ -107,7 +107,6 @@
     <string name="sort_dimension_summary">الملخص</string>
     <string name="sort_direction_ascending">تصاعدي</string>
     <string name="sort_direction_descending">تنازلي</string>
-    <string name="status_bar_notification_info_overflow">+999</string>
     <string name="title_open">فتح من</string>
     <string name="title_save">حفظ في</string>
     <string name="toast_failed_delete">تعذر حذف بعض المستندات</string>
