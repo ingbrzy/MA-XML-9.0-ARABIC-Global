@@ -96,7 +96,6 @@
     <string name="data_provided_by">البيانات مقدمة من قبل</string>
     <string name="edit_alert_city_title">إدارة التنبيهات</string>
     <string name="edit_city">إدارة المدينة</string>
-    <string name="empty">" "</string>
     <string name="feedback_heavy_rain">أمطار غزيرة</string>
     <string name="feedback_heavy_snow">ثلج</string>
     <string name="feedback_light_rain">أمطار خفيفة</string>

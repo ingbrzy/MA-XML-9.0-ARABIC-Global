@@ -86,7 +86,6 @@
     <string name="accessibility_wifi_two_bars">إشارتين Wi-Fi.</string>
     <string name="accessibility_wifi_three_bars">ثلاث إشارات Wi-Fi.</string>
     <string name="accessibility_wifi_signal_full">إشارة Wi-Fi كاملة.</string>
-    <string name="process_kernel_label">‏نظام تشغيل الأندرويد</string>
     <string name="data_usage_uninstalled_apps">التطبيقات المزالة</string>
     <string name="data_usage_uninstalled_apps_users">التطبيقات والمستخدمين الذين تمت إزالتهم</string>
     <string name="tether_settings_title_usb">ربط USB</string>

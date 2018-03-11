@@ -555,7 +555,6 @@
     <string name="you_liao_goddess_desc">قم بتحميل فيديوهات و توسيع قاعدة معجبينك لتكسب مكانة السيدة</string>
     <string name="default_user_desc">لم يقم هذا الشخص بإضافة وصف بعد</string>
     <string name="recommend">موصى به</string>
-    <string name="topic_message">&lt;font color=#fc7050>%1$s: &lt;/font>%2$s</string>
     <string name="message_my_received_praise">أعجباتي</string>
     <string name="message_comment_prefix">"تعليق: "</string>
     <string name="message_reply_prefix">رد</string>

@@ -64,7 +64,6 @@
     <string name="error_forbidden">تم إيقاف المزامنة بسبب مشاكل مع حساب Mi الخاص بك.</string>
     <string name="error_not_acceptable">تم إيقاف المزامنة.</string>
     <string name="more">المزيد</string>
-    <string name="empty" />
     <string name="solar_term_slight_cold">Slight Cold</string>
     <string name="solar_term_great_cold">Great Cold</string>
     <string name="solar_term_spring_begins">Spring Begins</string>
