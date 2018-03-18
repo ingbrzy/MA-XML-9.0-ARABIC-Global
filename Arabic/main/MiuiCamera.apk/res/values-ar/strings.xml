@@ -379,7 +379,6 @@
     <string name="pref_camera_zoom_mode_entry_tele">تقريب</string>
     <string name="pref_camera_zoom_mode_entry_standard">قياسي</string>
     <string name="pref_camera_zoom_mode_entry_high_pixel">بكسل عالية الدقة</string>
-    <string name="pref_camera_zoom_value_title">التكبير/التصغير</string>
     <string name="pref_camera_portrait_mode_title">وضع Portrait</string>
     <string name="pref_camera_portrait_mode_entry_off">وضع Portrait متوقّف</string>
     <string name="pref_camera_portrait_mode_entry_on">وضع Portrait مشغّل</string>
