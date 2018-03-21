@@ -205,7 +205,6 @@
     <string name="add_flow_fail_vip_msg">مسرع تنزيل Xunlei مشغل</string>
     <string name="all_the_internet">كل الشبكات</string>
     <string name="app_downloads">%s تنزيلات</string>
-    <string name="app_size">%1$s</string>
     <string name="auth_activity_title">حساب Xunlei</string>
     <string name="bind_xunlei_account">إضافة حساب Xunlei</string>
     <string name="bt_download">تنزيل</string>
@@ -231,7 +230,6 @@
     <string name="download_list_open_xl_message">سيساعد مسرع Xunlei على تسريع التنزيلات.</string>
     <string name="download_list_open_xl_title">مسرع التنزيل Xunlei</string>
     <string name="download_list_title_browser">التنزيلات</string>
-    <string name="download_num_size">%1$s | %2$s</string>
     <string name="dredge_xunlei_account">إنشاء حساب Xunlei</string>
     <string name="edit_hint">  أدخل عنوان http، أو تورنت أو eMule</string>
     <string name="engine_open">فتح</string>
@@ -404,7 +402,6 @@
     <string name="xl_vip_semiannual">٦ أشهر: %1$s رصيد Mi × ٦</string>
     <string name="xunlei_account_has_unbind_message">تم حذف حساب Xunlei</string>
     <string name="xunlei_brand">مدعوم من Xunlei</string>
-    <string name="xunlei_brand_url">http://mobile.xunlei.com</string>
     <string name="xunlei_close_tips_button">تشغيل</string>
     <string name="xunlei_close_tips_content">مسرع التنزيل Xunlei.</string>
     <string name="xunlei_close_tips_title">قم بتسريع تنزيلاتك</string>
