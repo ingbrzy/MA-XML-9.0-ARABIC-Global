@@ -54,13 +54,17 @@
         <item>عندما يكون الجهاز مقفل او بعد الخروج من تطبيق</item>
         <item>عندما يكون الجهاز مقفل او بعد ١ دقيقة من مغادرة تطبيق</item>
     </string-array>
+    <string-array name="lock_mode_value">
+        <item>١</item>
+        <item>٠</item>
+        <item>٢</item>
+    </string-array>
     <string-array name="sort_type">
         <item>الحالة</item>
         <item>اسم التطبيق</item>
         <item>الإستخدام المتكرر</item>
         <item>التخزين المستخدم</item>
         <item>وقت التثبيت</item>
-        <item>التطبيقات التي يمكن إلغاء تثبيتها</item>
     </string-array>
     <string-array name="sort_title">
         <item>ترتيب حسب الحالة</item>
@@ -68,7 +72,6 @@
         <item>ترتيب حسب الإستخدام المتكرر</item>
         <item>ترتيب حسب التخزين المستخدم</item>
         <item>الترتيب حسب وقت التثبيت</item>
-        <item>إظهار التطبيقات التي يمكن إلغاء تثبيتها أولاََ</item>
     </string-array>
     <string-array name="key_app_info">
         <item>install_source</item>
@@ -131,5 +134,10 @@
         <item>عدم الاهتزاز أبداً</item>
         <item>اهتزاز في الوضع الصامت</item>
         <item>الاهتزاز دائماً</item>
+    </string-array>
+    <string-array name="power_dialog_vibration_items_values">
+        <item>٠</item>
+        <item>١</item>
+        <item>٢</item>
     </string-array>
 </resources>

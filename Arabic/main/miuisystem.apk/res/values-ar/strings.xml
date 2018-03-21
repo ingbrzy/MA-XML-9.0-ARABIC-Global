@@ -115,12 +115,12 @@
     <string name="delete_frequent_phrases_confirm">حذف العبارات المتكررة المحددة؟</string>
     <string name="frequent_phrases_size_exceeded">يمكن إضافة ما يصل الى%1$d جُمل متكررة. قم بحذف الجمل الغير ضرورية لإضافة المزيد.</string>
     <string name="beep">صفير</string>
-    <string name="alarmclock">ساعة منبهة</string>
+    <string name="alarmclock">ساعة منبهه</string>
     <string name="cuckooclock">ساعة الوقواق</string>
-    <string name="daydream">Daydream</string>
+    <string name="daydream">أحلام اليقظة</string>
     <string name="riseandshine">استيقاظ وتألق</string>
     <string name="energy">طاقة</string>
-    <string name="morning">صباح</string>
+    <string name="morning">الصباح</string>
     <string name="chimes">أجراس</string>
     <string name="sunshine">إشراق</string>
     <string name="techno">تكنو</string>

@@ -162,9 +162,9 @@
     <string name="openSuccess">تم التشغيل</string>
     <string name="closeSuccess">تم إيقاف التشغيل</string>
     <string name="settings_set_password_for_owner_space">تعيين قفل الشاشة في الواجهة الاولى</string>
-    <string name="settings_set_password_for_owner_space_desc">تعيين قفل الشاشة في الواجهة الاولى لحذف الإختصار من الإعدادات.</string>
-    <string name="settings_set_password_for_sec_space">تعيين قفل الشاشة في الواجهة الثانية</string>
-    <string name="settings_set_password_for_sec_space_desc">تعيين قفل الشاشة في الواجهة الثانية لحذف الإختصار من الإعدادات.</string>
+    <string name="settings_set_password_for_owner_space_desc">تعيين قفل شاشة في الواجهة الاولى لحذف الإختصار من الإعدادات.</string>
+    <string name="settings_set_password_for_sec_space">تعيين قفل شاشة في الواجهة الثانية</string>
+    <string name="settings_set_password_for_sec_space_desc">تعيين قفل شاشة في الواجهة الثانية لحذف الإختصار من الإعدادات.</string>
     <string name="settings_notification_and_switch_owner_space">إعدادات الواجهة الاولى</string>
     <string name="settings_second_space_entrance_title">اختصار في الإعدادات</string>
     <string name="settings_second_space_entrance_summary">عرض اختصار الواجهة الثانية في الإعدادات</string>
@@ -363,9 +363,20 @@
     <string name="space_create_guide_title_2">إنشاء في أي وقت</string>
     <string name="space_create_guide_desc_2">جاهز تماما لإستخدام المساحة المنفصلة</string>
     <string name="space_create_guide_title_3">خالية تماما من المخاطر</string>
-    <string name="space_create_guide_desc_3">لا يؤثر الواجهة الثانية على العناصر الأخرى بجهازك</string>
+    <string name="space_create_guide_desc_3">لا تؤثر الواجهة الثانية على العناصر الأخرى على جهازك</string>
     <string name="space_create_guide_switchmode_title">التبديل بين الواجهات</string>
     <string name="second_space_desktop_tips_dialog_title">تحديث مهم</string>
     <string name="second_space_desktop_tips_dialog_positive_text">فهمت</string>
-    <string name="second_space_desktop_tips_dialog_message">بعد هذا التحديث، لن يتم عرض أيقونات نقل البيانات وإدارة الواجهة الثانية بعد ذلك على الشاشة الرئيسية. سوف تكون قادر على الوصول إلى الميزات المقابلة في الإعدادات.</string>
+    <string name="second_space_desktop_tips_dialog_message">بعد هذا التحديث، لن يتم عرض أيقونات نقل البيانات وإدارة الواجهة الثانية بعد ذلك على الشاشة الرئيسية. ستكون قادرا على الوصول إلى الميزات المقابلة في الإعدادات.</string>
+    <string name="green_guard">蜂巢</string>
+    <string name="bind_device">绑定设备</string>
+    <string name="green_guard_des1">一键绑定设备，操作简单快捷</string>
+    <string name="green_guard_title2">查看定位</string>
+    <string name="green_guard_des2">实时定位查询，守护外出安全</string>
+    <string name="green_guard_title3">管理应用</string>
+    <string name="green_guard_des3">管理设备应用，控制使用时间</string>
+    <string name="experience_more_features">绑定设备后可体验更多功能</string>
+    <string name="add_spare_text">守护中</string>
+    <string name="control_and_guarding">管控守护中</string>
+    <string name="can_not_switch_when_green_kid_active">家长守护中禁止切换分身</string>
 </resources>

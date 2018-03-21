@@ -352,6 +352,14 @@
         <item quantity="few">تم منح %d أذونات</item>
         <item quantity="many">تم منح %d إذنًا</item>
     </plurals>
+    <plurals name="print_jobs_summary">
+        <item quantity="other">%1$d مهمة طباعة</item>
+        <item quantity="zero">%1$d مهمة طباعة</item>
+        <item quantity="one">مهمة طباعة واحدة</item>
+        <item quantity="two">مهمتان (%1$d) للطباعة</item>
+        <item quantity="few">%1$d مهمات طباعة</item>
+        <item quantity="many">%1$d مهمة طباعة</item>
+    </plurals>
     <plurals name="print_settings_summary">
         <item quantity="other">تم تشغيل %1$d خدمة طباعة</item>
         <item quantity="zero">تم تشغيل %1$d خدمة طباعة</item>

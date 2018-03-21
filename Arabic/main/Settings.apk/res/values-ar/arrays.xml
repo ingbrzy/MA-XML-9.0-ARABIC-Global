@@ -1233,6 +1233,15 @@
         <item>‏شبكة Wi-Fi مُفضّلة</item>
         <item>مفضَّل للجوّال</item>
     </string-array>
+    <string-array name="wifi_calling_mode_values">
+        <item>٢</item>
+        <item>١</item>
+        <item>٠</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_values_without_wifi_only">
+        <item>٢</item>
+        <item>١</item>
+    </string-array>
     <string-array name="wifi_connect_type_entries">
         <item>الاتصال تلقائيا</item>
         <item>إتصال يدوي</item>
@@ -1359,5 +1368,13 @@
         <item>حجم الشاشة</item>
         <item>الدقة</item>
         <item>إصدار الأندرويد</item>
+    </string-array>
+    <string-array name="standard_configuration_version_description_secondary">
+        <item>Snapdragon 820</item>
+        <item>٣٠٠٠ ملي أمبير(typ)</item>
+        <item>١٦ ميغابسكل</item>
+        <item>٥.١٥ بوصة</item>
+        <item>١٠٨٠ × ١٩٢٠</item>
+        <item>٦.٠.١</item>
     </string-array>
 </resources>

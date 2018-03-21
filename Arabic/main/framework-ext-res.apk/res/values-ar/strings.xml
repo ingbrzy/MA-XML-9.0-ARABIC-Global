@@ -11,7 +11,7 @@
     <string name="status_bar_toggle_screen_button">أزرار</string>
     <string name="status_bar_toggle_screenshot">لقطة الشاشة</string>
     <string name="status_bar_toggle_sync">مزامنة</string>
-    <string name="status_bar_toggle_torch">ضوء الفلاش</string>
+    <string name="status_bar_toggle_torch">المصباح</string>
     <string name="status_bar_toggle_vibrate">اهتزاز</string>
     <string name="status_bar_toggle_wifi">Wi-Fi</string>
     <string name="status_bar_toggle_power_mode">الأداء</string>

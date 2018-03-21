@@ -202,6 +202,7 @@
     <string name="passport_get_innetdate_msg">&lt;font color=Red>يبدو انه&lt;/font> تم إعادة استخدام هذا الرقم %s من قِبل شركة الاتصالات، التحقق من الرقم الذي كان متصلا بالإنترنت؟</string>
     <string name="passport_get_innetdate_agree">التحقق</string>
     <string name="passport_get_innetdate_disagree">لا</string>
+    <string name="passport_extra_gdpr_license">إنشاء حساب Mi يعني أنك توافق على أن Xiaomi سوف تجمع وتعالج وتستخدم بياناتك الشخصية، بما في ذلك بيانات التحقق (مثل: رموز التحقق)، وبيانات الواجهة الثانية (مثل: معلومات عن الطرق التي تستخدم بها الواجهة الثانية، والمعرفات المستخدمة في الواجهة الأولى والثانية)، وغيرها من البيانات المحددة في سياسة الخصوصية لدينا. يرجى الرجوع إلى سياسة الخصوصية للتعرف على كيفية معالجة البيانات الشخصية واستخدامها.</string>
     <string name="search_app_name">حساب Mi</string>
     <string name="search_mi_account">حساب Mi</string>
     <string name="search_mi_account_key_words">Mi Cloud،إعداد الحساب،معلومات دفع Mi،تسجيل الخروج</string>
@@ -386,7 +387,7 @@
     <string name="find_device_error_password_not_confirmed">لا يمكن إيقاف التشغيل العثور على الجهاز. ادخل كلمة مرور حساب Mi الخاص بك مرة اخرى.</string>
     <string name="find_device_operation_failed_error_unknown">حدث خطأ ما، أعد المحاولة لاحقا</string>
     <string name="find_device_remote_exception">خطأ RPC</string>
-    <string name="io_error_title">تأكيد الشبكة الخاصة بك</string>
+    <string name="io_error_title">تأكيد الشبكة</string>
     <string name="login_check_find_device_failed_title">تعذر التحقق من معلومات حماية الجهاز</string>
     <string name="notify_network_restricted_title">تعذّر على حساب Mi الاتصال بالشبكة</string>
     <string name="notify_network_restricted_content_hidden_state">تم تقييد نشاط خلفية حساب Mi. انقر للسماح.</string>
@@ -416,9 +417,9 @@
     <string name="find_device_activate_account">تفعيل الحساب</string>
     <string name="login_check_find_device">جارٍ الحصول على معلومات حماية الجهاز…</string>
     <string name="unlock_help_notice">"مساعدة:
-· إذا نسيت كلمة المرور، انتقل إلى id.mi.com لإعادة تعيينها.
-· إن لم تتمكن من إلغاء قفل الجهاز، انتقل إلى i.mi.com لإيقاف \"العثور على الجهاز\"
-· رقم إلغاء القفل الخاص بك: %s"</string>
+ ١. إذا نسيت كلمة المرور، انتقل إلى id.mi.com لإعادة تعيينها.
+٢. إن لم تتمكن من إلغاء قفل الجهاز، انتقل إلى i.mi.com لإيقاف \"العثور على الجهاز\".
+٣. رقم إلغاء القفل الخاص بك: %s"</string>
     <string name="login_find_device_bind">هذا الجهاز مرتبط بمعرف حساب Mi موجود مسبقا (%s).</string>
     <string name="find_device_locked_account_phone" formatted="false">%s، رقم الهاتف المرتبط به: %s</string>
     <string name="find_device_locked_account_email" formatted="false">%s، البريد الإلكتروني المرتبط به: %s</string>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">+999</string>
     <string name="action_add_to_workspace">إضافة إلى مساحة العمل</string>
     <string name="activity_not_found">لم يتم تثبيت التطبيق على جهازك</string>
     <string name="add_screen">إضافة شاشة</string>
@@ -81,13 +82,14 @@
     <string name="current_preview">معاينة</string>
     <string name="current_wallpaper">الحالي</string>
     <string name="custom_wallpaper_picker">تصفح</string>
+    <string name="defalut_launcher_title">المشغل الافتراضي</string>
     <string name="default_folder_title_claro">Claro</string>
     <string name="default_folder_title_game">ألعاب</string>
     <string name="default_folder_title_microsoft">Microsoft</string>
     <string name="default_folder_title_recommend">اخرى</string>
     <string name="default_folder_title_security">النظام</string>
     <string name="default_folder_title_telcel">Telcel</string>
-    <string name="default_folder_title_tools">الأدوات</string>
+    <string name="default_folder_title_tools">أدوات</string>
     <string name="default_screen_preview_title">انقر لتعيين الشاشة الإفتراضية</string>
     <string name="default_shortcut_title_10086">10086.cn</string>
     <string name="delete">حذف</string>
@@ -179,13 +181,16 @@
     <string name="invalid_contact_shortcut">جهة اتصال غير صالحة</string>
     <string name="is_setting_wallpaper_message">تعيين خلفية الشاشة…</string>
     <string name="is_system_wallpaper_message">لا يمكن حذف موارد النظام</string>
+    <string name="launcher_auto_fill_empty_title">ملء الخانات الفارغة</string>
     <string name="launcher_not_exist">حدث خطأ ما، عد إلى الشاشة الرئيسية ثم حاول مرة أخرى.</string>
+    <string name="launcher_title">الشاشة الرئيسية والمستخدمة مؤخراً</string>
     <string name="like">المفضلة</string>
     <string name="liked">مفضّلة</string>
     <string name="loading_desktop">لحظة من فضلك…</string>
     <string name="loading_wallpaper">لحظة من فضلك…</string>
     <string name="local_wallpaper">خلفيات الشاشة التي تم تنزيلها</string>
     <string name="lock_screen">شاشة قفل</string>
+    <string name="lock_screen_cells_title">قفل تنسيق الشاشة الرئيسية</string>
     <string name="lock_screen_failed_message">لا يمكن تعيين الخلفية في شاشة القفل</string>
     <string name="lock_screen_success_message">تم التعيين في شاشة القفل</string>
     <string name="lock_screen_wallpaper">خلفية شاشة القفل</string>
@@ -212,6 +217,7 @@
     <string name="menu_wallpaper">خلفية الشاشة</string>
     <string name="menu_workspace_preview">معاينات الشاشة الرئيسية</string>
     <string name="mi_wallpaper">متجر سمات MIUI</string>
+    <string name="miui_screen_config_title">إعدادات الشاشة الرئيسية</string>
     <string name="mtzgadget_missing_text">عنصر واجهة غير متاح</string>
     <string name="multi_selecting_tips">لإلتقاط تطبيق، إسحب الأيقونة الخاص به وأسقطها هنا</string>
     <string name="no_detail_page">لا توجد تفاصيل الصفحة</string>
@@ -220,6 +226,11 @@
     <string name="notification_installed">تم التثبيت بنجاح</string>
     <string name="notification_open_button">فتح</string>
     <string name="online_wallpaper">من الانترنت</string>
+    <string name="open_personal_assistant_dialog_btn_cancel">إلغاء</string>
+    <string name="open_personal_assistant_dialog_btn_confirm">إيقاف التشغيل</string>
+    <string name="open_personal_assistant_dialog_desc">لن تتمكن من استخدام منصة التطبيقات والحصول على تحديثاته. إيقاف التشغيل الآن؟</string>
+    <string name="open_personal_assistant_dialog_title">قم بإيقاف منصة التطبيقات</string>
+    <string name="open_personal_assistant_title">قم بتشغيل منصة التطبيقات</string>
     <string name="out_of_space">لا يوجد مساحة إضافية بهذه الشاشة</string>
     <string name="permdesc_install_shortcut">السماح لتطبيق بإضافة اختصارات بدون تدخل المستخدم.</string>
     <string name="permdesc_install_widget">السماح لتطبيق بإضافة عنصر الواجهة بدون تدخل المستخدم.</string>
@@ -249,6 +260,8 @@
     <string name="pref_wallpaper_scroll_type_title">اطار خلفية الشاشة</string>
     <string name="preferences_general_title">إعدادات إضافية</string>
     <string name="preferences_title">إعدادات المشغل</string>
+    <string name="preferred_app_settings_not_selected">Not selected</string>
+    <string name="recents_config_title">الحديثة</string>
     <string name="recommend_apk_size_and_desc">%1$dم.ب |%2$s</string>
     <string name="recommend_apps_default_title">فارغ</string>
     <string name="recommend_apps_no_data">لا توجد بيانات</string>
@@ -258,6 +271,7 @@
     <string name="recommend_apps_tips">تحتاج هذه الميزة للاتصال بالإنترنت لتعمل بشكل طبيعي. لإيقاف هذه الميزة، اضغط على اسم المجلد.</string>
     <string name="recommend_loading">جارٍ التحميل</string>
     <string name="reset_scene_prompt">سيتم إعادة تعيين الشاشة للتنسيق الافتراضي.</string>
+    <string name="screen_cells_config_title">تنسيق الشاشة الرئيسية</string>
     <string name="screen_locked_toast">تنسيق الشاشة الرئيسية مقفل</string>
     <string name="screen_number">%d شاشة</string>
     <string name="select_all">تحديد الكل</string>
@@ -268,6 +282,7 @@
     <string name="settings_shortcut">الاعدادت</string>
     <string name="share">مشاركة</string>
     <string name="show_all">عرض الكل</string>
+    <string name="show_mem_info_title">إظهار حالة الذاكرة</string>
     <string name="sort_by_abc">ترتيب حسب الإسم</string>
     <string name="sort_by_frequency">ترتيب حسب الإستخدام</string>
     <string name="sort_by_not_defined">ترتيب تلقائي</string>
@@ -278,6 +293,7 @@
     <string name="status_installing">تثبيت</string>
     <string name="status_paused">إيقاف مؤقت</string>
     <string name="status_pending">جارٍ الإنتظار</string>
+    <string name="title_jeejen">الشاشة الرئيسية Jeejen</string>
     <string name="title_select_live_folder">اختر المجلد</string>
     <string name="title_select_shortcut">اختر الاختصار</string>
     <string name="toast_screen_icons_misplaced">تمت إستعادتها من مصدر آخر، بعض الأيقونات قد تكون في غير محلها</string>
@@ -314,18 +330,4 @@
     <string name="widget_gadget_player">موسيقى</string>
     <string name="widget_global_search">بحث</string>
     <string name="widget_quick_function">وظائف سريعة</string>
-    <string name="defalut_launcher_title">المشغل الافتراضي</string>
-    <string name="launcher_auto_fill_empty_title">ملء الخانات الفارغة</string>
-    <string name="launcher_title">الشاشة الرئيسية والمستخدمة مؤخراً</string>
-    <string name="lock_screen_cells_title">قفل تنسيق الشاشة الرئيسية</string>
-    <string name="miui_screen_config_title">إعدادات الشاشة الرئيسية</string>
-    <string name="open_personal_assistant_dialog_btn_cancel">إلغاء</string>
-    <string name="open_personal_assistant_dialog_btn_confirm">إيقاف التشغيل</string>
-    <string name="open_personal_assistant_dialog_desc">لن تتمكن من استخدام منصة التطبيقات والحصول على تحديثاته. إيقاف التشغيل الآن؟</string>
-    <string name="open_personal_assistant_dialog_title">قم بإيقاف منصة التطبيقات</string>
-    <string name="open_personal_assistant_title">قم بتشغيل منصة التطبيقات</string>
-    <string name="recents_config_title">الحديثة</string>
-    <string name="screen_cells_config_title">تنسيق الشاشة الرئيسية</string>
-    <string name="show_mem_info_title">إظهار حالة الذاكرة</string>
-    <string name="title_jeejen">الشاشة الرئيسية Jeejen</string>
 </resources>

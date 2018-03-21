@@ -147,7 +147,7 @@
     <plurals name="view_realtime_clear">
         <item quantity="other">صافٍ</item>
         <item quantity="zero">صافٍ</item>
-        <item quantity="one">مشمس</item>
+        <item quantity="one">صافٍ</item>
         <item quantity="two">صافٍ</item>
         <item quantity="few">صافٍ</item>
         <item quantity="many">صافٍ</item>

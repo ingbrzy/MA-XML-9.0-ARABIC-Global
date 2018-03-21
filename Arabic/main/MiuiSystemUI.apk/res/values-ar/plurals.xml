@@ -49,12 +49,12 @@
         <item quantity="many">إخفاء الإشعارات من %1$s &amp; %2$d تطبيق.</item>
     </plurals>
     <plurals name="view_realtime_clear">
-        <item quantity="other">سماء صافية</item>
-        <item quantity="zero">مشمس</item>
-        <item quantity="one">مشمس</item>
-        <item quantity="two">سماء صافية</item>
-        <item quantity="few">سماء صافية</item>
-        <item quantity="many">سماء صافية</item>
+        <item quantity="other">صافٍ</item>
+        <item quantity="zero">صافٍ</item>
+        <item quantity="one">صافٍ</item>
+        <item quantity="two">صافٍ</item>
+        <item quantity="few">صافٍ</item>
+        <item quantity="many">صافٍ</item>
     </plurals>
     <plurals name="accessibility_desc_weather_temperature">
         <item quantity="other">الطقس %d درجة</item>

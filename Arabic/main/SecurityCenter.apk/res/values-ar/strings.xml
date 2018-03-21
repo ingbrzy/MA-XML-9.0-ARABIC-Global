@@ -71,6 +71,16 @@
     <string name="dlg_add_white">سيتم عرض المكالمات والرسائل الجديدة من الأرقام المضافة إلى الإستثناءات في سجل المكالمات والرسائل الواردة. ولكن لن تظهر العناصر المحظورة مسبقا هناك. هل تريد إضافة الأرقام المحددة إلى الإستثناءات؟</string>
     <string name="dlg_not_block_sms">إلغاء حظر الأرقام المحددة؟ سيتم إضافتهم إلى الاستثناءات، ولكن لن يتم عرض العناصر المحظورة مسبقا في بريد الرسائل.</string>
     <string name="dlg_not_block_call">إلغاء حظر الأرقام المحددة؟ سيتم إضافتهم إلى الاستثناءات، ولكن لن يتم عرض العناصر المحظورة مسبقاً في سجل المكالمات.</string>
+    <string name="dlg_update_date_title">تحذير</string>
+    <string name="dlg_update_data_content">أنت غير متصل بشبكة Wi-Fi. وقد يؤدي استخدام بيانات الجوال إلى فرض رسوم إضافية. هل تريد المتابعة على أي حال؟</string>
+    <string name="dlg_sec_network_unavailable">لا يمكن لتطبيق الحماية التحديث لأنك قمت بتقييد إتصال الإنترنت. هل تريد السماح لتطبيق الحماية الاتصال بالإنترنت؟</string>
+    <string name="dlg_update_btn_contiue">المتابعة</string>
+    <string name="dlg_update_btn_open">السماح</string>
+    <string name="dlg_update_updating">جارٍ التحديث…</string>
+    <string name="toast_update_nonetwork">تعذر الاتصال بالشبكة</string>
+    <string name="toast_update_fail">تعذر التحديث</string>
+    <string name="toast_update_success">تم التحديث بنجاح</string>
+    <string name="toast_update_notneed">مُحدث</string>
     <string name="menu_call">طلب</string>
     <string name="menu_sms">ارسال رسالة</string>
     <string name="menu_bl_call_log">عرض المكالمات المحظورة</string>
@@ -251,6 +261,7 @@
     <string name="mark_time_text">%d</string>
     <string name="mark_time_setting_dialog_title">الإبلاغ عن الرقم</string>
     <string name="sms_smart_engine_update">تحديث أداة تصفية الرسائل القصيرة تلقائياً</string>
+    <string name="sms_smart_engine_update_now">تحديث</string>
     <string name="mark_number_setting_guide_title">حظر الأرقام المبلغ عنها</string>
     <string name="mark_number_setting_guide_content1">حظر المكالمات الواردة من الأرقام المبلغ عنها؟</string>
     <string name="mark_number_setting_guide_content2">حظر المكالمات الواردة من أرقام تم الإبلاغ عنها من قبل مستخدمين آخرين تلقائياً</string>
@@ -304,7 +315,7 @@
     <string name="cta_dialog_title">اتصال الإنترنت</string>
     <string name="cta_dialog_msg">الحماية تحتاج إلى الاتصال بالإنترنت للحصول على التحديثات، وكذلك الوصول إلى الموقع لتعمل بشكل طبيعي.</string>
     <string name="cta_settings">السماح بالاتصال بالإنترنت</string>
-    <string name="gdpr_msg"><Data>لإستخدام ميزات الحماية الأساسية، يجب عليك الموافقة على أن Xiaomi سوف تجمع وتعالج وتستخدم بياناتك الشخصية. بما في ذلك معلومات عن الطرق التي تستخدم بها ميزات الحماية(مثل: إحصاءات استخدام بيانات الجوال، ومعلومات عن البرامج الضارة، وكذلك المعلومات الأساسية حول الجهاز) وأنواع أخرى من المعلومات المحددة في &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">سياسة الخصوصية&lt;/a>لدينا.</Data></string>
+    <string name="gdpr_msg"><Data>لإستخدام ميزات الحماية الأساسية، يجب عليك الموافقة على أن Xiaomi سوف تجمع وتعالج وتستخدم بياناتك الشخصية. بما في ذلك معلومات عن الطرق التي تستخدم بها ميزات الحماية(مثل: إحصاءات استخدام بيانات الجوال، ومعلومات عن البرامج الضارة، وكذلك المعلومات الأساسية حول الجهاز) وأنواع أخرى من المعلومات المحددة في &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">سياسة الخصوصية&lt;/a> لدينا.</Data></string>
     <string name="app_name_na">استخدام البيانات</string>
     <string name="list_empty_text">فارغ</string>
     <string name="dialog_title_attention">تنبيه</string>
@@ -385,8 +396,8 @@
     <string name="firewall_system_title">استخدام البيانات لتطبيقات النظام</string>
     <string name="firewall_temp_rule_reason">قام %2$s بتقييد اتصال الأنترنت على %1$s​</string>
     <string name="dialog_restrict_all_wlan_title">تقييد اتصال Wi-Fi</string>
-    <string name="dialog_restrict_all_wlan_summary">سيتم تقييد اتصال Wi-Fi لجميع التطبيقات بعد هذا.</string>
-    <string name="dialog_restrict_all_mobile_title">تقييد %s اتصال بيانات الجوال</string>
+    <string name="dialog_restrict_all_wlan_summary">سيتم تقييد اتصال Wi-Fi لجميع التطبيقات بعد ذلك.</string>
+    <string name="dialog_restrict_all_mobile_title">تقييد اتصال بيانات الجوال لـ %s</string>
     <string name="dialog_restrict_all_mobile_summary">سيتم تقييد اتصال بيانات الجوال لبطاقة %s لجميع التطبيقات بعد ذلك.</string>
     <string name="dialog_restrict_positive">إلغاء</string>
     <string name="dialog_restrict_negative">تقييد</string>
@@ -412,6 +423,7 @@
     <string name="detail_app_button">معلومات التطبيق</string>
     <string name="pref_about_traffic_title">إعدادات استخدام البيانات</string>
     <string name="pref_traffic_manage_title">استخدام البيانات</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">خطة البيانات</string>
     <string name="pref_adjust_traffic_data">تعيين استخدام البيانات</string>
     <string name="pref_category_title_other">إعدادات إضافية</string>
@@ -524,7 +536,7 @@
     <string name="leisure_usage_dialog_message">"لقد وصلت إلى حد البيانات خارج وقت الذروة.
 
  قد تفرض عليك شركة الاتصالات رسوم إضافية إذا استخدمت اتصال بيانات الجوال مرة أخرى."</string>
-    <string name="data_usage_protected_notify_title">لقد استخدمت بالفعل ٥غ.ب من بيانات الجوال</string>
+    <string name="data_usage_protected_notify_title">لقد استخدمت بالفعل ٥ ميغابايت من بيانات الجوال</string>
     <string name="data_usage_protected_notify_message">قام MIUI بإيقاف تشغيل بيانات الجوال لمنع فرض رسوم إضافية.</string>
     <string name="data_usage_mobile_dialog_title">لقد استخدمت ٥ غيغابايت من بيانات الجوال. قام MIUI بإيقاف التشغيل بيانات الجوال.</string>
     <string name="data_usage_protected_dialog_message">"قام MIUI بإيقاف تشغيل بيانات الجوال لمنع فرض رسوم إضافية.
@@ -931,6 +943,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"هذا التطبيق قد يبطئ
 جهازك"</string>
+    <string name="om_memory_clean_memory_info_text">%2$s / %1$s</string>
     <string name="om_ill_proc_handle_unstaill_title">إلغاء التثبيت %s؟</string>
     <string name="om_ill_proc_handle_uninstall_prompt">إلغاء تثبيت هذا التطبيق لإصلاح مشاكل إستخدام البطارية.</string>
     <string name="om_ill_proc_type_wakelock_title">هذا التطبيق يقوم بحظر وضع السكون ويستنزف البطارية</string>
@@ -989,6 +1002,7 @@
     <string name="usage_type_data_send">بيانات الجوال المرسلة</string>
     <string name="usage_type_no_coverage">الوقت بدون إشارة</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">أندرويد</string>
     <string name="process_mediaserver_label">خادم الوسائط</string>
     <string name="power_screen">الشاشة</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1334,6 +1348,7 @@
     <string name="menu_text_networkassistants">استخدام البيانات</string>
     <string name="menu_text_networkassistants_remain">%s متبقي</string>
     <string name="menu_text_networkassistants_danger">%s زائد</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">غ.ب</string>
     <string name="menu_text_networkassistants_unit_mb">م.ب</string>
     <string name="menu_text_networkassistants_unit_kb">ك.ب</string>
@@ -1694,6 +1709,7 @@
     <string name="card_main_deepclean_wechat_action">حذف</string>
     <string name="card_main_sectool_title">الأدوات</string>
     <string name="card_main_monthreport_action">عرض</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">اختبار الشبكة</string>
     <string name="card_main_netcheck_summary">اختبار الاتصال لمشاكل الشبكة</string>
     <string name="card_main_netcheck_action">اختبار</string>
@@ -1917,7 +1933,7 @@
     <string name="sponsored_sec_fb">إعلان مُموَّل</string>
     <string name="add_game_notification_summary">انقر للتشغيل وزيادة السرعة</string>
     <string name="app_manager_title">إدارة التطبيقات</string>
-    <string name="app_manager_app_lock">قفل التطبيقات</string>
+    <string name="app_manager_uninstall">إلغاء التثبيت</string>
     <string name="app_manager_bipartition">التطبيقات المزدوجة</string>
     <string name="app_manager_perm">الأذونات</string>
     <string name="app_manager_app_update">تحديثات</string>
@@ -2024,8 +2040,6 @@
     <string name="app_manager_cache_size">ذاكرة التخزين المؤقت</string>
     <string name="app_manager_clear_all_data">مسح جميع البيانات</string>
     <string name="app_manager_dlg_clear_cache_title">مسح الذاكرة المؤقتة؟</string>
-    <string name="app_manager_support_uninstall">يمكنك إلغاء تثبيت هذه التطبيقات</string>
-    <string name="app_manager_not_support_uninstall">لا يمكن إلغاء تثبيت هذه التطبيقات</string>
     <string name="app_manager_comuting_size">جارٍ الحساب…</string>
     <string name="app_manager_show_all_apps_opened">عرض النتائج من جميع التطبيقات…</string>
     <string name="app_manager_search_prompt">تعذر العثور على النتائج؟ جرب إظهار النتائج من جميع التطبيقات.</string>
@@ -2139,7 +2153,7 @@
     <string name="receive_now">إستلام</string>
     <string name="net_booster">زيادة سرعة الشبكة</string>
     <string name="xunyou_net_booster">زيادة سرعة الشبكة</string>
-    <string name="xunyou_net_booster_detail">استخدام خدمات زيادة سرعة Xunyou للألعاب</string>
+    <string name="xunyou_net_booster_detail">استخدم خدمات محسن السرعة Xunyou للألعاب</string>
     <string name="wlan_booster">تحسين Wi-Fi</string>
     <string name="tab_gift">الهدايا</string>
     <string name="tab_guide">دليل</string>
@@ -2151,10 +2165,10 @@
     <string name="net_booster_tip">تشغيل زيادة سرعة الشبكة لجعل اتصال Wi-Fi مستقر أكثر وتقليل تأخير الشبكة.</string>
     <string name="wifi_optizition_title">زيادة سرعة Wi-Fi</string>
     <string name="wifi_optizition_tip">تشغيل زيادة سرعة الـ Wi-Fi لجعل اتصال الـ Wi-Fi أكثر استقراراً. سيتم استخدام كمية صغيرة من بيانات الجوال.</string>
-    <string name="wifi_optizition_loading">جارٍ تشغيل زيادة سرعة شبكة Xunyou…</string>
+    <string name="wifi_optizition_loading">جارٍ تشغيل محسن سرعة الشبكة Xunyou…</string>
     <string name="free_send_net_booster">زيادة سرعة الشبكة مجاناً</string>
     <string name="free_send_net_booster_tip">استمتع بالعب بسلاسة مع زيادة سرعة الشبكة مجانا.</string>
-    <string name="free_send_net_booster_busniess">احصل على Xunlei لزيادة السرعة</string>
+    <string name="free_send_net_booster_busniess">احصل على محسن السرعة Xunlei مجانا</string>
     <string name="free_send_net_booster_busniess_tip">انقر للاستلام</string>
     <string name="net_booster_overdue_notification">جلسة زيادة سرعة الشبكة على وشك الانتهاء</string>
     <string name="net_booster_overdue_notification_tip">جلسة زيادة سرعة الشبكة على وشك الانتهاء. تجديد الجلسة؟</string>
@@ -2181,11 +2195,30 @@
     <string name="gb_description_image_button_reject">رفض</string>
     <string name="gs_autobooster">زيادة السرعة تلقائيا</string>
     <string name="gs_autobooster_detail">زيادة سرعة الألعاب المختارة تلقائياً</string>
-    <string name="gs_autobooster_dialog_message">إذا كنت تستخدم خدمات زيادة سرعة Xunyou، افتح الألعاب على الصفحة المحددة.</string>
+    <string name="gs_autobooster_dialog_message">إذا كنت تستخدم خدمات محسن السرعة Xunyou، افتح الألعاب على الصفحة المحددة.</string>
     <string name="accessibility_gameboosterservice_description">كتم صوت مكالمات WeChat الواردة عند تشغيلك الألعاب</string>
     <string name="gb_cutoff">|</string>
     <string name="gb_ad_game_size">م.ب</string>
     <string name="gb_new_feature">ميزة جديدة</string>
+    <string name="gb_sign_notification_title">زيادة سرعة الشبكة للألعاب</string>
+    <string name="gb_sign_notification_summary">قم بتسجيل الدخول يوميا لتحصل على محسن السرعة Xunyou</string>
+    <string name="gs_sign_notification">التذكير بتسجيل الدخول في الساعة ٨ مساء يومياً</string>
+    <string name="gb_sign_gift">قم بتسجيل الدخول لتحصل على جوائز</string>
+    <string name="signed_rule">القواعد</string>
+    <string name="signed_rule_one">١. تسجيل الدخول لـ ١٠ أو ٢٠ أو ٢٨ يومًا متتاليًا كل شهر للحصول على محسن السرعة Xunyou لمدة ١ أو ٢ أو ٣ أيام على التوالي.</string>
+    <string name="signed_rule_two">٢. يمكنك فقط الحصول على محسن السرعة Xunyou واحد كل شهر.</string>
+    <string name="signed_rule_three">٣. يتم إعادة تعيين عداد تسجيلات الدخول إلى الصفر في بداية كل شهر. حيث لا يتم نقل الأيام السابقة إلى الشهر المقبل.</string>
+    <string name="gb_get_gift_right_now">تسجيل الدخول الآن</string>
+    <string name="gb_have_signed">عدد تسجيلات الدخول لليوم</string>
+    <string name="gb_sign_gift_button_text">استلام</string>
+    <string name="gb_xunyou_gift_type_one">محسن السرعة Xunyou (١ يوم)</string>
+    <string name="gb_xunyou_gift_type_two">محسن السرعة Xunyou (٢ أيام)</string>
+    <string name="gb_xunyou_gift_type_three">محسن السرعة Xunyou (٣ أيام)</string>
+    <string name="gb_signed_title">عدد تسجيلات الدخول لهذا الشهر</string>
+    <string name="gb_network_status_bad">حدث خطأ ما في الاتصال.</string>
+    <string name="gs_open_game_booster_summary">زيادة سرعة الشبكة للألعاب</string>
+    <string name="gb_signed_gift_loading_summary">لحظة من فضلك…</string>
+    <string name="gb_signed_gift_loading_fail">تعذر التحميل</string>
     <string name="power_center_consume_rank">استخدام البطارية</string>
     <string name="power_center_custom_title">وضع البطارية</string>
     <string name="power_center_auto_shutdown_summary_default">قم بتشغيل جهازك أو إيقافه في وقت المحدد</string>

@@ -1308,7 +1308,6 @@
     <string name="debug_networking_category">الشبكات</string>
     <string name="debug_view_attributes">تمكين فحص سمة العرض</string>
     <string name="decline_remote_bugreport_action">رفض</string>
-    <string name="defalut_launcher_title">المشغل الافتراضي</string>
     <string name="default_admin_support_msg">تم تعطيل هذا الإجراء. لمعرفة المزيد من المعلومات، اتصل بمشرف المؤسسة.</string>
     <string name="default_app">(افتراضي)</string>
     <string name="default_apps_title">التطبيقات الافتراضية</string>
@@ -1432,7 +1431,7 @@
     <string name="display_auto_rotate_rotate">تشغيل</string>
     <string name="display_auto_rotate_stay_in_current">إيقاف</string>
     <string name="display_auto_rotate_stay_in_landscape">قفل المنظر الطبيعي</string>
-    <string name="display_auto_rotate_stay_in_portrait">قفل وضع Portrait</string>
+    <string name="display_auto_rotate_stay_in_portrait">قفل وضع بورتريه</string>
     <string name="display_auto_rotate_title">تدوير محتويات الشاشة</string>
     <string name="display_category_title">العرض</string>
     <string name="display_dashboard_summary">خلفية، سكون، حجم الخط</string>
@@ -1578,7 +1577,7 @@
     <string name="enable_terminal_title">تطبيق طرفي محلي</string>
     <string name="enable_text">تمكين</string>
     <string name="enable_wifi_display">العرض اللاسلكي</string>
-    <string name="enabled_authorised_apps_summary">سيتم إلغاء ترخيصك بعد تبديلك مفاتيح تشغيل/إيقاف للتطبيقات الفردية.</string>
+    <string name="enabled_authorised_apps_summary">سيتم إلغاء الترخيص بعد تبديلك مفاتيح تشغيل/إيقاف للتطبيقات الفردية.</string>
     <string name="enabled_authorised_apps_title">تم منح الترخيص</string>
     <string name="enabled_by_admin">تم تمكين الإعداد بواسطة المشرف</string>
     <string name="enalbe_identify_iPhone">تعريف AP</string>
@@ -2017,6 +2016,7 @@
     <string name="key_gesture_function_preview">معاينات الزر والإيماءة</string>
     <string name="key_gesture_function_shortcut">الاختصارات الوظيفية</string>
     <string name="key_none">لا شيء</string>
+    <string name="key_operation_diagram">مخطط العملية</string>
     <string name="key_position_cat">أوضاع الزر</string>
     <string name="key_settings">اختصارات الزر والإيماءة</string>
     <string name="key_settings_title">اختصارات الزر والإيماءة</string>
@@ -2038,7 +2038,7 @@
     <string name="keywords_all_apps">تطبيقات، تنزيل، التطبيقات، نظام</string>
     <string name="keywords_app">ذاكرة الوصول العشوائي</string>
     <string name="keywords_app_permissions">تطبيقات، أذونات، أمان</string>
-    <string name="keywords_auto_rotate">دوران;تدوير الشاشة;التوجيه;توجيه الشاشة;وضع صورة شخصية;وضع منظر طبيعي;وضع Portrait;أفقي</string>
+    <string name="keywords_auto_rotate">دوران;تدوير الشاشة;التوجيه;توجيه الشاشة;وضع صورة شخصية;وضع منظر طبيعي;وضع بورتريه;أفقي</string>
     <string name="keywords_backup">نسخ احتياطية، نسخة احتياطية</string>
     <string name="keywords_battery">استخدام الطاقة، شحن</string>
     <string name="keywords_bluetooth">بلوتوث;بلوتوث;بلوتوث</string>
@@ -2084,7 +2084,7 @@
     <string name="keywords_sync">مزامنة;تزامن;Cloud</string>
     <string name="keywords_system_alert_window">يظهر مربع حوار نافذة تنبيه النظام أمام التطبيقات الأخرى</string>
     <string name="keywords_text_to_speech_output">تقييم، لغة، افتراضي، يتحدث، تحدث، تحويل نص إلى كلام، إمكانية الوصول، قارئ شاشة، مكفوف</string>
-    <string name="keywords_torch">ضوء الفلاش;فلاش</string>
+    <string name="keywords_torch">ضوء الفلاش;المصباح</string>
     <string name="keywords_unification">الملف الشخصي للعمل، ملف شخصي مُدار، يوحِّد، توحيد، عمل، ملف شخصي</string>
     <string name="keywords_users">تقييد، يقيد، مقيد</string>
     <string name="keywords_vibrate">اهتزاز;إهتزاز</string>
@@ -2106,8 +2106,7 @@
     <string name="launch_google_search">تشغيل مساعد Google</string>
     <string name="launch_recents">بدأ المستخدم مؤخراً</string>
     <string name="launch_voice_assistant">تشغيل المساعد الصوتي</string>
-    <string name="launcher_auto_fill_empty_title">ملء الخانات الفارغة</string>
-    <string name="launcher_title">الشاشة الرئيسية والمستخدمة مؤخراً</string>
+    <string name="launcher_title">الشاشة الرئيسية والمستخدم مؤخراً</string>
     <string name="launching_cit">جارٍ تشغيل CIT</string>
     <string name="launching_pho">تشغيل معلومات الهاتف…</string>
     <string name="launching_rep">جارٍ الإبلاغ…</string>
@@ -2136,6 +2135,7 @@
     <string name="lift_to_wake_title">الرفع لتنبيه الجهاز</string>
     <string name="line_breaking_summary">تحسين تباعد الأسطر بين الفقرات</string>
     <string name="line_breaking_title">تحسين النص</string>
+    <string name="link_speed">‏%1$d ميغابت في الثانية</string>
     <string name="loading_notification_apps">جارٍ تحميل التطبيقات...</string>
     <string name="local_auto_backup_off">إيقاف</string>
     <string name="local_auto_backup_on">تشغيل</string>
@@ -2216,7 +2216,6 @@
     <string name="lock_profile_wipe_warning_content_pattern">عند إدخال نمط للعمل غير صحيح في هذه المحاولة، ستتم إزالة الملف الشخصي للعمل والبيانات المرتبطة به من هذا الجهاز.</string>
     <string name="lock_profile_wipe_warning_content_pin">عند إدخال رقم تعريف شخصي للعمل غير صحيح في هذه المحاولة، ستتم إزالة الملف الشخصي للعمل والبيانات المرتبطة به من هذا الجهاز.</string>
     <string name="lock_profile_wipe_warning_title">المحاولة الأخيرة</string>
-    <string name="lock_screen_cells_title">قفل تنسيق الشاشة الرئيسية</string>
     <string name="lock_screen_intro_skip_dialog_text">لن يتم تنشيط ميزات حماية الجهاز، ولن يكون بمقدورك منع الآخرين من استخدام هذا الهاتف في حال فقده أو سرقته.</string>
     <string name="lock_screen_intro_skip_dialog_text_frp">لن يتم تنشيط ميزات حماية الجهاز، ولن يكون بمقدورك منع الآخرين من استخدام هذا الهاتف في حال فقده أو سرقته أو محو بياناته.</string>
     <string name="lock_screen_notifications_interstitial_message">ما الطريقة التي تريد عرض الإشعارات بها عندما يكون الجهاز مقفولاً؟</string>
@@ -2479,6 +2478,8 @@
     <string name="memory_settings_title">الذاكرة</string>
     <string name="memory_size">المساحة الإجمالية</string>
     <string name="memory_summary">تم استخدام متوسط ذاكرة بحجم %1$s من إجمالي %2$s</string>
+    <string name="memory_system_rom">تخزين النظام</string>
+    <string name="memory_system_space">تخزين النظام</string>
     <string name="memory_title">متوفر: %1$s\u0009\u0009إجمالي: %2$s</string>
     <string name="memory_usage">استخدام الذاكرة</string>
     <string name="memory_usage_apps">الذاكرة المستخدمة بواسطة التطبيقات</string>
@@ -2529,7 +2530,6 @@
     <string name="miui_lab_slogan">تعلم. استكشف. اكتشف.</string>
     <string name="miui_lab_taplus_desc">اضغط مع الاستمرار على العناصر لتشغيل الإجراءات</string>
     <string name="miui_master_clear_summary">محو كافة البيانات الموجودة على الهاتف</string>
-    <string name="miui_screen_config_title">إعدادات الشاشة الرئيسية</string>
     <string name="miui_updater">تحديث النظام</string>
     <string name="mms_breathing_light_color_title">لون إضاءة الرسائل</string>
     <string name="mms_breathing_light_freq_title">تكرار وميض الرسائل</string>
@@ -2693,8 +2693,8 @@
     <string name="nfc_more_title">المزيد...</string>
     <string name="nfc_payment_default">التطبيق الافتراضي للدفع</string>
     <string name="nfc_payment_default_not_set">لم يتم التعيين</string>
-    <string name="nfc_payment_favor_default">دومًا</string>
-    <string name="nfc_payment_favor_open">إذا كان هناك تطبيق دفع آخر مفتوحًا</string>
+    <string name="nfc_payment_favor_default">استخدم دائماً التطبيق الإفتراضي</string>
+    <string name="nfc_payment_favor_open">إستبدال التطبيق الافتراضي عند فتح تطبيق دفع آخر</string>
     <string name="nfc_payment_how_it_works">آلية العمل</string>
     <string name="nfc_payment_no_apps">ادفع بواسطة هاتفك في المتاجر والمحال</string>
     <string name="nfc_payment_pay_with">في أحد الأجهزة الطرفية للتوصيل والدفع، يمكنك الدفع باستخدام:</string>
@@ -2868,11 +2868,6 @@
     <string name="open_demo_mode_warning_message">في الوضع التجريبي، سيتم إيقاف الساعة في شريط الحالة، وسيتم عرض أيقونات البطارية وإشارة الشبكة بالكامل. لتغيير هذا الإجراء، قم بإيقاف تشغيل الوضع التجريبي أو إعادة تشغيل الجهاز.</string>
     <string name="open_miui_optimization_title">تشغيل تحسين MIUI</string>
     <string name="open_miui_optimization_warning_message">سيقوم جهازك بإعادة التشغيل لتطبيق هذا التغيير.</string>
-    <string name="open_personal_assistant_dialog_btn_cancel">إلغاء</string>
-    <string name="open_personal_assistant_dialog_btn_confirm">إيقاف التشغيل</string>
-    <string name="open_personal_assistant_dialog_desc">لن تتمكن من استخدام منصة التطبيقات والحصول على تحديثاته. إيقاف التشغيل الآن؟</string>
-    <string name="open_personal_assistant_dialog_title">قم بإيقاف منصة التطبيقات</string>
-    <string name="open_personal_assistant_title">قم بتشغيل منصة التطبيقات</string>
     <string name="open_wifi_connect_summary">انقرلعرض التفاصيل.</string>
     <string name="open_wifi_connect_title">متصل بشبكة %1$s</string>
     <string name="opening_paragraph_delete_profile_unknown_company">تتم إدارة الملف الشخصي للعمل هذا بواسطة:</string>
@@ -3178,6 +3173,7 @@
     <string name="private_sms_recording_intro_header">ارسم نقش قفل الشاشة:</string>
     <string name="private_sms_reset_by_account">لإعادة تعيين كلمة المرور، سجل الدخول إلى حساب Mi</string>
     <string name="process_dex2oat_label">تحسين التطبيقات</string>
+    <string name="process_kernel_label">‏نظام التشغيل Android</string>
     <string name="process_mediaserver_label">خادم الوسائط</string>
     <string name="process_provider_in_use_description">الموفر %1$s قيد الاستخدام.</string>
     <string name="process_service_in_use_description">الخدمة %1$s قيد الاستخدام.</string>
@@ -3198,6 +3194,7 @@
     <string name="profile_section_header">إشعارات العمل</string>
     <string name="progress_scanning">البحث</string>
     <string name="provider_label">اشتراكات يعرضها الناشر</string>
+    <string name="provision_activation">تفعيل</string>
     <string name="provision_back">رجوع</string>
     <string name="provision_next">التالي</string>
     <string name="provision_page_layout_confirm_message">يحتاج الجهاز إلى إعادة تشغيل لتطبيق التغييرات. سيستغرق دقيقة تقريبًا.</string>
@@ -3301,7 +3298,6 @@
     <string name="receiver_clean">تفريغ مساحة</string>
     <string name="recent_location_requests_summary">عرض كل التطبيقات التي تطلب الوصول إلى معلومات موقعك</string>
     <string name="recent_location_requests_title">الوصول إلى الموقع</string>
-    <string name="recents_config_title">الحديثة</string>
     <string name="recommend_item_1">حالة الهاتف</string>
     <string name="recommend_item_3">بنك الطاقة</string>
     <string name="recommend_item_4">سماعات أذن</string>
@@ -3426,7 +3422,6 @@
     <string name="screen">الشاشة</string>
     <string name="screen_button">أزرار الشاشة</string>
     <string name="screen_button_tips">اسحب لأسفل لإخفاء أزرار الشاشة</string>
-    <string name="screen_cells_config_title">تنسيق الشاشة الرئيسية</string>
     <string name="screen_color_and_optimize">الألوان والتباين</string>
     <string name="screen_color_and_optimize_disabled">لا يمكن تغيير درجة اللون في وضع القراءة</string>
     <string name="screen_color_temperature">الألوان</string>
@@ -3576,7 +3571,7 @@
     <string name="se_wallet_hce">استخدم محفظة HCE</string>
     <string name="se_wallet_uicc">استخدام محفظة SIM%1$s</string>
     <string name="search_about_settings">حول الهاتف؛رقم الطراز؛اصدار اندرويد؛اصدار MIUI؛المعالج؛ذاكرة RAM؛الذاكرة الداخلية؛إصدار النطاق الأساسي؛نسخة Kernel؛رقم الاصدار</string>
-    <string name="search_accelerometer_title">تدوير تلقائي للشاشة;تدوير الشاشة;التوجيه;Portrait;أفقي</string>
+    <string name="search_accelerometer_title">تدوير تلقائي للشاشة;تدوير الشاشة;التوجيه;بورتريه;أفقي</string>
     <string name="search_access_control">إعدادات الخصوصية;خصوصية الحماية;ضيف;وضع الضيف</string>
     <string name="search_accessibility_captioning_title">التسميات التوضيحية</string>
     <string name="search_accessibility_display_daltonizer_preference_title">تصحيح الألوان;لون;ألوان</string>
@@ -3936,7 +3931,6 @@
     <string name="show_ime">إظهار لوحة المفاتيح الظاهرية</string>
     <string name="show_ime_summary">استمرار عرضها على الشاشة أثناء نشاط لوحة المفاتيح الفعلية</string>
     <string name="show_magnifier_when_input">عدسة تكبير النص</string>
-    <string name="show_mem_info_title">إظهار حالة الذاكرة</string>
     <string name="show_menu">عرض القائمة</string>
     <string name="show_non_rect_clip">تصحيح أخطاء عمليات القصاصات غير المستطيلة</string>
     <string name="show_notification_channel_warnings">عرض تحذيرات قناة الإشعار</string>
@@ -4099,6 +4093,7 @@
     <string name="status_bar_app_enable_keyguard">شاشة القفل</string>
     <string name="status_bar_app_enable_message">الشارات</string>
     <string name="status_bar_key_position_custom">تغيير أوضاع الزر</string>
+    <string name="status_bar_notification_info_overflow">+999</string>
     <string name="status_bar_screen_button_force_immersive_desc">مرّر لأعلى من أسفل الشاشة لإظهار أزرار الشاشة</string>
     <string name="status_bar_screen_button_key_force_immersive">إخفاء أزرار الشاشة</string>
     <string name="status_bar_screen_key_back">زر الرجوع</string>
@@ -4452,7 +4447,6 @@
     <string name="title_font_current2">خط النظام</string>
     <string name="title_font_size">حجم الخط</string>
     <string name="title_hdmi_color_calibration">الإعدادات المسبقة لتصحيح اللون</string>
-    <string name="title_jeejen">الشاشة الرئيسية Jeejen</string>
     <string name="title_layout_current">حجم النص</string>
     <string name="title_layout_current2">حجم النص</string>
     <string name="toast_lockscreen_glogin_empty_password">إدخال كلمة المرور</string>
@@ -4546,7 +4540,7 @@
     <string name="turn_on_keyguard_password_alert_forget_content">تذكر كلمة مرور شاشة القفل. إذا نسيتها، سيتوجب عليك محو جميع البيانات على جهازك، بما في ذلك الصور وجهات الاتصال، ثم تعيين واحدة جديدة.</string>
     <string name="turn_on_keyguard_password_alert_forget_title">تذكر كلمة المرور الخاصة بك</string>
     <string name="turn_on_security_lock">اختيار قفل الشاشة</string>
-    <string name="turn_on_torch">تشغيل ضوء الفلاش</string>
+    <string name="turn_on_torch">تشغيل المصباح</string>
     <string name="turn_update_keyguard_password_wait_dialog">جارٍ تغيير كلمة المرور…</string>
     <string name="twohours">١ ساعة</string>
     <string name="under_keyguard">إيقاف تشغيل الشاشة</string>
@@ -4642,7 +4636,7 @@
     <string name="untitled_apn">بلا عنوان</string>
     <string name="update_new_version">تحديث متاح</string>
     <string name="update_progress_for_updates">جارٍ التحديث (%s)</string>
-    <string name="upload_debug_log_summary">يمكن أن تشمل بيانات التشخيص على معلومات حول استخدامك لمعدات الجهاز، نظام التشغيل والتطبيقات. سيتم استخدام البيانات لتحديد وتحليل المشاكل في النظام ولن تستخدم أبداً للتعرف على هويتك.</string>
+    <string name="upload_debug_log_summary">قد تحتوي إحصائيات بيانات الاستخدام التي تساعدنا على إيجاد المشاكل وحلها على معلوماتك الشخصية</string>
     <string name="upload_debug_log_title">إرسال البيانات التشخيصية تلقائياً</string>
     <string name="usage">الاستخدام</string>
     <string name="usage_access">الدخول إلى الاستخدام</string>
@@ -4792,7 +4786,7 @@
     <string name="user_exit_guest_dialog_remove">إزالة</string>
     <string name="user_exit_guest_title">إزالة جلسة الضيف</string>
     <string name="user_experience_program">برنامج تجربة المستخدم</string>
-    <string name="user_experience_program_summary">إرسال بيانات الاستخدام بشكل مجهول للمساعدة في تحسين MIUI</string>
+    <string name="user_experience_program_summary">ساعدنا في تحسين منتجاتنا وخدماتنا عن طريق مشاركة إحصائيات بيانات استخدامك</string>
     <string name="user_experience_program_title">برنامج تجربة المستخدم</string>
     <string name="user_guest">مدعو</string>
     <string name="user_image_choose_photo">اختيار صورة من المعرض</string>
@@ -5530,9 +5524,5 @@
     <string name="zone_auto_summaryOn">استخدام المنطقة الزمنية للشبكة</string>
     <string name="zone_list_menu_sort_alphabetically">التصنيف أبجديًا</string>
     <string name="zone_list_menu_sort_by_timezone">تصنيف بحسب المنطقة الزمنية</string>
-    <string name="lock_screen_secure_after_timeout_immediately_never">لا يتطلب كلمة المرور ابدا</string>
-    <string name="lock_screen_secure_after_timeout_immediately_summary">يتطلب كلمة المرور مباشرة</string>
-    <string name="lock_screen_secure_after_timeout_summary">يتطلب كلمة المرور: %1$s</string>
-    <string name="lock_screen_secure_after_timeout_title">يتطلب كلمة المرور</string>
     <string name="master_clear_summary">ستتم إعادة تعيين وحدة التخزين الداخلية وكل البيانات</string>
 </resources>

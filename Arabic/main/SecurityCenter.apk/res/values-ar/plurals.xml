@@ -245,12 +245,12 @@
         <item quantity="many">قام بتحميله %1$d شخص</item>
     </plurals>
     <plurals name="gb_ad_people_play">
-        <item quantity="other">يلعب %1$d شخص</item>
-        <item quantity="zero">يلعب %1$d شخص اللعبة</item>
-        <item quantity="one">يلعب %1$d شخص اللعبة</item>
-        <item quantity="two">يلعب %1$d أشخاص اللعبة</item>
-        <item quantity="few">يلعب %1$d أشخاص اللعبة</item>
-        <item quantity="many">يلعب %1$d شخص</item>
+        <item quantity="other">يلعب اللعبة %1$d شخص</item>
+        <item quantity="zero">يلعب اللعبة %1$d شخص</item>
+        <item quantity="one">يلعب اللعبة %1$d شخص</item>
+        <item quantity="two">يلعب اللعبة %1$d أشخاص</item>
+        <item quantity="few">يلعب اللعبة %1$d أشخاص</item>
+        <item quantity="many">يلعب اللعبة %1$d شخص</item>
     </plurals>
     <plurals name="gb_ad_ten_thousand_people_play">
         <item quantity="other">يلعب %1$d أشخاص</item>
@@ -619,5 +619,13 @@
         <item quantity="two">%d أيام متبقية قبل انتهاء دورة تسريع الشبكة. قم بتجديد الدورة لتجنب مشاكل سرعة الشبكة.</item>
         <item quantity="few">%d أيام متبقية قبل انتهاء دورة تسريع الشبكة. قم بتجديد الدورة لتجنب مشاكل سرعة الشبكة.</item>
         <item quantity="many">%d يوم متبقي قبل انتهاء دورة تسريع الشبكة. قم بتجديد الدورة لتجنب مشاكل سرعة الشبكة.</item>
+    </plurals>
+    <plurals name="gb_signed_days_sum">
+        <item quantity="other">تم تسجيل الدخول %d يوم متتالي</item>
+        <item quantity="zero">تم تسجيل الدخول %d مرة</item>
+        <item quantity="one">تم تسجيل الدخول %d مرة</item>
+        <item quantity="two">تم تسجيل الدخول %d أيام متتالية</item>
+        <item quantity="few">تم تسجيل الدخول %d أيام متتالية</item>
+        <item quantity="many">تم تسجيل الدخول %d يوم متتالي</item>
     </plurals>
 </resources>

@@ -373,9 +373,9 @@
     <string name="error_external_sdcard_write_msg">إذهب إلى الإعدادات > التخزين، قم بتبديل التخزين هناك ثم وحاول مرة أخرى.</string>
     <string name="error_external_sdcard_write_tip">لا يمكن حفظ العناصر إلى بطاقة SD.</string>
     <string name="error_forbidden">تم تعطيل المزامنة بسبب مشاكل مع حساب Mi.</string>
-    <string name="error_install_connect_fail">تعذر تحميل الملحق. تحقق من اتصال الشبكة.</string>
-    <string name="error_install_sdcard_not_available">تعذر تحميل الملحق بسبب خطأ في بطاقة الذاكرة SD.</string>
-    <string name="error_install_storage_not_enough">قم بتفريغ مساحة في جهازك لتحميل الملحق.</string>
+    <string name="error_install_connect_fail">تعذر تحميل المكون الإضافي. تحقق من اتصال الشبكة.</string>
+    <string name="error_install_sdcard_not_available">تعذر تحميل المكون الإضافي بسبب خطأ في بطاقة SD.</string>
+    <string name="error_install_storage_not_enough">قم بتفريغ مساحة في جهازك لتحميل المكون الإضافي.</string>
     <string name="error_internal_sdcard_write_tip">حدث خطأ. قم بإعادة تشغيل الجهاز ثم حاول مرة أخرى.</string>
     <string name="error_invalid_link">رابط غير صالح</string>
     <string name="error_link_has_expired">انتهت صلاحية الرابط</string>
@@ -444,16 +444,18 @@
     <string name="face_name_edit">تعديل</string>
     <string name="face_name_input">ادخل اسم</string>
     <string name="face_recommend">التوصيات</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">تعذر اكمال العملية</string>
     <string name="fail_to_pick_email">البريد الإلكتروني غير صالح</string>
     <string name="fail_to_sync_album">تعذر مزامنة الألبوم. تحقق من اتصال البيانات وقم بالمحاولة مرة أخرى.</string>
     <string name="family_member_invitation_text">فرد اخر من الاسرة</string>
     <string name="fast_share_auto_render">تجميل</string>
     <string name="fast_share_auto_render_finish">تم التجميل</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">ذكرى</string>
     <string name="filter_bi_mono">مونو</string>
     <string name="filter_bi_pink">وردي</string>
-    <string name="filter_bi_portrait">Portrait</string>
+    <string name="filter_bi_portrait">بورتريه</string>
     <string name="filter_bi_retro">ريترو</string>
     <string name="filter_bi_romantic">رومانسي</string>
     <string name="filter_bi_strong">قوي</string>
@@ -463,7 +465,7 @@
     <string name="filter_bi_young">شبابي</string>
     <string name="filter_category_film">فيلم</string>
     <string name="filter_category_food">طعام</string>
-    <string name="filter_category_portrait">صورة شخصية</string>
+    <string name="filter_category_portrait">بورتريه</string>
     <string name="filter_category_scene">منظر طبيعي</string>
     <string name="filter_film_blackwhite">أبيض وأسود</string>
     <string name="filter_film_dew">طل</string>
@@ -508,6 +510,7 @@
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">غيغابايت</string>
     <string name="grant_permission_go_and_set">ضبط</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"يحتاج المعرض للوصول إلى 
 %s
  ليعمل بشكل طبيعي، انقر \"ضبط\" للذهاب إلى الأذونات."</string>
@@ -551,7 +554,7 @@
     <string name="input_nickname_toast">ادخل اسم الطفل</string>
     <string name="input_or_select_a_name">ادخل او اختر اسم</string>
     <string name="input_relation_name">أدخل اسم مجموعة</string>
-    <string name="install_fail">تعذر تحميل الملحق بسبب خطأ.</string>
+    <string name="install_fail">تعذر تحميل المكون الإضافي بسبب خطأ ما.</string>
     <string name="invalid_invition_url">عنوان دعوة غير صالح</string>
     <string name="invalid_recipient_message">أسماء المستلمين التي قمت بإدخالها غير صالحة</string>
     <string name="invite_sharer_confirm_button_text">دعوة</string>
@@ -644,7 +647,7 @@
     <string name="onekey_auto">تلقائي</string>
     <string name="onekey_food">طعام</string>
     <string name="onekey_none">الأصلي</string>
-    <string name="onekey_portrait">صورة شخصية</string>
+    <string name="onekey_portrait">بورتريه</string>
     <string name="onekey_scene">منظر طبيعي</string>
     <string name="open">تشغيل</string>
     <string name="open_public_message">قم بإنشاء عنوان URL لمشاركته مع أصدقائك</string>
@@ -701,6 +704,7 @@
     <string name="people_mark_mode_title_no_mark_name">تحديد شخص</string>
     <string name="people_page_label">الأشخاص</string>
     <string name="people_page_unname">غير مسمى</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">صور الحيوانات الأليفة</string>
     <string name="petabyteShort">بنتابايت</string>
     <string name="photo">الصور</string>
@@ -749,9 +753,9 @@
     <string name="photo_editor_text">نص</string>
     <string name="photo_page_save_uri_image_fail">تعذر الحفظ إلى المعرض</string>
     <string name="photo_page_save_uri_image_ok">تم حفظ الصور إلى المعرض</string>
-    <string name="photo_print_menu_loading">جارٍ التحميل الملحق…</string>
+    <string name="photo_print_menu_loading">جارٍ تنزيل المكون الإضافي…</string>
     <string name="photo_print_package_finish">تم التحميل بنجاح</string>
-    <string name="photo_print_package_installing">جارٍ التحميل الملحق…</string>
+    <string name="photo_print_package_installing">جارٍ تنزيل المكون الإضافي…</string>
     <string name="photo_save_to_msg">تم الحفظ إلى %s</string>
     <string name="photomovie_audio_custom">محلي</string>
     <string name="photomovie_audio_none">بدون</string>
@@ -914,6 +918,8 @@
     <string name="search_title_recommend">موصى بها</string>
     <string name="search_title_suggestion">الإقتراحات</string>
     <string name="search_title_tag">أجسام</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
     <string name="searching_cast_devices">جارٍ البحث عن بروجكتور…</string>
     <string name="secret_album_card_description">أفضل مكان لجميع أسرارك الخاصة</string>
     <string name="secret_album_card_title">جرب الألبوم المخفي</string>
@@ -995,13 +1001,16 @@
     <string name="sticker_spring">ربيع</string>
     <string name="sticker_summer">صيف</string>
     <string name="sticker_words">كلمات</string>
+    <string name="storage_description_primary">التخزين الداخلي</string>
+    <string name="storage_description_sdcard">بطاقة SD</string>
+    <string name="storage_description_xspace">بيانات التطبيقات المزدوجة</string>
     <string name="storage_no_space">لا توجد مساحة كافية</string>
     <string name="sub_discard_confirm_message">حفظ التغييرات؟</string>
     <string name="sub_discard_negative_btn">تجاهل</string>
     <string name="sub_discard_positive_btn">حفظ</string>
     <string name="success_create_quick_icon_on_desk">تم الإنشاء بنجاح</string>
     <string name="sync_album_in_proecess">جارٍ مزامنة الألبوم…</string>
-    <string name="sync_battery_low">بطارية ضعيفة</string>
+    <string name="sync_battery_low">البطارية منخفضة</string>
     <string name="sync_cloud_space_full">لا توجد مساحة كافية في Mi Cloud</string>
     <string name="sync_diabled_toast">المزامنة غير مفعلة</string>
     <string name="sync_metatata_wait_title">في الإنتظار لمزامنة بيانات Mi Cloud</string>
@@ -1066,7 +1075,7 @@
     <string name="user_agreement2">شروط الخدمة</string>
     <string name="user_agreement4">سياسة الخصوصية</string>
     <string name="user_alias_self">ذاتي</string>
-    <string name="user_notice_identify_summary_format">بإستخدامك هذه الخدمة، فأنت توافق على %1$s و%2$s Mi.</string>
+    <string name="user_notice_identify_summary_format">بإستخدامك هذه الخدمة، فأنت توافق على %1$s و%2$s لـ Xiaomi.</string>
     <string name="user_notice_title">الأحكام والشروط</string>
     <string name="video_edit_file_not_exits_tip">تنزيل الفيديو أولاً</string>
     <string name="video_editor_abandon_changes_tip_message">تجاهل كل التغييرات؟</string>
@@ -1134,6 +1143,7 @@
     <string name="view_by_gallery_tip">معرض MIUI</string>
     <string name="view_face_album">عرض الألبوم</string>
     <string name="view_queuing_status">فحص الحالة</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">مرحباً في Mi Cloud</string>
     <string name="where_is_barcode">أين رمز QR؟</string>
     <string name="who_is_this">من هذا؟</string>

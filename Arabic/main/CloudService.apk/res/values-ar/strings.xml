@@ -59,6 +59,8 @@
     <string name="sync_dspt_provision_title">Mi Cloud</string>
     <string name="sync_dspt_provision_header">المزامنة</string>
     <string name="sync_dspt_provision">"مزامنة الصور, جهات الاتصال, الملاحظات والمزيد على جميع أجهزتك أو الوصول إليها على "</string>
+    <string name="sync_dspt_provision2">i.mi.com</string>
+    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">". يمكنك تشغيل أو إيقاف تشغيل هذه الميزة في أي وقت من الإعدادات.
 "</string>
     <string name="sync_dspt_entrance_provision">"قم بمزامنة الصور، وجهات الاتصال، وسجل المكالمات، والرسائل في جميع أجهزتك. والوصول إلى العناصر التي قمت بمزامنتها من إي متصفح عبر %s. "</string>
@@ -70,6 +72,8 @@
     <string name="sync_dspt_entrance_provision_skip">تخطي هذه الخطوة</string>
     <string name="sync_dspt_entrance_provision_network">يحتاج هذا التطبيق للاتصال بالإنترنت للعمل بشكل طبيعي. قد نتطلب مزامنة البيانات الاتصال بشبكة البيانات وفتح الـ WiFi.</string>
     <string name="find_device_dspt_provision">إذا فقدت الجهاز، يمكنك الذهاب إلى %s لتحديد موقعه أو قفله أو استعادته. يمكنك تشغيل أو إيقاف تشغيل هذه الميزة في أي وقت من الإعدادات.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_dspt_provision_3">. يمكنك تشغيل أو إيقاف تشغيل هذه الميزة في أي وقت من الإعدادات.</string>
     <string name="find_device_dspt_provision_4">إذا قمت بتبديل بطاقات SIM، سيتم أرسال رسالة نصية قصيرة تلقائيًا لتفعيل هذه الميزة.</string>
     <string name="find_device_send_sms_alert">إذا قمت بتبديل بطاقات SIM، فسيتم إرسال رسالة SMS أخرى تلقائياً لتفعيل هذة الميزة.</string>
@@ -119,6 +123,7 @@
     <string name="find_device_error_server">خطأ في الخادم</string>
     <string name="find_device_success_title">العثور على الجهاز</string>
     <string name="find_device_notice_p1">الذهاب إلى</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">"لتحديد موقع أو قفل أو استعادة هاتفك.
 إذا قمت بتبديل بطاقات SIM، فسيتم إرسالة رسالة SMS أخرى تلقائيًا لتفعيل هذه الميزة."</string>
     <string name="i_know">موافق</string>
@@ -168,8 +173,7 @@
     <string name="micloud_user_space_usage">مساحة التخزين</string>
     <string name="micloud_web_discription_01">تسجيل الدخول إلى i.mi.com</string>
     <string name="micloud_web_discription_02">لاستعادة الملفات والوصول إليها من أي مكان</string>
-    <string name="micloud_web_discription">قم بزيارة i.mi.com</string>
-    <string name="micloud_web_discription_international">قم بزيارة www.mi.com/micloud</string>
+    <string name="micloud_web_discription_place_holder">زيارة %1$s</string>
     <string name="micloud_full_influence_title">عندما يمتلئ Mi Cloud الخاصة بك…</string>
     <string name="micloud_warn_low_title">المساحة على وشك النفاذ</string>
     <string name="micloud_warn_low_sum">Mi Cloud الخاص بك ممتلئ بنسبة ٩٠%.</string>
@@ -300,11 +304,12 @@
     <string name="micloud_privacy_cloud_off">المزامنة متوقفة</string>
     <string name="micloud_privacy_licence_agreed">الموافقة على سياسة خصوصية Mi Cloud.</string>
     <string name="micloud_privacy_licence_privacy_policy">سياسة الخصوصية</string>
-    <string name="micloud_privacy_explanation">تشغيل Mi Cloud بعد تفعيل الترخيص</string>
-    <string name="micloud_privacy_cloud_sync">تفعيل Mi Cloud</string>
-    <string name="micloud_privacy_warning_title">تلميح</string>
-    <string name="micloud_privacy_warning_content">تعذر تفعيل Mi Cloud. حاول مرة أخرى لاحقا.</string>
+    <string name="micloud_privacy_explanation">منح الترخيص لتشغيل خدمات Mi Cloud</string>
+    <string name="micloud_privacy_cloud_sync">تشغيل خدمات Mi Cloud</string>
+    <string name="micloud_privacy_warning_title">تنبيه</string>
+    <string name="micloud_privacy_warning_content">تعذر تشغيل خدمات Mi Cloud. انتظر دقيقة أو دقيقتين ثم حاول مرة أخرى.</string>
     <string name="micloud_privacy_warning_button">رجوع</string>
+    <string name="micloud_privacy_progress_content">جارٍ منح الترخيص…</string>
     <string name="micloud_privacy_more">المزيد</string>
     <string name="micloud_check_sim_title">"يبدو أنك قمت بتغيير بطاقات SIM. سجل الدخول
 إلى حساب Mi الخاص بك لإعادة تفعيل Mi Cloud."</string>
@@ -466,7 +471,7 @@
     <string name="micloud_notif_content_multi_user_error">لقد قمت بتسجيل الدخول بنفس الحساب الذي في الواجهة الاولى.</string>
     <string name="micloud_notif_title_dirty_data">لديك عناصر لم تتم مزامنتها</string>
     <string name="micloud_notif_content_dirty_data">التفاصيل</string>
-    <string name="micloud_notif_title_privacy_reopen_failed">تعذر بدء خدمة Cloud</string>
+    <string name="micloud_notif_title_privacy_reopen_failed">تعذر تشغيل خدمات Mi Cloud</string>
     <string name="micloud_notif_content_privacy_reopen_failed">عرض التفاصيل</string>
     <string name="micloud_find_device_guide_title">سجل الدخول إلى &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font> للبحث عن جهازك أو قفله أو محو بياناته. حيث قد يساعدك هذا في العثور على جهازك إذا فقدته.&lt;br /> إذا فقدت جهازك، يمكنك الاتصال بخدمة الحماية للتطبيقات المستخدمة بشكل متكرر (مثل: AliPay وWeChat وQQ) لحماية حساباتك على &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font>.</string>
     <string name="micloud_find_device_guide_content">لتفعيل هذه الخدمة، سيتم إرسال رسالة SMS وستفرض عليك شركة الاتصالات رسوم هذه الرسالة. عند استبدال بطاقة سيم، سيتم إرسال رسالة تلقائيا لإعادة تفعيل هذه الميزة.</string>
@@ -479,6 +484,8 @@
     <string name="micloud_find_device_opened">العثور على الجهاز يعمل</string>
     <string name="micloud_find_device_open_fail">تعذر تشغيل العثور على الجهاز</string>
     <string name="micloud_find_device_opened_content">العثور على جهازك في %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
+    <string name="micloud_find_device_opened_content_url_int">www.mi.com/micloud</string>
     <string name="micloud_find_device_verify_fail">تعذر إعادة تفعيل العثور على الجهاز</string>
     <string name="micloud_find_device_close_fail">تعذر إيقاف تشغيل العثور على الجهاز</string>
     <string name="micloud_find_device_finish">تم</string>
@@ -488,7 +495,7 @@
     <string name="micloud_find_device_guide_fail_sub_net">تحقق من شبكة الاتصال و حاول مرة أخرى.</string>
     <string name="micloud_find_device_guide_fail_sub_timeout">انتهت مهلة الاتصال. حاول مرة أخرى لاحقا.</string>
     <string name="micloud_find_device_guide_noti_title">قم بتشغيل العثور على الجهاز</string>
-    <string name="micloud_find_device_guide_noti_content">قم بحماية البيانات الخاصة بك حتى عندما يكون جهازك مفقود</string>
+    <string name="micloud_find_device_guide_noti_content">قم بحماية بياناتك حتى في حالة فقدان الجهاز</string>
     <string name="micloud_find_device_guide_noti_title_by_app_change_wx">WeChat ينصح بتشغيل العثور على الجهاز</string>
     <string name="micloud_find_device_guide_noti_content_by_app_change_wx">بيانات WeChat الخاصة بك ستكون آمنة حتى لو فقدت جهازك</string>
     <string name="micloud_find_device_guide_noti_title_by_app_change_zfb">Alipay ينصح بتشغيل العثور على الجهاز</string>
@@ -504,8 +511,8 @@
     <string name="micloud_find_device_close_alert_content">إذا قمت بإىقاف هذه الميزة، فلن تتمكن من تحديد موقع جهازك في حالة فقدانه.</string>
     <string name="micloud_find_device_close_alert_positive">دعه يعمل</string>
     <string name="micloud_find_device_close_alert_negtive">إيقاف التشغيل</string>
-    <string name="find_device_gdpr_prompt">عند تشغيلك \"العثور على الجهاز\"، فإنك توافق على\"سياسة الخصوصية\". لإلغاء إذن الوصول إلى بياناتك الشخصية، قم بإيقاف تشغيل هذه الميزة.</string>
-    <string name="find_device_gdpr_prompt_policy_doc_name">\"سياسة الخصوصية\"</string>
+    <string name="find_device_gdpr_prompt">بتشغيلك \"العثور على الجهاز\"، فإنك توافق على سياسة الخصوصية لدينا. لإلغاء الترخيص، قم بإيقاف تشغيل هذه الميزة.</string>
+    <string name="find_device_gdpr_prompt_policy_doc_name">سياسة الخصوصية</string>
     <string name="activate_finddevice">اتصل بالشبكة لتفعيل الجهاز</string>
     <string name="account_related">جهازك مرتبط بحساب Mi موجود مسبقا(%s). اتصل بالشبكة للتحقق من الجهاز.</string>
     <string name="connect_network">إتصل بشبكة Wi-Fi او قم بتركيب بطاقة SIM</string>
@@ -537,7 +544,7 @@
     <string name="cloud_storage_full">مساحة تخزين Cloud ممتلئة</string>
     <string name="micloud_sync_off">المزامنة مع Mi Cloud في حالة إيقاف</string>
     <string name="open_micloud_sync">تشغيل المزامنة مع Mi Cloud</string>
-    <string name="sync_item_title">جارٍ مزامنة العناصر</string>
+    <string name="sync_item_title">عناصر المزامنة</string>
     <string name="member_due_date">صالح لغاية %s</string>
     <string name="due_date_format">dd/MM/yyyy</string>
     <string name="all_sync_item_open">كل العناصر تعمل</string>
@@ -558,6 +565,8 @@
     <string name="micloud_main_head_menu_state_close">متوقف</string>
     <string name="micloud_main_head_menu_state_unavailable">غير متوفر</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">\"العثور على الجهاز\" غير متوفر في الواجهة الثانية، يمكنك استخدام هذه الميزة في الواجهة الاولى.</string>
+    <string name="micloud_footer_normal_url">i.mi.com</string>
+    <string name="micloud_footer_international_url">mi.com/micloud</string>
     <string name="ks_fingerprint_payment">الدفع بإستخدام بصمة الأصبع</string>
     <string name="ks_name_fido">FIDO</string>
     <string name="ks_name_alipay">IFAA</string>

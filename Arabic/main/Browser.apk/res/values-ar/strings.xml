@@ -111,9 +111,9 @@
     <string name="bookmark_group_lable">مجموعة</string>
     <string name="bookmark_needs_title">يجب أن تحمل الإشارة المرجعية اسمًا</string>
     <string name="bookmark_needs_url">يجب أن تحتوي الإشارة المرجعية على URL</string>
-    <string name="bookmark_not_saved">تعذر حفظ الإشارة المرجعية</string>
+    <string name="bookmark_not_saved">تعذر الإضافة إلى الإشارات المرجعية</string>
     <string name="bookmark_rename_group">إعادة تسمية المجموعة</string>
-    <string name="bookmark_saved">تم الحفظ في الإشارات المرجعية</string>
+    <string name="bookmark_saved">تمت الإضافة إلى الإشارات المرجعية</string>
     <string name="bookmark_title">اسم الإشارة المرجعية</string>
     <string name="bookmark_title_lable">العنوان</string>
     <string name="bookmark_url">//:URL http</string>
@@ -169,6 +169,7 @@
     <string name="color_picker_dialog_title">تحديد اللون</string>
     <string name="color_picker_hue">تدرج اللون</string>
     <string name="color_picker_saturation">صفاء اللون</string>
+    <string name="color_picker_value">القيمة</string>
     <string name="comment_app_menu">التعليق</string>
     <string name="comment_description">تعليق</string>
     <string name="comment_hint">تعليق</string>
@@ -220,7 +221,7 @@
     <string name="delete_bookmark_warning">أترغب في حذف الإشارة المرجعية \"%s\"؟</string>
     <string name="delete_download">حذف</string>
     <string name="dialog_cannot_resume">تم تقطع التنزيل</string>
-    <string name="dialog_confirm_delete_checkbox_message">حذف الملف على وحدة التخزين الداخلية</string>
+    <string name="dialog_confirm_delete_checkbox_message">حذف الملف على التخزين الداخلي</string>
     <string name="dialog_confirm_delete_the_download_item_message">حذف هذه المهمة؟</string>
     <string name="dialog_failed_body">حاول مرة اخرى لاحقا او قم بإزالة هذا الملف من لائحة التنزيل؟</string>
     <string name="dialog_file_already_exists">لقد قمت بتنزيل هذا الملف مسبقا</string>
@@ -518,7 +519,7 @@
     <string name="nav_screen_incognito_message">"في وضع التصفح المتخفي، لن يتم حفظ تصفحك في مواقع الويب أو سجل البحث.
 و لكن تذكر أنه سيتم حفظ الملفات التي تقوم بتنزيلها أو الإشارات المرجعية التي تضيفها."</string>
     <string name="nav_screen_incognito_title">وضع التصفح المتخفي</string>
-    <string name="navigation_delete_all">مرّر لليسار ولليمين لإغلاق جميع علامات التبويب</string>
+    <string name="navigation_delete_all">مرّر لليسار أو لليمين لإغلاق جميع علامات التبويب</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">إلغاء</string>
     <string name="navigationbar_rightbutton_actiontext_go">اذهب</string>
     <string name="navigationbar_rightbutton_actiontext_search">بحث</string>
@@ -802,7 +803,7 @@
     <string name="ssl_untrusted">هذه الشهادة ليست من مرجع تصديق موثوق به.</string>
     <string name="ssl_warnings_header">توجد مشاكل مع شهادة الأمان الخاصة بهذا الموقع.</string>
     <string name="start_save_page_capture">حفظ لقطة الشاشة …</string>
-    <string name="storage_internal">وحدة التخزين الداخلية</string>
+    <string name="storage_internal">التخزين الداخلي</string>
     <string name="storage_permission_request_toast">تتطلب التنزيلات الوصول إلى تخزين جهازك</string>
     <string name="storage_sd_card">بطاقة SD</string>
     <string name="storage_usb">وحدة تخزين USB</string>

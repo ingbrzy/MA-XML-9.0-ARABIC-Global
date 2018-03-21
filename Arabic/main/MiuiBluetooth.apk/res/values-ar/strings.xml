@@ -15,13 +15,13 @@
     <string name="ble_device_rename">إعادة التسمية</string>
     <string name="ble_device_profile_header_title">الإعدادات</string>
     <string name="ble_device_profile_title">جهاز البلوتوث الذكي المقترن</string>
-    <string name="mi_band_vibrate_incall">الأهتزاز عند الرنين</string>
+    <string name="mi_band_vibrate_incall">الاهتزاز عند الرنين</string>
     <string name="mi_band_vibrate_incall_in_contacts">مكالمات واردة من جهات الاتصال</string>
     <string name="mi_band_vibrate_incall_no_contacts">مكالمات واردة من أرقام غير معروفة</string>
     <string name="mi_band_vibrate_sms">الأهتزاز للرسائل النصية القصيرة(SMS)</string>
     <string name="mi_band_vibrate_sms_in_contacts">رسائل من جهات الإتصال</string>
     <string name="mi_band_vibrate_sms_no_contacts">رسائل من أرقام مجهولة</string>
-    <string name="mi_band_vibrate_alarm">أهتزاز عند رنين المنبة</string>
+    <string name="mi_band_vibrate_alarm">الاهتزاز عند رنين المنبه</string>
     <string name="mi_key_open_camera">فتح الكاميرا</string>
     <string name="mi_key_take_photo">خذ صورة</string>
     <string name="mi_key_find_phone">العثور على الجهاز</string>

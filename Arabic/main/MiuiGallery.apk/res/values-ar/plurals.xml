@@ -185,12 +185,12 @@
         <item quantity="many">حذف %d عنصر من هذا الألبوم و Mi Cloud؟</item>
     </plurals>
     <plurals name="delete_photo_from_all_devices_and_cloud_msg">
-        <item quantity="other">حذف %d صورة من جميع الأجهزة و Mi Cloud؟</item>
-        <item quantity="zero">حذف %d صور من جميع الأجهزة و Mi Cloud؟</item>
-        <item quantity="one">حذف هذه الصورة من جميع الأجهزة و Mi Cloud؟</item>
+        <item quantity="other">حذف %d صورة من جميع الأجهزة ومن Mi Cloud؟</item>
+        <item quantity="zero">حذف %d صور من جميع الأجهزة ومن Mi Cloud؟</item>
+        <item quantity="one">حذف هذه الصورة من جميع الأجهزة ومن Mi Cloud؟</item>
         <item quantity="two">حذف %d صور من جميع الأجهزة و Mi Cloud؟</item>
-        <item quantity="few">حذف %d صور من جميع الأجهزة و Mi Cloud؟</item>
-        <item quantity="many">حذف %d صورة من جميع الأجهزة و Mi Cloud؟</item>
+        <item quantity="few">حذف %d صور من جميع الأجهزة ومن Mi Cloud؟</item>
+        <item quantity="many">حذف %d صورة من جميع الأجهزة ومن Mi Cloud؟</item>
     </plurals>
     <plurals name="delete_photo_from_local">
         <item quantity="other">حذف %d صورة؟</item>

@@ -19,9 +19,10 @@
     <string name="other_settings_location">الموقع</string>
     <string name="other_settings_location_summary">السماح للتطبيقات بالوصول إلى موقعك.</string>
     <string name="other_settings_user_experience">برنامج تجربة المستخدم</string>
-    <string name="other_settings_user_experience_summary">ساعد على تحسين منتجاتنا وخدماتنا عن طريق إرسال بيانات إستخدام مجهولة.</string>
+    <string name="other_settings_user_experience_summary">ساعدنا في تحسين منتجاتنا وخدماتنا عن طريق مشاركة إحصائيات بيانات استخدامك. التفاصيل</string>
+    <string name="other_settings_user_experience_summary_index">التفاصيل</string>
     <string name="other_settings_upload_debug_log_title">إرسال البيانات التشخيصية تلقائياً</string>
-    <string name="other_settings_upload_debug_log_summary">سيتم استخدام المعلومات التي نجمعها لتحديد وتحليل المشاكل في النظام ويمكن أن تحتوي على معلومات شخصية. لن يتم استخدام أية بيانات للتعرف على هويتك.</string>
+    <string name="other_settings_upload_debug_log_summary">قد تحتوي إحصائيات بيانات الاستخدام التي تساعدنا على إيجاد المشاكل وحلها على معلوماتك الشخصية</string>
     <string name="other_settings_auto_update">التثبيت تلقائيا</string>
     <string name="other_settings_auto_update_summary">سيختار MIUI أفضل لحظة لتثبيت التحديثات.</string>
     <string name="other_settings_ad_enable">توصيات إعلانية مخصصة</string>

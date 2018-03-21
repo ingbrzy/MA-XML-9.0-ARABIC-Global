@@ -105,12 +105,12 @@
         <item quantity="many">خلال نصف ساعة</item>
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
-        <item quantity="other">منذ %d دق</item>
-        <item quantity="zero">منذ %d دق</item>
-        <item quantity="one">منذ ١ دق</item>
-        <item quantity="two">منذ %d دق</item>
-        <item quantity="few">منذ %d دق</item>
-        <item quantity="many">منذ %d دق</item>
+        <item quantity="other">منذ %d دقيقة</item>
+        <item quantity="zero">منذ %d دقيقة</item>
+        <item quantity="one">منذ ١ دقيقة</item>
+        <item quantity="two">منذ %d دقائق</item>
+        <item quantity="few">منذ %d دقائق</item>
+        <item quantity="many">منذ %d دقيقة</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">منذ %d دق</item>
