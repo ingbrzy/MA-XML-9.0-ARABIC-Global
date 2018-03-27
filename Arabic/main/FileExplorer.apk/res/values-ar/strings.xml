@@ -351,7 +351,6 @@
     <string name="choose_report_reason">لماذا تقوم بالإبلاغ عن مقطع الفيديو هذا؟</string>
     <string name="input_memo_hint">ادخال أسباب أضافية (اختياري)</string>
     <string name="network_dialog_checkbox_tip">عدم الإظهار مرة أخرى</string>
-    <string name="video_tag">\# %s #</string>
     <string name="remote_video_report_success">شكرا لك على ملاحظاتك! سنقوم بالنظر فيها بأسرع ما يمكن.</string>
     <string name="video_status_review">قيد المراجعة</string>
     <string name="video_status_reject">تم الرفض</string>
@@ -436,7 +435,6 @@
     <string name="video_publish_hint">وصف جيد سيساعد الاخرين على العثور على الفيديو الخاص بك</string>
     <string name="video_publish_hint2">الوصف</string>
     <string name="video_comment_limit">%1$s حرف متبقي</string>
-    <string name="video_tag_search_lead">\#</string>
     <string name="video_data_consumption_dialog_title">تحذير بيانات الجوال</string>
     <string name="video_data_consumption_dialog_message">سيتطلب التحميل %1$s من بيانات الجوال</string>
     <string name="video_data_consumption_confirm">موافق</string>
@@ -566,7 +564,6 @@
     <string name="message_praise_comment">" تم الأعجاب بهذا التعليق"</string>
     <string name="get_user_info_err">تعذر الحصول على معلومات عن هذا الشخص</string>
     <string name="choose_report_comment_reason">لماذا تقوم بالإبلاغ عن هذا التعليق؟</string>
-    <string name="add_one">+١</string>
     <string name="no_comment">لا توجد تعليقات</string>
     <string name="no_topic">لا يوجد مواضيع</string>
     <string name="no_message">لا توجد رسائل</string>
