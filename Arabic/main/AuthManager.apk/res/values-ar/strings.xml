@@ -54,7 +54,7 @@
     <string name="HIPS_Perm_Read_Contact">قراءة جهات اتصالك</string>
     <string name="HIPS_Perm_Read_Contact_Desc">قراءة جهات اتصالك</string>
     <string name="HIPS_Perm_External_Storage">الوصول و تعديل الملفات على وحدة التخزين الداخلية</string>
-    <string name="HIPS_Perm_External_Storage_Desc">اضافة وحذف ملفات على وحدة التخزين الداخلية للجهاز</string>
+    <string name="HIPS_Perm_External_Storage_Desc">اضافة وحذف ملفات على التخزين الداخلي للجهاز</string>
     <string name="HIPS_Perm_Body_Sensors">أجهزة استشعار الجسم</string>
     <string name="HIPS_Perm_Body_Sensors_Desc">أجهزة استشعار الجسم (مثل جهاز قياس ضربات القلب)</string>
     <string name="HIPS_Perm_get_accounts">الوصول الى حساباتك على الجهاز</string>

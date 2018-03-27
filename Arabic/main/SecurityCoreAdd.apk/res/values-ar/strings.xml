@@ -243,7 +243,7 @@
     <string name="lock_screen_open_second_space">الدخول إلى الواجهة الثانية من شاشة قفل</string>
     <string name="finger_print_num">بصمة الاصبع %d</string>
     <string name="add_finger_print">إضافة بصمة الاصبع</string>
-    <string name="please_diff_finger_print">"تاكد من ستخدام بصمات اصبع مختلفة في الواجهة الاولى والواجهة الثانية.
+    <string name="please_diff_finger_print">"تاكد من استخدام بصمات اصبع مختلفة في الواجهة الاولى والواجهة الثانية.
 وإلا فإنك لن تكون قادرا على الدخول الى الواجهة الثانية من شاشة القفل."</string>
     <string name="start_input_finger_print">إضافة بصمة الاصبع</string>
     <string name="need_set_second_space_pwd_first">تعيين كلمة مرور الواجهة الثانية أولاً</string>
@@ -259,7 +259,7 @@
     <string name="scanner_fingerprint_tips_title">الدخول إلى الواجهة الثانية بإستخدام بصمة اصبع موجود مسبقا</string>
     <string name="scanner_fingerprint_tips_desc">اختر بصمة اصبع موجودة للدخول إلى الواجهة الثانية. لن تتمكن من استخدامها في الواجهة الاولى.</string>
     <string name="back">رجوع</string>
-    <string name="scanner_fingerprint_error_tips_desc">لا يمكن العثور على تطابق. هل تريد إضافة بصمة اصبع الواجهة الثانية؟</string>
+    <string name="scanner_fingerprint_error_tips_desc">لا يمكن العثور على تطابق. هل تريد إضافة بصمة إصبع للواجهة الثانية؟</string>
     <string name="scanner_fingerprint_error_tips_title">تعذر العثور على بصمات اصبع مطابقة</string>
     <string name="no_match_repate_scanner">تعذر العثور على بصمات اصبع مطابقة، افحص مرة اخرى</string>
     <string name="delete_phone_fingerprint">حذف بصمة اصبع الواجهة الثانية</string>
@@ -358,6 +358,13 @@
     <string name="sdcradfs_dialog_in_sec_message">"للتحديث، يجب عليك حذف الواجهة الثانية وإنشاءها مرة أخرى. قم بنقل البيانات من الواجهة الثانية إلى الواجهة الأولى ومن ثم إعد تشغيل الجهاز لإكمال التحديث.
 إذا لم تقم بالتحديث، فقد لا تعمل التطبيقات المزدوجة بشكل صحيح."</string>
     <string name="space_created_success">تم إنشاء الواجهة الثانية بنجاح</string>
+    <string name="encrypt_space_delete_dialog_title">Attention</string>
+    <string name="encrypt_space_delete_dialog_message">"You're about to update Android. After the update, Second space data will become incompatible. To avoid this, move all data to First space, delete Second space, and create it again."</string>
+    <string name="encrypt_space_delete_dialog_click_message">"*If you don't need to move data, %s"</string>
+    <string name="encrypt_space_delete_dialog_click_message_action">delete and create Second space now.</string>
+    <string name="encrypt_space_delete_dialog_positive_text">Move data</string>
+    <string name="encrypt_space_delete_notification_title">Second space</string>
+    <string name="encrypt_space_delete_notification_message">Delete your Second space and create a new one to update your device successfully.</string>
     <string name="space_create_guide_title_1">حماية خصوصيتك</string>
     <string name="space_create_guide_desc_1">تخزين التطبيقات والصور بشكل آمن</string>
     <string name="space_create_guide_title_2">إنشاء في أي وقت</string>
@@ -368,15 +375,14 @@
     <string name="second_space_desktop_tips_dialog_title">تحديث مهم</string>
     <string name="second_space_desktop_tips_dialog_positive_text">فهمت</string>
     <string name="second_space_desktop_tips_dialog_message">بعد هذا التحديث، لن يتم عرض أيقونات نقل البيانات وإدارة الواجهة الثانية بعد ذلك على الشاشة الرئيسية. ستكون قادرا على الوصول إلى الميزات المقابلة في الإعدادات.</string>
-    <string name="green_guard">蜂巢</string>
-    <string name="bind_device">绑定设备</string>
-    <string name="green_guard_des1">一键绑定设备，操作简单快捷</string>
-    <string name="green_guard_title2">查看定位</string>
-    <string name="green_guard_des2">实时定位查询，守护外出安全</string>
-    <string name="green_guard_title3">管理应用</string>
-    <string name="green_guard_des3">管理设备应用，控制使用时间</string>
-    <string name="experience_more_features">绑定设备后可体验更多功能</string>
-    <string name="add_spare_text">守护中</string>
-    <string name="control_and_guarding">管控守护中</string>
-    <string name="can_not_switch_when_green_kid_active">家长守护中禁止切换分身</string>
+    <string name="green_guard">الرقابة الأبوية</string>
+    <string name="bind_device">إضافة أجهزة</string>
+    <string name="green_guard_des1">اضف أجهزة لإدارتها عن بعد</string>
+    <string name="green_guard_title2">عرض معلومات الموقع</string>
+    <string name="green_guard_des2">معرفة موقع جميع الأجهزة المدارة</string>
+    <string name="green_guard_title3">إدارة التطبيقات</string>
+    <string name="green_guard_des3">تحكم بالتطبيقات المثبتة وتقييد الإستخدام</string>
+    <string name="experience_more_features">اضف جهاز لعرض جميع الميزات</string>
+    <string name="can_not_switch_when_green_kid_active">التبديل إلى الواجهة الثانية مقيد بالرقابة الأبوية</string>
+    <string name="need_network_when_bind">اتصل بالشبكة قبل إضافة الأجهزة</string>
 </resources>

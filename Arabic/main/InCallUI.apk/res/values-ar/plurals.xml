@@ -8,12 +8,4 @@
         <item quantity="few">تم تسجيل %d مكالمات.</item>
         <item quantity="many">تم تسجيل %d مكالمة.</item>
     </plurals>
-    <plurals name="livetalk_left_minute">
-        <item quantity="other">%d دقيقة متبقية</item>
-        <item quantity="zero">%d دقيقة متبقية</item>
-        <item quantity="one">%d دقيقة متبقية</item>
-        <item quantity="two">%d دقائق متبقية</item>
-        <item quantity="few">%d دقائق متبقية</item>
-        <item quantity="many">%d دقيقة متبقية</item>
-    </plurals>
 </resources>

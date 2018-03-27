@@ -161,7 +161,7 @@
     <string name="add_fingerprint_finished_button_text">تم</string>
     <string name="add_fingerprint_instruction_msg">يوجد مستشعر بصمة الإصبع في زر الصفحة الرئيسية من جهازك.</string>
     <string name="add_fingerprint_instruction_title">اضف بصمة إصبعك</string>
-    <string name="add_fingerprint_name_suggest_text">إسم بصمة الإصبع</string>
+    <string name="add_fingerprint_name_suggest_text">اسم بصمة الإصبع</string>
     <string name="add_fingerprint_put_finger_edge_msg">قم بتحريك اصبعك قليلا و ضعها على المستشعر مرة أخرى لإضافة كل الأجزاء المختلفة من بصمتك.</string>
     <string name="add_fingerprint_put_finger_msg">ضع إصبعك عدة مرات على المستشعر وارفعها عند شعورك بإهتزاز.</string>
     <string name="add_fingerprint_put_finger_title">إضافة بصمة الإصبع</string>
@@ -1722,7 +1722,7 @@
     <string name="fingerprint_add_title">إضافة بصمة إصبع</string>
     <string name="fingerprint_and_password_entrance_title">قفل الشاشة وبصمة الإصبع</string>
     <string name="fingerprint_apply_to_privacy_password">كلمة مرور حماية الخصوصية</string>
-    <string name="fingerprint_apply_to_privacy_password_scenarios">كلمة مرور حماية الخصوصية تقوم بحماية رسائلك، صورك، ملفاتك، ملاحظاتك وتطبيقاتك.</string>
+    <string name="fingerprint_apply_to_privacy_password_scenarios">تقوم كلمة مرور حماية الخصوصية بحماية الرسائل والصور والملفات والملاحظات والتطبيقات الخاصة بك.</string>
     <string name="fingerprint_enable_keyguard_toggle_title">قفل الشاشة</string>
     <string name="fingerprint_enroll_button_add">إضافة بصمة إصبع أخرى</string>
     <string name="fingerprint_enroll_button_next">التالي</string>
@@ -1741,7 +1741,7 @@
     <string name="fingerprint_list_title">بصمة الإصبع</string>
     <string name="fingerprint_lock_first">إلغاء قفل الواجهة الاولى</string>
     <string name="fingerprint_lock_second">إلغاء قفل الواجهة الثانية</string>
-    <string name="fingerprint_manage">إدارة بصمات الأصابع</string>
+    <string name="fingerprint_manage">إدارة بصمة الإصبع</string>
     <string name="fingerprint_manage_category_title">إدارة بصمات الإصبع</string>
     <string name="fingerprint_manage_tittle">بصمة الإصبع</string>
     <string name="fingerprint_not_identified_msg">تعذر قراءة بصمة الاصبع. أدخل كلمة السر الخاصة بك</string>
@@ -2135,6 +2135,7 @@
     <string name="lift_to_wake_title">الرفع لتنبيه الجهاز</string>
     <string name="line_breaking_summary">تحسين تباعد الأسطر بين الفقرات</string>
     <string name="line_breaking_title">تحسين النص</string>
+    <string name="link_speed">‏%1$d ميغابت في الثانية</string>
     <string name="loading_notification_apps">جارٍ تحميل التطبيقات...</string>
     <string name="local_auto_backup_off">إيقاف</string>
     <string name="local_auto_backup_on">تشغيل</string>
@@ -2371,7 +2372,7 @@
     <string name="manage_device_admin">تطبيقات مشرف الجهاز</string>
     <string name="manage_facerecoginition_text">إدارة بيانات الوجه</string>
     <string name="manage_fakecell_settings">حماية من المحطات الوهمية</string>
-    <string name="manage_fingerprint_text">إدارة بصمات الأصابع</string>
+    <string name="manage_fingerprint_text">إدارة بصمة الإصبع</string>
     <string name="manage_mobile_plan_title">خطة الجوّال</string>
     <string name="manage_notification_access_summary_zero">لا يُمكن للتطبيقات قراءة الإشعارات</string>
     <string name="manage_notification_access_title">الدخول إلى الإشعارات</string>
@@ -3151,9 +3152,9 @@
     <string name="privacy_password_remind_bindaccount_title">إضافة حساب Mi</string>
     <string name="privacy_password_settings">إستخدم كلمة مرور حماية الخصوصية</string>
     <string name="privacy_password_settings_next">التالي</string>
-    <string name="privacy_password_settings_titles">كلمة مرور حماية الخصوصية تقوم بحماية رسائلك، صورك، ملفاتك وملاحظاتك.</string>
-    <string name="privacy_password_settings_titles_elder_mode">كلمة مرور حماية الخصوصية تقوم بحماية صورك، ملفاتك وملاحظاتك.</string>
-    <string name="privacy_password_settings_titles_second_space">كلمة مرور حماية الخصوصية تقوم بحماية رسائلك، صورك وملاحظاتك.</string>
+    <string name="privacy_password_settings_titles">تقوم كلمة مرور حماية الخصوصية بحماية الرسائل والصور والملفات والملاحظات الخاصة بك.</string>
+    <string name="privacy_password_settings_titles_elder_mode">تقوم كلمة مرور حماية الخصوصية بحماية الصور والملفات والملاحظات الخاصة بك.</string>
+    <string name="privacy_password_settings_titles_second_space">تقوم كلمة مرور حماية الخصوصية بحماية الرسائل والصور والملاحظات الخاصة بك.</string>
     <string name="privacy_password_title">كلمة مرور حماية الخصوصية</string>
     <string name="privacy_password_toggle_summary">يتطلب كلمة المرور في كل مرة يتم الوصول إلى العناصر الخاصة.</string>
     <string name="privacy_password_use_finger_dialog_mess">يمكنك أيضا استخدام بصمة إصبعك مع كلمة مرور حماية الخصوصية.</string>
@@ -3172,6 +3173,7 @@
     <string name="private_sms_recording_intro_header">ارسم نقش قفل الشاشة:</string>
     <string name="private_sms_reset_by_account">لإعادة تعيين كلمة المرور، سجل الدخول إلى حساب Mi</string>
     <string name="process_dex2oat_label">تحسين التطبيقات</string>
+    <string name="process_kernel_label">‏نظام التشغيل Android</string>
     <string name="process_mediaserver_label">خادم الوسائط</string>
     <string name="process_provider_in_use_description">الموفر %1$s قيد الاستخدام.</string>
     <string name="process_service_in_use_description">الخدمة %1$s قيد الاستخدام.</string>
@@ -4091,6 +4093,7 @@
     <string name="status_bar_app_enable_keyguard">شاشة القفل</string>
     <string name="status_bar_app_enable_message">الشارات</string>
     <string name="status_bar_key_position_custom">تغيير أوضاع الزر</string>
+    <string name="status_bar_notification_info_overflow">+999</string>
     <string name="status_bar_screen_button_force_immersive_desc">مرّر لأعلى من أسفل الشاشة لإظهار أزرار الشاشة</string>
     <string name="status_bar_screen_button_key_force_immersive">إخفاء أزرار الشاشة</string>
     <string name="status_bar_screen_key_back">زر الرجوع</string>

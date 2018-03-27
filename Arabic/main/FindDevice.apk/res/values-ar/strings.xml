@@ -22,6 +22,7 @@
     <string name="find_device_noise_title">منبه العثور على الجهاز</string>
     <string name="find_device_success_title">العثور على الجهاز</string>
     <string name="find_device_notice_p1">اذهب إلى</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
     <string name="find_device_notice_p3">"لتحديد موقع أو قفل أو استعادة هاتفك.
 إذا قمت بتبديل بطاقات SIM، سيتم ارسال رسالة SMS أخرى تلقائيًا لإعادة تفعيل هذه الميزة."</string>
     <string name="i_know">موافق</string>
@@ -78,6 +79,8 @@
     <string name="default_lock_msg_words_with_phone">مرحباً! لقد فقدت جهازي. هل يمكنك الاتصال بي؟ شكراً!</string>
     <string name="default_lock_msg_words">هذا الجهاز مرتبط يحساب Mi موجود مسبقا. لأسباب أمنية، تحتاج إلى إدخال كلمة المرور للتحقق من الجهاز.</string>
     <string name="lock_msg_phone">معلومات جهة الاتصال: %s</string>
+    <string name="emergency_call">Emergency Call</string>
+    <string name="return_to_call">Return to Call</string>
     <string name="default_debt_msg_words">"هذا الجهاز مقفل بسبب دفع متأخر.
 اتصل بوكيل المبيعات الخاث بك للحصول على التفاصيل."</string>
     <string name="sys_notification_async_verify_title">إعادة تفعيل العثور على الجهاز</string>

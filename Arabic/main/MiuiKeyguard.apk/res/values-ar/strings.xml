@@ -64,7 +64,7 @@
     <string name="input_password_after_boot_msg">لفتح جهازك، ادخل كلمة المرور</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">تحتاج إلى الدخول إلى الواجهة الاولى بعد إعادة تشغيل الجهاز</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">لا يمكن التبديل بين الواجهات أثناء إجراء مكالمة</string>
-    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">لا يمكن التبديل بين الواجهتين أثناء تشغيل الرقابة الأبوية</string>
+    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">"Can't switch between spaces when parental controls are on"</string>
     <string name="input_password_handle_sdcard_fs">لا يمكن الدخول إلى الواجهة الثانية من شاشة القفل. قم بالدخول من الواجهة الاولى.</string>
     <string name="accessibility_enter_lock_wallpaper">انقر لفتح خلفية كاروسيل</string>
     <string name="wallpaper_global_des_drop_down_notify_text">حرر لعرض التفاصيل</string>
@@ -148,5 +148,6 @@
     <string name="do_disclosure_with_name">تتم إدارة هذا الجهاز من قِبل %s</string>
     <string name="face_unlock_reenter_title">سجل بيانات وجهك مرة أخرى.</string>
     <string name="face_unlock_reenter_content">تم تحديث خوارزمية التعرف على الوجه. انقر لتسجيل بيانات الوجة مرة اخرى.</string>
+    <string name="digital_clock_dot">:</string>
     <string name="keyguard_left_view_lock_wallpaper">خلفية كاروسيل</string>
 </resources>

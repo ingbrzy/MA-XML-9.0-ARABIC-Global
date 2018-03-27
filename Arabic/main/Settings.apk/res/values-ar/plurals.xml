@@ -72,6 +72,22 @@
         <item quantity="few">%d تطبيقات مسموح لها بالتشغيل التلقائي</item>
         <item quantity="many">%d تطبيق مسموح له بالتشغيل التلقائي</item>
     </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d apps can connect to the network</item>
+        <item quantity="zero">%d apps can connect to the network</item>
+        <item quantity="one">%d app can connect to the network</item>
+        <item quantity="two">%d apps can connect to the network</item>
+        <item quantity="few">%d apps can connect to the network</item>
+        <item quantity="many">%d apps can connect to the network</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">"%d apps can't connect to the network"</item>
+        <item quantity="zero">"%d apps can't connect to the network"</item>
+        <item quantity="one">"%d app can't connect to the network"</item>
+        <item quantity="two">"%d apps can't connect to the network"</item>
+        <item quantity="few">"%d apps can't connect to the network"</item>
+        <item quantity="many">"%d apps can't connect to the network"</item>
+    </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d جهاز</item>
         <item quantity="zero">%d جهاز</item>
@@ -167,6 +183,14 @@
         <item quantity="two">تطبيقان (%d) كحد أدنى</item>
         <item quantity="few">%d تطبيقات كحد أدنى</item>
         <item quantity="many">%d تطبيقًا كحد أدنى</item>
+    </plurals>
+    <plurals name="firewall_item_summary">
+        <item quantity="other">Restricted connection for %s apps</item>
+        <item quantity="zero">Restricted connection for %s apps</item>
+        <item quantity="one">Restricted connection for %s app</item>
+        <item quantity="two">Restricted connection for %s apps</item>
+        <item quantity="few">Restricted connection for %s apps</item>
+        <item quantity="many">Restricted connection for %s apps</item>
     </plurals>
     <plurals name="free_wifi_connected_count">
         <item quantity="other">%1$d شخص متصل</item>

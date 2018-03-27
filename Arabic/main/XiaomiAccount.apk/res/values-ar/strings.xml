@@ -417,8 +417,8 @@
     <string name="find_device_activate_account">تفعيل الحساب</string>
     <string name="login_check_find_device">جارٍ الحصول على معلومات حماية الجهاز…</string>
     <string name="unlock_help_notice">"مساعدة:
- ١. إذا نسيت كلمة المرور، انتقل إلى id.mi.com لإعادة تعيينها.
-٢. إن لم تتمكن من إلغاء قفل الجهاز، انتقل إلى i.mi.com لإيقاف \"العثور على الجهاز\".
+ ١. إذا نسيت كلمة المرور، فانتقل إلى id.mi.com لإعادة تعيينها.
+٢. إن لم تتمكن من إعادة تعيين كلمة المرور أو قام شخص ما بقفل جهازك، فانتقل إلى i.mi.com لإيقاف ذلك;.
 ٣. رقم إلغاء القفل الخاص بك: %s"</string>
     <string name="login_find_device_bind">هذا الجهاز مرتبط بمعرف حساب Mi موجود مسبقا (%s).</string>
     <string name="find_device_locked_account_phone" formatted="false">%s، رقم الهاتف المرتبط به: %s</string>
@@ -451,7 +451,7 @@
     <string name="mipay_identity">التحقق من المعرف</string>
     <string name="mipay_indentity_done">تم التحقق</string>
     <string name="mipay_identitiy_no">لم يتم التحقق</string>
-    <string name="account_token_expired_title">فشلت المصادقة</string>
+    <string name="account_token_expired_title">تعذرت المصادقة</string>
     <string name="account_token_expired_msg">"إنتهت صلاحية رمز التحقق، ابدأ من جديد أو قم بتسجيل الخروج من
 معرف حساب الخاص بك: %s"</string>
     <string name="bind_safe_phone_msg">إضف رقم هاتفك لتتمكن من تسجيل الدخول إلى حساب Mi الخاص بك في المرة القادمة.</string>
