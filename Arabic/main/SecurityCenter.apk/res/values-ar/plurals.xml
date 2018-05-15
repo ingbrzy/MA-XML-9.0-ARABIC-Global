@@ -206,8 +206,8 @@
     </plurals>
     <plurals name="quick_optimize_issue_found">
         <item quantity="other">تم العثور على %d مشكل في البطارية</item>
-        <item quantity="zero">تم العثور على %d مشكل في البطارية</item>
-        <item quantity="one">تم العثور على %d مشكل في البطارية</item>
+        <item quantity="zero">تم العثور على %d مشكلة في البطارية</item>
+        <item quantity="one">تم العثور على %d مشكلة في البطارية</item>
         <item quantity="two">تم العثور على %d مشاكل في البطارية</item>
         <item quantity="few">تم العثور على %d مشاكل في البطارية</item>
         <item quantity="many">تم العثور على %d مشكل في البطارية</item>

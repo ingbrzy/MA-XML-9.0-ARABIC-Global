@@ -73,7 +73,7 @@
     <string name="pause">إيقاف مؤقت</string>
     <string name="back">رجوع</string>
     <string name="menu">القائمة</string>
-    <string name="toast_uninstall_fileexplorer">مدير التطبيق غير مثبت</string>
+    <string name="toast_uninstall_fileexplorer">مدير الملفات غير مثبت</string>
     <string name="record_download">تنزيل من Mi Cloud</string>
     <string name="record_download_msg">يمكن تشغيل التسجيلات فقط بعد الانتهاء من تنزيلها.</string>
     <string name="record_download_msg_reload">هذا التسجيل غير موجود.</string>

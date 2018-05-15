@@ -95,8 +95,8 @@
     <string name="pref_camera_ai_scene_title">كاميرا AI</string>
     <string name="pref_camera_front_ai_scene_entry_on">كاميرا AI</string>
     <string name="pref_camera_front_ai_scene_entry_off">كاميرا AI متوقفة</string>
-    <string name="ai_scene_mode_use_hint_text">"افتح وضع الكاميرا Ai-Scene، وحدد مشهد الصورة المناسب 
-وقم بتحسين الصورة بناءً على المشهد"</string>
+    <string name="ai_scene_mode_use_hint_text">"تقوم كاميرا AI باكتشاف المشاهد تلقائيًا
+وتحسن الصور استنادًا إلى هذه البيانات"</string>
     <string name="pref_camera_coloreffect_entry_none">عادي</string>
     <string name="pref_camera_coloreffect_entry_instagram_rise">لومو</string>
     <string name="pref_camera_coloreffect_entry_instagram_clarendon">لون منبثق</string>
@@ -120,7 +120,7 @@
     <string name="color_effect_entry_koizora">حب</string>
     <string name="color_effect_entry_latte">لاتيه</string>
     <string name="color_effect_entry_warm">دافئ</string>
-    <string name="color_effect_entry_cookie">Cookie</string>
+    <string name="color_effect_entry_cookie">بسكويت</string>
     <string name="color_effect_entry_quiet">هادئ</string>
     <string name="color_effect_entry_soda">صودا</string>
     <string name="color_effect_entry_delicacy">راقي</string>
@@ -143,6 +143,9 @@
     <string name="portait_effect_entry_maze">متاهة</string>
     <string name="portait_effect_entry_cool">نعناع</string>
     <string name="portait_effect_entry_blackwhite">أبيض وأسود</string>
+    <string name="portait_effect_entry_story">قصة</string>
+    <string name="portait_effect_entry_riddle">لغز</string>
+    <string name="portait_effect_entry_movie">فيلم</string>
     <string name="pref_camera_touchafaec_entry_off">إيقاف</string>
     <string name="pref_camera_touchafaec_entry_on">تشغيل</string>
     <string name="pref_camera_multilevel_entry_lowest">الأدنى</string>
@@ -243,6 +246,7 @@
     <string name="pref_camera_video_duration_entry_120">بلا حدود</string>
     <string name="pref_camera_zsl_entry_off">إيقاف</string>
     <string name="pref_camera_zsl_entry_on">تشغيل</string>
+    <string name="pref_camera_facedetection_title">اكتشاف الوجه</string>
     <string name="camera_facedetection_sub_option_hint">ميزة تجريبية</string>
     <string name="pref_camera_hand_night_title">HHT</string>
     <string name="camera_settings_label">الكاميرا</string>
@@ -411,15 +415,17 @@
     <string name="pref_camera_zoom_mode_entry_tele">تقريب</string>
     <string name="pref_camera_zoom_mode_entry_standard">عادي</string>
     <string name="pref_camera_zoom_mode_entry_high_pixel">إضاءة خافتة</string>
+    <string name="pref_camera_zoom_value_title">التكبير/التصغير</string>
     <string name="pref_camera_portrait_mode_title">وضع بورتريه</string>
     <string name="pref_camera_portrait_mode_entry_off">وضع بورتريه متوقف</string>
     <string name="pref_camera_portrait_mode_entry_on">وضع بورتريه مشغل</string>
     <string name="portrait_mode_lowlight_hint">انه الآن مظلم جدا</string>
-    <string name="portrait_mode_too_close_hint">نقل الأب من الكائن</string>
+    <string name="portrait_mode_too_close_hint">تحرك لمسافة أبعد من الجسم</string>
     <string name="portrait_mode_too_far_hint">حدد عنصر على بعد ٢.٥ متر</string>
     <string name="portrait_mode_depth_effect_success_hint">تأثير العمق</string>
     <string name="portrait_mode_use_hint">"يقوم وضع بورتريه بتشويش الخلفية
 و التركيز على الأشخاص في المقدمة."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_square_mode_title">مربع</string>
     <string name="simple_mode_button_text_square">إيقاف تشغيل المربع</string>
     <string name="face_beauty_smart">ذكي</string>
@@ -434,6 +440,7 @@
     <string name="pref_camera_beautify_entry_low">منخفض</string>
     <string name="pref_camera_beautify_entry_normal">متوسط</string>
     <string name="pref_camera_beautify_entry_high">عالي</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">خيارات</string>
     <string name="button_front_camera_title">اخذ سيلفي</string>
     <string name="button_normal_video_title">تسجيل فيديو</string>
@@ -503,4 +510,6 @@
 إذا قمت بتدوير الهاتف"</string>
     <string name="text_ai_scene_selector_text_on">SILHOUETTE</string>
     <string name="text_ai_scene_selector_text_off">CONTRE-JOUR</string>
+    <string name="pref_camera_asd_popup_title">الإشعار عند الحاجة إلى الفلاش</string>
+    <string name="pref_video_captrue_ability_title">التقاط الصور أثناء التسجيل</string>
 </resources>

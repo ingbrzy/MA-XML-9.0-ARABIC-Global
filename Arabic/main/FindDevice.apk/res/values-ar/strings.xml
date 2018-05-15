@@ -22,8 +22,9 @@
     <string name="find_device_noise_title">منبه العثور على الجهاز</string>
     <string name="find_device_success_title">العثور على الجهاز</string>
     <string name="find_device_notice_p1">اذهب إلى</string>
-    <string name="find_device_notice_p3">"لتحديد موقع أو قفل أو استعادة هاتفك.
-إذا قمت بتبديل بطاقات SIM، سيتم ارسال رسالة SMS أخرى تلقائيًا لإعادة تفعيل هذه الميزة."</string>
+    <string name="find_device_notice_p2">i.mi.com</string>
+    <string name="find_device_notice_p3">لتحديد موقع جهازك أو قفله أو استعادته.</string>
+    <string name="find_device_notice_sms_alert">إذا قمت بتبديل بطاقات SIM، فسيتم إرسال رسالة SMS أخرى تلقائياً لتفعيل هذة الميزة.</string>
     <string name="i_know">موافق</string>
     <string name="unlock_error_network">تعذر الاتصال بالشبكة</string>
     <string name="unlock_error_device_id">تعذر الحصول على هوية الجهاز</string>
@@ -57,14 +58,14 @@
     <string name="login_failed">تعذر تسجيل الدخول. %s.</string>
     <string name="change_find_device_status_failed">تعذر إلغاء القفل. %s.</string>
     <string name="unlock_help_title">مساعدة \"إلغاء قفل\":</string>
-    <string name="unlock_help">"ابق على اتصال بالشبكة
-تأكد بأنك قمت بثبيت بطاقة SIM مفعلة، وأن جهازك غير متصل بشبكة Wi-Fi غير فعالة
+    <string name="unlock_help">"ابق على اتصال بالشبكة.
+ تأكد من تثبيت بطاقة SIM تعمل (إذا كان جهازك يدعم ذلك) ، وكان جهازك متصلاً بشبكة Wi-Fi صالحة. 
 
-نسيت كلمة المرور؟
-اذهب إلى id.mi.com لإعادة تعيين كلمة المرور الخاصة بك
+هل نسيت كلمة المرور؟
+ انتقل إلى id.mi إعادة تعيين كلمة المرور.
 
-أسباب أخرى
-قم بتسجيل الدخول إلى i.mi.com و حاول إلغاء قفل جهازك من هناك"</string>
+ أسباب أخرى
+ سجل الدخول إلى i.mi.com وجرِّب إلغاء قفل جهازك من هناك."</string>
     <string name="passport_vcode_prompt_long">أدخل رمز التحقق</string>
     <string name="passport_trust_device">الوثوق بهذا الجهاز</string>
     <string name="passport_verify">تحقق</string>
@@ -78,8 +79,8 @@
     <string name="default_lock_msg_words_with_phone">مرحباً! لقد فقدت جهازي. هل يمكنك الاتصال بي؟ شكراً!</string>
     <string name="default_lock_msg_words">هذا الجهاز مرتبط يحساب Mi موجود مسبقا. لأسباب أمنية، تحتاج إلى إدخال كلمة المرور للتحقق من الجهاز.</string>
     <string name="lock_msg_phone">معلومات جهة الاتصال: %s</string>
-    <string name="emergency_call">Emergency Call</string>
-    <string name="return_to_call">Return to Call</string>
+    <string name="emergency_call">مكالمة الطوارئ</string>
+    <string name="return_to_call">الرجوع إلى المكالمة</string>
     <string name="default_debt_msg_words">"هذا الجهاز مقفل بسبب دفع متأخر.
 اتصل بوكيل المبيعات الخاث بك للحصول على التفاصيل."</string>
     <string name="sys_notification_async_verify_title">إعادة تفعيل العثور على الجهاز</string>

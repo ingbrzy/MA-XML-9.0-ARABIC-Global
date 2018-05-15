@@ -121,7 +121,7 @@
     <string name="passport_checking_account">جارٍ التحقق من كلمة المرور…</string>
     <string name="passport_checking_input">جارٍ التحقق من الإدخال…</string>
     <string name="passport_activing_account">جارٍ التفعيل…</string>
-    <string name="passport_pwd_generating">جارٍ التوليد…</string>
+    <string name="passport_pwd_generating">جارٍ الإنشاء…</string>
     <string name="passport_setting">جارٍ الإعداد…</string>
     <string name="passport_trying_read_verify_code_sms">الحصول على رمز التحقق…</string>
     <string name="passport_adding_account">جارٍ إضافة الحساب…</string>

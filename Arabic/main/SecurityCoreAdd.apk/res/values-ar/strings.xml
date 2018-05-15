@@ -24,6 +24,7 @@
     <string name="title_switch_file">أترغب في حذف هذه الملفات؟</string>
     <string name="msg_switch_photo">حذف هذه الصور من الواجهة الاولى بعد نقلها؟</string>
     <string name="msg_switch_file">حذف هذه الملفات من الواجهة الاولى بعد نقلها؟</string>
+    <string name="msg_switch_file_second">حذف هذه الملفات من الواجهة الثانية بعد نقلها؟</string>
     <string name="delete_src_photo">حذف الصور</string>
     <string name="delete_src_file">حذف الملفات</string>
     <string name="retain_src_photo">الحفاظ على الصور</string>
@@ -58,6 +59,8 @@
     <string name="wating">لحظة من فضلك…</string>
     <string name="Active">نشط</string>
     <string name="ok_button">موافق</string>
+    <string name="remove_button">حذف وإعادة تشغيل</string>
+    <string name="remove_button_time">حذف وإعادة التشغيل (%dثانية)</string>
     <string name="cancel_button">إلغاء</string>
     <string name="list_empty_text">فارغ</string>
     <string name="list_empty_text_xspace">قم بتثبيت WeChat/QQ/Weibo، وأنشئ تطبيق مزدوج، ثم حاول مجدداً.</string>
@@ -65,6 +68,8 @@
     <string name="xspace_setting_label">إعدادات التطبيق المزدوج</string>
     <string name="xspace_account">حسابات التطبيق المزدوج</string>
     <string name="declare_dialog_title">معلومات عن التطبيقات المزدوجة</string>
+    <string name="stop_xspace_alert_title">حذف حسابات التطبيق المزدوج</string>
+    <string name="stop_xspace_alert_content">لقد قمت بحذف جميع التطبيقات المزدوجة. هل تريد حذف حسابات التطبيق المزدوج وبيانات التطبيق أيضا؟ سيكون عليك بعد ذلك إنشاء التطبيقات المزدوجة مرة أخرى عتد الحاجة.</string>
     <string name="xspace_loading_msg">جارٍ تحميل التطبيقات…</string>
     <string name="xspace_header">التطبيقات المزدوجة</string>
     <string name="xspace_introduce">موصى به</string>
@@ -77,6 +82,7 @@
     <string name="xspace_install_failed">تعذر الإنشاء</string>
     <string name="xspace_uninstalling">جارٍ إلغاء التثبيت…</string>
     <string name="xspace_install_completed">تم إضافة الأيقونة إلى الشاشة الرئيسية</string>
+    <string name="xspace_install_completed_global">تم أضافة الاختصار إلى القائمة</string>
     <string name="xspace_uninstall_completed">تم إلغاء تثبيت التطبيق المزدوج بنجاح</string>
     <string name="xspace_uninstall_dialog_title">إلغاء تثبيت التطبيق المزدوج</string>
     <string name="xspace_uninstall_dialog_content">إلغاء تثبيت التطبيقات المزدوجة سيزيل كل بيانات التطبيق.</string>
@@ -177,6 +183,10 @@
     <string name="notification_from_second_user">عرض الإشعارات من الواجهة الثانية</string>
     <string name="radio_button_icon_switch_title">باستخدام اختصار</string>
     <string name="radio_button_password_switch_title">باستخدام كلمة مرور</string>
+    <string name="reset_password_dialog_title">لا يمكن إخفاء إختصار الواجهة الثانية</string>
+    <string name="reset_password_dialog_message">أنت تستخدم أنواع كلمات مرور مختلفة للواجهة الاولى والواجهة الثانية. يجب أن تستخدم للواجهة الثانية نفس نوع كلمة مرور الواجهة الاولى للإختصار ليتم إخفاءه.</string>
+    <string name="reset_password_dialog_positve_btn_title">تغيير</string>
+    <string name="entrance_reopen_toast_msg">لا يتم إخفاء اختصار الواجهة الثانية بسبب أنواع كلمات المرور المختلفة</string>
     <string name="settings_cross_notification_title">الإشعارات</string>
     <string name="settings_cross_notification_summary">استلام إشعارات من فضاء آخر</string>
     <string name="settings_switch_shortcut_summary">عرض اختصار الشاشة الرئيسية في الواجهة الاولى</string>
@@ -279,6 +289,7 @@
     <string name="xspace_weixin_title">WeChat</string>
     <string name="weixin_pay">دفع WeChat</string>
     <string name="weixin_share_sign">تسجيل الدخول والمشاركة</string>
+    <string name="use_xiaoai_open">ايقاظ بإستخدام المساعد الصوتي</string>
     <string name="xspace_weibo_title">Weibo</string>
     <string name="weibo_send">الإرسال إلى Weibo</string>
     <string name="xspace_qq_title">QQ</string>
@@ -358,13 +369,13 @@
     <string name="sdcradfs_dialog_in_sec_message">"للتحديث، يجب عليك حذف الواجهة الثانية وإنشاءها مرة أخرى. قم بنقل البيانات من الواجهة الثانية إلى الواجهة الأولى ومن ثم إعد تشغيل الجهاز لإكمال التحديث.
 إذا لم تقم بالتحديث، فقد لا تعمل التطبيقات المزدوجة بشكل صحيح."</string>
     <string name="space_created_success">تم إنشاء الواجهة الثانية بنجاح</string>
-    <string name="encrypt_space_delete_dialog_title">Attention</string>
-    <string name="encrypt_space_delete_dialog_message">"You're about to update Android. After the update, Second space data will become incompatible. To avoid this, move all data to First space, delete Second space, and create it again."</string>
-    <string name="encrypt_space_delete_dialog_click_message">"*If you don't need to move data, %s"</string>
-    <string name="encrypt_space_delete_dialog_click_message_action">delete and create Second space now.</string>
-    <string name="encrypt_space_delete_dialog_positive_text">Move data</string>
-    <string name="encrypt_space_delete_notification_title">Second space</string>
-    <string name="encrypt_space_delete_notification_message">Delete your Second space and create a new one to update your device successfully.</string>
+    <string name="encrypt_space_delete_dialog_title">تنبيه</string>
+    <string name="encrypt_space_delete_dialog_message">أنت على وشك تحديث نظام الأندرويد. بعد التحديث، ستصبح بيانات الواجهة الثانية غير متوافقة. لتجنب ذلك، انقل جميع البيانات إلى الواجهة الأولى، واحذف الواجهة الثانية وأنشئها مرة أخرى.</string>
+    <string name="encrypt_space_delete_dialog_click_message">* إذا لم تكن بحاجة إلى نقل البيانات، %s</string>
+    <string name="encrypt_space_delete_dialog_click_message_action">حذف وإنشاء الواجهة الثانية الآن.</string>
+    <string name="encrypt_space_delete_dialog_positive_text">نقل البيانات</string>
+    <string name="encrypt_space_delete_notification_title">الواجهة الثانية</string>
+    <string name="encrypt_space_delete_notification_message">لتحديث الجهاز بنجاح، احذف المساحة الثانية وأنشئها مرة أخرى.</string>
     <string name="space_create_guide_title_1">حماية خصوصيتك</string>
     <string name="space_create_guide_desc_1">تخزين التطبيقات والصور بشكل آمن</string>
     <string name="space_create_guide_title_2">إنشاء في أي وقت</string>
@@ -385,4 +396,7 @@
     <string name="experience_more_features">اضف جهاز لعرض جميع الميزات</string>
     <string name="can_not_switch_when_green_kid_active">التبديل إلى الواجهة الثانية مقيد بالرقابة الأبوية</string>
     <string name="need_network_when_bind">اتصل بالشبكة قبل إضافة الأجهزة</string>
+    <string name="net_work_notice">Parental controls need to connect to the internet and get access to your location to work normally. This permissions are required to send the info about battery levels, step count, and your location to the controlled devices. Allow?</string>
+    <string name="agree">Agree</string>
+    <string name="disagree">"Don't agree"</string>
 </resources>

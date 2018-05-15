@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Keyguard</string>
     <string name="delete">حذف</string>
     <string name="unlockscreen_recharging_message">يتم الشحن %d%%</string>
     <string name="unlockscreen_recharge_completed">البطارية مشحونة</string>
     <string name="unlockscreen_low_battery">قم بوصل الشاحن الان</string>
     <string name="lockscreen_charging_msg">يتم الشحن</string>
     <string name="reset_device_tip">الشحن بطيء. أعد تثبيت جهازك.</string>
-    <string name="reset_device_detail_tip">ضع الجهاز على الشاحن اللاسلكي بشكل صحيح لضمان سرعة شحن عالية.</string>
+    <string name="reset_device_detail_tip">تأكد من وضع الجهاز بشكل صحيح على قاعدة الشحن</string>
     <string name="wireless_charge_stop">توقف الشحن اللاسلكي</string>
-    <string name="change_to_ac_charging">تم التبديل إلى الشحن اللاسلكي</string>
-    <string name="wireless_charge_dialog_title">أعد تثبيت جهازك على الشاحن اللاسلكي</string>
-    <string name="wireless_charge_dialog_cancel">إلغاء</string>
-    <string name="wireless_current_charge">الشحن الحالي</string>
+    <string name="change_to_ac_charging">تم التبديل إلى الشحن السلكي</string>
+    <string name="wireless_charge_dialog_title">ضع الجهاز في وسط قاعدة الشحن</string>
+    <string name="wireless_charge_dialog_cancel">فهمت</string>
+    <string name="wireless_current_charge">يتم الشحن</string>
     <string name="emergency_call_string">الطوارئ</string>
     <string name="forget_password_string">نسيت كلمة المرور</string>
     <string name="input_puk_code">ادخل رمز PUK</string>
@@ -19,6 +20,7 @@
     <string name="input_pin_code">أدخل رمز PIN</string>
     <string name="incorrect_pukcode">رمز PUK غير صحيح</string>
     <string name="incorrect_pincode">رمز PIN غير صحيح</string>
+    <string name="kg_password_pin_failed">فشلت عملية SIM PIN!</string>
     <string name="lock_screen_date">EEEE، d MMMM</string>
     <string name="lock_screen_date_12">EEEE، d MMMM</string>
     <string name="phone_locked_string">تم قفل الهاتف</string>
@@ -64,7 +66,7 @@
     <string name="input_password_after_boot_msg">لفتح جهازك، ادخل كلمة المرور</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">تحتاج إلى الدخول إلى الواجهة الاولى بعد إعادة تشغيل الجهاز</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">لا يمكن التبديل بين الواجهات أثناء إجراء مكالمة</string>
-    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">"Can't switch between spaces when parental controls are on"</string>
+    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">لا يمكن التبديل بين الواجهتين أثناء تشغيل رقابة الوالدين</string>
     <string name="input_password_handle_sdcard_fs">لا يمكن الدخول إلى الواجهة الثانية من شاشة القفل. قم بالدخول من الواجهة الاولى.</string>
     <string name="accessibility_enter_lock_wallpaper">انقر لفتح خلفية كاروسيل</string>
     <string name="wallpaper_global_des_drop_down_notify_text">حرر لعرض التفاصيل</string>
@@ -148,5 +150,9 @@
     <string name="do_disclosure_with_name">تتم إدارة هذا الجهاز من قِبل %s</string>
     <string name="face_unlock_reenter_title">سجل بيانات وجهك مرة أخرى.</string>
     <string name="face_unlock_reenter_content">تم تحديث خوارزمية التعرف على الوجه. انقر لتسجيل بيانات الوجة مرة اخرى.</string>
+    <string name="digital_clock_dot">:</string>
     <string name="keyguard_left_view_lock_wallpaper">خلفية كاروسيل</string>
+    <string name="gxzw_try_more_again">حاول مجددا</string>
+    <string name="gxzw_use_password">استخدم كلمة المرور لإلغاء القفل</string>
+    <string name="gxzw_press_harder">اضغط بقوه أكبر</string>
 </resources>

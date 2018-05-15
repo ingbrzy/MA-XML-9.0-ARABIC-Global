@@ -59,7 +59,7 @@
     <string name="pref_title_manual_check_cleanup_db_update">التحقق من وجود تحديثات</string>
     <string name="pref_category_title_garbage_cleanup_check">الإشعارات</string>
     <string name="pref_summary_garbage_cleanup_check_time">جدول التنظيف الروتيني</string>
-    <string name="pref_title_garbage_cleanup_check_time">الجدول</string>
+    <string name="pref_title_garbage_cleanup_check_time">جدولة</string>
     <string name="pref_summary_garbage_cleanup_check_size">تنظيف تلقائيا عندما تصل المهملات إلى حجم معين</string>
     <string name="pref_title_garbage_cleanup_check_size">الحد الأقصى لحجم المهملات</string>
     <string name="pref_title_garbage_cleanup_size">الحد الأقصى لحجم المهملات</string>
@@ -90,6 +90,7 @@
     <string name="hints_apk_header_left">حزم</string>
     <string name="hints_residual_header_left">المخلفات</string>
     <string name="hints_memory_header_left">الذاكرة</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">ملفات كبيرة: %d</string>
     <string name="hints_installed_apps_header_left">التطبيقات المثبتة: %d</string>
     <string name="toast_resolve_apk_error">حل خطأ apk</string>
@@ -98,7 +99,7 @@
     <string name="apk_status_installed_old">نسخة قديمة</string>
     <string name="apk_status_install">مثبتة</string>
     <string name="apk_status_duplicate">مكرر</string>
-    <string name="apk_status_damage">متلف</string>
+    <string name="apk_status_damage">تالف</string>
     <string name="cache_title_empty_folder">مجلد فارغ (%d)</string>
     <string name="cache_title_empty_folder2">مجلد فارغ</string>
     <string name="dialog_msg_check_all">التأكيد لتحديد %1$s التي تحتوي على %2$d عنصر</string>
@@ -127,8 +128,8 @@
     <string name="msg_update_error_code_no_newer_db">أداة التنظيف محدثة</string>
     <string name="msg_update_error_code_already_running">جارٍ التحديث…</string>
     <string name="msg_update_error_code_network_error">لا يمكن الاتصال بالشبكة</string>
-    <string name="msg_update_error_code_unknown_error">خطأ غير معروف</string>
-    <string name="msg_cleanup_db_update_time_unknown">آخر تحديث: غير معروف</string>
+    <string name="msg_update_error_code_unknown_error">Servers are busy. Wait a minute or two and try again.</string>
+    <string name="msg_cleanup_db_update_time_unknown">Last update: Unknown</string>
     <string name="item_title_process_mode">اختيار إجراء</string>
     <string name="clean_content_zero">لا شيء</string>
     <string name="clean_content_one">1 عنصر</string>
@@ -265,12 +266,13 @@
     <string name="hints_cleanfinish">انتهى التنظيف</string>
     <string name="hints_num">٠</string>
     <string name="mainbtn_text_quick_cleanup">تنظيف %s</string>
+    <string name="mainbtn_text_no_trash">تخطي</string>
     <string name="mainbtn_text_quick_cleanup_default">تنظيف</string>
     <string name="pref_title_open_optimizer_memory_scan">فحص تطبيقات الذاكرة</string>
     <string name="toast_select_white_need_remove">اختيار العناصر للإزالة</string>
     <string name="network_not_available">لا يمكن الاتصال بالشبكة</string>
     <string name="no_network_btn">حاول مجدداً</string>
-    <string name="name_debuglog_dir">سجل تصحيح Bsp</string>
+    <string name="name_debuglog_dir">BSP debug log</string>
     <string name="just_now">حاليا</string>
     <string name="yesterday">امس</string>
     <string name="month_day_format">dd MMM</string>
@@ -296,6 +298,7 @@
     <string name="downloading">جارٍ التحميل</string>
     <string name="installing">جارٍ التثبيت</string>
     <string name="start_install">التثبيت الآن</string>
+    <string name="empty">" "</string>
     <string name="open_browser">فتح في المتصفح</string>
     <string name="title_share_link">مشاركة URL</string>
     <string name="connecting">جارٍ الاتصال…</string>
@@ -393,7 +396,7 @@
     <string name="long_click_dialog_summary">اضغط لفترة طويلة للإضافة إلى الاستثناءات.</string>
     <string name="function_app_lock_title">%d تطبيق يحتوي على مخاطر خصوصية</string>
     <string name="deep_clean_uninstall_completed_tips">تم إلغاء التثبيت بنجاح</string>
-    <string name="deep_clean_completed_tips">تم الحذف بنجاح</string>
+    <string name="deep_clean_completed_tips">تم التنظيف بنجاح</string>
     <string name="deepclean_normal_item_summary_empty">كل شي يبدو جيداً، لا توجد بيانات للتنظيف</string>
     <string name="low_memory_clean_dialog_title">لا توجد مساحة كافية</string>
     <string name="low_memory_clean_dialog_msg">قم بحذف ١٠٠ ملف على الاقل أولاً</string>
@@ -495,4 +498,25 @@
     <string name="auto_clean_time_three_day">كل ٣ أيام</string>
     <string name="auto_clean_time_seven_day">كل ٧ أيام</string>
     <string name="auto_clean_time_fifteen_day">كل ١٥ يوم</string>
+    <string name="pref_category_title_auto_clean_config_settings">التنظيف التلقائي</string>
+    <string name="pref_title_auto_clean">التنظيف تلقائيا</string>
+    <string name="pref_title_auto_clean_operation">طريقة التنظيف</string>
+    <string name="pref_title_auto_clean_trigger">تنظيف التخزين</string>
+    <string name="auto_clean_operation_dialog_title">طريقة التنظيف</string>
+    <string name="auto_clean_operation_clean_and_alert">تذكير وتنظيف</string>
+    <string name="auto_clean_operation_just_clean">تنظيف فقط</string>
+    <string name="auto_clean_trigger_dialog_title">تنظيف التخزين</string>
+    <string name="auto_clean_trigger_percent_ninety">عندما يكون ٩٠% ممتلئ</string>
+    <string name="auto_clean_trigger_percent_eighty">عندما يكون ٨٠% ممتلئ</string>
+    <string name="auto_clean_trigger_percent_sixty">عندما يكون ٦٠% ممتلئ</string>
+    <string name="auto_clean_notification_title">تذكير للتنظيف</string>
+    <string name="auto_clean_notification_content">تم تنظيف %s مهملات</string>
+    <string name="guide_secure_dialog_title">تحسين الأداء</string>
+    <string name="guide_secure_dialog_message">نقاط تحسين الجهاز أقل من ٨٠ نقطة. التحسين الآن؟</string>
+    <string name="guide_secure_dialog_positive">تحسين</string>
+    <string name="guide_secure_dialog_negative">إلغاء</string>
+    <string name="guide_virus_dialog_title">فحص الفيروسات</string>
+    <string name="guide_virus_dialog_message">يعمل فحص التطبيقات وحزم التثبيت على حماية جهازك من الفيروسات والبرامج الضارة. فحص الجهاز الآن؟</string>
+    <string name="guide_virus_dialog_positive">فحص</string>
+    <string name="guide_virus_dialog_negative">إلغاء</string>
 </resources>

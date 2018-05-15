@@ -25,11 +25,12 @@
     <string name="s5">إنشاء حدث تقويم</string>
     <string name="s6">هل تريد السماح للإعلان بإنشاء حدث تقويم؟</string>
     <string name="s7">إعلان تجريبي</string>
+    <string name="status_bar_notification_info_overflow">+999</string>
     <string name="account_and_cloud">حساب</string>
-    <string name="action_item_add">إضافة</string>
+    <string name="action_item_add">إضافة إلى</string>
     <string name="action_item_add_song">إضافة الى قائمة التشغيل</string>
-    <string name="action_item_add_to_current_playlist">قائمة التشغيل الحالية</string>
-    <string name="action_item_add_to_favorite_playlist">قائمة تشغيل المفضلة</string>
+    <string name="action_item_add_to_current_playlist">قائمة الانتظار</string>
+    <string name="action_item_add_to_favorite_playlist">المفضلة</string>
     <string name="action_item_add_to_new_playlist">جديد</string>
     <string name="action_item_delete">حذف</string>
     <string name="action_item_download">تحميل</string>
@@ -38,14 +39,15 @@
     <string name="action_item_hide">إخفاء</string>
     <string name="action_item_hifi">سماعات الرأس ومؤثرات الصوت</string>
     <string name="action_item_play_all">تشغيل الكل</string>
+    <string name="action_item_play_next">التشغيل لاحقاً</string>
     <string name="action_item_remove">إزالة</string>
     <string name="action_item_remove_from_favorite">غير مفضلة</string>
     <string name="action_item_share">مشاركة</string>
     <string name="action_settings">الإعدادات</string>
     <string name="ad_close">إغلاق</string>
     <string name="ad_data_exception">خطأ في بيانات الإعلان</string>
-    <string name="ad_recommend">التوصيات</string>
-    <string name="ad_setting">إعدادات الإعلان</string>
+    <string name="ad_recommend">تلقي توصيات</string>
+    <string name="ad_setting">الإعدادات الإضافية</string>
     <string name="add_music">إضافة اغاني</string>
     <string name="add_to_last_of_playlist">إضافة الى اخر قائمة التشغيل</string>
     <string name="add_to_playlist_successful">تمت الأضافة بنجاح</string>
@@ -53,6 +55,8 @@
     <string name="alaka_required">يجب عليك الدفع للاستماع لهذه الأغنية</string>
     <string name="album_label">أغلفة ألبومات</string>
     <string name="album_name">البوم</string>
+    <string name="all_album_count">جميع الألبومات (%d)</string>
+    <string name="all_playlist_count">جميع قوائم التشغيل (%d)</string>
     <string name="all_tracks">جميع الاغاني</string>
     <string name="already_download">جارٍ التحميل…</string>
     <string name="already_download_btn">جارٍ التنزيل…</string>
@@ -81,12 +85,11 @@
     <string name="asset_sync_network_unavailable_alert_title">تعذر الاتصال بالشبكة</string>
     <string name="asset_sync_power_alert_message">توصيل الشاحن لنسخ الأغاني احتياطياً.</string>
     <string name="asset_sync_power_alert_title">البطارية منخفضة</string>
-    <string name="audio_picker_title">اختيار اغنية</string>
+    <string name="audio_picker_title">اختر اغنية</string>
     <string name="audio_recognition_setting_summary">البحث عن أغلفة الألبوم والكلمات للأغاني المحلية تلقائيا</string>
     <string name="audio_recognition_setting_title">البحث عن أغلفة الألبوم والكلمات</string>
     <string name="auto_payment">تجديد تلقائي</string>
     <string name="auto_payment_date">الدفع التالي: %s</string>
-    <string name="auto_upgrade">التحديث تلقائياً</string>
     <string name="available_playlist_name_format">قائمة تشغيل جديدة %d</string>
     <string name="avoid_to_use_traffic_summary">لا تستخدم شبكة الجوال لتشغيل الموسيقى</string>
     <string name="avoid_to_use_traffic_title">التنبيه عند استخدام بيانات الجوال لتشغيل الأغاني</string>
@@ -111,7 +114,7 @@
     <string name="choose_download_quality">اختيار جودة التحميل</string>
     <string name="choose_language">حدد اللغة</string>
     <string name="choose_stream_quality">اختيار جودة التشغيل</string>
-    <string name="click_to_shuffle">انقر لتشغيل العشوائي</string>
+    <string name="click_to_shuffle">انقر للتشغيل العشوائي</string>
     <string name="close_music_time">"الوقت المتبقي: "</string>
     <string name="cloud_empty_local_empty_button">لا توجد أغاني في هذا الجهاز</string>
     <string name="cloud_empty_message">لا يوجد أغاني في Mi Cloud</string>
@@ -133,6 +136,7 @@
     <string name="continue_backup">متابعة</string>
     <string name="cp_info_first">"خدمة تشغيل الموسيقى على الانترنت
 مقدمه أساساً من Ultimate Inc."</string>
+    <string name="cp_info_second">service1@ultimobi.com</string>
     <string name="create_order_fail">تعذر إنشاء طلب، حاول مجدداً.</string>
     <string name="create_playlist">إنشاء قائمة تشغيل</string>
     <string name="create_playlist_failure">تعذرإنشاء قائمة تشغيل</string>
@@ -172,8 +176,6 @@
     <string name="dialog_insufficient_space_on_external">لا توجد مساحة كافية بوحدة التخزين الخارجية</string>
     <string name="dialog_media_not_found">لا يمكن التنزيل. بطاقة الذاكرة SD غير متوفرة.</string>
     <string name="dialog_queued_body">تم وضع هذا الملف في قائمة الانتظار للتحميل في المستقبل.</string>
-    <string name="dialog_show_more_backup">النسخ الاحتياطي للأغاني المحلية</string>
-    <string name="dialog_show_more_optimize_all">تحسين معلومات الأغنية</string>
     <string name="dialog_song_sort_type">ترتيب الاغاني</string>
     <string name="dialog_song_sort_type_name">حسب الاسم</string>
     <string name="dialog_song_sort_type_playing_times">حسب عدد مرات التشغيل</string>
@@ -183,12 +185,12 @@
     <string name="dialog_song_view_type_artist">حسب الفنان</string>
     <string name="dialog_song_view_type_folder">حسب المجلد</string>
     <string name="dialog_song_view_type_song">حسب الأغنية</string>
-    <string name="dialog_title_clearlist_tracks">مسح قائمة التشغيل</string>
+    <string name="dialog_title_clearlist_tracks">حذف من قائمة الانتظار</string>
     <string name="dialog_title_delete_tracks">حذف</string>
     <string name="dialog_title_name_playlist">اسم قائمة التشغيل</string>
     <string name="dialog_title_not_available">تعذر التنزيل</string>
     <string name="dialog_title_queued_body">الملف غير متوفر حتى الآن</string>
-    <string name="dialog_title_remove_tracks">إزالة</string>
+    <string name="dialog_title_remove_tracks">حذف</string>
     <string name="disable_auto_payment_fail">تعذر ايقاف التفعيل</string>
     <string name="disable_auto_payment_fail_message">تعذر إيقاف تفعيل التجديد التلقائي</string>
     <string name="disable_auto_payment_success">ايقاف التفعيل</string>
@@ -229,6 +231,7 @@
     <string name="download_method">تحميل</string>
     <string name="download_no_application_title">لا يمكن فتح الملف</string>
     <string name="download_paused_in_power_save_mode">إيقاف مؤقت للتنزيلات عند توفير شحن البطارية مُشغل</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">جارٍ التنزيل…</string>
     <string name="download_quality">جودة التحميل</string>
     <string name="download_quality_summary">الإعدادات الإضافية للاغاني التي يتم تحميلها</string>
@@ -264,6 +267,7 @@
     <string name="downloading_apk">جارٍ التنزيل… اتبع العملية في مركز الاشعارات.</string>
     <string name="downloading_empty">فارغ</string>
     <string name="downloading_pause_apk">متوقف مؤقتاً. استئنف التحميل من مركز الاشعارات.</string>
+    <string name="edit_playlist_info">تعديل معلومات قائمة التشغيل</string>
     <string name="empty_page_no_album">لا توجد ألبومات.</string>
     <string name="empty_page_no_artist">لا يوجد فنانين.</string>
     <string name="enable_auto_payment_fail">تعذر التفعيل</string>
@@ -295,6 +299,7 @@
     <string name="error_title">تعذرت المزامنة مع حساب Mi</string>
     <string name="error_unauthorized">تم إيقاف المزامنة بسبب وجود عدة محاولات تسجيل الدخول.</string>
     <string name="expired">انتهت الصلاحية</string>
+    <string name="facebook_not_installed">تثبيت الفيسبوك أولاً.</string>
     <string name="fail_to_fetch_payment_page_url">تعذر الحصول على بيانات الدفع</string>
     <string name="fail_to_play">لا يمكن تشغيل أغنية</string>
     <string name="fav_login_msg">تسجيل الدخول إلى حساب Mi لتنزيل الأغاني</string>
@@ -406,6 +411,7 @@
     <string name="local_page_custom_title">من أجلك</string>
     <string name="local_page_playlist">قوائم التشغيل</string>
     <string name="local_page_song_download_history">التحميلات</string>
+    <string name="long_press_to_select_lyric">اضغط مع الاستمرار لتحديد ملف الكلمات محليا</string>
     <string name="lrc_search_failed">تعذر إيجاد كلمات الاغنية</string>
     <string name="lrc_searching">جارٍ البحث…</string>
     <string name="lyric_is_empty">لا تتوفر أي كلمات</string>
@@ -443,12 +449,13 @@
     <string name="mobile_recommended_title">استخدام بيانات الجوال</string>
     <string name="modify_info_disable_note">لتعديل المعلومات يدوياً، قم أولاً بتعطيل \"البحث عن أغلفة ألبومات وكلمات\".</string>
     <string name="modify_lyric">تعديل الكلمات</string>
+    <string name="modify_pic">تغيير الغلاف</string>
     <string name="modify_progress">تغيير سرعة تمرير الكلمات</string>
     <string name="modify_progress_helper">مرر لأعلى أو لأسفل لتعديل مسار الكلمات.</string>
     <string name="modify_song_info">تعديل معلومات الاغنية</string>
     <string name="modify_song_info_success">تم تحديث معلومات الأغنية</string>
     <string name="more">المزيد</string>
-    <string name="more_add_song_list">إضافة الى قائمة التشغيل الحالية</string>
+    <string name="more_add_song_list">إضافة الأغاني إلى قائمة الانتظار</string>
     <string name="more_settings">الإعدادات المتقدمة</string>
     <string name="more_settings_summary">تنزيل الإعدادات، مؤقت النوم، إدارة بيانات الجوال، مرشحات للملفات، الخ.</string>
     <string name="more_share">مشاركة</string>
@@ -477,12 +484,14 @@
     <string name="no_online_song_selected">لم يتم تحديد اغاني</string>
     <string name="no_results_return">لا توجد نتائج بحث</string>
     <string name="no_scanned_songs">فارغ</string>
-    <string name="no_song">لا يوجد اغاني</string>
     <string name="no_song_downloaded">تعذر الاتصال بالخادم</string>
+    <string name="no_song_subtitle">امزج نفسك في قلب الموسيقى</string>
+    <string name="no_song_title">موسيقى Mi</string>
     <string name="no_system_cropper_find">لا يملك النظام أداة قص</string>
     <string name="normal_quality">جيد</string>
     <string name="not_login">لم تقم بتسجيل الدخول</string>
-    <string name="not_selected">اختيار اغنية</string>
+    <string name="not_selected">اختر اغنية</string>
+    <string name="nothing_changed_toast">لم يتم تغيير أي شيء حتى الآن.</string>
     <string name="notif_title_file_size">إجمالي %1$d</string>
     <string name="notif_title_multiple_downloading">جارٍ تنزيل %1$d ملف</string>
     <string name="notif_title_single_downloading">جارٍ تنزيل %1$s</string>
@@ -499,12 +508,10 @@
     <string name="nowplaying_circle_style">نمط زر التشغيل</string>
     <string name="nowplaying_circle_style_rainbow">قوس قزح</string>
     <string name="nowplaying_circle_style_wave">موجة</string>
-    <string name="nowplaying_dialog_title_delete_tracks">حذف قائمة التشغيل الحالية؟</string>
-    <string name="nowplaying_menu_item_delete">حذف</string>
+    <string name="nowplaying_dialog_title_delete_tracks">حذف هذه الأغنية من قائمة الانتظار؟</string>
+    <string name="nowplaying_menu_item_delete">حذف من قائمة الانتظار</string>
     <string name="ok">موافق</string>
     <string name="online_list_delete_message">كل الاغاني التي تم تنزيلها في قائمة التشغيل سيتم حذفها من وحدة التخزين الداخلي.</string>
-    <string name="online_music_enabled_summary">قم بالاستماع وتحميل أغانيك المفضلة. اعرض أفضل الأغاني وقوائم التشغيل المنتقاة أينما ذهبت!</string>
-    <string name="online_music_enabled_title">التشغيل المجاني هنا</string>
     <string name="online_recommend">قائمة التشغيل</string>
     <string name="online_service_open_tip">خدمات الموسيقى عبر الانترنت مشغلة</string>
     <string name="online_service_title">خدمات عبر الإنترنت</string>
@@ -524,6 +531,8 @@
     <string name="paused_waiting_for_network">في إنتظار الاتصال</string>
     <string name="paused_waiting_to_retry">في إنتظار إعادة المحاولة</string>
     <string name="pay_now">الخدمة الحالية</string>
+    <string name="payment_success_message">شكرا لك! تمت معالجة الدفع بنجاح. استمتع بخدمات PRO.</string>
+    <string name="payment_success_title">تهانينا!</string>
     <string name="pending_apk">قيد الانتظار…</string>
     <string name="permission_declaration_message">السماح بالوصول إلى التخزين في الحماية > الأذونات > الأذونات > التخزين > الموسيقى لتكون قادر على استخدام الموسيقى بشكل طبيعي.</string>
     <string name="permission_declaration_negative_text">لاحقا</string>
@@ -533,12 +542,16 @@
     <string name="pick_local_song">الأغاني المحلية</string>
     <string name="pick_recent_song">الحديثة</string>
     <string name="play_all_song">تشغيل الكل</string>
+    <string name="play_empty_playlist">لا يمكن تشغيل الأغاني. قائمة التشغيل فارغة.</string>
     <string name="play_mode_all_loop">تكرار الكل</string>
     <string name="play_mode_one_loop">تكرار</string>
     <string name="play_mode_play_all">تشغيل الكل</string>
     <string name="play_mode_shuffle_all">عشوائي</string>
     <string name="play_next">تشغيل التالي</string>
     <string name="playlist_empty">لم يتم العثور على قوائم التشغيل.</string>
+    <string name="playlist_title">اسم قائمة التشغيل</string>
+    <string name="playlist_title_is_empty">لا يمكن ترك قائمة التشغيل فارغة</string>
+    <string name="playlist_title_is_invalid">قائمة التشغيل موجودة مسبقا</string>
     <string name="playlist_type_album">ألبومات</string>
     <string name="playlist_type_artist">فنان</string>
     <string name="playlist_type_billboard">القوائم</string>
@@ -552,11 +565,13 @@
     <string name="priority_storage">استخدام بطاقة الذاكرة SD الخارجية</string>
     <string name="priority_storage_summary">تنزيل تلقائي لبطاقة الذاكرة SD الخارجية عند توفرها</string>
     <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=en</string>
     <string name="project_device">هاتف Mi</string>
     <string name="prompt_grant_write_settings_permission">السماح بتغيير إعدادات النظام</string>
     <string name="pulluprefreshrecyclerview_loading_error">تعذر التحميل</string>
     <string name="pulluprefreshrecyclerview_loading_finished">تم التحميل بنجاح</string>
     <string name="pulluprefreshrecyclerview_loading_running">جارٍ التحميل…</string>
+    <string name="queue_is_empty">قائمة الانتظار فارغة.</string>
     <string name="radar">ACRCloud</string>
     <string name="radar_click_to_retry">انقر للمحاولة مرة أخرى</string>
     <string name="radar_fail">لا توجد نتائج</string>
@@ -585,7 +600,7 @@
     <string name="recognized_alert_title">العثور على غلاف الألبوم والكلمات</string>
     <string name="recommended_file_size_download_in_mobile">استخدام %s من بيانات الجوال لتنزيل هذا الملف؟</string>
     <string name="recommended_no_file_size_download_in_mobile">استخدام اتصال بيانات الجوال لتنزيل هذا الملف؟</string>
-    <string name="remove">إزالة</string>
+    <string name="remove">حذف</string>
     <string name="remove_download">حذف</string>
     <string name="repeat_all_notif">تكرار جميع الاغاني.</string>
     <string name="repeat_current_notif">تكرار الاغنية الحالية.</string>
@@ -604,22 +619,19 @@
     <string name="search_hint">بحث عن فنانين، اغاني،ألبومات وتوصيات</string>
     <string name="search_history_clear_all">مسح</string>
     <string name="search_instant_online_music">على الانترنت</string>
+    <string name="search_songs_count">الأغاني: %d</string>
     <string name="search_title">بحث</string>
     <string name="select_all">تحديد الكل</string>
     <string name="select_device">تحديد جهاز</string>
     <string name="select_displayed_folders">اختر مجلدات للعرض</string>
-    <string name="select_local_album">اختيار البوم</string>
-    <string name="select_local_lyric">اختيار كلمات</string>
+    <string name="select_local_cover">تحديد غلاف محليا</string>
+    <string name="select_local_lyric_file">تحديد ملف الكلمات محليا</string>
     <string name="select_none">إلغاء تحديد الكل</string>
     <string name="selected_count">تم تحديد %1$d من %2$d</string>
-    <string name="send_to_title">إرسال الي (%1$s)</string>
+    <string name="send_to_title">إرسال إلى (%1$s)</string>
     <string name="server_error">حدث خطأ ما، انتظر دقيقة أو دقيقتين ثم حاول مرة أخرى.</string>
     <string name="service_and_settings">الخدمة و الإعدادات</string>
     <string name="set_as_ring">تعيين كـنغمة رنين</string>
-    <string name="set_id3_failed">لا يمكن حفظ المعلومات</string>
-    <string name="set_id3_not_have_read_or_write_permission">ليس لديك التصريح لتعديل هذا الملف</string>
-    <string name="set_id3_not_support_format">لا يمكن تعديل صيغة هذا الملف</string>
-    <string name="set_id3_successful">تم حفظ معلومات الاغنية</string>
     <string name="set_ringtones_failed">تعذر التعيين كـنغمة رنين</string>
     <string name="set_ringtones_successful">%s تعيين كـنغمة رنين</string>
     <string name="setting_feature_setting">إعدادات الميزة</string>
@@ -656,7 +668,7 @@
     <string name="sleep_mode_canceled">تم إيقاف وضع السكون</string>
     <string name="sleep_mode_summary">إيقاف المشغل بعد وقت معين</string>
     <string name="sleep_mode_title">مؤقت السكون</string>
-    <string name="song_exist_in_playlist">هذه الأغنية موجودة في قائمة التشغيل مسبقا</string>
+    <string name="song_exist_in_playlist">هذه الأغنية موجودة مسبقا في قائمة الانتظار</string>
     <string name="song_info">تفاصيل الأغنية</string>
     <string name="song_is_empty">اسم الأغنية لا يمكن أن يكون فارغاً.</string>
     <string name="song_name">اغنية</string>
@@ -720,12 +732,13 @@
     <string name="toast_uhd_songs_for_download">تم تعيين جودة التحميل إلى عالية</string>
     <string name="toast_uhd_songs_for_stream">تم تعييين جودة التشغيل إلى عالية</string>
     <string name="ultra_high_quality">الأعلى</string>
-    <string name="unknown_album_name">البوم غير معروف</string>
+    <string name="unknown_album_name">ألبوم غير معروف</string>
     <string name="unknown_artist_name">فنان غير معروف</string>
     <string name="update_now">تحديث الآن</string>
     <string name="upgrade_music">تحديث الموسيقى</string>
     <string name="upgrade_music_message">التحديثات جاهزة. قم بإعادة التشغيل للتحديث.</string>
     <string name="user_agreement">اتفاقية المستخدم</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=en</string>
     <string name="version_info">الإصدار</string>
     <string name="vip_after_tomorrow_auto_renew_message">سيتم تجديد اشتراك الموسيقى الخاص بك تلقائياً بعد الغد مساءً. قم بالتأكد أن لديك رصيد Mi كافي في حسابك لأكمال الدفع.</string>
     <string name="vip_after_tomorrow_renew_message">لن تتمكن من تشغيل الصوت بجودة عالية, ولكن ستتوفر بعض الاغاني بالجودة العادية.</string>
@@ -741,4 +754,11 @@
 
 انقر على %s لبدء هذا التنزيل في المرة القادمة عند اتصالك بشبكة Wi-Fi."</string>
     <string name="wifi_required_title">يجب عليك الاتصال بشبكة Wi-Fi لتنزيل هذا الملف</string>
+    <string name="auto_upgrade">التحديث تلقائياً</string>
+    <string name="dialog_show_more_backup">النسخ الاحتياطي للأغاني المحلية</string>
+    <string name="dialog_show_more_optimize_all">تحسين معلومات الأغنية</string>
+    <string name="set_id3_failed">لا يمكن حفظ المعلومات</string>
+    <string name="set_id3_not_have_read_or_write_permission">ليس لديك التصريح لتعديل هذا الملف</string>
+    <string name="set_id3_not_support_format">لا يمكن تعديل صيغة هذا الملف</string>
+    <string name="set_id3_successful">تم حفظ معلومات الاغنية</string>
 </resources>

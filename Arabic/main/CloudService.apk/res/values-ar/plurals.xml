@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="sync_items_close">
-        <item quantity="other">%d متوقف</item>
-        <item quantity="zero">%d متوقف</item>
-        <item quantity="one">%d متوقف</item>
-        <item quantity="two">%d متوقفة</item>
-        <item quantity="few">%d متوقفة</item>
-        <item quantity="many">%d متوقف</item>
-    </plurals>
     <plurals name="items_unsynced">
         <item quantity="other">عنصر في إنتظار المزامنة: %d</item>
         <item quantity="zero">عنصر في إنتظار المزامنة: %d</item>
@@ -15,14 +7,6 @@
         <item quantity="two">عناصر في إنتظار المزامنة: %d</item>
         <item quantity="few">عناصر في إنتظار المزامنة: %d</item>
         <item quantity="many">عنصر في إنتظار المزامنة: %d</item>
-    </plurals>
-    <plurals name="items_waiting_to_sync">
-        <item quantity="other">%d عنصر في انتظار المزامنة</item>
-        <item quantity="zero">%d عنصر في انتظار المزامنة</item>
-        <item quantity="one">%d عنصر في انتظار المزامنة</item>
-        <item quantity="two">%d عناصر في انتظار المزامنة</item>
-        <item quantity="few">%d عناصر في انتظار المزامنة</item>
-        <item quantity="many">%d عنصر في انتظار المزامنة</item>
     </plurals>
     <plurals name="dirty_contacts_count">
         <item quantity="other">%d جهة اتصال</item>

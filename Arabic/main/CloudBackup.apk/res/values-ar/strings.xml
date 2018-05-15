@@ -44,10 +44,11 @@
     <string name="cloud_app_no_network">لا يمكن الاتصال بالشبكة</string>
     <string name="button_delete">حذف</string>
     <string name="customization"><u>تخصيص</u></string>
+    <string name="home_hint_global_launcher">الشاشة الرئيسية Poco</string>
     <string name="self_phone">الهاتف الحالي</string>
+    <string name="self_phone_home">هذا الجهاز: %s</string>
     <string name="process_whole_recovery">الاستعادة \"%s\"</string>
     <string name="device_xiaomi">هاتف Mi</string>
-    <string name="device_corrupt">Mi Phone (تلف في البيانات)</string>
     <string name="size_unknown">حجم غير معروف</string>
     <string name="recovering">استعادة \"%s\"</string>
     <string name="start_recover">استعادة \"%s\"</string>
@@ -69,7 +70,7 @@
     <string name="desktop_downloading">جارٍ التنزيل</string>
     <string name="desktop_installing">جارٍ التثبيت</string>
     <string name="desktop_wait_wifi">جارٍ الإنتظار</string>
-    <string name="desktop_failed">فشل</string>
+    <string name="desktop_failed">خطأ</string>
     <string name="recover_from_micloud">الاستعادة من Mi Cloud</string>
     <string name="click_try_to_restore_again">انقر للمحاولة مرة أخرى</string>
     <string name="open_wifi">تشغيل Wi-Fi الآن</string>
@@ -132,6 +133,8 @@
     <string name="no_account">لم تقم بتسجيل الدخول إلى حساب Mi.</string>
     <string name="no_backup">لا توجد نُسخ احتياطية في Mi Cloud.</string>
     <string name="download_meta_failed">تعذر تحميل البيانات.</string>
+    <string name="home_restore_error">تعذر استعادة الشاشة الرئيسية</string>
+    <string name="get_device_id_error">تعذر الحصول على معرف الجهاز</string>
     <string name="download_home_data">جارٍ تنزيل تنسيق الشاشة الرئيسية…</string>
     <string name="restore_home_failed">تعذر استعادة الشاشة الرئيسية.</string>
     <string name="arrange_restore_order">جار إعادة ترتيب التطبيقات…</string>

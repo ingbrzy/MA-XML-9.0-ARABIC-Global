@@ -199,6 +199,7 @@
     <string name="ola_trip">طلب سيارة اجرة</string>
     <string name="ola_trip_content">تقدير الأجرة وطلب سيارة Ola</string>
     <string name="ola_trip_content_detail">تقدير الأجرة التقريبية وطلب سيارة Ola.</string>
+    <string name="phone_check">التحسين</string>
     <string name="place_label">الاماكن الأكثر زيارة</string>
     <string name="record_name">تسجيل</string>
     <string name="record_parent">المسجل</string>
@@ -259,6 +260,7 @@
     <string name="stock_change_rate_format">%.2f%%</string>
     <string name="stock_color_schema">نظام الألوان</string>
     <string name="stock_list_empty_text">أنت لا تتبع أي شركات.</string>
+    <string name="stock_provider">يتم توفير أسعار سوق الأسهم من قبل Webull</string>
     <string name="stock_search_empty">تعذر العثور على أسهم.</string>
     <string name="stock_title">الأسهم</string>
     <string name="stock_title_schema">جارٍ حفظ خيارات الأرصدة</string>
@@ -301,6 +303,7 @@
     <string name="upgrade_now">التحديث</string>
     <string name="user_id">هوية المستخدم: %s</string>
     <string name="walk">مشي</string>
+    <string name="webull_title">Webull</string>
     <string name="which_transport">كيف تصل عادة إلى وجهتك؟</string>
     <string name="year_month_day_all_format_en">yyyy/MM/dd HH:mm:ss</string>
     <string name="year_month_day_format">dd/MM/yyyy</string>

@@ -65,12 +65,12 @@
         <item quantity="many">تم إضافة %d اغنية لقائمة التشغيل</item>
     </plurals>
     <plurals name="Ntracks_count">
-        <item quantity="other">%d اغنية</item>
-        <item quantity="zero">%d اغنية</item>
+        <item quantity="other">%d أغنية</item>
+        <item quantity="zero">%d أغنية</item>
         <item quantity="one">%d أغنية</item>
-        <item quantity="two">%d اغاني</item>
-        <item quantity="few">%d اغاني</item>
-        <item quantity="many">%d اغنية</item>
+        <item quantity="two">%d أغاني</item>
+        <item quantity="few">%d أغاني</item>
+        <item quantity="many">%d أغنية</item>
     </plurals>
     <plurals name="Ntracks_remove_from_playlist">
         <item quantity="other">تمت إزالة %d اغنية من قائمة التشغيل</item>
@@ -81,12 +81,12 @@
         <item quantity="many">تمت إزالة %d اغنية من قائمة التشغيل</item>
     </plurals>
     <plurals name="Ntracks_similar_count">
-        <item quantity="other">%d أغنية متشابهة</item>
-        <item quantity="zero">%d أغنية متشابهة</item>
-        <item quantity="one">%d أغنية متشابهة</item>
-        <item quantity="two">%d اغاني متشابهة</item>
-        <item quantity="few">%d اغاني متشابهة</item>
-        <item quantity="many">%d أغنية متشابهة</item>
+        <item quantity="other">%d أغنية مشابهة</item>
+        <item quantity="zero">%d أغنية مشابهة</item>
+        <item quantity="one">%d أغنية مشابهة</item>
+        <item quantity="two">%d اغاني مشابهة</item>
+        <item quantity="few">%d اغاني مشابهة</item>
+        <item quantity="many">%d أغنية مشابهة</item>
     </plurals>
     <plurals name="Nunbackup_audios">
         <item quantity="other">%1$d أغنية لم يتم نسخها احتياطياً (%2$.1fMB)</item>
@@ -119,6 +119,20 @@
         <item quantity="two">هل تريد حذف %d عناصر؟</item>
         <item quantity="few">هل تريد حذف %d عناصر؟</item>
         <item quantity="many">هل تريد حذف %d عنصر؟</item>
+    </plurals>
+    <plurals name="dialog_confirm_delete_downloads_message_with_file">
+        <item quantity="other">"حذف %d عنصر؟
+ملاحظة: سيتم حذف الملف من هذا الجهاز ايضا."</item>
+        <item quantity="zero">"حذف %d عنصر؟
+ملاحظة: سيتم حذف الملف من هذا الجهاز ايضا."</item>
+        <item quantity="one">"حذف %d عنصر؟
+ملاحظة: سيتم حذف الملف من هذا الجهاز ايضا."</item>
+        <item quantity="two">"حذف %d عناصر؟
+ملاحظة: سيتم حذف الملف من هذا الجهاز ايضا."</item>
+        <item quantity="few">"حذف %d عناصر؟
+ملاحظة: سيتم حذف الملف من هذا الجهاز ايضا."</item>
+        <item quantity="many">"حذف %d عنصر؟
+ملاحظة: سيتم حذف الملف من هذا الجهاز ايضا."</item>
     </plurals>
     <plurals name="dialog_delete_descript">
         <item quantity="other">هل تريد حذف %d اغنية؟</item>

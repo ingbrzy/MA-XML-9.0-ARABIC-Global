@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"تقديم حجم النسخة: %1$s
 حجم تحديث دلتا: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">التخزين غير متاح، تحقق من بطاقة الذاكرة SD الخاصة بك.</string>
+    <string name="xiaomi_bytes_unit">%1$sبايت</string>
+    <string name="xiaomi_kilobytes_unit">%1$sكيلوبايت</string>
+    <string name="xiaomi_megabytes_unit">%1$sميغابايت</string>
     <string name="xiaomi_connect_download_manager_fail">تعذر بداية التنزيل. كن متاكدا من أن مدير التنزيلات يعمل بصفة طبيعية.</string>
     <string name="app_name">نسخة احتياطية</string>
     <string name="local_app_name">النسخ الاحتياطي</string>
@@ -194,7 +197,7 @@
     <string name="enable_encrypt_summery1">سجل الدخول إلى حساب Mi للوصول إلى النسخ الاحتياطية المشفرة.</string>
     <string name="enable_encrypt_summery2">سيتم تشفير النسخ الاحتياطية تلقائياً. ستحتاج لتسجيل الدخول إلى حساب Mi للوصول إليها.</string>
     <string name="enable_encrypt_xiaomi_account">تم إنشاء هذه النسخة الاحتياطية بواسطة %1$s. للاستعادة، احذف الحساب الحالي وسجل الدخول كـ %2$s.</string>
-    <string name="enable_encrypt_ok">موافق</string>
+    <string name="button_got_it">موافق</string>
     <string name="no_encrypt_password">لا توجد كلمة مرور</string>
     <string name="enable_encrypt_fail">خطأ في التشفير</string>
     <string name="read_encrypt_fail">تعذر قراءة النسخة المشفرة</string>
@@ -225,6 +228,7 @@
     <string name="restore_backup">استعادة</string>
     <string name="enable_encrypt_description">مشفر</string>
     <string name="disable_encrypt_description">غير مشفر</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">لحظة من فضلك…</string>
     <string name="state_mounting">الوصول إلى تخزين جهاز التوجيه…</string>
     <string name="abort_backup_confirm">لم يتم الانتهاء من النسخ الاحتياطي. التوقف على أية حال؟</string>
@@ -233,7 +237,7 @@
     <string name="feature_title_mms">رسائل وسائط متعددة (MMS)</string>
     <string name="feature_title_account">حساب Mi</string>
     <string name="feature_title_antispam">قائمة الحظر</string>
-    <string name="summary_err_backup_encrypting">تسجيل الدخول إلى حساب Mi.</string>
+    <string name="summary_err_backup_encrypting">تسجيل الدخول لحساب Mi.</string>
     <string name="summary_err_restore_encrypting">تعذرت الاستعادة. تأكد من إجراء هذه النسخة الاحتياطية باستخدام حساب Mi.</string>
     <string name="summary_err_backup_no_network">تعذر الاتصال بالشبكة</string>
     <string name="summary_err_restore_no_network">تعذر الاتصال بالشبكة</string>
@@ -247,6 +251,10 @@
     <string name="err_router_disconnected">تحقق من اتصال جهاز التوجيه ثم حاول مرة أخرى.</string>
     <string name="err_router_files_delete">تعذر حذف ملفات النسخ الاحتياطي على جهاز التوجيه</string>
     <string name="err_not_allow">غير مدعوم</string>
+    <string name="err_bakfile_not_exist">ملف النسخ الاحتياطي غير متوفر.</string>
+    <string name="err_pkg_not_exist">تعذر العثور على التطبيق.</string>
+    <string name="err_user_abort">تم الإلغاء من قبل المستخدم.</string>
+    <string name="err_binder_died">توقف التطبيق بشكل غير متوقع.</string>
     <string name="backup_is_running">النسخ الاحتياطي للجهاز</string>
     <string name="restore_is_running">استعادة الجهاز</string>
     <string name="notif_backup_title">النسخ الاحتياطي للبيانات</string>
@@ -287,8 +295,7 @@
     <string name="trans_receiver_time_remained">"%s متبقي.
 لا تقم بإيقاف نقطة اتصال الـWi-Fi.
 حافظ على الاجهزة قريبة من بعضها البعض."</string>
-    <string name="trans_time_spent">"
-الوقت المنقضي: %s"</string>
+    <string name="trans_time_spent">الوقت المستغرق: %s</string>
     <string name="trans_restoring_no_items">عناصر المزامنة</string>
     <string name="trans_detail_category_sysdata">بيانات النظام (يتضمن الرسائل وجهات الاتصال وسجل المكالمات)</string>
     <string name="trans_detail_category_userdata">التطبيقات</string>
@@ -354,21 +361,27 @@
 ثم انقر على \"الاتصال مرة أخرى\" لإنشاء رمز QR."</string>
     <string name="trans_operate_reconnect_old_tips">"انتظر حتى يظهر الهاتف القديم \"إنقطع الاتصال\".
 ثم انقر على \"الاتصال مرة أخرى\" لإنشاء رمز QR."</string>
+    <string name="trans_generating_qrcode">جارٍ إنشاء رمز QR…</string>
+    <string name="trans_generate_qrcode_failed">تعذر إنشاء رمز QR. حاول مرة أخرى.</string>
     <string name="trans_wait_trans_data">"متصل بالجهاز القديم.
 في انتظار النقل…"</string>
     <string name="trans_select_data">قم بتحديد عناصر للارسال</string>
     <string name="trans_select_data_tips">"حدد العناصر المراد نقلها
 الملفات المماثلة في الجهاز الجديد سيتم استبدالها"</string>
-    <string name="trans_select_data_no_space">"لا توجد مساحة كافية على الجهاز الجديد
-قم بتحديد الملفات مرة اخرى او تنظيف %s من مساحة التخزين على الجهاز الجديد"</string>
+    <string name="trans_select_data_no_space">"لا توجد مساحة تخزين كافية في الجهاز الجديد (%s متوفر).
+قم بتفريغ مساحة أو نقل العناصر المهمة فقط."</string>
     <string name="trans_select_data_too_large">"تم تحديد عدد كبير جدا من العناصر للنقل.
  حدد فقط العناصر المهمة لنقل أسرع."</string>
     <string name="trans_calculating_base_size">حساب حجم البيانات</string>
     <string name="trans_calculating">جارٍ الحساب…</string>
-    <string name="trans_native_no_space">"لا توجد مساحة كافية على هذا الجهاز.
-قم بحذف على الأقل %s."</string>
+    <string name="trans_native_no_space">"لا توجد مساحة تخزين كافية في الجهاز القديم (%s متوفر).
+قم بتفريغ مساحة أو نقل العناصر المهمة فقط."</string>
     <string name="trans_calculating_app_sd_size">حساب الحجم: %s</string>
     <string name="trans_please_waiting">لحظة من فضلك…</string>
+    <string name="trans_old_phone_low_space_title">لا توجد مساحة تخزين كافية</string>
+    <string name="trans_old_phone_low_space_msg">يحتاج ناقل Mi إلى بعض المساحة التخزينية لحزم البيانات المنقولة، ولكن يبدو أنه لا توجد مساحة كافية على الجهاز القديم. قم بتفريغ مساحة من \"الحماية\" أو انقل العناصر المهمة فقط.</string>
+    <string name="button_clean_garbage">تفريغ مساحة</string>
+    <string name="button_quit">خروج</string>
     <string name="size_byte">بايت</string>
     <string name="size_kilo_byte">كيلوبايت</string>
     <string name="size_mega_byte">ميغابايت</string>
@@ -423,6 +436,7 @@
     <string name="trans_disconnected_tips_title">تم فصل الجهاز عن بعد</string>
     <string name="trans_disconnected_tips_message">تم فصل الجهاز عن بعد. قم بالاتصال مرة أخرى يدويا أو إلغاء النقل.</string>
     <string name="trans_button_cancel">إلغاء</string>
+    <string name="trans_failed_details_page_title">عمليات النقل الغير ناجحة</string>
     <string name="close_twice_auth_tutor">إيقاف المصادقة ذات العاملين لـ Apple ID</string>
     <string name="close_twice_auth_steps">اتبع الخطوات التالية لإيقاف المصادقة ذات العاملين لـ Apple ID:</string>
     <string name="close_twice_auth_step_1">١. افتح أي متصفح ويب على أي جهاز كمبيوتر واذهب إلى appleid.apple.com.</string>
@@ -489,6 +503,7 @@ https://appleid.apple.com/#!&amp;page=signin لإيقاف المصادقة ذا�
 يجب عليك إنشاء نسخ iCloud احتياطي أولا."</string>
     <string name="list_footer_tip_title">نصائح:</string>
     <string name="import_tip_summary">بسبب مشاكل في التوافق، يمكنك فقط نقل البيانات جزئيا من أجهزة iOS. يجب عليك إنشاء نسخ iCloud احتياطي قبل بدأ النقل.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">استيراد</string>
     <string name="select_empty">قم بتحديد عناصر للاستيراد</string>
     <string name="select_item_summary_wait">جارٍ الانتظار…</string>

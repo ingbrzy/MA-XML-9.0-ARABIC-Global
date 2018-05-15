@@ -176,7 +176,7 @@
     <string name="report_success">تم الإبلاغ عن الرسالة</string>
     <string name="report_error">تعذر الإبلاغ عن الرسالة</string>
     <string name="report_warning">أترغب في إبلاغ عن%1$s رسالة لـMi؟ سيتم تحميل هذه الرسائل وأرقام الهاتف المُرسلة منها الى خوادم Mi لمراجعتها. أي معلومات شخصية ذات صلة بهذه الرسائل دائما تبقى مجهولة.</string>
-    <string name="report_warning_title">Attention</string>
+    <string name="report_warning_title">تنبيه</string>
     <string name="st_sub_title_customize_mode_name">الإسم</string>
     <string name="read_all_sms">قراءة الكل</string>
     <string name="loding">تحميل البيانات</string>
@@ -315,7 +315,7 @@
     <string name="cta_dialog_title">اتصال الإنترنت</string>
     <string name="cta_dialog_msg">الحماية تحتاج إلى الاتصال بالإنترنت للحصول على التحديثات، وكذلك الوصول إلى الموقع لتعمل بشكل طبيعي.</string>
     <string name="cta_settings">السماح بالاتصال بالإنترنت</string>
-    <string name="gdpr_msg"><Data>لإستخدام ميزات الحماية الأساسية، يجب عليك الموافقة على أن Xiaomi سوف تجمع وتعالج وتستخدم بياناتك الشخصية. بما في ذلك معلومات عن الطرق التي تستخدم بها ميزات الحماية(مثل: إحصاءات استخدام بيانات الجوال، ومعلومات عن البرامج الضارة، وكذلك المعلومات الأساسية حول الجهاز) وأنواع أخرى من المعلومات المحددة في &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">سياسة الخصوصية&lt;/a> لدينا.</Data></string>
+    <string name="gdpr_msg"><Data>لإستخدام ميزات الحماية الأساسية، يجب عليك أن توافق على قيام Xiaomi بجمع بجمع ومعالجة واستخدام بياناتك الشخصية. بما في ذلك معلومات عن الطرق التي تستخدم بها ميزات الحماية (مثل: إحصاءات استخدام بيانات الجوال، ومعلومات عن البرامج الضارة، وكذلك المعلومات الأساسية حول الجهاز) وأنواع أخرى من المعلومات المحددة في &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">سياسة الخصوصية&lt;/a> لدينا.</Data></string>
     <string name="app_name_na">استخدام البيانات</string>
     <string name="list_empty_text">فارغ</string>
     <string name="dialog_title_attention">تنبيه</string>
@@ -375,6 +375,14 @@
     <string name="main_tobe_added_desc">بيانات الجوال من ¥٠.٠٣/ميغابايت</string>
     <string name="main_button_mi_sim_close">تفعيل بطاقة Mi SIM</string>
     <string name="main_button_mi_sim_open">عرض التفاصيل</string>
+    <string name="adjust_sms_cmd"><u>ضبط معايرة قالب SMS</u></string>
+    <string name="sms_detail_correct_success_text">إليك إحصائيات استخدام البيانات من المعايرة السابقة (%1$s):</string>
+    <string name="tc_send_sms_error">تعذر إرسال SMS</string>
+    <string name="tc_cmd_invalid">القالب غير صالح</string>
+    <string name="tc_receive_timeout">انتهت مهلة المعايرة</string>
+    <string name="tc_parse_error">تعذر تحليل رسالة SMS</string>
+    <string name="tc_get_cmd_error">تعذر الحصول على قالب</string>
+    <string name="tc_web_correct_error">تعذر المعايرة</string>
     <string name="firewall_activity_lable">تقييد استخدام البيانات بالتطبيق</string>
     <string name="firewall_applist">التطبيقات</string>
     <string name="firewall_mobile">بيانات الجوال</string>
@@ -421,8 +429,10 @@
     <string name="foreground_traffic">الأمامي %s</string>
     <string name="background_traffic">الخلفية %s</string>
     <string name="detail_app_button">معلومات التطبيق</string>
+    <string name="managed_user_title">جميع التطبيقات المشغلة</string>
     <string name="pref_about_traffic_title">إعدادات استخدام البيانات</string>
     <string name="pref_traffic_manage_title">استخدام البيانات</string>
+    <string name="pref_operator_setting">%1$s%2$s</string>
     <string name="pref_package_traffic_settings">خطة البيانات</string>
     <string name="pref_adjust_traffic_data">تعيين استخدام البيانات</string>
     <string name="pref_category_title_other">إعدادات إضافية</string>
@@ -672,6 +682,9 @@
     <string name="roaming_limit_dialog_message">تم الوصول إلى حد بيانات التجوال اليومي.</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="roaming_allow_network_dialog_title">السماح لبيانات التجوال؟</string>
+    <string name="dialog_roaming_warning_message">ستفرض عليك شركة الاتصالات رسومًا بعد تشغيلك تجوال البيانات الدولي. التشغيل على أي حال؟</string>
+    <string name="dialog_roaming_warning_checkbox">لا تظهر مرة اخرى</string>
+    <string name="dialog_roaming_warning_ok">تشغيل</string>
     <string name="title_limit_traffic_per_day">حد استخدام البيانات اليومي</string>
     <string name="daily_limit_and_lock_screen">تحذير إستخدام البيانات</string>
     <string name="pref_title_traffic_limit_number">الحجم</string>
@@ -862,6 +875,7 @@
     <string name="sms_detail_fragment_title_bill">رصيد الهاتف</string>
     <string name="menu_report">الإبلاغ عن خطأ</string>
     <string name="menu_charge_traffic">شراء بيانات</string>
+    <string name="menu_setting_traffic">تعيين يدوي</string>
     <string name="menu_charge_bill">شحن الرصيد</string>
     <string name="privacy_dialog_message">عند الاتصال بالإنترنت، سيتم تشفير هذه الرسالة مع معلومات شركة الاتصالات وتحميلها على خوادم Mi لمساعدتنا على تحسين مراقبة استخدام البيانات.</string>
     <string name="status_bar_network_flow_purchase">"   شراء >"</string>
@@ -942,6 +956,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"هذا التطبيق قد يبطئ
 جهازك"</string>
+    <string name="om_memory_clean_memory_info_text">%2$s / %1$s</string>
     <string name="om_ill_proc_handle_unstaill_title">إلغاء التثبيت %s؟</string>
     <string name="om_ill_proc_handle_uninstall_prompt">إلغاء تثبيت هذا التطبيق لإصلاح مشاكل إستخدام البطارية.</string>
     <string name="om_ill_proc_type_wakelock_title">هذا التطبيق يقوم بحظر وضع السكون ويستنزف البطارية</string>
@@ -1000,6 +1015,7 @@
     <string name="usage_type_data_send">بيانات الجوال المرسلة</string>
     <string name="usage_type_no_coverage">الوقت بدون إشارة</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">أندرويد</string>
     <string name="process_mediaserver_label">خادم الوسائط</string>
     <string name="power_screen">الشاشة</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1117,7 +1133,7 @@
     <string name="settings_category_overheat">الحرارة الزائدة</string>
     <string name="settings_category_other">إعدادات أخرى</string>
     <string name="settings_choice_no_notification">إيقاف</string>
-    <string name="settings_power_save_ontime_title">الجدول</string>
+    <string name="settings_power_save_ontime_title">جدولة</string>
     <string name="power_save_mode_ontime_enabled">جدولة الوقت للتبديل بين الوضعيات</string>
     <string name="power_save_mode_start_time">البداية</string>
     <string name="power_save_mode_end_time">النهاية</string>
@@ -1345,6 +1361,7 @@
     <string name="menu_text_networkassistants">استخدام البيانات</string>
     <string name="menu_text_networkassistants_remain">%s متبقي</string>
     <string name="menu_text_networkassistants_danger">%s زائد</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">غ.ب</string>
     <string name="menu_text_networkassistants_unit_mb">م.ب</string>
     <string name="menu_text_networkassistants_unit_kb">ك.ب</string>
@@ -1598,6 +1615,20 @@
     <string name="title_garbage_clean">وصلت ذاكرة التخزين المؤقت للتطبيقات %s</string>
     <string name="summary_garbage_clean">حذف ذاكرة التخزين المؤقت لتفريغ مساحة</string>
     <string name="summary_consume_power">العثور على مشاكل حرارة زائدة، يمكن أن تؤثر على عمر البطارية</string>
+    <string name="title_restrict_data_usage">لا يمكن لتطبيق %s الإتصال بالإنترنت؟</string>
+    <string name="summary_restrict_data_usage">لقد قمت بتقييد إستخدام البيانات لهذا التطبيق. انقر للإصلاح.</string>
+    <string name="title_background_connection">لا يمكن استخدام %s في الخلفية؟</string>
+    <string name="summary_background_connection">لقد قمت بتقييد اتصال الخلفية لهذا التطبيق. انقر للإصلاح.</string>
+    <string name="title_block_calls_from_cantacts">لا يمكنك الرد على مكالمات من جهات اتصالك؟</string>
+    <string name="summary_block_calls_from_cantacts">انت تستخدم قائمة الحظر. انقر للإصلاح.</string>
+    <string name="title_block_calls_from_strangers">لا يمكنك الرد على المكالمات المهمة؟</string>
+    <string name="summary_block_calls_from_strangers">انت تسمح فقط بالمكالمات من جهات اتصالك. انقر للإصلاح.</string>
+    <string name="title_do_not_disturb">لا يمكن سماع نغمة الرنين؟</string>
+    <string name="summary_do_not_disturb">انت تستخدم وضع عدم الإزعاج. انقر للإصلاح.</string>
+    <string name="title_eye_shield">لا تبدو الوان الشاشة صحيحة؟</string>
+    <string name="summary_eye_shield">انت تستخدم وضع القراءة. انقر للإصلاح.</string>
+    <string name="dialog_button_ignore">تجاهل</string>
+    <string name="dialog_button_yes">نعم</string>
     <string name="summary_default_app">%s غير معين كتطبيق نظام افتراضي</string>
     <string name="notification_summary_cmcc_app_check">المس لعرض التفاصيل.</string>
     <string name="title_cmcc_app_check">لم تكتمل عملية التحقق</string>
@@ -1705,6 +1736,7 @@
     <string name="card_main_deepclean_wechat_action">حذف</string>
     <string name="card_main_sectool_title">الأدوات</string>
     <string name="card_main_monthreport_action">عرض</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">اختبار الشبكة</string>
     <string name="card_main_netcheck_summary">اختبار الاتصال لمشاكل الشبكة</string>
     <string name="card_main_netcheck_action">اختبار</string>
@@ -1726,6 +1758,15 @@
     <string name="card_main_xspace_action">إنشاء</string>
     <string name="card_main_overscroll_tips">الحماية في أفضل مستوياتها</string>
     <string name="card_main_gamebooster_title">مسرّع الألعاب</string>
+    <string name="exit_dialog_scan_title">تحسين الأداء</string>
+    <string name="exit_dialog_scan_message">نقاط أداء جهازك أقل من ٧٥ نقطة. تحسين الآن؟</string>
+    <string name="exit_dialog_scan_positive_button">تحسين</string>
+    <string name="exit_dialog_garbage_clean_title">تنظيف المهملات</string>
+    <string name="exit_dialog_garbage_clean_message">حجم المهملات على جهازك أكبر من %s. هل تريد تنظيف المهملات؟</string>
+    <string name="exit_dialog_garbage_clean_positive_button">تنظيف</string>
+    <string name="exit_dialog_release_storage_title">تفريغ مساحة</string>
+    <string name="exit_dialog_release_storage_message">أكثر من ٨٠% من تخزين جهازك ممتلئ. قم بتفريغ مساحة من خلال إلغاء تثبيت التطبيقات التي لا تستخدمها ابداً.</string>
+    <string name="exit_dialog_release_storage_positive_button">تفريغ مساحة</string>
     <string name="skin_change_close_toast">سيتم تطبيق التغييرات في المرة القادمة التي تقوم فيها بتشغيل الحماية</string>
     <string name="password_type">تغيير كلمة المرور</string>
     <string name="password_type_underline"><u>تغيير كلمة المرور</u></string>
@@ -1956,7 +1997,7 @@
     <string name="app_manager_uninstall_xspace_app_dlg_title">إلغاء تثبيت التطبيقات المزدوجة؟</string>
     <string name="app_manager_appupdate_remind">الإشعار حول التحديثات</string>
     <string name="app_usage_never">لم تستخدم قط</string>
-    <string name="app_usage_recently">مستخدمة مؤخرا</string>
+    <string name="app_usage_recently">المستخدمة مؤخرا</string>
     <string name="app_manager_have_not_consume">لا شيء</string>
     <string name="app_manager_menu_clear_data">مسح البيانات</string>
     <string name="app_manager_clear_data_dlg_title">حذف جميع البيانات؟</string>
@@ -2111,8 +2152,8 @@
     <string name="open_game">فتح</string>
     <string name="try_game">حاول</string>
     <string name="more_game">المزيد من الألعاب</string>
-    <string name="sys_title_gamebooster_unit_gb">GB</string>
-    <string name="sys_title_gamebooster_unit_mb">MB</string>
+    <string name="sys_title_gamebooster_unit_gb">غيغابايت</string>
+    <string name="sys_title_gamebooster_unit_mb">ميغابايت</string>
     <string name="gmscore_support_service">خدمات Google</string>
     <string name="gmscore_support_remind">قم بتفعيل هذه الميزة إذا واجهتك مشكلات في استخدام Gmail وخرائط Google وتطبيقات Google الأخرى. سوف يزيد استهلاك البطارية قليلا.</string>
     <string name="google_base_app_install_choice">\"%s\" يتطلب إطار خدمات غوغل للتطبيقات ليعمل بشكل طبيعي، هل تريد تحميلها وتثبيتها؟</string>
@@ -2200,9 +2241,9 @@
     <string name="gs_sign_notification">التذكير بتسجيل الدخول في الساعة ٨ مساء يومياً</string>
     <string name="gb_sign_gift">قم بتسجيل الدخول لتحصل على جوائز</string>
     <string name="signed_rule">القواعد</string>
-    <string name="signed_rule_one">1. Check in 10, 20, or 28 days in a row every month to get a Xunyou boost for 1, 2, or 3 days respectively.</string>
-    <string name="signed_rule_two">2. You can get only 1 Xunyou boost per month.</string>
-    <string name="signed_rule_three">"3. Days when you check in are annulled at the beginning of every month. The remaining days aren't rolled over."</string>
+    <string name="signed_rule_one">١. تسجيل الدخول لـ ١٠ أو ٢٠ أو ٢٨ يومًا متتاليًا كل شهر للحصول على محسن السرعة Xunyou لمدة ١ أو ٢ أو ٣ أيام على التوالي.</string>
+    <string name="signed_rule_two">٢. يمكنك فقط الحصول على محسن السرعة Xunyou واحد كل شهر.</string>
+    <string name="signed_rule_three">٣. يتم إعادة تعيين عداد تسجيلات الدخول إلى الصفر في بداية كل شهر. حيث لا يتم نقل الأيام السابقة إلى الشهر المقبل.</string>
     <string name="gb_get_gift_right_now">تسجيل الدخول الآن</string>
     <string name="gb_have_signed">عدد تسجيلات الدخول لليوم</string>
     <string name="gb_sign_gift_button_text">استلام</string>
@@ -2214,6 +2255,13 @@
     <string name="gs_open_game_booster_summary">زيادة سرعة الشبكة للألعاب</string>
     <string name="gb_signed_gift_loading_summary">لحظة من فضلك…</string>
     <string name="gb_signed_gift_loading_fail">تعذر التحميل</string>
+    <string name="gb_msg_completely_shielded">إخفاء الرسائل</string>
+    <string name="gb_msg_quickly_answer">السماح بالرد السريع</string>
+    <string name="gb_msg_transparent_dispaly">الإشعارات مع خلفية شفافة</string>
+    <string name="gb_msg_completely_shielded_summary">مخفي</string>
+    <string name="gb_msg_quickly_answer_summary">ردود سريعة</string>
+    <string name="gb_msg_transparent_dispaly_summary">شفاف</string>
+    <string name="exit_dialog_homepage_optimise_message">نقاط أداء جهازك أقل من ٨٠ نقطة. التحسين الآن؟</string>
     <string name="power_center_consume_rank">استخدام البطارية</string>
     <string name="power_center_custom_title">وضع البطارية</string>
     <string name="power_center_auto_shutdown_summary_default">قم بتشغيل جهازك أو إيقافه في وقت المحدد</string>

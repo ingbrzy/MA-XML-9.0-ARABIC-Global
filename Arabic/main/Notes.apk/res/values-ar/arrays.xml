@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="folder_operations">
-        <item>إعادة التسمية</item>
-        <item>حذف</item>
-    </string-array>
     <string-array name="attachment_chooser">
         <item>الكاميرا</item>
         <item>المعرض</item>
-    </string-array>
-    <string-array name="note_sort_way">
-        <item>حسب تاريخ الإنشاء</item>
-        <item>حسب تاريخ التعديل</item>
     </string-array>
     <string-array name="contact_entries">
         <item>الإسم</item>
@@ -25,11 +17,19 @@
         <item>العنوان</item>
         <item>ملاحظة</item>
     </string-array>
+    <string-array name="folder_operations">
+        <item>إعادة التسمية</item>
+        <item>حذف</item>
+    </string-array>
     <string-array name="font_size_names">
         <item>صغير</item>
         <item>متوسط</item>
         <item>كبير</item>
         <item>ضخم</item>
+    </string-array>
+    <string-array name="note_sort_way">
+        <item>حسب تاريخ الإنشاء</item>
+        <item>حسب تاريخ التعديل</item>
     </string-array>
     <string-array name="welcome_notes_content">
         <item>"مرحبا بك في الملاحظات

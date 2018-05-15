@@ -4,6 +4,10 @@
         <item>٤x٤</item>
         <item>٤x٥</item>
     </string-array>
+    <string-array name="cell_layout_size_values">
+        <item>٤x٤</item>
+        <item>٤x٥</item>
+    </string-array>
     <string-array name="editing_mode_entries">
         <item>خلفية الشاشة</item>
         <item>الإضافات</item>
@@ -16,7 +20,7 @@
         <item>ضبابي</item>
         <item>عاصفة ممطرة شديدة</item>
         <item>عاصفة ممطرة</item>
-        <item>هطول أمطار غزيرة جدا</item>
+        <item>أمطار غزيرة جدا</item>
         <item>عاصفة رعدية</item>
         <item>امطار خفيفة</item>
         <item>أمطار غزيرة</item>
@@ -24,7 +28,7 @@
         <item>رذاذ</item>
         <item>مطر متجمد</item>
         <item>عاصفة ثلجية</item>
-        <item>رقع من تساقط الثلوج</item>
+        <item>ثلوج كثيفة</item>
         <item>تساقط ثلوج بغزارة</item>
         <item>تساقط ثلوج</item>
         <item>تساقط ثلوج خفيفة</item>
@@ -41,7 +45,7 @@
         <item>كلاسيكي</item>
     </string-array>
     <string-array name="transformation_entries">
-        <item>شريحة</item>
+        <item>تمرير</item>
         <item>تضاؤل</item>
         <item>دوران</item>
         <item>صفحة</item>
@@ -51,7 +55,7 @@
     </string-array>
     <string-array name="wallpaper_scroll_entries">
         <item>السمة الافتراضية</item>
-        <item>مركز</item>
+        <item>الوسط</item>
         <item>اليسار</item>
         <item>اليمين</item>
     </string-array>

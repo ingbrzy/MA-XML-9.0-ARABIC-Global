@@ -73,20 +73,20 @@
         <item quantity="many">%d تطبيق مسموح له بالتشغيل التلقائي</item>
     </plurals>
     <plurals name="bg_network_allow_count">
-        <item quantity="other">%d apps can connect to the network</item>
-        <item quantity="zero">%d apps can connect to the network</item>
-        <item quantity="one">%d app can connect to the network</item>
-        <item quantity="two">%d apps can connect to the network</item>
-        <item quantity="few">%d apps can connect to the network</item>
-        <item quantity="many">%d apps can connect to the network</item>
+        <item quantity="other">يمكن لـ %d تطبيقات الاتصال بالشبكة</item>
+        <item quantity="zero">يمكن لـ %d تطبيق الاتصال بالشبكة</item>
+        <item quantity="one">يمكن لـ %d تطبيق الاتصال بالشبكة</item>
+        <item quantity="two">يمكن لـ %d تطبيقات الاتصال بالشبكة</item>
+        <item quantity="few">يمكن لـ %d تطبيقات الاتصال بالشبكة</item>
+        <item quantity="many">يمكن لـ %d تطبيقات الاتصال بالشبكة</item>
     </plurals>
     <plurals name="bg_network_restrict_count">
-        <item quantity="other">"%d apps can't connect to the network"</item>
-        <item quantity="zero">"%d apps can't connect to the network"</item>
-        <item quantity="one">"%d app can't connect to the network"</item>
-        <item quantity="two">"%d apps can't connect to the network"</item>
-        <item quantity="few">"%d apps can't connect to the network"</item>
-        <item quantity="many">"%d apps can't connect to the network"</item>
+        <item quantity="other">لا يمكن لـ %d تطبيق الاتصال بالشبكة</item>
+        <item quantity="zero">لا يمكن لـ %d تطبيق الاتصال بالشبكة</item>
+        <item quantity="one">لا يمكن لـ %d تطبيق الاتصال بالشبكة</item>
+        <item quantity="two">لا يمكن لـ %d تطبيقات الاتصال بالشبكة</item>
+        <item quantity="few">لا يمكن لـ %d تطبيقات الاتصال بالشبكة</item>
+        <item quantity="many">لا يمكن لـ %d تطبيق الاتصال بالشبكة</item>
     </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d جهاز</item>
@@ -185,12 +185,12 @@
         <item quantity="many">%d تطبيقًا كحد أدنى</item>
     </plurals>
     <plurals name="firewall_item_summary">
-        <item quantity="other">Restricted connection for %s apps</item>
-        <item quantity="zero">Restricted connection for %s apps</item>
-        <item quantity="one">Restricted connection for %s app</item>
-        <item quantity="two">Restricted connection for %s apps</item>
-        <item quantity="few">Restricted connection for %s apps</item>
-        <item quantity="many">Restricted connection for %s apps</item>
+        <item quantity="other">تم تقييد الاتصال لـ %s تطبيق</item>
+        <item quantity="zero">تم تقييد الاتصال لـ %s تطبيق</item>
+        <item quantity="one">تم تقييد الاتصال لـ %s تطبيق</item>
+        <item quantity="two">تم تقييد الاتصال لـ %s تطبيقات</item>
+        <item quantity="few">تم تقييد الاتصال لـ %s تطبيقات</item>
+        <item quantity="many">تم تقييد الاتصال لـ %s تطبيق</item>
     </plurals>
     <plurals name="free_wifi_connected_count">
         <item quantity="other">%1$d شخص متصل</item>

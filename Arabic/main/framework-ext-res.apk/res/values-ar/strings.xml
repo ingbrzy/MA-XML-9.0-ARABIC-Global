@@ -132,7 +132,7 @@
     <string name="start_security_permission_verify_text">تحقق من الأذونات باستخدام حساب Mi الخاص بك</string>
     <string name="security_permission_denied_text">تم رفض الدخول</string>
     <string name="security_permission_failed_text">حدث خطأ ما، أعد المحاولة لاحقا</string>
-    <string name="security_permission_xiaomi_account_missed_text">أدخل هوية حساب Mi الخاص بك</string>
+    <string name="security_permission_xiaomi_account_missed_text">أدخل معرف حساب Mi</string>
     <string name="security_permission_validate_warning">شكرا للمساعدة في جعل MIUI افضل!</string>
     <string name="security_permission_wifi_and_data_opened_text">تم تشغيل شبكة Wi-Fi وبيانات الجوال</string>
     <string name="xspace_resolver_activity_title">تحديد تطبيق</string>

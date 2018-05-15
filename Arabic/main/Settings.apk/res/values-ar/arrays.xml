@@ -32,7 +32,7 @@
     </string-array>
     <string-array name="ap_identify">
         <item>الافتراضي</item>
-        <item>iPhone</item>
+        <item>نقطة اتصال محمولة</item>
     </string-array>
     <string-array name="apn_auth_entries">
         <item>لا شيء</item>
@@ -704,6 +704,19 @@
         <item>‏OpenGL (الافتراضي)</item>
         <item>‏OpenGL ‏(Skia)</item>
     </string-array>
+    <string-array name="device_support_face">
+        <item>jason</item>
+        <item>polaris</item>
+        <item>sagit</item>
+        <item>chiron</item>
+        <item>whyred</item>
+        <item>nitrogen</item>
+        <item>wayne</item>
+        <item>ysl</item>
+        <item>ساكورا</item>
+        <item>clover</item>
+        <item>dipper</item>
+    </string-array>
     <string-array name="dream_timeout_entries">
         <item>مطلقًا</item>
         <item>١٥ ثانية</item>
@@ -861,7 +874,7 @@
         <item>إنشاء دليل: mkdir /media/mtp</item>
         <item>تأكيد تصريحات مستخدم المجموعة في مجموعة مستخدم fuse الحاليه</item>
         <item>تسجيل الدخول مرة أخرى</item>
-        <item>الوصول إلى الجهاز المتصل: mtpfs /media/mtp عبر مدير الملفات؛ كالدليل المحلي</item>
+        <item>الوصول إلى الجهاز المتصل: mtpfs /media/mtp عبر مدير الملفات؛ كالدليل المحلي.</item>
         <item>"إلغاء التثبيت جهاز: fusermount -u /media/mtp
 
 ملاحظة: فقط لـ Ubuntu 8.04!"</item>
@@ -1180,7 +1193,7 @@
         <item>تحميل بطاقة SD</item>
     </string-array>
     <string-array name="vip_mode_text">
-        <item>من أي واحد</item>
+        <item>من أي احد</item>
         <item>من أي جهة إتصال</item>
         <item>من جهات الإتصال المفضلة فقط</item>
         <item>لا شيء</item>
@@ -1232,6 +1245,15 @@
     <string-array name="wifi_calling_mode_choices_without_wifi_only">
         <item>‏شبكة Wi-Fi مُفضّلة</item>
         <item>مفضَّل للجوّال</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_values">
+        <item>٢</item>
+        <item>١</item>
+        <item>٠</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_values_without_wifi_only">
+        <item>٢</item>
+        <item>١</item>
     </string-array>
     <string-array name="wifi_connect_type_entries">
         <item>الاتصال تلقائيا</item>
@@ -1359,5 +1381,13 @@
         <item>حجم الشاشة</item>
         <item>الدقة</item>
         <item>إصدار الأندرويد</item>
+    </string-array>
+    <string-array name="standard_configuration_version_description_secondary">
+        <item>Snapdragon 820</item>
+        <item>٣٠٠٠ ملي أمبير(typ)</item>
+        <item>١٦ ميغابسكل</item>
+        <item>٥.١٥ بوصة</item>
+        <item>١٠٨٠ × ١٩٢٠</item>
+        <item>٦.٠.١</item>
     </string-array>
 </resources>

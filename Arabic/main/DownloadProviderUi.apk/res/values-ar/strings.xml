@@ -197,6 +197,9 @@
     <string name="toast_only_wifi_download">قم بالاتصال بالـ Wi-Fi لتنزيل هذا العنصر</string>
     <string name="total_speedup">زيادة السرعة (الإجمالي)</string>
     <string name="version">الإصدار %s</string>
-    <string name="app_downloads">%sdownloads</string>
-    <string name="dialog_confirm_delete_downloads_message">حذف المهام المحددة؟</string>
+    <string name="get_data_failed">تعذر الحصول على المعلومات. انتظر دقيقة أو دقيقتين ثم حاول مرة أخرى.</string>
+    <string name="load_finish_hint">هذا كل شئ حتى الان.</string>
+    <string name="loading">لحظة من فضلك…</string>
+    <string name="net_error">قم بالاتصال بالإنترنت ثم حاول مجدداً</string>
+    <string name="rank_app_list">أفضل التنزيلات</string>
 </resources>

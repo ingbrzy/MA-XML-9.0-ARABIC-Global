@@ -33,7 +33,7 @@
     <string name="attach_sound">صوت</string>
     <string name="attach_subject">موضوع</string>
     <string name="attach_take_photo">أخذ صورة</string>
-    <string name="attach_transaction">إرسال مبلغ</string>
+    <string name="attach_transaction">تحويل الأموال</string>
     <string name="attach_video">فيديو</string>
     <string name="audio_download_failed">تعذر تنزيل ملف الصوت</string>
     <string name="audio_message_expired">انتهت صلاحية هذه الرسالة صوتية.</string>
@@ -51,6 +51,16 @@
     <string name="bookmark_confirm_delete_message">هل تريد إزالة الرسائل المحددة من المفضلة؟</string>
     <string name="bookmark_empty">لا توجد رسائل في المفضلة</string>
     <string name="bookmark_list_title">المفضلة</string>
+    <string name="button_emoji_creature">Creature Emoji</string>
+    <string name="button_emoji_lifestyle">Lifestyle Emoji</string>
+    <string name="button_emoji_smiley">Smiley Emoji</string>
+    <string name="button_emoji_symbol">Symbol Emoji</string>
+    <string name="button_emoji_text">Text Emoji</string>
+    <string name="button_fold">fold</string>
+    <string name="button_next_slide">التالي</string>
+    <string name="button_pre_slide">السابق</string>
+    <string name="button_resend_message">إعادة إرسال</string>
+    <string name="button_unfold">Unfold</string>
     <string name="call_sender">الاتصال بالمرسل</string>
     <string name="cannot_add_picture_and_video">.لا يمكن إضافة صورة و فديو إلى شريحة واحده</string>
     <string name="cannot_add_slide_anymore">.لا يمكن إضافة المزيد من الشرائح</string>
@@ -138,6 +148,7 @@
     <string name="download_later">لا يمكن التنزيل في الوقت الحالي. حاول مرة أخرى فيما بعد.</string>
     <string name="downloading">جارٍ التنزيل</string>
     <string name="downloading_file_can_not_play">انتظر حتى ينتهي التسجيل من التنزيل</string>
+    <string name="draft">مسودة</string>
     <string name="duration_not_a_number">يجب أن تكون المدة رقمًا</string>
     <string name="duration_sec">المدة(%s ثواني)</string>
     <string name="duration_selector_title">" مدة الشريحة"</string>
@@ -152,7 +163,7 @@
     <string name="enter_edit_mode">تعديل الرسائل</string>
     <string name="error_code_label">"رمزالخطأ: "</string>
     <string name="error_state">حالة عدم تطابق</string>
-    <string name="error_state_text">حالة المحادثات و المستلمين غير متناسقة، يرجى إنشاء تقرير عن خلل و الابلاغ عنه عبر http://go/droidanizer</string>
+    <string name="error_state_text">حالة المحادثات والمستلمين غير متناسقة، قم بإنشاء تقرير عن خلل والإبلاغ عنه عبر http://go/droidanizer</string>
     <string name="error_timed_msg">وقت غير صالح.</string>
     <string name="ex_type_guide">معلومات</string>
     <string name="ex_type_mx">رسالة Mi</string>
@@ -168,7 +179,6 @@
     <string name="failed_to_resize_image">.لم يتم تغيير حجم الصورة</string>
     <string name="fake_cell_alert_hint">يبدو ان هذه الرسالة ارسلت من رقم هاتف يختلف عن الرقم المعروض. كن حذرا من (رسائل قصيرة SMS) التي تحتوي على طلبات مالية.</string>
     <string name="fake_cell_checking_hint">جارٍ التحقق من الأمان…</string>
-    <string name="fake_cell_detection_entry">الكشف عن محطة قاعدة وهمية</string>
     <string name="fake_cell_safe_hint">هذه الرسالة آمنة</string>
     <string name="fake_cell_timeout_hint">تعذر التحقق من الأمان</string>
     <string name="favorite_at_time">تم الإضافة إلى المفضلة في: %1s</string>
@@ -179,6 +189,7 @@
     <string name="file_size">الحجم:</string>
     <string name="file_title">الإسم:</string>
     <string name="file_width_height">الحجم:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">رسالة جديدة</string>
     <string name="forward_from">إعادة توجيه من:</string>
     <string name="forward_prefix">"إعادة توجيه: "</string>
@@ -324,7 +335,7 @@
     <string name="mx_msg_pageview_setting_title">إعدادات رسالة Mi</string>
     <string name="mx_offline">متواجد</string>
     <string name="mx_on_sim_1">فتحة بطاقة رسالة Mi SIM ١</string>
-    <string name="mx_on_sim_2">فتحة بطاقة رسالة Mi SIM ٢</string>
+    <string name="mx_on_sim_2">فتحة بطاقة رسالة Mi SIM 2</string>
     <string name="mx_online">مفعّل</string>
     <string name="mx_reactivate">إعادة تفعيل رسالة Mi</string>
     <string name="mx_recommend_msg">انقر لتشغيل رسالة Mi</string>
@@ -447,7 +458,7 @@
     <string name="privacy_password_title4">تم تحديث كلمة المرور</string>
     <string name="private_message">رسائل خاصة</string>
     <string name="private_new_notification">إشعارات الرسائل</string>
-    <string name="private_protect">كلمات المرور</string>
+    <string name="private_protect">حماية الخصوصية</string>
     <string name="private_settings">إعدادات الرسائل الخاصة</string>
     <string name="processing">جارٍ التنفيذ…</string>
     <string name="prvate_contact">جهات اتصال خاصة</string>
@@ -527,6 +538,7 @@
     <string name="send_signature_confirm_dialog_title">إرسال الرسالة</string>
     <string name="send_sms">إرسال رسالة</string>
     <string name="send_to">إلى:</string>
+    <string name="send_to_index_contact">%1$s2$s</string>
     <string name="sent_at_time">تم الارسال في: %1s</string>
     <string name="sent_label">"مرسلة: "</string>
     <string name="service_message_not_found">انتهت صلاحية الرسالة أو غير متوفرة</string>
@@ -634,7 +646,7 @@
     <string name="undelivered_sms_dialog_body">.تعذر إرسال هذة الرسالة</string>
     <string name="unknown_num">رقم غير معروف</string>
     <string name="unknown_sender">مرسل غير معروف</string>
-    <string name="unstick">إلغاء تثبيت</string>
+    <string name="unstick">إلغاء التثبيت</string>
     <string name="unstick_conversation">إلغاء تثبيت المحادثة الحالية</string>
     <string name="unsticked_conversation">تم إلغاء تثبيت المحادثة بالفعل</string>
     <string name="unsupported_media_format">صيغة%1$sغير مدعومة.</string>
@@ -656,4 +668,5 @@
     <string name="wild_msg_title">اختر ارقام الهاتف للمزامنة</string>
     <string name="yes">موافق</string>
     <string name="yesterday">أمس</string>
+    <string name="fake_cell_detection_entry">الكشف عن محطة قاعدة وهمية</string>
 </resources>

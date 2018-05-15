@@ -211,7 +211,7 @@
     <plurals name="listTotalAllContacts">
         <item quantity="other">%d جهة اتصال</item>
         <item quantity="zero">%d جهة اتصال</item>
-        <item quantity="one">%d جهة اتصال</item>
+        <item quantity="one">١ جهة اتصال</item>
         <item quantity="two">%d جهات اتصال</item>
         <item quantity="few">%d جهات اتصال</item>
         <item quantity="many">%d جهة اتصال</item>

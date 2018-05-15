@@ -49,12 +49,12 @@
         <item quantity="many">خلال %1$d يوم على الساعة %2$s</item>
     </plurals>
     <plurals name="Ndays_ago_at">
-        <item quantity="other">منذ %1$d يوم في %2$s</item>
-        <item quantity="zero">منذ %1$d أيام في %2$s</item>
-        <item quantity="one">منذ %1$d يوم في %2$s</item>
-        <item quantity="two">منذ %1$d أيام في %2$s</item>
-        <item quantity="few">منذ %1$d أيام في %2$s</item>
-        <item quantity="many">منذ %1$d يوم في %2$s</item>
+        <item quantity="other">قبل %1$d يوم في الساعة %2$s</item>
+        <item quantity="zero">قبل %1$d يوم في الساعة %2$s</item>
+        <item quantity="one">قبل %1$d يوم في الساعة %2$s</item>
+        <item quantity="two">قبل %1$d أيام في الساعة %2$s</item>
+        <item quantity="few">قبل %1$d أيام في الساعة %2$s</item>
+        <item quantity="many">قبل %1$d يوم في الساعة %2$s</item>
     </plurals>
     <plurals name="Nweeks">
         <item quantity="other">قبل %d أسبوع</item>
@@ -113,12 +113,12 @@
         <item quantity="many">%1$d يوم حتى</item>
     </plurals>
     <plurals name="birthday_notification_age_term">
-        <item quantity="other">%1$s سنة</item>
-        <item quantity="zero">%1$s سنة</item>
-        <item quantity="one">%1$s سنة</item>
-        <item quantity="two">%1$s سنوات</item>
-        <item quantity="few">%1$s سنوات</item>
-        <item quantity="many">%1$s سنة</item>
+        <item quantity="other">الـ %1$s</item>
+        <item quantity="zero">الـ %1$s</item>
+        <item quantity="one">الـ %1$s</item>
+        <item quantity="two">الـ %1$s</item>
+        <item quantity="few">الـ %1$s</item>
+        <item quantity="many">الـ %1$s</item>
     </plurals>
     <plurals name="countdown_day">
         <item quantity="other">بقي %1$s أيام</item>

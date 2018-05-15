@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="note_terms">
-        <item quantity="other">%1$s ملاحظة</item>
-        <item quantity="zero">%1$s ملاحظة</item>
-        <item quantity="one">%1$s ملاحظة</item>
-        <item quantity="two">%1$s ملاحظات</item>
-        <item quantity="few">%1$s ملاحظات</item>
-        <item quantity="many">%1$s ملاحظة</item>
+    <plurals name="cloud_state_unsynced_count">
+        <item quantity="other">لم تتم مزامنة %1$s</item>
+        <item quantity="zero">لم تتم مزامنة %1$s</item>
+        <item quantity="one">لم تتم مزامنة %1$s</item>
+        <item quantity="two">لم تتم مزامنة %1$s</item>
+        <item quantity="few">لم تتم مزامنة %1$s</item>
+        <item quantity="many">لم تتم مزامنة %1$s</item>
     </plurals>
     <plurals name="folder_terms">
         <item quantity="other">%1$s مجلد</item>
@@ -16,12 +16,12 @@
         <item quantity="few">%1$s مجلدات</item>
         <item quantity="many">%1$s مجلد</item>
     </plurals>
-    <plurals name="cloud_state_unsynced_count">
-        <item quantity="other">لم تتم مزامنة %1$s</item>
-        <item quantity="zero">لم تتم مزامنة %1$s</item>
-        <item quantity="one">لم تتم مزامنة %1$s</item>
-        <item quantity="two">لم تتم مزامنة %1$s</item>
-        <item quantity="few">لم تتم مزامنة %1$s</item>
-        <item quantity="many">لم تتم مزامنة %1$s</item>
+    <plurals name="note_terms">
+        <item quantity="other">%1$s ملاحظة</item>
+        <item quantity="zero">%1$s ملاحظة</item>
+        <item quantity="one">%1$s ملاحظة</item>
+        <item quantity="two">%1$s ملاحظات</item>
+        <item quantity="few">%1$s ملاحظات</item>
+        <item quantity="many">%1$s ملاحظة</item>
     </plurals>
 </resources>

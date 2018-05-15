@@ -40,6 +40,22 @@
         <item quantity="few">%d عناصر</item>
         <item quantity="many">%d عنصر</item>
     </plurals>
+    <plurals name="trans_failed_summary">
+        <item quantity="other">تعذر نقل %d عنصر. انقر لعرض التفاصيل.</item>
+        <item quantity="zero">تعذر نقل %d عنصر. انقر لعرض التفاصيل.</item>
+        <item quantity="one">تعذر نقل %d عنصر. انقر لعرض التفاصيل.</item>
+        <item quantity="two">تعذر نقل %d عناصر. انقر لعرض التفاصيل.</item>
+        <item quantity="few">تعذر نقل %d عناصر. انقر لعرض التفاصيل.</item>
+        <item quantity="many">تعذر نقل %d عنصر. انقر لعرض التفاصيل.</item>
+    </plurals>
+    <plurals name="trans_item_failed_summary">
+        <item quantity="other">تعذر نقل %d عنصر.</item>
+        <item quantity="zero">تعذر نقل %d عنصر.</item>
+        <item quantity="one">تعذر نقل %d عنصر.</item>
+        <item quantity="two">تعذر نقل %d عناصر.</item>
+        <item quantity="few">تعذر نقل %d عناصر.</item>
+        <item quantity="many">تعذر نقل %d عنصر.</item>
+    </plurals>
     <plurals name="trans_time_format_minute">
         <item quantity="other">%d دق</item>
         <item quantity="zero">%d دق</item>

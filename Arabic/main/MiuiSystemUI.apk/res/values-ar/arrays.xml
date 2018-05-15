@@ -3,7 +3,7 @@
     <string-array name="wifi_status">
         <item></item>
         <item>جارٍ البحث…</item>
-        <item>جارٍ الاتصال…</item>
+        <item>جارٍ التوصيل…</item>
         <item>جارٍ المصادقة…</item>
         <item>جارٍ الحصول على عنوان IP…</item>
         <item>متصل</item>
@@ -11,143 +11,148 @@
         <item>جارٍ قطع الاتصال…</item>
         <item>غير متصل</item>
         <item>غير ناجح</item>
-        <item>محظور</item>
+        <item>محظورة</item>
         <item>تجنب الاتصال الضعيف مؤقتا</item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
         <item></item>
         <item>جارٍ البحث…</item>
-        <item>جارٍ الاتصال بـ %1$s…</item>
-        <item>جارٍ المصادقة مع %1$s…</item>
-        <item>جارٍ الحصول على عنوان IP من %1$s…</item>
-        <item>متصل بـ %1$s</item>
+        <item>جارٍ الاتصال بشبكة %1$s…</item>
+        <item>جارٍ المصادقة مع شبكة %1$s…</item>
+        <item>جارٍ الحصول على عنوان IP من شبكة %1$s…</item>
+        <item>متصل بشبكة %1$s</item>
         <item>معلق</item>
-        <item>جارٍ قطع الاتصال من %1$s…</item>
+        <item>جارٍ قطع الاتصال بشبكة %1$s…</item>
         <item>غير متصل</item>
-        <item>غير ناجح</item>
-        <item>محظورة</item>
-        <item>تجنب الاتصال الضعيف مؤقتا</item>
+        <item>لم ينجح ذلك</item>
+        <item>محظور</item>
+        <item>مؤقتا تجنب الإتصال الضعيف</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
         <item>لا تتحقق ابدا</item>
         <item>تحقق من محتوى DRM فقط</item>
-        <item>دائما تحقق</item>
+        <item>تحقق دائماََ</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
         <item>عدم استخدام تحقق HDCP ابدا</item>
         <item>استخدام تحقق HDCP لمحتوى DRM فقط</item>
-        <item>دائما استخدام تحقق HDCP</item>
+        <item>دائماً إستخدام تحقق HDCP</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
-        <item>‏AVRCP 1.4 (الافتراضي)</item>
+        <item>AVRCP 1.4 (الافتراضي)</item>
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp14</item>
+        <item>avrcp15</item>
+        <item>avrcp16</item>
+    </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
-        <item>استخدام اختيار النظام (افتراضي)</item>
+        <item>استخدام تفضيلات النظام (افتراضي)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>aptX</item>
         <item>aptX HD</item>
         <item>LDAC</item>
-        <item>تمكين برامج الترميز الاختيارية</item>
+        <item>تمكين برامج الترميز الإختيارية</item>
         <item>تعطيل برامج الترميز الاختيارية</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>استخدام اختيار النظام (افتراضي)</item>
+        <item>استخدام تفضيلات النظام (افتراضي)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>aptX</item>
         <item>aptX HD</item>
         <item>LDAC</item>
-        <item>تمكين برامج الترميز الاختيارية</item>
+        <item>تمكين برامج الترميز الإختيارية</item>
         <item>تعطيل برامج الترميز الاختيارية</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>استخدام اختيار النظام (افتراضي)</item>
-        <item>44.1 كيلو هرتز</item>
-        <item>48.0 كيلو هرتز</item>
-        <item>88.2 كيلو هرتز</item>
-        <item>96.0 كيلو هرتز</item>
+        <item>استخدام تفضيلات النظام (افتراضي)</item>
+        <item>۱.٤٤ كيلوهرتز</item>
+        <item>۰.٤۸ كيلوهرتز</item>
+        <item>۸۸.۲ كيلوهرتز</item>
+        <item>۰. ۹٦ كيلوهرتز</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>استخدام اختيار النظام (افتراضي)</item>
-        <item>44.1 كيلو هرتز</item>
-        <item>48.0 كيلو هرتز</item>
-        <item>88.2 كيلو هرتز</item>
-        <item>96.0 كيلو هرتز</item>
+        <item>استخدام تفضيلات النظام (افتراضي)</item>
+        <item>۱.٤٤ كيلوهرتز</item>
+        <item>۰.٤۸ كيلوهرتز</item>
+        <item>۸۸.۲ كيلوهرتز</item>
+        <item>۰. ۹٦ كيلوهرتز</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>استخدام اختيار النظام (افتراضي)</item>
-        <item>16 بت لكل عيّنة</item>
-        <item>24 بت لكل عيّنة</item>
-        <item>32 بت لكل عيّنة</item>
+        <item>استخدام تفضيلات النظام (افتراضي)</item>
+        <item>۱٦ بت/عينة</item>
+        <item>۲٤ بت/عينة</item>
+        <item>۱٦ بت/عينة</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>استخدام اختيار النظام (افتراضي)</item>
-        <item>16 بت لكل عيّنة</item>
-        <item>24 بت لكل عيّنة</item>
-        <item>32 بت لكل عيّنة</item>
+        <item>استخدام تفضيلات النظام (افتراضي)</item>
+        <item>۱٦ بت/عينة</item>
+        <item>۲٤ بت/عينة</item>
+        <item>۱٦ بت/عينة</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>استخدام اختيار النظام (افتراضي)</item>
-        <item>أحادي</item>
-        <item>استريو</item>
+        <item>استخدام تفضيلات النظام (افتراضي)</item>
+        <item>مونو</item>
+        <item>ستيريو</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>استخدام اختيار النظام (افتراضي)</item>
-        <item>أحادي</item>
-        <item>استريو</item>
+        <item>استخدام تفضيلات النظام (افتراضي)</item>
+        <item>مونو</item>
+        <item>ستيريو</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
-        <item>تحسين جودة الصوت (٩٩٠ كيلوبت في الثانية / ٩٠٩ كيلوبت في الثانية)</item>
-        <item>جودة متوازنة للصوت والاتصال (660 كيلوبت في الثانية/606 كيلوبت في الثانية)</item>
-        <item>تحسين جودة الاتصال (٣٣٠ كيلوبت في الثانية / ٣٠٣ كيلوبت في الثانية)</item>
-        <item>أفضل جهد (معدل سرعة المعلومات التكيُّفي)</item>
+        <item>الأمثل لجوده الصوت (۹۹۰ كيلوبت في الثانية/۹۰۹ كيلوبت في الثانية)</item>
+        <item>جودة الصوت والإتصال المتوازن (٦۰٦ كيلوبت / ٦۰٦ كيلوبت في الثانية)</item>
+        <item>الإفضل لجوده الاتصال (۳۳۰ كيلو بايت / ۳۰۳ كيلو بايت في الثانية)</item>
+        <item>أفضل تأثير (معدل البت التكيفي)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
         <item>تحسين جودة الصوت</item>
-        <item>جودة متوازنة للصوت والاتصال</item>
-        <item>تحسين جودة الاتصال</item>
-        <item>أفضل جهد (معدل سرعة المعلومات التكيُّفي)</item>
+        <item>توازن الصوت وسرعة الاتصال</item>
+        <item>تحسين جودة الإتصال</item>
+        <item>أفضل تأثير (معدل البت التكيفي)</item>
     </string-array>
     <string-array name="select_logd_size_titles">
-        <item>متوقّف</item>
-        <item>٦٤ كيلوبايت</item>
-        <item>٢٥٦ كيلوبايت</item>
-        <item>١ م.ب</item>
-        <item>٤ م.ب</item>
-        <item>١٦ م.ب</item>
+        <item>إيقاف</item>
+        <item>٦٤ كيلو</item>
+        <item>٢٥٦ كيلو</item>
+        <item>١ ميغا</item>
+        <item>٤ ميغا</item>
+        <item>١٦ ميغا</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
-        <item>متوقّف</item>
-        <item>٦٤ كيلوبايت</item>
-        <item>٢٥٦ كيلوبايت</item>
-        <item>١ ميغابايت</item>
+        <item>إيقاف</item>
+        <item>٦٤ كيلو</item>
+        <item>٢٥٦ كيلو</item>
+        <item>١ ميغا</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
-        <item>متوقّف</item>
-        <item>٦٤ كيلوبايت لسجل المخزن المؤقت</item>
-        <item>٢٥٦ كيلوبايت لسجل المخزن المؤقت</item>
-        <item>١ ميغابايت لسجل المخزن المؤقت</item>
-        <item>٤ ميغابايت لسجل المخزن المؤقت</item>
-        <item>١٦ ميغابايت لسجل المخزن المؤقت</item>
+        <item>إيقاف</item>
+        <item>٦٤ كيلو لسجل المخزن المؤقت</item>
+        <item>٢٥٦ كيلو لسجل المخزن المؤقت</item>
+        <item>١ ميغا لسجل المخزن المؤقت</item>
+        <item>٤ ميغا لسجل المخزن المؤقت</item>
+        <item>١٦ ميغا لسجل المخزن المؤقت</item>
     </string-array>
     <string-array name="select_logpersist_titles">
         <item>إيقاف</item>
         <item>الكل</item>
-        <item>الكل دون اللاسلكي</item>
-        <item>‏kernel فقط</item>
+        <item>كل شيء عدا الراديو</item>
+        <item>النواة فقط</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>إيقاف</item>
-        <item>كل المخازن المؤقتة للسجلات</item>
-        <item>كل المخازن المؤقتة باستثناء مخازن سجلات اللاسلكي</item>
-        <item>‏التخزين المؤقت لسجل kernel فقط</item>
+        <item>جميع مخازن السجلات</item>
+        <item>كل شئ عدا المخازن المؤقتة لسجلات الراديو</item>
+        <item>المخزن المؤقت لسجل النواه فقط</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>الرسوم المتحركة متوقفة</item>
-        <item>مقياس الرسوم المتحركة 0.5x</item>
+        <item>مقياس الرسوم المتحركة .5x</item>
         <item>مقياس الرسوم المتحركة 1x</item>
         <item>مقياس الرسوم المتحركة 1.5x</item>
         <item>مقياس الرسوم المتحركة 2x</item>
@@ -156,7 +161,7 @@
     </string-array>
     <string-array name="transition_animation_scale_entries">
         <item>الرسوم المتحركة متوقفة</item>
-        <item>مقياس الرسوم المتحركة 0.5x</item>
+        <item>مقياس الرسوم المتحركة .5x</item>
         <item>مقياس الرسوم المتحركة 1x</item>
         <item>مقياس الرسوم المتحركة 1.5x</item>
         <item>مقياس الرسوم المتحركة 2x</item>
@@ -165,7 +170,7 @@
     </string-array>
     <string-array name="animator_duration_scale_entries">
         <item>الرسوم المتحركة متوقفة</item>
-        <item>مقياس الرسوم المتحركة 0.5x</item>
+        <item>مقياس الرسوم المتحركة .5x</item>
         <item>مقياس الرسوم المتحركة 1x</item>
         <item>مقياس الرسوم المتحركة 1.5x</item>
         <item>مقياس الرسوم المتحركة 2x</item>
@@ -174,10 +179,10 @@
     </string-array>
     <string-array name="overlay_display_devices_entries">
         <item>لا شيء</item>
-        <item>٤٨٠ بكسل</item>
-        <item>٤٨٠ بكسل (آمن)</item>
-        <item>٧٢٠ بكسل</item>
-        <item>٧٢٠ بكسل (آمن)</item>
+        <item>480p</item>
+        <item>480p (آمن)</item>
+        <item>720p</item>
+        <item>720p (آمن)</item>
         <item>1080p</item>
         <item>1080p (آمن)</item>
         <item>4K</item>
@@ -187,29 +192,29 @@
         <item>720p، 1080p (شاشة مزدوجة)</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
-        <item>لا شيء</item>
+        <item>بدون</item>
         <item>Logcat</item>
         <item>Systrace (رسومات)</item>
         <item>‏تكدس الاستدعاءات في دالة glGetError</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>إيقاف</item>
-        <item>رسم منطقة قصاصة غير مستطيلة بالأزرق</item>
+        <item>إرسم منطقة القصاصة الغير مستطيلة بالأزرق</item>
         <item>إبراز أوامر رسم تم اختبارها بالأخضر</item>
     </string-array>
     <string-array name="track_frame_time_entries">
         <item>إيقاف</item>
         <item>على الشاشة كأشرطة</item>
-        <item>‏باستخدام adb shell dumpsys gfxinfo</item>
+        <item>في adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
         <item>إيقاف</item>
         <item>عرض مناطق تجاوز الحد</item>
-        <item>عرض مناطق deuteranomaly</item>
+        <item>عرض مناطق Deuteranomaly</item>
     </string-array>
     <string-array name="debug_hw_renderer_entries">
-        <item>‏OpenGL (الافتراضي)</item>
-        <item>‏OpenGL ‏(Skia)</item>
+        <item>OpenGL (افتراضي)</item>
+        <item>OpenGL (Skia)</item>
     </string-array>
     <string-array name="app_process_limit_entries">
         <item>الحد القياسي</item>
@@ -238,20 +243,49 @@
         <item>سريع جدا</item>
         <item>الأسرع</item>
     </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+    </string-array>
     <string-array name="color_mode_names">
         <item>نابض بالحياة (إفتراضي)</item>
         <item>طبيعية</item>
         <item>قياسية</item>
     </string-array>
     <string-array name="color_mode_descriptions">
-        <item>ألوان المحسنة</item>
+        <item>ألوان محسنة</item>
         <item>ألوان طبيعية كما تراها العين</item>
-        <item>الألوان الأمثل للمحتوى الرقمي</item>
+        <item>الألوان المحسنة للمحتوى الرقمي</item>
     </string-array>
     <string-array name="battery_labels">
         <item>٠%</item>
         <item>٥٠%</item>
         <item>١٠٠%</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+        <item>AQI %1$s</item>
+    </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
     </string-array>
     <string-array name="aqi_title">
         <item>%1$s</item>

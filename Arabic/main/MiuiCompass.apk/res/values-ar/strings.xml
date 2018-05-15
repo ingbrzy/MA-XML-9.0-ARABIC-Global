@@ -30,6 +30,7 @@
     <string name="direction_north_west">الشمال الغربي</string>
     <string name="direction_south_east">الجنوب الشرقي</string>
     <string name="direction_south_west">الجنوب الغربي</string>
+    <string name="unit_degree">درجات</string>
     <string name="guide_toast">للمعايرة، حرك هاتفك حسب الحركة أدناه.</string>
     <string name="mobiledata_alert_dialog_title">تحذير استخدام البيانات</string>
     <string name="mobiledata_alert_dialog_message">أترغب في الاتصال بالإنترنت لمعايرة الارتفاع؟</string>

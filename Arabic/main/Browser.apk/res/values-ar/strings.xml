@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="common_google_play_services_enable_button">تمكين</string>
+    <string name="common_google_play_services_enable_text">‏لن يعمل %1$s ما لم يتم تمكين خدمات Google Play.</string>
+    <string name="common_google_play_services_enable_title">‏تمكين خدمات Google Play</string>
+    <string name="common_google_play_services_install_button">تثبيت</string>
+    <string name="common_google_play_services_install_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play، والتي لا تتوفر على جهازك.</string>
+    <string name="common_google_play_services_install_title">‏الحصول على خدمات Google Play</string>
+    <string name="common_google_play_services_notification_ticker">‏خطأ في خدمات Google Play</string>
     <string name="common_google_play_services_unknown_issue">‏لدى %1$s مشكلة في خدمات Google Play. الرجاء إعادة المحاولة.</string>
+    <string name="common_google_play_services_unsupported_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play التي لا يوفرها جهازك.</string>
+    <string name="common_google_play_services_update_button">تحديث</string>
+    <string name="common_google_play_services_update_text">‏لن يتم تشغيل %1$s ما لم يتم تحديث خدمات Google Play.</string>
+    <string name="common_google_play_services_update_title">‏تحديث خدمات Google Play</string>
+    <string name="common_google_play_services_updating_text">‏لن يتم تشغيل %1$s بدون خدمات Google Play، والتي يتم تحديثها حاليًا.</string>
+    <string name="common_google_play_services_wear_update_text">‏يجب توفر إصدار جديد من خدمات Google Play. سيتم تحديثها تلقائيًا قريبًا.</string>
+    <string name="common_open_on_phone">فتح على الهاتف</string>
+    <string name="common_signin_button_text">تسجل الدخول</string>
+    <string name="common_signin_button_text_long">‏تسجيل الدخول عبر Google</string>
+    <string name="s1">حفظ الصورة</string>
+    <string name="s2">هل تريد السماح للإعلان بتخزين الصورة في معرض الصور؟</string>
+    <string name="s3">قبول</string>
+    <string name="s4">رفض</string>
+    <string name="s5">إنشاء حدث تقويم</string>
+    <string name="s6">هل تريد السماح للإعلان بإنشاء حدث تقويم؟</string>
     <string name="abc_action_bar_home_description">اذهب إلى صفحة البداية</string>
     <string name="abc_action_bar_up_description">اذهب لأعلى</string>
     <string name="abc_action_menu_overflow_description">المزيد</string>
@@ -51,6 +73,8 @@
     <string name="actionbar_textselection_title">إختيار النص</string>
     <string name="actionbar_web_search">البحث في الويب</string>
     <string name="ad_btn_default_text">تثبيت</string>
+    <string name="ad_mark">اعلان</string>
+    <string name="ad_sponsored">إعلان مُموَّل</string>
     <string name="adblock_force_updating_rules_toast">تحديث مانع الإعلانات</string>
     <string name="adblock_rules_not_updated_toast">تعذر التحديث</string>
     <string name="adblock_rules_restore">إلغاء الحظر</string>
@@ -88,6 +112,7 @@
     <string name="aqi_quality_index_moderate">معتدل</string>
     <string name="aqi_quality_index_pure">ممتاز</string>
     <string name="aqi_quality_index_unhealthy">غير صحي</string>
+    <string name="articles_updated">تم تحديث %1$d من المقالات</string>
     <string name="autoSwithcingSearchEngineTips">تم التبديل إلى محرك البحث المستخدم غالبا</string>
     <string name="autofill_keyboard_accessory_content_description">الإقتراحات المتاحة</string>
     <string name="autofill_popup_content_description">عرض نافذة التدوين الآلي</string>
@@ -135,11 +160,14 @@
     <string name="cancel">إلغاء</string>
     <string name="cannot_download">يمكن تنزيل \"HTTP\" أو \"HTTPS\" من URLs فقط</string>
     <string name="card_setting_close_recommend">تلقي توصيات</string>
+    <string name="channels_edit">تعديل</string>
+    <string name="channels_finish">إنتهى</string>
     <string name="choosertitle_sharevia">مشاركة عبر</string>
     <string name="clear_history">مسح السجل</string>
     <string name="clear_most_visited">السجل الحديث</string>
     <string name="clear_search_history">مسح السجل</string>
     <string name="clear_video_download">إزالة الفيديوهات</string>
+    <string name="click_to_refresh">لقد توقفت المرة السابقة هنا، انقر للتحديث</string>
     <string name="clip_dialog_title">فتح عنوان URL المنسوخ؟</string>
     <string name="close_ads_choice_no">السماح</string>
     <string name="close_ads_choice_yes">حظر</string>
@@ -169,6 +197,7 @@
     <string name="color_picker_dialog_title">تحديد اللون</string>
     <string name="color_picker_hue">تدرج اللون</string>
     <string name="color_picker_saturation">صفاء اللون</string>
+    <string name="color_picker_value">القيمة</string>
     <string name="comment_app_menu">التعليق</string>
     <string name="comment_description">تعليق</string>
     <string name="comment_hint">تعليق</string>
@@ -198,6 +227,7 @@
     <string name="contextmenu_webpage_snapshot">حفظ الصفحة</string>
     <string name="copy_to_clipboard_failure_message">تعذر النسخ إلى الحافظة.</string>
     <string name="copy_url">نسخ URL</string>
+    <string name="could_not_load_data">تعذر التحميل، قم بالتحديث و حاول مجددا</string>
     <string name="create_qr_code">رمز QR</string>
     <string name="current_version_pad">لوحة</string>
     <string name="current_version_pc">الكمبيوتر الشخصي</string>
@@ -205,9 +235,10 @@
     <string name="custom_head_card_text">دائما تأكد أن شيئا رائعا على وشك الحدوث</string>
     <string name="custom_head_card_text_incognito">"أنت متخفي!
 الصفحات التي قمت بعرضها لن تظهر في السجل."</string>
-    <string name="data_traffic_prompt_change">سيؤدي استخدام اتصال بيانات جوالك لمشاهدة مقاطع الفيديو إلى زيادة استخدام البيانات. إذا تجاوزت حد استخدام بيانات خطة جوالك، فقد تفرض عليك شركة الاتصالات رسومًا إضافية.</string>
-    <string name="data_traffic_prompt_message">سيؤدي استخدام اتصال بيانات الجوال لتصفح مقاطع الفيديو إلى زيادة استخدام البيانات. إذا تجاوزت حد استخدام بيانات خطة جوالك، قد تفرض عليك شركة الاتصالات رسوماََ إضافية.</string>
-    <string name="data_traffic_prompt_message_short">سيؤدي استخدام بيانات الجوال لمشاهدة مقاطع الفيديو إلى تجاوز حد استخدام بيانات خطة جوالك.</string>
+    <string name="data_error">خطأ في البيانات</string>
+    <string name="data_traffic_prompt_change">سيؤدي استخدام اتصال بيانات الجوال لمشاهدة مقاطع الفيديو إلى زيادة استخدام البيانات. إذا تجاوزت حد استخدام البيانات لخطتك، فقد تفرض عليك شركة الاتصالات رسوما إضافية.</string>
+    <string name="data_traffic_prompt_message">سيؤدي استخدام اتصال بيانات الجوال لتصفح مقاطع الفيديو إلى زيادة استخدام البيانات. إذا تجاوزت حد استخدام بيانات خطة جوالك، قد تفرض عليك شركة الاتصالات رسوما إضافية.</string>
+    <string name="data_traffic_prompt_message_short">قد يتسبب استخدام بيانات الجوال لتشغيل الفيديوهات في تجاوز خطة حد إستخدام البيانات الخاصة بك.</string>
     <string name="data_traffic_prompt_title">تحذير استخدام البيانات</string>
     <string name="date_picker_dialog_clear">مسح</string>
     <string name="date_picker_dialog_other_button_label">أخرى</string>
@@ -255,14 +286,14 @@
     <string name="download_dialog_file_length_nolength_txt">لحظة من فضلك…</string>
     <string name="download_failed">تعذر إكمال التحميل</string>
     <string name="download_filter_all">الكل</string>
-    <string name="download_filter_apk">Apk</string>
+    <string name="download_filter_apk">APK</string>
     <string name="download_filter_application">التطبيقات</string>
     <string name="download_filter_audio">الموسيقى</string>
-    <string name="download_filter_image">الصور</string>
+    <string name="download_filter_image">Images</string>
     <string name="download_filter_others">أخرى</string>
-    <string name="download_filter_text">الملفات</string>
+    <string name="download_filter_text">Documents</string>
     <string name="download_filter_video">مقاطع الفيديو</string>
-    <string name="download_filter_zip">Zip</string>
+    <string name="download_filter_zip">ZIP</string>
     <string name="download_in_process">جارٍ التنزيل…</string>
     <string name="download_list_open_xl_ok">موافق</string>
     <string name="download_memory_info_avai">" متاح %s|"</string>
@@ -290,7 +321,7 @@
     <string name="enable_geolocation_confirm_message">سيؤثر إيقاف خدمات الموقع على التوصيات التي تتلقاها.</string>
     <string name="enter_developer_mode">الدخول الى وضع المطور</string>
     <string name="enter_incongnito_mode">أدخل وضع التصفح المتخفي</string>
-    <string name="error_forbidden">تم إيقاف المزامنة بسبب مشاكل مع حساب Mi الخاص بك.</string>
+    <string name="error_forbidden">تم إيقاف المزامنة بسبب مشاكل مع حساب Mi.</string>
     <string name="error_not_acceptable">المزامنة متوقفة.</string>
     <string name="error_title">تعذر المزامنة</string>
     <string name="error_unauthorized">لقد تم إيقاف المزامنة بحساب Mi الخاص بك بسبب الكثير من محاولات تسجيل الدخول.</string>
@@ -366,11 +397,11 @@
     <string name="keep_queued_download">إبقاء</string>
     <string name="last_month">الشهر الماضي</string>
     <string name="license_activity_title">نظام رخص عرض الويب</string>
-    <string name="load_more">عرض المزيد</string>
     <string name="loading_tips">إسحب لأسفل للتحديث</string>
     <string name="local_bookmarks">Mi</string>
     <string name="login_failed_toast">تعذر تسجيل الدخول، قم بالتحديث و حاول مرة أخرى</string>
-    <string name="low_memory_error">تعذر إتمام العملية السابقة بسبب انخفاض الذاكرة.</string>
+    <string name="long_press_edit">اضغط مطولاََ للتعديل</string>
+    <string name="low_memory_error">"Couldn't complete previous operation due to low memory."</string>
     <string name="low_memory_toast">لا يمكن إستخدام المتصفح بسبب ضعف الذاكرة</string>
     <string name="max_tabs_warning">لا يمكن فتح المزيد من علامات التبويب</string>
     <string name="maximum_input_alert">لا يمكن إدخال أكثر من ٢٠٤٨ حرف</string>
@@ -387,7 +418,7 @@
     <string name="media_player_error_text_invalid_progressive_playback">هذا الفيديو غير صالح للتشغيل على هذا الجهاز.</string>
     <string name="media_player_error_text_unknown">لا يمكن تشغيل هذا الفيديو.</string>
     <string name="media_player_error_title">لا يمكن تشغيل الفيديو</string>
-    <string name="media_player_loading_video">تحميل الفيديو</string>
+    <string name="media_player_loading_video">لحظة من فضلك…</string>
     <string name="menu_addtodesk">إضافة إلى الشاشة الرئيسية</string>
     <string name="menu_exit_nightmode">خروج</string>
     <string name="menu_hv_swap">شاشة V/H</string>
@@ -510,6 +541,7 @@
     <string name="month_picker_dialog_title">تعيين الشهر</string>
     <string name="more_description">القائمة</string>
     <string name="more_option">المزيد من الخيارات</string>
+    <string name="my_cahnnel">قنواتي</string>
     <string name="nav_bottom_bar_back">رجوع</string>
     <string name="nav_bottom_bar_close_all">إغلاق الكل</string>
     <string name="nav_bottom_bar_new_tab">علامة تبويب جديدة</string>
@@ -522,11 +554,16 @@
     <string name="navigationbar_rightbutton_actiontext_cancle">إلغاء</string>
     <string name="navigationbar_rightbutton_actiontext_go">اذهب</string>
     <string name="navigationbar_rightbutton_actiontext_search">بحث</string>
+    <string name="net_error">خطأ في الشبكة</string>
     <string name="network_show_wifi_setting_tip_dialog_description">تم العثور على نقطة إتصال Wi-Fi قريبة. محاولة الاتصال؟</string>
     <string name="network_show_wifi_setting_tip_dialog_title">شبكة الـ Wi-Fi متاحة</string>
+    <string name="news_load_failed">انقر للمحاولة مجددا</string>
+    <string name="news_loading">جارٍ التحميل…</string>
     <string name="next_button_label">التالي</string>
     <string name="no_app_open_document">لم يتم العثور على تطبيق لمعالجة هذا الإجراء</string>
+    <string name="no_items">لا مزيد من العناصر هنا. جرب فئة مختلفة.</string>
     <string name="no_matches">لا يوجد تطابق</string>
+    <string name="no_network">تحقق من اتصال الشبكة ثم حاول مرة أخرى.</string>
     <string name="no_space_alert_cancel">لاحقا</string>
     <string name="no_space_alert_clean">تفريغ مساحة</string>
     <string name="no_space_alert_text">لا توجد مساحة تخزين كافية</string>
@@ -542,9 +579,9 @@
     <string name="onews__category_reddit">Reddit</string>
     <string name="open_app_confirm_message">السماح لهذه الصفحة بفتح %s؟</string>
     <string name="open_file_explorer_failed">لا يمكن فتح مدير الملفات</string>
-    <string name="open_private_folder">حرّر لعرض المجلدات المخفية</string>
     <string name="open_voice_permission">السماح للميكروفون بالاتصال بالإنترنت</string>
     <string name="opening_file_error">تعذر فتح الملف المحدد.</string>
+    <string name="other_channel">انقر لإضافة المزيد من القنوات.</string>
     <string name="page_info">معلومات الصفحة</string>
     <string name="page_info_address">العنوان:</string>
     <string name="page_info_view">عرض معلومات الصفحة</string>
@@ -589,6 +626,7 @@
     <string name="pref_content_night_read_mode">الوضع الليلي</string>
     <string name="pref_content_search_engine">محرك البحث في شريط العنوان</string>
     <string name="pref_content_search_engine_summary">اختيار محرك البحث</string>
+    <string name="pref_develop_mode">وضع المطوريين</string>
     <string name="pref_enable_adblock_notification">عرض إشعارات مانع الإعلانات</string>
     <string name="pref_enable_news">الأخبار</string>
     <string name="pref_enable_novels">الكتب</string>
@@ -662,10 +700,11 @@
     <string name="pref_volume_key_action">مرّر باستخدام أزرار الصوت</string>
     <string name="private_browsing_warning">هذه الوظيفة غير مدعومة في إصدار الاندرويد هذا.</string>
     <string name="profiler_error_toast">تعذر بدء تشغيل ملف التعريف.</string>
-    <string name="profiler_no_storage_toast">لا يمكن بدء تشغيل ملف التعريف الشخصي لأن وحدة التخزين الخارجية غير جاهزة</string>
+    <string name="profiler_no_storage_toast">"Can't start profiler because external storage isn't ready"</string>
     <string name="profiler_started_toast">تم بدء ملف التعريف الشخصي</string>
     <string name="profiler_stopped_toast">ملف التعريف الشخصي انتهى. تم حفظ النتائج إلى %1$s.</string>
     <string name="progress_dialog_setting_wallpaper">تعيين خلفية الشاشة …</string>
+    <string name="pull_to_refresh">إسحب لأسفل للتحديث</string>
     <string name="pull_to_refresh_pull_label">اسحب للتحديث</string>
     <string name="pull_to_refresh_release_label">حرّره للموصى به و التحديث</string>
     <string name="qr_code_title">رمز QR</string>
@@ -696,6 +735,11 @@
     <string name="readmode_recommend_message">لقد قرأت هذا الكتاب سابقا :)</string>
     <string name="readmode_refresh">تحديث</string>
     <string name="readmodelist_bookmarks_to_show">قائمة القراءة</string>
+    <string name="refresh">تحديث</string>
+    <string name="refresh_fail">تعذر تحميل المعلومات</string>
+    <string name="refresh_success">تم العثور على %1$d مقال قد يعجبك</string>
+    <string name="refreshing">يتم التحديث…</string>
+    <string name="release_to_refresh">حرر للتحديث</string>
     <string name="remember_passwords_confirm_message">إيقاف هذه الميزة قد يؤثّر على الإستخدام.</string>
     <string name="remove_bookmark">حذف الإشارة المرجعية</string>
     <string name="remove_bookmark_group">حذف المجموعة</string>
@@ -709,11 +753,6 @@
     <string name="retry_after_network_available">لا يمكن الاتصال بالشبكة</string>
     <string name="retry_download">إعادة المحاولة</string>
     <string name="return_to_homepage">العودة الى صفحة البداية</string>
-    <string name="rlv_last_refreshing_time">تم تحديث %1$s</string>
-    <string name="rlv_loading_more">لحظة من فضلك…</string>
-    <string name="rlv_pull_to_refresh">إسحب لأسفل للتحديث</string>
-    <string name="rlv_refreshing">يتم التحديث…</string>
-    <string name="rlv_release_to_refresh">حرر للتحديث</string>
     <string name="rlz_access_point">Y1</string>
     <string name="root_folder_lable">لا شيء</string>
     <string name="router_download_exist">هذا الملف موجود مسبقاً</string>
@@ -723,7 +762,7 @@
     <string name="same_folder_name_warning">مجموعة بنفس الاسم موجودة مسبقا</string>
     <string name="save_button_text">حفظ</string>
     <string name="save_dialog_title">حفظ</string>
-    <string name="save_file">حفظ %s ملف</string>
+    <string name="save_file">Save %s</string>
     <string name="save_file_already_exist_alert_message">ملف بنفس الاسم موجود مسبقا. هل تريد استبداله؟</string>
     <string name="save_file_already_exist_alert_title">استبدال الملف؟</string>
     <string name="save_form_data_confirm_message">إيقاف هذه الميزة قد يؤثّر على الإستخدام.</string>
@@ -776,10 +815,6 @@
     <string name="sendstartpage">صفحة البداية</string>
     <string name="share_image_text">انظر ماذا شاركت! @MIUI</string>
     <string name="share_page_text">انظر ماذا شاركت: %1$s @MIUI| %2$s</string>
-    <string name="show_check_security_url_check_tip_dialog_description">يحتاج المتصفح للإتصال بالإنترنت للعمل بشكل طبيعي. لتحسين الحماية وتلقي توصيات أكثر صلة، السماح للمتصفح الحصول على عناوين \"URLs\" مواقع الويب التي تزورها والوصول إلى معلومات موقعك.</string>
-    <string name="show_check_security_url_check_tip_dialog_description_international">يحتاج المتصفح للإتصال بالإنترنت للعمل بشكل طبيعي. لتلقي توصيات أكثر صلة، السماح للمتصفح الحصول على عناوين \"URLs\" مواقع الويب التي تزورها والوصول إلى معلومات موقعك.</string>
-    <string name="show_security_tip_dialog_title">شروط الخدمة</string>
-    <string name="show_weather_location_getter_tip_dialog_description">يحتاج المتصفح للإتصال بالإنترنت للعمل بشكل طبيعي. لتحسين الحماية، وتلقي مزيد من التوصيات ذات الصلة ومعلومات الطقس، قم بالسماح للمتصفح للحصول على عناوين \"URLs\" لمواقع الويب التي تزورها والوصول إلى معلومات الموقع.</string>
     <string name="sign_in_to" formatted="false">تسجيل الدخول إلى %s1 %s2\"</string>
     <string name="site_sort_des">إعادة ترتيب العناصر</string>
     <string name="skip_button_label">تخطي</string>
@@ -829,6 +864,7 @@
     <string name="time_picker_dialog_pm">م</string>
     <string name="time_picker_dialog_second_subsecond_separator">.</string>
     <string name="time_picker_dialog_title">تعيين الوقت</string>
+    <string name="tip_drag">اضغط مطولا للتعديل واسحب للترتيب.</string>
     <string name="title_bar_loading">جارٍ التحميل…</string>
     <string name="too_many_windows_dialog_message">المتصفح لا يمكنه فتح علامة تبويب جديدة حتى يتم إغلاق علامة تبويب أخرى</string>
     <string name="too_many_windows_dialog_title">لا يمكن فتح المزيد من علامات التبويب</string>
@@ -838,7 +874,7 @@
     <string name="unsecurity_url_toast">هذا الموقع ليس آمنا</string>
     <string name="up_to_loading_tips">قم بالتحرير للتحديث</string>
     <string name="update_no_network_toast">لا يمكن الاتصال بالشبكة</string>
-    <string name="updating_chrome">جارٍ تحديث Chrome‧</string>
+    <string name="updating_chrome">جارٍ تحديث Chrome…</string>
     <string name="uploads_disabled">تحميلات الملف معطلة</string>
     <string name="url_copy_done">تم نسخ URL إلى الحافظة</string>
     <string name="url_find_on_page_result">عرض في المتصفح</string>
@@ -866,7 +902,7 @@
     <string name="version_check_button_no_network">لا يمكن الاتصال بالشبكة</string>
     <string name="version_check_button_resume_download">استئناف التنزيل</string>
     <string name="version_check_button_update">تحديث</string>
-    <string name="version_check_failed">فشل في التحقق من التحديثات</string>
+    <string name="version_check_failed">تعذر التحقق من التحديثات</string>
     <string name="version_dialog_buttion_ok">موافق</string>
     <string name="version_dialog_buttion_update">تحديث</string>
     <string name="version_update_file_download_toast">جارٍ التنزيل</string>

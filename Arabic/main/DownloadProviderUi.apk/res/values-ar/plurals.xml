@@ -8,6 +8,14 @@
         <item quantity="few">سيتم حذف %d تنزيلات.</item>
         <item quantity="many">سيتم حذف %d تنزيل.</item>
     </plurals>
+    <plurals name="dialog_confirm_delete_downloads_message">
+        <item quantity="other">حذف %d مهمة؟</item>
+        <item quantity="zero">حذف %d مهمة؟</item>
+        <item quantity="one">حذف %d مهمة؟</item>
+        <item quantity="two">حذف %d مهام؟</item>
+        <item quantity="few">حذف %d مهام؟</item>
+        <item quantity="many">حذف %d مهمة؟</item>
+    </plurals>
     <plurals name="download_info_count_deleted_tasks">
         <item quantity="other">تم حذف %1$d تنزيل</item>
         <item quantity="zero">تم حذف %1$d تنزيل</item>

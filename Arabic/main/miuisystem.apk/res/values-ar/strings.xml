@@ -163,7 +163,7 @@
     <string name="mi">Mi</string>
     <string name="miglass">Mi (زجاج)</string>
     <string name="mix">MIX</string>
-    <string name="mixylophone">Mi (إكسيليفون)</string>
+    <string name="mixylophone">(إكسيليفون) Mi</string>
     <string name="breeze">نسيم</string>
     <string name="sunrise">الشروق</string>
     <string name="newday">يوم جديد</string>
@@ -174,7 +174,7 @@
     <string name="toyrobot">لعبة الروبوت</string>
     <string name="celesta">سيليستا</string>
     <string name="fireflies">اليراعات</string>
-    <string name="miremix">Mi (ريميكس)</string>
+    <string name="miremix">(ريميكس) Mi</string>
     <string name="notificationxylophone">تنبيه (إكسيليفون)</string>
     <string name="cta_permission_delimiter">,</string>
     <string name="cta_permission_and">و</string>

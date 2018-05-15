@@ -17,20 +17,20 @@
         <item quantity="many">حذف %1$d خلفية شاشة؟</item>
     </plurals>
     <plurals name="editing_mode_title">
-        <item quantity="other">%1$d مُحدد</item>
-        <item quantity="zero">%1$d مُحددة</item>
-        <item quantity="one">%1$d مُحدد</item>
-        <item quantity="two">%1$d مُحددة</item>
-        <item quantity="few">%1$d مُحددة</item>
-        <item quantity="many">%1$d مُحدد</item>
+        <item quantity="other">تم تحديد %1$d عنصر</item>
+        <item quantity="zero">تم تحديد %1$d عنصر</item>
+        <item quantity="one">تم تحديد %1$d عنصر</item>
+        <item quantity="two">تم تحديد %1$d عناصر</item>
+        <item quantity="few">تم تحديد %1$d عناصر</item>
+        <item quantity="many">تم تحديد %1$d عنصر</item>
     </plurals>
     <plurals name="scroll_tip_format_when_announce_accessibility">
-        <item quantity="other">الصفحة %1$d، %2$d تطبيق</item>
-        <item quantity="zero">الصفحة %1$d، %2$d تطبيق</item>
-        <item quantity="one">الصفحة %1$d، %2$d تطبيق</item>
-        <item quantity="two">الصفحة %1$d، %2$d تطبيقات</item>
-        <item quantity="few">الصفحة %1$d، %2$d تطبيقات</item>
-        <item quantity="many">الصفحة %1$d، %2$d تطبيق</item>
+        <item quantity="other">الصفحة %1$d، %2$d تطبيق.</item>
+        <item quantity="zero">الصفحة %1$d، %2$d تطبيق.</item>
+        <item quantity="one">الصفحة %1$d، %2$d تطبيق.</item>
+        <item quantity="two">الصفحة %1$d، %2$d تطبيقات.</item>
+        <item quantity="few">الصفحة %1$d، %2$d تطبيقات.</item>
+        <item quantity="many">الصفحة %1$d، %2$d تطبيق.</item>
     </plurals>
     <plurals name="uninstall_dialog_title_multi_format">
         <item quantity="other">إلغاء تثبيت %1$d تطبيق؟</item>
