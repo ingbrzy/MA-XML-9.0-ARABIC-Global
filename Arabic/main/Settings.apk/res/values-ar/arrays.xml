@@ -1382,12 +1382,4 @@
         <item>الدقة</item>
         <item>إصدار الأندرويد</item>
     </string-array>
-    <string-array name="standard_configuration_version_description_secondary">
-        <item>Snapdragon 820</item>
-        <item>٣٠٠٠ ملي أمبير(typ)</item>
-        <item>١٦ ميغابسكل</item>
-        <item>٥.١٥ بوصة</item>
-        <item>١٠٨٠ × ١٩٢٠</item>
-        <item>٦.٠.١</item>
-    </string-array>
 </resources>
