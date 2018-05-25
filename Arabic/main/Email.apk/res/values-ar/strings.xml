@@ -835,10 +835,8 @@
     <string name="recognize_hotel_other_money">مصاريف أخرى %1$s</string>
     <string name="recognize_hotel_reverse_date">قم بالتسجيل قبل %1$s:%2$s %3$s</string>
     <string name="recognize_hotel_room_type">الغرفة</string>
-    <string name="recognize_hotel_room_type_value">%2$s × %1$s</string>
     <string name="recognize_hotel_title">حجز فندق</string>
     <string name="recognize_hotel_user_names">ضيف</string>
-    <string name="recognize_hotel_user_names_value">%2$s+%1$s</string>
     <string name="recognize_setting_title">إعدادات السفر</string>
     <string name="recognize_ticket_air_notification_content">استمتع برحلتك!</string>
     <string name="recognize_ticket_air_notification_title">سوف تقلع الرحلة %3$s (%1$s/%2$s) قريبا. تحقق من معلومات الطيران الخاصة بك مرة أخرى.</string>
