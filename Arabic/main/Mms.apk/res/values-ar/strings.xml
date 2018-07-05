@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">+999</string>
     <string name="action_firewall_setting">قائمة الحظر</string>
     <string name="activity_not_found">لم يتم العثور على إي تطبيق لمعالجة هذا الإجراء</string>
     <string name="activity_not_found_uri">لم يتم العثور على إي تطبيق لمعالجة هذا الإجراء</string>
@@ -51,16 +52,16 @@
     <string name="bookmark_confirm_delete_message">هل تريد إزالة الرسائل المحددة من المفضلة؟</string>
     <string name="bookmark_empty">لا توجد رسائل في المفضلة</string>
     <string name="bookmark_list_title">المفضلة</string>
-    <string name="button_emoji_creature">Creature Emoji</string>
-    <string name="button_emoji_lifestyle">Lifestyle Emoji</string>
-    <string name="button_emoji_smiley">Smiley Emoji</string>
-    <string name="button_emoji_symbol">Symbol Emoji</string>
-    <string name="button_emoji_text">Text Emoji</string>
-    <string name="button_fold">fold</string>
+    <string name="button_emoji_creature">رموز حيوانات</string>
+    <string name="button_emoji_lifestyle">رموز نمط الحياة</string>
+    <string name="button_emoji_smiley">وجوة تعبيرية</string>
+    <string name="button_emoji_symbol">رمز تعبيري</string>
+    <string name="button_emoji_text">رمز تعبيري نصي</string>
+    <string name="button_fold">تقليص</string>
     <string name="button_next_slide">التالي</string>
     <string name="button_pre_slide">السابق</string>
-    <string name="button_resend_message">إعادة إرسال</string>
-    <string name="button_unfold">Unfold</string>
+    <string name="button_resend_message">ارسال مرة أخرى</string>
+    <string name="button_unfold">فتح</string>
     <string name="call_sender">الاتصال بالمرسل</string>
     <string name="cannot_add_picture_and_video">.لا يمكن إضافة صورة و فديو إلى شريحة واحده</string>
     <string name="cannot_add_slide_anymore">.لا يمكن إضافة المزيد من الشرائح</string>
@@ -135,7 +136,9 @@
     <string name="delete_wild_sims_title">حذف الأرقام المحددة</string>
     <string name="delivery_report_activity">تقرير التسليم</string>
     <string name="delivery_toast_body">تم استلام الرسالة بواسطة %s</string>
+    <string name="dialog_message_fake_cell_detect_error">تصحيح المعلومات حول هذه الرسالة؟ للقيام بذلك ، يحتاج MIUI إلى تحميل رقم الهاتف (%1$s) ومحتوى الرسالة ومعلومات الموقع إلى الخوادم الخاصة بها.</string>
     <string name="dialog_message_sms_report">سيتم رفع الرسائل المزعجة و معلومات المرسل إلى MIUI عند إبلاغك عنها. سيتم استخدامها فقط لتحسين مرشحات البريد المزعج لـ MIUI.</string>
+    <string name="dialog_title_fake_cell_detect_error">تصحيح</string>
     <string name="disable_notifications_dialog_message">هل تريد إيقاف إشعارات الرسالة النصية المتكررة من تطبيق الرسائل الإفتراضي؟</string>
     <string name="disabled">متوقّف</string>
     <string name="discard">تجاهل</string>
@@ -165,7 +168,6 @@
     <string name="error_state">حالة عدم تطابق</string>
     <string name="error_state_text">حالة المحادثات والمستلمين غير متناسقة، قم بإنشاء تقرير عن خلل والإبلاغ عنه عبر http://go/droidanizer</string>
     <string name="error_timed_msg">وقت غير صالح.</string>
-    <string name="ex_type_guide">معلومات</string>
     <string name="ex_type_mx">رسالة Mi</string>
     <string name="ex_type_sms">SMS/MMS</string>
     <string name="exceed_message_size_limitation">حجم الرساله وصل للحد الأقصى.</string>
@@ -177,6 +179,7 @@
     <string name="fail_to_view_attachment">المرفقات غير متاحة</string>
     <string name="failed_to_add_media">.هذة إلى رسالتك %1$s لا يمكنك إضافة</string>
     <string name="failed_to_resize_image">.لم يتم تغيير حجم الصورة</string>
+    <string name="fake_cell_alert_detect_error">لم يتم الإرسال من قاعدة رسائل زائفة </string>
     <string name="fake_cell_alert_hint">يبدو ان هذه الرسالة ارسلت من رقم هاتف يختلف عن الرقم المعروض. كن حذرا من (رسائل قصيرة SMS) التي تحتوي على طلبات مالية.</string>
     <string name="fake_cell_checking_hint">جارٍ التحقق من الأمان…</string>
     <string name="fake_cell_safe_hint">هذه الرسالة آمنة</string>
@@ -189,6 +192,7 @@
     <string name="file_size">الحجم:</string>
     <string name="file_title">الإسم:</string>
     <string name="file_width_height">الحجم:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">رسالة جديدة</string>
     <string name="forward_from">إعادة توجيه من:</string>
     <string name="forward_prefix">"إعادة توجيه: "</string>
@@ -357,6 +361,9 @@
     <string name="no_subject_view">(بدون موضوع)</string>
     <string name="non_english_subject_limit">الحد الأقصى ١٣ حرفا</string>
     <string name="nosend_message">عدم الإرسال</string>
+    <string name="notification_channel_description">إشعارات من الرسائل</string>
+    <string name="notification_channel_name">الرسائل</string>
+    <string name="notification_copy">نسخ OTP</string>
     <string name="notification_failed_multiple">تعذر إرسال%sمن الرسائل</string>
     <string name="notification_failed_multiple_title">لم يتم إرسال الرسائل</string>
     <string name="notification_multiple">[%s]</string>
@@ -390,7 +397,7 @@
     <string name="pref_show_blocked_messages_summary">إظهار رسائل الـ SMS المحظورة في قائمة المحادثات</string>
     <string name="pref_show_list_avatar_summary">إظهار صور الملف الشخصي ومعلومات جهة الإتصال في قائمة عرض</string>
     <string name="pref_show_photo_word_summary">تخصيص صورة تلقائياً لجهات الاتصال بدون صورة</string>
-    <string name="pref_show_sms_template_entry_summary">اكتشاف كلمة المرور لمرة واحدة في رسالة قصيرة (SMS)</string>
+    <string name="pref_show_sms_template_entry_summary">التعرف على كلمات المرور لمرة واحدة وعرض القوائم السريعة</string>
     <string name="pref_show_sms_template_in_summary">الكشف عن كلمات السر تلقائياُ لمرة واحدة في الرسائل النصية القصيرة</string>
     <string name="pref_show_sms_template_summary">قم بالتشغيل لاستخدام ميزات رسالة Mi الذكية، مثل رموز النسخ و التحقق من الرصيد، الخ.</string>
     <string name="pref_smart_messages_settings">رسائل ذكية</string>
@@ -537,6 +544,7 @@
     <string name="send_signature_confirm_dialog_title">إرسال الرسالة</string>
     <string name="send_sms">إرسال رسالة</string>
     <string name="send_to">إلى:</string>
+    <string name="send_to_index_contact">%1$s2$s</string>
     <string name="sent_at_time">تم الارسال في: %1s</string>
     <string name="sent_label">"مرسلة: "</string>
     <string name="service_message_not_found">انتهت صلاحية الرسالة أو غير متوفرة</string>
@@ -619,13 +627,14 @@
     <string name="title_show_blocked_messages">إظهار الرسائل المحظورة</string>
     <string name="title_show_list_avatar">إظهار صور الملف الشخصي</string>
     <string name="title_show_photo_word">تعيين صورة لجهة الاتصال</string>
-    <string name="title_show_sms_template">تحقق من الرسالة القصيرة للتعرف على رموز التحقق</string>
+    <string name="title_show_sms_template">الرسائل الذكية</string>
     <string name="title_show_sms_template_in">فحص رسالة SMS للتحقق من الـ OTP</string>
     <string name="title_timed_message_dialog">تعيين رسالة مؤقتة</string>
     <string name="title_use_gsm_alphabet">استخدام أبجدية GSM</string>
     <string name="to_address_label">"إلى: "</string>
     <string name="to_label">"إلى "</string>
     <string name="to_send_wrapper">سيتم الإرسال في %s</string>
+    <string name="toast_pending_hangup_msg">سيتم ارسال الرسالة بعد إنهاء المكالمة</string>
     <string name="today">اليوم</string>
     <string name="too_many_attachments">لا يمكن تجاوز%1$sمرفق. فقط المرفق الأول%2$sسيتم إضافته.</string>
     <string name="too_many_recipients">تحتوي الرسالة على عدد كبير من المستلمين(%1$s). لا يمكن أن يكون لديك أكتر من %2$sمستلم.</string>
@@ -650,11 +659,12 @@
     <string name="unsupported_media_format">صيغة%1$sغير مدعومة.</string>
     <string name="url_fraud_dangerous_alert">"قد يكون الموقع الذي تحاول القيام بزيارتة خطير. ربما يضر الجهاز والبيانات الخاصة بك. الزيارة على أي حال؟
 %s"</string>
-    <string name="url_fraud_risky_alert">"قد يكون الموقع الذي تحاول القيام بزيارتة خطير. الزيارة على أي حال؟
-%s"</string>
+    <string name="url_fraud_risky_alert">"قد يكون الموقع %s غير آمن. زيارته على أي حال؟
+"</string>
     <string name="url_fraud_title">يمكن للموقع أن يكون وهمي</string>
     <string name="url_fraud_visit"><u>زيارة على أي حال</u></string>
     <string name="url_result_safe">الـ URL آمن</string>
+    <string name="url_scan_again">تحقق مرة أخرى</string>
     <string name="url_scanning">جارٍ التحقق من URL…</string>
     <string name="verification_code_list_title">رموز التحقق</string>
     <string name="view">عرض</string>
@@ -666,5 +676,4 @@
     <string name="wild_msg_title">اختر ارقام الهاتف للمزامنة</string>
     <string name="yes">موافق</string>
     <string name="yesterday">أمس</string>
-    <string name="fake_cell_detection_entry">الكشف عن محطة قاعدة وهمية</string>
 </resources>

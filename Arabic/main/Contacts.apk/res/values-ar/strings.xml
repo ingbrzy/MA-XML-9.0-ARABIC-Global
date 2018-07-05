@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">+999</string>
     <string name="accessibility_calllog_detail">تفاصيل سجل المكالمات</string>
     <string name="accessibility_contact_detail">تفاصيل جهة الاتصال</string>
     <string name="account_container_title">مستورد من</string>
@@ -99,6 +100,7 @@
     <string name="call_sim_menu_title_suffix">(الأساسي)</string>
     <string name="call_telex">الاتصال بالتلكس</string>
     <string name="call_tty_tdd">الاتصال بـ TTY/TDD</string>
+    <string name="call_type_and_date">%1$s %2$s</string>
     <string name="call_unit">CNY</string>
     <string name="call_work">الاتصال بالعمل</string>
     <string name="call_work_mobile">الاتصال بالهاتف الجوال للعمل</string>
@@ -191,7 +193,7 @@
     <string name="composer_failed_to_get_database_infomation">تعذر الحصول على معلومات قاعدة البيانات.</string>
     <string name="composer_has_no_exportable_contact">لا توجد جهات اتصال قابلة للتصدير. إذا كانت لديك جهات اتصال على جهازك ، فقد لا يسمح بعض موفري البيانات باستخدام جهات الاتصال للتصدير من الجهاز.</string>
     <string name="composer_not_initialized">لم يتم بدء تشغيل مؤلف vCard بشكل صحيح.</string>
-    <string name="confirm_delete_contact_all_call_logs">مسح سجل المكالمات؟</string>
+    <string name="confirm_delete_contact_all_call_logs">مسح جميع سجلات %s؟</string>
     <string name="confirm_delete_selected_all_call_logs">مسح سجل المكالمات؟</string>
     <string name="confirm_delete_sim_entry_miui_title">حذف</string>
     <string name="confirm_export_message">سيتم تصدير قائمة جهات الاتصال لديك إلى ملف: %s.</string>
@@ -211,8 +213,9 @@
     <string name="contact_detail_calllog_call_note_tips">ملاحظات</string>
     <string name="contact_detail_calllog_call_record_tips">مكالمة مسجلة</string>
     <string name="contact_detail_calllog_empty">لا يوجد سجل</string>
-    <string name="contact_detail_entry_pay">دفع</string>
+    <string name="contact_detail_entry_pay">إرسال الأموال</string>
     <string name="contact_detail_entry_pay_dialog_title">حدد رقم الهاتف</string>
+    <string name="contact_detail_entry_pay_request">طلب المال</string>
     <string name="contact_detail_menu_delete_miprofile">حذف البطاقة</string>
     <string name="contact_detail_miprofile_accept">تبادل بطاقات جهات الاتصال</string>
     <string name="contact_detail_miprofile_accept_fail_toast">تعذر تبادل بطاقات جهات الاتصال</string>
@@ -485,6 +488,7 @@
     <string name="force_touch_new_contact">جهة اتصال جديدة</string>
     <string name="foundTooManyContacts">تم العثور على أكثر من %d جهة اتصال.</string>
     <string name="frequentList">متكرر</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">الاسم</string>
     <string name="gallery">المعرض</string>
     <string name="generic_no_account_prompt">حافظ على جهات اتصالك آمنة حتى إذا فقدت هاتفك: عليك بمزامنتها مع الخدمة عبر الإنترنت.</string>
@@ -563,6 +567,7 @@
     <string name="keep_local">عدم المزامنة</string>
     <string name="keep_local_btn">استخدم وحدة التخزين الداخلية للجهاز</string>
     <string name="label_custom_type">مخصص</string>
+    <string name="label_duplicate_count">(%1$d)</string>
     <string name="label_no_duplicate_contacts">لم يتم العثور على تكرارات</string>
     <string name="label_notes">ملاحظات</string>
     <string name="label_sip_address">مكالمة الإنترنت</string>
@@ -666,6 +671,7 @@
     <string name="miprofile_contact_header">جهات الاتصال مع بطاقات جهة اتصال</string>
     <string name="miprofile_contact_meaasge">جهات الاتصال المحلية</string>
     <string name="miprofile_contact_verifying">تحقق</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">تعديل الملف الشخصي</string>
     <string name="miprofile_error_accept_self">لا يمكن تبادل بطاقة جهة الاتصال الخاصة بك</string>
     <string name="miprofile_error_no_miaccount">تسجيل الدخول إلى حساب Mi</string>
@@ -819,7 +825,10 @@
     <string name="path_wipe_data">تطبيقات النظام/جهات الاتصال/تنظيم جهات الاتصال/مسح البيانات</string>
     <string name="payphone">هاتف عمومي</string>
     <string name="people">جهات الاتصال</string>
+    <string name="percent_sign">%</string>
+    <string name="percentage">%s%%</string>
     <string name="phoneLabelsGroup">الهاتف</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">الرقم طويل جداً</string>
     <string name="phone_primary">أساسي</string>
     <string name="photoPickerNotFoundText">لا توجد صور متاحة على الجهاز.</string>
@@ -890,6 +899,7 @@
     <string name="preference_phone">الجهاز</string>
     <string name="preference_phone_more_title">اعدادات المكالمات</string>
     <string name="preference_remove_duplicate">دمج جهات الاتصال المكررة</string>
+    <string name="preference_show_firewall_calllog">إظهار المكالمات المحظورة في سجل المكالمات</string>
     <string name="preference_show_yellowpage_tab_description">قد لا تعمل الصفحات الصفراء بشكل صحيح عند إيقاف تشغيل هذه الميزة.</string>
     <string name="preference_show_yellowpage_tab_title">عرض الصفحات الصفراء</string>
     <string name="preference_simple_mode_description">عرض صور ومعلومات أخرى لجهة الاتصال في قائمة عرض</string>
@@ -1065,6 +1075,7 @@
     <string name="sim_unloaded">بطاقة SIM غير مثبتة</string>
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">لا توجد أعضاء في المجموعة</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">الشركات</string>
     <string name="smart_group_company_unavailable">لا توجد معلومات عن الشركة</string>
     <string name="smart_group_frequency_1">خلال الشهر الماضي</string>
@@ -1139,7 +1150,6 @@
     <string name="toast_start_intent_failed">تعذر العثور على تطبيقات للتعامل مع هذا الإجراء</string>
     <string name="toast_text_copied">تم نسخ النص</string>
     <string name="today">اليوم</string>
-    <string name="tomorrow">غداً</string>
     <string name="transfer_accounts">حسابات النقل</string>
     <string name="type_incoming">مكالمة واردة</string>
     <string name="type_missed">مكالمات فائتة</string>
@@ -1196,6 +1206,7 @@
     <string name="voip_audio_description">مكالمة VoIP</string>
     <string name="voip_video_description">مكالمة فيديو VoIP</string>
     <string name="websiteLabelsGroup">موقع ويب</string>
+    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="wipe_data">مسح البيانات</string>
     <string name="yellowPageNavigationIconLabel">الصفحات الصفراء</string>
     <string name="yellowPageNavigationLabel">الصفحات الصفراء</string>
@@ -1221,6 +1232,5 @@
     <string name="yellowpage_navigation_send_to_desktop_succeeded">تمت الإضافة إلى الشاشة الرئيسية</string>
     <string name="yellowpage_search_the_yellowpage">البحث عن الصفحات الصفراء</string>
     <string name="yellowpage_user_profile">الملف الشخصي</string>
-    <string name="yesterday">أمس</string>
     <string name="zero_items_selected">تحديد العناصر</string>
 </resources>

@@ -184,4 +184,66 @@
         <item quantity="few">لم يتم استخدام تطبيقات&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> منذ مدة طويلة، إلق نظرة.;&lt;/Data></item>
         <item quantity="many">لم يتم استخدام تطبيق&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> منذ مدة طويلة، إلق نظرة.;&lt;/Data></item>
     </plurals>
+    <plurals name="clean_long_msg_p1">
+        <item quantity="other">"مسح %1$d ملف (%2$d%%)
+"</item>
+        <item quantity="zero">"مسح %1$d ملف (%2$d%%)
+"</item>
+        <item quantity="one">"مسح %1$d ملف (%2$d%%)
+"</item>
+        <item quantity="two">"مسح %1$d ملفات (%2$d%%)
+"</item>
+        <item quantity="few">"مسح %1$d ملفات (%2$d%%)
+"</item>
+        <item quantity="many">"مسح %1$d ملف (%2$d%%)
+"</item>
+    </plurals>
+    <plurals name="clean_long_msg_p2">
+        <item quantity="other">%1$d عنصر لكل ثانية | الوقت المتبقي: %2$s</item>
+        <item quantity="zero">%1$d عنصر لكل ثانية | الوقت المتبقي: %2$s</item>
+        <item quantity="one">%1$d عنصر لكل ثانية | الوقت المتبقي: %2$s</item>
+        <item quantity="two">%1$d عناصر لكل ثانية | الوقت المتبقي: %2$s</item>
+        <item quantity="few">%1$d عناصر لكل ثانية | الوقت المتبقي: %2$s</item>
+        <item quantity="many">%1$d عنصر لكل ثانية | الوقت المتبقي: %2$s</item>
+    </plurals>
+    <plurals name="hour">
+        <item quantity="other">%1$d ساعة</item>
+        <item quantity="zero">%1$d ساعة</item>
+        <item quantity="one">%1$d ساعة</item>
+        <item quantity="two">%1$d ساعات</item>
+        <item quantity="few">%1$d ساعات</item>
+        <item quantity="many">%1$d ساعة</item>
+    </plurals>
+    <plurals name="minute">
+        <item quantity="other">%1$d دقيقة</item>
+        <item quantity="zero">%1$d دقيقة</item>
+        <item quantity="one">%1$d دقيقة</item>
+        <item quantity="two">%1$d دقائق</item>
+        <item quantity="few">%1$d دقائق</item>
+        <item quantity="many">%1$d دقيقة</item>
+    </plurals>
+    <plurals name="second">
+        <item quantity="other">%1$d ثانية</item>
+        <item quantity="zero">%1$d ثانية</item>
+        <item quantity="one">%1$d ثانية</item>
+        <item quantity="two">%1$d ثواني</item>
+        <item quantity="few">%1$d ثواني</item>
+        <item quantity="many">%1$d ثانية</item>
+    </plurals>
+    <plurals name="wechat_video_time_p1">
+        <item quantity="other">%1$s:</item>
+        <item quantity="zero">%1$s:</item>
+        <item quantity="one">%1$s:</item>
+        <item quantity="two">%1$s:</item>
+        <item quantity="few">%1$s:</item>
+        <item quantity="many">%1$s:</item>
+    </plurals>
+    <plurals name="wechat_video_time_p2">
+        <item quantity="other">%1$s</item>
+        <item quantity="zero">%1$s</item>
+        <item quantity="one">%1$s</item>
+        <item quantity="two">%1$s</item>
+        <item quantity="few">%1$s</item>
+        <item quantity="many">%1$s</item>
+    </plurals>
 </resources>

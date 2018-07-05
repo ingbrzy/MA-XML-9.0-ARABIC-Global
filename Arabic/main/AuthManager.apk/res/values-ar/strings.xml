@@ -25,8 +25,6 @@
     <string name="HIPS_Perm_VideoRecorder_Desc">الوصول إلى الكاميرا لالتقاط صورة أو فيديو</string>
     <string name="HIPS_Perm_AudioRecorder">تسجيل الصوت</string>
     <string name="HIPS_Perm_AudioRecorder_Desc">تسجيل الصوت والمكالمات الهاتفية</string>
-    <string name="HIPS_Perm_Mobile_Connectivity">تغيير اتصال بيانات الجوال</string>
-    <string name="HIPS_Perm_Mobile_Connectivity_Desc">تشغيل بيانات الجوال أو إيقافها</string>
     <string name="HIPS_Perm_WIFI_Connectivity">تغيير اتصال شبكة Wi-Fi</string>
     <string name="HIPS_Perm_WIFI_Connectivity_Desc">تشغيل شبكة Wi-Fi أو إيقافها</string>
     <string name="HIPS_Perm_Bluetooth_Connectivity">تغيير اتصال البلوتوث</string>

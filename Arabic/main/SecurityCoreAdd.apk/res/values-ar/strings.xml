@@ -294,6 +294,7 @@
     <string name="weibo_send">الإرسال إلى Weibo</string>
     <string name="xspace_qq_title">QQ</string>
     <string name="qq_send">ارسل الى الأصدقاء في QQ/الكمبيوتر</string>
+    <string name="qq_login">تسجيل الدخول إلى QQ</string>
     <string name="xspace_default_setting_label">التطبيق الافتراضي</string>
     <string name="xspace_default_app_title">التطبيق الافتراضي</string>
     <string name="xspace_default_app_summary">تعيين التطبيق الافتراضي للمدفوعات، والمشاركة، والمفضلة، وأكثر من ذلك.</string>
@@ -331,7 +332,7 @@
     <string name="can_not_delete_when_calling">لا يمكن حذف الواجهات أثناء إجراء مكالمة</string>
     <string name="support_desc">خدمات الحماية مقدمة من طرف Spaces Mobile</string>
     <string name="sdcardfs_dialog_title">تحديث مهم</string>
-    <string name="sdcardfs_dialog_message">لدى MIUI 9 ملف نظام جديد. وقد تكون البيانات القديمة غير متوافقة معه. لحل هذه المشكلة، اتبع الخطوات لتثبيت التحديث. سيتم إعادة تشغيل الجهاز مرتين أثناء هذا التحديث.</string>
+    <string name="sdcardfs_dialog_message">يتضمن هذا التحديث ملف نظام جديد وقد تكون البيانات القديمة غير متوافقة معه. لحل هذه المشكلة، اتبع الخطوات لتثبيت التحديث. سيتم إعادة تشغيل جهازك مرتين أثناء التحديث.</string>
     <string name="do_not_ask">لا تسأل مجدداً</string>
     <string name="gpg_message">يحتاج إنشاء تطبيقات مزدوجة إلى ألعاب متجر Play. إنشاء تطبيق مزدوج لألعاب متجر play؟</string>
     <string name="gpg_title">التطبيق المزدوج لألعاب متجر Play</string>
@@ -363,14 +364,14 @@
     <string name="remove_user_click_message">* إذا لم يكن لديك أي عناصر مهمة في الواجهة الثانية، %s</string>
     <string name="remove_user_click_message_action">يمكنك حذف الواجهة الثانية وإعادة تشغيل الجهاز الآن.</string>
     <string name="sdcradfs_dialog_in_owner_title">الواجهة الثانية</string>
-    <string name="sdcradfs_dialog_in_owner_message">"لدى MIUI 9 ملف نظام جديد. وقد تكون البيانات القديمة غير متوافقة معه. للتحديث، قم بنقل العناصر من الواجهة الثانية، وإعادة تشغيل الجهاز ومن ثم إنشاء الواجهة الثانية مرة أخرى.
-إذا لم تقم بالتحديث، فقد لا تعمل التطبيقات المزدوجة بشكل صحيح."</string>
+    <string name="sdcradfs_dialog_in_owner_message">"يتضمن هذا التحديث ملف نظام جديد وقد تكون البيانات القديمة غير متوافقة معه. للتحديث، قم بنقل العناصر من الواجهة الثانية، إعد تشغيل الجهاز ومن ثم إنشىء الواجهة الثانية مرة أخرى.
+إذا لم تقم بالتحديث، قد لا تعمل التطبيقات المزدوجة بشكل صحيح."</string>
     <string name="sdcradfs_dialog_in_sec_title">تحديث مهم</string>
     <string name="sdcradfs_dialog_in_sec_message">"للتحديث، يجب عليك حذف الواجهة الثانية وإنشاءها مرة أخرى. قم بنقل البيانات من الواجهة الثانية إلى الواجهة الأولى ومن ثم إعد تشغيل الجهاز لإكمال التحديث.
 إذا لم تقم بالتحديث، فقد لا تعمل التطبيقات المزدوجة بشكل صحيح."</string>
     <string name="space_created_success">تم إنشاء الواجهة الثانية بنجاح</string>
     <string name="encrypt_space_delete_dialog_title">تنبيه</string>
-    <string name="encrypt_space_delete_dialog_message">أنت على وشك تحديث نظام الأندرويد. بعد التحديث، ستصبح بيانات الواجهة الثانية غير متوافقة. لتجنب ذلك، انقل جميع البيانات إلى الواجهة الأولى، واحذف الواجهة الثانية وأنشئها مرة أخرى.</string>
+    <string name="encrypt_space_delete_dialog_message">أنت على وشك تحديث النظام. بعد التحديث، ستصبح بيانات الواجهة الثانية غير متوافقة. لتجنب ذلك، انقل جميع البيانات إلى الواجهة الأولى، واحذف الواجهة الثانية وأنشئها مرة أخرى.</string>
     <string name="encrypt_space_delete_dialog_click_message">* إذا لم تكن بحاجة إلى نقل البيانات، %s</string>
     <string name="encrypt_space_delete_dialog_click_message_action">حذف وإنشاء الواجهة الثانية الآن.</string>
     <string name="encrypt_space_delete_dialog_positive_text">نقل البيانات</string>
@@ -396,7 +397,5 @@
     <string name="experience_more_features">اضف جهاز لعرض جميع الميزات</string>
     <string name="can_not_switch_when_green_kid_active">التبديل إلى الواجهة الثانية مقيد بالرقابة الأبوية</string>
     <string name="need_network_when_bind">اتصل بالشبكة قبل إضافة الأجهزة</string>
-    <string name="net_work_notice">Parental controls need to connect to the internet and get access to your location to work normally. This permissions are required to send the info about battery levels, step count, and your location to the controlled devices. Allow?</string>
-    <string name="agree">Agree</string>
-    <string name="disagree">"Don't agree"</string>
+    <string name="this_function_can_not_use_in_second_space">يمكن فقط استخدام هذه الوظيفة في الواجهة الاولى</string>
 </resources>

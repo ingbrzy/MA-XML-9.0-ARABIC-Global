@@ -9,12 +9,12 @@
     <string name="callFailed_congestion">الشبكة مشغولة</string>
     <string name="callFailed_timedOut">لا يوجد استجابة من الخادم</string>
     <string name="callFailed_server_unreachable">لا يمكن الوصول إلى الخادم</string>
-    <string name="callFailed_number_unreachable">الرقم لا يمكن الوصول إليه</string>
+    <string name="callFailed_number_unreachable">الرقم غير متوفر</string>
     <string name="callFailed_invalid_credentials">صيغة اسم المستخدم أو كلمة المرور غير صحيحة</string>
     <string name="callFailed_out_of_network">تمت المكالمة من خارج الشبكة</string>
     <string name="callFailed_server_error">خطأ في الخادم. حاول مجددا لاحقا</string>
     <string name="callFailed_noSignal">لا توجد اشارة</string>
-    <string name="callFailed_limitExceeded">تجاوز ACM الحد المسموح به</string>
+    <string name="callFailed_limitExceeded">تجاوز حد ACM</string>
     <string name="callFailed_powerOff">الهوائي مُتوقف</string>
     <string name="callFailed_simError">خطأ في بطاقة SIM</string>
     <string name="callFailed_outOfService">خارج نطاق الخدمة</string>
@@ -29,8 +29,8 @@
     <string name="callFailed_dsac_restricted_normal">تم تقييد المكالمات العادية بواسطة التحكم في الدخول.</string>
     <string name="callFailed_unobtainable_number">رقم غير صالح</string>
     <string name="incall_error_supp_service_unknown">هذه الخدمة غير مدعومة.</string>
-    <string name="incall_error_supp_service_switch">يتعذر تبديل المكالمات.</string>
-    <string name="incall_error_supp_service_separate">يتعذر فصل المكالمة.</string>
+    <string name="incall_error_supp_service_switch">لا يمكن تبديل المكالمات.</string>
+    <string name="incall_error_supp_service_separate">لا يمكن فصل المكالمة.</string>
     <string name="incall_error_supp_service_transfer">لا يمكن تحويل المكالمة.</string>
     <string name="incall_error_supp_service_conference">لا يمكن استخدام المكالمة الجماعية.</string>
     <string name="incall_error_supp_service_reject">لا يمكن رفض المكالمة.</string>
@@ -79,7 +79,6 @@
     <string name="respond_via_sms_custom_message">رسالة مخصصة</string>
     <string name="manageConferenceLabel">إدارة المكالمات الجماعية</string>
     <string name="emergency_call_dialog_number_for_display">رقم الطوارئ</string>
-    <string name="call_extension_conference_mode">وضع جماعي</string>
     <string name="notification_dialing">جارٍالاتصال</string>
     <string name="notification_ongoing_call">مكالمة جارية</string>
     <string name="notification_on_hold">معلقة</string>
@@ -138,16 +137,17 @@
     <string name="call_recording_error_unknown">حدث خطأ غير معروف.</string>
     <string name="call_recording_notification_title">تم تسجيل المكالمة</string>
     <string name="call_recording_notification_title_error">يتعذر تسجيل المكالمة</string>
-    <string name="call_recording_notification_message">المس للإستماع.</string>
+    <string name="call_recording_notification_message">انقر للاستماع.</string>
     <string name="call_recording_notification_message_low_storage">بطاقة الذاكرة SD ممتلئة.</string>
     <string name="call_recording_notification_message_sd_unmounted">تمت إزالة بطاقة الذاكرة SD.</string>
     <string name="call_recording_deny_permission_msg">تم رفض الأذن بالتسجيل، لايمكن التسجيل.</string>
     <string name="call_contacts_deny_permission_msg">تم رفض الأذن بقراءة جهات الاتصال، لا يمكن عرض معلومات جهات الاتصال.</string>
+    <string name="conference_call_recorder_title">مكالمة جماعية</string>
     <string name="antispam_marked_count">تم الأبلاغ بواسطة %1$d MIUI مستخدم</string>
-    <string name="antispam_local_marked">المؤشر المحلي</string>
+    <string name="antispam_local_marked">معلّم محليا</string>
     <string name="antispam_provider">محدد بواسطة %s</string>
     <string name="antispam_notification_title">رقم غير معروف</string>
-    <string name="suspect_info">كن حذرا من المعلومات الشخصية الخاصة بك.</string>
+    <string name="suspect_info">كن حذرا مع معلوماتك الشخصية.</string>
     <string name="card_title_video_call_paused">تم إيقاف الفيديو مؤقتاً</string>
     <string name="card_title_incoming_conference_call">مكالمة جماعية واردة</string>
     <string name="onscreen_change_to_voice">مكالمة صوتية</string>
@@ -178,7 +178,7 @@
     <string name="call_button_tools_text">الميزات</string>
     <string name="call_button_dialer_text">لوحة المفاتيح</string>
     <string name="call_button_mute_text">كتم</string>
-    <string name="call_button_conference_manager_text">مدير المؤتمر</string>
+    <string name="call_button_conference_manager_text">إدارة</string>
     <string name="select_audio_dialog_title">تحديد وضع الرد</string>
     <string name="incoming_circle_text_reject_p">مرّر للأعلى</string>
     <string name="incoming_circle_text_reject">تحرير</string>
@@ -196,5 +196,5 @@
     <string name="dialpad_seven">٧</string>
     <string name="dialpad_eight">٨</string>
     <string name="dialpad_nine">۹</string>
-    <string name="prompt_no_volte_when_failed">خدمات VoLTE غير متاحة.</string>
+    <string name="prompt_no_volte_when_failed">لا يمكن إجراء مكالمات. تأكد من اتصال جهازك بشبكة 4G مع دعم VoLTE.</string>
 </resources>

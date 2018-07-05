@@ -92,7 +92,7 @@
     <string name="permdesc_manageLocationPolicy">السماح للتطبيق بإدارة سياسات الموقع وتحديد القواعد الخاصة بالتطبيق.</string>
     <string name="location_usage_restricted_title">تم تقييد موقع الخلفية</string>
     <string name="location_usage_restricted_body">انقر للسماح.</string>
-    <string name="fc_dialog_body">هل تريد ارسال تقرير عن خلل إلى Mi للتحليل؟ يتضمن هذا التقرير معلومات تعريف شخصية. سيستخدم تقريرك لمساعدة إصلاح هذا الخطأ ولن يشارك ابدا في أي سياق تجاري.</string>
+    <string name="fc_dialog_body">هل تريد ارسال تقرير عن الخلل إلى Mi للتحليل؟ يتضمن هذا التقرير معلومات تعريف الشخصية. سيستخدم تقريرك للمساعدة في إصلاح هذا الخطأ ولن يشارك ابدا في أي سياق تجاري.</string>
     <string name="fc_dialog_jump_to_preview">عرض الملخص</string>
     <string name="livetalk_not_enable">حزمة شحن الرصيد غير مفعلة</string>
     <string name="internal_livetalk_enable">استخدام حزمة شحن الرصيد للمكالمات المحلية</string>
@@ -113,10 +113,6 @@
     <string name="maml_component_customization_title">الإعدادات</string>
     <string name="default_name">الافتراضي</string>
     <string name="resource_select">تحديد</string>
-    <string name="group_name_contacts">جهات الاتصال</string>
-    <string name="group_name_friends">الأصدقاء</string>
-    <string name="group_name_family">العائلة</string>
-    <string name="group_name_coworkers">الزملاء</string>
     <string name="fp_nav_center_action_choose_dlg_title">تشغيل النقر السريعة</string>
     <string name="fp_nav_center_action_choose_dlg_msg">يمكنك العودة إلى الشاشة الرئيسية بالنقر الخفيف على زر الصفحة الرئيسية. يمكنك تشغيل وإيقاف هذه الميزة من الإعدادات > الإعدادات الإضافية > أزرار > انقر على زر الصفحة الرئيسية للرجوع إلى الشاشة الرئيسية.</string>
     <string name="fp_nav_center_action_choose_dlg_positive_btn_text">تشغيل</string>
@@ -129,7 +125,7 @@
     <string name="auto_disable_screenbuttons_prompts_message">انقر نقرا مزدوجاً على إي زر لإعادة تمكينها في أي وقت.</string>
     <string name="auto_disable_screenbuttons_prompts_ok">موافق</string>
     <string name="auto_disable_screenbuttons_prompts_not_show_again">عدم الإظهار مرة أخرى</string>
-    <string name="start_security_permission_verify_text">تحقق من الأذونات باستخدام حساب Mi الخاص بك</string>
+    <string name="start_security_permission_verify_text">تحقق من الأذونات باستخدام حساب Mi</string>
     <string name="security_permission_denied_text">تم رفض الدخول</string>
     <string name="security_permission_failed_text">حدث خطأ ما، أعد المحاولة لاحقا</string>
     <string name="security_permission_xiaomi_account_missed_text">أدخل معرف حساب Mi</string>
@@ -153,7 +149,7 @@
     <string name="total_title">عدم الازعاج</string>
     <string name="description_title">الوضع الصامت</string>
     <string name="standard_description">نغمات صامتة للمكالمات الواردة و الإشعارات</string>
-    <string name="total_description">إيقاف الأصوات و تشغيل الاهتزاز لجميع العناصر ماعدا تنبيه الساعة</string>
+    <string name="total_description">كتم الأصوات وإيقاف تشغيل الاهتزاز لجميع العناصر ماعدا تنبيه الساعة</string>
     <string name="close">إيقاف</string>
     <string name="always">دائماً</string>
     <string name="onehour">٣٠ دقيقة</string>
@@ -171,4 +167,9 @@
     <string name="switching_tv">يتم التبديل…</string>
     <string name="switch_desc_tv">واجهتين. جهاز واحد.</string>
     <string name="switch_brand_desc_tv">خدمات الحماية مقدمة من طرف Spaces Mobile</string>
+    <string name="miui_forbid_poweroff_when_device_locked">لا يمكن إيقاف التشغيل، يتم قفل الجهاز.</string>
+    <string name="super_resolution_maintain_tips">الدقة الفائقة ليست متوفرة بعد.</string>
+    <string name="wifi_assistant_wifi_no_internet">لا يمكن لشبكة Wi-Fi هذه الوصول إلى الإنترنت</string>
+    <string name="wifi_assistant_wifi_no_internet_detail">انقر لعرض التفاصيل</string>
+    <string name="resolver_app_recommend_flag">موصى به</string>
 </resources>

@@ -40,7 +40,7 @@
     <string name="cloud_app_restore_error">تعذر الاستعادة</string>
     <string name="cloud_app_restore_success">تمت استعادة التطبيقات</string>
     <string name="cloud_app_backup_success">تم النسخ الاحتياطي للتطبيقات بنجاح</string>
-    <string name="cloud_app_check_data">جار التحقق من نسخ احتياطية…</string>
+    <string name="cloud_app_check_data">جار التحقق من نُسخ احتياطية…</string>
     <string name="cloud_app_no_network">لا يمكن الاتصال بالشبكة</string>
     <string name="button_delete">حذف</string>
     <string name="customization"><u>تخصيص</u></string>

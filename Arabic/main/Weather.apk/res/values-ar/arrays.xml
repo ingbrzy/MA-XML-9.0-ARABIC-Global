@@ -57,34 +57,20 @@
         <item>دلهي</item>
         <item>Mumbai</item>
         <item>Moscow</item>
-        <item>Hyderabad</item>
-        <item>Chennai</item>
-        <item>Istanbul</item>
-        <item>Rio de Janeiro</item>
-        <item>Singapore</item>
-        <item>Berlin</item>
-        <item>Rome</item>
-        <item>New York</item>
-        <item>Los Angeles</item>
-        <item>Chicago</item>
-        <item>Tokyo</item>
-        <item>Paris</item>
-        <item>Bangkok</item>
-        <item>Seoul</item>
-        <item>Kuala Lumpur</item>
-    </string-array>
-    <string-array name="indices_car_wash">
-        <item>مناسب</item>
-        <item>غير مناسب</item>
-    </string-array>
-    <string-array name="indices_sport">
-        <item>مناسب</item>
-        <item>غير مناسب</item>
-    </string-array>
-    <string-array name="indices_uv_level">
-        <item>منخفضة</item>
-        <item>معتدلة</item>
-        <item>مرتفعة</item>
+        <item>تشيناي</item>
+        <item>اسطنبول</item>
+        <item>ريو دي جانيرو</item>
+        <item>سنغافورة</item>
+        <item>برلين</item>
+        <item>روما</item>
+        <item>نيويورك</item>
+        <item>لوس أنجلوس</item>
+        <item>شيكاغو</item>
+        <item>طوكيو</item>
+        <item>باريس</item>
+        <item>بانكوك</item>
+        <item>سيول</item>
+        <item>كوالالمبور</item>
     </string-array>
     <string-array name="minute_rain_array">
         <item>ثقيل</item>
@@ -177,12 +163,5 @@
         <item>%1$sم/ث</item>
         <item>mph%1$s</item>
         <item>kn%1$s</item>
-    </string-array>
-    <string-array name="wind_unit_simple">
-        <item>مقياس بوفورت</item>
-        <item>كم/س</item>
-        <item>متر/ث</item>
-        <item>mph</item>
-        <item>kn</item>
     </string-array>
 </resources>

@@ -188,6 +188,22 @@
         <item quantity="few">"%d دق "</item>
         <item quantity="many">"%d دق "</item>
     </plurals>
+    <plurals name="power_center_battery_volume">
+        <item quantity="other">%d مللي أمبير</item>
+        <item quantity="zero">%d مللي أمبير</item>
+        <item quantity="one">%d مللي أمبير</item>
+        <item quantity="two">%d مللي أمبير</item>
+        <item quantity="few">%d مللي أمبير</item>
+        <item quantity="many">%d مللي أمبير</item>
+    </plurals>
+    <plurals name="power_center_battery_temperature">
+        <item quantity="other">%d ℃</item>
+        <item quantity="zero">%d ℃</item>
+        <item quantity="one">%d ℃</item>
+        <item quantity="two">%d ℃</item>
+        <item quantity="few">%d ℃</item>
+        <item quantity="many">%d ℃</item>
+    </plurals>
     <plurals name="deep_clean_auto_memory_clean">
         <item quantity="other">خلال %1$d دقيقة</item>
         <item quantity="zero">خلال %1$d دقيقة</item>
@@ -197,12 +213,12 @@
         <item quantity="many">خلال %1$d دقيقة</item>
     </plurals>
     <plurals name="quick_optimize_summary_text">
-        <item quantity="other">تم حل %d مشكل في البطارية</item>
-        <item quantity="zero">تم حل %d مشكل في البطارية</item>
-        <item quantity="one">تم حل %d مشكل في البطارية</item>
+        <item quantity="other">تم حل %d مشكلة في البطارية</item>
+        <item quantity="zero">تم حل %d مشكلة في البطارية</item>
+        <item quantity="one">تم حل %d مشكلة في البطارية</item>
         <item quantity="two">تم حل %d مشاكل في البطارية</item>
         <item quantity="few">تم حل %d مشاكل في البطارية</item>
-        <item quantity="many">تم حل %d مشكل في البطارية</item>
+        <item quantity="many">تم حل %d مشكلة في البطارية</item>
     </plurals>
     <plurals name="quick_optimize_issue_found">
         <item quantity="other">تم العثور على %d مشكل في البطارية</item>

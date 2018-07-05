@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="abc_action_bar_home_description">التنقل إلى الشاشة الرئيسية</string>
-    <string name="abc_action_bar_home_description_format">%1$s، %2$s</string>
-    <string name="abc_action_bar_home_subtitle_description_format">%1$s، %2$s، %3$s</string>
-    <string name="abc_action_bar_up_description">التنقل إلى أعلى</string>
-    <string name="abc_action_menu_overflow_description">خيارات إضافية</string>
-    <string name="abc_action_mode_done">تم</string>
-    <string name="abc_activity_chooser_view_see_all">عرض الكل</string>
-    <string name="abc_activitychooserview_choose_application">اختيار تطبيق</string>
-    <string name="abc_search_hint">بحث…</string>
-    <string name="abc_searchview_description_clear">محو طلب البحث</string>
-    <string name="abc_searchview_description_query">طلب البحث</string>
-    <string name="abc_searchview_description_search">بحث</string>
-    <string name="abc_searchview_description_submit">إرسال طلب البحث</string>
-    <string name="abc_searchview_description_voice">البحث الصوتي</string>
-    <string name="abc_shareactionprovider_share_with">مشاركة مع</string>
-    <string name="abc_shareactionprovider_share_with_application">‏مشاركة مع %s</string>
-    <string name="abc_toolbar_collapse_description">تصغير</string>
     <string name="common_google_play_services_api_unavailable_text">‏يتطلب %1$s خدمة أو أكثر من خدمات Google Play والتي لا تتوفر حاليًا. يُرجى الاتصال بمطوّر البرامج للحصول على المساعدة.</string>
     <string name="common_google_play_services_enable_button">‏تمكين خدمات Google Play</string>
     <string name="common_google_play_services_enable_text">‏لن يعمل %1$s ما لم يتم تمكين خدمات Google Play.</string>
@@ -48,7 +31,6 @@
     <string name="common_open_on_phone">فتح على الهاتف</string>
     <string name="common_signin_button_text">تسجل الدخول</string>
     <string name="common_signin_button_text_long">‏تسجيل الدخول عبر Google</string>
-    <string name="status_bar_notification_info_overflow">+999</string>
     <string name="Clock_main">المنبه</string>
     <string name="Clock_parent">الساعة</string>
     <string name="MiDrop_main">ارسال</string>
@@ -82,6 +64,37 @@
     <string name="ball_dialog_content">قم بتثبيت HuPu Sports لإستخدام هذه الميزة. التثبيت الآن؟</string>
     <string name="ball_dialog_tip">لا تظهر مرة أخرى</string>
     <string name="ball_dialog_title">قم بتثبيت التطبيق أولاً.</string>
+    <string name="ball_football_brief">جميع المعلومات عن الفرق المفضلة لديك</string>
+    <string name="ball_football_brief_detail">عرض معلومات، معرفة النتائج، ومتابعة ما يصل إلى ٤ فرق كرة قدم.</string>
+    <string name="ball_football_check_full_schedule">عرض جميع المباريات</string>
+    <string name="ball_football_final">النهائي</string>
+    <string name="ball_football_full_schedule">جميع المباريات</string>
+    <string name="ball_football_group_competition">مرحلة المجموعات</string>
+    <string name="ball_football_news">الأخبار</string>
+    <string name="ball_football_quarter_finals">ربع النهائي</string>
+    <string name="ball_football_rank_team">الفرق</string>
+    <string name="ball_football_recent_finished">انتهت</string>
+    <string name="ball_football_recent_next_game">المباراة التالية: %s</string>
+    <string name="ball_football_recent_playing">مباشر</string>
+    <string name="ball_football_recent_starting_time">تبدأ: %s</string>
+    <string name="ball_football_recent_time">dd/MM HH:mm</string>
+    <string name="ball_football_round_of_16">جولة من ١٦</string>
+    <string name="ball_football_round_one">مرحلة المجموعات (الجولة ١)</string>
+    <string name="ball_football_round_three">مرحلة المجموعات (الجولة ٣)</string>
+    <string name="ball_football_round_two">مرحلة المجموعات (الجولة ٢)</string>
+    <string name="ball_football_semi_finals">الدور نصف النهائي</string>
+    <string name="ball_football_tab_GroupA">المجموعة A</string>
+    <string name="ball_football_tab_GroupB">المجموعة B</string>
+    <string name="ball_football_tab_GroupC">المجموعة C</string>
+    <string name="ball_football_tab_GroupD">المجموعة D</string>
+    <string name="ball_football_tab_GroupE">المجموعة E</string>
+    <string name="ball_football_tab_GroupF">المجموعة F</string>
+    <string name="ball_football_tab_GroupG">المجموعة G</string>
+    <string name="ball_football_tab_GroupH">المجموعة H</string>
+    <string name="ball_football_tab_hot">الاكثر شهرة</string>
+    <string name="ball_football_third_place_playoff">لعبة المركز الثالث</string>
+    <string name="ball_football_word_cup">كأس العالم</string>
+    <string name="ball_football_your_teams" formatted="false">حدد الفرق التي تريد متابعتها (%d/%d)</string>
     <string name="ball_net_errot">تعذر الإتصال بالشبكة.</string>
     <string name="ball_recent_no_data">لا توجد معلومات عن المباريات القادمة.</string>
     <string name="bicycle">دراجة هوائية</string>
@@ -171,6 +184,7 @@
     <string name="memory_clear_result">تم مسح %1$s</string>
     <string name="mi_agenda">أحداث التقويم</string>
     <string name="mi_function">اختصارات</string>
+    <string name="minus_screen_search_label">بحث</string>
     <string name="month_day_format">dd/MM</string>
     <string name="month_format_en">dd/MM</string>
     <string name="more_stock_infos">المزيد من المعلومات</string>

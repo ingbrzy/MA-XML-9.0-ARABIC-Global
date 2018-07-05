@@ -65,12 +65,12 @@
         <item quantity="many">التعطيل دائما لـ%d تطبيق</item>
     </plurals>
     <plurals name="auto_startup_count">
-        <item quantity="other">%d تطبيق مسموح له بالتشغيل التلقائي</item>
-        <item quantity="zero">%d تطبيقات مسموح لها بالتشغيل التلقائي</item>
-        <item quantity="one">%d تطبيقات مسموح لها بالتشغيل التلقائي</item>
-        <item quantity="two">%d تطبيقات مسموح لها بالتشغيل التلقائي</item>
-        <item quantity="few">%d تطبيقات مسموح لها بالتشغيل التلقائي</item>
-        <item quantity="many">%d تطبيق مسموح له بالتشغيل التلقائي</item>
+        <item quantity="other">%d تطبيق مسموح له بالبدء التلقائي</item>
+        <item quantity="zero">%d تطبيقات مسموح لها بالبدء التلقائي</item>
+        <item quantity="one">%d تطبيقات مسموح لها بالبدء التلقائي</item>
+        <item quantity="two">%d تطبيقات مسموح لها بالبدء التلقائي</item>
+        <item quantity="few">%d تطبيقات مسموح لها بالبدء التلقائي</item>
+        <item quantity="many">%d تطبيق مسموح له بالبدء التلقائي</item>
     </plurals>
     <plurals name="bg_network_allow_count">
         <item quantity="other">يمكن لـ %d تطبيقات الاتصال بالشبكة</item>
@@ -265,20 +265,20 @@
         <item quantity="many">يجب أن يتألف رمز PIN من %d رقم</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long">
-        <item quantity="other">يمكن أن يحتوي رمز PIN ما يصل الى %d رقم</item>
-        <item quantity="zero">يمكن أن يحتوي رمز PIN ما يصل الى %d رقم</item>
-        <item quantity="one">يمكن أن يحتوي رمز PIN ما يصل الى %d رقم</item>
-        <item quantity="two">يمكن أن يحتوي رمز PIN ما يصل الى %d أرقام</item>
-        <item quantity="few">يمكن أن يحتوي رمز PIN ما يصل الى %d أرقام</item>
-        <item quantity="many">يمكن أن يحتوي رمز PIN ما يصل الى %d رقم</item>
+        <item quantity="other">يمكنك إدخال ما يصل إلى %d رقم</item>
+        <item quantity="zero">يمكنك إدخال ما يصل إلى %d رقم</item>
+        <item quantity="one">يمكنك إدخال ما يصل إلى %d رقم</item>
+        <item quantity="two">يمكنك إدخال ما يصل إلى %d أرقام</item>
+        <item quantity="few">يمكنك إدخال ما يصل إلى %d أرقام</item>
+        <item quantity="many">يمكنك إدخال ما يصل إلى %d رقم</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short">
-        <item quantity="other">رمز PIN يجب أن يكون %d رقم</item>
-        <item quantity="zero">رمز PIN يجب أن يكون %d رقم</item>
-        <item quantity="one">رمز PIN يجب أن يكون %d رقم</item>
-        <item quantity="two">رمز PIN يجب أن يكون %d أرقام</item>
-        <item quantity="few">رمز PIN يجب أن يكون %d أرقام</item>
-        <item quantity="many">رمز PIN يجب أن يكون %d رقم</item>
+        <item quantity="other">أدخل %d رقم على الأقل</item>
+        <item quantity="zero">أدخل %d رقم على الأقل</item>
+        <item quantity="one">أدخل %d رقم على الأقل</item>
+        <item quantity="two">أدخل %d أرقام على الأقل</item>
+        <item quantity="few">أدخل %d أرقام على الأقل</item>
+        <item quantity="many">أدخل %d رقم على الأقل</item>
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
         <item quantity="other">قم بتوصيل %d نقطة على الاقل. حاول مجدداً.</item>
@@ -290,19 +290,19 @@
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts">
         <item quantity="other">كثير من المحاولات الخاطئة. حاول مجدداُ في %d ثانية.</item>
-        <item quantity="zero">كثير من المحاولات الخاطئة. حاول مجدداُ في %d ثواني.</item>
+        <item quantity="zero">كثير من المحاولات الخاطئة. حاول مجدداُ في %d ثانية.</item>
         <item quantity="one">كثير من المحاولات الخاطئة. حاول مجدداُ في %d ثانية.</item>
         <item quantity="two">كثير من المحاولات الخاطئة. حاول مجدداُ في %d ثواني.</item>
         <item quantity="few">كثير من المحاولات الخاطئة. حاول مجدداُ في %d ثواني.</item>
         <item quantity="many">كثير من المحاولات الخاطئة. حاول مجدداُ في %d ثانية.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
-        <item quantity="other">انتظر لمدة %d ثانية ثم حاول مرة اخرى.</item>
-        <item quantity="zero">انتظر لمدة %d ثانية ثم حاول مرة اخرى.</item>
-        <item quantity="one">انتظر لمدة %d ثانية ثم حاول مرة اخرى.</item>
-        <item quantity="two">انتظر لمدة %d ثواني ثم حاول مرة اخرى.</item>
-        <item quantity="few">انتظر لمدة %d ثواني ثم حاول مرة اخرى.</item>
-        <item quantity="many">انتظر لمدة %d ثانية ثم حاول مرة اخرى.</item>
+        <item quantity="other">انتظر %d ثانية وحاول مجددا.</item>
+        <item quantity="zero">انتظر %d ثانية وحاول مجددا.</item>
+        <item quantity="one">انتظر %d ثانية وحاول مجددا.</item>
+        <item quantity="two">انتظر %d ثواني وحاول مجددا.</item>
+        <item quantity="few">انتظر %d ثواني وحاول مجددا.</item>
+        <item quantity="many">انتظر %d ثانية وحاول مجددا.</item>
     </plurals>
     <plurals name="manage_notification_access_summary_nonzero">
         <item quantity="other">‏يمكن قراءة الإشعارات بواسطة %d من التطبيقات</item>

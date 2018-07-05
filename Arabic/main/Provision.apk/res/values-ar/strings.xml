@@ -15,6 +15,8 @@
     <string name="sim_card_detection_info">لتركيب شريحة SIM ، قم بقراءة الإرشادات المرفقة مع جهازك.</string>
     <string name="sim_card_detecting">التحقق من وجود بطاقة SIM…</string>
     <string name="sim_card_detecting_check">لم يتم العثور على بطاقة SIM. تأكد من تثبيت بطاقة SIM بشكل صحيح، ولديك رصيد كافي.</string>
+    <string name="sim_card_detection_mobile_not_available">تعذر على بطاقة SIM الاتصال بشبكة</string>
+    <string name="sim_scard_detecting_check_mobile_not_available">تعذر على بطاقة SIM الاتصال بشبكة مشغّل شبكة الجوّال. تأكد من وجود رصيد كافي، ثم حاول مرة أخرى.</string>
     <string name="sim_card_detecting_confirm_turn_on_network">السماح بالاتصال بشبكات بيانات الجوال؟ إذا قمت بذلك، فأنه سيتم استخدام بطاقة SIM التي ادخلتها في الاتصال بشبكات بيانات الجوال.</string>
     <string name="other_settings">إعدادات إضافية</string>
     <string name="other_settings_location">الموقع</string>
@@ -45,10 +47,10 @@
     <string name="terms_of_use">الأحكام والشروط</string>
     <string name="terms_of_use_label">"خصوصيتك مهمة جدًا بالنسبة لنا. يرجى قراءة شروط الخدمة وسياسة الخصوصية لفهم ماهي المعلومات التي نجمعها، وكيف نستخدمها والخيارات المتاحة لك.
 
-يجب عليك أن توافق على شروط الخدمة وسياسة الخصوصية الخاصة بنا قبل أن تتمكن من استخدام MIUI، ستتصل خدمات Mi، وخدمات تفعيل الشرائح، وMi Cloud، والعثور على الجهاز، والشاشة الرئيسية، ومركز الألعاب، وMAB، ومكونات نظام MSA وMiui Daemon، التطبيقات السريعة، ومنصة التطبيقات، والإحصائيات، والبطاقات الذكية، ورابط Mi ومكونات حساب Mi بالإنترنت وتحصل على موقعك."</string>
+يجب عليك أن توافق على شروط الخدمة وسياسة الخصوصية الخاصة بنا قبل أن تتمكن من استخدام MIUI، ستتصل خدمات Mi، وخدمات تفعيل الشرائح، وMi Cloud، والعثور على الجهاز، والشاشة الرئيسية، ومركز الألعاب، وMAB، ومكونات نظام MSA وMiui Daemon، وخدمة الترجمة، والتطبيقات السريعة، ومنصة التطبيقات، والإحصائيات، والبطاقات الذكية، ورابط Mi ومكونات حساب Mi بالإنترنت وتحصل على موقعك."</string>
     <string name="terms_of_use_label_gms">"خصوصيتك مهمة جدًا بالنسبة لنا. يرجى قراءة شروط الخدمة وسياسة الخصوصية لفهم ماهي المعلومات التي نجمعها، وكيف نستخدمها والخيارات المتاحة لك.
 
-يجب عليك أن توافق على شروط الخدمة وسياسة الخصوصية الخاصة بنا قبل أن تتمكن من استخدام MIUI، ستتصل خدمات Mi، وخدمات تفعيل شريحة Mi وMi Cloud والعثور على الجهاز والشاشة الرئيسية ومركز الألعاب وMAB ومكونات نظام MSA وMiui Daemon وتطبيقات الويب ومنصة التطبيقات والتطبيقات السريعة والاحصائيات والبطاقات الذكية ورابط Mi وحساب Mi ومكونات خدمات متجر Play بالإنترنت، وستقوم أيضاً بالحصول على موقعك."</string>
+يجب عليك أن توافق على شروط الخدمة وسياسة الخصوصية الخاصة بنا قبل أن تتمكن من استخدام MIUI، ستتصل خدمات Mi، وخدمات تفعيل الشرائح، وMi Cloud، والعثور على الجهاز، والشاشة الرئيسية، ومركز الألعاب، وMAB، ومكونات نظام MSA وMiui Daemon، وخدمة الترجمة، والتطبيقات السريعة، ومنصة التطبيقات، والإحصائيات، والبطاقات الذكية، ورابط Mi ومكونات حساب Mi بالإنترنت وتحصل على موقعك."</string>
     <string name="user_agreement">شروط الخدمة</string>
     <string name="privacy_policy">سياسة الخصوصية</string>
     <string name="application_permissions">أذونات التطبيق</string>
@@ -69,6 +71,7 @@
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_international_fingerprint">استخدم بصمة الاصبع لالغاء قفل الجهاز، أو لتسجيل الدخول الى التطبيقات والخدمات.</string>
     <string name="content_description_start">بدء</string>
+    <string name="start_up_slogan">صمم خصيصاً لشاشة عرض كاملة</string>
     <string name="content_description_miui_version">MIUI 9</string>
     <string name="content_description_complete">اكتمل</string>
     <string name="language_picker_other_languages_title">المزيد من اللغات</string>

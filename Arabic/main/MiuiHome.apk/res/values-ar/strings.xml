@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">+999</string>
     <string name="action_add_to_workspace">إضافة إلى مساحة العمل</string>
     <string name="activity_not_found">لم يتم تثبيت التطبيق على جهازك</string>
     <string name="add_screen">إضافة شاشة</string>
+    <string name="announce_for_checked">%1$s، محددة</string>
     <string name="announce_for_choose_default_screen">تعيين الصفحة %1$d كالصفحة الرئيسية الإفتراضية</string>
     <string name="announce_for_close_default_preview">تم إغلاق إعدادات الشاشة الرئيسية الافتراضية</string>
     <string name="announce_for_close_folder">تم إغلاق المجلد</string>
@@ -22,10 +24,13 @@
     <string name="announce_for_drop_workspace">الشاشة رقم %1$d، السطر رقم %2$d، العمود رقم %3$d</string>
     <string name="announce_for_edit_mode">تم الدخول في وضع التعديل</string>
     <string name="announce_for_edit_mode_disable">تم الخروج من وضع التعديل</string>
+    <string name="announce_for_move">نقل إلى الصف %1$d العمود %2$d</string>
+    <string name="announce_for_move_hotseat">نقل إلى الموقع %1$d في شريط التطبيقات</string>
     <string name="announce_for_open_default_preview">تم فتح إعدادات الشاشة الرئيسية الافتراضية</string>
     <string name="announce_for_open_folder">تم فتح المجلد %1$s</string>
     <string name="announce_for_open_launcher_menu">تم فتح القائمة</string>
     <string name="announce_for_show_uninstall_dialog">يظهر مربع حوار إلغاء التثبيت. إلغاء أو تأكيد.</string>
+    <string name="announce_for_unchecked">%1$s، غير محددة</string>
     <string name="app_already_exist">التطبيق موجود مسبقا</string>
     <string name="app_being_backup_message">جار القيام بنسخة احتياطية للتطبيق</string>
     <string name="app_being_restored_message">جار استعادة التطبيق</string>
@@ -58,6 +63,7 @@
     <string name="aqi_quality_index_light_pollution">تحذير</string>
     <string name="aqi_quality_index_moderate">معتدل</string>
     <string name="aqi_quality_index_unhealthy">غير صحي</string>
+    <string name="backup_fail">تعذر النسخ الاحتياطي للمشغل</string>
     <string name="bad_wallpaper_source_prompt">لا يمكن تحميل الخلفية</string>
     <string name="buffering">تخزين مؤقت…</string>
     <string name="cancel_action">إلغاء</string>
@@ -87,6 +93,7 @@
     <string name="default_folder_title_microsoft">Microsoft</string>
     <string name="default_folder_title_recommend">المزيد من التطبيقات</string>
     <string name="default_folder_title_security">النظام</string>
+    <string name="default_folder_title_services">الخدمات</string>
     <string name="default_folder_title_telcel">Telcel</string>
     <string name="default_folder_title_tools">أدوات</string>
     <string name="default_screen_preview_title">انقر لتعيين الشاشة الإفتراضية</string>
@@ -117,7 +124,7 @@
     <string name="encryption">تشفير</string>
     <string name="failed_to_delete_temporary">لا يمكن الإزالة</string>
     <string name="failed_to_drop">لا يمكن التحريك</string>
-    <string name="failed_to_drop_widget_invalid">هذه الأداة غير صالحة</string>
+    <string name="failed_to_drop_widget_invalid">هذه التطبيق المصغر غير صالح</string>
     <string name="failed_to_load_image">لا يمكن تحميل صورة</string>
     <string name="folder_name">مجلد</string>
     <string name="frame_load_failed">لا يمكن تحميل الإطار</string>
@@ -175,6 +182,7 @@
     <string name="guide_install_app_title">هل تريد إيجاد وتثبيت التطبيق؟</string>
     <string name="guide_tips_editing_mode">اضغط لمدة طويلة لاختيار تطبيق مصغر</string>
     <string name="home_screen">الشاشة الرئيسية</string>
+    <string name="icon_reorganize_channel">ترتيب الأيقونات</string>
     <string name="image_too_small_message">الصورة الأصلية ليست كبيرة بما فيه الكفاية.</string>
     <string name="install">تثبيت</string>
     <string name="invalid_contact_shortcut">جهة اتصال غير صالحة</string>
@@ -224,12 +232,14 @@
     <string name="normal_wallpaper">خلفية الشاشة</string>
     <string name="notification_installed">تم التثبيت بنجاح</string>
     <string name="notification_open_button">فتح</string>
+    <string name="notification_reset_title">تم ترتيب الأيقونات بنجاح</string>
     <string name="online_wallpaper">من الانترنت</string>
     <string name="open_personal_assistant_dialog_btn_cancel">إلغاء</string>
     <string name="open_personal_assistant_dialog_btn_confirm">إيقاف التشغيل</string>
     <string name="open_personal_assistant_dialog_desc">لن تتمكن من استخدام منصة التطبيقات والحصول على تحديثاته. إيقاف التشغيل الآن؟</string>
+    <string name="open_personal_assistant_dialog_desc_international">لن تتمكن من إستخدام بطاقات منصة التطبيقات (الأسهم، الاختصارات، إلخ.) وتلقي التحديثات بعد إيقاف تشغيل هذه الميزة.</string>
     <string name="open_personal_assistant_dialog_title">قم بإيقاف منصة التطبيقات</string>
-    <string name="open_personal_assistant_title">قم بتشغيل منصة التطبيقات</string>
+    <string name="open_personal_assistant_title">منصة التطبيقات</string>
     <string name="out_of_space">لا توجد مساحة إضافية بهذه الشاشة</string>
     <string name="permdesc_install_shortcut">السماح لتطبيق بإضافة اختصارات بدون تدخل المستخدم.</string>
     <string name="permdesc_install_widget">السماح لتطبيق بإضافة تطبيق مصغر بدون تدخل المستخدم.</string>
@@ -260,6 +270,7 @@
     <string name="preferences_general_title">إعدادات إضافية</string>
     <string name="preferences_title">إعدادات المشغل</string>
     <string name="preferred_app_settings_not_selected">غير محددة</string>
+    <string name="quick_app">تطبيقات سريعة</string>
     <string name="recents_config_title">التطبيقات الحديثة</string>
     <string name="recommend_apk_size_and_desc">%1$dم.ب |%2$s</string>
     <string name="recommend_apps_default_title">فارغ</string>
@@ -269,7 +280,12 @@
     <string name="recommend_apps_switch_title">التطبيقات الدعائية</string>
     <string name="recommend_apps_tips">تحتاج هذه الميزة للاتصال بالإنترنت لتعمل بشكل طبيعي. لإيقاف هذه الميزة، اضغط على اسم المجلد.</string>
     <string name="recommend_loading">جارٍ التحميل</string>
+    <string name="refresh">تحديث</string>
+    <string name="reset_description_first_time">يمكنك استعادة التنسيق من %1$s خلال ساعتين</string>
+    <string name="reset_description_others">يمكنك استعادة التنسيق من %1$s</string>
+    <string name="reset_fail">تعذر الإستعادة</string>
     <string name="reset_scene_prompt">سيتم إعادة تعيين الشاشة للتنسيق الافتراضي.</string>
+    <string name="reset_title">إستعادة</string>
     <string name="screen_cells_config_title">تنسيق الشاشة الرئيسية</string>
     <string name="screen_locked_toast">تنسيق الشاشة الرئيسية مقفل.</string>
     <string name="screen_number">%d شاشة</string>

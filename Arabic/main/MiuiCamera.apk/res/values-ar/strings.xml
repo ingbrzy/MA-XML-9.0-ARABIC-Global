@@ -3,6 +3,7 @@
     <string name="camera_setting">الكاميرا</string>
     <string name="path_settings">تطبيقات النظام/الكاميرا/الإعدادات</string>
     <string name="search_settings">إعدادات الكاميرا;الجودة;جودة الصورة;موقع الصورة;موقع الصورة;اكتشاف الوجه;صوت الكاميرا</string>
+    <string name="hibernate_hint">انقر على الشاشة لايقاظ الكاميرا</string>
     <string name="camera_error_title">خطأ في الكاميرا</string>
     <string name="cannot_connect_camera_once">لا يمكن الاتصال بالكاميرا</string>
     <string name="cannot_connect_camera_twice">لا يزال يتعذر الاتصال بالكاميرا. حاول إعادة تشغيل جهازك.</string>
@@ -31,10 +32,15 @@
     <string name="pref_front_mirror_title">تدوير الكاميرا الأمامية</string>
     <string name="pref_video_quality_title">جودة الفيديو</string>
     <string name="pref_video_hfr_title">فيديو HFR</string>
-    <string name="pref_video_quality_entry_4kuhd">UHD 4K</string>
-    <string name="pref_video_quality_entry_1080p">FHD 1080P</string>
-    <string name="pref_video_quality_entry_720p">HD 720P</string>
-    <string name="pref_video_quality_entry_480p">SD 480P</string>
+    <string name="pref_video_quality_entry_4kuhd">UHD 4K, 30fps</string>
+    <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, 60fps</string>
+    <string name="pref_video_quality_entry_1080p">FHD 1080P, 30fps</string>
+    <string name="pref_video_quality_entry_1080p_60fps">FHD 1080P, 60fps</string>
+    <string name="pref_video_quality_entry_720p">HD 720P, 30fps</string>
+    <string name="pref_video_quality_entry_480p">SD 480P, 30fps</string>
+    <string name="pref_video_encoder_title">ترميز الفيديو</string>
+    <string name="pref_video_encoder_entry_h264">H.264 توافق عالي</string>
+    <string name="pref_video_encoder_entry_h265">H.265 أداء عالي</string>
     <string name="pref_video_time_lapse_frame_interval_title">فاصل التقطع الزمني</string>
     <string name="pref_video_time_lapse_frame_interval_entry_2">2X (ﻓﺎﺻل زﻣﻧﻲ ٠.٠٦ ﺛﺎﻧﯾﺔ)</string>
     <string name="pref_video_time_lapse_frame_interval_entry_4">4X (ﻓﺎﺻل زﻣﻧﻲ ٠.١٢ ﺛﺎﻧﯾﺔ)</string>
@@ -92,11 +98,6 @@
     <string name="pref_camera_coloreffect_entry_negative" />
     <string name="pref_camera_coloreffect_entry_posterize" />
     <string name="pref_camera_coloreffect_entry_aqua" />
-    <string name="pref_camera_ai_scene_title">كاميرا AI</string>
-    <string name="pref_camera_front_ai_scene_entry_on">كاميرا AI</string>
-    <string name="pref_camera_front_ai_scene_entry_off">كاميرا AI متوقفة</string>
-    <string name="ai_scene_mode_use_hint_text">"تقوم كاميرا AI باكتشاف المشاهد تلقائيًا
-وتحسن الصور استنادًا إلى هذه البيانات"</string>
     <string name="pref_camera_coloreffect_entry_none">عادي</string>
     <string name="pref_camera_coloreffect_entry_instagram_rise">لومو</string>
     <string name="pref_camera_coloreffect_entry_instagram_clarendon">لون منبثق</string>
@@ -217,6 +218,8 @@
     <string name="accessibility_filter_close_panel">تم إغلاق قائمة الفلتر</string>
     <string name="accessibility_bokeh_normal">تمويه الخلفية للكاميرا الأمامية متوقفة</string>
     <string name="accessibility_bokeh_on">تمويه الخلفية للكاميرا الأمامية مشغل</string>
+    <string name="accessibility_ai_scene_on">كاميرا AI مشغلة</string>
+    <string name="accessibility_ai_scene_off">AI camera is off</string>
     <string name="accessibility_more">المزيد</string>
     <string name="accessibility_setting">الإعدادات</string>
     <string name="accessibility_protrait">بورتريه</string>
@@ -382,7 +385,7 @@
     <string name="pref_camera_peak_entry_off">إيقاف</string>
     <string name="pref_camera_peak_entry_on">تشغيل</string>
     <string name="pref_camera_gradienter_title">الاستقامة</string>
-    <string name="simple_mode_button_text_gradienter">إيقاف التشغيل الاستقامة</string>
+    <string name="simple_mode_button_text_gradienter">إيقاف تشغيل الاستقامة</string>
     <string name="confirm_recording_fail_title">لا يمكن التسجيل</string>
     <string name="confirm_recording_fail_calling_alert">لا يمكن التسجيل أثناء المكالمة.</string>
     <string name="confirm_recording_fail_recorder_busy_alert">قد يكون هناك تطبيق آخر يستخدم مسبقا ميكروفون الجهاز للتسجيل.</string>
@@ -408,6 +411,7 @@
     <string name="dual_camera_lens_covered_toast">العدسة مغطاة.</string>
     <string name="dual_camera_use_hint">تأكد من أن الشيء ليس أبعد من ٢ أمتار.</string>
     <string name="bokeh_use_hint">تأثير العمق</string>
+    <string name="back_bokeh_use_hint">تأكد من أن الشيء ليس أبعد من ١.٥ متر.</string>
     <string name="pref_camera_zoom_ratio_wide">100</string>
     <string name="pref_camera_zoom_ratio_tele">200</string>
     <string name="pref_camera_zoom_mode_title">العدسة</string>
@@ -415,6 +419,7 @@
     <string name="pref_camera_zoom_mode_entry_tele">تقريب</string>
     <string name="pref_camera_zoom_mode_entry_standard">عادي</string>
     <string name="pref_camera_zoom_mode_entry_high_pixel">إضاءة خافتة</string>
+    <string name="pref_camera_zoom_value_title">التكبير/التصغير</string>
     <string name="pref_camera_portrait_mode_title">وضع بورتريه</string>
     <string name="pref_camera_portrait_mode_entry_off">وضع بورتريه متوقف</string>
     <string name="pref_camera_portrait_mode_entry_on">وضع بورتريه مشغل</string>
@@ -424,6 +429,7 @@
     <string name="portrait_mode_depth_effect_success_hint">تأثير العمق</string>
     <string name="portrait_mode_use_hint">"يقوم وضع بورتريه بتشويش الخلفية
 و التركيز على الأشخاص في المقدمة."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_square_mode_title">مربع</string>
     <string name="simple_mode_button_text_square">إيقاف تشغيل المربع</string>
     <string name="face_beauty_smart">ذكي</string>
@@ -438,6 +444,7 @@
     <string name="pref_camera_beautify_entry_low">منخفض</string>
     <string name="pref_camera_beautify_entry_normal">متوسط</string>
     <string name="pref_camera_beautify_entry_high">عالي</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">خيارات</string>
     <string name="button_front_camera_title">اخذ سيلفي</string>
     <string name="button_normal_video_title">تسجيل فيديو</string>
@@ -459,6 +466,7 @@
     <string name="hint_fast_motion">سيتم تشغيل الفيديو الذي قمت بتصويره بشكل أسرع.</string>
     <string name="hint_slow_motion">سيتم تشغيل الفيديو الذي قمت بتصويره ببطئ.</string>
     <string name="hunt_dual_water_mark">سيتم إضافة العلامة المائية للكاميرا المزدوجة تلقائيا.</string>
+    <string name="hint_ae_af_lock">تم قفل التركيز التلقائي/التعرض التلقائي</string>
     <string name="hint_device_water_mark">سيتم إضافة العلامة المائية تلقائيا.</string>
     <string name="module_name_fun">فيديو قصير</string>
     <string name="module_name_video">فيديو</string>
@@ -477,14 +485,24 @@
     <string name="config_name_tilt">تغيير الإمالة</string>
     <string name="config_name_scene">مشهد</string>
     <string name="config_name_magic">سحر</string>
-    <string name="config_name_super_resolution">دقة عالية جداً</string>
+    <string name="config_name_super_resolution">دقة فائقة</string>
     <string name="beauty_fragment_tab_name_beauty">تجميل</string>
     <string name="beauty_fragment_tab_name_makeup">متقدم</string>
+    <string name="beauty_fragment_tab_name_3d_beauty">تجميل</string>
+    <string name="beauty_fragment_tab_name_3d_remodeling">تغيير</string>
     <string name="edit_skin_white">متناغم</string>
     <string name="edit_skin_smooth">ناعم</string>
     <string name="edit_eye_large">عيون كبيرة</string>
     <string name="edit_face_slender">نحيف</string>
     <string name="edit_face_ruddy">متورد</string>
+    <string name="edit_nose">أنف</string>
+    <string name="edit_risorius">عضلة ضحكية</string>
+    <string name="edit_lips">شفاه</string>
+    <string name="edit_chin">ذقن</string>
+    <string name="edit_neck">رقبة</string>
+    <string name="edit_smile">ابتسامة</string>
+    <string name="edit_slim_nose">أنف</string>
+    <string name="popup_tip_3d_beauty_intro_text">تجميل 3D</string>
     <string name="sticker_tab1">لطيف</string>
     <string name="sticker_tab2">مضحك</string>
     <string name="user_agreement2">شروط الخدمة</string>
@@ -505,8 +523,20 @@
     <string name="front_camera_hint_text_rotate">قم بتدوير الهاتف</string>
     <string name="front_camera_hint_text_place">"سيكون أخذ سيلفي أسهل
 إذا قمت بتدوير الهاتف"</string>
+    <string name="pref_camera_ai_scene_title">كاميرا AI</string>
+    <string name="pref_camera_front_ai_scene_entry_on">كاميرا AI</string>
+    <string name="pref_camera_front_ai_scene_entry_off">كاميرا AI متوقفة</string>
     <string name="text_ai_scene_selector_text_on">SILHOUETTE</string>
     <string name="text_ai_scene_selector_text_off">CONTRE-JOUR</string>
+    <string name="ai_scene_mode_use_hint_text">"تقوم كاميرا AI باكتشاف المشاهد تلقائيًا
+وتحسن الصور استنادًا إلى هذه البيانات"</string>
     <string name="pref_camera_asd_popup_title">الإشعار عند الحاجة إلى الفلاش</string>
     <string name="pref_video_captrue_ability_title">التقاط الصور أثناء التسجيل</string>
+    <string name="face_analyze_info">العمر: %2$s (%1$s)</string>
+    <string name="pref_camera_picturesize_entry_standard">قياسي ٤:٣</string>
+    <string name="pref_camera_picturesize_entry_fullscreen">ملء الشاشة ١٦:٩</string>
+    <string name="lens_dirty_detected_title_back">عدسة الكاميرا الخلفية متسخة</string>
+    <string name="lens_dirty_detected_title_front">عدسة الكاميرا الأمامية متسخة</string>
+    <string name="lens_dirty_detected_content">"يبدو أن عدسة الكاميرا غير نظيفة.
+قم بتنظيف العدسة لصور أفضل."</string>
 </resources>

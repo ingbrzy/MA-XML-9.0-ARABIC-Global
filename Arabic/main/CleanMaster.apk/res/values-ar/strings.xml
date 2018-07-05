@@ -3,6 +3,7 @@
     <string name="menu_clear">تنظيف</string>
     <string name="menu_view">عرض في المجلد</string>
     <string name="menu_install">تثبيت هذا البرنامج</string>
+    <string name="menu_open">فتح</string>
     <string name="menu_add_to_white_list">إضافة إلى الإستثناءات</string>
     <string name="text_optimizer">تحميل أسماء المجلدات</string>
     <string name="summary_optimizer">تعمل هذه الميزة على تحميل أسماء المجلدات لتحديث قاعدة بيانات Cheetah Mobile المتصلة بالإنترنت ويتطلب ذلك معرف الجهاز.</string>
@@ -90,6 +91,7 @@
     <string name="hints_apk_header_left">حزم</string>
     <string name="hints_residual_header_left">المخلفات</string>
     <string name="hints_memory_header_left">الذاكرة</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">ملفات كبيرة: %d</string>
     <string name="hints_installed_apps_header_left">التطبيقات المثبتة: %d</string>
     <string name="toast_resolve_apk_error">حل خطأ apk</string>
@@ -127,8 +129,8 @@
     <string name="msg_update_error_code_no_newer_db">أداة التنظيف محدثة</string>
     <string name="msg_update_error_code_already_running">جارٍ التحديث…</string>
     <string name="msg_update_error_code_network_error">لا يمكن الاتصال بالشبكة</string>
-    <string name="msg_update_error_code_unknown_error">Servers are busy. Wait a minute or two and try again.</string>
-    <string name="msg_cleanup_db_update_time_unknown">Last update: Unknown</string>
+    <string name="msg_update_error_code_unknown_error">الخوادم مشغولة. انتظر دقيقة أو دقيقتين ثم أعد المحاولة.</string>
+    <string name="msg_cleanup_db_update_time_unknown">آخر تحديث: غير معروف</string>
     <string name="item_title_process_mode">اختيار إجراء</string>
     <string name="clean_content_zero">لا شيء</string>
     <string name="clean_content_one">1 عنصر</string>
@@ -166,7 +168,7 @@
     <string name="hints_quick_scanning">جارٍ الفحص…</string>
     <string name="hints_quick_cleanuping">جارٍ التحسين…</string>
     <string name="hints_deepclean_scanning">جار المسح %s</string>
-    <string name="cache_title_system_cache">ذاكرة التخزين المؤقت للنظام</string>
+    <string name="cache_title_system_cache">ذاكرة التخزين المؤقتة للبيانات</string>
     <string name="hints_storage_free">مجاني</string>
     <string name="hints_storage_free_size">المجموع %1$s، المتبقي %2$s</string>
     <string name="apps_sort_type_title">تصنيف</string>
@@ -271,7 +273,7 @@
     <string name="toast_select_white_need_remove">اختيار العناصر للإزالة</string>
     <string name="network_not_available">لا يمكن الاتصال بالشبكة</string>
     <string name="no_network_btn">حاول مجدداً</string>
-    <string name="name_debuglog_dir">BSP debug log</string>
+    <string name="name_debuglog_dir">سجل تصحيح BSP</string>
     <string name="just_now">حاليا</string>
     <string name="yesterday">امس</string>
     <string name="month_day_format">dd MMM</string>
@@ -297,6 +299,7 @@
     <string name="downloading">جارٍ التحميل</string>
     <string name="installing">جارٍ التثبيت</string>
     <string name="start_install">التثبيت الآن</string>
+    <string name="empty">" "</string>
     <string name="open_browser">فتح في المتصفح</string>
     <string name="title_share_link">مشاركة URL</string>
     <string name="connecting">جارٍ الاتصال…</string>
@@ -307,7 +310,7 @@
     <string name="seton_immediately">تشغيل</string>
     <string name="notify_when">الحصول على إشعار عند وصول حجم سلة المهملات الى ١٠٠ميغابايت</string>
     <string name="goto_set">تعيين</string>
-    <string name="virus_scan">فحص الحماية</string>
+    <string name="virus_scan">فحص الفيروسات</string>
     <string name="tips_of_virus_scan">افحص جهازك من الفيروسات بإنتظام لإبقائه آمناً</string>
     <string name="conn_of_function_safe">اتصال الشبكة للحماية</string>
     <string name="tips_of_connect">الاتصال بالانترنت لإستخدام المجموعه كاملة لمميزات الحماية</string>
@@ -517,4 +520,14 @@
     <string name="guide_virus_dialog_message">يعمل فحص التطبيقات وحزم التثبيت على حماية جهازك من الفيروسات والبرامج الضارة. فحص الجهاز الآن؟</string>
     <string name="guide_virus_dialog_positive">فحص</string>
     <string name="guide_virus_dialog_negative">إلغاء</string>
+    <string name="tips_low_storage_dialog_title">مساحة التخزين على وشك النفاذ</string>
+    <string name="tips_low_storage_dialog_msg_storage">انت تستخدم ٩٠% من مساحة التخزين. قم بإلغاء تثبيت التطبيقات التي لا تستخدمها.</string>
+    <string name="tips_low_storage_dialog_msg_wechat">لقد وصل حجم ذاكرة تخزين WeChat المؤقتة إلى ٣ غيغابايت. قد يؤدي هذا إلى إبطاء جهازك. مسح ذاكرة تخزين WeChat المؤقتة؟</string>
+    <string name="tips_low_storage_dialog_msg_qq">لقد وصل حجم ذاكرة تخزين QQ المؤقتة إلى ٣ غيغابايت. قد يؤدي هذا إلى إبطاء جهازك. مسح ذاكرة تخزين QQ المؤقتة؟</string>
+    <string name="tips_low_storage_dialog_ok_storage">تفريغ مساحة</string>
+    <string name="tips_low_storage_dialog_ok">مسح</string>
+    <string name="tips_low_storage_dialog_cancel">إلغاء</string>
+    <string name="wechat_msg_time_long">dd-MM-yyyy</string>
+    <string name="wechat_msg_time_short">dd-MM</string>
+    <string name="wechat_video_time">%1$s:%2$s</string>
 </resources>

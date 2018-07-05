@@ -21,8 +21,7 @@
     <string name="find_device_stop_noise">انقر موافق لكتم الصوت</string>
     <string name="find_device_noise_title">منبه العثور على الجهاز</string>
     <string name="find_device_success_title">العثور على الجهاز</string>
-    <string name="find_device_notice_p1">اذهب إلى</string>
-    <string name="find_device_notice_p3">لتحديد موقع جهازك أو قفله أو استعادته.</string>
+    <string name="find_device_notice">انتقل إلى &lt;br />&lt;b>&lt;font color=#e84700>i.mi.com&lt;/font>&lt;/b>&lt;br />للعثور على جهازك أو قفله أو استعادته.</string>
     <string name="find_device_notice_sms_alert">إذا قمت بتبديل بطاقات SIM، فسيتم إرسال رسالة SMS أخرى تلقائياً لتفعيل هذة الميزة.</string>
     <string name="i_know">موافق</string>
     <string name="unlock_error_network">تعذر الاتصال بالشبكة</string>
@@ -57,14 +56,14 @@
     <string name="login_failed">تعذر تسجيل الدخول. %s.</string>
     <string name="change_find_device_status_failed">تعذر إلغاء القفل. %s.</string>
     <string name="unlock_help_title">مساعدة \"إلغاء قفل\":</string>
-    <string name="unlock_help">"ابق على اتصال بالشبكة.
- تأكد من تثبيت بطاقة SIM تعمل (إذا كان جهازك يدعم ذلك) ، وكان جهازك متصلاً بشبكة Wi-Fi صالحة. 
+    <string name="unlock_help">"ابقَ على اتصال بالشبكة.
+ تأكد من تثبيت بطاقة SIM مفعلة (إذا كان جهازك يدعم ذلك)، وكان جهازك متصلاً بشبكة Wi-Fi صالحة.
 
-هل نسيت كلمة المرور؟
- انتقل إلى id.mi إعادة تعيين كلمة المرور.
+نسيت كلمة المرور؟
+انتقل إلى id.mi.com لإعادة تعيين كلمة المرور.
 
- أسباب أخرى
- سجل الدخول إلى i.mi.com وجرِّب إلغاء قفل جهازك من هناك."</string>
+أسباب أخرى
+سجل الدخول إلى i.mi.com وجرب إلغاء قفل جهازك من هناك."</string>
     <string name="passport_vcode_prompt_long">أدخل رمز التحقق</string>
     <string name="passport_trust_device">الوثوق بهذا الجهاز</string>
     <string name="passport_verify">تحقق</string>
