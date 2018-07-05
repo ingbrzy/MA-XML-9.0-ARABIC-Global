@@ -1057,7 +1057,6 @@
     <string name="power_remaining_charging_duration_only">%1$s مُتبقية حتي إكتمال الشحن</string>
     <string name="power_remaining_duration_only">حوالي %1$sباقي</string>
     <string name="power_remaining_duration_only_short">%1$s متبقية</string>
-    <string name="process_kernel_label">‏نظام تشغيل الأندرويد</string>
     <string name="profile_owned_footer">قد يتم مراقبة الملف الشخصي</string>
     <string name="prompt_danger">خطر</string>
     <string name="prompt_detecting">يتم الكشف</string>
